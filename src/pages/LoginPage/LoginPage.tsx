@@ -1,6 +1,27 @@
 import './LoginPage.css';
 import LoginButton from '../../components/Login/Button/LoginButton';
+import { useState } from 'react';
+
 const LoginPage = () => {
+    const [id, setId] = useState('');
+    const [password, setPassword] = useState('');
+
+    const handleIdChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        setId(e.target.value);
+    };
+
+    const handlePasswordChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        setPassword(e.target.value);
+    };
+
+    const clearId = () => {
+        setId('');
+    };
+
+    const clearPassword = () => {
+        setPassword('');
+    };
+
     return (
         <div>
             <div className="login-intro-section">
@@ -13,8 +34,42 @@ const LoginPage = () => {
             </div>
 
             <div className="login-section">
-                <input type="text" placeholder="이메일" className="login-input" />
-                <input type="password" placeholder="비밀번호" className="login-input" />
+                <div className="input-container">
+                    <input 
+                        type="text" 
+                        placeholder="아이디" 
+                        className="login-input" 
+                        value={id}
+                        onChange={handleIdChange}
+                    />
+                    {id && (
+                        <button 
+                            className="login-close" 
+                            onClick={clearId}
+                            type="button"
+                        >
+                            <img src="/login-close.svg" alt="삭제" />
+                        </button>
+                    )}
+                </div>
+                <div className="input-container">
+                    <input 
+                        type="password" 
+                        placeholder="비밀번호" 
+                        className="login-input" 
+                        value={password}
+                        onChange={handlePasswordChange}
+                    />
+                    {password && (
+                        <button 
+                            className="login-close" 
+                            onClick={clearPassword}
+                            type="button"
+                        >
+                            <img src="/login-close.svg" alt="삭제" />
+                        </button>
+                    )}
+                </div>
 
                 <LoginButton text="계속" onClick={() => {}} />
                 <div className="login-signup-section">
