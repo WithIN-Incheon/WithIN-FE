@@ -1,9 +1,9 @@
 import './App.css'
-import LangPage from './pages/LangPage/LangPage'
+import LoginPage from './pages/LoginPage/LoginPage'
 function App() {
   return (
     <>
-      <LangPage />
+      <LoginPage />
     </>
   )
 }
