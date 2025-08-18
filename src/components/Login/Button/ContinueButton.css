@@ -17,3 +17,15 @@
     justify-content: center;
     align-items: center;
 }
+
+.login-button.disabled {
+    background-color: #CDD1D8 !important;
+    color: #9CA3AF !important;
+    cursor: not-allowed !important;
+    transform: none !important;
+}
+
+.login-button.disabled:hover {
+    background-color: #CDD1D8 !important;
+    transform: none !important;
+}
