@@ -1,5 +1,5 @@
 import './LoginPage.css';
-import LoginButton from '../../components/Login/Button/LoginButton';
+import ContinueButton from '../../components/Login/Button/ContinueButton';
 import { useState } from 'react';
 
 const LoginPage = () => {
@@ -71,7 +71,7 @@ const LoginPage = () => {
                     )}
                 </div>
 
-                <LoginButton text="계속" onClick={() => {}} />
+                <ContinueButton text="계속" onClick={() => {}} />
                 <div className="login-signup-section">
                     <a href="#" className="login-link">아이디 찾기</a>
                     <span className="separator">|</span>

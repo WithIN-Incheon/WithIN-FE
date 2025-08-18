@@ -1,5 +1,5 @@
-import './LoginButton.css';
-const LoginButton = (props: { text: string, onClick: () => void}) => {
+import './ContinueButton.css';
+const ContinueButton = (props: { text: string, onClick: () => void}) => {
     return (
         <div className='login-button-container'>
             <button className='login-button' onClick={props.onClick} >{props.text}</button>
@@ -7,4 +7,4 @@ const LoginButton = (props: { text: string, onClick: () => void}) => {
     )
 }
 
-export default LoginButton;
+export default ContinueButton;

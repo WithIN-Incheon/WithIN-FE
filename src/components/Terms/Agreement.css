@@ -1,0 +1,85 @@
+.agree-all {
+    display: flex;
+    align-items: center;
+    width: 321px;
+    height: 45px;
+    background-color: #F4F6F9;
+    border-radius: 8px;
+    gap: 10px;
+    padding: 4px 8px;
+}
+
+.agree-all-text {
+    font-size: 16px;
+    font-weight: 600;
+    color:#484848;
+}
+
+.agreement-item {
+    display: flex;
+    align-items: center;
+    width: 321px;
+    height: 45px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    gap: 10px;
+    padding: 4px 8px;
+    margin-bottom: 8px;
+}
+
+.agreement-item-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #7F8693;
+    flex: 1;
+}
+
+.check-btn {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform: scale(1);
+}
+
+.check-btn:hover {
+    transform: scale(1.1);
+}
+
+.check-btn:active {
+    transform: scale(0.95);
+}
+
+.arrow-detail {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.arrow-detail:hover {
+    transform: translateX(2px);
+}
+
+.agreement-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;  /* AgreeAll과 개별 항목들 사이의 간격 */
+}
+
+/* 체크 버튼 애니메이션 효과 */
+@keyframes checkPulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.15);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.check-btn.checked {
+    animation: checkPulse 0.3s ease;
+}

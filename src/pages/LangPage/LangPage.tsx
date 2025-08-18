@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './LangPage.css';
 import LangSelector from '../../components/Lang/LangSelector';
-import LoginButton from '../../components/Login/Button/LoginButton';
+import ContinueButton from '../../components/Login/Button/ContinueButton';
 
 interface Language {
   code: string;
@@ -48,7 +48,7 @@ const LangPage = () => {
 
             {/* 시작하기 버튼 */}
             <div className="button-section">
-                <LoginButton 
+                <ContinueButton 
                     text="시작하기" 
                     onClick={handleStart}
                 />
