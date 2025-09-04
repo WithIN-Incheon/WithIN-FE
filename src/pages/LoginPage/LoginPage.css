@@ -1,0 +1,115 @@
+.login-signup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.login-link {
+    text-decoration: none;
+    color: #9CA3AF;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.login-link:hover {
+    color: #6B7280;
+}
+
+.signup-link {
+    color: #0C8CFF;
+    font-weight: 500;
+}
+
+.signup-link:hover {
+    color: #0066CC;
+}
+
+.separator {
+    color: #9CA3AF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.logo-image{
+    width: 56px;
+}
+
+.login-title h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #363B48;
+}
+
+.input-container {
+    position: relative;
+    width: 321px;
+    margin-bottom: 10px;
+}
+
+.login-close {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+}
+
+.login-close:hover {
+    background-color: #E5E7EB;
+}
+
+.login-close img {
+    width: 15px;
+    height: 15px;
+    pointer-events: none;
+}
+
+.login-input {
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    background-color: #F4F6F9;
+    border: none;
+    color: #363B48;
+    padding-left: 16px;
+    padding-right: 40px; /* 삭제 버튼 공간 확보 */
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 600;
+    outline: none;
+}
+
+.login-input::placeholder{
+    color: #B2B2B2;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.login-intro-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.login-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
