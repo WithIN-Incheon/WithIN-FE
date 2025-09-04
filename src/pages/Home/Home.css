@@ -1,0 +1,215 @@
+:root {
+  --blue: #0c8cff;
+  --ink: #363b48;
+  --bg: #fafbfc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+}
+
+.app {
+  position: relative;
+  min-height: 100vh;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic",
+    sans-serif;
+}
+
+.app img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.hero {
+  position: relative;
+  background: var(--blue);
+  width: 100%;
+  height: 320px;
+}
+
+.topbar {
+  position: relative;
+  height: 32px;
+}
+
+.username {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  display: inline-flex;
+  align-items: center;
+}
+
+.username .vector {
+  margin-left: 13px;
+  height: auto;
+}
+
+.search {
+  position: absolute;
+  top: 15px;
+  right: 21px;
+  width: 18px;
+  height: 18px;
+}
+
+.bg-icon {
+  position: absolute;
+  top: 47px;
+  right: 5px;
+  width: 137px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.headline {
+  position: absolute;
+  left: 25px;
+  right: 25px;
+  top: 85px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  z-index: 1;
+}
+
+.subtitle {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  margin-top: 7px;
+  letter-spacing: -0.02em;
+}
+
+.title {
+  margin-top: 10px;
+  color: #ffffff;
+  font-weight: 750;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+}
+
+.quick-link {
+  position: absolute;
+  left: 25px;
+  top: 180px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.vector2 {
+  margin-left: 7px;
+  margin-top: 2.2px;
+  height: 8px;
+}
+
+.hero-spacing {
+  position: absolute;
+  top: 190px; 
+  left: 0;
+  right: 0;
+  height: 24px;
+}
+
+.content {
+  position: absolute;
+  top: 210px;
+  left: 0;
+  right: 0;
+  bottom: 90px; /* BottomBar 높이 고려 */
+  background: var(--bg);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 14px 0 20px 0;
+  overflow-y: auto;
+}
+
+.tip-label {
+  margin-left: 24px;
+  color: var(--ink);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+}
+
+.tip-pill {
+  margin: 10px auto 0;
+  width: calc(100% - 50px);
+  max-width: 546px;
+  height: 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 2px 2px 5px 0px #f3f3f3;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.photo-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  width: 100%;
+}
+
+.shadow-img {
+  width: 90%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 10px;  
+}
+
+@media (min-width: 480px) {
+  .shadow-img {
+    flex: 0 0 calc(50% - 10px);
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .shadow-img {
+    flex: 0 0 calc(33.33% - 10px);
+    max-width: 300px;
+  }
+}
+
+.chat {
+  position: fixed;
+  right: 14px;
+  bottom: calc(100px + 15px);
+  width: 54px;
+  height: 54px;
+}

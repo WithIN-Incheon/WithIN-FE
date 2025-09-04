@@ -1,0 +1,30 @@
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: #ffffff;
+  border-top: 1px solid #f2f3f7;
+}
+
+.bottom-bar img {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25px;
+}
+
+.icon-home {
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon-heart {
+  left: calc(50% - 90px);
+}
+
+.icon-profile {
+  left: calc(50% + 90px);
+}
