@@ -1,5 +1,5 @@
 import './App.css'
-import Home from './pages/Home/Home'
+import Home from './pages/Home/HomePage'
 import SignupPage from './pages/SignupPage/SignupPage'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 
