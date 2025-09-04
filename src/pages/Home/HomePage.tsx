@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import "./HomePage.css";
 import BottomBar from "../../components/BottomBar";
 
 export default function App() {
