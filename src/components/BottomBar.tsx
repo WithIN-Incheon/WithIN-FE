@@ -1,4 +1,3 @@
-// BottomBar.tsx
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import "./BottomBar.css";
@@ -7,7 +6,6 @@ export default function BottomBar() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // 현재 경로에 따라 활성 탭 결정
   const getActiveTab = () => {
     if (location.pathname.includes("/heart")) return "heart";
     if (location.pathname.includes("/profile")) return "profile";
@@ -16,7 +14,6 @@ export default function BottomBar() {
 
   const [activeTab, setActiveTab] = useState(getActiveTab());
 
-  // location이 바뀔 때 activeTab도 업데이트
   useEffect(() => {
     setActiveTab(getActiveTab());
   }, [location]);
