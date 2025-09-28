@@ -33,25 +33,25 @@ export default function InfoPage() {
             className="info-box"
             src="/Info/Benefit-box.svg"
             alt="산재 보험 급여 안내"
-            onClick={() => navigate("/info/benefit")}
+            onClick={() => navigate("/info/salary")}
           />
           <img
             className="info-box"
             src="/Info/Glossary-box.svg"
             alt="산재 관련 용어사전"
-            onClick={() => navigate("/info/glossary")}
+            onClick={() => navigate("/info/dictionary")}
           />
           <img
             className="info-box"
             src="/Info/Tip-box.svg"
             alt="알아두면 좋은 정보"
-            onClick={() => navigate("/info/tips")}
+            onClick={() => navigate("/info/tip")}
           />
           <img
             className="info-box"
             src="/Info/Center-box.svg"
             alt="지원센터 정보"
-            onClick={() => navigate("/info/centers")}
+            onClick={() => navigate("/info/center")}
           />
         </div>
       </main>
