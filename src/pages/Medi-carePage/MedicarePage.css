@@ -1,0 +1,109 @@
+.app{
+    position: relative;
+    min-height: 100vh;
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic",
+      sans-serif;
+}
+
+.medi-hero {
+    position: relative;
+    background: #F0F6FF;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.medi-intro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 150px;
+}
+
+.medi-intro-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #4A4A4A;
+    line-height: 1.5;
+    flex: 1;
+    margin-right: 50px;
+}
+
+.medi-intro-img{
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.medi-content {
+    position: absolute;
+    top: 280px;
+    left: 0;
+    right: 0;
+    bottom: 90px; /* BottomBar 높이 고려 */
+    background: #FAFBFC;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 14px 0 100px 0; /* 하단 패딩을 늘려서 저장하기 버튼 공간 확보 */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.medi-profile {
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.medi-content-button {
+    width: 328px;
+    height: 80px;
+    background: white;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.medi-content-button-img {
+    margin-right: 8px;
+}
+
+.medi-content-button-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #363B48;
+}
+
+.medi-content-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 70px;
+}
+
+/* 저장하기 버튼을 하단에 고정하기 위한 새로운 클래스 추가 */
+/* .save-button-container {
+    /* position: fixed;
+    bottom: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 328px;
+    padding: 0 20px;
+    z-index: 10; 
+} */
