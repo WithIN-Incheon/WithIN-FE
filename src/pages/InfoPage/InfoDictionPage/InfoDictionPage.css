@@ -15,7 +15,7 @@
 
 /* 타이틀 */
 .dict-title {
-  margin: 0;
+  margin: 0 0 25px;
   font-size: 24px; 
   font-weight: 700;
   line-height: 1.3;

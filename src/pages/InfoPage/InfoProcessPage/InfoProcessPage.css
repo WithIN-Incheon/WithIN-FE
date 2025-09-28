@@ -22,14 +22,18 @@
   line-height: 1.3;
   color: #2f3747;
 }
+.proc-title + .proc-section { margin-top: 25px; }
 
-/* 서브타이틀 공통 + 하이라이트 */
+/* 섹션 래퍼 */
+.proc-section { margin-bottom: 30px; }
+
+/* 서브타이틀 */
 .section-title {
   position: relative;
   display: block;
   width: fit-content;
   z-index: 0;
-  margin: 25px 0 0;
+  margin: 0 0 30px 0; /* 섹션 타이틀 → 컨텐츠 30px */
   font-size: 20px;
   font-weight: 600;
   line-height: 1.3;
@@ -44,30 +48,32 @@
   height: 12px;
   background: #e0eeff;
   border-radius: 4px;
-  z-index: -1; 
+  z-index: -1;
 }
 
 /* 본문 */
 .paragraph14 {
-  margin: 13px 0 0;
+  margin: 0;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.7;
   color: #3a4152;
 }
-
-/* 절차/설명  */
 .paragraph13 {
-  margin: 10px 0 0;
+  margin: 0;
   font-size: 13px;
   font-weight: 400;
   line-height: 1.7;
   color: #3a4152;
 }
+/* 같은 섹션 내 문단 간 간격(선택) */
+.paragraph14 + .paragraph14 { margin-top: 12px; }
+.paragraph13 + .paragraph13 { margin-top: 10px; }
+.num-list13 + .paragraph13 { margin-top: 10px; }
 
 /* 번호 리스트 */
 .num-list13 {
-  margin: 12px 0 0 20px; 
+  margin: 0 0 0 20px;
   padding-left: 0;
   font-size: 13px;
   line-height: 1.7;
@@ -76,18 +82,19 @@
 .num-list13 li { margin-top: 8px; }
 .note-inline { display: block; margin-top: 4px; }
 
-/* 질병 절차 플로우 이미지 */
+/* 플로우 이미지 */
 .proc-flow-img {
   display: block;
   width: 100%;
   max-width: 720px;
-  margin: 24px auto 8px;
+  margin: 0 auto; /* 섹션 내부 수평 중앙 */
   height: auto;
 }
+.proc-flow-img + .num-list13 { margin-top: 12px; }
 
-/* 필요서류 */
+/* 필요서류 리스트 */
 .dash-list14 {
-  margin: 15px 0 0 16px;
+  margin: 0 0 0 16px;
   padding-left: 0;
   color: #3a4152;
   font-size: 14px;
@@ -96,5 +103,5 @@
 .dash-list14 li { margin-top: 8px; }
 .dash-list14 li::marker { content: "– "; }
 
-/* 하단 바텀바와 겹치지 않도록 */
+/* 바텀바 여유 */
 .bottom-spacer { height: 96px; }
