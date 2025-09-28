@@ -15,6 +15,7 @@ const stepConfig = [
 
 const SignupPage = () => {
     const navigate = useNavigate(); 
+
     const [currentStep, setCurrentStep] = useState(0);
     const [direction, setDirection] = useState<'next' | 'prev'>('next');
     const [showPassword, setShowPassword] = useState(false);
