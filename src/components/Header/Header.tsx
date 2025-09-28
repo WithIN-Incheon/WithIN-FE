@@ -1,13 +1,14 @@
-//뒤로 가기 버튼이 포함된 헤더
-import React from "react";
+// 뒤로 가기 버튼이 포함된 헤더
 import { useNavigate } from "react-router-dom";
 import "./Header.css";
 
 type HeaderProps = {
-  title?: string;          // 화면마다 다른 제목을 주입
-  onBack?: () => void;    
+  title?: string;
+  onBack?: () => void;
   showBack?: boolean;
-  className?: string;     
+  className?: string;
+  showMenu?: boolean;
+  onMenuClick?: () => void; 
 };
 
 export default function Header({
@@ -15,6 +16,8 @@ export default function Header({
   onBack,
   showBack = true,
   className,
+  showMenu = false,
+  onMenuClick,
 }: HeaderProps) {
   const navigate = useNavigate();
 
@@ -23,13 +26,17 @@ export default function Header({
     else navigate(-1);
   };
 
+  const handleMenu = () => {
+    onMenuClick?.();
+  };
+
   return (
     <header className={`header ${className ?? ""}`}>
       {showBack && (
         <img
           src="/arrow-back.svg"
           alt="뒤로 가기"
-          className="header__back"
+          className="header_back"
           onClick={handleBack}
           role="button"
           tabIndex={0}
@@ -38,7 +45,22 @@ export default function Header({
           }}
         />
       )}
-      <div className="header__title">{title}</div>
+
+      <div className="header_title">{title}</div>
+
+      {showMenu && (
+        <img
+          src="/menu-icon.svg"
+          alt="메뉴"
+          className="header_menu"
+          onClick={handleMenu}
+          role="button"
+          tabIndex={0}
+          onKeyDown={(e) => {
+            if (e.key === "Enter" || e.key === " ") handleMenu();
+          }}
+        />
+      )}
     </header>
   );
 }

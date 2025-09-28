@@ -11,7 +11,7 @@
 }
 
 /* 뒤로가기 아이콘 */
-.header__back {
+.header_back {
   position: absolute;
   left: 22px;
   top: 50%;
@@ -22,7 +22,7 @@
 }
 
 /* 중앙 타이틀 */
-.header__title {
+.header_title {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -36,4 +36,15 @@
   color: #363b48;
   text-align: center;
   white-space: nowrap;
+}
+
+/* 오른쪽 메뉴 아이콘 (오른쪽 끝에서 20px) */
+.header_menu {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
 }
