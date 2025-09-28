@@ -1,0 +1,93 @@
+.dict-page {
+  background: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.dict-content {
+  padding: 32px 36px 24px;
+  overflow-y: auto;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", sans-serif;
+  color: #2b2f3a;
+}
+
+/* 타이틀 */
+.dict-title {
+  margin: 0;
+  font-size: 24px; 
+  font-weight: 700;
+  line-height: 1.3;
+  color: #2f3747;
+}
+
+/* 대제목 */
+.section-title {
+  position: relative;
+  display: block;
+  width: fit-content;
+  z-index: 1;
+  margin: 25px 0 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #2f3747;
+}
+/* 대제목 */
+.section-title.hl::after {
+  content: "";
+  position: absolute;
+  left: -6px;
+  right: -27px;
+  top: 55%;
+  height: 12px;
+  background: #e0eeff;
+  border-radius: 4px;
+  z-index: -1;
+}
+
+/* 소제목 (1-1, 1-2, 1-3, 제외사유) */
+.sub-title {
+  position: relative;
+  display: inline-block; 
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #2f3747;
+  z-index: 1;
+  margin: 18px 0 5px;  
+}
+
+.sub-title.hl::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 70%;
+  background: #e0eeff;
+  border-radius: 4px;
+  z-index: -1;                  /* ✅ 텍스트 뒤 */
+}
+/* 본문 문단 */
+.paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #3a4152;
+}
+
+/* 대시 리스트 */
+.dash-list {
+  margin: 10px 0 0 16px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #3a4152;
+}
+.dash-list li { margin-top: 6px; }
+.dash-list li::marker { content: "– "; }
+
+/* 하단 여유 (BottomBar와 겹침 방지) */
+.bottom-spacer { height: 96px; }
