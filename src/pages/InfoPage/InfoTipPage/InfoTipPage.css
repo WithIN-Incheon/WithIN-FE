@@ -60,7 +60,8 @@
   box-decoration-break: clone;
 }
 .paragraph {
-  margin: 15px 0 0;
+  margin-top: 25px;
+  margin-bottom: 20px;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.7;
