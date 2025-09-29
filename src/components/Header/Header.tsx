@@ -1,14 +1,23 @@
-// 뒤로 가기 버튼이 포함된 헤더
 import { useNavigate } from "react-router-dom";
 import "./Header.css";
 
-type HeaderProps = {
+export type HeaderProps = {
   title?: string;
   onBack?: () => void;
   showBack?: boolean;
   className?: string;
   showMenu?: boolean;
-  onMenuClick?: () => void; 
+  onMenuClick?: () => void;
+
+  showBookmark?: boolean;
+  bookmarkTo?: string;
+  /** 북마크/즐겨찾기 아이콘을 교체하고 싶을 때 사용 */
+  bookmarkIconSrc?: string;
+  onBookmarkClick?: () => void;
+
+  /** ✅ 검색 아이콘 표시/클릭 핸들러 (추가) */
+  showSearch?: boolean;
+  onSearchClick?: () => void;
 };
 
 export default function Header({
@@ -18,17 +27,21 @@ export default function Header({
   className,
   showMenu = false,
   onMenuClick,
+
+  showBookmark = false,
+  bookmarkTo = "/location/bookmark",
+  bookmarkIconSrc = "/bookmark-icon.svg",
+  onBookmarkClick,
+
+  showSearch = false,
+  onSearchClick,
 }: HeaderProps) {
   const navigate = useNavigate();
 
-  const handleBack = () => {
-    if (onBack) onBack();
-    else navigate(-1);
-  };
-
-  const handleMenu = () => {
-    onMenuClick?.();
-  };
+  const handleBack = () => (onBack ? onBack() : navigate(-1));
+  const handleMenu = () => onMenuClick?.();
+  const handleBookmark = () => (onBookmarkClick ? onBookmarkClick() : navigate(bookmarkTo));
+  const handleSearch = () => onSearchClick?.();
 
   return (
     <header className={`header ${className ?? ""}`}>
@@ -40,9 +53,7 @@ export default function Header({
           onClick={handleBack}
           role="button"
           tabIndex={0}
-          onKeyDown={(e) => {
-            if (e.key === "Enter" || e.key === " ") handleBack();
-          }}
+          onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && handleBack()}
         />
       )}
 
@@ -56,9 +67,31 @@ export default function Header({
           onClick={handleMenu}
           role="button"
           tabIndex={0}
-          onKeyDown={(e) => {
-            if (e.key === "Enter" || e.key === " ") handleMenu();
-          }}
+          onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && handleMenu()}
+        />
+      )}
+
+      {showBookmark && (
+        <img
+          src={bookmarkIconSrc}
+          alt="즐겨찾기"
+          className="header_bookmark"
+          onClick={handleBookmark}
+          role="button"
+          tabIndex={0}
+          onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && handleBookmark()}
+        />
+      )}
+
+      {showSearch && (
+        <img
+          src="/search-icon.svg"
+          alt="검색"
+          className="header_search"
+          onClick={handleSearch}
+          role="button"
+          tabIndex={0}
+          onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && handleSearch()}
         />
       )}
     </header>
