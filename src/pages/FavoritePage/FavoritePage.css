@@ -1,0 +1,61 @@
+/* Page */
+.favorite-page {
+  background: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Content */
+.favorite-content {
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 14px 0 96px; /* BottomBar 여유 */
+}
+
+/* Empty */
+.empty {
+  padding: 24px 20px;
+  color: #767676;
+  font-size: 14px;
+}
+
+/* List */
+.case-list { list-style: none; margin: 0; padding: 0; }
+
+/* Row */
+.case-row {
+  position: relative;
+  height: 88px;
+  padding: 23px 28px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.case-title-line { display: flex; align-items: center; gap: 10px; }
+.title {
+  background: none; border: 0; padding: 0;
+  text-align: left; cursor: pointer;
+  color: #0C8CFF; font-weight: 700; font-size: 15px; line-height: 1;
+}
+.star { width: 18px; height: 18px; margin-top: 5px; cursor: pointer; }
+
+/* Meta */
+.case-meta { display: flex; align-items: center; gap: 9px; margin-top: 9px; }
+.approval {
+  width: 49px; height: 17px; border: 1px solid #767676; border-radius: 4px;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: 10px; font-weight: 500; color: #767676;
+}
+.tag { font-size: 13px; font-weight: 500; color: #000; }
+
+/* Icons */
+.arrow {
+  position: absolute; right: 28px; top: 50%; transform: translateY(-50%);
+  width: 6px; cursor: pointer;
+}
+.divider {
+  position: absolute; left: 5%; right: 5%; bottom: 0;
+  height: 1px; background: #EEEEEE;
+}

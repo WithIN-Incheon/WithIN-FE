@@ -1,0 +1,92 @@
+/* Page */
+.case-detail-page {
+  background: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Content */
+.case-detail-content {
+  padding: 0 20px 100px;
+  color: #2b2f3a;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", sans-serif;
+}
+
+/* Title (1~5) */
+.num-title {
+  font-size: 16px;
+  font-weight: 600; /* semibold */
+  line-height: 1.4;
+  color: #2f3747;
+  margin: 0;
+}
+
+/* 1번 카드 */
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(26, 39, 56, 0.08);
+  padding: 16px;
+}
+.first-card {
+  width: 335px;
+  margin-left: 29px;   /* 왼쪽 29px */
+  margin-top: 22px;    /* 헤더 아래 22px */
+  margin-bottom: 35px; /* 카드 하단 → 2번 시작 35px */
+}
+.first-card .num-title {
+  margin-top: 16px;    /* 카드 상단 → 타이틀 16px */
+  margin-bottom: 10px; /* 타이틀 → 내용 10px */
+}
+
+/* 본문 공통 */
+.body,
+.summary {
+  font-size: 13px;
+  font-weight: 400; /* regular */
+  line-height: 1.6;
+  color: #2b2f3a;
+}
+
+/* 라벨(콜론 앞) - summary 안의 강조 텍스트 */
+.summary b,
+.summary strong {
+  font-size: 13px;
+  font-weight: 700; /* bold */
+  color: #2b2f3a;
+}
+
+/* 2~5 섹션 공통 간격/좌측 여백 */
+.sec {
+  margin-left: 43px;
+  margin-bottom: 35px;
+}
+.sec .num-title {
+  margin-bottom: 10px;
+}
+
+/* 간단 불릿(- ) 표시 */
+.bullets p {
+  margin: 0 0 6px;
+}
+.bullets p::before {
+  content: "- ";
+  font-weight: 400;
+}
+
+/* summary 내부에 ul/li가 들어와도 하이픈으로 보이도록 */
+.summary ul,
+.summary ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.summary li {
+  margin: 0 0 6px;
+}
+.summary li::before {
+  content: "- ";
+}

@@ -1,0 +1,168 @@
+/* 검색바 */
+.loc-searchbar{
+  position:absolute; z-index:5; left:50%; transform:translateX(-50%);
+  top:84px;
+  width:90%; height:40px;
+  display:flex; align-items:center; gap:8px;
+  background:#fff; border-radius:5px;
+  padding:0 10px;
+  box-shadow:
+    0 0 0 1px rgba(0,0,0,.20),
+    0 0 4px rgba(0,0,0,.20);
+}
+.loc-searchbar_input{
+  flex:1; border:none; outline:none; font-size:14px; height:100%;
+}
+.loc-searchbar_btn{
+  background:none; border:none; padding:0; box-shadow:none;
+  display:flex; align-items:center; justify-content:center;
+}
+.loc-searchbar_btn img{ width:18px; height:18px }
+
+.loc-map{ position:relative }
+.loc-map_canvas{ width:100%; height:calc(100vh - 180px) }
+.loc-dim{
+  position:absolute; inset:0; background:rgba(0,0,0,0);
+  pointer-events:none; transition:background .2s;
+}
+.loc-dim.on{ background:rgba(0,0,0,.35); pointer-events:auto }
+
+/* 목록보기 버튼 */
+:root{ --sheet-height:140px }
+.loc-map_listbtn{
+  position:absolute; left:50%; transform:translateX(-50%);
+  bottom: calc(var(--sheet-height) - 50px);
+  z-index:6;
+  display:inline-flex; align-items:center; gap:8px;
+  height:44px; padding:0 16px;
+  background:#fff; border-radius:22px;
+  box-shadow:0 -1px 4px rgba(0,0,0,.2); border:1px solid #eee;
+  font-weight:600;
+}
+.loc-map_listbtn img { width:12px; height:11px }
+.loc-map_listbtn span { font-size:15px; font-weight:500 }
+
+/*  GPS 버튼 */
+.loc-map_gpsbtn{
+  position:absolute; right:18px; bottom:110px; z-index:6;
+  background:none; border:none; box-shadow:none; padding:0; width:auto; height:auto;
+}
+.loc-map_gpsbtn img{ width:18px; height:18px }
+
+/* 바텀시트  */
+.loc-bottomsheet{
+  position:fixed; left:0; right:0; bottom:64px;
+  height:var(--sheet-height); z-index:7; transition:height .2s;
+}
+.loc-bottomsheet_panel{
+  position:relative; height:100%;
+  background:#fff; border-top-left-radius:16px; border-top-right-radius:16px;
+  box-shadow:0 -4px 12px rgba(0,0,0,.2); overflow:hidden;
+}
+.loc-bottomsheet_handle{
+  width:44px; height:4px; border-radius:2px; background:#D9D9D9;
+  margin:6px auto 8px;
+}
+
+/* 칩 영역: 상단 21px 여백 */
+.loc-filterbar.in-sheet{
+  display:flex; gap:8px; padding:21px 16px 0; background:transparent;
+}
+.chip{
+  padding:8px 12px; font-size:12px; border-radius:12px;
+  border:1px solid #DEDEDE; background:#fff; color:#111;
+}
+.chip--active{ background:#DEF0FF; color:#0C8CFF; border-color:#0C8CFF }
+.chip--dropdown{ display:inline-flex; align-items:center; gap:6px }
+.chip--dropdown img{ width:8px; height:8px }
+
+/* dept 모드 상단 10px 회색 벡터 */
+.gray-vector{ position:absolute; left:16px; right:16px; top:10px; height:1px; content:"" }
+
+/* 시트 본문 */
+.loc-bottomsheet_body{
+  height:calc(100% - 21px - 28px); /* 핸들/패딩 보정 */
+  padding:0 12px 16px;
+}
+
+/* 진료과목 그리드 */
+.dept-grid{
+  display:grid; grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:8px 10px; padding:12px 4px 0;
+}
+.dept-chip{
+  padding:8px 10px; border-radius:12px; border:1px solid #DEDEDE;
+  background:#fff; font-size:12px;
+}
+.dept-chip.on{ background:#DEF0FF; color:#0C8CFF; border-color:#0C8CFF }
+
+/* 목록 */
+.hospital-list{ height:calc(100% - 64px); overflow:auto; padding:23px 4px 8px }
+
+/* 카드 */
+.hospital-card{
+  background:#fff; border-radius:12px; padding:12px; margin-bottom:10px;
+  box-shadow:0 2px 10px rgba(0,0,0,.06); border:1px solid #F2F2F2;
+}
+.hospital-card.is-selected{ border-color:#0C8CFF33; box-shadow:0 2px 10px rgba(12,140,255,.12) }
+
+/* 타이틀 라인 */
+.card-title{ display:flex; align-items:baseline; gap:6px; margin-bottom:11px }
+.card-name{ font-weight:700; color:#0C8CFF; font-size:15px; line-height:1.2 }
+.card-dept{ color:#979797; font-weight:500; font-size:13px; line-height:1.2 }
+
+/* 영업정보/주소/전화 */
+.card-row{ font-size:12px; color:#000 }
+.card-open .open-left{ color:#000; font-weight:500 }
+.card-open .open-right{ color:#979797; font-weight:500 }
+.card-row + .card-row{ margin-top:6px }
+
+.phone-row{ display:flex; align-items:center }
+.icon-sm{ width:14px; height:14px; margin-right:2px }
+.phone{ font-size:12px }
+
+/* 길찾기/북마크 */
+.card-actions{ margin-top:6px; display:flex; gap:6px }
+.icon-btn{
+  background:none; border:none; padding:0; box-shadow:none;
+  display:flex; align-items:center; justify-content:center;
+}
+.icon-btn img{ width:22px; height:22px }
+
+/* 네이버 커스텀 라벨 (병원명 말풍선) */
+.nv-label{
+  width:115px; height:32px; background:#fff; border:2px solid #0C8CFF; border-radius:16px;
+  display:grid; place-items:center; box-shadow:0 1px 4px rgba(12,140,255,.15);
+  cursor:pointer;
+  transform:translateY(-4px); /* 핀 위로 살짝 올림 */
+}
+.nv-label__txt{
+  font-size:15px; font-weight:700; color:#1f2937; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:103px;
+}
+.nv-label--active{
+  border-color:#0A66C2;
+  box-shadow:0 2px 10px rgba(12,102,194,.25);
+}
+
+/* 화살표 회전 */
+.arrow-icon{ width:8px; height:8px; transition:transform .2s ease }
+.arrow-icon.rotated{ transform:rotate(180deg) }
+
+/* 영업시간 필터 칩 */
+.hours-filter{ display:flex; gap:10px; padding:12px 4px 0 }
+.hours-chip{
+  padding:8px 12px; border-radius:12px; border:1px solid #dedede;
+  background:#fff; font-size:13px; color:#111;
+}
+.hours-chip.on{ background:#def0ff; color:#0c8cff; border-color:#0c8cff }
+
+/* 네이버 줌 컨트롤 위치 보정 */
+.naver-control.naver-zoom-control {
+  transform: translateY(-20px); /* 20px 위로 */
+}
+
+/* 일반/위성 선택 컨트롤 */
+.naver-control.naver-maptype-control {
+  top: 10px !important;    /* 위쪽 10px */
+  right: 10px !important;  /* 오른쪽 10px */
+}

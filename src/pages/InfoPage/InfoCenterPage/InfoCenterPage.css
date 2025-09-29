@@ -1,0 +1,108 @@
+:root {
+  --left-pad: 36px;
+  --bottom-bar-h: 90px;
+  --highlight: #e0eeff;
+}
+
+.center-page {
+  background: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.center-content {
+  padding-top: 32px;
+  padding-left: var(--left-pad);
+  padding-right: var(--left-pad);
+  padding-bottom: calc(var(--bottom-bar-h) + env(safe-area-inset-bottom, 0px));
+  box-sizing: border-box;
+  overflow-y: auto;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", sans-serif;
+  color: #2b2f3a;
+}
+
+.center-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #2f3747;
+}
+
+.section-title {
+  position: relative;
+  display: block;
+  width: fit-content;
+  z-index: 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #2f3747;
+}
+.section-title.hl::after {
+  content: "";
+  position: absolute;
+  left: -6px;
+  right: -27px;
+  top: 50%;
+  height: 12px;
+  background: var(--highlight);
+  border-radius: 4px;
+  z-index: -1;
+}
+
+.mt-37 { margin-top: 37px; }
+.mt-35 { margin-top: 35px; }
+
+.center-list {
+  margin-top: 40px;
+  margin-left: 15px;
+}
+
+.center-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 33px;
+  margin-bottom: 25px;
+}
+
+.center-item_logo {
+  width: 90px;
+  height: 91px;
+  object-fit: contain;
+}
+
+.center-item_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.center-item_title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #2f3747;
+  margin: 0 0 12px 0;
+}
+
+.center-item_meta {
+  font-size: 13px;
+  font-weight: 400;
+  color: #3a4152;
+  line-height: 1.6;
+
+  word-break: break-all;    
+  overflow-wrap: anywhere; 
+}
+
+.center-item_meta a {
+  text-decoration: none;
+  color: #2a5bd7;
+}
+.center-item_meta a:hover,
+.center-item_meta a:focus {
+  text-decoration: underline;
+}
