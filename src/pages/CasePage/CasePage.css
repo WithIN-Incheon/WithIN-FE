@@ -1,0 +1,147 @@
+/* Root */
+html, body, #root {
+  min-height: 100%;
+}
+
+/* Page */
+.case-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+/* Content (문서 스크롤 사용) */
+.case-content {
+  flex: 1;
+  padding-bottom: 96px; /* BottomBar 높이만큼 여유 */
+}
+
+/* Top (탭/필터, 고정 해제) */
+.case-fixed {
+  margin-top: 14px;
+  background: #fff;
+}
+
+/* Tabs */
+.case-tabs {
+  margin: 14px 16px 0;
+  display: flex;
+  gap: 8px;
+}
+.tab-btn {
+  flex: 1;
+  height: 34px;
+  border-radius: 10px;
+  border: 1px solid #DEDEDE;
+  background: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  color: #2b2f3a;
+}
+.tab-btn.is-active {
+  background: #DEF0FF;
+  color: #0C8CFF;
+  border-color: #0C8CFF;
+}
+
+/* Filter */
+.case-filter-pill {
+  margin: 16px 16px 0;
+  width: 80px;
+  height: 31px;
+  border-radius: 8px;
+  border: 1px solid #DEDEDE;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.case-filter-label {
+  font-size: 11px;
+  font-weight: 500;
+  color: #000;
+}
+
+/* List */
+.case-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Row */
+.case-row {
+  position: relative;
+  height: 88px;
+  padding: 23px 28px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.case-title-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.case-row .title {
+  background: none;
+  border: 0;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+  color: #0C8CFF;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1;
+}
+.star {
+  width: 18px;
+  height: 18px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+/* Meta */
+.case-meta {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 9px;
+}
+.approval {
+  width: 49px;
+  height: 17px;
+  border: 1px solid #767676;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 500;
+  color: #767676;
+}
+.tag {
+  font-size: 13px;
+  font-weight: 500;
+  color: #000;
+}
+
+/* Icons */
+.case-row .arrow {
+  position: absolute;
+  right: 28px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  cursor: pointer;
+}
+.case-row .divider {
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  bottom: 0;
+  height: 1px;
+  background: #EEEEEE;
+}
