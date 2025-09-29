@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate } from "react-router-dom"; 
 import "./HomePage.css";
 import BottomBar from "../../components/BottomBar/BottomBar";
@@ -37,8 +36,8 @@ export default function App() {
 
             <div className="photo-group">
                 <img className="shadow-img" src="/Home/Home_Guide.svg" alt="산재 신청 가이드" onClick={() => navigate("/guide")}/>
-                <img className="shadow-img" src="/Home/Home_ExSearch.svg" alt="사례 검색" onClick={() => navigate("/case")}/>
-                <img className="shadow-img" src="/Home/Home_HosSearch.svg" alt="의료기관 검색" onClick={() => navigate("/hospital")}/>
+                <img className="shadow-img" src="/Home/Home_ExSearch.svg" alt="사례 검색" onClick={() => navigate("/cases")}/>
+                <img className="shadow-img" src="/Home/Home_HosSearch.svg" alt="의료기관 검색" onClick={() => navigate("/location")}/>
             </div>
         </div>
         <BottomBar />
