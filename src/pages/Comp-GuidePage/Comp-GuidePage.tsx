@@ -25,6 +25,7 @@ export default function GuidePage() {
           className="guide-card"
           src="/Guide/Guide-box.svg"
           alt="요양 급여 신청 가이드"
+          onClick={()=>navigate("/medicare")}
         />
         <img
           className="guide-card"
