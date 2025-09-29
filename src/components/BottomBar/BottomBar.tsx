@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import "./BottomBar.css";
 
-type Tab = "home" | "bookmark" | "mypage";
+type Tab = "home" | "favorite" | "mypage";
 
 export default function BottomBar() {
   const navigate = useNavigate();
@@ -10,7 +10,7 @@ export default function BottomBar() {
 
   // 현재 경로에 따라 활성 탭 결정
   const getActiveTab = (): Tab => {
-    if (location.pathname.startsWith("/bookmark")) return "bookmark";
+    if (location.pathname.startsWith("/favorite")) return "favorite";
     if (location.pathname.startsWith("/mypage")) return "mypage";
     return "home";
   };
@@ -20,6 +20,7 @@ export default function BottomBar() {
   // location이 바뀔 때 activeTab도 업데이트
   useEffect(() => {
     setActiveTab(getActiveTab());
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location]);
 
   const handleClick = (tab: Tab, path: string) => {
@@ -31,9 +32,9 @@ export default function BottomBar() {
     <nav className="bottom-bar" aria-label="primary">
       <img
         className="icon-heart"
-        src={activeTab === "bookmark" ? "/Home/Heart_On.svg" : "/Home/Heart_Off.svg"}
-        alt="bookmark"
-        onClick={() => handleClick("bookmark", "/bookmark")}
+        src={activeTab === "favorite" ? "/Home/Heart_On.svg" : "/Home/Heart_Off.svg"}
+        alt="favorite"
+        onClick={() => handleClick("favorite", "/favorite")}
       />
       <img
         className="icon-home"
