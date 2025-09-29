@@ -1,0 +1,182 @@
+/* 페이지 */
+.bm-page {
+  background: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* cspell:ignore Pretendard */
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", sans-serif;
+  color: #2b2f3a;
+}
+
+.bm-content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 칩 묶음: 헤더로부터 15px 아래, 거리순 좌측 23px, 칩 사이 7px */
+.bm-tabs {
+  margin-top: 15px;
+  margin-bottom: 8px;
+  margin-left: 23px;
+  display: flex;
+  gap: 7px;
+}
+
+/* 비활성 칩(중립) */
+.bm-tab {
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid #e0e0e0;
+  background: #ffffff;
+  color: #4b5563;
+  font-weight: 500;
+}
+
+/* 활성 칩만 파란계열 */
+.bm-tab.active {
+  border: 1px solid #0c8cff;
+  background: #def0ff; /* 요구 색상 */
+  color: #0c8cff;
+  font-weight: 600;
+}
+
+/* 필터-리스트 구분선: width 90%, #F8F8F8, 1px */
+.bm-sep {
+  height: 1px;
+  width: 90%;
+  background: #f8f8f8;
+  margin: 12px auto 0;
+}
+
+/* 리스트 */
+.bm-list {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* 빈 상태 */
+.bm-empty {
+  padding: 24px 27px;
+  color: #7a7a7a;
+  font-size: 14px;
+}
+
+/* 아이템 행: 높이 65px */
+.bm-item {
+  position: relative;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  /* 우측에 플러스/액션이 오므로 기본 패딩은 본문에서 처리 */
+}
+
+/* 본문(길찾기): 왼쪽 들여쓰기 27px */
+.bm-item-body {
+  flex: 1;
+  height: 100%;
+  padding-left: 27px; /* 텍스트 시작 위치 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  background: transparent;
+  border: 0;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* 병원명: 15px, semibold */
+.bm-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #2f3747;
+}
+
+/* 하단: "진료과   |   도로명주소" */
+.bm-sub {
+  font-size: 13px;
+  color: #555;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bm-bar { margin: 0 0; }
+
+/* 플러스 아이콘 (우측 36px) */
+.bm-plus {
+  position: absolute;
+  right: 36px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 플러스(세로/가로선) */
+.bm-plus-v,
+.bm-plus-h {
+  position: absolute;
+  background: #0c8cff;
+  transition: transform 0.18s ease;
+}
+.bm-plus-v { width: 2px; height: 12px; }
+.bm-plus-h { width: 12px; height: 2px; }
+
+/* 열렸을 때는 + 를 x 로 회전 */
+.bm-plus.open .bm-plus-v { transform: rotate(90deg); }
+.bm-plus.open .bm-plus-h { transform: rotate(90deg); }
+
+/* 액션(삭제 버튼) - 플러스 오른쪽 또는 아래에 노출 */
+.bm-action {
+  position: absolute;
+  right: 10px; /* 플러스 오른쪽에 살짝 */
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+/* 삭제 버튼 */
+.bm-del {
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: 1px solid #ffcccc;
+  background: #fff5f5;
+  color: #ff4d4f;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* 아이템 하단 구분선 */
+.bm-item-sep {
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  bottom: 0;
+  height: 1px;
+  background: #f8f8f8;
+}
+
+/* 리스트 최하단에도 구분선 필요 */
+.bm-end-sep {
+  height: 1px;
+  width: 90%;
+  background: #f8f8f8;
+  margin: 0 auto;
+}
