@@ -1,6 +1,3 @@
-// cspell:ignore listbtn gpsbtn bottomsheet filterbar
-
-// src/pages/Location/LocationPage.tsx
 import { useEffect, useRef, useState, useMemo } from "react";
 import Header from "../../components/Header/Header";
 import BottomBar from "../../components/BottomBar/BottomBar";
