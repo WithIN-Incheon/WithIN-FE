@@ -34,6 +34,8 @@ import MediGuidePage4 from "./pages/Medi-carePage/Medi-GuidePage-4";
 import MediGuidePage5 from "./pages/Medi-carePage/Medi-GuidePage-5";
 import MediGuidePage6 from "./pages/Medi-carePage/Medi-GuidePage-6";
 import MediResult from "./pages/Medi-carePage/Medicare-result";
+import LoginPage from "./pages/LoginPage/LoginPage";
+import LangPage from "./pages/LangPage/LangPage";
 
 function App() {
   return (
@@ -43,6 +45,10 @@ function App() {
         <Route path="/home" element={<HomePage />} />
         <Route path="/signup" element={<SignupPage />} />
         <Route path="/helper" element={<HelperPage />} />
+
+        <Route path="/lang" element={<LangPage />} />
+        <Route path="/login" element={<LoginPage />} />
+
 
         <Route path="/cases" element={<CasePage />} />
         <Route path="/cases/:id" element={<CaseDetailPage />} />
