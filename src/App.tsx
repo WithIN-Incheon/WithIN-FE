@@ -6,10 +6,12 @@ import CaseDetailPage from "./pages/CasePage/CaseDetailPage"
 import GuidePage from './pages/Comp-GuidePage/Comp-GuidePage'
 import FavoritePage from './pages/FavoritePage/FavoritePage'
 import MyPage from './pages/MyPage/MyPage'
+import EditPage from './pages/MyPage/EditPage'
+import DataPage from './pages/MyPage/DataPage'
+
 import LocationPage from "./pages/LocationPage/LocationPage";
 import BookmarkPage from "./pages/LocationPage/BookmarkPage/BookmarkPage";
 import SearchPage from "./pages/LocationPage/SearchPage/SearchPage";
-
 
 import InfoPage from "./pages/InfoPage/InfoPage";
 import InfoCompPage from "./pages/InfoPage/InfoCompPage/InfoCompPage";
@@ -18,7 +20,6 @@ import InfoSalaryPage  from "./pages/InfoPage/InfoSalaryPage/InfoSalaryPage";
 import InfoDictionPage  from "./pages/InfoPage/InfoDictionPage/InfoDictionPage";
 import InfoTipPage from "./pages/InfoPage/InfoTipPage/InfoTipPage";
 import InfoCenterPage from "./pages/InfoPage/InfoCenterPage/InfoCenterPage";
-
 
 import HelperPage from "./pages/HelpPage/HelpPage";
 
@@ -35,9 +36,10 @@ function App() {
         <Route path="/cases/:id" element={<CaseDetailPage />} />
 
         <Route path="/guide" element={<GuidePage/>} />
-        <Route path="/location" element={<LocationPage/>} />
         <Route path="/favorite" element={<FavoritePage/>} />
         <Route path="/mypage" element={<MyPage/>} />
+        <Route path="/mypage/edit" element={<EditPage/>} />
+        <Route path="/mypage/data" element={<DataPage/>} />
         <Route path="/helper" element={<HelperPage />} />
         <Route path="/location " element={<LocationPage  />} />
         <Route path="/location/bookmark" element={<BookmarkPage />} />
