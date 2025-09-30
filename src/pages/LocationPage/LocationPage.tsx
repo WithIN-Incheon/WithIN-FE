@@ -300,14 +300,21 @@ export default function LocationPage() {
   };
 
   // 길찾기
-  const openDirections = (h: Hospital) => {
-    if (h.address) {
-      const url = `https://map.naver.com/v5/search/${encodeURIComponent(h.address)}`;
-      window.open(url, "_blank", "noopener,noreferrer");
-    } else {
-      alert("주소 정보를 찾지 못했습니다.");
+  function openDirections(h: Hospital) {
+    const query = `${h.name} ${h.address}`;
+    const q = encodeURIComponent(query);
+    const zoom = 15;
+
+    let centerX = h.lng ?? 0;
+    let centerY = h.lat ?? 0;
+    if (geo) {
+      centerX = geo.lng;
+      centerY = geo.lat;
     }
-  };
+    const url = `https://map.naver.com/p/search/${q}?c=${centerX},${centerY},${zoom},0,0,0,dh`;
+
+    window.open(url, "_blank", "noopener,noreferrer");
+  }
 
   // 바텀시트 드래그
   const dragRef = useRef<{ startY: number; startH: number } | null>(null);
@@ -358,27 +365,23 @@ export default function LocationPage() {
               transform: "translateY(calc(-50% - 20px))",
               display: "grid",
               gap: 8,
-              zIndex: 5, // 목록보기 버튼(6)보다 뒤
+              zIndex: 5,
             }}
           >
-            <button
-              onClick={() => map.setZoom(map.getZoom() + 1, true)}
-              aria-label="확대"
-              style={{
-                width: 36, height: 36, borderRadius: 6, border: "1px solid #E5E7EB",
-                background: "#fff", fontSize: 18, fontWeight: 700, cursor: "pointer",
-                boxShadow: "0 1px 3px rgba(0,0,0,.12)"
-              }}
-            >＋</button>
-            <button
-              onClick={() => map.setZoom(map.getZoom() - 1, true)}
-              aria-label="축소"
-              style={{
-                width: 36, height: 36, borderRadius: 6, border: "1px solid #E5E7EB",
-                background: "#fff", fontSize: 18, fontWeight: 700, cursor: "pointer",
-                boxShadow: "0 1px 3px rgba(0,0,0,.12)"
-              }}
-            >－</button>
+          {map && (
+            <div className="loc-zoomctrl">
+              <button
+                onClick={() => map.setZoom(map.getZoom() + 1, true)}
+                aria-label="확대"
+                className="loc-zoombtn"
+              >＋</button>
+              <button
+                onClick={() => map.setZoom(map.getZoom() - 1, true)}
+                aria-label="축소"
+                className="loc-zoombtn"
+              >－</button>
+            </div>
+          )}
           </div>
         )}
 
