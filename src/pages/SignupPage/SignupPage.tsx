@@ -118,7 +118,6 @@ const SignupPage = () => {
         } else {
             // 첫 단계일 때는 브라우저 히스토리 뒤로가기
             navigate(-1);
-            // navigate("/login");
         }
     };
 
