@@ -34,16 +34,19 @@ body {
   object-fit: contain;
 }
 
+/* ================= Hero 영역 ================= */
 .hero {
   position: relative;
   background: var(--blue);
   width: 100%;
   height: 320px;
+  z-index: 0;
 }
 
 .topbar {
   position: relative;
   height: 32px;
+  z-index: 2;
 }
 
 .username {
@@ -57,6 +60,7 @@ body {
   letter-spacing: -0.02em;
   display: inline-flex;
   align-items: center;
+  z-index: 2;
 }
 
 .username .vector {
@@ -64,20 +68,12 @@ body {
   height: auto;
 }
 
-.search {
-  position: absolute;
-  top: 15px;
-  right: 21px;
-  width: 18px;
-  height: 18px;
-}
-
 .bg-icon {
   position: absolute;
   top: 47px;
   right: 5px;
   width: 137px;
-  z-index: 0;
+  z-index: 1;
   pointer-events: none;
 }
 
@@ -90,25 +86,27 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  z-index: 1;
+  z-index: 2;
 }
 
-.subtitle {
-  color: #ffffff;
+.hero .subtitle {
+  color: #ffffff !important;
   font-weight: 500;
   font-size: 20px;
   line-height: 100%;
   margin-top: 7px;
   letter-spacing: -0.02em;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
 }
 
-.title {
+.hero .title {
   margin-top: 10px;
-  color: #ffffff;
+  color: #ffffff !important;
   font-weight: 750;
   font-size: 32px;
   line-height: 100%;
   letter-spacing: -0.02em;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
 }
 
 .quick-link {
@@ -122,6 +120,7 @@ body {
   cursor: pointer;
   display: inline-flex;
   align-items: center;
+  z-index: 2;
 }
 
 .vector2 {
@@ -132,12 +131,13 @@ body {
 
 .hero-spacing {
   position: absolute;
-  top: 190px; 
+  top: 190px;
   left: 0;
   right: 0;
   height: 24px;
 }
 
+/* ================= Content 영역 ================= */
 .content {
   position: absolute;
   top: 210px;
@@ -149,6 +149,7 @@ body {
   border-top-right-radius: 20px;
   padding: 14px 0 20px 0;
   overflow-y: auto;
+  z-index: 0;
 }
 
 .tip-label {
@@ -180,7 +181,7 @@ body {
 .photo-group {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; 
+  justify-content: center;
   width: 100%;
 }
 
@@ -189,7 +190,8 @@ body {
   max-width: 300px;
   height: auto;
   border-radius: 12px;
-  margin-bottom: 10px;  
+  margin-bottom: 10px;
+  cursor: pointer;
 }
 
 @media (min-width: 480px) {
@@ -206,6 +208,7 @@ body {
   }
 }
 
+/* ================= Floating Chat 버튼 ================= */
 .chat {
   position: fixed;
   right: 14px;

@@ -1,0 +1,72 @@
+.tip-page {
+  background: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.tip-content {
+  padding: 32px 36px 24px;
+  overflow-y: auto;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", sans-serif;
+  color: #2b2f3a;
+}
+
+/* 메인 타이틀 */
+.tip-page {
+  background: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.tip-content {
+  padding: 32px 36px 24px;
+  overflow-y: auto;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", sans-serif;
+  color: #2b2f3a;
+}
+
+.tip-title {
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #2f3747;
+}
+
+.section-title {
+  margin: 25px 0 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #2f3747;
+  word-break: keep-all;
+}
+
+/* ✅ 멀티라인 하이라이트 */
+.line-hl {
+  display: inline;  
+  background: linear-gradient(
+    to bottom,
+    transparent calc(100% - 12px),
+    #e0eeff calc(100% - 12px)
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+.paragraph {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #3a4152;
+  word-break: keep-all;
+}
+
+.bottom-spacer { height: 96px; }

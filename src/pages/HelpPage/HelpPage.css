@@ -1,0 +1,192 @@
+/* 페이지 */
+.help-page {
+  background: #ffffff;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* 월 타이틀 */
+.hp-monthbar {
+  position: relative;
+  margin-top: 32px;
+  padding-left: 36px;
+}
+.hp-monthbar_left {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.hp-monthbar_text {
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #2f3747;
+}
+.hp-monthbar_arrow {
+  width: 14px;
+  height: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.hp-monthbar_arrow.is-open {
+  transform: rotate(180deg);
+}
+
+/* 월 선택 */
+.hp-monthpicker {
+  position: absolute;
+  top: 44px;
+  left: 36px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  padding: 12px;
+  z-index: 50;
+}
+.hp-monthpicker_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+.hp-monthpicker_item {
+  border: none;
+  background: #f3f5f8;
+  border-radius: 10px;
+  padding: 8px 0;
+  font-size: 14px;
+  color: #2b2f3a;
+}
+.hp-monthpicker_item.is-current {
+  background: #0c8cff;
+  color: #fff;
+}
+
+/* 요일 */
+.hp-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 0 16px;
+  margin-top: 16px;
+}
+.hp-weekdays_cell {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 500;
+  color: #9aa0a6;
+  padding: 10px 0 6px;
+}
+
+/* 달력 */
+.hp-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 0 12px calc(100px + env(safe-area-inset-bottom, 0px));
+  row-gap: 8px;
+  box-sizing: border-box;
+}
+.hp-day {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+.hp-day.out-month .hp-day_num {
+  opacity: 0.3;
+}
+.hp-day_num {
+  position: relative;
+  z-index: 2;
+  font-size: 14px;
+  font-weight: 600;
+  color: #111;
+}
+
+/* 선택 */
+.hp-day.is-selected .hp-day_num {
+  color: #fff;
+}
+.hp-day.is-selected::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: #0c8cff;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* 이벤트 구간 */
+.hp-day.in-range::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  height: 22px;
+  background: rgba(12, 140, 255, 0.18);
+  border-radius: 11px;
+  z-index: 0;
+}
+.hp-day.range-start::before {
+  border-top-left-radius: 11px;
+  border-bottom-left-radius: 11px;
+}
+.hp-day.range-end::before {
+  border-top-right-radius: 11px;
+  border-bottom-right-radius: 11px;
+}
+
+/* 바텀 카드 */
+.hp-bottomcard {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 320px;
+  background: #fff;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  box-shadow: 0 -4px 14px rgba(0, 0, 0, 0.08);
+  z-index: 1100; /* BottomBar(고정바)보다 위 */
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.hp-bottomcard_vector {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.hp-bottomcard_date {
+  position: absolute;
+  top: 35px;
+  left: 31px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #2f3747;
+}
+.hp-bottomcard_add {
+  position: absolute;
+  top: 34px;
+  right: 29px;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+.hp-bottomcard_hint {
+  position: absolute;
+  left: 31px;
+  top: calc(35px + 20px + 25px);
+  font-size: 12px;
+  font-weight: 500;
+  color: #b2b2b2;
+  max-width: calc(100% - 62px);
+  line-height: 1.5;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}

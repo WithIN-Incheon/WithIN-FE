@@ -1,0 +1,93 @@
+.search-page { background:#fff; min-height:100vh; }
+
+/* 검색바 */
+.bm-searchbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 90%;   
+  margin: 12px auto 8px; 
+  background: #fff;
+  border-radius: 8px;
+  height: 40px;
+  border: 1px solid #E5E5E5;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.06), 0 1px 3px rgba(0,0,0,.08);
+  padding: 0 10px;
+}
+.bm-back {
+  background: none;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.bm-back img { width: 18px; height: 18px; }
+
+.bm-searchbar input {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.bm-search {
+  background: none;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bm-search img { width: 18px; height: 18px; }
+
+/* 즐겨찾기 이미지 버튼 */
+.bm-bookmark-link {
+  margin-top: 5px;
+  margin: 6px 0 8px 7%;  
+  background: none;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.bm-bookmark-link img {
+  width: auto;
+  height: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/* 구분선  */
+.bm-sep{
+  height:1px; background:#CDD1D8;
+  margin:6px 0 0;
+}
+
+/* 최근검색 */
+.bm-recent{ padding:10px 0 0; }
+.bm-recent-title{
+  padding:8px 16px; color:#222; font-weight:600; font-size:14px;
+}
+
+.bm-noresult{ padding:6px 16px 0; color:#d00; font-size:13px; }
+
+.bm-recent-list{ list-style:none; padding:0; margin:4px 0 0; }
+.bm-recent-item{
+  display:flex; align-items:center; gap:10px;
+  padding:12px 16px;
+  border-bottom:1px solid #F0F0F0;
+  cursor:pointer;
+}
+.bm-recent-item:active{ background:#f8f9fb; }
+.bm-recent-icon{ width:18px; height:18px; opacity:.85; }
+.bm-recent-term{ flex:1; color:#111; font-size:14px; }
+.bm-recent-date{ color:#8a8a8a; font-size:13px; }
+
+.bm-empty{ padding:24px 16px; color:#888; font-size:13px; }
+
+.bm-clear{
+  display:block; margin:16px auto 0;
+  background:none; border:none; color:#0C8CFF; font-size:13px; font-weight:600;
+}
+
+.bm-kb-spacer{ height:24px; }

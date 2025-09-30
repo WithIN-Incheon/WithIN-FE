@@ -8,6 +8,18 @@
   </head>
   <body>
     <div id="root"></div>
+
+    <script
+      type="text/javascript"
+      src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=pvngw60boi&submodules=geocoder&callback=__naverMapReady"
+      defer
+    ></script>
+    <script>
+      window.__naverMapReady = () => {
+        console.log("Naver Maps ready");
+      };
+    </script>
     <script type="module" src="/src/main.tsx"></script>
+
   </body>
 </html>

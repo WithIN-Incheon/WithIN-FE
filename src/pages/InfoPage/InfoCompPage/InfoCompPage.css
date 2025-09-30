@@ -1,0 +1,151 @@
+.comp-page {
+  background: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 콘텐츠 영역 */
+.comp-content {
+  padding: 25px 36px 24px; /* 헤더로부터 25px */
+  overflow-y: auto;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", sans-serif;
+  color: #2b2f3a;
+}
+
+/* 대제목 */
+.comp-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #2f3747;
+}
+.comp-title + .section-title {
+  margin-top: 25px; /* 산재 보험 → 정의 */
+}
+
+/* 섹션 제목 */
+.section-title {
+  position: relative;
+  display: block;
+  width: fit-content;
+  z-index: 0;
+  margin: 25px 0 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #2f3747;
+}
+.section-title.hl::after {
+  content: "";
+  position: absolute;
+  left: -6px;
+  right: -27px;
+  top: 50%;
+  height: 12px;
+  background: #e0eeff;
+  border-radius: 4px;
+  z-index: -1;
+}
+.section-title + .paragraph,
+.section-title + .check-list,
+.section-title + .dash-list {
+  margin-top: 15px; /* 정의/적용 대상/대상 범위 밑 */
+}
+.section-title:last-of-type,
+.dash-list:last-of-type,
+.check-list:last-of-type,
+.paragraph:last-of-type {
+  margin-bottom: 15px; /* 대상 범위 블록 끝 */
+}
+
+/* 본문 */
+.paragraph {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #3a4152;
+}
+
+/* 체크 리스트 */
+.check-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.check-list li {
+  position: relative;
+  padding-left: 26px;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.check-list li::before {
+  content: "✔️";
+  position: absolute;
+  left: 0;
+  top: 1px;
+}
+
+/* 안내 박스 */
+.note-box {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-bottom: 42px;
+  background: #eaf3ff;
+  border: 1px solid #000000;
+  border-radius: 12px;
+  padding: 16px;
+}
+.note-icon {
+  width: 28px;
+  height: 28px;
+  flex: 0 0 auto;
+}
+.note-text {
+  flex: 1 1 auto;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #3a4152;
+}
+.note-title {
+  margin: 0 0 6px 0;
+  font-size: 11px;
+  font-weight: 600;
+  color: #2f3747;
+}
+.note-body {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #3a4152;
+}
+.note-body + .note-body {
+  margin-top: 5px;
+}
+
+/* 대시 리스트 */
+.dash-list {
+  margin: 0;
+  padding-left: 16px;
+}
+.dash-list li {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.dash-list li::marker {
+  content: "– ";
+}
+
+/* 바텀바 여유 */
+.bottom-spacer {
+  height: 96px;
+}

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import ContinueButton from '../../components/Login/Button/ContinueButton';
 import './SignupPage.css';
 
@@ -13,6 +14,8 @@ const stepConfig = [
 ];
 
 const SignupPage = () => {
+    const navigate = useNavigate(); 
+
     const [currentStep, setCurrentStep] = useState(0);
     const [direction, setDirection] = useState<'next' | 'prev'>('next');
     const [showPassword, setShowPassword] = useState(false);
@@ -98,6 +101,7 @@ const SignupPage = () => {
                     setCurrentStep(prev => prev + 1);
                 } else {
                     console.log('회원가입 완료:', formData);
+                    navigate("/home");
                 }
             }
         }
@@ -111,6 +115,10 @@ const SignupPage = () => {
         } else if (currentStep > 0) {
             setDirection('prev');
             setCurrentStep(prev => prev - 1);
+        } else {
+            // 첫 단계일 때는 브라우저 히스토리 뒤로가기
+            navigate(-1);
+            // navigate("/login");
         }
     };
 
