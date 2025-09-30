@@ -41,13 +41,11 @@ function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/" element={<LangPage />} />
+        <Route path="/login" element={<LoginPage />} />
         <Route path="/home" element={<HomePage />} />
         <Route path="/signup" element={<SignupPage />} />
         <Route path="/helper" element={<HelperPage />} />
-
-        <Route path="/" element={<LangPage />} />
-        <Route path="/login" element={<LoginPage />} />
-
 
         <Route path="/cases" element={<CasePage />} />
         <Route path="/cases/:id" element={<CaseDetailPage />} />
