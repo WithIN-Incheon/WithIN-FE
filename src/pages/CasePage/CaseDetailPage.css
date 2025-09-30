@@ -18,7 +18,7 @@
 /* Title (1~5) */
 .num-title {
   font-size: 16px;
-  font-weight: 600; /* semibold */
+  font-weight: 600; 
   line-height: 1.4;
   color: #2f3747;
   margin: 0;
@@ -31,31 +31,32 @@
   box-shadow: 0 8px 24px rgba(26, 39, 56, 0.08);
   padding: 16px;
 }
+
 .first-card {
-  width: 335px;
-  margin-left: 29px;   /* 왼쪽 29px */
-  margin-top: 22px;    /* 헤더 아래 22px */
-  margin-bottom: 35px; /* 카드 하단 → 2번 시작 35px */
+  width: min(335px, calc(100% - 58px)); 
+  margin: 22px auto 35px;
 }
+
+/* 카드 내부 타이틀 간격 */
 .first-card .num-title {
-  margin-top: 16px;    /* 카드 상단 → 타이틀 16px */
-  margin-bottom: 10px; /* 타이틀 → 내용 10px */
+  margin-top: 16px;   
+  margin-bottom: 10px; 
 }
 
 /* 본문 공통 */
 .body,
 .summary {
   font-size: 13px;
-  font-weight: 400; /* regular */
+  font-weight: 400; 
   line-height: 1.6;
   color: #2b2f3a;
 }
 
-/* 라벨(콜론 앞) - summary 안의 강조 텍스트 */
+/* 라벨*/
 .summary b,
 .summary strong {
   font-size: 13px;
-  font-weight: 700; /* bold */
+  font-weight: 700;
   color: #2b2f3a;
 }
 
@@ -77,7 +78,7 @@
   font-weight: 400;
 }
 
-/* summary 내부에 ul/li가 들어와도 하이픈으로 보이도록 */
+/* summary 내부에 ul/li가 하이픈으로 보이도록 */
 .summary ul,
 .summary ol {
   list-style: none;
