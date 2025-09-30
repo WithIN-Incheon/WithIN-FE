@@ -116,7 +116,7 @@ const SignupPage = () => {
             setDirection('prev');
             setCurrentStep(prev => prev - 1);
         } else {
-            // 첫 단계일 때는 브라우저 히스토리 뒤로가기
+            // 뒤로가기
             navigate(-1);
         }
     };
