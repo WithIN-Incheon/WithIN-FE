@@ -132,3 +132,23 @@
   background:#fff; font-size:18px; font-weight:700; cursor:pointer;
   box-shadow:0 1px 3px rgba(0,0,0,.12);
 }
+
+/* 커서 */
+.loc-cursor{
+  width:24px; height:24px;
+  border-radius:50%;
+  background:rgba(12,140,255,0.18);
+  display:grid; place-items:center;
+  animation: locPulse 1.6s ease-out infinite;
+  box-shadow: 0 0 0 1px rgba(12,140,255,0.24) inset;
+}
+.loc-cursor__dot{
+  width:10px; height:10px; border-radius:50%;
+  background:#0C8CFF;
+  box-shadow: 0 0 0 2px #fff;
+}
+@keyframes locPulse{
+  0%   { transform: scale(0.9); opacity: .95; }
+  70%  { transform: scale(1.2); opacity: .35; }
+  100% { transform: scale(0.9); opacity: .95; }
+}
