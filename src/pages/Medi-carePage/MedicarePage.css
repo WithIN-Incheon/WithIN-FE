@@ -50,7 +50,7 @@
     background: #FAFBFC;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    padding: 14px 0 100px 0; /* 하단 패딩을 늘려서 저장하기 버튼 공간 확보 */
+    padding: 14px 0 20px 0; /* 하단 패딩을 늘려서 저장하기 버튼 공간 확보 */
     overflow-y: auto;
     display: flex;
     flex-direction: column;
@@ -96,14 +96,14 @@
     margin-top: 70px;
 }
 
-/* 저장하기 버튼을 하단에 고정하기 위한 새로운 클래스 추가 */
-/* .save-button-container {
-    /* position: fixed;
-    bottom: 120px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    max-width: 328px;
-    padding: 0 20px;
-    z-index: 10; 
-} */
+.medi-content-description {
+    width: 328px;
+    height: 245px;
+    background: white;
+    border-radius: 12px;
+    color: #363B48;
+    display: flex;
+    padding: 24px 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}

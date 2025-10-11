@@ -1,0 +1,316 @@
+{
+  "name": {
+    "describe":"이름",
+    "p": 0,
+    "x": 70,
+    "y": 681,
+    "size": 12
+  },
+  "addr": {
+    "describe":"주소",
+    "p": 0,
+    "x": 70,
+    "y": 642,
+    "size": 12,
+    "mask": true
+  },
+  "rrn": {
+    "describe":"주민등록번호, 외국인등록번호",
+    "p": 0,
+    "x": 331,
+    "y": 679,
+    "size": 12,
+    "boxType": "dash"
+  },
+  "occur_time": {
+    "describe":"재해발생시간",
+    "p": 0,
+    "x": 120,
+    "y": 617,
+    "size": 12,
+    "boxType": "date"
+  },
+  "phone_person":{
+    "describe":"휴대전화",
+    "p": 0,
+    "x": 395,
+    "y": 656,
+    "size": 12
+  },
+  "phone_house":{
+    "describe":"전화번호",
+    "p": 0,
+    "x": 395,
+    "y": 639,
+    "size": 12
+  },
+  "employ_year":{
+    "describe":"채용일자 년도",
+    "p": 0,
+    "x": 415,
+    "y": 616,
+    "size": 12
+  },
+    "employ_month":{
+    "describe":"채용일자 월",  
+    "p": 0,
+    "x": 456,
+    "y": 616,
+    "size": 12
+  },
+  "employ_day":{
+    "describe":"채용일자 일",
+    "p": 0,
+    "x": 482,
+    "y": 616,
+    "size": 12
+  },
+  "work_starttime":{
+    "describe":"출근시간",
+    "p": 0,
+    "x": 113,
+    "y": 593,
+    "size": 12
+  },
+  "work_endtime":{
+    "describe":"퇴근시간",
+    "p": 0,
+    "x": 276,
+    "y": 593,
+    "size": 12
+  },
+  "job_type":{
+    "describe":"직종",
+    "p": 0,
+    "x": 421,
+    "y": 593,
+    "size": 12
+  },
+  "bussiness_owner_status": { 
+    "describe":"사업주여부",
+    "p": 0,
+    "x": 169,
+    "y": 578,
+    "size": 12,
+    "boxType": "radio",
+    "radioOptions": [
+      { "x": 165, "y": 576 },
+      { "x": 165, "y": 558 },
+      { "x": 289, "y": 558 }
+    ]
+  },
+  "family_status": { 
+    "describe":"친인척여부",
+    "p": 0,
+    "x": 165,
+    "y": 542,
+    "size": 12,
+    "boxType": "radio",
+    "radioOptions": [
+      { "x": 165, "y": 542 },
+      { "x": 165, "y": 523 },
+      { "x": 217, "y": 523 },
+      { "x": 263, "y": 523 },
+      { "x": 311, "y": 523 },
+      { "x": 369, "y": 523 }
+    ]
+  },
+  "other_family":{
+    "describe":"기타 친인척",
+    "p": 0,
+    "x": 434,
+    "y": 523,
+    "size": 8
+  },
+  "apply_category":{
+    "describe":"신청 구분",
+    "p":0,
+    "x":163,
+    "y":504,
+    "size":12,
+    "boxType":"radio",
+    "radioOptions":[
+      {"x":163,"y":504},
+      {"x":263,"y":504},
+      {"x":440,"y":504}
+    ]
+  },
+    "comp_name":{
+    "describe":"사업장명",
+    "p": 0,
+    "x": 114,
+    "y": 484,
+    "size": 12
+  },
+    "boss_name":{
+    "describe":"사업주명",
+    "p": 0,
+    "x": 297,
+    "y": 484,
+    "size": 12
+  },
+    "comp_contact":{
+    "describe":"연락처",
+    "p": 0,
+    "x": 468,
+    "y": 484,
+    "size": 12
+  },
+    "bussiness_num":{
+    "describe":"사업장관리번호",
+    "p": 0,
+    "x": 143,
+    "y": 463,
+    "size": 12,
+    "boxType": "dash"
+  },
+    "bussiness_start_num":{
+    "describe":"사업개시번호",
+    "p": 0,
+    "x": 402,
+    "y": 463,
+    "size": 12,
+    "boxType": "dash"
+  },
+    "comp_addr":{
+    "describe":"사업장주소",
+    "p": 0,
+    "x": 114,
+    "y": 438,
+    "size": 12
+  },
+    "acci_desc":{
+    "describe":"재해발생경위",
+    "p": 0,
+    "x": 68,
+    "y": 396,
+    "size": 12
+  },
+    "police_check":{
+    "describe":"경찰신고사실",
+    "p": 0,
+    "x": 454,
+    "y": 324,
+    "size": 12,
+    "boxType":"radio",
+    "radioOptions":[
+      {"x":454,"y":324},
+      {"x":502,"y":324}
+    ]
+  },
+    "fire_check":{
+    "describe":"소방신고사실",
+    "p": 0,
+    "x": 454,
+    "y": 303,
+    "size": 12,
+    "boxType":"radio",
+    "radioOptions":[
+      {"x":454,"y":303},
+      {"x":502,"y":303}
+    ]
+  },
+    "insur_check":{
+    "describe":"보험신고사실",
+    "p": 0,
+    "x": 454,
+    "y": 284,
+    "size": 12,
+    "boxType":"radio",
+    "radioOptions":[
+      {"x":454,"y":282},
+      {"x":502,"y":282}
+    ]
+  },
+    "witness_name":{
+    "describe":"목격자이름",
+    "p": 0,
+    "x": 186,
+    "y": 258,
+    "size": 12
+  },
+    "witness_contact":{
+    "describe":"목격자연락처",
+    "p": 0,
+    "x": 295,
+    "y": 258,
+    "size": 12
+  },
+    "witness_relation":{
+    "describe":"목격자관계",
+    "p": 0,
+    "x": 473,
+    "y": 258,
+    "size": 12
+  },
+    "medical_name1":{
+    "describe":"의료기관명1",
+    "p": 0,
+    "x": 125,
+    "y": 226,
+    "size": 12
+  },
+    "medical_addr1":{
+    "describe":"의료기관주소1",
+    "p": 0,
+    "x": 325,
+    "y": 226,
+    "size": 12
+  },
+    "medical_name2":{
+    "describe":"의료기관명2",
+    "p": 0,
+    "x": 125,
+    "y": 216,
+    "size": 12
+  },
+    "medical_addr2":{
+    "describe":"의료기관주소2",
+    "p": 0,
+    "x": 325,
+    "y": 215,
+    "size": 12
+  },
+    "delegates":{
+    "describe":"위임하는자",
+    "p": 0,
+    "x": 141,
+    "y": 139,
+    "size": 12
+  },
+    "apply_year":{
+    "describe":"신청년",
+    "p": 0,
+    "x": 404,
+    "y": 139,
+    "size": 12
+  },
+    "apply_month":{
+    "describe":"신청월",
+    "p": 0,
+    "x": 404,
+    "y": 139,
+    "size": 12
+  },
+    "apply_date":{
+    "describe":"신청일",
+    "p": 0,
+    "x": 404,
+    "y": 139,
+    "size": 12
+  },
+    "applier":{
+    "describe":"신청인",
+    "p": 0,
+    "x": 404,
+    "y": 139,
+    "size": 12
+  },
+    "proxy_applier":{
+    "describe":"대리인",
+    "p": 0,
+    "x": 404,
+    "y": 139,
+    "size": 12
+  }
+}

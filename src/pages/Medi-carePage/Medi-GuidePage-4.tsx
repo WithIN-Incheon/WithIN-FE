@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useFormData } from "../../contexts/FormDataContext";
 import Header from "../../components/Header/Header";
 import ContinueButton from "../../components/Login/Button/ContinueButton";
 import "./Medi-GuidePage-4.css";
@@ -9,22 +10,35 @@ interface MediGuidePage4Props {
 }
 
 const MediGuidePage4 = ({ onNext, onBack }: MediGuidePage4Props) => {
-    const [disasterDetails, setDisasterDetails] = useState("");
-    const [policeReport, setPoliceReport] = useState<string>("");
-    const [emergencyReport, setEmergencyReport] = useState<string>("");
-    const [insuranceReport, setInsuranceReport] = useState<string>("");
+    const { formData, updateFormData } = useFormData();
+    
+    const [disasterDetails, setDisasterDetails] = useState(formData.acci_desc || "");
+    const [policeReport, setPoliceReport] = useState<string>(formData.police_check || "");
+    const [emergencyReport, setEmergencyReport] = useState<string>(formData.fire_check || "");
+    const [insuranceReport, setInsuranceReport] = useState<string>(formData.insur_check || "");
+
+    const handleNext = () => {
+        updateFormData({
+            acci_desc: disasterDetails,
+            police_check: policeReport,
+            fire_check: emergencyReport,
+            insur_check: insuranceReport
+        });
+        
+        onNext?.();
+    };
 
     return (
         <div className="app">
-            <Header title="요양 급여 신청 가이드" />
+            <Header title="요양 급여 신청 가이드" onBack={onBack}/>
             <div className="medi-guide-title">
                 <h2>정보를 입력해 주세요.</h2>
             </div>
             
             <div className="medi-4-form-container">
                 <div className="medi-4-section-header">
-                    <h3>재해 발생 경위</h3>
-                    <div className="medi-4-info-icon">i</div>
+                    <h3>재해 발생 경위 </h3>
+                    <img src="/info_square.png" alt="info-icon" />
                 </div>
                 <p className="medi-4-instruction-text">
                     내용이 많은 경우 다른 종이에 적으시는 걸 추천드립니다.
@@ -51,8 +65,8 @@ const MediGuidePage4 = ({ onNext, onBack }: MediGuidePage4Props) => {
                                 <input
                                     type="radio"
                                     name="policeReport"
-                                    value="yes"
-                                    checked={policeReport === "yes"}
+                                    value="0"
+                                    checked={policeReport === "0"}
                                     onChange={(e) => setPoliceReport(e.target.value)}
                                 />
                                 <span className="medi-4-radio-label">예</span>
@@ -61,8 +75,8 @@ const MediGuidePage4 = ({ onNext, onBack }: MediGuidePage4Props) => {
                                 <input
                                     type="radio"
                                     name="policeReport"
-                                    value="no"
-                                    checked={policeReport === "no"}
+                                    value="1"
+                                    checked={policeReport === "1"}
                                     onChange={(e) => setPoliceReport(e.target.value)}
                                 />
                                 <span className="medi-4-radio-label">아니오</span>
@@ -77,8 +91,8 @@ const MediGuidePage4 = ({ onNext, onBack }: MediGuidePage4Props) => {
                                 <input
                                     type="radio"
                                     name="emergencyReport"
-                                    value="yes"
-                                    checked={emergencyReport === "yes"}
+                                    value="0"
+                                    checked={emergencyReport === "0"}
                                     onChange={(e) => setEmergencyReport(e.target.value)}
                                 />
                                 <span className="medi-4-radio-label">예</span>
@@ -87,8 +101,8 @@ const MediGuidePage4 = ({ onNext, onBack }: MediGuidePage4Props) => {
                                 <input
                                     type="radio"
                                     name="emergencyReport"
-                                    value="no"
-                                    checked={emergencyReport === "no"}
+                                    value="1"
+                                    checked={emergencyReport === "1"}
                                     onChange={(e) => setEmergencyReport(e.target.value)}
                                 />
                                 <span className="medi-4-radio-label">아니오</span>
@@ -103,8 +117,8 @@ const MediGuidePage4 = ({ onNext, onBack }: MediGuidePage4Props) => {
                                 <input
                                     type="radio"
                                     name="insuranceReport"
-                                    value="yes"
-                                    checked={insuranceReport === "yes"}
+                                    value="0"
+                                    checked={insuranceReport === "0"}
                                     onChange={(e) => setInsuranceReport(e.target.value)}
                                 />
                                 <span className="medi-4-radio-label">예</span>
@@ -113,8 +127,8 @@ const MediGuidePage4 = ({ onNext, onBack }: MediGuidePage4Props) => {
                                 <input
                                     type="radio"
                                     name="insuranceReport"
-                                    value="no"
-                                    checked={insuranceReport === "no"}
+                                    value="1"
+                                    checked={insuranceReport === "1"}
                                     onChange={(e) => setInsuranceReport(e.target.value)}
                                 />
                                 <span className="medi-4-radio-label">아니오</span>
@@ -125,7 +139,7 @@ const MediGuidePage4 = ({ onNext, onBack }: MediGuidePage4Props) => {
             </div>
 
             <div className="medi-4-save-button-container">
-                <ContinueButton text="다음" onClick={onNext || (() => {})} />
+                <ContinueButton text="다음" onClick={handleNext} />
             </div>
         </div>
     );
