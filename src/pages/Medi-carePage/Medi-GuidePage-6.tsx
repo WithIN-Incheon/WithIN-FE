@@ -27,7 +27,7 @@ const MediGuidePage6 = ({ onNext, onBack }: MediGuidePage6Props) => {
                             <div className="form-section">
                                 <div className="form-label">
                                     <label>이름</label>
-                                    <div className="info-icon">ⓘ</div>
+                                    <img src="/info_square.png" alt="info-icon" />
                                 </div>
                                 <input 
                                     type="text" 
@@ -41,7 +41,7 @@ const MediGuidePage6 = ({ onNext, onBack }: MediGuidePage6Props) => {
                             <div className="form-section">
                                 <div className="form-label">
                                     <label>외국인등록번호</label>
-                                    <div className="info-icon">ⓘ</div>
+                                    <img src="/info_square.png" alt="info-icon" />
                                 </div>
                                 <div className="registration-number-input">
                                     <input 
@@ -64,7 +64,7 @@ const MediGuidePage6 = ({ onNext, onBack }: MediGuidePage6Props) => {
                             <div className="form-section">
                                 <div className="form-label">
                                     <label>전화번호</label>
-                                    <div className="info-icon">ⓘ</div>
+                                    <img src="/info_square.png" alt="info-icon" />
                                 </div>
                                 <input 
                                     type="tel" 
@@ -78,7 +78,7 @@ const MediGuidePage6 = ({ onNext, onBack }: MediGuidePage6Props) => {
                             <div className="form-section">
                                 <div className="form-label">
                                     <label>주소</label>
-                                    <div className="info-icon">ⓘ</div>
+                                    <img src="/info_square.png" alt="info-icon" />
                                 </div>
                                 <div className="address-input-container">
                                     <input 
@@ -94,7 +94,7 @@ const MediGuidePage6 = ({ onNext, onBack }: MediGuidePage6Props) => {
                             <div className="form-section">
                                 <div className="form-label">
                                     <label>재해발생일시</label>
-                                    <div className="info-icon">ⓘ</div>
+                                    <img src="/info_square.png" alt="info-icon" />
                                 </div>
                                 <div className="datetime-input">
                                     <input 
@@ -114,7 +114,7 @@ const MediGuidePage6 = ({ onNext, onBack }: MediGuidePage6Props) => {
                             <div className="form-section">
                                 <div className="form-label">
                                     <label>채용일자</label>
-                                    <div className="info-icon">ⓘ</div>
+                                    <img src="/info_square.png" alt="info-icon" />
                                 </div>
                                 <input 
                                     type="date" 
@@ -127,7 +127,7 @@ const MediGuidePage6 = ({ onNext, onBack }: MediGuidePage6Props) => {
                             <div className="form-section">
                                 <div className="form-label">
                                     <label>출근 시작/퇴근 시간</label>
-                                    <div className="info-icon">ⓘ</div>
+                                    <img src="/info_square.png" alt="info-icon" />
                                 </div>
                                 <div className="work-time-input">
                                     <input 
@@ -148,7 +148,7 @@ const MediGuidePage6 = ({ onNext, onBack }: MediGuidePage6Props) => {
                             <div className="form-section">
                                 <div className="form-label">
                                     <label>직종</label>
-                                    <div className="info-icon">ⓘ</div>
+                                    <img src="/info_square.png" alt="info-icon" />
                                 </div>
                                 <input 
                                     type="text" 
@@ -227,7 +227,7 @@ const MediGuidePage6 = ({ onNext, onBack }: MediGuidePage6Props) => {
                             <div className="form-section">
                                 <div className="form-label">
                                     <label>사업장명</label>
-                                    <div className="info-icon">ⓘ</div>
+                                    <img src="/info_square.png" alt="info-icon" />
                                 </div>
                                 <input 
                                     type="text" 
@@ -238,7 +238,7 @@ const MediGuidePage6 = ({ onNext, onBack }: MediGuidePage6Props) => {
                             <div className="form-section">
                                 <div className="form-label">
                                     <label>사업주명</label>
-                                    <div className="info-icon">ⓘ</div>
+                                    <img src="/info_square.png" alt="info-icon" />
                                 </div>
                                 <input 
                                     type="text" 
@@ -249,7 +249,7 @@ const MediGuidePage6 = ({ onNext, onBack }: MediGuidePage6Props) => {
                             <div className="form-section">
                                 <div className="form-label">
                                     <label>연락처</label>
-                                    <div className="info-icon">ⓘ</div>
+                                    <img src="/info_square.png" alt="info-icon" />
                                 </div>
                                 <input 
                                     type="text" 
@@ -260,7 +260,7 @@ const MediGuidePage6 = ({ onNext, onBack }: MediGuidePage6Props) => {
                             <div className="form-section">
                                 <div className="form-label">
                                     <label>사업장관리번호</label>
-                                    <div className="info-icon">ⓘ</div>
+                                    <img src="/info_square.png" alt="info-icon" />
                                 </div>
                                 <div className="address-input-container">
                                     <input 
@@ -274,7 +274,7 @@ const MediGuidePage6 = ({ onNext, onBack }: MediGuidePage6Props) => {
                             <div className="form-section">
                                 <div className="form-label">
                                     <label>사업장주소</label>
-                                    <div className="info-icon">ⓘ</div>
+                                    <img src="/info_square.png" alt="info-icon" />
                                 </div>
                                 <div className="address-input-container">
                                     <input 
@@ -294,7 +294,7 @@ const MediGuidePage6 = ({ onNext, onBack }: MediGuidePage6Props) => {
                     <div className="medi-4-form-container">
                         <div className="medi-4-section-header">
                             <h3>재해 발생 경위</h3>
-                            <div className="medi-4-info-icon">i</div>
+                            <img src="/info_square.png" alt="info-icon" />
                         </div>
                         <p className="medi-4-instruction-text">
                             내용이 많은 경우 다른 종이에 적으시는 걸 추천드립니다.
@@ -391,7 +391,7 @@ const MediGuidePage6 = ({ onNext, onBack }: MediGuidePage6Props) => {
                             <div className="form-section">
                                 <div className="form-label">
                                     <label>이름</label>
-                                    <div className="info-icon">ⓘ</div>
+                                    <img src="/info_square.png" alt="info-icon" />
                                 </div>
                                 <input 
                                     type="text" 
@@ -402,7 +402,7 @@ const MediGuidePage6 = ({ onNext, onBack }: MediGuidePage6Props) => {
                             <div className="form-section">
                                 <div className="form-label">
                                     <label>연락처</label>
-                                    <div className="info-icon">ⓘ</div>
+                                    <img src="/info_square.png" alt="info-icon" />
                                 </div>
                                 <input 
                                     type="text" 
@@ -413,7 +413,7 @@ const MediGuidePage6 = ({ onNext, onBack }: MediGuidePage6Props) => {
                             <div className="form-section">
                                 <div className="form-label">
                                     <label>재해자와의 관계</label>
-                                    <div className="info-icon">ⓘ</div>
+                                    <img src="/info_square.png" alt="info-icon" />
                                 </div>
                                 <input 
                                     type="text" 
@@ -427,7 +427,7 @@ const MediGuidePage6 = ({ onNext, onBack }: MediGuidePage6Props) => {
                             <div className="form-section">
                                 <div className="form-label">
                                     <label>의료기관명</label>
-                                    <div className="info-icon">ⓘ</div>
+                                    <img src="/info_square.png" alt="info-icon" />
                                 </div>
                                 <input 
                                     type="text" 
@@ -438,7 +438,7 @@ const MediGuidePage6 = ({ onNext, onBack }: MediGuidePage6Props) => {
                             <div className="form-section">
                                 <div className="form-label">
                                     <label>소재지</label>
-                                    <div className="info-icon">ⓘ</div>
+                                    <img src="/info_square.png" alt="info-icon" />
                                 </div>
                                 <input 
                                     type="text" 
