@@ -12,13 +12,12 @@ const MedicarePage = () => {
 
     return (
         <div className="app">
-            <Header title="요양 급여 신청 가이드" />
+            <Header title="최초 요양 급여 신청서 연습" />
             <div className="medi-hero">
                 <div className="medi-intro">
                     <div className="medi-intro-title">
-                        김윗인 님,<br/>
                         최초 요양 급여 신청서<br/>
-                        작성이 처음이신가요?
+                        작성법을 연습해보세요!<br/>
                     </div>
                     <img className="medi-intro-img" src="/Medicare/medicare-apply.svg"/>
                 </div>
@@ -29,9 +28,12 @@ const MedicarePage = () => {
                         <img className="medi-content-button-img" src="/Medicare/File.svg"/>
                         <span className="medi-content-button-text">최초 요양 급여 신청서 작성</span>
                     </div>
-                    <div className="medi-content-button">
-                        <img className="medi-content-button-img" src="/Medicare/Square-plus.svg"/>
-                        <span className="medi-content-button-text">신청서 추가</span>
+                    <div className="medi-content-description">
+                        ✔️ 이 기능은 산업재해 보상보험 신청을 하기 전 최초요양급여신청서 작성 연습을 할 수 있는 기능입니다.<br/>
+                        <br/>
+                        ✔️ 작성하기 어려운 부분은 넘어가셔도 괜찮아요.<br/>
+                        <br/>
+                        ✔️ 사업장 검색, 주소 검색은 영어만 지원합니다. <br/>
                     </div>
                 </div>
             </div>

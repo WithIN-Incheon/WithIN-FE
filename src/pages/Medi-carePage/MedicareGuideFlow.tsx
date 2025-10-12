@@ -1,22 +1,24 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { FormDataProvider, useFormData } from "../../contexts/FormDataContext";
 import MediGuidePage1 from "./Medi-GuidePage-1";
 import MediGuidePage2 from "./Medi-GuidePage-2";
 import MediGuidePage3 from "./Medi-GuidePage-3";
 import MediGuidePage4 from "./Medi-GuidePage-4";
 import MediGuidePage5 from "./Medi-GuidePage-5";
-import MediGuidePage6 from "./Medi-GuidePage-6";
 import MediResult from "./Medicare-result";
-const MedicareGuideFlow = () => {
+
+const MedicareGuideFlowContent = () => {
   const navigate = useNavigate();
   const [currentStep, setCurrentStep] = useState(1);
+  const { getJsonData } = useFormData();
 
   const handleNext = () => {
-    if (currentStep < 7) {
+    if (currentStep < 6) {
       setCurrentStep(currentStep + 1);
     } else {
-      // 모든 단계 완료
-      navigate("/medicare");
+      // 마지막 단계로 이동
+      setCurrentStep(6);
     }
   };
 
@@ -41,8 +43,6 @@ const MedicareGuideFlow = () => {
       case 5:
         return <MediGuidePage5 onNext={handleNext} onBack={handleBack} />;
       case 6:
-        return <MediGuidePage6 onNext={handleNext} onBack={handleBack} />;
-      case 7:
         return <MediResult />;
       default:
         return <MediGuidePage1 onNext={handleNext} onBack={handleBack} />;
@@ -50,6 +50,14 @@ const MedicareGuideFlow = () => {
   };
 
   return renderCurrentStep();
+};
+
+const MedicareGuideFlow = () => {
+  return (
+    <FormDataProvider>
+      <MedicareGuideFlowContent />
+    </FormDataProvider>
+  );
 };
 
 export default MedicareGuideFlow;
