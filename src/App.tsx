@@ -2,17 +2,11 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import HomePage from "./pages/HomePage/HomePage";
-import SignupPage from "./pages/SignupPage/SignupPage";
 import CasePage from "./pages/CasePage/CasePage";
 import CaseDetailPage from "./pages/CasePage/CaseDetailPage";
 import GuidePage from "./pages/Comp-GuidePage/Comp-GuidePage";
-import FavoritePage from "./pages/FavoritePage/FavoritePage";
-import MyPage from "./pages/MyPage/MyPage";
-import EditPage from "./pages/MyPage/EditPage";
-import DataPage from "./pages/MyPage/DataPage";
 
 import LocationPage from "./pages/LocationPage/LocationPage";
-import BookmarkPage from "./pages/LocationPage/BookmarkPage/BookmarkPage";
 import SearchPage from "./pages/LocationPage/SearchPage/SearchPage";
 
 import InfoPage from "./pages/InfoPage/InfoPage";
@@ -23,8 +17,6 @@ import InfoDictionPage from "./pages/InfoPage/InfoDictionPage/InfoDictionPage";
 import InfoTipPage from "./pages/InfoPage/InfoTipPage/InfoTipPage";
 import InfoCenterPage from "./pages/InfoPage/InfoCenterPage/InfoCenterPage";
 
-import HelperPage from "./pages/HelpPage/HelpPage";
-
 import MedicarePage from "./pages/Medi-carePage/MedicarePage";
 import MedicareGuideFlow from "./pages/Medi-carePage/MedicareGuideFlow";
 import MediGuidePage1 from "./pages/Medi-carePage/Medi-GuidePage-1";
@@ -34,30 +26,29 @@ import MediGuidePage4 from "./pages/Medi-carePage/Medi-GuidePage-4";
 import MediGuidePage5 from "./pages/Medi-carePage/Medi-GuidePage-5";
 import MediGuidePage6 from "./pages/Medi-carePage/Medi-GuidePage-6";
 import MediResult from "./pages/Medi-carePage/Medicare-result";
-import LoginPage from "./pages/LoginPage/LoginPage";
 import LangPage from "./pages/LangPage/LangPage";
+
+// import SignupPage from "./pages/SignupPage/SignupPage";
+// import BookmarkPage from "./pages/LocationPage/BookmarkPage/BookmarkPage";
+// import FavoritePage from "./pages/FavoritePage/FavoritePage";
+// import MyPage from "./pages/MyPage/MyPage";
+// import EditPage from "./pages/MyPage/EditPage";
+// import DataPage from "./pages/MyPage/DataPage";
+// import LoginPage from "./pages/LoginPage/LoginPage";
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<LangPage />} />
-        <Route path="/login" element={<LoginPage />} />
         <Route path="/home" element={<HomePage />} />
-        <Route path="/signup" element={<SignupPage />} />
-        <Route path="/helper" element={<HelperPage />} />
 
         <Route path="/cases" element={<CasePage />} />
         <Route path="/cases/:id" element={<CaseDetailPage />} />
 
         <Route path="/guide" element={<GuidePage />} />
-        <Route path="/favorite" element={<FavoritePage />} />
-        <Route path="/mypage" element={<MyPage />} />
-        <Route path="/mypage/edit" element={<EditPage />} />
-        <Route path="/mypage/data" element={<DataPage />} />
 
         <Route path="/location" element={<LocationPage />} />
-        <Route path="/location/bookmark" element={<BookmarkPage />} />
         <Route path="/location/search" element={<SearchPage />} />
 
         <Route path="/info" element={<InfoPage />} />

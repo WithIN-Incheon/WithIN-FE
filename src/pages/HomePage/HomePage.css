@@ -207,12 +207,3 @@ body {
     max-width: 300px;
   }
 }
-
-/* ================= Floating Chat 버튼 ================= */
-.chat {
-  position: fixed;
-  right: 14px;
-  bottom: calc(100px + 15px);
-  width: 54px;
-  height: 54px;
-}
