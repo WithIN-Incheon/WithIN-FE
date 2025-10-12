@@ -14,8 +14,6 @@ import InfoCompPage from "./pages/InfoPage/InfoCompPage/InfoCompPage";
 import InfoProcessPage from "./pages/InfoPage/InfoProcessPage/InfoProcessPage";
 import InfoSalaryPage from "./pages/InfoPage/InfoSalaryPage/InfoSalaryPage";
 import InfoDictionPage from "./pages/InfoPage/InfoDictionPage/InfoDictionPage";
-import InfoTipPage from "./pages/InfoPage/InfoTipPage/InfoTipPage";
-import InfoCenterPage from "./pages/InfoPage/InfoCenterPage/InfoCenterPage";
 
 import MedicarePage from "./pages/Medi-carePage/MedicarePage";
 import MedicareGuideFlow from "./pages/Medi-carePage/MedicareGuideFlow";
@@ -28,6 +26,8 @@ import MediGuidePage6 from "./pages/Medi-carePage/Medi-GuidePage-6";
 import MediResult from "./pages/Medi-carePage/Medicare-result";
 import LangPage from "./pages/LangPage/LangPage";
 
+// import InfoTipPage from "./pages/InfoPage/InfoTipPage/InfoTipPage";
+// import InfoCenterPage from "./pages/InfoPage/InfoCenterPage/InfoCenterPage";
 // import SignupPage from "./pages/SignupPage/SignupPage";
 // import BookmarkPage from "./pages/LocationPage/BookmarkPage/BookmarkPage";
 // import FavoritePage from "./pages/FavoritePage/FavoritePage";
@@ -56,8 +56,6 @@ function App() {
         <Route path="/info/process" element={<InfoProcessPage />} />
         <Route path="/info/salary" element={<InfoSalaryPage />} />
         <Route path="/info/dictionary" element={<InfoDictionPage />} />
-        <Route path="/info/tip" element={<InfoTipPage />} />
-        <Route path="/info/center" element={<InfoCenterPage />} />
 
         <Route path="/medicare" element={<MedicarePage />} />
         <Route path="/medicare-guide-flow" element={<MedicareGuideFlow />} />
