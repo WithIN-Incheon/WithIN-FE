@@ -13,7 +13,6 @@ export default function App() {
             김윗인 님
             <img className="vector" src="/Home/Vector.svg" alt="vector" />
           </div>
-         
         </div>
 
         <img className="bg-icon" src="/Home/BgIcon.png" alt="bg" />
@@ -63,7 +62,6 @@ export default function App() {
       </div>
 
       <BottomBar />
-      <img className="chat" src="/Home/Chat.svg" alt="chat" />
     </div>
   );
 }
