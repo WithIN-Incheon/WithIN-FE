@@ -32,7 +32,7 @@ const MediGuidePage5 = ({ onNext, onBack }: MediGuidePage5Props) => {
 
     return (
         <div className="app">
-            <Header title="요양 급여 신청 가이드" onBack={onBack}/>
+            <Header title="최초 요양 급여 신청서 연습" onBack={onBack} showHomebtn={true}/>
             <div className="medi-guide-title">
                 <h2>정보를 입력해 주세요.</h2>
             </div>

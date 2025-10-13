@@ -17,6 +17,9 @@ const MediGuidePage4 = ({ onNext, onBack }: MediGuidePage4Props) => {
     const [emergencyReport, setEmergencyReport] = useState<string>(formData.fire_check || "");
     const [insuranceReport, setInsuranceReport] = useState<string>(formData.insur_check || "");
 
+    // 모든 라디오 버튼이 선택되었는지 확인
+    const isButtonDisabled = policeReport === "" || emergencyReport === "" || insuranceReport === "";
+
     const handleNext = () => {
         updateFormData({
             acci_desc: disasterDetails,
@@ -30,7 +33,7 @@ const MediGuidePage4 = ({ onNext, onBack }: MediGuidePage4Props) => {
 
     return (
         <div className="app">
-            <Header title="요양 급여 신청 가이드" onBack={onBack}/>
+            <Header title="최초 요양 급여 신청서 연습" onBack={onBack} showHomebtn={true}/>
             <div className="medi-guide-title">
                 <h2>정보를 입력해 주세요.</h2>
             </div>
@@ -139,7 +142,11 @@ const MediGuidePage4 = ({ onNext, onBack }: MediGuidePage4Props) => {
             </div>
 
             <div className="medi-4-save-button-container">
-                <ContinueButton text="다음" onClick={handleNext} />
+                <ContinueButton 
+                    text="다음" 
+                    onClick={handleNext} 
+                    disabled={isButtonDisabled}
+                />
             </div>
         </div>
     );

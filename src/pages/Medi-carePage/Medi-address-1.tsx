@@ -129,7 +129,7 @@ const MediAddress1 = () => {
 
     return (
         <div className="app">
-            <Header title="요양 급여 신청 가이드" onBack={handleBack}/>
+            <Header title="최초 요양 급여 신청서 연습" onBack={handleBack} showHomebtn={true}/>
             <div className="medi-guide-title">
                 <h2>주소를 입력해 주세요.</h2>
             </div>

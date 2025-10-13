@@ -22,6 +22,9 @@ const MediGuidePage3 = ({ onNext, onBack, currentStep = 3 }: MediGuidePage3Props
     const [businessNum, setBusinessNum] = useState(formData.bussiness_num || "");
     const [compAddr, setCompAddr] = useState(formData.comp_addr || "");
 
+    // 신청 구분이 선택되었는지 확인
+    const isButtonDisabled = applyCategory === "";
+
     // 주소 검색에서 돌아왔을 때 주소 설정
     useEffect(() => {
         if (location.state?.compAddr) {
@@ -83,7 +86,7 @@ const MediGuidePage3 = ({ onNext, onBack, currentStep = 3 }: MediGuidePage3Props
 
     return (
         <div className="app">
-            <Header title="요양 급여 신청 가이드" onBack={onBack}/>
+            <Header title="요양 급여 신청 가이드" onBack={onBack} showHomebtn={true}/>
             <div className="medi-guide-title">
                 <h2>정보를 입력해 주세요.</h2>
             </div>
@@ -98,7 +101,7 @@ const MediGuidePage3 = ({ onNext, onBack, currentStep = 3 }: MediGuidePage3Props
                             value={applyCategory}
                             onChange={(e) => setApplyCategory(e.target.value)}
                         >
-                            <option value="" disabled>신청 구분</option>
+                            <option value="" disabled>신청 구분을 선택해 주세요.</option>
                             <option value="0">업무상 사고</option>
                             <option value="1">업무상 질병</option>
                             <option value="2">출퇴근 재해</option>
@@ -184,7 +187,11 @@ const MediGuidePage3 = ({ onNext, onBack, currentStep = 3 }: MediGuidePage3Props
                 </form>
             </div>
             <div className="save-button-container">
-                <ContinueButton text="다음" onClick={handleNext} />
+                <ContinueButton 
+                    text="다음" 
+                    onClick={handleNext} 
+                    disabled={isButtonDisabled}
+                />
             </div>
         </div>
     )

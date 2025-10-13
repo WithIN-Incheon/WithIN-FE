@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "./Header.css";
+import { useFormData } from "../../contexts/FormDataContext";
 
 export type HeaderProps = {
   title?: string;
@@ -18,6 +19,9 @@ export type HeaderProps = {
   /** ✅ 검색 아이콘 표시/클릭 핸들러 (추가) */
   showSearch?: boolean;
   onSearchClick?: () => void;
+
+  /** ✅ 홈 버튼 표시 여부 (추가) */
+  showHomebtn?: boolean;
 };
 
 export default function Header({
@@ -35,13 +39,21 @@ export default function Header({
 
   showSearch = false,
   onSearchClick,
+
+  showHomebtn = false,
 }: HeaderProps) {
+  const { resetFormData } = useFormData();
   const navigate = useNavigate();
 
   const handleBack = () => (onBack ? onBack() : navigate(-1));
   const handleMenu = () => onMenuClick?.();
   const handleBookmark = () => (onBookmarkClick ? onBookmarkClick() : navigate(bookmarkTo));
   const handleSearch = () => onSearchClick?.();
+  const handleHome = () => {
+    resetFormData();
+    sessionStorage.removeItem('medicareCurrentStep');
+    navigate("/home");
+  };
 
   return (
     <header className={`header ${className ?? ""}`}>
@@ -92,6 +104,18 @@ export default function Header({
           role="button"
           tabIndex={0}
           onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && handleSearch()}
+        />
+      )}
+
+      {showHomebtn && (
+        <img
+          src="/Home.png"
+          alt="홈"
+          className="header_home"
+          onClick={handleHome}
+          role="button"
+          tabIndex={0}
+          onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && handleHome()}
         />
       )}
     </header>

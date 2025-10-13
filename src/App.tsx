@@ -79,7 +79,6 @@ function App() {
           <Route path="/medi-guide-4" element={<MediGuidePage4 />} />
           <Route path="/medi-guide-5" element={<MediGuidePage5 />} />
           <Route path="/medi-guide-6" element={<MediGuidePage6 />} />
-          <Route path="/medi-result" element={<MediResult />} />
           <Route path="/medi-address-1" element={<MediAddress1 />} />
         </Routes>
       </FormDataProvider>
