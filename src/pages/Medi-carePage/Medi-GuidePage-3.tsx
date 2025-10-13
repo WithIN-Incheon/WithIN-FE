@@ -1,15 +1,19 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useFormData } from "../../contexts/FormDataContext";
+import { useNavigate, useLocation } from "react-router-dom";
 import Header from "../../components/Header/Header";
 import ContinueButton from "../../components/Login/Button/ContinueButton";
 
 interface MediGuidePage3Props {
     onNext?: () => void;
     onBack?: () => void;
+    currentStep?: number;
 }
 
-const MediGuidePage3 = ({ onNext, onBack }: MediGuidePage3Props) => {
+const MediGuidePage3 = ({ onNext, onBack, currentStep = 3 }: MediGuidePage3Props) => {
     const { formData, updateFormData } = useFormData();
+    const navigate = useNavigate();
+    const location = useLocation();
     
     const [applyCategory, setApplyCategory] = useState(formData.apply_category || "");
     const [compName, setCompName] = useState(formData.comp_name || "");
@@ -17,6 +21,52 @@ const MediGuidePage3 = ({ onNext, onBack }: MediGuidePage3Props) => {
     const [compContact, setCompContact] = useState(formData.comp_contact || "");
     const [businessNum, setBusinessNum] = useState(formData.bussiness_num || "");
     const [compAddr, setCompAddr] = useState(formData.comp_addr || "");
+
+    // 주소 검색에서 돌아왔을 때 주소 설정
+    useEffect(() => {
+        if (location.state?.compAddr) {
+            setCompAddr(location.state.compAddr);
+            // 주소가 설정되면 즉시 context에도 저장
+            updateFormData({ comp_addr: location.state.compAddr });
+            // state 초기화 (재사용 방지)
+            window.history.replaceState({}, document.title);
+        }
+    }, [location.state]);
+
+    // 컴포넌트가 언마운트될 때 현재 입력값을 context에 저장
+    useEffect(() => {
+        return () => {
+            updateFormData({
+                apply_category: applyCategory,
+                comp_name: compName,
+                boss_name: bossName,
+                comp_contact: compContact,
+                bussiness_num: businessNum,
+                comp_addr: compAddr
+            });
+        };
+    }, [applyCategory, compName, bossName, compContact, businessNum, compAddr]);
+
+    // 주소 검색 버튼 핸들러
+    const handleAddressSearch = () => {
+        // 주소 검색 페이지로 이동하기 전에 현재 입력값을 context에 저장
+        updateFormData({
+            apply_category: applyCategory,
+            comp_name: compName,
+            boss_name: bossName,
+            comp_contact: compContact,
+            bussiness_num: businessNum,
+            comp_addr: compAddr
+        });
+
+        navigate('/medi-address-1', {
+            state: {
+                returnPath: '/medicare-guide-flow',
+                returnToStep: currentStep,
+                fieldName: 'compAddr'
+            }
+        });
+    };
 
     const handleNext = () => {
         updateFormData({
@@ -122,7 +172,13 @@ const MediGuidePage3 = ({ onNext, onBack }: MediGuidePage3Props) => {
                                 value={compAddr}
                                 onChange={(e) => setCompAddr(e.target.value)}
                             />
-                            <button type="button" className="address-search-btn">주소 검색</button>
+                            <button 
+                                type="button" 
+                                className="address-search-btn"
+                                onClick={handleAddressSearch}
+                            >
+                                주소 검색
+                            </button>
                         </div>
                     </div>
                 </form>
