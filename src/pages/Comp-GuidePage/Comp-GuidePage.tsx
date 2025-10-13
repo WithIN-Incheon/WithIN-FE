@@ -27,12 +27,6 @@ export default function GuidePage() {
           alt="요양 급여 신청 가이드"
           onClick={()=>navigate("/medicare")}
         />
-        <img
-          className="guide-card"
-          src="/Guide/Help-box.svg"
-          alt="산재 증빙 도우미"
-          onClick={() => navigate("/helper")}
-        />
       </main>
 
       <BottomBar />

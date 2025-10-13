@@ -15,7 +15,7 @@ const LangPage = () => {
   const [selectedLanguage, setSelectedLanguage] = useState<Language | null>(
     null
   );
-  const navigate = useNavigate(); // ✅ 라우터 이동 훅
+  const navigate = useNavigate(); 
 
   const handleLanguageChange = (language: Language) => {
     setSelectedLanguage(language);
@@ -24,7 +24,7 @@ const LangPage = () => {
   const handleStart = () => {
     if (selectedLanguage) {
       console.log("Selected language:", selectedLanguage);
-      navigate("/login"); // ✅ 로그인 페이지로 이동
+      navigate("/home");
     }
   };
 

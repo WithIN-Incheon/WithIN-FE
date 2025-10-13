@@ -7,18 +7,15 @@
   background: #ffffff;
   border-top: 1px solid #f2f3f7;
   z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   /* iOS 노치 대응 */
   padding-bottom: env(safe-area-inset-bottom, 0px);
 }
+
 .bottom-bar img {
   cursor: pointer;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 25px;
+  width: 30px;
 }
-
-.icon-home { left: 50%; transform: translate(-50%, -50%); }
-.icon-heart { left: calc(50% - 110px); }
-.icon-profile { left: calc(50% + 110px); }
