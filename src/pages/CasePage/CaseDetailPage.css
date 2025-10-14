@@ -63,6 +63,7 @@
 /* 2~5 섹션 공통 간격/좌측 여백 */
 .sec {
   margin-left: 43px;
+  margin-right: 43px;
   margin-bottom: 35px;
 }
 .sec .num-title {
