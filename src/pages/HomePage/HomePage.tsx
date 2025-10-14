@@ -30,7 +30,7 @@ export default function App() {
           rel="noreferrer"
         >
           {/* 인천외국인종합지원센터 바로 가기 */}
-          메일 건의하기
+          메일 건의하기 (kkwkdm@gmail.com)
           <img className="vector2" src="/Home/Vector2.svg" alt="go" />
         </a>
 
