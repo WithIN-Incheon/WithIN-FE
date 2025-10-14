@@ -15,6 +15,9 @@ const MediGuidePage2 = ({ onNext, onBack }: MediGuidePage2Props) => {
     const [businessOwnerStatus, setBusinessOwnerStatus] = useState(formData.bussiness_owner_status || "");
     const [familyStatus, setFamilyStatus] = useState(formData.family_status || "");
 
+    // 사업주 여부와 친인척 여부가 모두 선택되었는지 확인
+    const isButtonDisabled = businessOwnerStatus === "" || familyStatus === "";
+
     const handleNext = () => {
         updateFormData({
             bussiness_owner_status: businessOwnerStatus,
@@ -26,7 +29,7 @@ const MediGuidePage2 = ({ onNext, onBack }: MediGuidePage2Props) => {
 
     return (
         <div className="app">
-            <Header title="요양 급여 신청 가이드" onBack={onBack}/>
+            <Header title="최초 요양 급여 신청서 연습" onBack={onBack} showHomebtn={true}/>
             <div className="medi-guide-title">
                 <h2>정보를 입력해 주세요.</h2>
             </div>
@@ -45,7 +48,7 @@ const MediGuidePage2 = ({ onNext, onBack }: MediGuidePage2Props) => {
                             value={businessOwnerStatus}
                             onChange={(e) => setBusinessOwnerStatus(e.target.value)}
                         >
-                            <option value="" disabled>사업주 여부</option>
+                            <option value="" disabled>사업주 여부를 선택해 주세요.</option>
                             <option value="0">해당없음</option>
                             <option value="1">실제사업주(동업자포함)</option>
                             <option value="2">하수급사업주</option>
@@ -62,7 +65,7 @@ const MediGuidePage2 = ({ onNext, onBack }: MediGuidePage2Props) => {
                             value={familyStatus}
                             onChange={(e) => setFamilyStatus(e.target.value)}
                         >
-                            <option value="" disabled>친인척 여부</option>
+                            <option value="" disabled>친인척 여부를 선택해 주세요.</option>
                             <option value="0">해당없음</option>
                             <option value="1">배우자</option>
                             <option value="2">부모</option>
@@ -91,7 +94,11 @@ const MediGuidePage2 = ({ onNext, onBack }: MediGuidePage2Props) => {
                 </form>
             </div>
             <div className="save-button-container">
-                <ContinueButton text="다음" onClick={handleNext} />
+                <ContinueButton 
+                    text="다음" 
+                    onClick={handleNext} 
+                    disabled={isButtonDisabled}
+                />
             </div>
         </div>
     )

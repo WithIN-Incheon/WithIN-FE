@@ -1,10 +1,19 @@
 import Header from "../../components/Header/Header";
 import BottomBar from "../../components/BottomBar/BottomBar";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+import { useFormData } from "../../contexts/FormDataContext";
 import "./MedicarePage.css";
 
 const MedicarePage = () => {
     const navigate = useNavigate();
+    const { resetFormData } = useFormData();
+
+    // 컴포넌트 마운트 시 폼 데이터와 currentStep 초기화
+    useEffect(() => {
+        resetFormData();
+        sessionStorage.removeItem('medicareCurrentStep');
+    }, []);
 
     const handleGuideStart = () => {
         navigate("/medicare-guide-flow");

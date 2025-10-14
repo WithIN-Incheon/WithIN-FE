@@ -5,9 +5,9 @@ import { useNavigate } from "react-router-dom";
 import { useFormData } from "../../contexts/FormDataContext";
 import { fillPdf } from "../../utils/Docs_writing/core_utils";
 
-const MediResult = () => {
+const MediResult = ({ onBack }: { onBack: () => void }) => {
     const navigate = useNavigate();
-    const { formData } = useFormData();
+    const { formData, resetFormData } = useFormData();
 
     const handleDownloadPdf = async () => {
         try {
@@ -38,9 +38,15 @@ const MediResult = () => {
         }
     };
 
+    const handleGoHome = () => {
+        resetFormData();
+        sessionStorage.removeItem('medicareCurrentStep');
+        navigate("/home");
+    };
+
     return (
         <div className="app">
-            <Header title="요양 급여 신청 가이드" />
+            <Header title="요양 급여 신청 가이드" onBack={onBack} />
 
             <div className="result-container">
                 <img 
@@ -52,7 +58,7 @@ const MediResult = () => {
 
             <div className="button-container">
                 <ContinueButton text="PDF로 다운받기" onClick={handleDownloadPdf} />
-                <ContinueButton text="홈으로 돌아가기" onClick={() => {navigate("/home");}} />
+                <ContinueButton text="홈으로 돌아가기" onClick={handleGoHome} />
             </div>
         </div>
     )

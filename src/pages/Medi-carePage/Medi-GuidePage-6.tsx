@@ -13,7 +13,7 @@ interface MediGuidePage6Props {
 const MediGuidePage6 = ({ onNext, onBack }: MediGuidePage6Props) => {
     return (
         <div className="app">
-            <Header title="요양 급여 신청 가이드" />
+            <Header title="최초 요양 급여 신청서 연습" showHomebtn={true}/>
             <div className="medi-guide-title">
                 <h2>모든 정보를 꼼꼼히 확인해주세요.</h2>
             </div>

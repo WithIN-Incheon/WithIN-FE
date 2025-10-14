@@ -12,9 +12,12 @@ interface Language {
 }
 
 const LangPage = () => {
-  const [selectedLanguage, setSelectedLanguage] = useState<Language | null>(
-    null
-  );
+  const [selectedLanguage, setSelectedLanguage] = useState<Language | null>({
+    code: 'ko',
+    name: 'Korean', 
+    nativeName: '한국어',
+    flag: '🇰🇷'
+  });
   const navigate = useNavigate(); 
 
   const handleLanguageChange = (language: Language) => {

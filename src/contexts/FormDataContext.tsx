@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from 'react';
+import { createContext, useContext, useState, useEffect } from 'react';
 import type { ReactNode } from 'react';
 
 interface FormData {
@@ -54,8 +54,28 @@ interface FormDataContextType {
 
 const FormDataContext = createContext<FormDataContextType | undefined>(undefined);
 
+const STORAGE_KEY = 'medicareFormData';
+
 export const FormDataProvider = ({ children }: { children: ReactNode }) => {
-  const [formData, setFormData] = useState<FormData>({});
+  // sessionStorage에서 초기 데이터 로드
+  const [formData, setFormData] = useState<FormData>(() => {
+    try {
+      const saved = sessionStorage.getItem(STORAGE_KEY);
+      return saved ? JSON.parse(saved) : {};
+    } catch (error) {
+      console.error('Failed to load form data from sessionStorage:', error);
+      return {};
+    }
+  });
+
+  // formData가 변경될 때마다 sessionStorage에 저장
+  useEffect(() => {
+    try {
+      sessionStorage.setItem(STORAGE_KEY, JSON.stringify(formData));
+    } catch (error) {
+      console.error('Failed to save form data to sessionStorage:', error);
+    }
+  }, [formData]);
 
   const updateFormData = (data: Partial<FormData>) => {
     setFormData(prev => ({ ...prev, ...data }));
@@ -63,6 +83,7 @@ export const FormDataProvider = ({ children }: { children: ReactNode }) => {
 
   const resetFormData = () => {
     setFormData({});
+    sessionStorage.removeItem(STORAGE_KEY);
   };
 
   const getJsonData = () => {
