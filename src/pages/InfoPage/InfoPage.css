@@ -25,34 +25,31 @@
   white-space: pre-line;
 }
 
-/* 2열 그리드  */
+/* 1열 그리드 */
 .info-grid {
-  margin-top: 35px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);  /* 2열 유지 */
-  column-gap: 19px;
-  row-gap: 20px;
+  margin-top: 25px; /* 제목과 박스 사이 25px */
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* 박스 간격 20px */
   width: 100%;
   max-width: 736px;
-  min-width: 360px;  
+  min-width: 360px;
   padding: 0 24px;
   margin-left: auto;
   margin-right: auto;
-  justify-items: center; 
+  align-items: center; /* 중앙 정렬 */
 }
 
 /* 박스 */
 .info-box {
   display: block;
-  width: 105%;
-  max-width: 340px; 
-  height: auto;
-  margin: 0 auto;
+  width: 332px;
+  height: 120px;
   cursor: pointer;
+  object-fit: cover; /* 이미지 비율 유지 */
 }
 
-/* 큰 화면에서 아래 여백 확보 */
+/* 큰 화면에서도 동일하게 */
 @media (min-width: 768px) {
   .info-content { padding-bottom: 140px; }
-  .info-box { max-width: 360px; }
 }
