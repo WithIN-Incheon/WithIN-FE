@@ -32,11 +32,6 @@ export default function Header({
   showMenu = false,
   onMenuClick,
 
-  showBookmark = false,
-  bookmarkTo = "/location/bookmark",
-  bookmarkIconSrc = "/bookmark-icon.svg",
-  onBookmarkClick,
-
   showSearch = false,
   onSearchClick,
 
@@ -47,7 +42,6 @@ export default function Header({
 
   const handleBack = () => (onBack ? onBack() : navigate(-1));
   const handleMenu = () => onMenuClick?.();
-  const handleBookmark = () => (onBookmarkClick ? onBookmarkClick() : navigate(bookmarkTo));
   const handleSearch = () => onSearchClick?.();
   const handleHome = () => {
     resetFormData();
@@ -83,17 +77,7 @@ export default function Header({
         />
       )}
 
-      {showBookmark && (
-        <img
-          src={bookmarkIconSrc}
-          alt="즐겨찾기"
-          className="header_bookmark"
-          onClick={handleBookmark}
-          role="button"
-          tabIndex={0}
-          onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && handleBookmark()}
-        />
-      )}
+
 
       {showSearch && (
         <img

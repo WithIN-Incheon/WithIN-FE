@@ -1,3 +1,4 @@
+// 베타기간 동안 메일건의하기로 변경
 import { useNavigate } from "react-router-dom";
 import "./HomePage.css";
 import BottomBar from "../../components/BottomBar/BottomBar";
@@ -8,12 +9,6 @@ export default function App() {
   return (
     <div className="app">
       <div className="hero">
-        <div className="topbar">
-          <div className="username">
-            김윗인 님
-            <img className="vector" src="/Home/Vector.svg" alt="vector" />
-          </div>
-        </div>
 
         <img className="bg-icon" src="/Home/BgIcon.png" alt="bg" />
 
@@ -22,13 +17,20 @@ export default function App() {
           <div className="title">산재 가이드, WithIN</div>
         </div>
 
-        <a
+        {/* <a
           className="quick-link"
           href="https://www.iscfr.or.kr/"
           target="_blank"
           rel="noreferrer"
+        > */}
+        <a
+          className="quick-link"
+          href="mailto:kkwkdm@gmail.com"
+          target="_blank"
+          rel="noreferrer"
         >
-          인천외국인종합지원센터 바로 가기
+          {/* 인천외국인종합지원센터 바로 가기 */}
+          메일 건의하기 (kkwkdm@gmail.com)
           <img className="vector2" src="/Home/Vector2.svg" alt="go" />
         </a>
 
@@ -62,6 +64,7 @@ export default function App() {
       </div>
 
       <BottomBar />
+      <img className="chat" src="/Home/Chat.svg" alt="chat" />
     </div>
   );
 }

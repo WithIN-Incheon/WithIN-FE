@@ -41,18 +41,6 @@ export default function InfoPage() {
             alt="산재 관련 용어사전"
             onClick={() => navigate("/info/dictionary")}
           />
-          <img
-            className="info-box"
-            src="/Info/Tip-box.svg"
-            alt="알아두면 좋은 정보"
-            onClick={() => navigate("/info/tip")}
-          />
-          <img
-            className="info-box"
-            src="/Info/Center-box.svg"
-            alt="지원센터 정보"
-            onClick={() => navigate("/info/center")}
-          />
         </div>
       </main>
 

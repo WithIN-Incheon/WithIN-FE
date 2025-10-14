@@ -1,51 +1,58 @@
-/* 배경색: FAFBFC */
+/* === Layout === */
 .guide-page {
   min-height: 100vh;
   background: #fafbfc;
+  display: flex;
+  flex-direction: column;
 }
 
-/* 헤더 하단에서 정확히 45px 간격 두고 시작 */
 .guide-content {
+  display: flex;
+  flex-direction: column;
   padding-top: 45px;
+  box-sizing: border-box;
+  min-height: calc(100vh - 60px);
 }
 
-/* 제목: 좌측 32px, Pretendard 24px, 검정 */
+/* === Header === */
+.guide-header {
+  padding-left: 32px;
+}
+
 .guide-title {
   margin: 0;
-  margin-left: 32px;
   font-family: Pretendard;
-    font-weight: 600;
-  font-size: 24px;
   font-weight: 700;
+  font-size: 24px;
   line-height: 1.25;
-  color: #000000;
+  color: #000;
 }
 
-/* 보조문구: 제목 아래 8px, 좌측 32px, #92939F, 12px */
 .guide-subtitle {
-  margin: 8px 0 0 32px;
+  margin: 8px 0 0 0;
   font-size: 12px;
   line-height: 1.4;
   color: #92939f;
+  margin-bottom: 20px;
 }
 
-/* 카드= 가운데 정렬 */
+/* === Cards === */
+.guide-cards {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-top: 40px;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
 .guide-card {
   display: block;
-  width: calc(100% - 48px); /* 좌우 여백 여유 */
+  width: 100%;
   max-width: 680px;
-  margin-left: auto;
-  margin-right: auto;
   height: auto;
   cursor: pointer;
-}
-
-/* 첫 카드: 보조문구에서 46px 아래 */
-.guide-card:first-of-type {
-  margin-top: 46px;
-}
-
-/* 이후 카드는 30px 간격 */
-.guide-card + .guide-card {
-  margin-top: 30px;
 }
