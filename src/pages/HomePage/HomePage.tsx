@@ -63,7 +63,12 @@ export default function App() {
       </div>
 
       <BottomBar />
-      <img className="global" src="/Home/language.svg" alt="언어번역" />
+      <img
+        className="global"
+        src="/Home/language.svg"
+        alt="언어번역"
+        onClick={() => navigate("/")}
+      />
     </div>
   );
 }
