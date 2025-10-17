@@ -10,7 +10,10 @@ export default function InfoCompPage() {
       <Header title="산재 정보 안내" />
 
       <main className="comp-content">
-        <h1 className="comp-title">산재 보험</h1>
+        <div className="comp-title-wrap">
+          <h1 className="comp-title">산업재해보상보험</h1>
+          <h3 className="comp-title2">(산재보험)</h3>
+        </div>
 
         {/* 정의 */}
         <h2 className="section-title hl">정의</h2>
@@ -51,28 +54,21 @@ export default function InfoCompPage() {
         <h2 className="section-title hl">대상 범위</h2>
 
         <h3 className="section-title">일반 적용 대상</h3>
-        <ul className="dash-list">
-          <li>모든 근로자를 사용하는 사업 또는 사업장이 원칙적으로 산재보험법 적용 대상입니다.</li>
-          <li>사업장의 규모나 업종, 고용 형태(상용, 일용직, 비정규직, 아르바이트 등)에 관계없이 1인 이상의 근로자가 있으면 적용됩니다.</li>
-          <li>건설업 면허가 있는 자가 시공하는 모든 건설공사, 또는 상시 근로자 1인 이상인 농업·임업·어업·수렵업 등 법인 사업도 포함됩니다.</li>
-        </ul>
+        <p className="paragraph">
+            • 모든 근로자를 사용하는 사업 또는 사업장이 원칙적으<div className="jump">로 산재보험법 적용 대상입니다.</div>
+            • 사업장의 규모나 업종, 고용 형태(상용, 일용직, 비정규<div className="jump">직, 아르바이트 등)에 관계없이 1인 이상의 근로자가 있으면 적용됩니다.</div>
+            • 건설업 면허가 있는 자가 시공하는 모든 건설공사, 또<div className="jump">는 상시 근로자 1인 이상인 농업·임업·어업·수렵업 등 법인 사업도 포함됩니다.</div>
 
-        <h3 className="section-title">예외 적용 대상</h3>
-        <ul className="dash-list">
-          <li>
-            별도 재해보상 제도를 갖춘 경우 산재보험법 적용이 제외됨. (예: 공무원 재해보상법, 군인 재해보상법,
-            선원법, 어선원 및 어선 재해보상보험법, 사립학교교직원 연금법 적용 대상 사업 등)
-          </li>
-          <li>소규모 사업장 또한 제외 대상 : 가정 내 고용활동, 농업·임업·어업·수렵업 중 법인이 아니고 상시 근로자 5명 미만인 사업장</li>
-          <li>상시 근로자 1명 미만인 사업장(간헐적 근로)</li>
-        </ul>
+          <h3 className="section-title">예외 적용 대상</h3>
+            • 별도 재해보상 제도를 갖춘 경우 산재보험법 적용이 <div className="jump">제외됨<br></br>
+              (예시: 공무원 재해보상법, 군인 재해보상법, 선원법, 어선원 및 어선 재해보상보험법, 사립학교교직원 연금법 적용 대상 사업 등)</div>
+            • 소규모 사업장 또한 제외 대상 : 가정 내 고용활동, 농<div className="jump">업·임업·어업·수렵업 중 법인이 아니고 상시 근로자 5명 미만인 사업장</div>
+            • 상시 근로자 1명 미만인 사업장 (간헐적 근로)
 
-        <h3 className="section-title">특례 적용 대상</h3>
-        <ul className="dash-list">
-          <li>중소기업 사업주 및 가족, 현장실습생, 학생 연구자 등은 산재보험에 대한 특례가 있음</li>
-          <li>근로기준법의 적용을 받지 않지만 노동관계법 사각지대에 있는 노동자들을 보호하기 위함</li>
-        </ul>
-
+          <h3 className="section-title">특례 적용 대상</h3>
+            • 중소기업 사업주 및 가족, 현장실습생, 학생 연구자 등<div className="jump">은 산재보험에 대한 특례가 있음</div>
+            • 근로기준법의 적용을 받지 않지만 노동관계법 사각지<div className="jump">대에 있는 노동자들을 보호하기 위함</div>
+        </p>
         {/* 하단 여유 (BottomBar와 겹침 방지) */}
         <div className="bottom-spacer" />
       </main>

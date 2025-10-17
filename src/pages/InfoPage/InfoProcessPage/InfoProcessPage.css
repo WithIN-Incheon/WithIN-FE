@@ -60,7 +60,7 @@
   color: #3a4152;
 }
 .paragraph13 {
-  margin: 0;
+  margin-left: 20px;
   font-size: 13px;
   font-weight: 400;
   line-height: 1.7;
@@ -87,14 +87,16 @@
   display: block;
   width: 100%;
   max-width: 720px;
-  margin: 0 auto; /* 섹션 내부 수평 중앙 */
+  margin: 0 auto; 
   height: auto;
+  margin-bottom: 10px;
 }
 .proc-flow-img + .num-list13 { margin-top: 12px; }
 
 /* 필요서류 리스트 */
 .dash-list14 {
   margin: 0 0 0 16px;
+  margin-left: 20px;
   padding-left: 0;
   color: #3a4152;
   font-size: 14px;

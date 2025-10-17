@@ -15,6 +15,7 @@
   color: #2b2f3a;
 }
 
+
 /* 대제목 */
 .comp-title {
   margin: 0;
@@ -24,7 +25,17 @@
   color: #2f3747;
 }
 .comp-title + .section-title {
-  margin-top: 25px; /* 산재 보험 → 정의 */
+  margin-top: 25px;
+}
+
+.comp-title-wrap {
+  display: flex;
+  align-items: baseline; 
+  gap: 8px;
+}
+.comp-title2 {
+  font-size: 20px;
+  color: #2f3747;
 }
 
 /* 섹션 제목 */
