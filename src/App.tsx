@@ -1,5 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { FormDataProvider } from "./contexts/FormDataContext";
 
 import HomePage from "./pages/HomePage/HomePage";
 import CasePage from "./pages/CasePage/CasePage";
@@ -21,8 +22,8 @@ import MediGuidePage3 from "./pages/Medi-carePage/Medi-GuidePage-3";
 import MediGuidePage4 from "./pages/Medi-carePage/Medi-GuidePage-4";
 import MediGuidePage5 from "./pages/Medi-carePage/Medi-GuidePage-5";
 import MediGuidePage6 from "./pages/Medi-carePage/Medi-GuidePage-6";
-import MediResult from "./pages/Medi-carePage/Medicare-result";
 import LangPage from "./pages/LangPage/LangPage";
+import MediAddress1 from "./pages/Medi-carePage/Medi-address-1";
 
 // import LocationPage from "./pages/LocationPage/LocationPage";
 // import SearchPage from "./pages/LocationPage/SearchPage/SearchPage";
@@ -39,33 +40,36 @@ import LangPage from "./pages/LangPage/LangPage";
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<LangPage />} />
-        <Route path="/home" element={<HomePage />} />
+      <FormDataProvider>
+        <Routes>
+          <Route path="/" element={<LangPage />} />
+          <Route path="/home" element={<HomePage />} />
 
-        <Route path="/cases" element={<CasePage />} />
-        <Route path="/cases/:id" element={<CaseDetailPage />} />
+          <Route path="/cases" element={<CasePage />} />
+          <Route path="/cases/:id" element={<CaseDetailPage />} />
 
-        <Route path="/guide" element={<GuidePage />} />
+          <Route path="/guide" element={<GuidePage />} />
 
-        <Route path="/list" element={<ListPage />} />
+        <Route path="/location" element={<LocationPage />} />
+        <Route path="/location/search" element={<SearchPage />} />
 
-        <Route path="/info" element={<InfoPage />} />
-        <Route path="/info/compensation" element={<InfoCompPage />} />
-        <Route path="/info/process" element={<InfoProcessPage />} />
-        <Route path="/info/salary" element={<InfoSalaryPage />} />
-        <Route path="/info/dictionary" element={<InfoDictionPage />} />
+          <Route path="/info" element={<InfoPage />} />
+          <Route path="/info/compensation" element={<InfoCompPage />} />
+          <Route path="/info/process" element={<InfoProcessPage />} />
+          <Route path="/info/salary" element={<InfoSalaryPage />} />
+          <Route path="/info/dictionary" element={<InfoDictionPage />} />
 
-        <Route path="/medicare" element={<MedicarePage />} />
-        <Route path="/medicare-guide-flow" element={<MedicareGuideFlow />} />
-        <Route path="/medi-guide-1" element={<MediGuidePage1 />} />
-        <Route path="/medi-guide-2" element={<MediGuidePage2 />} />
-        <Route path="/medi-guide-3" element={<MediGuidePage3 />} />
-        <Route path="/medi-guide-4" element={<MediGuidePage4 />} />
-        <Route path="/medi-guide-5" element={<MediGuidePage5 />} />
-        <Route path="/medi-guide-6" element={<MediGuidePage6 />} />
-        <Route path="/medi-result" element={<MediResult />} />
-      </Routes>
+          <Route path="/medicare" element={<MedicarePage />} />
+          <Route path="/medicare-guide-flow" element={<MedicareGuideFlow />} />
+          <Route path="/medi-guide-1" element={<MediGuidePage1 />} />
+          <Route path="/medi-guide-2" element={<MediGuidePage2 />} />
+          <Route path="/medi-guide-3" element={<MediGuidePage3 />} />
+          <Route path="/medi-guide-4" element={<MediGuidePage4 />} />
+          <Route path="/medi-guide-5" element={<MediGuidePage5 />} />
+          <Route path="/medi-guide-6" element={<MediGuidePage6 />} />
+          <Route path="/medi-address-1" element={<MediAddress1 />} />
+        </Routes>
+      </FormDataProvider>
     </Router>
   );
 }
