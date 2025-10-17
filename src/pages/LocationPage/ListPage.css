@@ -1,0 +1,169 @@
+.list-page {
+  background: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 🔍 검색창 */
+.loc-searchbar {
+  padding: 10px 16px;
+  background: #fff;
+  border-bottom: 1px solid #dedede;
+}
+.loc-searchbar_input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #dedede;
+  border-radius: 12px;
+  font-size: 14px;
+  background: #f9f9f9;
+  outline: none;
+}
+.loc-searchbar_input:focus {
+  border-color: #0c8cff;
+  background: #fff;
+}
+
+/* === 필터 바 === */
+.loc-filterbar.in-sheet {
+  display: flex;
+  gap: 12px;
+  padding-top: 20px;
+  padding-left: 25px;
+  background: #fff;
+}
+
+.chip {
+  padding: 8px 12px;
+  font-size: 13px;
+  border-radius: 12px;
+  border: 1px solid #dedede;
+  background: #fff;
+  color: #111;
+  cursor: pointer;
+}
+
+.chip--active {
+  background: #def0ff;
+  color: #0c8cff;
+  border-color: #0c8cff;
+}
+
+.chip--dropdown {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.arrow-icon {
+  width: 8px;
+  height: 8px;
+  transition: transform 0.2s ease;
+}
+
+.arrow-icon.rotated {
+  transform: rotate(180deg);
+}
+
+/* === 옵션 그리드 === */
+.region-grid,
+.dept-grid,
+.hours-filter {
+  background: #fff;
+  padding: 12px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  border-bottom: 1px solid #dedede;
+}
+
+.region-chip,
+.dept-chip,
+.hours-chip {
+  padding: 8px 14px;
+  border: 1px solid #dedede;
+  border-radius: 16px;
+  font-size: 13px;
+  background: #f9f9f9;
+  cursor: pointer;
+  color: #333;
+}
+
+.region-chip.on,
+.dept-chip.on,
+.hours-chip.on {
+  background: #0c8cff;
+  color: #fff;
+  border-color: #0c8cff;
+}
+
+/* === 병원 카드 === */
+.hospital-list {
+  padding: 20px 16px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.hospital-card {
+  width: 346px;
+  background: #fff;
+  border: 1px solid #dedede;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 0 auto 20px auto;
+  box-sizing: border-box;
+  box-shadow: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.hospital-card:hover {
+  transform: translateY(-2px);
+}
+
+.hospital-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.hospital-name {
+  font-weight: 700;
+  font-size: 15px;
+  color: #0c8cff;
+}
+
+.hospital-dept {
+  color: #8c8c8c;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.hospital-info {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.5;
+  margin-top: 2px;
+}
+
+.phone {
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+.link-icon img {
+  width: 16px;
+  height: 16px;
+}
+
+/* 결과 없을 때 */
+.no-result {
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+  padding: 40px 0;
+}
