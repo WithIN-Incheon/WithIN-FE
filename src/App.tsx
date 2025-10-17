@@ -50,8 +50,7 @@ function App() {
 
           <Route path="/guide" element={<GuidePage />} />
 
-        <Route path="/location" element={<LocationPage />} />
-        <Route path="/location/search" element={<SearchPage />} />
+        <Route path="/list" element={<ListPage />} />
 
           <Route path="/info" element={<InfoPage />} />
           <Route path="/info/compensation" element={<InfoCompPage />} />
