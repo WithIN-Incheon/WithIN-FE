@@ -8,11 +8,11 @@ import "./ListPage.css";
 // === 유틸 ===
 function isOpenNow(hours: any): boolean {
   const now = new Date();
-  const day = now.getDay();
+  const day = now.getDay(); // 0:일요일, 1:월요일 ...
   const currentMinutes = now.getHours() * 60 + now.getMinutes();
   const todayHours = hours[day];
 
-  if (!todayHours || todayHours.type === "C") return false;
+  if (!todayHours || todayHours.type === "C") return false; // 휴무
   const [oH, oM] = todayHours.open.split(":").map(Number);
   const [cH, cM] = todayHours.close.split(":").map(Number);
   const openMin = oH * 60 + oM;
@@ -24,16 +24,13 @@ export default function ListPage() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [mode, setMode] = useState<"list" | "region" | "dept" | "hours">("list");
 
-  // 필터 상태
   const [regionFilter, setRegionFilter] = useState<string | null>(null);
   const [deptFilter, setDeptFilter] = useState<string | null>(null);
   const [hoursFilter, setHoursFilter] = useState<"open" | "closed" | null>(null);
 
-  // 검색 상태
   const [keyword, setKeyword] = useState("");
   const [showSearch, setShowSearch] = useState(false);
 
-  // 칩 텍스트
   const regionChipText = regionFilter || "자치구";
   const deptChipText = deptFilter || "진료과목";
   const hoursChipText = hoursFilter
@@ -46,25 +43,15 @@ export default function ListPage() {
   const isDeptActive = !!deptFilter;
   const isHoursActive = !!hoursFilter;
 
-  // ✅ 필터링 로직
+  // 필터링 로직
   const filteredHospitals = useMemo(() => {
     return HOSPITALS.filter((h) => {
       let ok = true;
-
       if (regionFilter && !h.address.includes(regionFilter)) ok = false;
       if (deptFilter && !h.dept.includes(deptFilter)) ok = false;
       if (hoursFilter === "open" && !isOpenNow(h.hours)) ok = false;
       if (hoursFilter === "closed" && isOpenNow(h.hours)) ok = false;
-
-      if (
-        keyword &&
-        !(
-          h.name.includes(keyword) ||
-          h.address.includes(keyword)
-        )
-      )
-        ok = false;
-
+      if (keyword && !(h.name.includes(keyword) || h.address.includes(keyword))) ok = false;
       return ok;
     });
   }, [regionFilter, deptFilter, hoursFilter, keyword]);
@@ -93,7 +80,6 @@ export default function ListPage() {
 
       {/* === 필터바 === */}
       <div className="loc-filterbar in-sheet">
-        {/* 자치구 필터 */}
         <button
           className={`chip chip--dropdown ${isRegionActive ? "chip--active" : ""}`}
           onClick={() => {
@@ -112,7 +98,6 @@ export default function ListPage() {
           />
         </button>
 
-        {/* 진료과목 필터 */}
         <button
           className={`chip chip--dropdown ${isDeptActive ? "chip--active" : ""}`}
           onClick={() => {
@@ -131,7 +116,6 @@ export default function ListPage() {
           />
         </button>
 
-        {/* 영업시간 필터 */}
         <button
           className={`chip chip--dropdown ${isHoursActive ? "chip--active" : ""}`}
           onClick={() => {
@@ -154,20 +138,18 @@ export default function ListPage() {
       {/* === 자치구 선택 === */}
       {mode === "region" && (
         <div className="region-grid">
-          {["중구", "미추홀구", "부평구", "남동구", "연수구", "서구", "계양구"].map(
-            (r) => (
-              <button
-                key={r}
-                className={`region-chip ${regionFilter === r ? "on" : ""}`}
-                onClick={() => {
-                  setRegionFilter((prev) => (prev === r ? null : r));
-                  setMode("list");
-                }}
-              >
-                {r}
-              </button>
-            )
-          )}
+          {["중구", "미추홀구", "부평구", "남동구", "연수구", "서구", "계양구"].map((r) => (
+            <button
+              key={r}
+              className={`region-chip ${regionFilter === r ? "on" : ""}`}
+              onClick={() => {
+                setRegionFilter((prev) => (prev === r ? null : r));
+                setMode("list");
+              }}
+            >
+              {r}
+            </button>
+          ))}
         </div>
       )}
 
@@ -206,17 +188,13 @@ export default function ListPage() {
         <div className="hours-filter">
           <button
             className={`hours-chip ${hoursFilter === "open" ? "on" : ""}`}
-            onClick={() =>
-              setHoursFilter((prev) => (prev === "open" ? null : "open"))
-            }
+            onClick={() => setHoursFilter((prev) => (prev === "open" ? null : "open"))}
           >
             영업중
           </button>
           <button
             className={`hours-chip ${hoursFilter === "closed" ? "on" : ""}`}
-            onClick={() =>
-              setHoursFilter((prev) => (prev === "closed" ? null : "closed"))
-            }
+            onClick={() => setHoursFilter((prev) => (prev === "closed" ? null : "closed"))}
           >
             영업종료
           </button>
@@ -228,6 +206,7 @@ export default function ListPage() {
         {filteredHospitals.length > 0 ? (
           filteredHospitals.map((h) => {
             const isSelected = selectedId === h.id;
+            const openStatus = isOpenNow(h.hours) ? "영업중 / " : "영업종료 / ";
             return (
               <div
                 key={h.id}
@@ -237,9 +216,7 @@ export default function ListPage() {
                 <div className="hospital-header">
                   <span className="hospital-name">{h.name}</span>
                   <a
-                    href={`https://map.naver.com/v5/search/${encodeURIComponent(
-                      h.address
-                    )}`}
+                    href={`https://www.google.com/maps/search/${encodeURIComponent(h.name)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="link-icon"
@@ -249,7 +226,7 @@ export default function ListPage() {
                 </div>
                 <div className="hospital-dept">{h.dept}</div>
                 <div className="hospital-info">
-                  <div>매주 일요일 휴무</div>
+                  <div>{openStatus} 매주 일요일 휴무</div> {/* 영업 상태 표시 */}
                   <div>{h.address}</div>
                   <div className="phone">☎ {h.phone}</div>
                 </div>
