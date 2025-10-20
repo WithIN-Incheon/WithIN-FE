@@ -72,7 +72,7 @@
 
 /* 간단 불릿(• ) 표시 */
 .bullets p {
-  margin: 0 0 6px;
+  margin: 4 0 px;
   text-indent: -8px; 
   padding-left: 8px; 
   margin: 4px 0;
@@ -95,10 +95,4 @@
 }
 .summary li::before {
   content: "- ";
-}
-
-/* 기존 .jump 스타일 */
-.jump {
-  margin-left: 8px;
-  display: inline;
 }
