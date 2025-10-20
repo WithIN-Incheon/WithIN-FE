@@ -5,19 +5,16 @@ import BottomBar from "../../components/BottomBar/BottomBar";
 import { HOSPITALS } from "./hospitals";
 import "./ListPage.css";
 
-// === 유틸 ===
+// === 유틸: 현재 영업중 여부 판단 ===
 function isOpenNow(hours: any): boolean {
-  if (!hours) return false;
+  if (!hours || !hours.byDay) return false;
 
   const now = new Date();
   const day = now.getDay(); // 0:일요일, 1:월요일 ...
   const todayHours = hours.byDay[day];
 
-  // C가 문자열이거나 type === "C"인 경우 → 휴무
-  if (!todayHours || todayHours === "C" || todayHours.type === "C") return false;
-
-  // open / close 속성이 없으면 종료 상태로 처리
-  if (!todayHours.open || !todayHours.close) return false;
+  // 휴무(C 또는 null)
+  if (!todayHours) return false;
 
   const [oH, oM] = todayHours.open.split(":").map(Number);
   const [cH, cM] = todayHours.close.split(":").map(Number);
@@ -26,6 +23,15 @@ function isOpenNow(hours: any): boolean {
   const currentMinutes = now.getHours() * 60 + now.getMinutes();
 
   return currentMinutes >= openMin && currentMinutes < closeMin;
+}
+
+// === 유틸: 오늘 요일 영업시간 텍스트 ===
+function getTodayHours(hours: any): string {
+  if (!hours || !hours.byDay) return "(정보없음)";
+  const day = new Date().getDay();
+  const todayHours = hours.byDay[day];
+  if (!todayHours) return "(휴무)";
+  return `(${todayHours.open}-${todayHours.close})`;
 }
 
 export default function ListPage() {
@@ -214,7 +220,10 @@ export default function ListPage() {
         {filteredHospitals.length > 0 ? (
           filteredHospitals.map((h) => {
             const isSelected = selectedId === h.id;
-            const openStatus = isOpenNow(h.hours) ? "영업중 / " : "영업종료 / ";
+            const open = isOpenNow(h.hours);
+            const todayHours = getTodayHours(h.hours);
+            const openStatus = `${open ? "영업중" : "영업종료"} ${todayHours} / `;
+
             return (
               <div
                 key={h.id}
@@ -232,6 +241,7 @@ export default function ListPage() {
                     <img src="/Location/view-button.svg" alt="link" />
                   </a>
                 </div>
+
                 <div className="hospital-dept">{h.dept}</div>
                 <div className="hospital-info">
                   <div>{openStatus} 매주 일요일 휴무</div>
