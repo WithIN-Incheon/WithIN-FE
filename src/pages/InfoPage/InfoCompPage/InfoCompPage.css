@@ -161,10 +161,18 @@
   height: 96px;
 }
 
-/* bullet 문단 자동 들여쓰기 */
 .bullets p {
+  margin: 4px 0;
   text-indent: -8px;
   padding-left: 8px;
-  margin: 4px 0;
   white-space: pre-wrap;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #3a4152;
+}
+
+.bullets p::before {
+  content: "• ";
+  font-weight: 400;
 }

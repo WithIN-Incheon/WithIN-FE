@@ -73,6 +73,10 @@
 /* 간단 불릿(• ) 표시 */
 .bullets p {
   margin: 0 0 6px;
+  text-indent: -8px; 
+  padding-left: 8px; 
+  margin: 4px 0;
+  white-space: pre-wrap;
 }
 .bullets p::before {
   content: "• ";
@@ -98,12 +102,3 @@
   margin-left: 8px;
   display: inline;
 }
-
-/* bullet 문단 자동 들여쓰기 */
-.bullets p {
-  text-indent: -8px; 
-  padding-left: 8px; 
-  margin: 4px 0;
-  white-space: pre-wrap;
-}
-
