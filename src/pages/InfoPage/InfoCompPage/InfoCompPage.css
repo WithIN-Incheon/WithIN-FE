@@ -160,3 +160,11 @@
 .bottom-spacer {
   height: 96px;
 }
+
+/* bullet 문단 자동 들여쓰기 */
+.bullets p {
+  text-indent: -8px;
+  padding-left: 8px;
+  margin: 4px 0;
+  white-space: pre-wrap;
+}
