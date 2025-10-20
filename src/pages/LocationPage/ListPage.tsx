@@ -7,17 +7,25 @@ import "./ListPage.css";
 
 // === 유틸 ===
 function isOpenNow(hours: any): boolean {
+  if (!hours) return false;
+
   const now = new Date();
   const day = now.getDay(); // 0:일요일, 1:월요일 ...
-  const currentMinutes = now.getHours() * 60 + now.getMinutes();
-  const todayHours = hours[day];
+  const todayHours = hours.byDay[day];
 
-  if (!todayHours || todayHours.type === "C") return false; // 휴무
+  // C가 문자열이거나 type === "C"인 경우 → 휴무
+  if (!todayHours || todayHours === "C" || todayHours.type === "C") return false;
+
+  // open / close 속성이 없으면 종료 상태로 처리
+  if (!todayHours.open || !todayHours.close) return false;
+
   const [oH, oM] = todayHours.open.split(":").map(Number);
   const [cH, cM] = todayHours.close.split(":").map(Number);
   const openMin = oH * 60 + oM;
   const closeMin = cH * 60 + cM;
-  return currentMinutes >= openMin && currentMinutes <= closeMin;
+  const currentMinutes = now.getHours() * 60 + now.getMinutes();
+
+  return currentMinutes >= openMin && currentMinutes < closeMin;
 }
 
 export default function ListPage() {
@@ -43,7 +51,7 @@ export default function ListPage() {
   const isDeptActive = !!deptFilter;
   const isHoursActive = !!hoursFilter;
 
-  // 필터링 로직
+  // === 필터링 로직 ===
   const filteredHospitals = useMemo(() => {
     return HOSPITALS.filter((h) => {
       let ok = true;
@@ -226,7 +234,7 @@ export default function ListPage() {
                 </div>
                 <div className="hospital-dept">{h.dept}</div>
                 <div className="hospital-info">
-                  <div>{openStatus} 매주 일요일 휴무</div> {/* 영업 상태 표시 */}
+                  <div>{openStatus} 매주 일요일 휴무</div>
                   <div>{h.address}</div>
                   <div className="phone">☎ {h.phone}</div>
                 </div>
