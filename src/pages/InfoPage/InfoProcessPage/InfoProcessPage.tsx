@@ -84,7 +84,7 @@ export default function InfoProcessPage() {
           <ul className="dash-list14">
             • 요양 급여 신청서<br />
             • 사고 또는 질병에 관한 진단서, 의사 소견서<br />
-            • 사망 시 유족 관련 서류(사망 진단서, 주민등록등<div className="jump">본, 혼인관계증명서 등)</div>
+            • 사망 시 유족 관련 서류(사망 진단서, 주민등록등본, 혼인관계증명서 등)
           </ul>
         </section>
 
