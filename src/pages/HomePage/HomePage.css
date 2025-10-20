@@ -197,10 +197,10 @@ body {
 
 .global {
   position: fixed;   
-  top: 10px;    
-  right: 10px;   
-  height: 30px;
-  width: 30px;
+  top: 11px;    
+  right: 11px;   
+  height: 28px;
+  width: 28px;
   color: black;
   cursor: pointer; 
   transition: transform 0.2s ease, color 0.2s ease;
