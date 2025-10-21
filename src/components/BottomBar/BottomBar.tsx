@@ -27,7 +27,7 @@ export default function BottomBar() {
         className="icon-home"
         src={activeTab === "home" ? "/Home/Home_On.svg" : "/Home/Home_Off.svg"}
         alt="home"
-        onClick={() => handleClick("home", "/")}
+        onClick={() => handleClick("home", "/home")}
       />
     </nav>
   );

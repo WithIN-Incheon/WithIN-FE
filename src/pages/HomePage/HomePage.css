@@ -143,7 +143,7 @@ body {
   top: 210px;
   left: 0;
   right: 0;
-  bottom: 90px; /* BottomBar 높이 고려 */
+  bottom: 50px; /* BottomBar 높이 고려 */
   background: var(--bg);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -183,6 +183,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
+  margin-top: 20px;
 }
 
 .shadow-img {
@@ -192,6 +193,17 @@ body {
   border-radius: 12px;
   margin-bottom: 10px;
   cursor: pointer;
+}
+
+.global {
+  position: fixed;   
+  top: 11px;    
+  right: 11px;   
+  height: 28px;
+  width: 28px;
+  color: black;
+  cursor: pointer; 
+  transition: transform 0.2s ease, color 0.2s ease;
 }
 
 @media (min-width: 480px) {

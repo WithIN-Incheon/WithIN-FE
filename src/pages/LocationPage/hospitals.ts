@@ -11,8 +11,6 @@ export type Hospital = {
   phone: string;
   zip: string;
   hours: Hours;
-  lat?: number;
-  lng?: number;
 };
 
 // helpers

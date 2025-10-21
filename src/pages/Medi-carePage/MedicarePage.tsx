@@ -38,11 +38,10 @@ const MedicarePage = () => {
                         <span className="medi-content-button-text">최초 요양 급여 신청서 작성</span>
                     </div>
                     <div className="medi-content-description">
-                        ✔️ 이 기능은 산업재해 보상보험 신청을 하기 전 최초요양급여신청서 작성 연습을 할 수 있는 기능입니다.<br/>
-                        <br/>
-                        ✔️ 작성하기 어려운 부분은 넘어가셔도 괜찮아요.<br/>
-                        <br/>
-                        ✔️ 사업장 검색, 주소 검색은 영어만 지원합니다. <br/>
+                        <div className="info-lines">
+                            <div>✔️ 이 기능은 산업재해 보상보험 신청을 하<div className="jump">기 전 최초요양급여신청서 작성 연습을 할 수 있는 기능입니다.</div></div><br />
+                            <div>✔️ 채우기 어려운 부분은 넘어가도 됩니다.</div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -9,7 +9,7 @@ import "./CaseDetailPage.css";
 
 type LocationState = { state?: { title?: string } };
 
-// 기능 구분: 문자열/HTML/배열을 <p> 라인 배열로 변환
+// 문자열/HTML/배열을 <p> 라인 배열로 변환
 function toLines(input: unknown): string[] {
   if (Array.isArray(input)) {
     return input.map((s) => String(s).trim()).filter(Boolean);
@@ -50,7 +50,7 @@ export default function CaseDetailPage() {
 
   const title = loc?.state?.title ?? CASE_DETAILS[caseId]?.title ?? "사례";
 
-  // 기능 구분: 섹션 데이터 정규화
+  // 섹션 데이터 정규화
   const summaryHTML = CASE_DETAILS[caseId]?.summary ?? "";
   const situationLines = useMemo(
     () => toLines(CASE_DETAILS[caseId]?.situation),
@@ -58,6 +58,10 @@ export default function CaseDetailPage() {
   );
   const factsLines = useMemo(
     () => toLines(CASE_DETAILS[caseId]?.facts),
+    [caseId]
+  );
+  const importantLines = useMemo(
+    () => toLines(CASE_DETAILS[caseId]?.important),
     [caseId]
   );
   const decisionLines = useMemo(
@@ -68,6 +72,13 @@ export default function CaseDetailPage() {
     () => toLines(CASE_DETAILS[caseId]?.laws),
     [caseId]
   );
+  const sourceLines = useMemo(
+    () => toLines(CASE_DETAILS[caseId]?.source),
+    [caseId]
+  );
+
+  const renderLines = (lines: string[]) =>
+    lines.map((line, i) => <p key={i}>{line}</p>);
 
   return (
     <div className={`case-detail-page ${fav ? "is-fav" : ""}`}>
@@ -84,51 +95,64 @@ export default function CaseDetailPage() {
         {/* 1. 사건 개요 */}
         <section className="card first-card">
           <h2 className="num-title">1. 사건 개요 📌</h2>
-          <div
-            className="summary"
-            dangerouslySetInnerHTML={{ __html: summaryHTML }}
-          />
+          <div className="summary bullets">
+            {renderLines(toLines(summaryHTML))}
+          </div>
         </section>
 
         {/* 2. 사고 발생 경위 */}
         <section className="sec sec-2">
           <h2 className="num-title">2. 사고 발생 경위</h2>
-          <div className="body bullets">
-            {situationLines.map((t, i) => (
-              <p key={i}>{t}</p>
-            ))}
-          </div>
+          <div className="body">{renderLines(situationLines)}</div>
         </section>
 
         {/* 3. 사실관계 및 조사 내용 */}
         <section className="sec sec-3">
           <h2 className="num-title">3. 사실관계 및 조사 내용</h2>
-          <div className="body bullets">
-            {factsLines.map((t, i) => (
-              <p key={i}>{t}</p>
-            ))}
-          </div>
+          <div className="body bullets">{renderLines(factsLines)}</div>
         </section>
 
-        {/* 4. 판정 요지 */}
-        <section className="sec sec-4">
-          <h2 className="num-title">4. 판정 요지</h2>
-          <div className="body bullets">
-            {decisionLines.map((t, i) => (
-              <p key={i}>{t}</p>
-            ))}
-          </div>
-        </section>
-
-        {/* 5. 관계 법령 */}
-        {lawLines.length > 0 && (
-          <section className="sec sec-5">
-            <h2 className="num-title">5. 관계 법령</h2>
+        {/* 4. 중요 쟁점 */}
+        {importantLines.length > 0 && (
+          <section className="sec sec-4">
+            <h2 className="num-title">4. 중요 쟁점</h2>
             <div className="body bullets">
-              {lawLines.map((t, i) => (
-                <p key={i}>{t}</p>
-              ))}
+              {importantLines.map((line, i) => {
+                if (line.includes(":")) {
+                  const [boldPart, ...rest] = line.split(/:(.+)/);
+                  return (
+                    <p key={i}>
+                      <span style={{ fontWeight: "bold" }}>{boldPart}:</span>
+                      <span>{rest.join(":")}</span>
+                    </p>
+                  );
+                } else {
+                  return <p key={i}>{line}</p>;
+                }
+              })}
             </div>
+          </section>
+        )}
+
+        {/* 5. 판정 요지 */}
+        <section className="sec sec-5">
+          <h2 className="num-title">5. 판정 요지</h2>
+          <div className="body">{renderLines(decisionLines)}</div>
+        </section>
+
+        {/* 6. 관계 법령 */}
+        {lawLines.length > 0 && (
+          <section className="sec sec-6">
+            <h2 className="num-title">6. 관계 법령</h2>
+            <div className="body bullets">{renderLines(lawLines)}</div>
+          </section>
+        )}
+
+        {/* 7. 출처 */}
+        {sourceLines.length > 0 && (
+          <section className="sec sec-7">
+            <h2 className="num-title">7. 출처</h2>
+            <div className="body bullets">{renderLines(sourceLines)}</div>
           </section>
         )}
       </div>

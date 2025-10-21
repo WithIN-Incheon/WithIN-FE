@@ -29,33 +29,31 @@ export default function InfoProcessPage() {
           <ol className="num-list13">
             <li>
               사고 발생 즉시 응급조치 후 산재보험 지정 의료기관으로 이송
-              (부득이 시 비지정기관 치료 가능하나 지정기관으로 옮겨야 함).
+              (부득이 시 비지정기관 치료 가능하나 지정기관으로 옮겨야 함)
             </li>
             <li>
-              근로복지공단 홈페이지 또는 지정양식을 활용해 신청서 작성.
-              사고 경위, 인적사항, 소속 사업장 등 기재 및 병원에서 의사 소견서 작성 및 첨부.
+              근로복지공단 홈페이지 또는 지정양식을 활용해 신청서 작성
+              사고 경위, 인적사항, 소속 사업장 등 기재 및 병원에서 의사 소견서 작성 및 첨부
             </li>
             <li>
-              산재 여부를 판단하기 위해 근로복지공단 자문의사 소견 청취.
+              산재 여부를 판단하기 위해 근로복지공단 자문의사 소견 청취
               7일 이내 요양승인 여부 통지(필요 시 연장 가능)
             </li>
           </ol>
-          <p className="paragraph13">승인 시 처리 : 요양급여 지급 시작.</p>
+          <p className="paragraph13">승인 시 처리 : 요양급여 지급 시작</p>
           <p className="paragraph13">
-            불승인 시 처리 : 불승인 통보 후 90일 이내 심사청구, 재심사청구 또는 행정소송 가능.
+            불승인 시 처리 : 불승인 통보 후 90일 이내 심사청구, 재심사청구 또는 행정소송 가능
           </p>
         </section>
+        <img
+            className="proc-flow-img"
+            src="/Info/Process.svg"
+            alt="업무상 질병 산재 보험 신청 절차 플로우"
+        />
 
         {/* 업무상 질병 산재 보험 신청 절차 */}
         <section className="proc-section">
           <h2 className="section-title hl">업무상 질병 산재 보험 신청 절차</h2>
-
-          <img
-            className="proc-flow-img"
-            src="/Info/Process.svg"
-            alt="업무상 질병 산재 보험 신청 절차 플로우"
-          />
-
           <ol className="num-list13">
             <li>
               요양급여신청서 및 증빙서류 제출<br />
@@ -74,9 +72,9 @@ export default function InfoProcessPage() {
             <li>승인 여부 통지 및 급여 지급</li>
           </ol>
 
-          <p className="paragraph13">승인 시 처리 : 요양급여 지급 시작.</p>
+          <p className="paragraph13">승인 시 처리 : 요양급여 지급 시작</p>
           <p className="paragraph13">
-            불승인 시 처리 : 불승인 통보 후 90일 이내 심사청구, 재심사청구 또는 행정소송 가능.
+            불승인 시 처리 : 불승인 통보 후 90일 이내 심사청구, 재심사청구 또는 행정소송 가능
           </p>
         </section>
 
@@ -84,9 +82,9 @@ export default function InfoProcessPage() {
         <section className="proc-section">
           <h2 className="section-title hl">필요 서류(공통)</h2>
           <ul className="dash-list14">
-            <li>요양 급여 신청서</li>
-            <li>사고 또는 질병에 관한 진단서, 의사 소견서</li>
-            <li>사망 시 유족 관련 서류(사망 진단서, 주민등록등본, 혼인관계증명서 등)</li>
+            • 요양 급여 신청서<br />
+            • 사고 또는 질병에 관한 진단서, 의사 소견서<br />
+            • 사망 시 유족 관련 서류(사망 진단서, 주민등록등본, 혼인관계증명서 등)
           </ul>
         </section>
 

@@ -1,8 +1,34 @@
-// 산재 정보 안내 
+// 산재 정보 안내 (리팩토링 최종 버전)
 import Header from "../../../components/Header/Header";
 import BottomBar from "../../../components/BottomBar/BottomBar";
-
 import "./InfoCompPage.css";
+
+// ✅ 내부 유틸: HTML/텍스트 → bullet 라인 배열로 변환
+function toLines(input: unknown): string[] {
+  if (Array.isArray(input)) {
+    return input.map((s) => String(s).trim()).filter(Boolean);
+  }
+
+  const s = String(input ?? "").trim();
+  if (!s) return [];
+
+  // li 태그가 있으면 그 내부만 사용
+  const liMatches = [...s.matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi)].map((m) =>
+    m[1]
+      .replace(/<br\s*\/?>/gi, "\n")
+      .replace(/<[^>]+>/g, "")
+      .replace(/\s+/g, " ")
+      .trim()
+  );
+  if (liMatches.length) return liMatches.filter(Boolean);
+
+  // <br> 제거 후 줄/구분자 분해, 앞의 "• ", "- ", "· " 제거
+  const cleaned = s.replace(/<br\s*\/?>/gi, "\n").replace(/<[^>]+>/g, "");
+  return cleaned
+    .split(/\r?\n|·|•|;|，|、/g)
+    .map((t) => t.trim().replace(/^[-•·]\s*/, "")) // ← bullet 문자 제거 핵심
+    .filter(Boolean);
+}
 
 export default function InfoCompPage() {
   return (
@@ -10,20 +36,23 @@ export default function InfoCompPage() {
       <Header title="산재 정보 안내" />
 
       <main className="comp-content">
-        <h1 className="comp-title">산재 보험</h1>
+        <div className="comp-title-wrap">
+          <h1 className="comp-title">산업재해보상보험</h1>
+          <h3 className="comp-title2">(산재보험)</h3>
+        </div>
 
         {/* 정의 */}
         <h2 className="section-title hl">정의</h2>
-        <p className="paragraph">
-          근로자의 업무상 사고와 질병 등으로 인한 부상, 장애, 사망을 국가가 신속하고
-          공정하게 보상하고 재해근로자의 재활과 사회복귀를 위해 시행되는 사회 보험입니다.
-        </p>
+        <div className="paragraph">
+            근로자의 업무상 사고와 질병 등으로 인한 부상, 장애, 사망을 국가가 신속하고 공정하게 보상하고 재해근로자의 재활과 사회복귀를 위해 시행되는 사회 보험입니다.
+        </div>
 
         {/* 적용 대상 */}
         <h2 className="section-title hl">적용 대상</h2>
-        <p className="paragraph">
-          업무 상 재해에 의한 질병 또는 사고가 발생하여 4일 이상의 요양이 필요한 재해자
-        </p>
+        <div className="paragraph">
+            업무 상 재해에 의한 질병 또는 사고가 발생하여 4일 이상의 요양이 필요한 재해자
+        </div>
+
         <ul className="check-list">
           <li>
             국적이나 비자와 관계없이, 모든 근로자는 근로 중 발생한 재해에 대해 보호받을 수 있음.
@@ -50,34 +79,45 @@ export default function InfoCompPage() {
         {/* 대상 범위 */}
         <h2 className="section-title hl">대상 범위</h2>
 
+        {/* 1) 일반 적용 대상 */}
         <h3 className="section-title">일반 적용 대상</h3>
-        <ul className="dash-list">
-          <li>모든 근로자를 사용하는 사업 또는 사업장이 원칙적으로 산재보험법 적용 대상입니다.</li>
-          <li>사업장의 규모나 업종, 고용 형태(상용, 일용직, 비정규직, 아르바이트 등)에 관계없이 1인 이상의 근로자가 있으면 적용됩니다.</li>
-          <li>건설업 면허가 있는 자가 시공하는 모든 건설공사, 또는 상시 근로자 1인 이상인 농업·임업·어업·수렵업 등 법인 사업도 포함됩니다.</li>
-        </ul>
+        <div className="bullets">
+          {toLines(`
+            모든 근로자를 사용하는 사업 또는 사업장이 원칙적으로 산재보험법 적용 대상입니다.
+            사업장의 규모나 업종, 고용 형태(상용, 일용직, 비정규직 등)에 관계없이 1인 이상의 근로자가 있으면 적용됩니다.
+            건설업 면허가 있는 자가 시공하는 모든 건설공사도 포함됩니다.
+          `).map((line, i) => (
+            <p key={i}>{line}</p>
+          ))}
+        </div>
 
+        {/* 2) 예외 적용 대상 */}
         <h3 className="section-title">예외 적용 대상</h3>
-        <ul className="dash-list">
-          <li>
-            별도 재해보상 제도를 갖춘 경우 산재보험법 적용이 제외됨. (예: 공무원 재해보상법, 군인 재해보상법,
-            선원법, 어선원 및 어선 재해보상보험법, 사립학교교직원 연금법 적용 대상 사업 등)
-          </li>
-          <li>소규모 사업장 또한 제외 대상 : 가정 내 고용활동, 농업·임업·어업·수렵업 중 법인이 아니고 상시 근로자 5명 미만인 사업장</li>
-          <li>상시 근로자 1명 미만인 사업장(간헐적 근로)</li>
-        </ul>
+        <div className="bullets">
+          {toLines(`
+            별도 재해보상 제도를 갖춘 경우 산재보험법 적용이 제외됨
+            소규모 사업장 제외 : 가정 내 고용활동, 농업/임업/어업에서 5명 미만
+            상시 근로자 1명 미만인 사업장 (간헐적 근로)
+          `).map((line, i) => (
+            <p key={i}>{line}</p>
+          ))}
+        </div>
 
+        {/* 3) 특례 적용 대상 */}
         <h3 className="section-title">특례 적용 대상</h3>
-        <ul className="dash-list">
-          <li>중소기업 사업주 및 가족, 현장실습생, 학생 연구자 등은 산재보험에 대한 특례가 있음</li>
-          <li>근로기준법의 적용을 받지 않지만 노동관계법 사각지대에 있는 노동자들을 보호하기 위함</li>
-        </ul>
+        <div className="bullets">
+          {toLines(`
+            중소기업 사업주 및 가족, 현장실습생, 학생 연구자 등은 산재보험 특례 적용
+            근로기준법 적용 대상은 아니지만 노동 사각지대 보호 목적
+          `).map((line, i) => (
+            <p key={i}>{line}</p>
+          ))}
+        </div>
 
-        {/* 하단 여유 (BottomBar와 겹침 방지) */}
         <div className="bottom-spacer" />
       </main>
-      <BottomBar />
 
+      <BottomBar />
     </div>
   );
 }

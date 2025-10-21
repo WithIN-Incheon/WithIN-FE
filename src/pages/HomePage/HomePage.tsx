@@ -11,7 +11,6 @@ export default function App() {
       <div className="hero">
 
         <img className="bg-icon" src="/Home/BgIcon.png" alt="bg" />
-
         <div className="headline">
           <div className="subtitle">옆에서 차근차근 도와주는</div>
           <div className="title">산재 가이드, WithIN</div>
@@ -38,8 +37,8 @@ export default function App() {
       </div>
 
       <div className="content">
-        <div className="tip-label">💡 당신을 위한 산재 TIP</div>
-        <div className="tip-pill">산재 신청은 사고 발생 3일 이내가 좋아요!</div>
+        {/* <div className="tip-label">💡 당신을 위한 산재 TIP</div>
+        <div className="tip-pill">산재 신청은 사고 발생 3일 이내가 좋아요!</div> */}
 
         <div className="photo-group">
           <img
@@ -58,13 +57,18 @@ export default function App() {
             className="shadow-img"
             src="/Home/Home_HosSearch.svg"
             alt="의료기관 검색"
-            onClick={() => navigate("/location")}
+            onClick={() => navigate("/list")}
           />
         </div>
       </div>
 
       <BottomBar />
-      <img className="chat" src="/Home/Chat.svg" alt="chat" />
+      <img
+        className="global"
+        src="/Home/language.svg"
+        alt="언어번역"
+        onClick={() => navigate("/")}
+      />
     </div>
   );
 }

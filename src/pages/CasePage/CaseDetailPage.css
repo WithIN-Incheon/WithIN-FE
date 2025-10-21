@@ -70,12 +70,16 @@
   margin-bottom: 10px;
 }
 
-/* 간단 불릿(- ) 표시 */
+/* 간단 불릿(• ) 표시 */
 .bullets p {
-  margin: 0 0 6px;
+  margin: 4 0 px;
+  text-indent: -8px; 
+  padding-left: 8px; 
+  margin: 4px 0;
+  white-space: pre-wrap;
 }
 .bullets p::before {
-  content: "- ";
+  content: "• ";
   font-weight: 400;
 }
 

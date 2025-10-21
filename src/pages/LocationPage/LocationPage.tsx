@@ -95,7 +95,6 @@ export default function LocationPage() {
   const navType = useNavigationType();
   const navigate = useNavigate();
   const [keyword, setKeyword] = useState<string>("");
-  const [selectedHospitalId, setSelectedHospitalId] = useState<string | null>(null);
   const [selectedHospitalName, setSelectedHospitalName] = useState<string | null>(null);
   const routeState = useMemo<LocationState>(() => location.state as LocationState, [location.state]);
   const nameOverlayRef = useRef<naver.maps.CustomOverlay | null>(null);
@@ -360,31 +359,6 @@ export default function LocationPage() {
 
   const deptChipText = deptFilter ? deptFilter : "진료과목";
   const hoursChipText = hoursFilter === "open" ? "영업중" : hoursFilter === "closed" ? "영업종료" : "영업시간";
-
-  const handleSelectHospital = (id: string, name: string) => {
-    setSelectedHospitalId(id); // 카드 선택 상태
-    setSelectedHospitalName(name); // 상단 표시 이름
-    setMode("list"); // 목록 자동 열기
-
-    // 선택된 마커 가져오기
-    const mk = markersRef.current[id];
-    if (mk && map) {
-      const pos = mk.getPosition();
-      map.setCenter(pos as naver.maps.Coord); // 지도 센터 이동
-      setCursor(map, pos as naver.maps.Coord, false); // 커서 이동
-
-      // 목록 카드 하이라이트
-      Object.entries(labelsRef.current).forEach(([labelId, overlay]) => {
-        const node = overlay.getElement() as HTMLElement | null;
-        if (!node) return;
-        node.classList.toggle("nv-label--active", labelId === id);
-      });
-
-      // 스크롤 자동 이동 (선택된 카드가 화면에 안보이면)
-      const cardEl = document.getElementById(`hospital-card-${id}`);
-      cardEl?.scrollIntoView({ behavior: "smooth", block: "center" });
-    }
-  };
 
   const onSearchBarClick = () => navigate("/location/search", { state: { initial: keyword } });
 

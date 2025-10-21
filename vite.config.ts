@@ -16,8 +16,8 @@ export default defineConfig(({ mode }) => {
           target: 'https://maps.apigw.ntruss.com',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/api\/geocode/, '/map-geocode/v2/geocode'),
-          configure: (proxy, options) => {
-            proxy.on('proxyReq', (proxyReq, req, res) => {
+          configure: (proxy, _options) => {
+            proxy.on('proxyReq', (proxyReq, _req, _res) => {
               proxyReq.setHeader('x-ncp-apigw-api-key-id', env.VITE_NCP_API_KEY_ID || '');
               proxyReq.setHeader('x-ncp-apigw-api-key', env.VITE_NCP_API_KEY || '');
             });

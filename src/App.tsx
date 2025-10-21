@@ -6,9 +6,7 @@ import HomePage from "./pages/HomePage/HomePage";
 import CasePage from "./pages/CasePage/CasePage";
 import CaseDetailPage from "./pages/CasePage/CaseDetailPage";
 import GuidePage from "./pages/Comp-GuidePage/Comp-GuidePage";
-
-import LocationPage from "./pages/LocationPage/LocationPage";
-import SearchPage from "./pages/LocationPage/SearchPage/SearchPage";
+import ListPage from "./pages/LocationPage/ListPage"
 
 import InfoPage from "./pages/InfoPage/InfoPage";
 import InfoCompPage from "./pages/InfoPage/InfoCompPage/InfoCompPage";
@@ -27,6 +25,8 @@ import MediGuidePage6 from "./pages/Medi-carePage/Medi-GuidePage-6";
 import LangPage from "./pages/LangPage/LangPage";
 import MediAddress1 from "./pages/Medi-carePage/Medi-address-1";
 
+// import LocationPage from "./pages/LocationPage/LocationPage";
+// import SearchPage from "./pages/LocationPage/SearchPage/SearchPage";
 // import InfoTipPage from "./pages/InfoPage/InfoTipPage/InfoTipPage";
 // import InfoCenterPage from "./pages/InfoPage/InfoCenterPage/InfoCenterPage";
 // import SignupPage from "./pages/SignupPage/SignupPage";
@@ -50,8 +50,7 @@ function App() {
 
           <Route path="/guide" element={<GuidePage />} />
 
-          <Route path="/location" element={<LocationPage />} />
-          <Route path="/location/search" element={<SearchPage />} />
+        <Route path="/list" element={<ListPage />} />
 
           <Route path="/info" element={<InfoPage />} />
           <Route path="/info/compensation" element={<InfoCompPage />} />
