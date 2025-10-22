@@ -1,16 +1,49 @@
-// src/pages/ListPage/ListPage.tsx
 import { useState, useMemo } from "react";
 import Header from "../../components/Header/Header";
 import BottomBar from "../../components/BottomBar/BottomBar";
 import { HOSPITALS } from "./hospitals";
 import "./ListPage.css";
 
-// === 유틸: 현재 영업중 여부 판단 ===
+// 요일별 영업시간 텍스트 생성
+function getWeeklyHoursText(hours: any): string {
+  if (!hours || !hours.byDay) return "(정보없음)";
+
+  const texts: string[] = [];
+  const sat = hours.byDay[6];
+  const sun = hours.byDay[0];
+
+  // 토요일이 존재하고 18시 이전 종료 시
+  if (sat) {
+    const cH = Number(sat.close.split(":")[0]);
+    if (cH < 18) texts.push(`토요일 ${sat.close} 종료`);
+  }
+
+  // 일요일 체크
+  if (!sun) {
+    texts.push("일요일 휴무");
+  } else {
+    const cH = Number(sat.close.split(":")[0]);
+    if (cH < 18) texts.push(`일요일 ${sun.close} 종료`);
+  }
+
+  // 위 조건에 해당 없으면 오늘 기준 표시
+  if (texts.length === 0) {
+    const today = new Date().getDay();
+    const todayH = hours.byDay[today];
+    if (!todayH) texts.push("(휴무)");
+    else texts.push(`(${todayH.open}-${todayH.close})`);
+  }
+
+  return texts.join(", ");
+}
+
+
+// 현재 영업중 여부 판단 ===
 function isOpenNow(hours: any): boolean {
   if (!hours || !hours.byDay) return false;
 
   const now = new Date();
-  const day = now.getDay(); // 0:일요일, 1:월요일 ...
+  const day = now.getDay(); 
   const todayHours = hours.byDay[day];
 
   // 휴무(C 또는 null)
@@ -25,7 +58,7 @@ function isOpenNow(hours: any): boolean {
   return currentMinutes >= openMin && currentMinutes < closeMin;
 }
 
-// === 유틸: 오늘 요일 영업시간 텍스트 ===
+// 오늘 요일 영업시간 텍스트 ===
 function getTodayHours(hours: any): string {
   if (!hours || !hours.byDay) return "(정보없음)";
   const day = new Date().getDay();
@@ -92,7 +125,7 @@ export default function ListPage() {
         </div>
       )}
 
-      {/* === 필터바 === */}
+      {/* 필터바 */}
       <div className="loc-filterbar in-sheet">
         <button
           className={`chip chip--dropdown ${isRegionActive ? "chip--active" : ""}`}
@@ -149,7 +182,7 @@ export default function ListPage() {
         </button>
       </div>
 
-      {/* === 자치구 선택 === */}
+      {/* 자치구 선택 */}
       {mode === "region" && (
         <div className="region-grid">
           {["중구", "미추홀구", "부평구", "남동구", "연수구", "서구", "계양구"].map((r) => (
@@ -167,7 +200,7 @@ export default function ListPage() {
         </div>
       )}
 
-      {/* === 진료과목 선택 === */}
+      {/* 진료과목 선택 */}
       {mode === "dept" && (
         <div className="dept-grid">
           {[
@@ -197,7 +230,7 @@ export default function ListPage() {
         </div>
       )}
 
-      {/* === 영업시간 선택 === */}
+      {/* 영업시간 선택 */}
       {mode === "hours" && (
         <div className="hours-filter">
           <button
@@ -215,7 +248,7 @@ export default function ListPage() {
         </div>
       )}
 
-      {/* === 병원 리스트 === */}
+      {/* 병원 리스트*/}
       <div className="hospital-list">
         {filteredHospitals.length > 0 ? (
           filteredHospitals.map((h) => {
@@ -244,7 +277,7 @@ export default function ListPage() {
 
                 <div className="hospital-dept">{h.dept}</div>
                 <div className="hospital-info">
-                  <div>{openStatus} 매주 일요일 휴무</div>
+                  <div>{openStatus} {getWeeklyHoursText(h.hours)}</div>
                   <div>{h.address}</div>
                   <div className="phone">☎ {h.phone}</div>
                 </div>
