@@ -122,8 +122,8 @@ export default function CaseDetailPage() {
                   const [boldPart, ...rest] = line.split(/:(.+)/);
                   return (
                     <p key={i}>
-                      <span style={{ fontWeight: "bold" }}>{boldPart}:</span>
-                      <span>{rest.join(":")}</span>
+                      <span style={{ fontWeight: "bold" }}>{boldPart}:</span>{" "}
+                      <span>{rest.join(":").trim().replace(/:$/, "")}</span>
                     </p>
                   );
                 } else {
@@ -137,7 +137,7 @@ export default function CaseDetailPage() {
         {/* 5. 판정 요지 */}
         <section className="sec sec-5">
           <h2 className="num-title">5. 판정 요지</h2>
-          <div className="body">{renderLines(decisionLines)}</div>
+          <div className="body bullets">{renderLines(decisionLines)}</div>
         </section>
 
         {/* 6. 관계 법령 */}

@@ -34,7 +34,7 @@ body {
   object-fit: contain;
 }
 
-/* ================= Hero 영역 ================= */
+/* Hero 영역 */
 .hero {
   position: relative;
   background: var(--blue);
@@ -137,7 +137,7 @@ body {
   height: 24px;
 }
 
-/* ================= Content 영역 ================= */
+/* Content 영역 */
 .content {
   position: absolute;
   top: 210px;
@@ -177,45 +177,71 @@ body {
   font-size: 12px;
   margin-bottom: 15px;
 }
-
+/* 이미지 카드 그룹 */
 .photo-group {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
+  gap: 14px;
   margin-top: 20px;
 }
 
-.shadow-img {
-  width: 90%;
-  max-width: 300px;
-  height: auto;
+.photo-item {
+  position: relative;
+  width: 346px;
+  height: 120px;
   border-radius: 12px;
-  margin-bottom: 10px;
+  overflow: hidden;
   cursor: pointer;
 }
 
-.global {
-  position: fixed;   
-  top: 11px;    
-  right: 11px;   
-  height: 28px;
-  width: 28px;
-  color: black;
-  cursor: pointer; 
-  transition: transform 0.2s ease, color 0.2s ease;
+.shadow-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+  box-shadow: none;
+  z-index: 1;
 }
 
-@media (min-width: 480px) {
-  .shadow-img {
-    flex: 0 0 calc(50% - 10px);
-    max-width: 300px;
-  }
+/* 이미지 위 텍스트  */
+.photo-item:not(.feedback) .photo-text {
+  position: absolute;
+  top: 35px;  
+  left: 24px; 
+  z-index: 2;
 }
 
-@media (min-width: 768px) {
-  .shadow-img {
-    flex: 0 0 calc(33.33% - 10px);
-    max-width: 300px;
-  }
+.photo-item:not(.feedback) .photo-text .title {
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.photo-item:not(.feedback) .photo-text .subtitle {
+  margin-top: 9px; 
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--blue);
+}
+
+/* 피드백 카드 중앙 정렬 */
+.photo-item.feedback .photo-text {
+  position: absolute;
+  top: 50%;        
+  left: 24px;      
+  transform: translateY(-50%);
+  text-align: left;
+}
+
+.photo-item.feedback .photo-text .title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.photo-item.feedback .photo-text .subtitle {
+  display: none;    
 }
