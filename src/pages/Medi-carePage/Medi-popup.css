@@ -1,0 +1,29 @@
+.medi-popup {
+    background-color: #DEF0FF;
+    border-radius: 5px;
+    border: 1px solid #0C8CFF;
+    text-align: center;
+    padding: 4px 12px;
+    white-space: nowrap;
+}
+
+.medi-popup-text{
+    color: #0C8CFF;
+    font-size: 11px;
+    margin: 0;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background: transparent;
+}
+
+.popup-container {
+    position: fixed;
+    z-index: 1000;
+}

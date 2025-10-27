@@ -4,12 +4,15 @@ import "./Medicare-result.css";
 import { useNavigate } from "react-router-dom";
 import { useFormData } from "../../contexts/FormDataContext";
 import { fillPdf } from "../../utils/Docs_writing/core_utils";
+import { useState } from "react";
 
 const MediResult = ({ onBack }: { onBack: () => void }) => {
     const navigate = useNavigate();
     const { formData, resetFormData } = useFormData();
+    const [isDownloading, setIsDownloading] = useState(false);
 
     const handleDownloadPdf = async () => {
+        setIsDownloading(true);
         try {
             console.log("수집된 데이터:", formData);
             
@@ -35,6 +38,8 @@ const MediResult = ({ onBack }: { onBack: () => void }) => {
         } catch (error) {
             console.error("PDF 생성 실패:", error);
             alert("PDF 생성 중 오류가 발생했습니다.");
+        } finally {
+            setIsDownloading(false);
         }
     };
 
@@ -57,7 +62,20 @@ const MediResult = ({ onBack }: { onBack: () => void }) => {
             </div>
 
             <div className="button-container">
-                <ContinueButton text="PDF로 다운받기" onClick={handleDownloadPdf} />
+                <div className='login-button-container'>
+                    <button 
+                        className={`login-button ${isDownloading ? 'disabled' : ''}`} 
+                        onClick={handleDownloadPdf}
+                        disabled={isDownloading}
+                    >
+                        {isDownloading ? (
+                            <>
+                                <span className="loading-spinner"></span>
+                                PDF 생성 중...
+                            </>
+                        ) : "PDF로 다운받기"}
+                    </button>
+                </div>
                 <ContinueButton text="홈으로 돌아가기" onClick={handleGoHome} />
             </div>
         </div>
