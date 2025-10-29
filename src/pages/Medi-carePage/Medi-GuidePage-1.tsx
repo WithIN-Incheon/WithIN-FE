@@ -4,6 +4,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import Header from "../../components/Header/Header";
 import ContinueButton from "../../components/Login/Button/ContinueButton";
 import "./Medi-GuidePage-1.css";
+import MediPopup from "./Medi-popup";
 
 interface MediGuidePage1Props {
     onNext?: () => void;
@@ -55,6 +56,22 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
     const [workStartTime, setWorkStartTime] = useState(formData.work_starttime || "");
     const [workEndTime, setWorkEndTime] = useState(formData.work_endtime || "");
     const [jobType, setJobType] = useState(formData.job_type || "");
+    
+    // 팝업 상태 관리
+    const [showPopup, setShowPopup] = useState(false);
+    const [popupText, setPopupText] = useState("");
+    const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
+
+    // 팝업이 표시되면 5초 후에 자동으로 사라지게 하기
+    useEffect(() => {
+        if (showPopup) {
+            const timer = setTimeout(() => {
+                setShowPopup(false);
+            }, 5000); // 5초 후 팝업 닫기
+
+            return () => clearTimeout(timer); // 컴포넌트 언마운트 시 타이머 정리
+        }
+    }, [showPopup]);
 
     // 주소 검색에서 돌아왔을 때 주소 설정
     useEffect(() => {
@@ -155,6 +172,22 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
         onNext?.();
     };
 
+    // 팝업 핸들러
+    const handleInfoClick = (text: string, event: React.MouseEvent<HTMLImageElement>) => {
+        const rect = event.currentTarget.getBoundingClientRect();
+        setPopupPosition({
+            top: rect.top - 10,
+            left: rect.right + 10
+        });
+        setPopupText(text);
+        setShowPopup(true);
+    };
+
+    // 팝업 닫기
+    const handleClosePopup = () => {
+        setShowPopup(false);
+    };
+
     return (
         <div className="app">
             <Header title="최초 요양 급여 신청서 연습" onBack={onBack} showHomebtn={true}/>
@@ -167,7 +200,12 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
                     <div className="form-section">
                         <div className="form-label">
                             <label>이름</label>
-                            <img src="/info_square.png" alt="info-icon" />
+                            <img 
+                                src="/info_square.png" 
+                                alt="info-icon" 
+                                onClick={(e) => handleInfoClick("이름을 입력해주세요!", e)}
+                                style={{ cursor: 'pointer' }}
+                            />
                         </div>
                         <input 
                             type="text" 
@@ -182,7 +220,12 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
                     <div className="form-section">
                         <div className="form-label">
                             <label>외국인등록번호</label>
-                            <img src="/info_square.png" alt="info-icon" />
+                            <img 
+                                src="/info_square.png" 
+                                alt="info-icon" 
+                                onClick={(e) => handleInfoClick("외국인 등록증 발급 시 받은 번호를 입력해주세요!", e)}
+                                style={{ cursor: 'pointer' }}
+                            />
                         </div>
                         <div className="registration-number-input">
                             <input 
@@ -209,7 +252,12 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
                     <div className="form-section">
                         <div className="form-label">
                             <label>전화번호</label>
-                            <img src="/info_square.png" alt="info-icon" />
+                            <img 
+                                src="/info_square.png" 
+                                alt="info-icon" 
+                                onClick={(e) => handleInfoClick("휴대폰 번호를 입력해주세요.", e)}
+                                style={{ cursor: 'pointer' }}
+                            />
                         </div>
                         <input 
                             type="tel" 
@@ -224,7 +272,12 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
                     <div className="form-section">
                         <div className="form-label">
                             <label>주소</label>
-                            <img src="/info_square.png" alt="info-icon" />
+                            <img 
+                                src="/info_square.png" 
+                                alt="info-icon" 
+                                onClick={(e) => handleInfoClick("현재 거주하는 위치를 적어주세요.", e)}
+                                style={{ cursor: 'pointer' }}
+                            />
                         </div>
                         <div className="address-input-container">
                             <input 
@@ -248,7 +301,12 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
                     <div className="form-section">
                         <div className="form-label">
                             <label>재해발생일시</label>
-                            <img src="/info_square.png" alt="info-icon" />
+                            <img 
+                                src="/info_square.png" 
+                                alt="info-icon" 
+                                onClick={(e) => handleInfoClick("다친 날짜를 입력해주세요!", e)}
+                                style={{ cursor: 'pointer' }}
+                            />
                         </div>
                         <div className="datetime-input">
                             <input 
@@ -272,7 +330,12 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
                     <div className="form-section">
                         <div className="form-label">
                             <label>채용일자</label>
-                            <img src="/info_square.png" alt="info-icon" />
+                            <img 
+                                src="/info_square.png" 
+                                alt="info-icon" 
+                                onClick={(e) => handleInfoClick("채용일자를 입력해주세요!", e)}
+                                style={{ cursor: 'pointer' }}
+                            />
                         </div>
                         <input 
                             type="date" 
@@ -287,7 +350,12 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
                     <div className="form-section">
                         <div className="form-label">
                             <label>출근 시작/퇴근 시간</label>
-                            <img src="/info_square.png" alt="info-icon" />
+                            <img 
+                                src="/info_square.png" 
+                                alt="info-icon" 
+                                onClick={(e) => handleInfoClick("일 시작/끝나는 시간을 입력해주세요.", e)}
+                                style={{ cursor: 'pointer' }}
+                            />
                         </div>
                         <div className="work-time-input">
                             <input 
@@ -312,7 +380,12 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
                     <div className="form-section">
                         <div className="form-label">
                             <label>직종</label>
-                            <img src="/info_square.png" alt="info-icon" />
+                            <img 
+                                src="/info_square.png" 
+                                alt="info-icon" 
+                                onClick={(e) => handleInfoClick("하시는 일의 분야를 적어주세요!", e)}
+                                style={{ cursor: 'pointer' }}
+                            />
                         </div>
                         <input 
                             type="text" 
@@ -327,6 +400,27 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
             <div className="save-button-container">
                 <ContinueButton text="다음" onClick={handleNext} />
             </div>
+            
+            {/* 팝업 렌더링 */}
+            {showPopup && (
+                <div 
+                    className="popup-overlay" 
+                    onClick={handleClosePopup}
+                >
+                    <div 
+                        className="popup-container"
+                        style={{
+                            position: 'fixed',
+                            top: `${popupPosition.top}px`,
+                            left: `${popupPosition.left}px`,
+                            zIndex: 1000
+                        }}
+                        onClick={(e) => e.stopPropagation()}
+                    >
+                        <MediPopup text={popupText} />
+                    </div>
+                </div>
+            )}
         </div>
     )
 }

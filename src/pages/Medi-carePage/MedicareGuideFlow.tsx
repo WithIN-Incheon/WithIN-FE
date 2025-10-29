@@ -6,6 +6,7 @@ import MediGuidePage2 from "./Medi-GuidePage-2";
 import MediGuidePage3 from "./Medi-GuidePage-3";
 import MediGuidePage4 from "./Medi-GuidePage-4";
 import MediGuidePage5 from "./Medi-GuidePage-5";
+import MediGuidePage6 from "./Medi-GuidePage-6";
 import MediResult from "./Medicare-result";
 
 const MedicareGuideFlow = () => {
@@ -35,11 +36,11 @@ const MedicareGuideFlow = () => {
   }, [location.state]);
 
   const handleNext = () => {
-    if (currentStep < 6) {
+    if (currentStep < 7) {
       setCurrentStep(currentStep + 1);
     } else {
       // 마지막 단계로 이동
-      setCurrentStep(6);
+      setCurrentStep(7);
     }
   };
 
@@ -66,6 +67,8 @@ const MedicareGuideFlow = () => {
       case 5:
         return <MediGuidePage5 onNext={handleNext} onBack={handleBack} />;
       case 6:
+        return <MediGuidePage6 onNext={handleNext} onBack={handleBack} />;
+      case 7:
         return <MediResult onBack={handleBack} />;
       default:
         return <MediGuidePage1 onNext={handleNext} onBack={handleBack} currentStep={currentStep} />;

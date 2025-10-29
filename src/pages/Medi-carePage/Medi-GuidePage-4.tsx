@@ -1,8 +1,10 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useFormData } from "../../contexts/FormDataContext";
 import Header from "../../components/Header/Header";
 import ContinueButton from "../../components/Login/Button/ContinueButton";
+import MediPopup from "./Medi-popup";
 import "./Medi-GuidePage-4.css";
+import "./Medi-popup.css";
 
 interface MediGuidePage4Props {
     onNext?: () => void;
@@ -16,6 +18,22 @@ const MediGuidePage4 = ({ onNext, onBack }: MediGuidePage4Props) => {
     const [policeReport, setPoliceReport] = useState<string>(formData.police_check || "");
     const [emergencyReport, setEmergencyReport] = useState<string>(formData.fire_check || "");
     const [insuranceReport, setInsuranceReport] = useState<string>(formData.insur_check || "");
+    
+    // 팝업 상태 관리
+    const [showPopup, setShowPopup] = useState(false);
+    const [popupText, setPopupText] = useState("");
+    const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
+
+    // 팝업이 표시되면 5초 후에 자동으로 사라지게 하기
+    useEffect(() => {
+        if (showPopup) {
+            const timer = setTimeout(() => {
+                setShowPopup(false);
+            }, 5000); // 5초 후 팝업 닫기
+
+            return () => clearTimeout(timer); // 컴포넌트 언마운트 시 타이머 정리
+        }
+    }, [showPopup]);
 
     // 모든 라디오 버튼이 선택되었는지 확인
     const isButtonDisabled = policeReport === "" || emergencyReport === "" || insuranceReport === "";
@@ -31,6 +49,22 @@ const MediGuidePage4 = ({ onNext, onBack }: MediGuidePage4Props) => {
         onNext?.();
     };
 
+    // 팝업 핸들러
+    const handleInfoClick = (text: string, event: React.MouseEvent<HTMLImageElement>) => {
+        const rect = event.currentTarget.getBoundingClientRect();
+        setPopupPosition({
+            top: rect.top - 10,
+            left: rect.right + 10
+        });
+        setPopupText(text);
+        setShowPopup(true);
+    };
+
+    // 팝업 닫기
+    const handleClosePopup = () => {
+        setShowPopup(false);
+    };
+
     return (
         <div className="app">
             <Header title="최초 요양 급여 신청서 연습" onBack={onBack} showHomebtn={true}/>
@@ -41,7 +75,12 @@ const MediGuidePage4 = ({ onNext, onBack }: MediGuidePage4Props) => {
             <div className="medi-4-form-container">
                 <div className="medi-4-section-header">
                     <h3>재해 발생 경위 </h3>
-                    <img src="/info_square.png" alt="info-icon" />
+                    <img 
+                        src="/info_square.png" 
+                        alt="info-icon" 
+                        onClick={(e) => handleInfoClick("재해 발생 경위를 자세히 입력해주세요!", e)}
+                        style={{ cursor: 'pointer' }}
+                    />
                 </div>
                 <p className="medi-4-instruction-text">
                     내용이 많은 경우 다른 종이에 적으시는 걸 추천드립니다.
@@ -148,6 +187,27 @@ const MediGuidePage4 = ({ onNext, onBack }: MediGuidePage4Props) => {
                     disabled={isButtonDisabled}
                 />
             </div>
+            
+            {/* 팝업 렌더링 */}
+            {showPopup && (
+                <div 
+                    className="popup-overlay" 
+                    onClick={handleClosePopup}
+                >
+                    <div 
+                        className="popup-container"
+                        style={{
+                            position: 'fixed',
+                            top: `${popupPosition.top}px`,
+                            left: `${popupPosition.left}px`,
+                            zIndex: 1000
+                        }}
+                        onClick={(e) => e.stopPropagation()}
+                    >
+                        <MediPopup text={popupText} />
+                    </div>
+                </div>
+            )}
         </div>
     );
 };
