@@ -32,7 +32,9 @@ const MediResult = ({ onBack }: { onBack: () => void }) => {
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
-            URL.revokeObjectURL(url);
+            setTimeout(() => {
+                URL.revokeObjectURL(url);
+            }, 3000);
 
             console.log("PDF 생성 완료!");
         } catch (error) {
