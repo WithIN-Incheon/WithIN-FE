@@ -48,9 +48,6 @@ const MediGuidePage3 = ({ onNext, onBack, currentStep = 3 }: MediGuidePage3Props
         }
     }, [showPopup]);
 
-    // 신청 구분이 선택되었는지 확인
-    const isButtonDisabled = applyCategory === "";
-
     // 주소 검색에서 돌아왔을 때 주소 설정
     useEffect(() => {
         if (location.state?.compAddr) {
@@ -258,7 +255,6 @@ const MediGuidePage3 = ({ onNext, onBack, currentStep = 3 }: MediGuidePage3Props
                 <ContinueButton 
                     text="다음" 
                     onClick={handleNext} 
-                    disabled={isButtonDisabled}
                 />
             </div>
             
