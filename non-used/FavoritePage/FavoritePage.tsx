@@ -1,10 +1,10 @@
 // 기능: 즐겨찾기 목록
 import { useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Header from "../../components/Header/Header";
-import BottomBar from "../../components/BottomBar/BottomBar";
-import { CASES, type CaseItem } from "../CasePage/cases";
-import { toggleFav } from "../CasePage/fav";
+import Header from "../../src/components/Header/Header";
+import BottomBar from "../../src/components/BottomBar/BottomBar";
+import { CASES, type CaseItem } from "../../src/pages/CasePage/cases";
+import { toggleFav } from "../../src/pages/CasePage/fav";
 import "./FavoritePage.css";
 
 const FAV_KEY = "case_favs_v1";

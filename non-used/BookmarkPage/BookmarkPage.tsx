@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import Header from "../../../components/Header/Header";
-import BottomBar from "../../../components/BottomBar/BottomBar";
-import { HOSPITALS, type Hospital } from "../hospitals";
+import Header from "../../src/components/Header/Header";
+import BottomBar from "../../src/components/BottomBar/BottomBar";
+import { HOSPITALS, type Hospital } from "../../src/pages/LocationPage/hospitals";
 import "./BookmarkPage.css";
 
 type SortKey = "distance" | "alpha";

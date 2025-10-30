@@ -1,5 +1,5 @@
 import "./LoginPage.css";
-import ContinueButton from "../../components/Login/Button/ContinueButton";
+import ContinueButton from "../../src/components/Login/Button/ContinueButton";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 

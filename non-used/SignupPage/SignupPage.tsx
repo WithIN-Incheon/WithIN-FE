@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import ContinueButton from '../../components/Login/Button/ContinueButton';
+import ContinueButton from '../../src/components/Login/Button/ContinueButton';
 import './SignupPage.css';
 
 // 각 단계별 설정
