@@ -62,41 +62,4 @@
     margin-bottom: 8px;
 }
 
-.medi-2-form-select {
-    box-sizing: border-box;          /* 패딩/보더 포함 크기 계산 */
-    width: 100%;
-    min-height: 48px;                /* 높이는 고정보다 min-height 권장 */
-    padding: 10px 16px;              /* 터치 여백 확보 */
-  
-    font-size: 16px;                 /* iOS 입력 확대 방지(16px 미만이면 자동 줌) */
-    line-height: 1.4;
-  
-    border: 1px solid #E0E0E0;
-    border-radius: 8px;
-    background-color: #fff;
-    color: #696969;
-  
-    appearance: none;
-    -webkit-appearance: none;        /* iOS Safari */
-    -moz-appearance: none;           /* Firefox */
-  
-    /* 필요 시 드롭다운 화살표 커스텀 (선택) */
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path d='M1 1l5 5 5-5' stroke='%23999' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>");
-    background-repeat: no-repeat;
-    background-position: right 12px center;
-    background-size: 12px 8px;
-  }
-  
-  .medi-2-form-select:focus {
-    outline: none;
-    border-color: #007AFF;
-  }
-  
-
-.medi-2-form-select option {
-    color: #333;
-}
-
-.medi-2-form-select option:disabled {
-    color: #999;
-}
+/* 커스텀 셀렉트는 CustomSelect.css에서 스타일링됨 */

@@ -3,6 +3,7 @@ import { useFormData } from "../../contexts/FormDataContext";
 import { useNavigate, useLocation } from "react-router-dom";
 import Header from "../../components/Header/Header";
 import ContinueButton from "../../components/Login/Button/ContinueButton";
+import CustomSelect from "../../components/CustomSelect/CustomSelect";
 import MediPopup from "./Medi-popup";
 import "./Medi-GuidePage-1.css";
 import "./Medi-GuidePage-2.css";
@@ -83,6 +84,28 @@ const MediGuidePage6 = ({ onNext, onBack, currentStep = 6 }: MediGuidePage6Props
     const [witnessRelation, setWitnessRelation] = useState(formData.witness_relation || "");
     const [medicalName, setMedicalName] = useState(formData.medical_name1 || "");
     const [medicalAddr, setMedicalAddr] = useState(formData.medical_addr1 || "");
+
+    // 옵션 데이터들
+    const businessOwnerOptions = [
+        { value: "0", label: "해당없음" },
+        { value: "1", label: "실제사업주(동업자포함)" },
+        { value: "2", label: "하수급사업주" }
+    ];
+
+    const familyStatusOptions = [
+        { value: "0", label: "해당없음" },
+        { value: "1", label: "배우자" },
+        { value: "2", label: "부모" },
+        { value: "3", label: "자녀" },
+        { value: "4", label: "형제자매" },
+        { value: "5", label: "기타 친인척" }
+    ];
+
+    const applyCategoryOptions = [
+        { value: "0", label: "업무상 사고" },
+        { value: "1", label: "업무상 질병" },
+        { value: "2", label: "출퇴근 재해" }
+    ];
 
     // 팝업 상태 관리
     const [showPopup, setShowPopup] = useState(false);
@@ -469,16 +492,13 @@ const MediGuidePage6 = ({ onNext, onBack, currentStep = 6 }: MediGuidePage6Props
                                 <div className="medi-2-form-sub-label">
                                     <span>사업주여부</span>
                                 </div>
-                                <select 
-                                    className="medi-2-form-select"
+                                <CustomSelect
+                                    options={businessOwnerOptions}
                                     value={businessOwnerStatus}
-                                    onChange={(e) => setBusinessOwnerStatus(e.target.value)}
-                                >
-                                    <option value="" disabled>사업주 여부를 선택해 주세요.</option>
-                                    <option value="0">해당없음</option>
-                                    <option value="1">실제사업주(동업자포함)</option>
-                                    <option value="2">하수급사업주</option>
-                                </select>
+                                    onChange={setBusinessOwnerStatus}
+                                    placeholder="사업주 여부를 선택해 주세요."
+                                    className="medi-2-form-select"
+                                />
                             </div>
 
                             {/* 친인척여부 섹션 */}
@@ -486,19 +506,13 @@ const MediGuidePage6 = ({ onNext, onBack, currentStep = 6 }: MediGuidePage6Props
                                 <div className="medi-2-form-sub-label">
                                     <label>친인척여부</label>
                                 </div>
-                                <select 
-                                    className="medi-2-form-select"
+                                <CustomSelect
+                                    options={familyStatusOptions}
                                     value={familyStatus}
-                                    onChange={(e) => setFamilyStatus(e.target.value)}
-                                >
-                                    <option value="" disabled>친인척 여부를 선택해 주세요.</option>
-                                    <option value="0">해당없음</option>
-                                    <option value="1">배우자</option>
-                                    <option value="2">부모</option>
-                                    <option value="3">자녀</option>
-                                    <option value="4">형제자매</option>
-                                    <option value="5">기타 친인척</option>
-                                </select>
+                                    onChange={setFamilyStatus}
+                                    placeholder="친인척 여부를 선택해 주세요."
+                                    className="medi-2-form-select"
+                                />
                             </div>
                         </form>
                     </div>
@@ -512,16 +526,13 @@ const MediGuidePage6 = ({ onNext, onBack, currentStep = 6 }: MediGuidePage6Props
                                 <div className="medi-2-form-sub-label">
                                     <span>신청 구분</span>
                                 </div>
-                                <select 
-                                    className="medi-2-form-select"
+                                <CustomSelect
+                                    options={applyCategoryOptions}
                                     value={applyCategory}
-                                    onChange={(e) => setApplyCategory(e.target.value)}
-                                >
-                                    <option value="" disabled>신청 구분을 선택해 주세요.</option>
-                                    <option value="0">업무상 사고</option>
-                                    <option value="1">업무상 질병</option>
-                                    <option value="2">출퇴근 재해</option>
-                                </select>
+                                    onChange={setApplyCategory}
+                                    placeholder="신청 구분을 선택해 주세요."
+                                    className="medi-2-form-select"
+                                />
                             </div>
                             <div className="form-section">
                                 <div className="form-label">
