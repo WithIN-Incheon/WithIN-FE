@@ -19,9 +19,14 @@ const MedicarePage = () => {
         navigate("/medicare-guide-flow");
     };
 
+    const handleHome = () => {
+        resetFormData();
+        navigate("/home");
+    };
+
     return (
         <div className="app">
-            <Header title="최초 요양 급여 신청서 연습" />
+            <Header title="최초 요양 급여 신청서 연습" onBack={handleHome}/>
             <div className="medi-hero">
                 <div className="medi-intro">
                     <div className="medi-intro-title">

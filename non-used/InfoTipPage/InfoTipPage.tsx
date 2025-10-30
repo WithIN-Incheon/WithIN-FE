@@ -1,6 +1,6 @@
 // 알아두면 좋은 정보
-import Header from "../../../components/Header/Header";
-import BottomBar from "../../../components/BottomBar/BottomBar";
+import Header from "../../src/components/Header/Header";
+import BottomBar from "../../src/components/BottomBar/BottomBar";
 import "./InfoTipPage.css";
 
 export default function InfoTipPage() {

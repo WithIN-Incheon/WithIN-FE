@@ -1,6 +1,6 @@
 import './TermsPage.css';
-import Agreement from '../../components/Terms/Agreement';
-import ContinueButton from '../../components/Login/Button/ContinueButton';
+import Agreement from '../../src/components/Terms/Agreement';
+import ContinueButton from '../../src/components/Login/Button/ContinueButton';
 
 const TermsPage = () => {
     return (

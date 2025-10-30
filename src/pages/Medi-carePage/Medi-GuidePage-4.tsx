@@ -184,7 +184,6 @@ const MediGuidePage4 = ({ onNext, onBack }: MediGuidePage4Props) => {
                 <ContinueButton 
                     text="다음" 
                     onClick={handleNext} 
-                    disabled={isButtonDisabled}
                 />
             </div>
             

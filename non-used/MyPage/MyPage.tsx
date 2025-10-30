@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import Header from "../../components/Header/Header";
-import BottomBar from "../../components/BottomBar/BottomBar";
+import Header from "../../src/components/Header/Header";
+import BottomBar from "../../src/components/BottomBar/BottomBar";
 import "./MyPage.css";
 
 export default function MyPage() {

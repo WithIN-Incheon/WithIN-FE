@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
-import Header from "../../components/Header/Header";
-import BottomBar from "../../components/BottomBar/BottomBar";
+import Header from "../../src/components/Header/Header";
+import BottomBar from "../../src/components/BottomBar/BottomBar";
 import "./HelpPage.css";
 
 type Range = { start: string; end: string };

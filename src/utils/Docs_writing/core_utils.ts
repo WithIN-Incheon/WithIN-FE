@@ -219,8 +219,9 @@ export function fillBoxes({
     // Radio: 여러 옵션 중 하나만 선택
     const selectedIndex = parseInt(data);
     
+    // 선택이 없거나 잘못된 값이면 체크를 그리지 않고 건너뛴다
     if (isNaN(selectedIndex) || selectedIndex < 0 || selectedIndex >= radioOptions.length) {
-      throw new Error(`라디오 버튼 선택 인덱스가 유효하지 않습니다. 0-${radioOptions.length - 1} 범위의 숫자를 입력하세요.`);
+      return;
     }
     
     // 선택된 옵션에만 체크 표시 (✓ 마크)
