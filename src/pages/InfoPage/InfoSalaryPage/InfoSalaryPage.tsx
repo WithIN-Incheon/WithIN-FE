@@ -200,7 +200,7 @@ export default function InfoSalaryPage() {
 
   return (
     <div className="salary-page">
-      <Header title="산재 보험 급여 안내" />
+      <Header title="산업재해 보험 급여 안내" />
 
       <main className="salary-content">
         {/* 페이지 타이틀 */}

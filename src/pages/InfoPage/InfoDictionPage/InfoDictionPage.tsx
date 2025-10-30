@@ -14,7 +14,7 @@ function toBullets(text: string): string[] {
 export default function InfoDictionPage() {
   return (
     <div className="dict-page">
-      <Header title="산재 관련 용어 사전" />
+      <Header title="산업재해 관련 용어 사전" />
 
       <main className="dict-content">
         {/* 페이지 타이틀 */}
