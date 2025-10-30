@@ -3,6 +3,7 @@ import { useFormData } from "../../contexts/FormDataContext";
 import { useNavigate, useLocation } from "react-router-dom";
 import Header from "../../components/Header/Header";
 import ContinueButton from "../../components/Login/Button/ContinueButton";
+import CustomSelect from "../../components/CustomSelect/CustomSelect";
 import MediPopup from "./Medi-popup";
 import "./Medi-popup.css";
 
@@ -23,6 +24,13 @@ const MediGuidePage3 = ({ onNext, onBack, currentStep = 3 }: MediGuidePage3Props
     const [compContact, setCompContact] = useState(formData.comp_contact || "");
     const [businessNum, setBusinessNum] = useState(formData.bussiness_num || "");
     const [compAddr, setCompAddr] = useState(formData.comp_addr || "");
+    
+    // 신청 구분 옵션
+    const applyCategoryOptions = [
+        { value: "0", label: "업무상 사고" },
+        { value: "1", label: "업무상 질병" },
+        { value: "2", label: "출퇴근 재해" }
+    ];
     
     // 팝업 상태 관리
     const [showPopup, setShowPopup] = useState(false);
@@ -134,16 +142,13 @@ const MediGuidePage3 = ({ onNext, onBack, currentStep = 3 }: MediGuidePage3Props
                         <div className="medi-2-form-sub-label">
                             <span>신청 구분</span>
                         </div>
-                        <select 
-                            className="medi-2-form-select"
+                        <CustomSelect
+                            options={applyCategoryOptions}
                             value={applyCategory}
-                            onChange={(e) => setApplyCategory(e.target.value)}
-                        >
-                            <option value="" disabled>신청 구분을 선택해 주세요.</option>
-                            <option value="0">업무상 사고</option>
-                            <option value="1">업무상 질병</option>
-                            <option value="2">출퇴근 재해</option>
-                        </select>
+                            onChange={setApplyCategory}
+                            placeholder="신청 구분을 선택해 주세요."
+                            className="medi-2-form-select"
+                        />
                     </div>
                     <div className="form-section">
                         <div className="form-label">

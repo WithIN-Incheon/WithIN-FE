@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useFormData } from "../../contexts/FormDataContext";
 import Header from "../../components/Header/Header";
 import ContinueButton from "../../components/Login/Button/ContinueButton";
+import CustomSelect from "../../components/CustomSelect/CustomSelect";
 import "./Medi-GuidePage-2.css";
 
 interface MediGuidePage2Props {
@@ -14,6 +15,23 @@ const MediGuidePage2 = ({ onNext, onBack }: MediGuidePage2Props) => {
     
     const [businessOwnerStatus, setBusinessOwnerStatus] = useState(formData.bussiness_owner_status || "");
     const [familyStatus, setFamilyStatus] = useState(formData.family_status || "");
+
+    // 사업주 여부 옵션
+    const businessOwnerOptions = [
+        { value: "0", label: "해당없음" },
+        { value: "1", label: "실제사업주(동업자포함)" },
+        { value: "2", label: "하수급사업주" }
+    ];
+
+    // 친인척 여부 옵션
+    const familyStatusOptions = [
+        { value: "0", label: "해당없음" },
+        { value: "1", label: "배우자" },
+        { value: "2", label: "부모" },
+        { value: "3", label: "자녀" },
+        { value: "4", label: "형제자매" },
+        { value: "5", label: "기타 친인척" }
+    ];
 
     // 사업주 여부와 친인척 여부가 모두 선택되었는지 확인
     const isButtonDisabled = businessOwnerStatus === "" || familyStatus === "";
@@ -43,16 +61,13 @@ const MediGuidePage2 = ({ onNext, onBack }: MediGuidePage2Props) => {
                         <div className="medi-2-form-sub-label">
                             <span>사업주여부</span>
                         </div>
-                        <select 
-                            className="medi-2-form-select"
+                        <CustomSelect
+                            options={businessOwnerOptions}
                             value={businessOwnerStatus}
-                            onChange={(e) => setBusinessOwnerStatus(e.target.value)}
-                        >
-                            <option value="" disabled>사업주 여부를 선택해 주세요.</option>
-                            <option value="0">해당없음</option>
-                            <option value="1">실제사업주(동업자포함)</option>
-                            <option value="2">하수급사업주</option>
-                        </select>
+                            onChange={setBusinessOwnerStatus}
+                            placeholder="사업주 여부를 선택해 주세요."
+                            className="medi-2-form-select"
+                        />
                     </div>
 
                     {/* 친인척여부 섹션 */}
@@ -60,19 +75,13 @@ const MediGuidePage2 = ({ onNext, onBack }: MediGuidePage2Props) => {
                         <div className="medi-2-form-sub-label">
                             <label>친인척여부</label>
                         </div>
-                        <select 
-                            className="medi-2-form-select"
+                        <CustomSelect
+                            options={familyStatusOptions}
                             value={familyStatus}
-                            onChange={(e) => setFamilyStatus(e.target.value)}
-                        >
-                            <option value="" disabled>친인척 여부를 선택해 주세요.</option>
-                            <option value="0">해당없음</option>
-                            <option value="1">배우자</option>
-                            <option value="2">부모</option>
-                            <option value="3">자녀</option>
-                            <option value="4">형제자매</option>
-                            <option value="5">기타 친인척</option>
-                        </select>
+                            onChange={setFamilyStatus}
+                            placeholder="친인척 여부를 선택해 주세요."
+                            className="medi-2-form-select"
+                        />
                     </div>
 
                     {/* 근로자유형 섹션 */}
