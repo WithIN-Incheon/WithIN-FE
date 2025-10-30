@@ -9,7 +9,7 @@ export default function InfoProcessPage() {
 
       <main className="proc-content">
         {/* 타이틀 */}
-        <h1 className="proc-title">산재 보험 보상 절차</h1>
+        <h1 className="proc-title">산업재해 보험 보상 절차</h1>
 
         {/* 개요 */}
         <section className="proc-section">

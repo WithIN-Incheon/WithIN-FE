@@ -9,7 +9,7 @@ export default function InfoPage() {
 
   return (
     <div className="info-page">
-      <Header title="산재 정보" />
+      <Header title="산재재해 정보 가이드" />
 
       <main className="info-content">
         <h2 className="info-title">
