@@ -177,19 +177,21 @@ body {
   font-size: 12px;
   margin-bottom: 15px;
 }
-/* 이미지 카드 그룹 */
+/* ================= 이미지 카드 그룹 ================= */
 .photo-group {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 14px;
-  margin-top: 20px;
+ justify-content: center;
+  gap: 24px;
+  margin-top: 40px;
 }
 
 .photo-item {
   position: relative;
-  width: 346px;
-  height: 120px;
+  width: 90%;
+  max-width: 600px; /* 가이드 카드 최대폭 */
+  height: auto;
+  aspect-ratio: 6 / 2; 
   border-radius: 12px;
   overflow: hidden;
   cursor: pointer;
@@ -205,24 +207,24 @@ body {
   z-index: 1;
 }
 
-/* 이미지 위 텍스트  */
+/* 이미지 위 텍스트 - 일반 카드 */
 .photo-item:not(.feedback) .photo-text {
   position: absolute;
-  top: 35px;  
-  left: 24px; 
+  top: 32px;
+  left: 24px;
   z-index: 2;
 }
 
 .photo-item:not(.feedback) .photo-text .title {
-  font-size: 21px;
+  font-size: 24px;
   font-weight: 700;
   color: var(--ink);
-  line-height: 1.2;
+  line-height: 1.3;
 }
 
 .photo-item:not(.feedback) .photo-text .subtitle {
-  margin-top: 9px; 
-  font-size: 12px;
+  margin-top: 12px;
+  font-size: 13px;
   font-weight: 500;
   color: var(--blue);
 }
@@ -230,18 +232,78 @@ body {
 /* 피드백 카드 중앙 정렬 */
 .photo-item.feedback .photo-text {
   position: absolute;
-  top: 50%;        
-  left: 24px;      
+  top: 50%;
+  left: 24px;
   transform: translateY(-50%);
   text-align: left;
 }
 
 .photo-item.feedback .photo-text .title {
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 700;
   color: var(--ink);
 }
 
 .photo-item.feedback .photo-text .subtitle {
-  display: none;    
+  display: none;
+}
+
+.global {
+  position: fixed;
+  top: 11px;
+  right: 11px;
+  height: 28px;
+  width: 28px;
+  color: black;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+/* ================= 반응형 ================= */
+@media (min-width: 480px) {
+  .photo-item {
+    max-width: 400px;
+  }
+  .photo-item:not(.feedback) .photo-text .title {
+    font-size: 26px;
+  }
+  .photo-item:not(.feedback) .photo-text .subtitle {
+    font-size: 18px;
+  }
+  .photo-item.feedback .photo-text .title {
+    font-size: 27px;
+  }
+}
+
+@media (min-width: 768px) {
+  .photo-item {
+    max-width: 500px;
+  }
+  .photo-item:not(.feedback) .photo-text .title {
+    font-size: 28px;
+  }
+  .photo-item:not(.feedback) .photo-text .subtitle {
+    font-size: 20px;
+  }
+  .photo-item.feedback .photo-text .title {
+    font-size: 29px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .photo-item {
+    flex: 0 0 calc(50% - 24px); /* 한 줄에 2개 */
+    max-width: calc(50% - 24px);
+    height: 180px;
+  }
+  .photo-item:not(.feedback) .photo-text .title {
+    font-size: 30px;
+    margin-top: 25px;
+  }
+  .photo-item:not(.feedback) .photo-text .subtitle {
+    font-size: 22px;
+  }
+  .photo-item.feedback .photo-text .title {
+    font-size: 32px;
+  }
 }

@@ -12,7 +12,7 @@ export default function App() {
 
         <img className="bg-icon" src="/Home/BgIcon.png" alt="bg" />
         <div className="headline">
-          <div className="subtitle">옆에서 차근차근 도와주는</div>
+          <div className="subtitle">옆에서 쉽게 도와주는</div>
           <div className="title">산재 가이드, WithIN</div>
         </div>
 {/* 
