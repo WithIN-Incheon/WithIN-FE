@@ -13,11 +13,11 @@ export default function GuidePage() {
 
 <main className="guide-content">
   <div className="guide-header">
-    <h2 className="guide-title">김윗인 님,<br/>어떤 도움이 필요하세요?</h2>
-    <p className="guide-subtitle">아래에서 원하는 항목을 선택해보세요.</p>
+    <h2 className="guide-title">산업재해와 관련된<br/>어떤 도움이 필요하세요?</h2>
   </div>
 
   <div className="guide-cards">
+    {/* 이미지가 아닌걸로 수정해야함 일단 */}
     <img
       className="guide-card"
       src="/Guide/Information-box.svg"
