@@ -37,13 +37,12 @@ function getWeeklyHoursText(hours: any): string {
   return texts.join(", ");
 }
 
-
-// 현재 영업중 여부 판단 ===
+// 현재 영업중 여부 판단
 function isOpenNow(hours: any): boolean {
   if (!hours || !hours.byDay) return false;
 
   const now = new Date();
-  const day = now.getDay(); 
+  const day = now.getDay();
   const todayHours = hours.byDay[day];
 
   // 휴무(C 또는 null)
@@ -58,7 +57,7 @@ function isOpenNow(hours: any): boolean {
   return currentMinutes >= openMin && currentMinutes < closeMin;
 }
 
-// 오늘 요일 영업시간 텍스트 ===
+// 오늘 요일 영업시간 텍스트
 function getTodayHours(hours: any): string {
   if (!hours || !hours.byDay) return "(정보없음)";
   const day = new Date().getDay();
@@ -248,14 +247,13 @@ export default function ListPage() {
         </div>
       )}
 
-      {/* 병원 리스트*/}
+      {/* 병원 리스트 */}
       <div className="hospital-list">
         {filteredHospitals.length > 0 ? (
           filteredHospitals.map((h) => {
             const isSelected = selectedId === h.id;
             const open = isOpenNow(h.hours);
             const todayHours = getTodayHours(h.hours);
-            const openStatus = `${open ? "영업중" : "영업종료"} ${todayHours} / `;
 
             return (
               <div
@@ -277,7 +275,12 @@ export default function ListPage() {
 
                 <div className="hospital-dept">{h.dept}</div>
                 <div className="hospital-info">
-                  <div>{openStatus} {getWeeklyHoursText(h.hours)}</div>
+                  <div>
+                    <span className={open ? "status-open" : "status-closed"}>
+                      {open ? "영업중" : "영업종료"}
+                    </span>
+                    &nbsp;{todayHours} / {getWeeklyHoursText(h.hours)}
+                  </div>
                   <div>{h.address}</div>
                   <div className="phone">☎ {h.phone}</div>
                 </div>

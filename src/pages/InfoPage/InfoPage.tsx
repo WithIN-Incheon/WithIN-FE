@@ -13,7 +13,7 @@ export default function InfoPage() {
 
       <main className="info-content">
         <h2 className="info-title">
-          {`산재에 대한\n전반적인 내용이 궁금하세요?`}
+          {`산재에 대한\n전반적인 내용을 알아보세요!`}
         </h2>
 
         <div className="info-grid">

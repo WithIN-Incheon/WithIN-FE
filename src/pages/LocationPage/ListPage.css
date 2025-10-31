@@ -90,7 +90,7 @@
   cursor: pointer;
   color: #333;
   margin-left: 10px;
-  height: 30px; 
+  height: 30px;
   line-height: 16px;
 }
 
@@ -161,6 +161,17 @@
 .link-icon img {
   width: 16px;
   height: 16px;
+}
+
+/* ✅ 영업 상태 색상 표시 */
+.status-open {
+  color: #16a34a; /* 초록색 */
+  font-weight: 600;
+}
+
+.status-closed {
+  color: #dc2626; /* 빨간색 */
+  font-weight: 600;
 }
 
 /* 결과 없을 때 */
