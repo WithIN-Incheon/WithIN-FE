@@ -97,7 +97,7 @@
     "EN": "Search workers' compensation medical institutions",
     "NP": "औद्योगिक दुर्घटना चिकित्सा संस्थाहरूको खोजी",
     "TH": "ค้นหาสถานพยาบาลสำหรับอุบัติเหตุจากการทำงาน",
-    "RU": "Поиск медицинских учреждений по лечению производственных травм"
+    "RU": "Найти больницу по трудовым травмам"
   },
   "mainFindHospital": {
     "KO": "근로복지공단 지정 병원 찾기",
@@ -1147,7 +1147,7 @@
     "EN": "Accident during work",
     "NP": "काम प्रदर्शनको क्रममा दुर्घटना",
     "TH": "อุบัติเหตุระหว่างปฏิบัติงาน",
-    "RU": "Несчастный случай во время выполнения рабочих обязанностей"
+    "RU": "Несчастный случай на работе"
   },
   "exampleWhileGo": {
     "KO": "출퇴근 중의 사고",
@@ -1211,13 +1211,13 @@
   },
   "hospitalList": {
     "KO": "산재 의료기관 리스트",
-    "MM": "စက်မှုလုပ်ငန်းခွင် ထိခိုက်မှု ဆေးကုသရေးဌာန စာရင်း",
-    "VN": "Danh sách cơ sở y tế tai nạn lao động",
-    "ID": "Daftar institusi medis untuk kecelakaan kerja",
-    "EN": "List of industrial accident medical institutions",
-    "NP": "औद्योगिक दुर्घटना चिकित्सा संस्थाहरूको सूची",
-    "TH": "รายชื่อสถานพยาบาลสำหรับอุบัติเหตุจากการทำงาน",
-    "RU": "Список медицинских учреждений по производственным травмам"
+    "MM": "စက်မှုထိခိုက်မှု ဆေးကုသရေးဌာန",
+    "VN": "Cơ sở y tế tai nạn lao động",
+    "ID": "Institusi medis kecelakaan kerja",
+    "EN": "Industrial accident hospitals",
+    "NP": "औद्योगिक दुर्घटना चिकित्सा संस्था",
+    "TH": "สถานพยาบาลอุบัติเหตุจากการทำงาน",
+    "RU": "Травмпункты"
   },
   "hospitalWork": {
     "KO": "영업중",
@@ -1478,5 +1478,95 @@
     "NP": "व्यापार घण्टा",
     "TH": "เวลาทำการ",
     "RU": "Часы работы"
+  },
+  "entire":{
+    "KO": "전체",
+    "MM": "အကုန်လုံး",
+    "VN": "Tổng thể",
+    "ID": "Seluruh",
+    "EN": "All",
+    "NP": "सबै",
+    "TH": "ทั้งหมด",
+    "RU": "Все"
+  },
+  "nocase":{
+    "KO": "전체",
+    "MM": "ထိုအခြေအနေအတွက် သာဓကမရှိပါ",
+    "VN": "Không có trường hợp nào đáp ứng điều kiện này.",
+    "ID": "Tidak ada contoh yang memenuhi syarat tersebut.",
+    "EN": "No cases found for this condition",
+    "NP": "निर्दिष्ट सर्तहरू पूरा गर्ने कुनै केसहरू छैनन्।",
+    "TH": "ไม่มีตัวอย่างสำหรับเงื่อนไขนี้",
+    "RU": "Нет случаев, соответствующих указанным условиям."
+  },
+  "approve":{
+    "KO": "승인",
+    "MM": "ခွင့်ပြုချက်",
+    "VN": "Phê duyệt",
+    "ID": "Persetujuan",
+    "EN": "Approved",
+    "NP": "अनुमोदन",
+    "TH": "การอนุมัติ",
+    "RU": "Утверждение"
+  },
+  "disapprove":{
+    "KO": "불승인",
+    "MM": "ငြင်းပယ်ခြင်း",
+    "VN": "Không phê duyệt",
+    "ID": "Tidak disetujui",
+    "EN": "Disapproved",
+    "NP": "अस्वीकृत",
+    "TH": "ไม่อนุมัติ",
+    "RU": "Отклонено"
+  },
+  "kindDisease":{
+    "KO": "질병 유형",
+    "MM": "ရောဂါ အမျိုးအစား",
+    "VN": "Loại bệnh",
+    "ID": "Jenis penyakit",
+    "EN": "Disease type",
+    "NP": "रोगको प्रकार",
+    "TH": "ประเภทของโรค",
+    "RU": "Тип заболевания"
+  },
+  "closed":{
+    "KO": "휴무",
+    "MM": "ပိတ်ရက်",
+    "VN": "Nghỉ làm",
+    "ID": "Tutup",
+    "EN": "Closed",
+    "NP": "बन्द",
+    "TH": "ปิดทำการ",
+    "RU": "Выходной"
+  },
+  "exampleOtherAccident":{
+    "KO":"기타 사고",
+    "MM": "အခြားမတော်တဆမှုများ",
+    "VN": "Tai nạn khác",
+    "ID": "Kecelakaan lain",
+    "EN": "Other accidents",
+    "NP": "अन्य दुर्घटना",
+    "TH": "อุบัติเหตุอื่นๆ",
+    "RU": "Прочие несчастные случаи"
+  },
+  "Sunday":{
+    "KO": "일요일",
+    "MM": "တနင်္ဂနွေနေ့",
+    "VN": "Chủ nhật",
+    "ID": "Minggu",
+    "EN": "Sunday",
+    "NP": "आइतबार",
+    "TH": "วันอาทิตย์",
+    "RU": "Воскресенье"
+  },
+  "noInfo":{
+    "KO": "정보없음",
+    "MM": "မရှိပါ",
+    "VN": "Không có thông tin",
+    "ID": "Tidak ada informasi",
+    "EN": "No information",
+    "NP": "မရှိပါ",
+    "TH": "ไม่มีข้อมูล",
+    "RU": "Нет информации"
   }
 }

@@ -9,21 +9,21 @@ import "./CasePage.css";
 export default function CasePage() {
   const { t } = useLocalization();
   const [tab, setTab] = useState<CaseKind>("accident");
-  const [filter, setFilter] = useState<string>("전체");
+  const [filter, setFilter] = useState<string>(t("entire"));
   const [search, setSearch] = useState<string>("");
   const [searchOpen, setSearchOpen] = useState<boolean>(false);
   const [open, setOpen] = useState(false);
   const nav = useNavigate();
 
   const filterOptions: Record<CaseKind, string[]> = {
-    accident: ["전체", "exampleWhileWork", "exampleWhileGo", "exampleWhileEvents", "exampleWhileCrime", "exampleWhileNone"],
-    disease: ["전체", "exampleWhileSick"],
+    accident: [t("entire"), "exampleWhileWork", "exampleWhileGo", "exampleWhileEvents", "exampleWhileCrime", "exampleWhileNone", "exampleOtherAccident"],
+    disease: [t("entire"), "exampleWhileSick"],
   };
 
   // 필터 + 검색 적용
   const list = useMemo<CaseItem[]>(() => {
     const all = CASES.filter((c) => c.kind === tab);
-    const filtered = filter === "전체" ? all : all.filter((c) => c.tag === filter);
+    const filtered = filter === t("entire") ? all : all.filter((c) => c.tag === filter);
     if (!search) return filtered;
     return filtered.filter((c) => c.title.includes(search));
   }, [tab, filter, search]);
@@ -41,10 +41,10 @@ export default function CasePage() {
   };
 
   const filterLabel =
-    filter === "전체"
+    filter === t("entire")
       ? tab === "accident"
         ? t("exampleAccident")
-        : "질병 유형"
+        : t("kindDisease")
       : getTagDisplay(filter);
 
   return (
@@ -74,7 +74,7 @@ export default function CasePage() {
             type="button"
             onClick={() => {
               setTab("accident");
-              setFilter("전체");
+              setFilter(t("entire"));
               setSearch("");
             }}
           >
@@ -85,7 +85,7 @@ export default function CasePage() {
             type="button"
             onClick={() => {
               setTab("disease");
-              setFilter("전체");
+              setFilter(t("entire"));
               setSearch("");
             }}
           >
@@ -133,7 +133,7 @@ export default function CasePage() {
 
         {/* 리스트 */}
         {list.length === 0 ? (
-          <div className="case-empty">해당 조건의 사례가 없습니다.</div>
+          <div className="case-empty">{t("nocase")}</div>
         ) : (
           <ul className="case-list">
             {list.map((c) => (
@@ -148,7 +148,7 @@ export default function CasePage() {
                 </div>
 
                 <div className="case-meta">
-                  <span className="approval">{c.approval}</span>
+                  <span className="approval">{t(c.approval as any)}</span>
                   <span className="tag">{getTagDisplay(c.tag)}</span>
                 </div>
 

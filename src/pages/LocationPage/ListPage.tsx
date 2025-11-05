@@ -2,12 +2,12 @@ import { useState, useMemo } from "react";
 import Header from "../../components/Header/Header";
 import BottomBar from "../../components/BottomBar/BottomBar";
 import { HOSPITALS } from "./hospitals";
-import { useLocalization } from "../../contexts/LocalizationContext";
+import { useLocalization, type LocalizationKey } from "../../contexts/LocalizationContext";
 import "./ListPage.css";
 
 // 요일별 영업시간 텍스트 생성
-function getWeeklyHoursText(hours: any, t: (key: string) => string): string {
-  if (!hours || !hours.byDay) return "(정보없음)";
+function getWeeklyHoursText(hours: any, t: (key: LocalizationKey) => string): string {
+  if (!hours || !hours.byDay) return `(${t("noInfo")})`;
 
   const texts: string[] = [];
   const sat = hours.byDay[6];
@@ -31,7 +31,7 @@ function getWeeklyHoursText(hours: any, t: (key: string) => string): string {
   if (texts.length === 0) {
     const today = new Date().getDay();
     const todayH = hours.byDay[today];
-    if (!todayH) texts.push("(휴무)");
+    if (!todayH) texts.push(`(${t("closed")})`);
     else texts.push(`(${todayH.open}-${todayH.close})`);
   }
 
@@ -59,11 +59,11 @@ function isOpenNow(hours: any): boolean {
 }
 
 // 오늘 요일 영업시간 텍스트
-function getTodayHours(hours: any): string {
-  if (!hours || !hours.byDay) return "(정보없음)";
+function getTodayHours(hours: any, t: (key: LocalizationKey) => string): string {
+  if (!hours || !hours.byDay) return `(${t("noInfo")})`;
   const day = new Date().getDay();
   const todayHours = hours.byDay[day];
-  if (!todayHours) return "(휴무)";
+  if (!todayHours) return `(${t("closed")})`;
   return `(${todayHours.open}-${todayHours.close})`;
 }
 
@@ -80,7 +80,7 @@ export default function ListPage() {
   const [showSearch, setShowSearch] = useState(false);
 
   const regionChipText = regionFilter || t("hospitalGu");
-  const deptChipText = deptFilter ? t(deptFilter) : t("hospitalSubject");
+  const deptChipText = deptFilter ? t(deptFilter as LocalizationKey) : t("hospitalSubject");
   const hoursChipText = hoursFilter
     ? hoursFilter === "open"
       ? t("hospitalWork")
@@ -203,7 +203,7 @@ export default function ListPage() {
                 setMode("list");
               }}
             >
-              {t(label)}
+              {t(label as LocalizationKey)}
             </button>
           ))}
         </div>
@@ -233,7 +233,7 @@ export default function ListPage() {
                 setMode("list");
               }}
             >
-              {t(d)}
+              {t(d as LocalizationKey)}
             </button>
           ))}
         </div>
@@ -263,7 +263,7 @@ export default function ListPage() {
           filteredHospitals.map((h) => {
             const isSelected = selectedId === h.id;
             const open = isOpenNow(h.hours);
-            const todayHours = getTodayHours(h.hours);
+            const todayHours = getTodayHours(h.hours, t);
 
             return (
               <div
@@ -283,7 +283,7 @@ export default function ListPage() {
                   </a>
                 </div>
 
-                <div className="hospital-dept">{t(h.dept)}</div>
+                <div className="hospital-dept">{t(h.dept as LocalizationKey)}</div>
                 <div className="hospital-info">
                   <div>
                     <span className={open ? "status-open" : "status-closed"}>
@@ -298,7 +298,7 @@ export default function ListPage() {
             );
           })
         ) : (
-          <div className="no-result">해당 조건의 의료기관이 없습니다.</div>
+          <div className="no-result">{t("nocase")}</div>
         )}
       </div>
 
