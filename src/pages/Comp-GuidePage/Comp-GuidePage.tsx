@@ -3,17 +3,18 @@ import Header from "../../components/Header/Header";
 import BottomBar from "../../components/BottomBar/BottomBar";
 import { useNavigate } from "react-router-dom";
 import "./Comp-GuidePage.css";
+import { useLocalization } from "../../contexts/LocalizationContext";
 
 export default function GuidePage() {
   const navigate = useNavigate();
-
+  const { t } = useLocalization();
   return (
     <div className="guide-page">
       <Header title="산재 신청 가이드" />
 
 <main className="guide-content">
   <div className="guide-header">
-    <h2 className="guide-title">산업재해와 관련된<br/>어떤 도움이 필요하세요?</h2>
+    <h2 className="guide-title">{t('guideHelp1')}<br/>{t('guideHelp2')}</h2>
   </div>
 
   <div className="guide-cards">

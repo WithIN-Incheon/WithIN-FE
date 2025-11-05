@@ -32,8 +32,8 @@ const MedicarePage = () => {
             <div className="medi-hero">
                 <div className="medi-intro">
                     <div className="medi-intro-title">
-                        최초 요양 급여 신청서<br/>
-                        작성법을 연습해보세요!<br/>
+                        {t('practiceGuide1')}<br/>
+                        {t('practiceGuide2')}<br/>
                     </div>
                     <img className="medi-intro-img" src="/Medicare/medicare-apply.svg"/>
                 </div>
