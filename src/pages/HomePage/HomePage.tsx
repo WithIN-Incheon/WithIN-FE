@@ -2,9 +2,11 @@
 import { useNavigate } from "react-router-dom";
 import "./HomePage.css";
 import BottomBar from "../../components/BottomBar/BottomBar";
+import { useLocalization } from "../../contexts/LocalizationContext";
 
 export default function App() {
   const navigate = useNavigate();
+  const { t } = useLocalization();
 
   return (
     <div className="app">
@@ -12,8 +14,8 @@ export default function App() {
 
         <img className="bg-icon" src="/Home/BgIcon.png" alt="bg" />
         <div className="headline">
-          <div className="subtitle">옆에서 쉽게 도와주는</div>
-          <div className="title">산재 가이드, WithIN</div>
+          <div className="subtitle">{t('mainHelp')}</div>
+          <div className="title">{t('mainIndustry')}</div>
         </div>
 {/* 
         <a
@@ -34,24 +36,24 @@ export default function App() {
           <div className="photo-item" onClick={() => navigate("/guide")}>
             <img className="shadow-img" src="/Home/Home_Guide.svg" alt="산재 신청 가이드" />
             <div className="photo-text">
-              <div className="title">산업재해 보험 가이드</div>
-              <div className="subtitle">산업재해 보험 자세히 알아보기</div>
+              <div className="title">{t('mainIndustry')}</div>
+              <div className="subtitle">{t('mainLookup')}</div>
             </div>
           </div>
 
           <div className="photo-item" onClick={() => navigate("/cases")}>
             <img className="shadow-img" src="/Home/Home_ExSearch.svg" alt="사례 검색" />
             <div className="photo-text">
-              <div className="title">사례 검색</div>
-              <div className="subtitle">실제사례를 통해 나의 상황 이해하기</div>
+              <div className="title">{t('mainSearch')}</div>
+              <div className="subtitle">{t('mainExample')}</div>
             </div>
           </div>
 
           <div className="photo-item" onClick={() => navigate("/list")}>
             <img className="shadow-img" src="/Home/Home_HosSearch.svg" alt="의료기관 검색" />
             <div className="photo-text">
-              <div className="title">산재 의료기관 검색</div>
-              <div className="subtitle">근로복지공단 지정 병원 찾기</div>
+              <div className="title">{t('mainHospital')}</div>
+              <div className="subtitle">{t('mainFindHospital')}</div>
             </div>
           </div>
           
@@ -61,7 +63,7 @@ export default function App() {
           >
             <img className="shadow-img" src="/Home/Home_Feedback.svg" alt="피드백 하기" />
             <div className="photo-text">
-              <div className="title">피드백 하기</div>
+              <div className="title">{t('mainFeed')}</div>
             </div>
           </div>
 

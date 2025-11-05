@@ -1,34 +1,15 @@
-import { useState } from "react";
 import "./LangPage.css";
 import LangSelector from "../../components/Lang/LangSelector";
 import ContinueButton from "../../components/Login/Button/ContinueButton";
 import { useNavigate } from "react-router-dom";
-
-interface Language {
-  code: string;
-  name: string;
-  nativeName: string;
-  flag: string;
-}
+import { useLocalization } from "../../contexts/LocalizationContext";
 
 const LangPage = () => {
-  const [selectedLanguage, setSelectedLanguage] = useState<Language | null>({
-    code: 'ko',
-    name: 'Korean', 
-    nativeName: '한국어',
-    flag: '🇰🇷'
-  });
-  const navigate = useNavigate(); 
-
-  const handleLanguageChange = (language: Language) => {
-    setSelectedLanguage(language);
-  };
+  const navigate = useNavigate();
+  const { t } = useLocalization();
 
   const handleStart = () => {
-    if (selectedLanguage) {
-      console.log("Selected language:", selectedLanguage);
-      navigate("/home");
-    }
+    navigate("/home");
   };
 
   return (
@@ -46,16 +27,13 @@ const LangPage = () => {
         </div>
 
         <div className="language-section">
-          <LangSelector
-            onLanguageChange={handleLanguageChange}
-            initialLanguage="ko"
-          />
+          <LangSelector />
         </div>
       </div>
 
       {/* 시작하기 버튼 */}
       <div className="button-section">
-        <ContinueButton text="시작하기" onClick={handleStart} />
+        <ContinueButton text={t('firstButton')} onClick={handleStart} />
       </div>
     </div>
   );
