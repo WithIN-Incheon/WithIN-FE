@@ -7,40 +7,52 @@ import "./InfoPage.css";
 export default function InfoPage() {
   const navigate = useNavigate();
 
+  const infoCards = [
+    {
+      title: "산업재해 보험 안내",
+      subtitle: "보험의 정의, 적용대상, 대상에 대해서 \n설명합니다",
+      img: "/Info/Compensation-box.svg",
+      path: "/info/compensation",
+    },
+    {
+      title: "산업재해 보험 보상 절차",
+      subtitle: "보험의 보상절차에 대해 설명합니다",
+      img: "/Info/Process-box.svg",
+      path: "/info/process",
+    },
+    {
+      title: "산업재해 보험 급여 안내",
+      subtitle: "보험의 급여 종류에 대해 설명합니다",
+      img: "/Info/Benefit-box.svg",
+      path: "/info/salary",
+    },
+    {
+      title: "산업재해 관련 용어 사전",
+      subtitle: "산업재해와 관련된 용어를 소개합니다",
+      img: "/Info/Glossary-box.svg",
+      path: "/info/dictionary",
+    },
+  ];
+
   return (
     <div className="info-page">
       <Header title="산재재해 정보 가이드" />
 
       <main className="info-content">
-        <h2 className="info-title">
-          {`산재에 대한\n전반적인 내용을 알아보세요!`}
-        </h2>
-
-        <div className="info-grid">
-          <img
-            className="info-box"
-            src="/Info/Compensation-box.svg"
-            alt="산재 보험 안내"
-            onClick={() => navigate("/info/compensation")}
-          />
-          <img
-            className="info-box"
-            src="/Info/Process-box.svg"
-            alt="산재 보험 보상 절차"
-            onClick={() => navigate("/info/process")}
-          />
-          <img
-            className="info-box"
-            src="/Info/Benefit-box.svg"
-            alt="산재 보험 급여 안내"
-            onClick={() => navigate("/info/salary")}
-          />
-          <img
-            className="info-box"
-            src="/Info/Glossary-box.svg"
-            alt="산재 관련 용어사전"
-            onClick={() => navigate("/info/dictionary")}
-          />
+        <div className="info-card-group">
+          {infoCards.map((card, i) => (
+            <div
+              key={i}
+              className="info-card-item"
+              onClick={() => navigate(card.path)}
+            >
+              <img className="info-card-img" src={card.img} alt={card.title} />
+              <div className="info-card-text">
+                <h3 className="info-card-title">{card.title}</h3>
+                <p className="info-card-subtitle">{card.subtitle}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </main>
 

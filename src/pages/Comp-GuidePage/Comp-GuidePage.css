@@ -1,58 +1,140 @@
-/* === Layout === */
 .guide-page {
   min-height: 100vh;
   background: #fafbfc;
   display: flex;
   flex-direction: column;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic",
+    sans-serif;
+  overflow-y: auto;
 }
 
 .guide-content {
-  display: flex;
-  flex-direction: column;
-  padding-top: 45px;
-  box-sizing: border-box;
-  min-height: calc(100vh - 60px);
-}
-
-/* === Header === */
-.guide-header {
-  padding-left: 32px;
-}
-
-.guide-title {
-  margin: 0;
-  font-family: Pretendard;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.25;
-  color: #000;
-}
-
-.guide-subtitle {
-  margin: 8px 0 0 0;
-  font-size: 12px;
-  line-height: 1.4;
-  color: #92939f;
-  margin-bottom: 20px;
-}
-
-/* === Cards === */
-.guide-cards {
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px 100px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  min-width: 260px; 
+}
+
+/* ==카드 그룹== */
+.guide-photo-group {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
   gap: 30px;
-  margin-top: 40px;
-  padding: 0 24px;
-  box-sizing: border-box;
+  width: 100%;
+  max-width: 900px;
 }
 
-.guide-card {
-  display: block;
-  width: 100%;
-  max-width: 680px;
-  height: auto;
+/* ==개별 카드== */
+.guide-photo-item {
+  position: relative;
+  width: 95%;
+  max-width: 600px;
+  border-radius: 12px;
+  overflow: hidden;
   cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.guide-photo-item:hover {
+  transform: translateY(-3px); /* ✅ hover 시 위로 살짝 */
+}
+
+/* 이미지 */
+.guide-shadow-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+
+/* 텍스트 */
+.guide-photo-text {
+  position: absolute;
+  top: 28px;
+  left: 24px;
+  right: 24px;
+  text-align: left;
+  z-index: 2;
+}
+
+/* 제목 */
+.guide-comp-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #000;
+  margin: 0;
+}
+
+/* 서브타이틀 */
+.guide-comp-subtitle {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #92939f;
+  text-align: left;
+}
+
+/* === 반응형 === */
+@media (max-width: 259px) {
+  .guide-comp-title {
+    font-size: 15px !important;
+  }
+  .guide-comp-subtitle {
+    font-size: 10px !important;
+  }
+}
+
+/* 260px 이상일 때 */
+@media (min-width: 260px) {
+  .guide-comp-title {
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  .guide-comp-subtitle {
+    font-size: 10px;
+  }
+}
+
+/* 350px 이상일 때 */
+@media (min-width: 350px) {
+  .guide-comp-title {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .guide-comp-subtitle {
+    font-size: 12px;
+  }
+}
+
+/* 480px 이상 */
+@media (min-width: 480px) {
+  .guide-comp-title {
+    margin-top: 15px;
+    font-size: 22px;
+  }
+  .guide-comp-subtitle {
+    font-size: 13px;
+  }
+}
+
+/* 768px 이상 */
+@media (min-width: 768px) {
+  .guide-comp-title {
+    margin-top: 10px; 
+    font-size: 23px;
+  }
+  .guide-comp-subtitle {
+    font-size: 14px;
+  }
 }
