@@ -3,10 +3,11 @@ import Header from "../../components/Header/Header";
 import BottomBar from "../../components/BottomBar/BottomBar";
 import { useNavigate } from "react-router-dom";
 import "./Comp-GuidePage.css";
+import { useLocalization } from "../../contexts/LocalizationContext";
 
 export default function GuidePage() {
   const navigate = useNavigate();
-
+  const { t } = useLocalization();
   return (
     <div className="guide-page">
       <Header title="산재 신청 가이드" />

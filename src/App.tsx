@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { FormDataProvider } from "./contexts/FormDataContext";
-
+import { LocalizationProvider } from "./contexts/LocalizationContext";
 import HomePage from "./pages/HomePage/HomePage";
 import CasePage from "./pages/CasePage/CasePage";
 import CaseDetailPage from "./pages/CasePage/CaseDetailPage";
@@ -34,6 +34,7 @@ import MediAddress1 from "./pages/Medi-carePage/Medi-address-1";
 function App() {
   return (
     <Router>
+      <LocalizationProvider>
       <FormDataProvider>
         <Routes>
           <Route path="/" element={<LangPage />} />
@@ -57,7 +58,8 @@ function App() {
           <Route path="/medi-address-1" element={<MediAddress1 />} />
         </Routes>
       </FormDataProvider>
-    </Router>
+      </LocalizationProvider>
+    </Router> 
   );
 }
 

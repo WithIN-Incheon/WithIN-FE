@@ -2,11 +2,12 @@ import { useState, useMemo } from "react";
 import Header from "../../components/Header/Header";
 import BottomBar from "../../components/BottomBar/BottomBar";
 import { HOSPITALS } from "./hospitals";
+import { useLocalization, type LocalizationKey } from "../../contexts/LocalizationContext";
 import "./ListPage.css";
 
 // 요일별 영업시간 텍스트 생성
-function getWeeklyHoursText(hours: any): string {
-  if (!hours || !hours.byDay) return "(정보없음)";
+function getWeeklyHoursText(hours: any, t: (key: LocalizationKey) => string): string {
+  if (!hours || !hours.byDay) return `(${t("noInfo")})`;
 
   const texts: string[] = [];
   const sat = hours.byDay[6];
@@ -15,22 +16,22 @@ function getWeeklyHoursText(hours: any): string {
   // 토요일이 존재하고 18시 이전 종료 시
   if (sat) {
     const cH = Number(sat.close.split(":")[0]);
-    if (cH < 18) texts.push(`토요일 ${sat.close} 종료`);
+    if (cH < 18) texts.push(`${t("hospitalSaturday")} ${sat.close} ${t("hospitalEnd")}`);
   }
 
   // 일요일 체크
   if (!sun) {
-    texts.push("일요일 휴무");
+    texts.push(t("hospitalEndSunday"));
   } else {
     const cH = Number(sat.close.split(":")[0]);
-    if (cH < 18) texts.push(`일요일 ${sun.close} 종료`);
+    if (cH < 18) texts.push(`일요일 ${sun.close} ${t("hospitalEnd")}`);
   }
 
   // 위 조건에 해당 없으면 오늘 기준 표시
   if (texts.length === 0) {
     const today = new Date().getDay();
     const todayH = hours.byDay[today];
-    if (!todayH) texts.push("(휴무)");
+    if (!todayH) texts.push(`(${t("closed")})`);
     else texts.push(`(${todayH.open}-${todayH.close})`);
   }
 
@@ -58,15 +59,16 @@ function isOpenNow(hours: any): boolean {
 }
 
 // 오늘 요일 영업시간 텍스트
-function getTodayHours(hours: any): string {
-  if (!hours || !hours.byDay) return "(정보없음)";
+function getTodayHours(hours: any, t: (key: LocalizationKey) => string): string {
+  if (!hours || !hours.byDay) return `(${t("noInfo")})`;
   const day = new Date().getDay();
   const todayHours = hours.byDay[day];
-  if (!todayHours) return "(휴무)";
+  if (!todayHours) return `(${t("closed")})`;
   return `(${todayHours.open}-${todayHours.close})`;
 }
 
 export default function ListPage() {
+  const { t } = useLocalization();
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [mode, setMode] = useState<"list" | "region" | "dept" | "hours">("list");
 
@@ -77,13 +79,13 @@ export default function ListPage() {
   const [keyword, setKeyword] = useState("");
   const [showSearch, setShowSearch] = useState(false);
 
-  const regionChipText = regionFilter || "자치구";
-  const deptChipText = deptFilter || "진료과목";
+  const regionChipText = regionFilter || t("hospitalGu");
+  const deptChipText = deptFilter ? t(deptFilter as LocalizationKey) : t("hospitalSubject");
   const hoursChipText = hoursFilter
     ? hoursFilter === "open"
-      ? "영업중"
-      : "영업종료"
-    : "영업시간";
+      ? t("hospitalWork")
+      : t("hospitalWorkEnd")
+    : t("hospitalWorkTime");
 
   const isRegionActive = !!regionFilter;
   const isDeptActive = !!deptFilter;
@@ -105,7 +107,7 @@ export default function ListPage() {
   return (
     <div className="list-page">
       <Header
-        title="산재 의료기관 리스트"
+        title={t("hospitalList")}
         showBack
         showSearch
         onSearchClick={() => setShowSearch((p) => !p)}
@@ -116,8 +118,8 @@ export default function ListPage() {
         <div className="loc-searchbar">
           <input
             className="loc-searchbar_input"
-            placeholder="의료기관명 또는 주소 검색"
-            aria-label="주소 또는 의료기관 검색"
+            placeholder={t("mainHospital")}
+            aria-label={t("mainHospital")}
             value={keyword}
             onChange={(e) => setKeyword(e.target.value)}
           />
@@ -184,16 +186,24 @@ export default function ListPage() {
       {/* 자치구 선택 */}
       {mode === "region" && (
         <div className="region-grid">
-          {["중구", "미추홀구", "부평구", "남동구", "연수구", "서구", "계양구"].map((r) => (
+          {[
+            { key: "중구", label: "hospitalJung" },
+            { key: "미추홀구", label: "hospitalMichuhol" },
+            { key: "부평구", label: "hospitalBupyeong" },
+            { key: "남동구", label: "hospitalNamdong" },
+            { key: "연수구", label: "hospitalYeonsu" },
+            { key: "서구", label: "hospitalSeo" },
+            { key: "계양구", label: "hospitalGyeyang" },
+          ].map(({ key, label }) => (
             <button
-              key={r}
-              className={`region-chip ${regionFilter === r ? "on" : ""}`}
+              key={key}
+              className={`region-chip ${regionFilter === key ? "on" : ""}`}
               onClick={() => {
-                setRegionFilter((prev) => (prev === r ? null : r));
+                setRegionFilter((prev) => (prev === key ? null : key));
                 setMode("list");
               }}
             >
-              {r}
+              {t(label as LocalizationKey)}
             </button>
           ))}
         </div>
@@ -203,17 +213,17 @@ export default function ListPage() {
       {mode === "dept" && (
         <div className="dept-grid">
           {[
-            "내과/가정의학과",
-            "정형외과",
-            "재활/물리치료",
-            "정신과",
-            "치과",
-            "한방",
-            "요양",
-            "특수외과",
-            "종합",
-            "의원",
-            "기타",
+            "hospitalInner",
+            "hospitalOr",
+            "hospitaExer",
+            "hospitalPsy",
+            "hospitaldent",
+            "hospitalKor",
+            "hospitlNursing",
+            "hospitlSpecial",
+            "hospitalGeneral",
+            "hospitalClinic",
+            "hospitalEtc",
           ].map((d) => (
             <button
               key={d}
@@ -223,7 +233,7 @@ export default function ListPage() {
                 setMode("list");
               }}
             >
-              {d}
+              {t(d as LocalizationKey)}
             </button>
           ))}
         </div>
@@ -236,13 +246,13 @@ export default function ListPage() {
             className={`hours-chip ${hoursFilter === "open" ? "on" : ""}`}
             onClick={() => setHoursFilter((prev) => (prev === "open" ? null : "open"))}
           >
-            영업중
+            {t("hospitalWork")}
           </button>
           <button
             className={`hours-chip ${hoursFilter === "closed" ? "on" : ""}`}
             onClick={() => setHoursFilter((prev) => (prev === "closed" ? null : "closed"))}
           >
-            영업종료
+            {t("hospitalWorkEnd")}
           </button>
         </div>
       )}
@@ -253,7 +263,7 @@ export default function ListPage() {
           filteredHospitals.map((h) => {
             const isSelected = selectedId === h.id;
             const open = isOpenNow(h.hours);
-            const todayHours = getTodayHours(h.hours);
+            const todayHours = getTodayHours(h.hours, t);
 
             return (
               <div
@@ -273,13 +283,13 @@ export default function ListPage() {
                   </a>
                 </div>
 
-                <div className="hospital-dept">{h.dept}</div>
+                <div className="hospital-dept">{t(h.dept as LocalizationKey)}</div>
                 <div className="hospital-info">
                   <div>
                     <span className={open ? "status-open" : "status-closed"}>
-                      {open ? "영업중" : "영업종료"}
+                      {open ? t("hospitalWork") : t("hospitalWorkEnd")}
                     </span>
-                    &nbsp;{todayHours} / {getWeeklyHoursText(h.hours)}
+                    &nbsp;{todayHours} / {getWeeklyHoursText(h.hours, t)}
                   </div>
                   <div>{h.address}</div>
                   <div className="phone">☎ {h.phone}</div>
@@ -288,7 +298,7 @@ export default function ListPage() {
             );
           })
         ) : (
-          <div className="no-result">해당 조건의 의료기관이 없습니다.</div>
+          <div className="no-result">{t("nocase")}</div>
         )}
       </div>
 

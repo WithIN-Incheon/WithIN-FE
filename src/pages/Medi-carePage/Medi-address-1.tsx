@@ -1,7 +1,8 @@
 import Header from "../../components/Header/Header";
 import ContinueButton from "../../components/Login/Button/ContinueButton";
+import { useLocalization } from "../../contexts/LocalizationContext";
 import "./Medi-address-1.css";
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 
 // 네이버 지오코딩 API 응답 타입 정의
@@ -24,6 +25,7 @@ interface GeocodeResponse {
 const MediAddress1 = () => {
     const navigate = useNavigate();
     const location = useLocation();
+    const { t } = useLocalization();
     const { returnPath, returnToStep, fieldName } = location.state || { 
         returnPath: '/medicare-guide-flow', 
         returnToStep: 1,
@@ -129,16 +131,16 @@ const MediAddress1 = () => {
 
     return (
         <div className="app">
-            <Header title="최초 요양 급여 신청서 연습" onBack={handleBack} showHomebtn={true}/>
+            <Header title={t('guidePractice')} onBack={handleBack} showHomebtn={true}/>
             <div className="medi-guide-title">
-                <h2>주소를 입력해 주세요.</h2>
+                <h2>{t('applyEnterAddr')}</h2>
             </div>
             <div className="medi-guide-content">
                 <div className="medi-addr-input">
                     <input 
                         className="medi-addr-input-text" 
                         type="text" 
-                        placeholder="주소를 입력하세요"
+                        placeholder={t('applyLookBuilding')}
                         value={searchQuery}
                         onChange={handleInputChange}
                         onClick={handleAddressInputClick}
@@ -168,7 +170,7 @@ const MediAddress1 = () => {
                         <input 
                             className="medi-addr-input-text" 
                             type="text" 
-                            placeholder="상세 주소를 입력하세요"
+                            placeholder={t('applySpecificAddr')}
                             value={detailAddress}
                             onChange={handleDetailAddressChange}
                         />
@@ -177,7 +179,7 @@ const MediAddress1 = () => {
             </div>
             <div className="save-button-container">
                 <ContinueButton 
-                    text="확인" 
+                    text={t('applyCheck')} 
                     onClick={handleNext}
                 />
             </div>

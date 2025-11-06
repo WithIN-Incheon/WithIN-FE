@@ -3,6 +3,7 @@ import Header from "../../components/Header/Header";
 import BottomBar from "../../components/BottomBar/BottomBar";
 import { useNavigate } from "react-router-dom";
 import "./InfoPage.css";
+import { useLocalization } from "../../contexts/LocalizationContext";
 
 export default function InfoPage() {
   const navigate = useNavigate();

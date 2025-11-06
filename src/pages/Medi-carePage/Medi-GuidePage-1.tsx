@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useFormData } from "../../contexts/FormDataContext";
 import { useNavigate, useLocation } from "react-router-dom";
+import { useLocalization } from "../../contexts/LocalizationContext";
 import Header from "../../components/Header/Header";
 import ContinueButton from "../../components/Login/Button/ContinueButton";
 import "./Medi-GuidePage-1.css";
@@ -16,6 +17,7 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
     const { formData, updateFormData } = useFormData();
     const navigate = useNavigate();
     const location = useLocation();
+    const { t } = useLocalization();
     
     // 로컬 상태로 입력값 관리 - context에서 초기값 복원
     const [name, setName] = useState(formData.name || "");
@@ -190,27 +192,27 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
 
     return (
         <div className="app">
-            <Header title="최초 요양 급여 신청서 연습" onBack={onBack} showHomebtn={true}/>
+            <Header title={t('guidePractice')} onBack={onBack} showHomebtn={true}/>
             <div className="medi-guide-title">
-                <h2>정보를 입력해 주세요.</h2>
+                <h2>{t('applyInfo')}</h2>
             </div>
             <div className="medi-guide-content">
                 <form className="info-form">
                     {/* 이름 섹션 */}
                     <div className="form-section">
                         <div className="form-label">
-                            <label>이름</label>
+                            <label>{t('applyName')}</label>
                             <img 
                                 src="/info_square.png" 
                                 alt="info-icon" 
-                                onClick={(e) => handleInfoClick("이름을 입력해주세요!", e)}
+                                onClick={(e) => handleInfoClick(t('popupName'), e)}
                                 style={{ cursor: 'pointer' }}
                             />
                         </div>
                         <input 
                             type="text" 
                             className="form-input" 
-                            placeholder="이름을 입력하세요"
+                            placeholder={t('applyEnterName')}
                             value={name}
                             onChange={(e) => setName(e.target.value)}
                         />
@@ -219,11 +221,11 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
                     {/* 외국인등록번호 섹션 */}
                     <div className="form-section">
                         <div className="form-label">
-                            <label>외국인등록번호</label>
+                            <label>{t('applyForiegnNumber')}</label>
                             <img 
                                 src="/info_square.png" 
                                 alt="info-icon" 
-                                onClick={(e) => handleInfoClick("외국인 등록증 발급 시 받은 번호를 입력해주세요!", e)}
+                                onClick={(e) => handleInfoClick(t('popupForiegnNumber'), e)}
                                 style={{ cursor: 'pointer' }}
                             />
                         </div>
@@ -251,11 +253,11 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
                     {/* 전화번호 섹션 */}
                     <div className="form-section">
                         <div className="form-label">
-                            <label>전화번호</label>
+                            <label>{t('applyPhoneNumber')}</label>
                             <img 
                                 src="/info_square.png" 
                                 alt="info-icon" 
-                                onClick={(e) => handleInfoClick("휴대폰 번호를 입력해주세요.", e)}
+                                onClick={(e) => handleInfoClick(t('popupNumber'), e)}
                                 style={{ cursor: 'pointer' }}
                             />
                         </div>
@@ -271,11 +273,11 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
                     {/* 주소 섹션 */}
                     <div className="form-section">
                         <div className="form-label">
-                            <label>주소</label>
+                            <label>{t('applyAddr')}</label>
                             <img 
                                 src="/info_square.png" 
                                 alt="info-icon" 
-                                onClick={(e) => handleInfoClick("현재 거주하는 위치를 적어주세요.", e)}
+                                onClick={(e) => handleInfoClick(t('popupAddr'), e)}
                                 style={{ cursor: 'pointer' }}
                             />
                         </div>
@@ -283,7 +285,7 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
                             <input 
                                 type="text" 
                                 className="form-input address-input" 
-                                placeholder="주소를 입력하세요"
+                                placeholder={t('applyEnterAddr')}
                                 value={address}
                                 onChange={(e) => setAddress(e.target.value)}
                             />
@@ -292,7 +294,7 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
                                 className="address-search-btn"
                                 onClick={handleAddressSearch}
                             >
-                                주소 검색
+                                {t('applyLookAddr')}
                             </button>
                         </div>
                     </div>
@@ -300,11 +302,11 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
                     {/* 재해발생일시 섹션 */}
                     <div className="form-section">
                         <div className="form-label">
-                            <label>재해발생일시</label>
+                            <label>{t('applyHurt')}</label>
                             <img 
                                 src="/info_square.png" 
                                 alt="info-icon" 
-                                onClick={(e) => handleInfoClick("다친 날짜를 입력해주세요!", e)}
+                                onClick={(e) => handleInfoClick(t('popupDate'), e)}
                                 style={{ cursor: 'pointer' }}
                             />
                         </div>
@@ -329,11 +331,11 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
                     {/* 채용일자 섹션 */}
                     <div className="form-section">
                         <div className="form-label">
-                            <label>채용일자</label>
+                            <label>{t('applyEmployed')}</label>
                             <img 
                                 src="/info_square.png" 
                                 alt="info-icon" 
-                                onClick={(e) => handleInfoClick("채용일자를 입력해주세요!", e)}
+                                onClick={(e) => handleInfoClick(t('popupEmployed'), e)}
                                 style={{ cursor: 'pointer' }}
                             />
                         </div>
@@ -349,11 +351,11 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
                     {/* 출근 시작/퇴근 시간 섹션 */}
                     <div className="form-section">
                         <div className="form-label">
-                            <label>출근 시작/퇴근 시간</label>
+                            <label>{t('applyGo')}</label>
                             <img 
                                 src="/info_square.png" 
                                 alt="info-icon" 
-                                onClick={(e) => handleInfoClick("일 시작/끝나는 시간을 입력해주세요.", e)}
+                                onClick={(e) => handleInfoClick(t('popupGo'), e)}
                                 style={{ cursor: 'pointer' }}
                             />
                         </div>
@@ -379,18 +381,18 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
                     {/* 직종 섹션 */}
                     <div className="form-section">
                         <div className="form-label">
-                            <label>직종</label>
+                            <label>{t('applyJob')}</label>
                             <img 
                                 src="/info_square.png" 
                                 alt="info-icon" 
-                                onClick={(e) => handleInfoClick("하시는 일의 분야를 적어주세요!", e)}
+                                onClick={(e) => handleInfoClick(t('popupJob'), e)}
                                 style={{ cursor: 'pointer' }}
                             />
                         </div>
                         <input 
                             type="text" 
                             className="form-input" 
-                            placeholder="직종을 입력하세요"
+                            placeholder={t('applyEnterJob')}
                             value={jobType}
                             onChange={(e) => setJobType(e.target.value)}
                         />
@@ -398,7 +400,7 @@ const MediGuidePage1 = ({ onNext, onBack, currentStep = 1 }: MediGuidePage1Props
                 </form>
             </div>
             <div className="save-button-container">
-                <ContinueButton text="다음" onClick={handleNext} />
+                <ContinueButton text={t('applyNext')} onClick={handleNext} />
             </div>
             
             {/* 팝업 렌더링 */}

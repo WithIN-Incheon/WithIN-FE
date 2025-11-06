@@ -1,5 +1,6 @@
 import Header from "../../components/Header/Header";
 import ContinueButton from "../../components/Login/Button/ContinueButton";
+import { useLocalization } from "../../contexts/LocalizationContext";
 import "./Medicare-result.css";
 import { useNavigate } from "react-router-dom";
 import { useFormData } from "../../contexts/FormDataContext";
@@ -9,6 +10,7 @@ import { useState } from "react";
 const MediResult = ({ onBack }: { onBack: () => void }) => {
     const navigate = useNavigate();
     const { formData, resetFormData } = useFormData();
+    const { t } = useLocalization();
     const [isDownloading, setIsDownloading] = useState(false);
 
     const handleDownloadPdf = async () => {
@@ -53,7 +55,7 @@ const MediResult = ({ onBack }: { onBack: () => void }) => {
 
     return (
         <div className="app">
-            <Header title="요양 급여 신청 가이드" onBack={onBack} />
+            <Header title={t('guideApplyGuide')} onBack={onBack} />
 
             <div className="result-container">
                 <img 
@@ -73,12 +75,12 @@ const MediResult = ({ onBack }: { onBack: () => void }) => {
                         {isDownloading ? (
                             <>
                                 <span className="loading-spinner"></span>
-                                PDF 생성 중...
+                                Generating PDF...
                             </>
-                        ) : "PDF로 다운받기"}
+                        ) : t('applyPDF')}
                     </button>
                 </div>
-                <ContinueButton text="홈으로 돌아가기" onClick={handleGoHome} />
+                <ContinueButton text={t('applyGoHome')} onClick={handleGoHome} />
             </div>
         </div>
     )

@@ -1,37 +1,31 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './LangSelector.css';
+import { useLocalization, type Language } from '../../contexts/LocalizationContext';
 
-interface Language {
-  code: string;
+interface LanguageInfo {
+  code: Language;
   name: string;
   nativeName: string;
   flag: string;
 }
 
-const languages: Language[] = [
-  { code: 'en', name: 'English', nativeName: 'English', flag: '🇺🇸' },
-  { code: 'ko', name: 'Korean', nativeName: '한국어', flag: '🇰🇷' },
-  { code: 'fil', name: 'Filipino', nativeName: 'Filipino', flag: '🇵🇭' },
-  { code: 'my', name: 'Myanmar', nativeName: 'မြန်မာ', flag: '🇲🇲' },
-  { code: 'vi', name: 'Vietnamese', nativeName: 'Tiếng Việt', flag: '🇻🇳' },
-  { code: 'ru', name: 'Russian', nativeName: 'Русский', flag: '🇷🇺' },
-  { code: 'id', name: 'Indonesian', nativeName: 'Bahasa Indonesia', flag: '🇮🇩' },
+const languages: LanguageInfo[] = [
+  { code: 'EN', name: 'English', nativeName: 'English', flag: '🇺🇸' },
+  { code: 'KO', name: 'Korean', nativeName: '한국어', flag: '🇰🇷' },
+  { code: 'MM', name: 'Myanmar', nativeName: 'မြန်မာ', flag: '🇲🇲' },
+  { code: 'VN', name: 'Vietnamese', nativeName: 'Tiếng Việt', flag: '🇻🇳' },
+  { code: 'RU', name: 'Russian', nativeName: 'Русский', flag: '🇷🇺' },
+  { code: 'ID', name: 'Indonesian', nativeName: 'Bahasa Indonesia', flag: '🇮🇩' },
+  { code: 'NP', name: 'Nepali', nativeName: 'नेपाली', flag: '🇳🇵' },
+  { code: 'TH', name: 'Thai', nativeName: 'ไทย', flag: '🇹🇭' },
 ];
 
-interface LangSelectorProps {
-  onLanguageChange?: (language: Language) => void;
-  initialLanguage?: string;
-}
-
-const LangSelector: React.FC<LangSelectorProps> = ({ 
-  onLanguageChange, 
-  initialLanguage = 'ko' 
-}) => {
+const LangSelector: React.FC = () => {
+  const { language, setLanguage } = useLocalization();
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedLanguage, setSelectedLanguage] = useState<Language>(
-    languages.find(lang => lang.code === initialLanguage) || languages[1]
-  );
   const dropdownRef = useRef<HTMLDivElement>(null);
+
+  const selectedLanguage = languages.find(lang => lang.code === language) || languages[1];
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -46,10 +40,9 @@ const LangSelector: React.FC<LangSelectorProps> = ({
     };
   }, []);
 
-  const handleLanguageSelect = (language: Language) => {
-    setSelectedLanguage(language);
+  const handleLanguageSelect = (lang: LanguageInfo) => {
+    setLanguage(lang.code);
     setIsOpen(false);
-    onLanguageChange?.(language);
   };
 
   return (
@@ -69,19 +62,19 @@ const LangSelector: React.FC<LangSelectorProps> = ({
       {/* 드롭다운 메뉴 */}
       {isOpen && (
         <div className="language-dropdown">
-          {languages.map((language) => (
+          {languages.map((lang) => (
             <div
-              key={language.code}
+              key={lang.code}
               className={`language-option ${
-                language.code === selectedLanguage.code ? 'selected' : ''
+                lang.code === selectedLanguage.code ? 'selected' : ''
               }`}
-              onClick={() => handleLanguageSelect(language)}
+              onClick={() => handleLanguageSelect(lang)}
             >
-              <span className="flag">{language.flag}</span>
+              <span className="flag">{lang.flag}</span>
               <span className="language-name">
-                {language.nativeName}
-                {language.nativeName !== language.name && (
-                  <span className="english-name"> ({language.name})</span>
+                {lang.nativeName}
+                {lang.nativeName !== lang.name && (
+                  <span className="english-name"> ({lang.name})</span>
                 )}
               </span>
             </div>
