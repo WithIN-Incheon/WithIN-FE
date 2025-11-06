@@ -1,55 +1,179 @@
-/* 배경 */
+/* === 기본 구조 === */
 .info-page {
   min-height: 100vh;
   background: #fafbfc;
   display: flex;
   flex-direction: column;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic",
+    sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .info-content {
-  padding-top: 45px;
-  padding-bottom: 120px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px 100px;
+  box-sizing: border-box;
+  overflow-x: auto;
+  overflow-y: auto;
+  min-width: 160px;
+}
+
+/* === 카드 그룹 === */
+.info-card-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* === 카드 === */
+.info-card-item {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  min-width: 280px;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.info-card-item:hover {
+  transform: translateY(-3px);
+}
+
+/* 이미지 */
+.info-card-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+
+/* 텍스트 */
+.info-card-text {
+  position: absolute;
+  top: 28px;
+  left: 24px;
+  right: 24px;
+  text-align: left;
+  z-index: 2;
 }
 
 /* 제목 */
-.info-title {
-  margin: 0;
-  margin-left: 33px;
-  font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Noto Sans KR",
-    "Malgun Gothic", sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.35;
+.info-card-title {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.3;
   color: #000;
-  white-space: pre-line;
+  margin: 0;
 }
 
-/* 1열 그리드 */
-.info-grid {
-  margin-top: 25px; /* 제목과 박스 사이 25px */
-  display: flex;
-  flex-direction: column;
-  gap: 20px; /* 박스 간격 20px */
-  width: 100%;
-  max-width: 736px;
-  min-width: 360px;
-  padding: 0 24px;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center; /* 중앙 정렬 */
+/* 서브타이틀 */
+.info-card-subtitle {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #92939f;
+  text-align: left;
+  white-space: pre-line; /* 줄바꿈 유지 */
 }
 
-/* 박스 */
-.info-box {
-  display: block;
-  width: 332px;
-  height: 120px;
-  cursor: pointer;
-  object-fit: cover; /* 이미지 비율 유지 */
+/* === 반응형 === */
+
+/* 260px 이상 */
+@media (min-width: 260px) {
+  .info-card-title {
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  .info-card-subtitle {
+    font-size: 10px;
+  }
 }
 
-/* 큰 화면에서도 동일하게 */
+/* 350px 이상 */
+@media (min-width: 350px) {
+  .info-card-title {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .info-card-subtitle {
+    font-size: 12px;
+  }
+}
+
+/* 480px 이상 */
+@media (min-width: 480px) {
+  .info-card-title {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  .info-card-subtitle {
+    font-size: 13px;
+  }
+}
+
+/* 768px 이상 */
 @media (min-width: 768px) {
-  .info-content { padding-bottom: 140px; }
+  .info-content {
+    padding: 60px 40px 120px;
+  }
+  .info-card-item {
+    max-width: 500px;
+  }
+  .info-card-title {
+    margin-top: 10px;
+    font-size: 21px; /* ← 원래 2px → 수정 */
+  }
+  .info-card-subtitle {
+    font-size: 14px;
+  }
+}
+
+/* 1024px 이상 */
+@media (min-width: 1024px) {
+  .info-card-item {
+    max-width: 580px;
+  }
+}
+
+/* 160px 이하일 때 스크롤 처리 */
+@media (max-width: 160px) {
+  .info-content {
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    overflow-x: scroll;
+  }
+
+  .info-card-group {
+    flex-direction: row;
+    gap: 20px;
+    width: max-content;
+  }
+
+  .info-card-item {
+    flex: 0 0 auto;
+    min-width: 280px;
+  }
+
+  .info-card-title {
+    font-size: 15px;
+  }
+
+  .info-card-subtitle {
+    font-size: 10px;
+  }
 }

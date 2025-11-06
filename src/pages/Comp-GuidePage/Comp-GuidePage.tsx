@@ -1,4 +1,4 @@
-// 산재신청가이드페이지
+// src/pages/Comp-GuidePage/GuidePage.tsx
 import Header from "../../components/Header/Header";
 import BottomBar from "../../components/BottomBar/BottomBar";
 import { useNavigate } from "react-router-dom";
@@ -12,33 +12,45 @@ export default function GuidePage() {
     <div className="guide-page">
       <Header title="산재 신청 가이드" />
 
-<main className="guide-content">
-  <div className="guide-header">
-    <h2 className="guide-title">{t('guideHelp1')}<br/>{t('guideHelp2')}</h2>
-  </div>
+      <main className="guide-content">
+        <div className="guide-photo-group">
+          {/* 카드 1 */}
+          <div
+            className="guide-photo-item"
+            onClick={() => navigate("/info")}
+          >
+            <img
+              className="guide-shadow-img"
+              src="/Guide/Information-box.svg"
+              alt="산업재해 정보 가이드"
+            />
+            <div className="guide-photo-text">
+              <div className="guide-comp-title">산업재해 정보 가이드</div>
+              <div className="guide-comp-subtitle">산업재해 보험 소개</div>
+            </div>
+          </div>
 
-  <div className="guide-cards">
-    {/* 이미지가 아닌걸로 수정해야함 일단 */}
-    <img
-      className="guide-card"
-      src="/Guide/Information-box.svg"
-      alt="산재 정보"
-      onClick={() => navigate("/info")}
-    />
-    <img
-      className="guide-card"
-      src="/Guide/Guide-box.svg"
-      alt="요양 급여 신청 가이드"
-      onClick={() => navigate("/medicare")}
-    />
-  </div>
-</main>
-
+          {/* 카드 2 */}
+          <div
+            className="guide-photo-item"
+            onClick={() => navigate("/medicare")}
+          >
+            <img
+              className="guide-shadow-img"
+              src="/Guide/Guide-box.svg"
+              alt="최초 요양 급여 신청서 연습"
+            />
+            <div className="guide-photo-text">
+              <div className="guide-comp-title">최초 요양 급여 신청서 연습</div>
+              <div className="guide-comp-subtitle">
+                신청서에 들어가는 내용 미리 알아보기
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
 
       <BottomBar />
     </div>
   );
 }
-
-
-
