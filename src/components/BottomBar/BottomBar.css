@@ -10,6 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 50px; /* 홈 기준으로 좌우 간격 */
 
   /* iOS 노치 대응 */
   padding-bottom: env(safe-area-inset-bottom, 0px);
@@ -18,4 +19,18 @@
 .bottom-bar img {
   cursor: pointer;
   width: 20px;
+  transition: transform 0.2s ease;
+}
+
+.bottom-bar img:hover {
+  transform: scale(1.05);
+}
+
+/* 좌우 버튼 약간 여유 */
+.icon-back {
+  margin-right: 10px;
+}
+
+.icon-center {
+  margin-left: 10px;
 }
