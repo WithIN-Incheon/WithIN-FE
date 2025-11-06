@@ -3,17 +3,18 @@ import Header from "../../components/Header/Header";
 import BottomBar from "../../components/BottomBar/BottomBar";
 import { useNavigate } from "react-router-dom";
 import "./InfoPage.css";
+import { useLocalization } from "../../contexts/LocalizationContext";
 
 export default function InfoPage() {
   const navigate = useNavigate();
-
+  const { t } = useLocalization();
   return (
     <div className="info-page">
       <Header title="산재재해 정보 가이드" />
 
       <main className="info-content">
         <h2 className="info-title">
-          {`산재에 대한\n전반적인 내용을 알아보세요!`}
+          {`${t('infoGuide1')}\n${t('infoGuide2')}`}
         </h2>
 
         <div className="info-grid">

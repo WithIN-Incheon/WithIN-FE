@@ -1,0 +1,1602 @@
+{
+  "firstLang": {
+    "KO": "반가워요! 언어를 선택해주세요",
+    "MM": "မင်္ဂလာပါ ဘာသာစကား ရွေးချယ်ပါ။",
+    "VN": "Xin chào! Vui lòng chọn ngôn ngữ",
+    "ID": "Halo! Silakan pilih bahasa Anda",
+    "EN": "Hello! Please select your language",
+    "NP": "स्वागत छ! कृपया आफ्नो भाषा चयन गर्नुहोस्।",
+    "TH": "ยินดีต้อนรับ! กรุณาเลือกภาษาของคุณ",
+    "RU": "Здравствуйте! Выберите язык"
+  },
+  "firstButton": {
+    "KO": "시작하기",
+    "MM": "စတင်ရန်",
+    "VN": "Bắt đầu",
+    "ID": "Mulai",
+    "EN": "Get Started",
+    "NP": "सुरु गर्नुहोस्",
+    "TH": "เริ่มต้น",
+    "RU": "Начать"
+  },
+  "mainGuide": {
+    "KO": "산업재해가이드 (산재가이드)",
+    "MM": "စက်မှုလုပ်ငန်းခွင် မတော်တဆထိခိုက်မှု လမ်းညွှန်",
+    "VN": "Hướng dẫn về tai nạn lao động",
+    "ID": "Panduan Kecelakaan Kerja",
+    "EN": "Workers' Compensation Guide",
+    "NP": "औद्योगिक दुर्घटना गाइड",
+    "TH": "คู่มืออุบัติเหตุทางอุตสาหกรรม",
+    "RU": "Руководство по производственным несчастным случаям"
+  },
+  "mainFeed": {
+    "KO": "피드백하기",
+    "MM": "အကြံပြုချက်ပေးခြင်း",
+    "VN": "Gửi phản hồi",
+    "ID": "Berikan umpan balik",
+    "EN": "Provide Feedback",
+    "NP": "प्रतिक्रिया दिनु",
+    "TH": "การให้ข้อเสนอแนะ",
+    "RU": "Оставить отзыв"
+  },
+  "mainHelp": {
+    "KO": "옆에서 차근차근 도와주는",
+    "MM": "ဘေးနားကနေ တစ်ဆင့်ပြီးတစ်ဆင့် ကူညီပေးသော",
+    "VN": "ที่คอยช่วยเหลืออยู่ข้างๆ อย่างเป็นขั้นเป็นตอน",
+    "ID": "Membantu dengan sabar dan teliti di samping.",
+    "EN": "patiently helping step by step",
+    "NP": "छेउमा बसेर एक-एक गरी मद्दत गर्ने",
+    "TH": "ที่คอยช่วยเหลืออยู่ข้างๆ อย่างเป็นขั้นเป็นตอน",
+    "RU": "терпеливо помогая рядом"
+  },
+  "mainIndustry": {
+    "KO": "산업재해 보험 가이드",
+    "MM": "စက်မှုလုပ်ငန်းခွင် မတော်တဆထိခိုက်မှု အာမခံ လမ်းညွှန်",
+    "VN": "Hướng dẫn bảo hiểm tai nạn lao động",
+    "ID": "Panduan Asuransi Kecelakaan Kerja",
+    "EN": "Work Injury Insurance Guide",
+    "NP": "औद्योगिक दुर्घटना बीमा गाइड",
+    "TH": "คู่มือประกันอุบัติเหตุทางอุตสาหกรรม",
+    "RU": "Гид по страхованию от трудовых травм"
+  },
+  "mainLookup": {
+    "KO": "산업재해 보험 자세히 알아보기",
+    "MM": "စက်မှုလုပ်ငန်းခွင် မတော်တဆထိခိုက်မှု အာမခံအကြောင်း အသေးစိတ် လေ့လာရန်",
+    "VN": "Tìm hiểu chi tiết về bảo hiểm tai nạn lao động",
+    "ID": "Pelajari Lebih Lanjut Tentang Asuransi Kecelakaan Kerja",
+    "EN": "Learn more about workers' compensation insurance",
+    "NP": "औद्योगिक दुर्घटना बीमा बारे थप जान्नुहोस्",
+    "TH": "เรียนรู้เพิ่มเติมเกี่ยวกับประกันอุบัติเหตุทางอุตสาหกรรม",
+    "RU": "Подробнее о страховании труда"
+  },
+  "mainSearch": {
+    "KO": "사례 검색",
+    "MM": "ဖြစ်ရပ်များ ရှာဖွေရန်",
+    "VN": "Tìm kiếm trường hợp",
+    "ID": "Cari Kasus",
+    "EN": "Search Cases",
+    "NP": "उदाहरण खोज्नुहोस्",
+    "TH": "ค้นหากรณีศึกษา",
+    "RU": "Поиск дел"
+  },
+  "mainExample": {
+    "KO": "실제 사례를 통해 나의 상황 이해하기",
+    "MM": "တကယ့်ဖြစ်ရပ်များမှတစ်ဆင့် ကျွန်ုပ်၏အခြေအနေကို နားလည်ခြင်း",
+    "VN": "Hiểu tình huống của mình qua các trường hợp thực tế",
+    "ID": "Pahami Situasi Anda Melalui Kasus Nyata",
+    "EN": "Understand your situation through real cases",
+    "NP": "वास्तविक मामलाहरू मार्फत मेरो अवस्था बुझ्दै",
+    "TH": "ทำความเข้าใจสถานการณ์ของฉันผ่านกรณีจริง",
+    "RU": "Поймите свою ситуацию на основе реальных дел"
+  },
+  "mainHospital": {
+    "KO": "산재 의료기관 검색",
+    "MM": "စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာရမှု ဆေးကုသရေးဌာနကို ရှာဖွေခြင်း",
+    "VN": "Tìm kiếm cơ sở y tế điều trị tai nạn lao động",
+    "ID": "Pencarian fasilitas kesehatan kecelakaan kerja",
+    "EN": "Search workers' compensation medical institutions",
+    "NP": "औद्योगिक दुर्घटना चिकित्सा संस्थाहरूको खोजी",
+    "TH": "ค้นหาสถานพยาบาลสำหรับอุบัติเหตุจากการทำงาน",
+    "RU": "Найти больницу по трудовым травмам"
+  },
+  "mainFindHospital": {
+    "KO": "근로복지공단 지정 병원 찾기",
+    "MM": "အလုပ်သမား သက်သာချောင်ချိရေး ဝန်ဆောင်မှုမှ သတ်မှတ်ထားသော ဆေးရုံကို ရှာဖွေခြင်း",
+    "VN": "Tìm bệnh viện được chỉ định",
+    "ID": "Cari Rumah Sakit yang Ditunjuk oleh Badan Kesejahteraan Pekerja",
+    "EN": "Find a Designated Hospital",
+    "NP": "श्रमिक कल्याण सेवा द्वारा तोकिएको अस्पताल खोज्नुहोस्",
+    "TH": "ค้นหาโรงพยาบาลที่กำหนดโดยหน่วยงานสวัสดิการแรงงาน",
+    "RU": "Найти назначенную больницу"
+  },
+  "guideHelp1": {
+    "KO": "어떤 도움이 필요하세요?",
+    "MM": "ဘယ်လို အကူအညီ လိုအပ်ပါသလဲ?",
+    "VN": "Bạn cần giúp đỡ gì?",
+    "ID": "Apa yang Anda butuhkan?",
+    "EN": "What kind of help do you need?",
+    "NP": "के मद्दत चाहिन्छ?",
+    "TH": "มีอะไรให้ช่วยไหมครับ/คะ?",
+    "RU": "Какую помощь я могу предложить?"
+  },
+  "guideHelp2": {
+    "KO": "아래에서 원하는 항목을 선택해보세요.",
+    "MM": "အောက်ဖော်ပြပါများမှ သင်အလိုရှိသောအရာကို ရွေးချယ်ပါ။",
+    "VN": "Hãy chọn mục bạn muốn từ danh sách dưới đây.",
+    "ID": "Silakan pilih item yang Anda inginkan di bawah ini.",
+    "EN": "Please select the desired item below.",
+    "NP": "तलबाट आफूले चाहेको वस्तु छान्नुहोस्।",
+    "TH": "โปรดเลือกรายการที่ต้องการจากด้านล่าง",
+    "RU": "Выберите нужный пункт ниже."
+  },
+  "guideInfo": {
+    "KO": "산업재해 정보 가이드",
+    "MM": "လုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာရမှုဆိုင်ရာ အချက်အလက်လမ်းညွှန်",
+    "VN": "Hướng dẫn thông tin về tai nạn lao động",
+    "ID": "Panduan Informasi Kecelakaan Kerja",
+    "EN": "Industrial Accident Information Guide",
+    "NP": "औद्योगिक दुर्घटना जानकारी गाइड",
+    "TH": "คู่มือข้อมูลอุบัติเหตุจากการทำงาน",
+    "RU": "Справочник по промышленным несчастным случаям"
+  },
+  "guideIntroduce": {
+    "KO": "산업재해 보험 소개",
+    "MM": "လုပ်ငန်းခွင် ထိခိုက်မှု အာမခံ မိတ်ဆက်ခြင်း",
+    "VN": "Giới thiệu bảo hiểm tai nạn lao động",
+    "ID": "Pengantar Asuransi Kecelakaan Kerja",
+    "EN": "Introduction to Workers' Compensation Insurance",
+    "NP": "औद्योगिक दुर्घटना बीमाको परिचय",
+    "TH": "แนะนำประกันภัยอุบัติเหตุจากการทำงาน",
+    "RU": "Введение в страхование от несчастных случаев на производстве"
+  },
+  "guideApplyGuide": {
+    "KO": "요양 급여 신청 가이드",
+    "MM": "စက်မှုလုပ်ငန်းခွင် မတော်တဆထိခိုက်မှု အာမခံ မိတ်ဆက်",
+    "VN": "Giới thiệu bảo hiểm tai nạn lao động",
+    "ID": "Pengantar Asuransi Kecelakaan Kerja",
+    "EN": "Introduction to Workers' Compensation Insurance",
+    "NP": "औद्योगिक दुर्घटना बीमाको परिचय",
+    "TH": "แนะนำประกันอุบัติเหตุทางอุตสาหกรรม",
+    "RU": "Введение в страхование от несчастных случаев на производстве"
+  },
+  "guidePractice": {
+    "KO": "최초 요양 급여 신청서 연습",
+    "MM": "ပထမဆုံး ဆေးကုသမှုအကျိုးခံစားခွင့် လျှောက်လွှာတင်ခြင်းကို လေ့ကျင့်ပါ။",
+    "VN": "Thực hành điền đơn xin trợ cấp điều trị ban đầu",
+    "ID": "Latihan Mengisi Formulir Permohonan Tunjangan Perawatan Awal",
+    "EN": "Practice Initial Medical Treatment Benefit Application",
+    "NP": "पहिलो चिकित्सा हेरचाह लाभ आवेदनको लागि अभ्यास",
+    "TH": "ฝึกฝนการยื่นขอรับผลประโยชน์ค่ารักษาพยาบาลครั้งแรก",
+    "RU": "Заполнение заявления на первичное лечение"
+  },
+  "guidePreview": {
+    "KO": "신청서에 들어가는 내용 미리 알아보기",
+    "MM": "လျှောက်လွှာတွင် ပါဝင်သောအကြောင်းအရာများကို ကြိုတင်လေ့လာပါ။",
+    "VN": "Tìm hiểu trước nội dung cần điền vào đơn",
+    "ID": "Pelajari Isi Formulir Permohonan Sebelum Mengisi",
+    "EN": "Preview the contents of the application form",
+    "NP": "आवेदन फारमको सामग्री पूर्वावलोकन गर्नुहोस्",
+    "TH": "ดูตัวอย่างเนื้อหาของแบบฟอร์มใบสมัคร",
+    "RU": "Предварительный просмотр содержания заявления"
+  },
+  "infoGuide1": {
+  "KO": "산재에 대한",
+  "MM": "စက်မှုလုပ်ငန်းခွင် မတော်တဆထိခိုက်မှုအကြောင်း",
+  "VN": "về tai nạn lao động",
+  "ID": "Tentang Kecelakaan Kerja",
+  "EN": "about workers' compensation",
+  "NP": "औद्योगिक दुर्घटनाहरूको बारेमा",
+  "TH": "เกี่ยวกับอุบัติเหตุทางอุตสาหกรรม",
+  "RU": "о несчастных случаях на производстве"
+  },
+  "infoGuide2": {
+    "KO": "전반적인 내용을 알아보세요!",
+    "MM": "ယေဘုယျအချက်အလက်များကို လေ့လာပါ။",
+    "VN": "Tìm hiểu tổng quan!",
+    "ID": "Pelajari Informasi Umum!",
+    "EN": "Learn the overall details!",
+    "NP": "सामान्य रूपमा जान्नुहोस्!",
+    "TH": "เรียนรู้โดยทั่วไป!",
+    "RU": "Узнайте в целом!"
+  },
+  "infoInsurance": {
+    "KO": "산업재해 보험 안내",
+    "MM": "စက်မှုလုပ်ငန်းခွင် မတော်တဆထိခိုက်မှု အာမခံ လမ်းညွှန်",
+    "VN": "Hướng dẫn bảo hiểm tai nạn lao động",
+    "ID": "Panduan Asuransi Kecelakaan Kerja",
+    "EN": "Workers' Compensation Insurance Guide",
+    "NP": "औद्योगिक दुर्घटना बीमा जानकारी",
+    "TH": "ข้อมูลประกันอุบัติเหตุทางอุตสาหกรรม",
+    "RU": "Руководство по страхованию от несчастных случаев на производстве"
+  },
+  "infoExplain": {
+    "KO": "보험의 정의, 적용대상, 대상에 대해서 설명합니다",
+    "MM": "အာမခံ၏ အဓိပ္ပာယ်ဖွင့်ဆိုချက်၊ အကျုံးဝင်မှုနှင့် အရည်အချင်းပြည့်မီမှုတို့ကို ရှင်းပြထားသည်။",
+    "VN": "Giải thích về định nghĩa, đối tượng áp dụng và đối tượng của bảo hiểm",
+    "ID": "Penjelasan tentang definisi, cakupan, dan sasaran asuransi",
+    "EN": "Explains the definition, coverage scope, and beneficiaries of the insurance",
+    "NP": "बीमाको परिभाषा, दायरा, र योग्यताको व्याख्या गर्दछ।",
+    "TH": "อธิบายคำจำกัดความ ขอบเขต และคุณสมบัติของการประกันภัย",
+    "RU": "Объясняет определение, сферу покрытия и бенефициаров страхования"
+  },
+  "infoStep": {
+    "KO": "산업재해 보험 보상 절차",
+    "MM": "စက်မှုလုပ်ငန်းခွင် မတော်တဆထိခိုက်မှု အာမခံ လျော်ကြေးလုပ်ငန်းစဉ်",
+    "VN": "Thủ tục bồi thường bảo hiểm tai nạn lao động",
+    "ID": "Prosedur Klaim Asuransi Kecelakaan Kerja",
+    "EN": "Workers' Compensation Insurance Compensation Procedure",
+    "NP": "औद्योगिक दुर्घटना बीमा क्षतिपूर्ति प्रक्रिया",
+    "TH": "ขั้นตอนการชดเชยค่าสินไหมทดแทนประกันอุบัติเหตุทางอุตสาหกรรม",
+    "RU": "Процедура выплаты страхового возмещения по страхованию от несчастных случаев на производстве"
+  },
+  "infoReward": {
+    "KO": "보험의 보상절차에 대해 설명합니다",
+    "MM": "အာမခံလျော်ကြေးလုပ်ငန်းစဉ်ကို ရှင်းပြထားသည်။",
+    "VN": "Giải thích về thủ tục bồi thường bảo hiểm",
+    "ID": "Penjelasan tentang prosedur klaim asuransi",
+    "EN": "Explains the insurance compensation process",
+    "NP": "बीमा क्षतिपूर्ति प्रक्रियाको व्याख्या गर्दछ।",
+    "TH": "อธิบายขั้นตอนการชดเชยค่าสินไหมทดแทนประกันภัย",
+    "RU": "Объясняет процесс выплаты страхового возмещения"
+  },
+  "infoWage": {
+    "KO": "산업재해 보험 급여 안내",
+    "MM": "စက်မှုလုပ်ငန်းခွင် မတော်တဆထိခိုက်မှု အာမခံ အကျိုးခံစားခွင့် လမ်းညွှန်",
+    "VN": "Hướng dẫn trợ cấp bảo hiểm tai nạn lao động",
+    "ID": "Panduan Manfaat Asuransi Kecelakaan Kerja",
+    "EN": "Workers' Compensation Insurance Benefits Guide",
+    "NP": "औद्योगिक दुर्घटना बीमा लाभको लागि गाइड",
+    "TH": "คู่มือผลประโยชน์ประกันอุบัติเหตุทางอุตสาหกรรม",
+    "RU": "Руководство по выплатам по страхованию от несчастных случаев на производстве"
+  },
+  "infoKindOfWage": {
+    "KO": "보험의 급여 종류에 대해 설명합니다",
+    "MM": "အာမခံအကျိုးခံစားခွင့်အမျိုးအစားများကို ရှင်းပြထားသည်။",
+    "VN": "Giải thích về các loại trợ cấp bảo hiểm",
+    "ID": "Penjelasan tentang jenis-jenis manfaat asuransi",
+    "EN": "Explains the types of insurance benefits",
+    "NP": "बीमा लाभका प्रकारहरूको व्याख्या गर्दछ।",
+    "TH": "อธิบายประเภทของผลประโยชน์ประกันภัย",
+    "RU": "Объясняет виды страховых выплат"
+  },
+  "infoDic": {
+    "KO": "산업재해 관련 용어 사전",
+    "MM": "စက်မှုလုပ်ငန်းခွင် မတော်တဆထိခိုက်မှုဆိုင်ရာ ဝေါဟာရအဘိဓာန်",
+    "VN": "Từ điển thuật ngữ liên quan đến tai nạn lao động",
+    "ID": "Kamus Istilah Kecelakaan Kerja",
+    "EN": "Workers' Compensation Terminology Glossary",
+    "NP": "औद्योगिक दुर्घटना-सम्बन्धित सर्तहरूको शब्दावली",
+    "TH": "อภิธานศัพท์เกี่ยวกับอุบัติเหตุทางอุตสาหกรรม",
+    "RU": "Глоссарий терминов по несчастным случаям на производстве"
+  },
+  "infoDicintro": {
+    "KO": "산업재해와 관련된 용어를 소개합니다",
+    "MM": "စက်မှုလုပ်ငန်းခွင် မတော်တဆထိခိုက်မှုနှင့်သက်ဆိုင်သော ဝေါဟာရများကို မိတ်ဆက်ပေးသည်။",
+    "VN": "Giới thiệu các thuật ngữ liên quan đến tai nạn lao động",
+    "ID": "Pengantar istilah-istilah terkait kecelakaan kerja",
+    "EN": "Introduces terms related to industrial accidents",
+    "NP": "औद्योगिक दुर्घटनासँग सम्बन्धित सर्तहरू प्रस्तुत गर्दछ।",
+    "TH": "แนะนำคำศัพท์ที่เกี่ยวข้องกับอุบัติเหตุทางอุตสาหกรรม",
+    "RU": "Представляет термины, связанные с несчастными случаями на производстве"
+  },
+    "practiceGuide1": {
+    "KO": "최초 요양 급여 신청서",
+    "MM": "ပထမဆုံး ဆေးကုသမှုအကျိုးခံစားခွင့် လျှောက်လွှာ",
+    "VN": "Đơn xin trợ cấp điều trị ban đầu",
+    "ID": "Formulir Permohonan Manfaat Perawatan Awal",
+    "EN": "Initial Medical Treatment Benefit Application",
+    "NP": "पहिलो चिकित्सा हेरचाह लाभ आवेदन",
+    "TH": "ใบสมัครขอรับผลประโยชน์ค่ารักษาพยาบาลครั้งแรก",
+    "RU": "Заявление на получение пособия за первоначальное лечение"
+  },
+  "practiceGuide2": {
+    "KO": "작성법을 연습해보세요!",
+    "MM": "ရေးနည်းကို လေ့ကျင့်ကြည့်ပါ။",
+    "VN": "Hãy thực hành cách điền!",
+    "ID": "Latih cara mengisinya!",
+    "EN": "Practice filling it out!",
+    "NP": "यसलाई भर्ने अभ्यास गर्नुहोस्!",
+    "TH": "ฝึกฝนวิธีการกรอก!",
+    "RU": "Попробуйте заполнить форму!"
+  },
+  "practiceWrite": {
+    "KO": "최초 요양 급여 신청서 작성",
+    "MM": "ပထမဆုံး ဆေးကုသမှုအကျိုးခံစားခွင့် လျှောက်လွှာရေးခြင်း",
+    "VN": "Lập đơn xin trợ cấp điều trị ban đầu",
+    "ID": "Pengisian Formulir Permohonan Tunjangan Perawatan Awal",
+    "EN": "Initial Medical Treatment Benefit Application Form",
+    "NP": "पहिलो चिकित्सा हेरचाह लाभ आवेदन भर्नुहोस्",
+    "TH": "กรอกใบสมัครขอรับผลประโยชน์ค่ารักษาพยาบาลครั้งแรก",
+    "RU": "Заполнение заявления на первичное лечение"
+  },
+  "practiceExplain": {
+    "KO": "이 기능은 산업재해 보상보험 신청을 하기 전 최초요양급여신청서 작성 연습을 할 수 있는 기능입니다.",
+    "MM": "ဤလုပ်ဆောင်ချက်သည် စက်မှုလုပ်ငန်းခွင် မတော်တဆထိခိုက်မှုအတွက် လျော်ကြေးအာမခံကို မလျှောက်ထားမီ ပထမဆုံးသော ဆေးကုသမှုအကျိုးခံစားခွင့်များအတွက် လျှောက်လွှာရေးခြင်းကို လေ့ကျင့်နိုင်သည့် လုပ်ဆောင်ချက်တစ်ခုဖြစ်သည်။",
+    "VN": "Chức năng này cho phép bạn thực hành lập đơn xin trợ cấp điều trị ban đầu trước khi nộp đơn xin bảo hiểm tai nạn lao động.",
+    "ID": "Fungsi ini memungkinkan Anda berlatih mengisi formulir permohonan tunjangan perawatan awal sebelum mengajukan klaim asuransi kecelakaan kerja.",
+    "EN": "This feature allows you to practice filling out the Initial Medical Treatment Benefit Application Form before applying for workers' compensation insurance.",
+    "NP": "यो सुविधाले तपाईंलाई औद्योगिक दुर्घटना क्षतिपूर्ति बीमाको लागि आवेदन गर्नु अघि पहिलो चिकित्सा हेरचाह लाभ आवेदन भर्ने अभ्यास गर्न अनुमति दिन्छ।",
+    "TH": "ฟังก์ชันนี้ช่วยให้คุณสามารถฝึกกรอกใบสมัครขอรับผลประโยชน์ค่ารักษาพยาบาลครั้งแรกก่อนที่จะยื่นขอประกันค่าทดแทนอุบัติเหตุจากการทำงาน",
+    "RU": "Эта функция позволяет потренироваться в заполнении заявления на первичное лечение перед подачей на страховое возмещение."
+  },
+  "practicePass": {
+    "KO": "채우기 어려운 부분은 넘어가도 됩니다.",
+    "MM": "မသိသော အကြောင်းအရာများကို ကျော်သွားနိုင်သည်။",
+    "VN": "Bạn có thể bỏ qua các mục không biết.",
+    "ID": "Anda dapat melewati item yang tidak diketahui.",
+    "EN": "You may skip any fields you don't know.",
+    "NP": "तपाईंले थाहा नभएका वस्तुहरू छोड्न सक्नुहुन्छ।",
+    "TH": "คุณสามารถข้ามรายการที่ไม่รู้จักได้",
+    "RU": "Неизвестные пункты можно пропустить."
+  },
+  "applyInfo": {
+    "KO": "정보를 입력해 주세요.",
+    "MM": "ကျေးဇူးပြု၍ သတင်းအချက်အလက်ကို ဖြည့်စွက်ပါ။",
+    "VN": "Vui lòng nhập thông tin.",
+    "ID": "Silakan masukkan informasi berikut.",
+    "EN": "Please enter your information.",
+    "NP": "कृपया जानकारी प्रविष्ट गर्नुहोस्।",
+    "TH": "กรุณากรอกข้อมูล",
+    "RU": "Введите информацию."
+  },
+  "applyName": {
+    "KO": "이름",
+    "MM": "အမည်",
+    "VN": "Tên",
+    "ID": "Nama",
+    "EN": "Name",
+    "NP": "नाम",
+    "TH": "ชื่อ",
+    "RU": "Имя"
+  },
+  "applyEnterName": {
+    "KO": "이름을 입력하세요.",
+    "MM": "နာမည် ထည့်သွင်းပါ။",
+    "VN": "Nhập tên của bạn.",
+    "ID": "Masukkan nama Anda.",
+    "EN": "Please enter your name.",
+    "NP": "आफ्नो नाम प्रविष्ट गर्नुहोस्।",
+    "TH": "กรุณากรอกชื่อ",
+    "RU": "Введите свое имя."
+  },
+  "applyForiegnNumber": {
+    "KO": "외국인등록번호",
+    "MM": "နိုင်ငံခြားသား မှတ်ပုံတင်နံပါတ်",
+    "VN": "Số đăng ký người nước ngoài",
+    "ID": "Nomor Pendaftaran Asing",
+    "EN": "Alien Registration Number",
+    "NP": "विदेशी दर्ता नम्बर",
+    "TH": "หมายเลขทะเบียนคนต่างด้าว",
+    "RU": "Регистрационный номер иностранца"
+  },
+  "applyPhoneNumber": {
+    "KO": "전화번호",
+    "MM": "ဖုန်းနံပါတ်",
+    "VN": "Số điện thoại",
+    "ID": "Nomor Telepon",
+    "EN": "Phone Number",
+    "NP": "फोन नम्बर",
+    "TH": "หมายเลขโทรศัพท์",
+    "RU": "Номер телефона"
+  },
+  "applyAddr": {
+    "KO": "주소",
+    "MM": "လိပ်စာ",
+    "VN": "Địa chỉ",
+    "ID": "Alamat",
+    "EN": "Address",
+    "NP": "ठेगाना",
+    "TH": "ที่อยู่",
+    "RU": "Адрес"
+  },
+  "applyEnterAddr": {
+    "KO": "주소를 입력해 주세요",
+    "MM": "ကျေးဇူးပြု၍ လိပ်စာကို ရိုက်ထည့်ပါ။",
+    "VN": "Vui lòng nhập địa chỉ",
+    "ID": "Masukkan alamat Anda",
+    "EN": "Please enter your address",
+    "NP": "कृपया ठेगाना प्रविष्ट गर्नुहोस्",
+    "TH": "กรุณากรอกที่อยู่",
+    "RU": "Введите свой адрес"
+  },
+  "applyLookAddr": {
+    "KO": "주소 검색",
+    "MM": "လိပ်စာ ရှာဖွေပါ။",
+    "VN": "Tìm kiếm địa chỉ",
+    "ID": "Pencarian alamat",
+    "EN": "Address Search",
+    "NP": "ठेगाना खोज्नुहोस्",
+    "TH": "ค้นหาที่อยู่",
+    "RU": "Поиск адреса"
+  },
+  "applyHurt": {
+    "KO": "재해발생일시",
+    "MM": "မတော်တဆထိခိုက်မှု ဖြစ်ပွားသည့်ရက်စွဲနှင့် အချိန်",
+    "VN": "Ngày xảy ra tai nạn",
+    "ID": "Tanggal dan waktu terjadinya kecelakaan",
+    "EN": "Date/Time of Injury",
+    "NP": "दुर्घटनाको मिति र समय",
+    "TH": "วันและเวลาที่เกิดอุบัติเหตุ",
+    "RU": "Дата и время несчастного случая"
+  },
+  "applyEmployed": {
+    "KO": "채용일자",
+    "MM": "အလုပ်ခန့်ရက်စွဲ",
+    "VN": "Ngày tuyển dụng",
+    "ID": "Tanggal perekrutan",
+    "EN": "Hire Date",
+    "NP": "भर्ना मिति",
+    "TH": "วันที่จ้างงาน",
+    "RU": "Дата приема на работу"
+  },
+  "applyDate": {
+    "KO": "연도-월-일",
+    "MM": "နှစ်-လ-ရက်",
+    "VN": "Năm-Tháng-Ngày",
+    "ID": "Tahun-Bulan-Tanggal",
+    "EN": "Year-Month-Day",
+    "NP": "वर्ष-महिना-गते",
+    "TH": "ปี-เดือน-วัน",
+    "RU": "Год-Месяц-День"
+  },
+  "applyGo": {
+    "KO": "출퇴근 재해",
+    "MM": "အလုပ်သွားအလုပ်ပြန် မတော်တဆထိခိုက်မှု",
+    "VN": "Tai nạn trên đường đi làm",
+    "ID": "Kecelakaan Saat Perjalanan Kerja",
+    "EN": "Commuting Accident",
+    "NP": "आउजाउ गर्दा दुर्घटना",
+    "TH": "อุบัติเหตุระหว่างการเดินทาง",
+    "RU": "Несчастный случай по дороге на работу"
+  },
+  "applyJob": {
+    "KO": "직종",
+    "MM": "အလုပ်အကိုင်",
+    "VN": "Loại công việc",
+    "ID": "Jenis pekerjaan",
+    "EN": "Job Type",
+    "NP": "पेशा",
+    "TH": "อาชีพ",
+    "RU": "Профессия"
+  },
+  "applyEnterJob": {
+    "KO": "직종을 입력하세요",
+    "MM": "အလုပ်အကိုင်အမျိုးအစား ထည့်သွင်းပါ။",
+    "VN": "Nhập nghề nghiệp của bạn",
+    "ID": "Masukkan jenis pekerjaan.",
+    "EN": "Enter your occupation.",
+    "NP": "आफ्नो पेशा प्रविष्ट गर्नुहोस्।",
+    "TH": "กรุณากรอกอาชีพ",
+    "RU": "Укажите свою профессию."
+  },
+  "applyNext": {
+    "KO": "다음",
+    "MM": "နောက်တစ်ခု",
+    "VN": "Tiếp theo",
+    "ID": "Berikutnya",
+    "EN": "Next",
+    "NP": "अर्को",
+    "TH": "ถัดไป",
+    "RU": "Далее"
+  },
+  "applyLookBuilding": {
+    "KO": "지번, 도로명, 건물명으로 검색",
+    "MM": "မြေကွက်နံပါတ်၊ လမ်းအမည်၊ အဆောက်အအုံအမည်ဖြင့် ရှာဖွေပါ။",
+    "VN": "Tìm kiếm theo số lô, tên đường, tên tòa nhà",
+    "ID": "Pencarian berdasarkan nomor tanah, nama jalan, atau nama bangunan",
+    "EN": "Search by Lot Number, Road Name, Building Name",
+    "NP": "लट नम्बर, सडकको नाम, भवनको नामद्वारा खोज्नुहोस्",
+    "TH": "ค้นหาตามเลขที่ดิน, ชื่อถนน, ชื่ออาคาร",
+    "RU": "Поиск по номеру участка, названию улицы или названию здания"
+  },
+  "applySpecificAddr": {
+    "KO": "상세 주소 입력",
+    "MM": "အသေးစိတ်လိပ်စာကို ရိုက်ထည့်ပါ။",
+    "VN": "Nhập địa chỉ chi tiết",
+    "ID": "Masukkan alamat detail",
+    "EN": "Enter Detailed Address",
+    "NP": "विस्तृत ठेगाना प्रविष्ट गर्नुहोस्",
+    "TH": "กรอกที่อยู่โดยละเอียด",
+    "RU": "Введите подробный адрес"
+  },
+  "applyInfo2": {
+    "KO": "정보를 입력해 주세요.",
+    "MM": "ကျေးဇူးပြု၍ သတင်းအချက်အလက်ကို ဖြည့်စွက်ပါ။",
+    "VN": "Vui lòng nhập thông tin.",
+    "ID": "Masukkan informasi berikut.",
+    "EN": "Please enter the information.",
+    "NP": "कृपया जानकारी प्रविष्ट गर्नुहोस्।",
+    "TH": "กรุณากรอกข้อมูล",
+    "RU": "Введите информацию."
+  },
+  "applyBossRelation": {
+    "KO": "사업주여부",
+    "MM": "လုပ်ငန်းရှင် ဟုတ်/မဟုတ်",
+    "VN": "Có phải là chủ doanh nghiệp không",
+    "ID": "Apakah pemilik usaha",
+    "EN": "Employer Status",
+    "NP": "व्यवसाय मालिक स्थिति",
+    "TH": "สถานะเจ้าของธุรกิจ",
+    "RU": "Статус работодателя"
+  },
+  "applyChooseBoss": {
+    "KO": "사업주 여부를 선택해주세요",
+    "MM": "သင်သည် လုပ်ငန်းရှင်ဟုတ်မဟုတ် ရွေးချယ်ပေးပါ။",
+    "VN": "Vui lòng chọn bạn có phải là chủ doanh nghiệp hay không.",
+    "ID": "Silakan pilih apakah Anda pemilik usaha.",
+    "EN": "Please select whether you are a business owner.",
+    "NP": "तपाईं रोजगारदाता हो वा होइन, कृपया छान्नुहोस्।",
+    "TH": "โปรดเลือกว่าท่านเป็นนายจ้างหรือไม่",
+    "RU": "Пожалуйста, выберите, являетесь ли вы владельцем бизнеса."
+  },
+  "applyNone": {
+    "KO": "해당없음",
+    "MM": "သက်ဆိုင်ရာမရှိပါ။",
+    "VN": "Không áp dụng",
+    "ID": "Tidak berlaku",
+    "EN": "Not applicable",
+    "NP": "लागू छैन",
+    "TH": "ไม่เกี่ยวข้อง",
+    "RU": "Неприменимо"
+  },
+  "applyRealBoss": {
+    "KO": "실제사업주(동업자포함)",
+    "MM": "အမှန်တကယ်လုပ်ငန်းရှင် (လုပ်ဖော်ကိုင်ဖက်များအပါအဝင်)",
+    "VN": "Chủ doanh nghiệp thực tế (bao gồm đồng nghiệp)",
+    "ID": "Pemilik usaha sebenarnya (termasuk mitra usaha)",
+    "EN": "Actual employer (including partners)",
+    "NP": "वास्तविक व्यवसाय मालिक (साझेदारहरू सहित)",
+    "TH": "เจ้าของธุรกิจที่แท้จริง (รวมถึงหุ้นส่วน)",
+    "RU": "Фактический работодатель (включая деловых партнеров)"
+  },
+  "applyFakeBoss": {
+    "KO": "하수급사업주",
+    "MM": "ကန်ထရိုက်တာခွဲ လုပ်ငန်းရှင်",
+    "VN": "Chủ doanh nghiệp phụ",
+    "ID": "Pemilik usaha subkontraktor",
+    "EN": "Subcontractor",
+    "NP": "उपठेकेदार व्यवसाय मालिक",
+    "TH": "เจ้าของธุรกิจรับเหมาช่วง",
+    "RU": "Субподрядчик"
+  },
+  "applyFamily": {
+    "KO": "친인척여부",
+    "MM": "ဆွေမျိုး ဟုတ်/မဟုတ်",
+    "VN": "Có phải là người thân không",
+    "ID": "Apakah kerabat",
+    "EN": "Relative Status",
+    "NP": "नातेदार स्थिति",
+    "TH": "สถานะญาติ",
+    "RU": "Статус родственника"
+  },
+  "applyChooseFamily": {
+    "KO": "친인척 여부를 선택해 주세요.",
+    "MM": "ဆွေမျိုးတော်စပ်ခြင်း ရှိမရှိ ရွေးချယ်ပေးပါ။",
+    "VN": "Vui lòng chọn mối quan hệ họ hàng.",
+    "ID": "Silakan pilih apakah Anda memiliki hubungan keluarga.",
+    "EN": "Please select whether they are relatives.",
+    "NP": "आफन्त हो वा होइन, कृपया छान्नुहोस्।",
+    "TH": "โปรดเลือกว่าเป็นญาติหรือไม่",
+    "RU": "Пожалуйста, выберите, являются ли они родственниками."
+  },
+  "applyMarry": {
+    "KO": "배우자",
+    "MM": "အိမ်ထောင်ဖက်",
+    "VN": "Vợ/chồng",
+    "ID": "Pasangan",
+    "EN": "Spouse",
+    "NP": "जीवनसाथी",
+    "TH": "คู่สมรส",
+    "RU": "Супруг/супруга"
+  },
+  "applyParents": {
+    "KO": "부모",
+    "MM": "မိဘ",
+    "VN": "Cha mẹ",
+    "ID": "Orang tua",
+    "EN": "Parents",
+    "NP": "अभिभावक",
+    "TH": "บิดามารดา",
+    "RU": "Родители"
+  },
+  "applySon": {
+    "KO": "자녀",
+    "MM": "ကလေး",
+    "VN": "Con cái",
+    "ID": "Anak",
+    "EN": "Children",
+    "NP": "बच्चा",
+    "TH": "บุตร",
+    "RU": "Дети"
+  },
+  "applySilblings": {
+    "KO": "형제자매",
+    "MM": "မောင်နှမများ",
+    "VN": "Anh chị em",
+    "ID": "Saudara kandung",
+    "EN": "Siblings",
+    "NP": "भाइबहिनीहरू",
+    "TH": "พี่น้อง",
+    "RU": "Братья и сестры"
+  },
+  "applyGuitar": {
+    "KO": "기타 친인척",
+    "MM": "အခြားဆွေမျိုးများ",
+    "VN": "Họ hàng khác",
+    "ID": "Kerabat lain",
+    "EN": "Other relatives",
+    "NP": "अन्य आफन्तहरू",
+    "TH": "ญาติอื่นๆ",
+    "RU": "Другие родственники"
+  },
+  "applyApply": {
+    "KO": "신청 구분",
+    "MM": "လျှောက်လွှာအမျိုးအစားခွဲခြားခြင်း",
+    "VN": "Loại đơn xin",
+    "ID": "Kategori permohonan",
+    "EN": "Application Category",
+    "NP": "आवेदन वर्गीकरण",
+    "TH": "การจำแนกประเภทใบสมัคร",
+    "RU": "Категория заявки"
+  },
+  "applyChooseApply": {
+    "KO": "신청 구분을 선택해 주세요.",
+    "MM": "လျှောက်လွှာအမျိုးအစားကို ရွေးချယ်ပေးပါ။",
+    "VN": "Vui lòng chọn loại đơn đăng ký.",
+    "ID": "Silakan pilih jenis permohonan.",
+    "EN": "Please select the application category.",
+    "NP": "आवेदनको प्रकार छान्नुहोस्।",
+    "TH": "โปรดเลือกประเภทการยื่นเรื่อง",
+    "RU": "Выберите категорию заявки."
+  },
+  "applyAccident": {
+    "KO": "업무상 사고",
+    "MM": "လုပ်ငန်းတာဝန်ကြောင့် ဖြစ်ပွားသော မတော်တဆထိခိုက်မှု",
+    "VN": "Tai nạn lao động",
+    "ID": "Kecelakaan Kerja",
+    "EN": "Work-Related Accident",
+    "NP": "काममा दुर्घटना",
+    "TH": "อุบัติเหตุจากการทำงาน",
+    "RU": "Несчастный случай на производстве"
+  },
+  "applySick": {
+    "KO": "업무상 질병",
+    "MM": "လုပ်ငန်းတာဝန်ကြောင့် ဖြစ်ပွားသော ရောဂါ",
+    "VN": "Bệnh nghề nghiệp",
+    "ID": "Penyakit Kerja",
+    "EN": "Occupational Disease",
+    "NP": "व्यावसायिक रोग",
+    "TH": "โรคจากการทำงาน",
+    "RU": "Профессиональное заболевание"
+  },
+  "applyPlace": {
+    "KO": "사업장명",
+    "MM": "လုပ်ငန်းခွင်အမည်",
+    "VN": "Tên nơi làm việc",
+    "ID": "Nama tempat kerja",
+    "EN": "Workplace Name",
+    "NP": "व्यवसायको नाम",
+    "TH": "ชื่อสถานประกอบการ",
+    "RU": "Название места работы"
+  },
+  "applyEnterPlace": {
+    "KO": "사업장명을 입력하세요.",
+    "MM": "လုပ်ငန်းခွင်အမည် ထည့်သွင်းပါ။",
+    "VN": "Nhập tên cơ sở kinh doanh.",
+    "ID": "Masukkan nama tempat usaha.",
+    "EN": "Enter the business name.",
+    "NP": "आफ्नो कार्यस्थलको नाम प्रविष्ट गर्नुहोस्।",
+    "TH": "กรุณากรอกชื่อสถานประกอบการ",
+    "RU": "Введите название компании."
+  },
+  "applyBoss": {
+    "KO": "사업주명",
+    "MM": "လုပ်ငန်းရှင်အမည်",
+    "VN": "Tên chủ doanh nghiệp",
+    "ID": "Nama Pengusaha",
+    "EN": "Employer Name",
+    "NP": "व्यवसाय मालिकको नाम",
+    "TH": "ชื่อเจ้าของธุรกิจ",
+    "RU": "Название работодателя"
+  },
+  "applyEnterBoss": {
+    "KO": "사업주명을 입력하세요.",
+    "MM": "လုပ်ငန်းရှင်အမည် ထည့်သွinsပါ။",
+    "VN": "Nhập tên chủ doanh nghiệp.",
+    "ID": "Masukkan nama pemilik usaha.",
+    "EN": "Enter the business owner's name.",
+    "NP": "रोजगारदाताको नाम प्रविष्ट गर्नुहोस्।",
+    "TH": "กรุณากรอกชื่อนายจ้าง",
+    "RU": "Введите имя владельца бизнеса."
+  },
+  "applyNumber": {
+    "KO": "연락처",
+    "MM": "ဆက်သွယ်ရန်",
+    "VN": "Số liên lạc",
+    "ID": "Kontak",
+    "EN": "Contact",
+    "NP": "सम्पर्क",
+    "TH": "ติดต่อ",
+    "RU": "Контактная информация"
+  },
+  "applyEnterNumber": {
+    "KO": "연락처를 입력하세요.",
+    "MM": "ဆက်သွယ်ရန်ဖုန်းနံပါတ် ထည့်သွင်းပါ။",
+    "VN": "Hãy nhập thông tin liên lạc của bạn.",
+    "ID": "Masukkan kontak Anda.",
+    "EN": "Please enter your contact information.",
+    "NP": "आफ्नो सम्पर्क नम्बर प्रविष्ट गर्नुहोस्।",
+    "TH": "กรุณากรอกเบอร์โทรศัพท์",
+    "RU": "Введите свои контактные данные."
+  },
+  "applyPlaceNumber": {
+    "KO": "사업장관리번호",
+    "MM": "လုပ်ငန်းခွင် စီမံခန့်ခွဲမှုနံပါတ်",
+    "VN": "Số quản lý nơi làm việc",
+    "ID": "Nomor Pengelolaan Tempat Kerja",
+    "EN": "Workplace Management Number",
+    "NP": "व्यवसाय व्यवस्थापन नम्बर",
+    "TH": "หมายเลขจัดการสถานประกอบการ",
+    "RU": "Номер управления коммерческого помещения"
+  },
+  "applyEnterPlaceNumber": {
+    "KO": "사업주관리번호를 입력하세요.",
+    "MM": "လုပ်ငန်းရှင် စီမံခန့်ခွဲမှုနံပါတ်ကို ထည့်သွင်းပါ။",
+    "VN": "Nhập số quản lý doanh nghiệp.",
+    "ID": "Masukkan nomor manajemen pemilik usaha.",
+    "EN": "Please enter the employer identification number.",
+    "NP": "रोजगारदाताको व्यवस्थापन नम्बर प्रविष्ट गर्नुहोस्।",
+    "TH": "กรุณากรอกหมายเลขผู้ประกอบการ",
+    "RU": "Введите номер управления оператором бизнеса."
+  },
+  "applyLookNumber": {
+    "KO": "번호 검색",
+    "MM": "နံပါတ်ရှာဖွေပါ။",
+    "VN": "Tìm kiếm số",
+    "ID": "Cari nomor",
+    "EN": "Search by Number",
+    "NP": "नम्बर खोज्नुहोस्",
+    "TH": "ค้นหาหมายเลข",
+    "RU": "Поиск по номеру"
+  },
+  "applyPlaceAddr": {
+    "KO": "사업장주소",
+    "MM": "လုပ်ငန်းခွင်လိပ်စာ",
+    "VN": "Địa chỉ nơi làm việc",
+    "ID": "Alamat Tempat Kerja",
+    "EN": "Workplace Address",
+    "NP": "व्यवसायको ठेगाना",
+    "TH": "ที่อยู่สถานประกอบการ",
+    "RU": "Адрес коммерческого помещения"
+  },
+  "applyEnterPlaceAddr": {
+    "KO": "사업장 주소를 입력하세요.",
+    "MM": "လုပ်ငန်းခွင်လိပ်စာ ထည့်သွင်းပါ။",
+    "VN": "Nhập địa chỉ nơi làm việc.",
+    "ID": "Masukkan alamat tempat usaha.",
+    "EN": "Enter the business address.",
+    "NP": "कार्यस्थलको ठेगाना प्रविष्ट गर्नुहोस्।",
+    "TH": "กรุณากรอกที่อยู่ของสถานประกอบการ",
+    "RU": "Введите адрес помещения предприятия."
+  },
+  "applyEnterAddr2": {
+    "KO": "주소 검색",
+    "MM": "လိပ်စာ ရှာဖွေပါ။",
+    "VN": "Tìm kiếm địa chỉ",
+    "ID": "Cari alamat",
+    "EN": "Search Address",
+    "NP": "ठेगाना खोज्नुहोस्",
+    "TH": "ค้นหาที่อยู่",
+    "RU": "Поиск адреса"
+  },
+  "applyReason": {
+    "KO": "재해 발생 경위",
+    "MM": "မတော်တဆထိခိုက်မှု ဖြစ်ပွားရသည့်အကြောင်းရင်း",
+    "VN": "Tình huống xảy ra tai nạn",
+    "ID": "Kejadian Kecelakaan",
+    "EN": "Circumstances of the Accident",
+    "NP": "दुर्घटनाको परिस्थिति",
+    "TH": "พฤติการณ์การเกิดอุบัติเหตุ",
+    "RU": "Обстоятельства несчастного случая"
+  },
+  "applyRecommend": {
+    "KO": "내용이 많은 경우 다른 종이에 적으시는 걸 추천드립니다.",
+    "MM": "အကြောင်းအရာများပါက အခြားစာရွက်တစ်ရွက်တွင် ရေးသားရန် အကြံပြုအပ်ပါသည်။",
+    "VN": "Nếu có nhiều nội dung, vui lòng ghi vào tờ giấy khác.",
+    "ID": "Jika isi terlalu panjang, disarankan untuk menuliskannya di kertas terpisah.",
+    "EN": "If the content is extensive, we recommend writing it on a separate sheet of paper.",
+    "NP": "यदि सामग्री लामो छ भने, यसलाई छुट्टै कागजको पानामा लेख्न सिफारिस गरिन्छ।",
+    "TH": "หากเนื้อหามีความยาว แนะนำให้เขียนลงบนกระดาษอีกแผ่นหนึ่ง",
+    "RU": "Если содержание обширное, рекомендуем написать его на отдельном листе бумаги."
+  },
+  "applyFactPolice": {
+    "KO": "① 위 재해와 관련하여 교통사고, 음주, 폭행 등의 사유로 경찰서에 신고(접수)된 사실이 있습니까?",
+    "MM": "① အထက်ပါ မတော်တဆထိခိုက်မှုနှင့်ပတ်သက်၍ ယာဉ်တိုက်မှု၊ အရက်သေစာသောက်စားမှု၊ ခိုက်ရန်ဖြစ်ပွားမှုစသည့် အကြောင်းပြချက်များဖြင့် ရဲစခန်းသို့ တိုင်ကြား (လက်ခံ) ထားခြင်း ရှိပါသလား။",
+    "VN": "① Có báo cáo (tiếp nhận) với cảnh sát về tai nạn giao thông, uống rượu, hành hung, v.v. liên quan đến tai nạn trên không?",
+    "ID": "① Apakah kecelakaan di atas dilaporkan (diterima) ke kantor polisi karena alasan kecelakaan lalu lintas, mabuk, penganiayaan, dll.?",
+    "EN": "① Regarding the above accident, was it reported (filed) to the police station due to reasons such as a traffic accident, drunkenness, or assault?",
+    "NP": "① के तपाईंले माथिको दुर्घटनाको सम्बन्धमा ट्राफिक दुर्घटना, मद्यपान, कुटपिट जस्ता कारणले प्रहरी चौकीमा रिपोर्ट (दर्ता) गर्नुभएको छ?",
+    "TH": "① คุณเคยแจ้ง (หรือรับแจ้ง) อุบัติเหตุข้างต้นกับสถานีตำรวจเนื่องจากสาเหตุต่างๆ เช่น อุบัติเหตุจราจร การดื่มสุรา การทำร้ายร่างกาย ฯลฯ หรือไม่",
+    "RU": "① Был ли вышеуказанный несчастный случай заявлен (зарегистрирован) в полицейском участке по таким причинам, как дорожно-транспортное происшествие, опьянение или нападение?"
+  },
+  "applyFact119": {
+    "KO": "② 위 재해와 관련하여 119 또는 소방서에 구조구급 재난 신고 (접수)된 사실이 있습니까?",
+    "MM": "② အထက်ပါ မတော်တဆထိခိုက်မှုနှင့်ပတ်သက်၍ ၁၁၉ သို့မဟုတ် မီးသတ်ဌာနသို့ ကယ်ဆယ်ရေး၊ ရှေးဦးသူနာပြု၊ ဘေးအန္တရာယ်ဆိုင်ရာ သတင်းပို့ (လက်ခံ) ထားခြင်း ရှိပါသလား။",
+    "VN": "② Có báo cáo (tiếp nhận) cứu hộ khẩn cấp cho 119 hoặc sở cứu hỏa liên quan đến tai nạn trên không?",
+    "ID": "② Kecelakaan di atas, apakah ada laporan (penerimaan) ke 119 atau pemadam kebakaran terkait penyelamatan dan pertolongan pertama?",
+    "EN": "② Was a rescue/emergency medical disaster report filed (received) with 119 or the fire department regarding the above accident?",
+    "NP": "② के तपाईंले माथिको दुर्घटनाको सम्बन्धमा उद्धार/आपतकालीन प्रकोपको लागि 119 वा दमकल विभागमा रिपोर्ट (दर्ता) गर्नुभएको छ?",
+    "TH": "② คุณเคยแจ้ง (หรือรับแจ้ง) เหตุการณ์กู้ภัย/ช่วยเหลือ/ภัยพิบัติกับ 119 หรือสถานีดับเพลิงที่เกี่ยวข้องกับอุบัติเหตุข้างต้นหรือไม่",
+    "RU": "② Было ли подано заявление о спасении, оказании неотложной медицинской помощи или стихийном бедствии (получено) в службу 119 или пожарную часть в связи с вышеуказанным происшествием?"
+  },
+  "applyFactCar": {
+    "KO": "③ 위 재해와 관련하여 자동차 보험사에 사고를 신고한 사실이 있습니까?",
+    "MM": "③ အထက်ပါ မတော်တဆထိခိုက်မှုနှင့်ပတ်သက်၍ မော်တော်ယာဉ်အာမခံကုမ္ပဏီသို့ မတော်တဆထိခိုက်မှု သတင်းပို့ခဲ့ခြင်း ရှိပါသလား။",
+    "VN": "③ Có báo cáo tai nạn cho công ty bảo hiểm ô tô liên quan đến tai nạn trên không?",
+    "ID": "③ Kecelakaan di atas, apakah ada laporan ke perusahaan asuransi mobil?",
+    "EN": "③ Was the accident reported to an auto insurance company regarding the above accident?",
+    "NP": "③ के तपाईंले माथिको दुर्घटनाको सम्बन्धमा अटोमोबाइल बीमा कम्पनीलाई दुर्घटनाको रिपोर्ट गर्नुभएको छ?",
+    "TH": "③ คุณเคยแจ้งอุบัติเหตุกับบริษัทประกันภัยรถยนต์ที่เกี่ยวข้องกับอุบัติเหตุข้างต้นหรือไม่",
+    "RU": "③ Было ли заявление о происшествии подано в автомобильную страховую компанию в связи с вышеуказанным происшествием?"
+  },
+  "applyYes": {
+    "KO": "예",
+    "MM": "ဟုတ်ကဲ့",
+    "VN": "Có",
+    "ID": "Ya",
+    "EN": "Yes",
+    "NP": "हो",
+    "TH": "ใช่",
+    "RU": "Да"
+  },
+  "applyNo": {
+    "KO": "아니오",
+    "MM": "မဟုတ်ပါ",
+    "VN": "Không",
+    "ID": "Tidak",
+    "EN": "No",
+    "NP": "होइन",
+    "TH": "ไม่ใช่",
+    "RU": "Нет"
+  },
+  "applyWitness": {
+    "KO": "목격자가 있는 경우",
+    "MM": "မျက်မြင်သက်သေရှိလျှင်",
+    "VN": "Nếu có nhân chứng",
+    "ID": "Jika ada saksi",
+    "EN": "If there are witnesses",
+    "NP": "यदि साक्षी छ भने",
+    "TH": "กรณีมีผู้เห็นเหตุการณ์",
+    "RU": "Если есть свидетели"
+  },
+  "applyWitnessRelate": {
+    "KO": "재해자와의 관계",
+    "MM": "ဒဏ်ရာရသူနှင့် ဆက်ဆံရေး",
+    "VN": "Mối quan hệ với nạn nhân",
+    "ID": "Hubungan dengan korban",
+    "EN": "Relationship to the Injured Person",
+    "NP": "पीडितसँगको सम्बन्ध",
+    "TH": "ความสัมพันธ์กับผู้บาดเจ็บ",
+    "RU": "Отношение к пострадавшему"
+  },
+  "applyEnterWitness": {
+    "KO": "재해자와의 관계를 입력하세요",
+    "MM": "ထိခိုက်ဒဏ်ရာရသူနှင့် တော်စပ်ပုံကို ထည့်သွင်းပါ။",
+    "VN": "Nhập mối quan hệ với nạn nhân",
+    "ID": "Masukkan hubungan dengan korban bencana.",
+    "EN": "Enter your relationship with the disaster victim.",
+    "NP": "पीडितसँगको सम्बन्ध प्रविष्ट गर्नुहोस्।",
+    "TH": "กรุณากรอกความสัมพันธ์กับผู้ประสบภัย",
+    "RU": "Укажите, в каких отношениях вы находитесь с пострадавшим от стихийного бедствия."
+  },
+  "applyHospital": {
+    "KO": "재해 발생 후 현재 요양 중인 의료기관 전에 진료(치료) 받은 의료 기관",
+    "MM": "မတော်တဆထိခိုက်မှုဖြစ်ပွားပြီးနောက် လက်ရှိဆေးကုသမှုခံယူနေသော ဆေးဘက်ဆိုင်ရာအဖွဲ့အစည်းရှေ့တွင် ဆေးကုသမှု (ကုသမှု) ခံယူခဲ့သည့် ဆေးဘက်ဆိုင်ရာအဖွဲ့အစည်း",
+    "VN": "Cơ sở y tế đang điều trị sau tai nạn Cơ sở y tế đã điều trị trước đó",
+    "ID": "Rumah sakit tempat perawatan saat ini Rumah sakit tempat perawatan sebelumnya",
+    "EN": "Medical Institution Currently Providing Treatment After the Accident Previous Medical Institution Where Treatment Was Received",
+    "NP": "दुर्घटना पछि हाल उपचाररत चिकित्सा संस्था भन्दा पहिले चिकित्सा उपचार (उपचार) प्राप्त गरेको चिकित्सा संस्था",
+    "TH": "สถานพยาบาลที่ได้รับการตรวจรักษา (รักษา) ก่อนสถานพยาบาลที่กำลังพักรักษาตัวอยู่ในปัจจุบันหลังจากเกิดอุบัติเหตุ",
+    "RU": "Медицинское учреждение, в котором в настоящее время оказывается медицинская помощь после происшествия Медицинское учреждение, в котором ранее оказывалась медицинская помощь"
+  },
+  "applyHospitalName": {
+    "KO": "의료기관명",
+    "MM": "ဆေးဘက်ဆိုင်ရာအဖွဲ့အစည်းအမည်",
+    "VN": "Tên cơ sở y tế",
+    "ID": "Nama institusi medis",
+    "EN": "Name of Medical Institution",
+    "NP": "चिकित्सा संस्थाको नाम",
+    "TH": "ชื่อสถานพยาบาล",
+    "RU": "Название медицинского учреждения"
+  },
+  "applyEnterHospitalName": {
+    "KO": "의료기관명을 입력하세요",
+    "MM": "ဆေးကုသရေးဌာနအမည် ထည့်သွင်းပါ။",
+    "VN": "Nhập tên cơ sở y tế",
+    "ID": "Masukkan nama institusi medis.",
+    "EN": "Enter the name of the medical institution.",
+    "NP": "चिकित्सा संस्थाको नाम प्रविष्ट गर्नुहोस्।",
+    "TH": "กรุณากรอกชื่อสถานพยาบาล",
+    "RU": "Введите название медицинского учреждения."
+  },
+  "applyHospitalPlace": {
+    "KO": "소재지",
+    "MM": "တည်နေရာ",
+    "VN": "Địa chỉ",
+    "ID": "Lokasi",
+    "EN": "Location",
+    "NP": "स्थान",
+    "TH": "ที่ตั้ง",
+    "RU": "Местонахождение"
+  },
+  "applyEnterHospitalPlace": {
+    "KO": "소재지를 입력하세요",
+    "MM": "တည်နေရာ ထည့်သွင်းပါ။",
+    "VN": "Nhập địa chỉ",
+    "ID": "Masukkan lokasi.",
+    "EN": "Enter your location",
+    "NP": "ठेगाना प्रविष्ट गर्नुहोस्।",
+    "TH": "กรุณากรอกที่ตั้ง",
+    "RU": "Введите свое местоположение"
+  },
+  "applyPDF": {
+    "KO": "PDF로 다운받기",
+    "MM": "PDF ဖြင့် ဒေါင်းလုဒ်ဆွဲရန်",
+    "VN": "Tải xuống dưới dạng PDF",
+    "ID": "Unduh sebagai PDF",
+    "EN": "Download as PDF",
+    "NP": "PDF मा डाउनलोड गर्नुहोस्",
+    "TH": "ดาวน์โหลดเป็น PDF",
+    "RU": "Скачать в формате PDF"
+  },
+  "applyGoHome": {
+    "KO": "홈으로 돌아가기",
+    "MM": "ပင်မစာမျက်နှာသို့ ပြန်သွားရန်",
+    "VN": "Trở về trang chủ",
+    "ID": "Kembali ke beranda",
+    "EN": "Return to Home",
+    "NP": "गृह पृष्ठमा फर्कनुहोस्",
+    "TH": "กลับไปหน้าแรก",
+    "RU": "Вернуться на главную страницу"
+  },
+  "applyCheck": {
+    "KO": "확인",
+    "MM": "အတည်ပြုပါ",
+    "VN": "Xác nhận",
+    "ID": "Konfirmasi",
+    "EN": "Confirm",
+    "NP": "पुष्टि गर्नुहोस्",
+    "TH": "ยืนยัน",
+    "RU": "Подтвердить"
+  },
+  "popupName": {
+    "KO": "여권이나 신분증에 적힌 이름을 입력하세요.",
+    "MM": "ပတ်စ်ပို့စစ်စာအုပ် သို့မဟုတ် ကိုယ်ရေးမှတ်တမ်းကတ်ပေါ်ရှိအမည်ကို ရိုက်ထည့်ပါ။",
+    "VN": "Nhập tên được ghi trên hộ chiếu hoặc chứng minh nhân dân.",
+    "ID": "Masukkan nama yang tertera di paspor atau kartu identitas.",
+    "EN": "Enter the name as it appears on your passport or ID card.",
+    "NP": "पासपोर्ट वा परिचयपत्रमा लेखिएको नाम लेख्नुहोस्।",
+    "TH": "กรุณากรอกชื่อที่อยู่ในหนังสือเดินทางหรือบัตรประจำตัวประชาชน",
+    "RU": "Введите имя, как оно указано в вашем паспорте или удостоверении личности."
+  },
+  "popupForiegnNumber": {
+    "KO": "외국인등록증 발급 시 받은 번호를 입력해주세요!",
+    "MM": "နိုင်ငံခြားသား မှတ်ပုံတင်ကတ်တွင်ပါရှိသော နံပါတ်ကို ရိုက်ထည့်ပါ။!",
+    "VN": "Nhập số trên thẻ đăng ký người nước ngoài!",
+    "ID": "Masukkan nomor yang tertera di kartu registrasi asing!",
+    "EN": "Enter the number from your Alien Registration Card!",
+    "NP": "विदेशी दर्ता कार्डमा रहेको नम्बर लेख्नुहोस्।!",
+    "TH": "กรอกหมายเลขจากบัตรทะเบียนคนต่างด้าว!",
+    "RU": "Введите номер вашей регистрационной карточки иностранца!"
+  },
+  "popupNumber": {
+    "KO": "휴대폰 번호를 입력해 주세요. 없으면 비워도 괜찮아요!",
+    "MM": "သင်၏လက်ကိုင်ဖုန်းနံပါတ်ကို ထည့်ပါ။ မရှိပါက ကွက်လပ်ထားခဲ့နိုင်ပါသည်!",
+    "VN": "Vui lòng nhập số điện thoại di động của bạn. Nếu không có, bạn có thể để trống!",
+    "ID": "Silakan masukkan nomor ponsel Anda. Boleh dikosongkan jika tidak ada!",
+    "EN": "Please enter your mobile phone number. It's okay to leave it blank if you don't have one!",
+    "NP": "कृपया आफ्नो मोबाइल नम्बर प्रविष्ट गर्नुहोस्। यदि छैन भने, खाली छोड्दा पनि हुन्छ!",
+    "TH": "กรุณาใส่หมายเลขโทรศัพท์มือถือของคุณ หากไม่มี สามารถเว้นว่างไว้ได้!",
+    "RU": "Пожалуйста, введите номер вашего мобильного телефона. Если у вас его нет, вы можете оставить поле пустым!"
+  },
+  "popupAddr": {
+    "KO": "도로명, 건물명 또는 지번으로 현재 거주 중인 주소를 찾아 적어주세요!",
+    "MM": "လမ်းနာမည်၊ အဆောက်အအုံနာမည် သို့မဟုတ် နံပါတ်ဖြင့် နေရာလိပ်စာကို ရိုက်ထည့်ပါ။",
+    "VN": "Tìm và nhập địa chỉ hiện tại theo tên đường, tên tòa nhà hoặc số nhà.",
+    "ID": "Cari dan masukkan alamat tempat tinggal saat ini berdasarkan nama jalan, nama bangunan, atau nomor tanah.",
+    "EN": "Find and enter your current address using the street name, building name, or lot number.",
+    "NP": "सडक नाम, भवन नाम वा नम्बर प्रयोग गरी ठेगाना लेख्नुहोस्।",
+    "TH": "กรอกที่อยู่ปัจจุบัน โดยค้นหาด้วยชื่อถนน ชื่ออาคาร หรือหมายเลขบ้าน",
+    "RU": "Найдите и введите ваш текущий адрес проживания, используя название улицы, название здания или номер участка."
+  },
+  "popupDate": {
+    "KO": "다친 날짜를 입력해 주세요!",
+    "MM": "ဒဏ်ရာရရှိခဲ့သည့်နေ့စွဲကို ထည့်သွင်းပါ။",
+    "VN": "Vui lòng nhập ngày bạn bị thương!",
+    "ID": "Silakan masukkan tanggal Anda terluka!",
+    "EN": "Please enter the date you were injured!",
+    "NP": "कृपया तपाईं घाइते हुनुभएको मिति प्रविष्ट गर्नुहोस्!",
+    "TH": "กรุณาใส่วันที่ที่คุณได้รับบาดเจ็บ!",
+    "RU": "Пожалуйста, введите дату, когда вы получили травму!"
+  },
+  "popupEmployed": {
+    "KO": "일을 시작한 날짜를 입력해 주세요!",
+    "MM": "အလုပ် စတင်ခဲ့သည့် ရက်စွဲကို ရိုက်ထည့်ပါ။!",
+    "VN": "Nhập ngày bắt đầu làm việc!",
+    "ID": "Masukkan tanggal mulai bekerja!",
+    "EN": "Enter the date you started work!",
+    "NP": "काम सुरु गरेको मिति लेख्नुहोस्।!",
+    "TH": "กรอกวันที่เริ่มทำงาน!",
+    "RU": "Введите дату начала работы!"
+  },
+  "popupGo": {
+    "KO": "일 시작, 끝나는 시간을 입력해 주세요!",
+    "MM": "အလုပ်ဝင်ချိန်နှင့် အလုပ်ထွက်ချိန်ကို တိတိကျကျ ရိုက်ထည့်ပါ။!",
+    "VN": "Nhập chính xác giờ đi làm và giờ về!",
+    "ID": "Masukkan waktu masuk dan keluar kerja dengan tepat!",
+    "EN": "Enter your exact start and end times!",
+    "NP": "काम सुरु र अन्त्य भएको समय ठीकसँग लेख्नुहोस्।!",
+    "TH": "กรอกเวลาเริ่มงานและเวลาเลิกงานอย่างถูกต้อง!",
+    "RU": "Введите точное время начала и окончания работы!"
+  },
+  "popupJob": {
+    "KO": "어떤 일을 하는지 간단히 적으세요. (예: 용접, 포장 등)",
+    "MM": "သင်လုပ်နေသော အလုပ်အမျိုးအစားကို ရှင်းလင်းစွာ ရိုက်ထည့်ပါ။ (ဥပမာ- ဝယ်လက်, ထုပ်ပိုးခြင်း စသည်)",
+    "VN": "Hãy ghi ngắn gọn công việc bạn làm (ví dụ: hàn, đóng gói, v.v.).",
+    "ID": "Tuliskan secara singkat jenis pekerjaan yang Anda lakukan. (Contoh: pengelasan, pengepakan, dll.)",
+    "EN": "Briefly describe the type of work you do. (e.g., welding, packaging, etc.)",
+    "NP": "तपाईँले गर्ने कामको प्रकार लेख्नुहोस्। (जस्तै: वेल्डिङ, प्याकिङ आदि)",
+    "TH": "กรอกประเภทงานที่ทำ (เช่น งานเชื่อม งานบรรจุสินค้า เป็นต้น)",
+    "RU": "Кратко опишите вид работы, которой вы занимаетесь (например, сварка, упаковка и т. д.)."
+  },
+  "popupPlaceName": {
+    "KO": "일을 하는 회사의 이름을 적어주세요!",
+    "MM": "သင်အလုပ်လုပ်သော ကုမ္ပဏီ (သို့မဟုတ်) စက်ရုံအမည်ကို ရိုက်ထည့်ပါ။!",
+    "VN": "Hãy nhập tên công ty hoặc nơi làm việc!",
+    "ID": "Masukkan nama perusahaan atau tempat kerja tempat Anda bekerja!",
+    "EN": "Enter the name of the company or workplace where you worked!",
+    "NP": "तपाईँले काम गर्ने कम्पनी वा कार्यस्थलको नाम लेख्नुहोस्।!",
+    "TH": "กรอกชื่อบริษัทหรือสถานที่ทำงาน!",
+    "RU": "Введите название компании или места работы, где вы работали!"
+  },
+  "popupBossName": {
+    "KO": "회사의 사장님 이름을 적어주세요!",
+    "MM": "ကုမ္ပဏီ၏ ဥက္ကဋ္ဌအမည်ကို ရေးပေးပါ။",
+    "VN": "Vui lòng viết tên giám đốc công ty!",
+    "ID": "Silakan tulis nama direktur/presiden perusahaan!",
+    "EN": "Please write down the name of the company's president/CEO!",
+    "NP": "कृपया कम्पनीको साहुको नाम लेख्नुहोस्!",
+    "TH": "กรุณาเขียนชื่อประธานบริษัท!",
+    "RU": "Пожалуйста, напишите имя президента/директора компании!"
+  },
+  "popupBossNumber": {
+    "KO": "사장님의 휴대폰 번호를 적어주세요!",
+    "MM": "ကုမ္ပဏီ (သို့မဟုတ်) အလုပ်ရှင် ဖုန်းနံပါတ်ကို ရိုက်ထည့်ပါ။!",
+    "VN": "Hãy nhập số điện thoại của công ty hoặc chủ doanh nghiệp!",
+    "ID": "Masukkan nomor telepon perusahaan atau pemilik usaha!",
+    "EN": "Enter the phone number of the company or employer!",
+    "NP": "कम्पनी वा मालिकको फोन नम्बर लेख्नुहोस्।!",
+    "TH": "กรอกหมายเลขโทรศัพท์ของบริษัทหรือเจ้าของ!",
+    "RU": "Введите номер телефона компании или работодателя!"
+  },
+  "popupPlaceNumber": {
+    "KO": "사업장관리번호를 이 버튼으로 검색하세요",
+    "MM": "စီးပွားရေးအဖွဲ့စီမံနံပါတ်ကို ဤခလုတ်ဖြင့် ရှာဖွေပါ။",
+    "VN": "Tìm kiếm số quản lý nơi làm việc bằng nút này.",
+    "ID": "Cari nomor pengelolaan tempat kerja dengan tombol ini.",
+    "EN": "Search for the workplace management number using this button.",
+    "NP": "कार्यस्थल व्यवस्थापन नम्बर खोज्न यो बटन प्रयोग गर्नुहोस्।",
+    "TH": "ใช้ปุ่มนี้เพื่อค้นหาหมายเลขทะเบียนสถานประกอบการ",
+    "RU": "Найдите номер управления рабочим местом с помощью этой кнопки."
+  },
+  "popupPlaceAddr": {
+    "KO": "일한 회사의 주소를 도로명이나 건물명으로 검색하세요.",
+    "MM": "အလုပ်လုပ်သော နေရာ၏ လိပ်စာကို လမ်းနာမည် သို့မဟုတ် အဆောက်အအုံနာမည်ဖြင့် ရှာဖွေပါ။",
+    "VN": "Tìm kiếm địa chỉ công ty nơi bạn làm việc bằng tên đường hoặc tên tòa nhà.",
+    "ID": "Cari alamat perusahaan tempat Anda bekerja dengan nama jalan atau nama bangunan.",
+    "EN": "Search for the company's address by street name or building name.",
+    "NP": "कम्पनीको ठेगाना सडक नाम वा भवन नाम प्रयोग गरी खोज्नुहोस्।",
+    "TH": "ค้นหาที่อยู่ของบริษัทโดยใช้ชื่อถนนหรือชื่ออาคาร",
+    "RU": "Найдите адрес компании по названию улицы или здания."
+  },
+  "popupReason": {
+    "KO": "언제, 어디서, 무엇을 하다가 다쳤는지 자세히 적어주세요! (예: “2024년 5월 10일 오전 9시, 공장에서 기계 청소 중 손가락을 다침.”)",
+    "MM": "ဘယ်အချိန်၊ ဘယ်နေရာမှာ၊ ဘာလုပ်ရင်း ထိခိုက်ဒဏ်ရာရခဲ့သလဲ အသေးစိတ်ရေးပေးပါ။ (ဥပမာ - \"၂၀၂၄ ခုနှစ်၊ မေလ ၁၀ ရက်၊ နံနက် ၉ နာရီ၊ စက်ရုံတွင် စက်သန့်ရှင်းရေးလုပ်ရင်း လက်ချောင်းဒဏ်ရာရခဲ့သည်။\")",
+    "VN": "Vui lòng mô tả chi tiết bạn bị thương khi nào, ở đâu và đang làm gì! (Ví dụ: \"9 giờ sáng ngày 10 tháng 5 năm 2024, bị thương ở ngón tay khi đang vệ sinh máy móc tại nhà máy.\")",
+    "ID": "Tolong jelaskan secara rinci kapan, di mana, dan apa yang sedang Anda lakukan saat terluka! (Contoh: \"10 Mei 2024, pukul 09.00, terluka di jari saat membersihkan mesin di pabrik.\")",
+    "EN": "Please describe in detail when, where, and what you were doing when you were injured! (e.g., \"May 10, 2024, 9:00 AM, injured a finger while cleaning a machine at the factory.\")",
+    "NP": "कहिले, कहाँ र के गर्दा तपाईं घाइते हुनुभयो, कृपया विस्तृत रूपमा लेख्नुहोस्! (उदाहरण: \"२०२४ मे १०, बिहान ९ बजे, कारखानामा मेसिन सफा गर्दा औंलामा चोट लाग्यो।\")",
+    "TH": "โปรดอธิบายรายละเอียดว่าคุณได้รับบาดเจ็บเมื่อไหร่ ที่ไหน และกำลังทำอะไรอยู่! (ตัวอย่าง: \"10 พฤษภาคม 2024 เวลา 09:00 น. ได้รับบาดเจ็บที่นิ้วขณะทำความสะอาดเครื่องจักรในโรงงาน\")",
+    "RU": "Пожалуйста, подробно опишите, когда, где и что вы делали, когда получили травму! (Пример: \"10 мая 2024 г., 9:00 утра, получил(а) травму пальца во время чистки станка на заводе.\")"
+  },
+  "popupWitnessName": {
+    "KO": "사고를 목격한 사람의 이름을 입력해주세요!",
+    "MM": "ဖြစ်စဉ်ကို မြင်သည့်လူအမည်ကို ရိုက်ထည့်ပါ။",
+    "VN": "Hãy nhập tên của người chứng kiến tai nạn.",
+    "ID": "Masukkan nama orang yang menyaksikan kecelakaan.",
+    "EN": "Enter the name of the person who witnessed the accident.",
+    "NP": "दुर्घटना देख्ने व्यक्तिको नाम लेख्नुहोस्।",
+    "TH": "กรอกชื่อของผู้เห็นเหตุการณ์",
+    "RU": "Введите имя человека, который был свидетелем несчастного случая."
+  },
+  "popupWitnessNumber": {
+    "KO": "목격자의 휴대폰 번호를 입력해주세요. 없으면 비워도 괜찮아요!",
+    "MM": "သက်သေ၏လက်ကိုင်ဖုန်းနံပါတ်ကို ထည့်ပါ။ မရှိပါက ကွက်လပ်ထားခဲ့နိုင်ပါသည်!",
+    "VN": "Vui lòng nhập số điện thoại di động của nhân chứng. Nếu không có, bạn có thể để trống!",
+    "ID": "Silakan masukkan nomor ponsel saksi. Boleh dikosongkan jika tidak ada!",
+    "EN": "Please enter the witness's mobile phone number. It's okay to leave it blank if they don't have one!",
+    "NP": "कृपया साक्षीको मोबाइल नम्बर प्रविष्ट गर्नुहोस्। यदि छैन भने, खाली छोड्दा पनि हुन्छ!",
+    "TH": "กรุณาใส่หมายเลขโทรศัพท์มือถือของพยาน หากไม่มี สามารถเว้นว่างไว้ได้!",
+    "RU": "Пожалуйста, введите номер мобильного телефона свидетеля. Если у него/нее нет, вы можете оставить поле пустым!"
+  },
+  "popupWithnessRelate": {
+    "KO": "목격자와 재해자의 관계를 적어주세요! (예: 동료, 친구 등)",
+    "MM": "ဖြစ်စဉ်မြင်သူနှင့် ဒဏ်ရာရသူတို့ အကြားဆက်ဆံရေးကို ရေးပါ။ (ဥပမာ- အလုပ်ဖော်၊ မိတ်ဆွေ စသည်)",
+    "VN": "Ghi mối quan hệ giữa nhân chứng và nạn nhân. (Ví dụ: đồng nghiệp, bạn bè, v.v.)",
+    "ID": "Tuliskan hubungan antara saksi dan korban kecelakaan. (Contoh: rekan kerja, teman, dll.)",
+    "EN": "Describe the relationship between the witness and the injured person. (e.g., coworker, friend, etc.)",
+    "NP": "पीडित र साक्षीबीचको सम्बन्ध लेख्नुहोस्। (जस्तै: सहकर्मी, साथी आदि)",
+    "TH": "กรอกความสัมพันธ์ระหว่างผู้เห็นเหตุการณ์และผู้ประสบเหตุ (เช่น เพื่อนร่วมงาน เพื่อน เป็นต้น)",
+    "RU": "Укажите отношения между свидетелем и пострадавшим (например, коллега, друг и т. д.)."
+  },
+  "popupHospitalName": {
+    "KO": "다친 후 처음 진료받은 병원 이름을 적어주세요!",
+    "MM": "ဒဏ်ရာရပြီးနောက် ပထမဆုံးကုသမှုခံရသည့် ဆေးရုံအမည်ကို ရိုက်ထည့်ပါ။",
+    "VN": "Nhập tên bệnh viện nơi bạn được điều trị lần đầu tiên sau khi bị thương.",
+    "ID": "Masukkan nama rumah sakit tempat Anda pertama kali menerima perawatan setelah cedera.",
+    "EN": "Enter the name of the hospital where you first received treatment after the injury.",
+    "NP": "घाइते भएपछि पहिलो पटक उपचार गरिएको अस्पतालको नाम लेख्नुहोस्।",
+    "TH": "กรอกชื่อโรงพยาบาลที่ได้รับการรักษาครั้งแรกหลังเกิดอุบัติเหตุ",
+    "RU": "Введите название больницы, в которой вам впервые оказали медицинскую помощь после получения травмы."
+  },
+  "popupHospitalPlace": {
+    "KO": "치료받은 병원 위치를 적어주세요! (예: 인천 미추홀구)",
+    "MM": "ကုသမှုခံယူခဲ့သည့် ဆေးရုံ၏တည်နေရာကို ရေးပေးပါ။ (ဥပမာ - အင်ချွန်း၊ မီချူဟိုလ်ခရိုင်)",
+    "VN": "Vui lòng viết địa điểm bệnh viện bạn đã điều trị! (Ví dụ: Michuhol-gu, Incheon)",
+    "ID": "Silakan tulis lokasi rumah sakit tempat Anda dirawat! (Contoh: Michuhol-gu, Incheon)",
+    "EN": "Please write down the location of the hospital where you received treatment! (e.g., Michuhol-gu, Incheon)",
+    "NP": "कृपया तपाईंले उपचार गराउनुभएको अस्पतालको स्थान लेख्नुहोस्! (उदाहरण: इन्छन, मिछुहोल-गु)",
+    "TH": "กรุณาเขียนที่ตั้งของโรงพยาบาลที่คุณรับการรักษา! (ตัวอย่าง: มิชูฮอล-กู, อินชอน)",
+    "RU": "Пожалуйста, напишите местоположение больницы, где вы проходили лечение! (Пример: Мичухол-гу, Инчхон)"
+  },
+  "exampleAccident": {
+    "KO": "사고 유형",
+    "MM": "မတော်တဆထိခိုက်မှုအမျိုးအစား",
+    "VN": "Loại tai nạn",
+    "ID": "Jenis kecelakaan",
+    "EN": "Accident type",
+    "NP": "दुर्घटनाको प्रकार",
+    "TH": "ประเภทอุบัติเหตุ",
+    "RU": "Тип несчастного случая"
+  },
+  "exampleWhileWork": {
+    "KO": "업무수행 중의 사고",
+    "MM": "လုပ်ငန်းဆောင်ရွက်နေစဉ် မတော်တဆထိခိုက်မှု",
+    "VN": "Tai nạn trong khi làm việc",
+    "ID": "Kecelakaan saat bekerja",
+    "EN": "Accident during work",
+    "NP": "काम प्रदर्शनको क्रममा दुर्घटना",
+    "TH": "อุบัติเหตุระหว่างปฏิบัติงาน",
+    "RU": "Несчастный случай на работе"
+  },
+  "exampleWhileGo": {
+    "KO": "출퇴근 중의 사고",
+    "MM": "အလုပ်သွားအလုပ်ပြန်စဉ် မတော်တဆထိခိုက်မှု",
+    "VN": "Tai nạn trong giờ đi làm",
+    "ID": "Kecelakaan saat berangkat atau pulang kerja",
+    "EN": "Accidents during commuting",
+    "NP": "आउजाउ गर्दा दुर्घटना",
+    "TH": "อุบัติเหตุระหว่างการเดินทาง",
+    "RU": "Несчастные случаи по дороге на работу"
+  },
+  "exampleWhileEvents": {
+    "KO": "행사 중의 사고",
+    "MM": "ပွဲကျင်းပနေစဉ် မတော်တဆထိခိုက်မှု",
+    "VN": "Tai nạn trong sự kiện",
+    "ID": "Kecelakaan saat acara",
+    "EN": "Accidents during events",
+    "NP": "एक घटनाको समयमा दुर्घटना",
+    "TH": "อุบัติเหตุระหว่างงานกิจกรรม",
+    "RU": "Несчастные случаи во время мероприятий"
+  },
+  "exampleWhileCrime": {
+    "KO": "근로자 범죄행위",
+    "MM": "အလုပ်သမား၏ ပြစ်မှုကျူးလွန်ခြင်း",
+    "VN": "Hành vi phạm tội của người lao động",
+    "ID": "Tindak pidana oleh pekerja",
+    "EN": "Worker's criminal act",
+    "NP": "श्रमिकको आपराधिक कार्य",
+    "TH": "การกระทำความผิดทางอาญาของลูกจ้าง",
+    "RU": "Преступное деяние работника"
+  },
+  "exampleWhileNone": {
+    "KO": "비업무 관련 행위",
+    "MM": "အလုပ်နှင့်မသက်ဆိုင်သော လုပ်ဆောင်ချက်",
+    "VN": "Hành vi không liên quan đến công việc",
+    "ID": "Tindakan yang tidak terkait dengan pekerjaan",
+    "EN": "Act unrelated to work",
+    "NP": "गैर-कार्य सम्बन्धित कार्य",
+    "TH": "การกระทำที่ไม่เกี่ยวข้องกับงาน",
+    "RU": "Действие, не связанное с работой"
+  },
+  "exampleWhileSick": {
+    "KO": "업무상 질병",
+    "MM": "လုပ်ငန်းခွင်ဆိုင်ရာ ရောဂါ",
+    "VN": "Bệnh nghề nghiệp",
+    "ID": "Penyakit akibat kerja",
+    "EN": "Occupational disease",
+    "NP": "पेशागत रोग",
+    "TH": "โรคจากการทำงาน",
+    "RU": "Профессиональное заболевание"
+  },
+  "exampleSearch": {
+    "KO": "사례 제목 검색",
+    "MM": "ဖြစ်ရပ်ခေါင်းစဉ်ဖြင့် ရှာဖွေခြင်း",
+    "VN": "Tìm kiếm theo tiêu đề vụ việc",
+    "ID": "Pencarian judul kasus",
+    "EN": "Case title search",
+    "NP": "केस शीर्षक खोजी",
+    "TH": "ค้นหาจากชื่อเคส",
+    "RU": "Поиск по названию дела"
+  },
+  "hospitalList": {
+    "KO": "산재 의료기관 리스트",
+    "MM": "စက်မှုထိခိုက်မှု ဆေးကုသရေးဌာန",
+    "VN": "Cơ sở y tế tai nạn lao động",
+    "ID": "Institusi medis kecelakaan kerja",
+    "EN": "Industrial accident hospitals",
+    "NP": "औद्योगिक दुर्घटना चिकित्सा संस्था",
+    "TH": "สถานพยาบาลอุบัติเหตุจากการทำงาน",
+    "RU": "Травмпункты"
+  },
+  "hospitalWork": {
+    "KO": "영업중",
+    "MM": "ဖွင့်လှစ်နေသည်",
+    "VN": "Đang mở cửa",
+    "ID": "Sedang beroperasi",
+    "EN": "Open",
+    "NP": "सञ्चालनमा छ",
+    "TH": "เปิดทำการ",
+    "RU": "Открыто"
+  },
+  "hospitalWorkEnd": {
+    "KO": "영업종료",
+    "MM": "ပိတ်သိမ်းသည်",
+    "VN": "Đóng cửa",
+    "ID": "Tutup",
+    "EN": "Closed",
+    "NP": "बन्द",
+    "TH": "ปิดทำการ",
+    "RU": "Закрыто"
+  },
+  "hospitalSaturday": {
+    "KO": "토요일",
+    "MM": "စနေနေ့",
+    "VN": "Thứ Bảy",
+    "ID": "Sabtu",
+    "EN": "Saturday",
+    "NP": "शनिबार",
+    "TH": "วันเสาร์",
+    "RU": "Суббота"
+  },
+  "hospitalEnd": {
+    "KO": "종료",
+    "MM": "ပြီးဆုံးခြင်း",
+    "VN": "Kết thúc",
+    "ID": "Selesai",
+    "EN": "End",
+    "NP": "समाप्त",
+    "TH": "สิ้นสุด",
+    "RU": "Конец"
+  },
+  "hospitalEndSunday": {
+    "KO": "일요일 휴무",
+    "MM": "တနင်္ဂနွေနေ့ ပိတ်သည်",
+    "VN": "Đóng cửa vào Chủ Nhật",
+    "ID": "Tutup pada hari Minggu",
+    "EN": "Closed on Sundays",
+    "NP": "आइतबार बन्द",
+    "TH": "ปิดวันอาทิตย์",
+    "RU": "Закрыто в воскресенье"
+  },
+  "hospitalGu": {
+    "KO": "자치구",
+    "MM": "ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရခရိုင်",
+    "VN": "Quận tự trị",
+    "ID": "Distrik otonom",
+    "EN": "Autonomous district",
+    "NP": "स्वायत्त जिल्ला",
+    "TH": "เขตปกครองตนเอง",
+    "RU": "Автономный район"
+  },
+  "hospitalJung": {
+    "KO": "중구",
+    "MM": "ဂျุงဂူ",
+    "VN": "Quận Jung",
+    "ID": "Distrik Jung",
+    "EN": "Jung-gu",
+    "NP": "जङ-गु",
+    "TH": "เขตจุง",
+    "RU": "Район Чун-гу"
+  },
+  "hospitalMichuhol": {
+    "KO": "미추홀구",
+    "MM": "မီချူဟိုလ်ဂူ",
+    "VN": "Quận Michuhol",
+    "ID": "Distrik Michuhol",
+    "EN": "Michuhol-gu",
+    "NP": "मिछुहोल-गु",
+    "TH": "เขตมีชูโฮล",
+    "RU": "Район Мичхухоль-гу"
+  },
+  "hospitalBupyeong": {
+    "KO": "부평구",
+    "MM": "ဘူဖျောင်းဂူ",
+    "VN": "Quận Bupyeong",
+    "ID": "Distrik Bupyeong",
+    "EN": "Bupyeong-gu",
+    "NP": "बुप्योङ-गु",
+    "TH": "เขตบูพยอง",
+    "RU": "Район Пупхён-гу"
+  },
+  "hospitalNamdong": {
+    "KO": "남동구",
+    "MM": "နမ်ဒงဂူ",
+    "VN": "Quận Namdong",
+    "ID": "Distrik Namdong",
+    "EN": "Namdong-gu",
+    "NP": "नामदोङ-गु",
+    "TH": "เขตนัมดง",
+    "RU": "Район Намдон-гу"
+  },
+  "hospitalYeonsu": {
+    "KO": "연수구",
+    "MM": "ယොန်းဆူဂူ",
+    "VN": "Quận Yeonsu",
+    "ID": "Distrik Yeonsu",
+    "EN": "Yeonsu-gu",
+    "NP": "योन्सु-गु",
+    "TH": "เขตย็อนซู",
+    "RU": "Район Ёнсу-гу"
+  },
+  "hospitalSeo": {
+    "KO": "서구",
+    "MM": "ဆောဂူ",
+    "VN": "Quận Seo",
+    "ID": "Distrik Seo",
+    "EN": "Seo-gu",
+    "NP": "सो-गु",
+    "TH": "เขตซอ",
+    "RU": "Район Со-гу"
+  },
+  "hospitalGyeyang": {
+    "KO": "계양구",
+    "MM": "ဂเยယางဂူ",
+    "VN": "Quận Gyeyang",
+    "ID": "Distrik Gyeyang",
+    "EN": "Gyeyang-gu",
+    "NP": "ग्येयाङ-गु",
+    "TH": "เขตคเยยัง",
+    "RU": "Район Кеян-гу"
+  },
+  "hospitalSubject": {
+    "KO": "진료과목",
+    "MM": "ကုသမှုဘာသာရပ်",
+    "VN": "Chuyên khoa",
+    "ID": "Spesialisasi medis",
+    "EN": "Medical specialty",
+    "NP": "चिकित्सा विभाग",
+    "TH": "สาขาวิชา",
+    "RU": "Медицинская специальность"
+  },
+  "hospitalInner": {
+    "KO": "내과/가정의학과",
+    "MM": "ပြည်တွင်းဆေးပညာ/မိသားစုဆေးပညာ",
+    "VN": "Nội khoa/Y học gia đình",
+    "ID": "Internis/Kedokteran keluarga",
+    "EN": "Internal medicine/Family medicine",
+    "NP": "आन्तरिक चिकित्सा/पारिवारिक चिकित्सा",
+    "TH": "อายุรศาสตร์/เวชศาสตร์ครอบครัว",
+    "RU": "Внутренняя медицина/Семейная медицина"
+  },
+  "hospitalOr": {
+    "KO": "정형외과",
+    "MM": "အရိုးအကြောအဆစ်ကုပညာ",
+    "VN": "Chỉnh hình",
+    "ID": "Ortopedi",
+    "EN": "Orthopedics",
+    "NP": "अर्थोपेडिक्स",
+    "TH": "ศัลยกรรมกระดูก",
+    "RU": "Ортопедическая хирургия"
+  },
+  "hospitaExer": {
+    "KO": "재활/물리치료",
+    "MM": "ပြန်လည်ထူထောင်ရေး/ရုပ်ပိုင်းဆိုင်ရာကုထုံး",
+    "VN": "Phục hồi chức năng/Vật lý trị liệu",
+    "ID": "Rehabilitasi/Fisioterapi",
+    "EN": "Rehabilitation/Physical therapy",
+    "NP": "पुनर्वास/शारीरिक थेरापी",
+    "TH": "เวชศาสตร์ฟื้นฟู/กายภาพบำบัด",
+    "RU": "Реабилитация/Физиотерапия"
+  },
+  "hospitalPsy": {
+    "KO": "정신과",
+    "MM": "စိတ်ရောဂါကုပညာ",
+    "VN": "Tâm thần",
+    "ID": "Psikiatri",
+    "EN": "Psychiatry",
+    "NP": "मनोचिकित्सा",
+    "TH": "จิตเวชศาสตร์",
+    "RU": "Психиатрия"
+  },
+  "hospitaldent": {
+    "KO": "치과",
+    "MM": "သွားနှင့်ခံတွင်း",
+    "VN": "Nha khoa",
+    "ID": "Gigi",
+    "EN": "Dentistry",
+    "NP": "दन्त चिकित्सा",
+    "TH": "ทันตกรรม",
+    "RU": "Стоматология"
+  },
+  "hospitalKor": {
+    "KO": "한방",
+    "MM": "အရှေ့တိုင်းဆေးပညာ",
+    "VN": "Y học cổ truyền",
+    "ID": "Kedokteran tradisional Korea",
+    "EN": "Korean medicine",
+    "NP": "पूर्वीय चिकित्सा",
+    "TH": "การแพทย์แผนตะวันออก",
+    "RU": "Корейская медицина"
+  },
+  "hospitlNursing": {
+    "KO": "요양",
+    "MM": "ဆေးကုသမှု",
+    "VN": "Chăm sóc sức khỏe",
+    "ID": "Perawatan",
+    "EN": "Nursing care",
+    "NP": "नर्सिङ/हेरचाह",
+    "TH": "การดูแล/พยาบาล",
+    "RU": "Долгосрочный уход"
+  },
+  "hospitlSpecial": {
+    "KO": "특수외과",
+    "MM": "အထူးခွဲစိတ်ကုသမှု",
+    "VN": "Phẫu thuật đặc biệt",
+    "ID": "Bedah khusus",
+    "EN": "Specialized surgery",
+    "NP": "विशेष शल्य चिकित्सा",
+    "TH": "ศัลยกรรมเฉพาะทาง",
+    "RU": "Специализированная хирургия"
+  },
+  "hospitalGeneral": {
+    "KO": "종합",
+    "MM": "အထွေထွေ",
+    "VN": "Tổng hợp",
+    "ID": "Umum",
+    "EN": "General",
+    "NP": "सामान्य",
+    "TH": "ทั่วไป",
+    "RU": "Общая практика"
+  },
+  "hospitalClinic": {
+    "KO": "의원",
+    "MM": "ဆေးခန်း",
+    "VN": "Phòng khám",
+    "ID": "Klinik",
+    "EN": "Clinic",
+    "NP": "क्लिनिक",
+    "TH": "คลินิก",
+    "RU": "Клиника"
+  },
+  "hospitalEtc": {
+    "KO": "기타",
+    "MM": "အခြား",
+    "VN": "Khác",
+    "ID": "Lainnya",
+    "EN": "Others / Etc.",
+    "NP": "अन्य",
+    "TH": "อื่นๆ",
+    "RU": "Прочее"
+  },
+  "hospitalWorkTime": {
+    "KO": "영업시간",
+    "MM": "ဖွင့်ချိန်",
+    "VN": "Giờ làm việc",
+    "ID": "Jam operasional",
+    "EN": "Business hours",
+    "NP": "व्यापार घण्टा",
+    "TH": "เวลาทำการ",
+    "RU": "Часы работы"
+  },
+  "entire":{
+    "KO": "전체",
+    "MM": "အကုန်လုံး",
+    "VN": "Tổng thể",
+    "ID": "Seluruh",
+    "EN": "All",
+    "NP": "सबै",
+    "TH": "ทั้งหมด",
+    "RU": "Все"
+  },
+  "nocase":{
+    "KO": "전체",
+    "MM": "ထိုအခြေအနေအတွက် သာဓကမရှိပါ",
+    "VN": "Không có trường hợp nào đáp ứng điều kiện này.",
+    "ID": "Tidak ada contoh yang memenuhi syarat tersebut.",
+    "EN": "No cases found for this condition",
+    "NP": "निर्दिष्ट सर्तहरू पूरा गर्ने कुनै केसहरू छैनन्।",
+    "TH": "ไม่มีตัวอย่างสำหรับเงื่อนไขนี้",
+    "RU": "Нет случаев, соответствующих указанным условиям."
+  },
+  "approve":{
+    "KO": "승인",
+    "MM": "ခွင့်ပြုချက်",
+    "VN": "Phê duyệt",
+    "ID": "Persetujuan",
+    "EN": "Approved",
+    "NP": "अनुमोदन",
+    "TH": "การอนุมัติ",
+    "RU": "Утверждение"
+  },
+  "disapprove":{
+    "KO": "불승인",
+    "MM": "ငြင်းပယ်ခြင်း",
+    "VN": "Không phê duyệt",
+    "ID": "Tidak disetujui",
+    "EN": "Disapproved",
+    "NP": "अस्वीकृत",
+    "TH": "ไม่อนุมัติ",
+    "RU": "Отклонено"
+  },
+  "kindDisease":{
+    "KO": "질병 유형",
+    "MM": "ရောဂါ အမျိုးအစား",
+    "VN": "Loại bệnh",
+    "ID": "Jenis penyakit",
+    "EN": "Disease type",
+    "NP": "रोगको प्रकार",
+    "TH": "ประเภทของโรค",
+    "RU": "Тип заболевания"
+  },
+  "closed":{
+    "KO": "휴무",
+    "MM": "ပိတ်ရက်",
+    "VN": "Nghỉ làm",
+    "ID": "Tutup",
+    "EN": "Closed",
+    "NP": "बन्द",
+    "TH": "ปิดทำการ",
+    "RU": "Выходной"
+  },
+  "exampleOtherAccident":{
+    "KO":"기타 사고",
+    "MM": "အခြားမတော်တဆမှုများ",
+    "VN": "Tai nạn khác",
+    "ID": "Kecelakaan lain",
+    "EN": "Other accidents",
+    "NP": "अन्य दुर्घटना",
+    "TH": "อุบัติเหตุอื่นๆ",
+    "RU": "Прочие несчастные случаи"
+  },
+  "Sunday":{
+    "KO": "일요일",
+    "MM": "တနင်္ဂနွေနေ့",
+    "VN": "Chủ nhật",
+    "ID": "Minggu",
+    "EN": "Sunday",
+    "NP": "आइतबार",
+    "TH": "วันอาทิตย์",
+    "RU": "Воскресенье"
+  },
+  "noInfo":{
+    "KO": "정보없음",
+    "MM": "မရှိပါ",
+    "VN": "Không có thông tin",
+    "ID": "Tidak ada informasi",
+    "EN": "No information",
+    "NP": "မရှိပါ",
+    "TH": "ไม่มีข้อมูล",
+    "RU": "Нет информации"
+  }
+}
