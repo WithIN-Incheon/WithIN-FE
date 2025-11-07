@@ -7,29 +7,29 @@ import { useLocalization } from "../../contexts/LocalizationContext";
 
 export default function InfoPage() {
   const navigate = useNavigate();
-
+  const { t } = useLocalization();
   const infoCards = [
     {
-      title: "산업재해 보험 안내",
-      subtitle: "보험의 정의, 적용대상, 대상에 대해서 \n설명합니다",
+      title: t('infoInsurance'),
+      subtitle: t('infoExplain'),
       img: "/Info/Compensation-box.svg",
       path: "/info/compensation",
     },
     {
-      title: "산업재해 보험 보상 절차",
-      subtitle: "보험의 보상절차에 대해 설명합니다",
+      title: t('infoStep'),
+      subtitle: t('infoReward'),
       img: "/Info/Process-box.svg",
       path: "/info/process",
     },
     {
-      title: "산업재해 보험 급여 안내",
-      subtitle: "보험의 급여 종류에 대해 설명합니다",
+      title: t('infoWage'),
+      subtitle: t('infoKindOfWage'),
       img: "/Info/Benefit-box.svg",
       path: "/info/salary",
     },
     {
-      title: "산업재해 관련 용어 사전",
-      subtitle: "산업재해와 관련된 용어를 소개합니다",
+      title: t('infoDic'),
+      subtitle: t('infoDicintro'),
       img: "/Info/Glossary-box.svg",
       path: "/info/dictionary",
     },
@@ -37,7 +37,7 @@ export default function InfoPage() {
 
   return (
     <div className="info-page">
-      <Header title="산재재해 정보 가이드" />
+      <Header title={t('mainIndustry')} />
 
       <main className="info-content">
         <div className="info-card-group">

@@ -10,7 +10,7 @@ export default function GuidePage() {
   const { t } = useLocalization();
   return (
     <div className="guide-page">
-      <Header title="산재 신청 가이드" />
+      <Header title={t('mainIndustry')} />
 
       <main className="guide-content">
         <div className="guide-photo-group">
@@ -25,8 +25,8 @@ export default function GuidePage() {
               alt="산업재해 정보 가이드"
             />
             <div className="guide-photo-text">
-              <div className="guide-comp-title">산업재해 정보 가이드</div>
-              <div className="guide-comp-subtitle">산업재해 보험 소개</div>
+              <div className="guide-comp-title">{t("guideInfo")}</div>
+              <div className="guide-comp-subtitle">{t("guideIntroduce")}</div>
             </div>
           </div>
 
@@ -41,9 +41,9 @@ export default function GuidePage() {
               alt="최초 요양 급여 신청서 연습"
             />
             <div className="guide-photo-text">
-              <div className="guide-comp-title">최초 요양 급여 신청서 연습</div>
+              <div className="guide-comp-title">{t("guidePractice")}</div>
               <div className="guide-comp-subtitle">
-                신청서에 들어가는 내용 미리 알아보기
+                {t("guidePreview")}
               </div>
             </div>
           </div>
