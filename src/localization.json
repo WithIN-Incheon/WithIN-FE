@@ -90,14 +90,14 @@
     "RU": "Поймите свою ситуацию на основе реальных дел"
   },
   "mainHospital": {
-    "KO": "산재 의료기관 검색",
-    "MM": "စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာရမှု ဆေးကုသရေးဌာနကို ရှာဖွေခြင်း",
-    "VN": "Tìm kiếm cơ sở y tế điều trị tai nạn lao động",
-    "ID": "Pencarian fasilitas kesehatan kecelakaan kerja",
-    "EN": "Search workers' compensation medical institutions",
-    "NP": "औद्योगिक दुर्घटना चिकित्सा संस्थाहरूको खोजी",
-    "TH": "ค้นหาสถานพยาบาลสำหรับอุบัติเหตุจากการทำงาน",
-    "RU": "Найти больницу по трудовым травмам"
+  "KO": "산재 의료기관 검색",
+  "MM": "အာမခံ ဆေးရုံ ရှာဖွေပါ",
+  "VN": "Tìm cơ sở y tế bảo hiểm",
+  "ID": "Cari fasilitas medis",
+  "EN": "Find medical institutions",
+  "NP": "चिकित्सा संस्था खोज्नुहोस्",
+  "TH": "ค้นหาสถานพยาบาล",
+  "RU": "Поиск медучреждений"
   },
   "mainFindHospital": {
     "KO": "근로복지공단 지정 병원 찾기",
@@ -130,14 +130,14 @@
     "RU": "Выберите нужный пункт ниже."
   },
   "guideInfo": {
-    "KO": "산업재해 정보 가이드",
-    "MM": "လုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာရမှုဆိုင်ရာ အချက်အလက်လမ်းညွှန်",
-    "VN": "Hướng dẫn thông tin về tai nạn lao động",
-    "ID": "Panduan Informasi Kecelakaan Kerja",
-    "EN": "Industrial Accident Information Guide",
-    "NP": "औद्योगिक दुर्घटना जानकारी गाइड",
-    "TH": "คู่มือข้อมูลอุบัติเหตุจากการทำงาน",
-    "RU": "Справочник по промышленным несчастным случаям"
+  "KO": "산업재해 정보 가이드",
+  "MM": "အာမခံ အချက်အလက် လမ်းညွှန်",
+  "VN": "Hướng dẫn thông tin bảo hiểm",
+  "ID": "Panduan informasi asuransi",
+  "EN": "Insurance Info Guide",
+  "NP": "बीमा जानकारी मार्गदर्शन",
+  "TH": "คู่มือข้อมูลประกันภัย",
+  "RU": "Путеводитель по страхованию"
   },
   "guideIntroduce": {
     "KO": "산업재해 보험 소개",
@@ -160,14 +160,14 @@
     "RU": "Введение в страхование от несчастных случаев на производстве"
   },
   "guidePractice": {
-    "KO": "최초 요양 급여 신청서 연습",
-    "MM": "ပထမဆုံး ဆေးကုသမှုအကျိုးခံစားခွင့် လျှောက်လွှာတင်ခြင်းကို လေ့ကျင့်ပါ။",
-    "VN": "Thực hành điền đơn xin trợ cấp điều trị ban đầu",
-    "ID": "Latihan Mengisi Formulir Permohonan Tunjangan Perawatan Awal",
-    "EN": "Practice Initial Medical Treatment Benefit Application",
-    "NP": "पहिलो चिकित्सा हेरचाह लाभ आवेदनको लागि अभ्यास",
-    "TH": "ฝึกฝนการยื่นขอรับผลประโยชน์ค่ารักษาพยาบาลครั้งแรก",
-    "RU": "Заполнение заявления на первичное лечение"
+  "KO": "최초 요양 급여 신청서 연습",
+  "MM": "ပထမဆုံး ဆေးကုသမှု လျှောက်လွှာ လေ့ကျင့်ပါ။",
+  "VN": "Thực hành điền đơn trợ cấp điều trị đầu",
+  "ID": "Latihan isi formulir tunjangan awal",
+  "EN": "Practice Initial Treatment Application",
+  "NP": "पहिलो उपचार लाभ आवेदन अभ्यास",
+  "TH": "ฝึกยื่นคำขอผลประโยชน์รักษาครั้งแรก",
+  "RU": "Практика заполнения заявки"
   },
   "guidePreview": {
     "KO": "신청서에 들어가는 내용 미리 알아보기",
@@ -200,34 +200,34 @@
     "RU": "Узнайте в целом!"
   },
   "infoInsurance": {
-    "KO": "산업재해 보험 안내",
-    "MM": "စက်မှုလုပ်ငန်းခွင် မတော်တဆထိခိုက်မှု အာမခံ လမ်းညွှန်",
-    "VN": "Hướng dẫn bảo hiểm tai nạn lao động",
-    "ID": "Panduan Asuransi Kecelakaan Kerja",
-    "EN": "Workers' Compensation Insurance Guide",
-    "NP": "औद्योगिक दुर्घटना बीमा जानकारी",
-    "TH": "ข้อมูลประกันอุบัติเหตุทางอุตสาหกรรม",
-    "RU": "Руководство по страхованию от несчастных случаев на производстве"
+  "KO": "산업재해 보험 안내",
+  "MM": "အာမခံ လမ်းညွှန်",
+  "VN": "Hướng dẫn bảo hiểm",
+  "ID": "Panduan asuransi",
+  "EN": "Insurance Guide",
+  "NP": "बीमा जानकारी",
+  "TH": "ข้อมูลประกันภัย",
+  "RU": "Пособие по страхованию"
   },
   "infoExplain": {
-    "KO": "보험의 정의, 적용대상, 대상에 대해서 설명합니다",
-    "MM": "အာမခံ၏ အဓိပ္ပာယ်ဖွင့်ဆိုချက်၊ အကျုံးဝင်မှုနှင့် အရည်အချင်းပြည့်မီမှုတို့ကို ရှင်းပြထားသည်။",
-    "VN": "Giải thích về định nghĩa, đối tượng áp dụng và đối tượng của bảo hiểm",
-    "ID": "Penjelasan tentang definisi, cakupan, dan sasaran asuransi",
-    "EN": "Explains the definition, coverage scope, and beneficiaries of the insurance",
-    "NP": "बीमाको परिभाषा, दायरा, र योग्यताको व्याख्या गर्दछ।",
-    "TH": "อธิบายคำจำกัดความ ขอบเขต และคุณสมบัติของการประกันภัย",
-    "RU": "Объясняет определение, сферу покрытия и бенефициаров страхования"
+  "KO": "보험의 정의, 적용대상, 대상에 대해서 설명합니다",
+  "MM": "အာမခံ အဓိပ္ပါယ်နှင့် အကျုံးဝင်သူများ",
+  "VN": "Giải thích định nghĩa và phạm vi bảo hiểm",
+  "ID": "Definisi dan cakupan asuransi",
+  "EN": "Definition and coverage of insurance",
+  "NP": "बीमा परिभाषा र दायरा",
+  "TH": "คำจำกัดความและขอบเขตของประกันภัย",
+  "RU": "Определение и покрытие страхования"
   },
   "infoStep": {
-    "KO": "산업재해 보험 보상 절차",
-    "MM": "စက်မှုလုပ်ငန်းခွင် မတော်တဆထိခိုက်မှု အာမခံ လျော်ကြေးလုပ်ငန်းစဉ်",
-    "VN": "Thủ tục bồi thường bảo hiểm tai nạn lao động",
-    "ID": "Prosedur Klaim Asuransi Kecelakaan Kerja",
-    "EN": "Workers' Compensation Insurance Compensation Procedure",
-    "NP": "औद्योगिक दुर्घटना बीमा क्षतिपूर्ति प्रक्रिया",
-    "TH": "ขั้นตอนการชดเชยค่าสินไหมทดแทนประกันอุบัติเหตุทางอุตสาหกรรม",
-    "RU": "Процедура выплаты страхового возмещения по страхованию от несчастных случаев на производстве"
+  "KO": "산업재해 보험 보상 절차",
+  "MM": "အာမခံ လျော်ကြေး လုပ်ငန်းစဉ်",
+  "VN": "Quy trình bồi thường bảo hiểm",
+  "ID": "Prosedur klaim asuransi kerja",
+  "EN": "Insurance Claim Process",
+  "NP": "बीमा दाबी प्रक्रिया",
+  "TH": "ขั้นตอนการเคลมประกัน",
+  "RU": "Процедура страховой выплаты"
   },
   "infoReward": {
     "KO": "보험의 보상절차에 대해 설명합니다",
@@ -240,14 +240,14 @@
     "RU": "Объясняет процесс выплаты страхового возмещения"
   },
   "infoWage": {
-    "KO": "산업재해 보험 급여 안내",
-    "MM": "စက်မှုလုပ်ငန်းခွင် မတော်တဆထိခိုက်မှု အာမခံ အကျိုးခံစားခွင့် လမ်းညွှန်",
-    "VN": "Hướng dẫn trợ cấp bảo hiểm tai nạn lao động",
-    "ID": "Panduan Manfaat Asuransi Kecelakaan Kerja",
-    "EN": "Workers' Compensation Insurance Benefits Guide",
-    "NP": "औद्योगिक दुर्घटना बीमा लाभको लागि गाइड",
-    "TH": "คู่มือผลประโยชน์ประกันอุบัติเหตุทางอุตสาหกรรม",
-    "RU": "Руководство по выплатам по страхованию от несчастных случаев на производстве"
+  "KO": "산업재해 보험 급여 안내",
+  "MM": "အာမခံ အကျိုးခံစားခွင့် လမ်းညွှန်",
+  "VN": "Hướng dẫn trợ cấp bảo hiểm",
+  "ID": "Panduan manfaat asuransi",
+  "EN": "Insurance Benefits Guide",
+  "NP": "बीमा लाभ मार्गदर्शन",
+  "TH": "คู่มือสิทธิประโยชน์ประกัน",
+  "RU": "Пособия по страхованию"
   },
   "infoKindOfWage": {
     "KO": "보험의 급여 종류에 대해 설명합니다",
@@ -260,24 +260,24 @@
     "RU": "Объясняет виды страховых выплат"
   },
   "infoDic": {
-    "KO": "산업재해 관련 용어 사전",
-    "MM": "စက်မှုလုပ်ငန်းခွင် မတော်တဆထိခိုက်မှုဆိုင်ရာ ဝေါဟာရအဘိဓာန်",
-    "VN": "Từ điển thuật ngữ liên quan đến tai nạn lao động",
-    "ID": "Kamus Istilah Kecelakaan Kerja",
-    "EN": "Workers' Compensation Terminology Glossary",
-    "NP": "औद्योगिक दुर्घटना-सम्बन्धित सर्तहरूको शब्दावली",
-    "TH": "อภิธานศัพท์เกี่ยวกับอุบัติเหตุทางอุตสาหกรรม",
-    "RU": "Глоссарий терминов по несчастным случаям на производстве"
+  "KO": "산업재해 관련 용어 사전",
+  "MM": "အာမခံ ဝေါဟာရ အဘိဓာန်",
+  "VN": "Từ điển thuật ngữ bảo hiểm",
+  "ID": "Kamus istilah asuransi",
+  "EN": "Insurance Terms Glossary",
+  "NP": "बीमा शब्दकोश",
+  "TH": "อภิธานศัพท์ประกันภัย",
+  "RU": "Словарь страховых терминов"
   },
   "infoDicintro": {
-    "KO": "산업재해와 관련된 용어를 소개합니다",
-    "MM": "စက်မှုလုပ်ငန်းခွင် မတော်တဆထိခိုက်မှုနှင့်သက်ဆိုင်သော ဝေါဟာရများကို မိတ်ဆက်ပေးသည်။",
-    "VN": "Giới thiệu các thuật ngữ liên quan đến tai nạn lao động",
-    "ID": "Pengantar istilah-istilah terkait kecelakaan kerja",
-    "EN": "Introduces terms related to industrial accidents",
-    "NP": "औद्योगिक दुर्घटनासँग सम्बन्धित सर्तहरू प्रस्तुत गर्दछ।",
-    "TH": "แนะนำคำศัพท์ที่เกี่ยวข้องกับอุบัติเหตุทางอุตสาหกรรม",
-    "RU": "Представляет термины, связанные с несчастными случаями на производстве"
+  "KO": "산업재해와 관련된 용어를 소개합니다",
+  "MM": "အာမခံ ဝေါဟာရ မိတ်ဆက်",
+  "VN": "Giới thiệu thuật ngữ bảo hiểm",
+  "ID": "Perkenalan istilah asuransi",
+  "EN": "Intro to insurance terms",
+  "NP": "बीमा सर्त परिचय",
+  "TH": "แนะนำคำศัพท์ประกันภัย",
+  "RU": "Введение в страховые термины"
   },
     "practiceGuide1": {
     "KO": "최초 요양 급여 신청서",

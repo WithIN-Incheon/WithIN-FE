@@ -33,7 +33,7 @@ function toLines(input: unknown): string[] {
 export default function InfoCompPage() {
   return (
     <div className="comp-page">
-      <Header title="산업재해 정보 안내" />
+      <Header title={"산업재해 정보 안내"} />
 
       <main className="comp-content">
         <div className="comp-title-wrap">

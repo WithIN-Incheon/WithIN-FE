@@ -10,7 +10,7 @@ export default function GuidePage() {
   const { t } = useLocalization();
   return (
     <div className="guide-page">
-      <Header title="산재 신청 가이드" />
+      <Header title={t('mainIndustry')} />
 
       <main className="guide-content">
         <div className="guide-photo-group">
