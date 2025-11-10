@@ -140,7 +140,7 @@ body {
 /* Content 영역 */
 .content {
   position: absolute;
-  top: 200px;
+  top: 240px;
   left: 0;
   right: 0;
   bottom: 50px; /* BottomBar 높이 고려 */
