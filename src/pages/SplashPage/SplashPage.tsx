@@ -1,16 +1,18 @@
 import React, { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './SplashPage.css';
 
 const SplashPage: React.FC = () => {
+  const navigate = useNavigate();
+
   useEffect(() => {
-    // 3초 후 자동으로 다음 페이지로 이동 (예시)
+    // 3초 후 자동으로 /lang 페이지로 이동
     const timer = setTimeout(() => {
-      // 여기에 다음 페이지로 이동하는 로직 추가
-      console.log('Splash screen completed');
-    }, 3000);
+      navigate('/lang');
+    }, 3500);
 
     return () => clearTimeout(timer);
-  }, []);
+  }, [navigate]);
 
   return (
     <div className="splash-container">
@@ -18,9 +20,13 @@ const SplashPage: React.FC = () => {
         <img 
           src="/Logo-splash.svg" 
           alt="Logo" 
-          className="logo-image"
+          className="logo-image floating-logo"
         />
       </div>
+      <p className="splash-text">
+        인천 외국인 근로자를 위한<br />
+        맞춤형 산재보험 정보
+      </p>
     </div>
   );
 };
