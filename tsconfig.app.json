@@ -27,5 +27,5 @@
     "types": ["vite/client", "navermaps"],
     "typeRoots": ["./types", "./node_modules/@types"]
   },
-  "include": ["src", "non-used/HelpPage", "non-used/FavoritePage", "non-used/MyPage", "non-used/SearchPage", "non-used/BookmarkPage", "non-used/LocationPage.tsx", "non-used/InfoTipPage", "non-used/LoginPage", "non-used/SignupPage", "non-used/TermsPage", "non-used/SplashPage"]
+  "include": ["src", "non-used/HelpPage", "non-used/FavoritePage", "non-used/MyPage", "non-used/SearchPage", "non-used/BookmarkPage", "non-used/LocationPage.tsx", "non-used/InfoTipPage", "non-used/LoginPage", "non-used/SignupPage", "non-used/TermsPage", "src/pages/SplashPage"]
 }

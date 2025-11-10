@@ -19,6 +19,9 @@ import MedicareGuideFlow from "./pages/Medi-carePage/MedicareGuideFlow";
 import LangPage from "./pages/LangPage/LangPage";
 import MediAddress1 from "./pages/Medi-carePage/Medi-address-1";
 
+import CenterPage from "./pages/CenterPage/CenterPage";
+import SplashPage from "./pages/SplashPage/SplashPage";
+
 // import LocationPage from "./pages/LocationPage/LocationPage";
 // import SearchPage from "./pages/LocationPage/SearchPage/SearchPage";
 // import InfoTipPage from "./pages/InfoPage/InfoTipPage/InfoTipPage";
@@ -37,7 +40,8 @@ function App() {
       <LocalizationProvider>
       <FormDataProvider>
         <Routes>
-          <Route path="/" element={<LangPage />} />
+          <Route path="/" element={<SplashPage />} />
+          <Route path="/lang" element={<LangPage />} />
           <Route path="/home" element={<HomePage />} />
 
           <Route path="/cases" element={<CasePage />} />
@@ -56,6 +60,8 @@ function App() {
           <Route path="/medicare" element={<MedicarePage />} />
           <Route path="/medicare-guide-flow" element={<MedicareGuideFlow />} />
           <Route path="/medi-address-1" element={<MediAddress1 />} />
+
+          <Route path="/center" element={<CenterPage />} />
         </Routes>
       </FormDataProvider>
       </LocalizationProvider>

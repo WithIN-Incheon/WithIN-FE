@@ -1,33 +1,33 @@
-import { useState, useEffect } from "react";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "./BottomBar.css";
-
-type Tab = "home";
 
 export default function BottomBar() {
   const navigate = useNavigate();
-  const location = useLocation();
-
-  const getActiveTab = (): Tab => "home";
-
-  const [activeTab, setActiveTab] = useState<Tab>(getActiveTab());
-
-  useEffect(() => {
-    setActiveTab(getActiveTab());
-  }, [location]);
-
-  const handleClick = (tab: Tab, path: string) => {
-    setActiveTab(tab);
-    navigate(path);
-  };
 
   return (
     <nav className="bottom-bar" aria-label="primary">
+      {/* 왼쪽: 뒤로가기 버튼 */}
+      <img
+        className="icon-back"
+        src="/Home/Back_Btn.svg"
+        alt="뒤로가기"
+        onClick={() => navigate(-1)}
+      />
+
+      {/* 가운데: 홈 버튼 */}
       <img
         className="icon-home"
-        src={activeTab === "home" ? "/Home/Home_On.svg" : "/Home/Home_Off.svg"}
-        alt="home"
-        onClick={() => handleClick("home", "/home")}
+        src="/Home/Home_On.svg"
+        alt="홈"
+        onClick={() => navigate("/home")}
+      />
+
+      {/* 오른쪽: 센터 버튼 */}
+      <img
+        className="icon-center"
+        src="/Home/Center_Btn.svg"
+        alt="센터"
+        onClick={() => navigate("/center")}
       />
     </nav>
   );

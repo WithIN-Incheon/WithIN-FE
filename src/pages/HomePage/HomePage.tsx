@@ -75,7 +75,7 @@ export default function App() {
         className="global"
         src="/Home/language.svg"
         alt="언어번역"
-        onClick={() => navigate("/")}
+        onClick={() => navigate("/lang")}
       />
     </div>
   );
