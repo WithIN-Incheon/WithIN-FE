@@ -1,13 +1,23 @@
 {
-  "firstLang": {
-    "KO": "반가워요! 언어를 선택해주세요",
-    "MM": "မင်္ဂလာပါ ဘာသာစကား ရွေးချယ်ပါ။",
-    "VN": "Xin chào! Vui lòng chọn ngôn ngữ",
-    "ID": "Halo! Silakan pilih bahasa Anda",
-    "EN": "Hello! Please select your language",
-    "NP": "स्वागत छ! कृपया आफ्नो भाषा चयन गर्नुहोस्।",
-    "TH": "ยินดีต้อนรับ! กรุณาเลือกภาษาของคุณ",
-    "RU": "Здравствуйте! Выберите язык"
+  "firstLang1": {
+    "KO": "반가워요!",
+    "MM": "မင်္ဂလာပါ",
+    "VN": "Xin chào!",
+    "ID": "Halo!",
+    "EN": "Hello!",
+    "NP": "स्वागत छ!",
+    "TH": "ยินดีต้อนรับ!",
+    "RU": "Здравствуйте!"
+  },
+  "firstLang2": {
+    "KO": "언어를 선택해주세요",
+    "MM": "ဘာသာစကား ရွေးချယ်ပါ။",
+    "VN": "Vui lòng chọn ngôn ngữ",
+    "ID": "Silakan pilih bahasa Anda",
+    "EN": "Please select your language",
+    "NP": "कृपया आफ्नो भाषा चयन गर्नुहोस्।",
+    "TH": "กรุณาเลือกภาษาของคุณ",
+    "RU": "Выберите язык"
   },
   "firstButton": {
     "KO": "시작하기",
@@ -50,14 +60,14 @@
     "RU": "терпеливо помогая рядом"
   },
   "mainIndustry": {
-    "KO": "산업재해 보험 가이드",
-    "MM": "စက်မှုလုပ်ငန်းခွင် မတော်တဆထိခိုက်မှု အာမခံ လမ်းညွှန်",
-    "VN": "Hướng dẫn bảo hiểm tai nạn lao động",
-    "ID": "Panduan Asuransi Kecelakaan Kerja",
-    "EN": "Work Injury Insurance Guide",
-    "NP": "औद्योगिक दुर्घटना बीमा गाइड",
-    "TH": "คู่มือประกันอุบัติเหตุทางอุตสาหกรรม",
-    "RU": "Гид по страхованию от трудовых травм"
+  "KO": "산업재해 보험 가이드",
+  "MM": "လုပ်ငန်းခွင် ထိခိုက်မှု အာမခံ လမ်းညွှန်",
+  "VN": "Hướng dẫn bảo hiểm tai nạn lao động",
+  "ID": "Panduan asuransi kecelakaan kerja",
+  "EN": "Work Accident Insurance Guide",
+  "NP": "औद्योगिक दुर्घटना बीमा मार्गदर्शन",
+  "TH": "คู่มือประกันอุบัติเหตุจากการทำงาน",
+  "RU": "Гид по страхованию от травм"
   },
   "mainLookup": {
     "KO": "산업재해 보험 자세히 알아보기",
@@ -310,14 +320,14 @@
     "RU": "Заполнение заявления на первичное лечение"
   },
   "practiceExplain": {
-    "KO": "이 기능은 산업재해 보상보험 신청을 하기 전 최초요양급여신청서 작성 연습을 할 수 있는 기능입니다.",
-    "MM": "ဤလုပ်ဆောင်ချက်သည် စက်မှုလုပ်ငန်းခွင် မတော်တဆထိခိုက်မှုအတွက် လျော်ကြေးအာမခံကို မလျှောက်ထားမီ ပထမဆုံးသော ဆေးကုသမှုအကျိုးခံစားခွင့်များအတွက် လျှောက်လွှာရေးခြင်းကို လေ့ကျင့်နိုင်သည့် လုပ်ဆောင်ချက်တစ်ခုဖြစ်သည်။",
-    "VN": "Chức năng này cho phép bạn thực hành lập đơn xin trợ cấp điều trị ban đầu trước khi nộp đơn xin bảo hiểm tai nạn lao động.",
-    "ID": "Fungsi ini memungkinkan Anda berlatih mengisi formulir permohonan tunjangan perawatan awal sebelum mengajukan klaim asuransi kecelakaan kerja.",
-    "EN": "This feature allows you to practice filling out the Initial Medical Treatment Benefit Application Form before applying for workers' compensation insurance.",
-    "NP": "यो सुविधाले तपाईंलाई औद्योगिक दुर्घटना क्षतिपूर्ति बीमाको लागि आवेदन गर्नु अघि पहिलो चिकित्सा हेरचाह लाभ आवेदन भर्ने अभ्यास गर्न अनुमति दिन्छ।",
-    "TH": "ฟังก์ชันนี้ช่วยให้คุณสามารถฝึกกรอกใบสมัครขอรับผลประโยชน์ค่ารักษาพยาบาลครั้งแรกก่อนที่จะยื่นขอประกันค่าทดแทนอุบัติเหตุจากการทำงาน",
-    "RU": "Эта функция позволяет потренироваться в заполнении заявления на первичное лечение перед подачей на страховое возмещение."
+  "KO": "이 기능은 산업재해 보상보험 신청을 하기 전 최초요양급여신청서 작성 연습을 할 수 있는 기능입니다.",
+  "MM": "ဤအင်္ဂါရပ်ဖြင့် အာမခံ လျှောက်လွှာ မတင်မီ ဆေးကုသမှု လျှောက်လွှာ လေ့ကျင့်နိုင်သည်။",
+  "VN": "Chức năng này cho phép bạn thực hành lập đơn xin trợ cấp điều trị ban đầu trước khi nộp đơn xin bảo hiểm tai nạn lao động.",
+  "ID": "Fungsi ini memungkinkan Anda berlatih mengisi formulir perawatan awal sebelum klaim asuransi kerja.",
+  "EN": "This feature allows you to practice filling out the Initial Medical Treatment Benefit Application Form before applying for workers' compensation insurance.",
+  "NP": "यो सुविधाले तपाईंलाई औद्योगिक दुर्घटना क्षतिपूर्ति बीमाको लागि आवेदन गर्नु अघि पहिलो चिकित्सा हेरचाह लाभ आवेदन भर्ने अभ्यास गर्न अनुमति दिन्छ।",
+  "TH": "ฟังก์ชันนี้ช่วยให้คุณสามารถฝึกกรอกใบสมัครขอรับผลประโยชน์ค่ารักษาพยาบาลครั้งแรกก่อนที่จะยื่นขอประกันค่าทดแทนอุบัติเหตุจากการทำงาน",
+  "RU": "Эта функция позволяет потренироваться в заполнении заявления на первичное лечение перед подачей на страховое возмещение."
   },
   "practicePass": {
     "KO": "채우기 어려운 부분은 넘어가도 됩니다.",

@@ -22,8 +22,8 @@ const LangPage = () => {
       {/* 메인 콘텐츠 섹션 */}
       <div className="main-content">
         <div className="welcome-text">
-          <h1>반가워요!</h1>
-          <h1>언어를 선택해 주세요</h1>
+          <h1>{t('firstLang1')}</h1>
+          <h1>{t('firstLang2')}</h1>
         </div>
 
         <div className="language-section">
