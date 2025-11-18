@@ -66,7 +66,7 @@ function translateField(
   // <li>...</li> 추출
   const liMatches = [...str.matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi)].map((m) =>
     m[1]
-      .replace(/<br\s*\/?>/gi, "\n")
+      .replace(/<br\s*\/?>/gi, "")
       .replace(/<[^>]+>/g, "")
       .replace(/\s+/g, " ")
       .trim()
@@ -75,10 +75,10 @@ function translateField(
 
   // 줄바꿈/세미콜론 등으로 분리
   const cleaned = str
-    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<br\s*\/?>/gi, "")
     .replace(/<[^>]+>/g, "");
   const parts = cleaned
-    .split(/\r?\n|·|•|;|，|、/g)
+    .split(/\?|·|•|;|，|、/g)
     .map((part) => part.trim())
     .filter(Boolean);
   return parts.length ? parts : [cleaned.trim()];

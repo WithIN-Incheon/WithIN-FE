@@ -140,14 +140,14 @@
     "TH": "หลักฐานการเดินทางไปทำงาน: หลักฐานเชิงวัตถุ เช่น บันทึกการอนุมัติอุบัติเหตุทางอุตสาหกรรมของผู้โดยสาร และบันทึกการขนส่งรถพยาบาล ยืนยันการมาทำงานของคนงานหรือไม่"
   },
   "twentytwo_decision": {
-    "KO": "본 사고는 첫 출근 도중 발생한 것으로, 객관적 자료(전화 이력, 구급대 이송내역, 동승자 산재 승인) 등을 종합할 때 출근 중 사고임이 확인됨.\r\n따라서 통상의 출퇴근 재해에 해당하며 업무상 재해로 인정됨.\r\n원처분 불승인 처분은 취소됨.",
+    "KO": "본 사고는 첫 출근 도중 발생한 것으로, 객관적 자료(전화 이력, 구급대 이송내역, 동승자 산재 승인) 등을 종합할 때 출근 중 사고임이 확인됨.따라서 통상의 출퇴근 재해에 해당하며 업무상 재해로 인정됨.원처분 불승인 처분은 취소됨.",
     "EN": "This accident occurred during the first day of work. Based on comprehensive objective evidence (call history, ambulance transport records, co-passenger's approved workers' compensation claim), it was confirmed as a commuting accident.",
     "VN": "Tai nạn này xảy ra trong lần đi làm đầu tiên, và khi tổng hợp các tài liệu khách quan (lịch sử cuộc gọi, hồ sơ vận chuyển cấp cứu, hồ sơ chấp thuận tai nạn lao động của người đi cùng), có thể xác nhận đây là tai nạn trên đường đi làm.",
-    "ID": "Kecelakaan ini terjadi selama perjalanan kerja pertama, dan ketika mempertimbangkan bukti objektif seperti catatan telepon, catatan transportasi ambulans, dan persetujuan kompensasi pekerja penumpang, dikonfirmasi sebagai kecelakaan saat perjalanan kerja.\r\nOleh karena itu, hal ini sesuai dengan kecelakaan perjalanan kerja biasa dan diakui sebagai kecelakaan kerja.\r\nKeputusan penolakan awal dibatalkan.",
-    "RU": "Эта авария произошла во время первой поездки на работу, и при рассмотрении объективных доказательств, таких как телефонные записи, записи транспортировки скорой помощи и одобрение компенсации сопассажира, было подтверждено, что это авария по дороге на работу.\r\nПоэтому это соответствует обычным несчастным случаям по дороге на работу и признается несчастным случаем на производстве.\r\nПервоначальное решение об отказе отменено.",
+    "ID": "Kecelakaan ini terjadi selama perjalanan kerja pertama, dan ketika mempertimbangkan bukti objektif seperti catatan telepon, catatan transportasi ambulans, dan persetujuan kompensasi pekerja penumpang, dikonfirmasi sebagai kecelakaan saat perjalanan kerja.Oleh karena itu, hal ini sesuai dengan kecelakaan perjalanan kerja biasa dan diakui sebagai kecelakaan kerja.Keputusan penolakan awal dibatalkan.",
+    "RU": "Эта авария произошла во время первой поездки на работу, и при рассмотрении объективных доказательств, таких как телефонные записи, записи транспортировки скорой помощи и одобрение компенсации сопассажира, было подтверждено, что это авария по дороге на работу.Поэтому это соответствует обычным несчастным случаям по дороге на работу и признается несчастным случаем на производстве.Первоначальное решение об отказе отменено.",
     "MM": "အဓိကပြဿနာများ",
     "NP": "समीक्षा समितिले कामदारको कामको पहिलो दिन भए पनि कामदारको यात्राको क्रममा दुर्घटना भएको स्वीकार गर्‍यो र मूल निर्णयलाई उल्ट्यायो।",
-    "TH": "อุบัติเหตุนี้เกิดขึ้นระหว่างการเดินทางไปทำงานครั้งแรก และเมื่อพิจารณาหลักฐานเชิงวัตถุประสงค์เช่นบันทึกโทรศัพท์ บันทึกการขนส่งรถพยาบาล และการอนุมัติค่าทดแทนของผู้โดยสารร่วม ยืนยันว่าเป็นอุบัติเหตุระหว่างการเดินทางไปทำงาน\r\nดังนั้นจึงสอดคล้องกับอุบัติเหตุระหว่างการเดินทางทั่วไปและได้รับการยอมรับว่าเป็นอุบัติเหตุจากการทำงาน\r\nการตัดสินใจปฏิเสธเดิมถูกยกเลิก"
+    "TH": "อุบัติเหตุนี้เกิดขึ้นระหว่างการเดินทางไปทำงานครั้งแรก และเมื่อพิจารณาหลักฐานเชิงวัตถุประสงค์เช่นบันทึกโทรศัพท์ บันทึกการขนส่งรถพยาบาล และการอนุมัติค่าทดแทนของผู้โดยสารร่วม ยืนยันว่าเป็นอุบัติเหตุระหว่างการเดินทางไปทำงานดังนั้นจึงสอดคล้องกับอุบัติเหตุระหว่างการเดินทางทั่วไปและได้รับการยอมรับว่าเป็นอุบัติเหตุจากการทำงานการตัดสินใจปฏิเสธเดิมถูกยกเลิก"
   },
   "twentytwo_laws0": {
     "KO": "산재보험법 제5조 (정의)",
@@ -330,13 +330,13 @@
     "TH": "สรุปคำตัดสิน"
   },
   "twentythree_decision": {
-    "KO": "산재보험법 제37조 제1항 제3호 나목의 “통상적인 경로”는 반드시 최단거리·최단시간일 필요 없음.\r\n안전 및 교통사정을 고려한 사회통념상 합리적 경로도 포함됨.\r\n따라서 청구인의 퇴근 경로는 통상적인 경로에 해당하므로 출퇴근 재해로 인정.\r\n원처분 불승인 처분은 취소됨.",
+    "KO": "산재보험법 제37조 제1항 제3호 나목의 “통상적인 경로”는 반드시 최단거리·최단시간일 필요 없음.안전 및 교통사정을 고려한 사회통념상 합리적 경로도 포함됨.따라서 청구인의 퇴근 경로는 통상적인 경로에 해당하므로 출퇴근 재해로 인정.원처분 불승인 처분은 취소됨.",
     "EN": "It also includes routes that are reasonable based on social norms, taking into account safety and traffic conditions.",
     "VN": "Điều này cũng bao gồm các tuyến đường hợp lý dựa trên các chuẩn mực xã hội, có tính đến điều kiện an toàn và giao thông.",
     "ID": "Rute ini juga mencakup rute yang wajar berdasarkan norma sosial, dengan mempertimbangkan keselamatan dan kondisi lalu lintas.",
     "RU": "Соответствующие законы",
     "MM": "၎င်းတွင် ဘေးကင်းရေးနှင့် ယာဉ်ကြောပိတ်ဆို့မှု အခြေအနေများကို ထည့်သွင်းစဉ်းစားကာ လူမှုရေးစံနှုန်းများအပေါ် အခြေခံ၍ ကျိုးကြောင်းဆီလျော်သော လမ်းကြောင်းများလည်း ပါဝင်သည်။",
-    "NP": "औद्योगिक दुर्घटना बीमा ऐन धारा ३७ अनुच्छेद १ बुँदा ३ (ना) को \"सामान्य मार्ग\" सबैभन्दा छोटो दूरी वा समय हुनु आवश्यक छैन।\r\nसुरक्षा र यातायात अवस्थालाई विचार गर्दा सामाजिक धारणामा उचित मार्ग पनि समावेश छ।\r\nतसर्थ, निवेदकको घर फर्कने मार्ग सामान्य मार्गसँग मेल खान्छ र यात्रा दुर्घटनाको रूपमा मान्यता दिइएको छ।\r\nमूल अस्वीकृति निर्णय रद्द गरियो।",
+    "NP": "औद्योगिक दुर्घटना बीमा ऐन धारा ३७ अनुच्छेद १ बुँदा ३ (ना) को \"सामान्य मार्ग\" सबैभन्दा छोटो दूरी वा समय हुनु आवश्यक छैन।सुरक्षा र यातायात अवस्थालाई विचार गर्दा सामाजिक धारणामा उचित मार्ग पनि समावेश छ।तसर्थ, निवेदकको घर फर्कने मार्ग सामान्य मार्गसँग मेल खान्छ र यात्रा दुर्घटनाको रूपमा मान्यता दिइएको छ।मूल अस्वीकृति निर्णय रद्द गरियो।",
     "TH": "นอกจากนี้ยังรวมถึงเส้นทางที่สมเหตุสมผลตามบรรทัดฐานทางสังคม โดยคำนึงถึงความปลอดภัยและสภาพการจราจร"
   },
   "twentythree_laws0": {
@@ -480,7 +480,7 @@
     "TH": "ได้รับการยืนยันว่าเขากำลังคุยโทรศัพท์กับนายจ้างเกี่ยวกับผู้ป่วยทันทีก่อนเกิดอุบัติเหตุ"
   },
   "twentyfour_facts3": {
-    "KO": "원처분기관은 무단 조기퇴근 과정에서의 사고라며 불승인했으나,\r\n심사위는 업무 관련성이 인정되는 사고로 판단해 출퇴근재해로 승인, 원처분을 취소함.",
+    "KO": "원처분기관은 무단 조기퇴근 과정에서의 사고라며 불승인했으나,심사위는 업무 관련성이 인정되는 사고로 판단해 출퇴근재해로 승인, 원처분을 취소함.",
     "EN": "The accident occurred within the workplace, during a work-related instruction and phone call. The original agency denied the claim, stating that the accident occurred during an unauthorized early departure from work. However, the review committee determined that the accident was work-related and approved it as a commuting accident, reversing the original decision.",
     "VN": "Tai nạn xảy ra tại nơi làm việc, trong một buổi hướng dẫn công việc và một cuộc gọi điện thoại. Cơ quan ban đầu đã bác bỏ khiếu nại, nói rằng tai nạn xảy ra trong một lần rời khỏi nơi làm việc sớm trái phép. Tuy nhiên, ủy ban đánh giá đã xác định rằng tai nạn liên quan đến công việc và phê duyệt nó là một tai nạn đi lại, đảo ngược quyết định ban đầu.",
     "ID": "Kecelakaan terjadi di tempat kerja, saat instruksi terkait pekerjaan dan panggilan telepon. Agensi awal membantah klaim tersebut, dengan menyatakan bahwa kecelakaan terjadi saat keberangkatan awal yang tidak sah dari tempat kerja. Namun, komite peninjau menetapkan bahwa kecelakaan tersebut terkait pekerjaan dan menyetujuinya sebagai kecelakaan perjalanan, sehingga membatalkan keputusan awal.",
@@ -510,7 +510,7 @@
     "TH": "สรุปคำตัดสิน"
   },
   "twentyfour_decision": {
-    "KO": "근로계약상 퇴근시간 전 사고였으나, 사고 당시 상황은 업무수행과 직접적으로 연결되어 있었음.\r\n단순 무단퇴근 과정이 아닌, 업무 관련 지시 및 통화 상황에서 발생한 사고로 인정.\r\n따라서 본 사건은 업무상 재해로 인정되며, 원처분 불승인 결정은 취소됨.",
+    "KO": "근로계약상 퇴근시간 전 사고였으나, 사고 당시 상황은 업무수행과 직접적으로 연결되어 있었음.단순 무단퇴근 과정이 아닌, 업무 관련 지시 및 통화 상황에서 발생한 사고로 인정.따라서 본 사건은 업무상 재해로 인정되며, 원처분 불승인 결정은 취소됨.",
     "EN": "The accident was recognized as occurring during a work-related instruction and phone call, not simply during an unauthorized departure from work.",
     "VN": "Tai nạn được xác định là xảy ra trong một buổi hướng dẫn công việc và một cuộc gọi điện thoại, chứ không chỉ đơn giản là trong một lần rời khỏi nơi làm việc trái phép.",
     "ID": "Oleh karena itu, kasus ini diakui sebagai kecelakaan kerja, dan keputusan awal untuk menolak klaim dibatalkan. Peraturan Perundang-undangan Terkait",
@@ -670,8 +670,8 @@
     "TH": "หน่วยงานจัดการทรัพย์สินเดิมปฏิเสธข้อเรียกร้อง โดยระบุว่า \"เนื่องจากเธอออกจากสถานที่ทำงานก่อนเวลาปิดทำการ (18.00 น.) ตามที่ระบุไว้ในสัญญาจ้างงาน จึงไม่ถือเป็นอุบัติเหตุจากการทำงาน\""
   },
   "twentyfive_facts3": {
-    "KO": "원처분기관은 “근로계약상 퇴근시간(18:00) 이전에 사업장을 이탈하였으므로 업무상 재해에 해당하지 않는다”며 불승인.\r\n그러나 청구인과 사업장의 확인에 따르면 평소에도 동일하게 17:50경 퇴근 서명을 하고 귀가했으며, 관리소장 역시 이를 인정.",
-    "EN": "The original agency disapproved, stating \"It does not constitute an occupational accident because the worker left the workplace before the contractual end time (18:00).\"\r\nHowever, according to the confirmation of the claimant and the workplace, they usually signed out at around 17:50 and went home, which was also acknowledged by the manager.",
+    "KO": "원처분기관은 “근로계약상 퇴근시간(18:00) 이전에 사업장을 이탈하였으므로 업무상 재해에 해당하지 않는다”며 불승인.그러나 청구인과 사업장의 확인에 따르면 평소에도 동일하게 17:50경 퇴근 서명을 하고 귀가했으며, 관리소장 역시 이를 인정.",
+    "EN": "The original agency disapproved, stating \"It does not constitute an occupational accident because the worker left the workplace before the contractual end time (18:00).\"However, according to the confirmation of the claimant and the workplace, they usually signed out at around 17:50 and went home, which was also acknowledged by the manager.",
     "VN": "Vụ tai nạn xảy ra trên đường trước Rừng Giải trí Tự nhiên ○○, một phần đường đi làm về của cô ấy.",
     "ID": "Namun, konfirmasi dari penggugat dan tempat kerjanya mengungkapkan bahwa ia secara rutin keluar kerja sekitar pukul 17.50 dan kembali ke rumah, dan manajer kantor manajemen juga mengakui hal ini.",
     "RU": "Однако подтверждение от истца и работодателя показало, что она регулярно увольнялась около 17:50 и возвращалась домой, и менеджер офиса также подтвердил это.",
@@ -710,7 +710,7 @@
     "TH": "เกณฑ์สำคัญคือ อุบัติเหตุเกิดขึ้นระหว่างเส้นทางปกติไปกลับที่ทำงานหรือไม่"
   },
   "twentyfive_decision": {
-    "KO": "청구인은 평소와 같이 사업장에서 업무를 수행하고, 통상적인 퇴근 경로상에서 교통사고를 당한 사실이 확인됨.\r\n따라서 본 건 사고는 산재보험법 제37조 및 동법 시행령 제35조에 따른 출퇴근 중 재해로 인정됨.\r\n원처분인 최초요양 불승인 처분은 취소.",
+    "KO": "청구인은 평소와 같이 사업장에서 업무를 수행하고, 통상적인 퇴근 경로상에서 교통사고를 당한 사실이 확인됨.따라서 본 건 사고는 산재보험법 제37조 및 동법 시행령 제35조에 따른 출퇴근 중 재해로 인정됨.원처분인 최초요양 불승인 처분은 취소.",
     "EN": "The claimant was performing his duties at the workplace as usual and was involved in a traffic accident on his usual route home from work.",
     "VN": "Liệu người yêu cầu bồi thường có rời khỏi nơi làm việc trước giờ đóng cửa theo quy định trong hợp đồng lao động hay không: Vấn đề chính là liệu đây có phải là quy trình thông thường để rời khỏi nơi làm việc hay không.",
     "ID": "Keputusan awal, yaitu penolakan perawatan medis, dibatalkan. Peraturan Perundang-Undangan Terkait",
@@ -910,7 +910,7 @@
     "TH": "สรุปคำตัดสิน"
   },
   "twentysix_decision": {
-    "KO": "청구인은 상사의 지시에 따라 불가피하게 회식에 참석한 후 귀가 중 발생한 사고임이 확인됨.\r\n따라서 본 건은 산재보험법 제37조 및 시행령 제35조에 따른 출퇴근 중 재해로 인정되며, 최초 불승인 처분은 취소됨.",
+    "KO": "청구인은 상사의 지시에 따라 불가피하게 회식에 참석한 후 귀가 중 발생한 사고임이 확인됨.따라서 본 건은 산재보험법 제37조 및 시행령 제35조에 따른 출퇴근 중 재해로 인정되며, 최초 불승인 처분은 취소됨.",
     "EN": "Therefore, this case is recognized as a commuter accident under Article 37 of the Industrial Accident Compensation Insurance Act and Article 35 of the Enforcement Decree, and the initial disapproval was overturned. Relevant Laws",
     "VN": "Điều 5 (Định nghĩa) Khoản 1 của Luật Bảo hiểm Bồi thường Tai nạn Lao động",
     "ID": "Pasal 37 (Standar Pengakuan Kecelakaan Kerja)",
@@ -1290,7 +1290,7 @@
     "TH": "ความเกี่ยวข้องกับงาน: ความจำเป็นในการบริหารจัดการแรงงานได้รับการยอมรับว่าเป็นกิจกรรมอย่างเป็นทางการของบริษัท ไม่ใช่งานสังสรรค์ และเป็นที่ยอมรับในสังคม"
   },
   "twentyeight_decision": {
-    "KO": "산업재해보상보험심사위원회는 본 사건을 사업주의 승인·지시에 따라 개최된 행사 중 발생한 사고로 인정.\r\n행사 준비와 비용은 회사가 전액 부담, 전 직원이 참여한 공식 행사로 확인됨.\r\n따라서 청구인의 재해는 업무상 재해로 판단되며 최초요양 불승인 처분은 취소됨.",
+    "KO": "산업재해보상보험심사위원회는 본 사건을 사업주의 승인·지시에 따라 개최된 행사 중 발생한 사고로 인정.행사 준비와 비용은 회사가 전액 부담, 전 직원이 참여한 공식 행사로 확인됨.따라서 청구인의 재해는 업무상 재해로 판단되며 최초요양 불승인 처분은 취소됨.",
     "EN": "The Industrial Accident Compensation Insurance Review Committee determined that this incident occurred during an event held with the employer's approval and direction.",
     "VN": "Ủy ban Xem xét Bảo hiểm Bồi thường Tai nạn Lao động xác định rằng sự cố này xảy ra trong một sự kiện được tổ chức với sự chấp thuận và chỉ đạo của người sử dụng lao động.",
     "ID": "Perusahaan menanggung semua persiapan dan biaya untuk acara tersebut, dan dipastikan bahwa semua karyawan berpartisipasi dalam acara resmi.",
