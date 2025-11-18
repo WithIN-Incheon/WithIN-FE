@@ -1,0 +1,1482 @@
+{
+  "event_title": {
+    "KO": "사건 제목",
+    "EN": "Case Title",
+    "VN": "Tên vụ việc",
+    "ID": "Judul Insiden",
+    "RU": "Название дела",
+    "MM": "အမှုခေါင်းစဉ်",
+    "NP": "घटनाको शीर्षक",
+    "TH": "ชื่อกรณี"
+  },
+  "event_summary": {
+    "KO": "사건 개요",
+    "EN": "Case Summary",
+    "VN": "Tóm tắt vụ việc",
+    "ID": "Ringkasan Insiden",
+    "RU": "Краткое изложение дела",
+    "MM": "အမှုအကျဉ်းချုပ်",
+    "NP": "घटनाको सारांश",
+    "TH": "สรุปเหตุการณ์"
+  },
+  "event_situation": {
+    "KO": "사고 발생 경위",
+    "EN": "Circumstances of the Accident",
+    "VN": "Tình tiết vụ tai nạn",
+    "ID": "Kronologi Kecelakaan",
+    "RU": "Обстоятельства несчастного случая",
+    "MM": "မတော်တဆမှုဖြစ်ပွားပုံ",
+    "NP": "दुर्घटनाको विवरण",
+    "TH": "รายละเอียดของอุบัติเหตุ"
+  },
+  "event_facts": {
+    "KO": "사실관계 및 조사 내용",
+    "EN": "Factual Circumstances and Investigation Findings",
+    "VN": "Thực tế và nội dung điều tra",
+    "ID": "Fakta dan Hasil Penyelidikan",
+    "RU": "Фактические обстоятельства и результаты расследования",
+    "MM": "အဖြစ်မှန်နှင့် စုံစမ်းစစ်ဆေးမှုအကြောင်းအရာ",
+    "NP": "तथ्य र अनुसन्धान सामग्री",
+    "TH": "ข้อเท็จจริงและเนื้อหาการสอบสวน"
+  },
+  "event_important": {
+    "KO": "중요 쟁점",
+    "EN": "Key Issues",
+    "VN": "Vấn đề quan trọng",
+    "ID": "Poin Penting",
+    "RU": "Ключевые вопросы",
+    "MM": "အဓိကအငြင်းပွားဖွယ်ရာအချက်များ",
+    "NP": "मुख्य विवादका विषयहरू",
+    "TH": "ประเด็นสำคัญ"
+  },
+  "event_decision": {
+    "KO": "판정 요지",
+    "EN": "Key Findings",
+    "VN": "Tóm tắt phán quyết",
+    "ID": "Inti Putusan",
+    "RU": "Резюме решения",
+    "MM": "ဆုံးဖြတ်ချက်",
+    "NP": "निर्णयको सारांश",
+    "TH": "บทสรุปคำตัดสิน"
+  },
+  "event_laws": {
+    "KO": "관계 법령",
+    "EN": "Relevant Laws",
+    "VN": "Các văn bản pháp luật liên quan",
+    "ID": "Peraturan Perundang-undangan Terkait",
+    "RU": "Соответствующее законодательство",
+    "MM": "သက်ဆိုင်ရာဥပဒေများ",
+    "NP": "सम्बन्धित कानूनहरू",
+    "TH": "กฎหมายที่เกี่ยวข้อง"
+  },
+  "event_source": {
+    "KO": "출처",
+    "EN": "Source",
+    "VN": "Nguồn",
+    "ID": "Sumber",
+    "RU": "Источник",
+    "MM": "ကိုးကား",
+    "NP": "स्रोत",
+    "TH": "ที่มา"
+  },
+  "event_source1": {
+    "KO": "근로복지공단",
+    "EN": "Korea Workers' Compensation & Welfare Service",
+    "VN": "Công ty bảo hiểm xã hội lao động",
+    "ID": "Badan Kesejahteraan Pekerja",
+    "RU": "Корейская служба по компенсациям и социальному обеспечению работников",
+    "MM": "အလုပ်သမားသက်သာချောင်ချိရေးကော်ပိုရေးရှင်း",
+    "NP": "श्रम कल्याण निगम",
+    "TH": "องค์การสวัสดิการและคุ้มครองแรงงาน (KCOMWEL)"
+  },
+  "accident_work": {
+    "KO": "업무수행 중의 사고",
+    "EN": "Accidents During Work Performance",
+    "VN": "Tai nạn trong khi thực hiện công việc",
+    "ID": "Kecelakaan Selama Pelaksanaan Tugas",
+    "RU": "Несчастные случаи во время выполнения рабочих обязанностей",
+    "MM": "လုပ်ငန်းဆောင်ရွက်နေစဉ်အတွင်း မတော်တဆမှုများ",
+    "NP": "कामको सिलसिलामा हुने दुर्घटना",
+    "TH": "อุบัติเหตุระหว่างการปฏิบัติงาน"
+  },
+  "accident_go": {
+    "KO": "출퇴근 중의 사고",
+    "EN": "Accidents During Commute",
+    "VN": "Tai nạn trên đường đi làm/về nhà",
+    "ID": "Kecelakaan Selama Perjalanan",
+    "RU": "Несчастные случаи по дороге на работу/с работы",
+    "MM": "အလုပ်သွားအလုပ်ပြန် သွားလာစဉ် မတော်တဆမှုများ",
+    "NP": "आवतजावतको क्रममा हुने दुर्घटना",
+    "TH": "อุบัติเหตุระหว่างการเดินทางไปหรือกลับจากทำงาน"
+  },
+  "accident_event": {
+    "KO": "행사 중의 사고",
+    "EN": "Accidents During Events",
+    "VN": "Tai nạn trong khi tham gia sự kiện",
+    "ID": "Kecelakaan Selama Kegiatan",
+    "RU": "Несчастные случаи во время мероприятий",
+    "MM": "အခမ်းအနားများအတွင်း မတော်တဆမှုများ",
+    "NP": "कार्यक्रमको क्रममा हुने दुर्घटना",
+    "TH": "อุบัติเหตุระหว่างการเข้าร่วมกิจกรรม"
+  },
+  "accident_crime": {
+    "KO": "근로자 범죄행위",
+    "EN": "Worker's Criminal Act",
+    "VN": "Hành vi phạm tội của người lao động",
+    "ID": "Tindakan Kriminal Pekerja",
+    "RU": "Преступные действия работника",
+    "MM": "အလုပ်သမား၏ ပြစ်မှုဆိုင်ရာကျူးလွန်မှု",
+    "NP": "कामदारको आपराधिक कार्य",
+    "TH": "การกระทำความผิดทางอาญาของลูกจ้าง"
+  },
+  "accident_not_work": {
+    "KO": "비업무 관련 행위",
+    "EN": "Non-Work-Related Act",
+    "VN": "Hành vi không liên quan đến công việc",
+    "ID": "Tindakan yang Tidak Terkait Pekerjaan",
+    "RU": "Действия, не связанные с работой",
+    "MM": "လုပ်ငန်းနှင့်မသက်ဆိုင်သော လုပ်ဆောင်မှု",
+    "NP": "कामसँग सम्बन्धित नभएको कार्य",
+    "TH": "การกระทำที่ไม่เกี่ยวข้องกับการทำงาน"
+  },
+  "accident_etc": {
+    "KO": "기타사고",
+    "EN": "Other Accidents",
+    "VN": "Tai nạn khác",
+    "ID": "Kecelakaan Lainnya",
+    "RU": "Прочие несчастные случаи",
+    "MM": "အခြားမတော်တဆမှုများ",
+    "NP": "अन्य दुर्घटना",
+    "TH": "อุบัติเหตุอื่นๆ"
+  },
+  "accident_sick": {
+    "KO": "업무상 질병",
+    "EN": "Occupational Disease",
+    "VN": "Bệnh nghề nghiệp",
+    "ID": "Penyakit Akibat Kerja",
+    "RU": "Профессиональное заболевание",
+    "MM": "လုပ်ငန်းခွင်ဆိုင်ရာရောဂါ",
+    "NP": "पेशागत रोग",
+    "TH": "โรคจากการทำงาน"
+  },
+  "accident_acci": {
+    "KO": "업무상 사고",
+    "EN": "Work-Related Accident",
+    "VN": "Tai nạn lao động",
+    "ID": "Kecelakaan Kerja",
+    "RU": "Несчастный случай на производстве",
+    "MM": "လုပ်ငန်းခွင်ထိခိုက်မှု",
+    "NP": "औद्योगिक दुर्घटना",
+    "TH": "อุบัติเหตุจากการทำงาน"
+  },
+  "accident_find": {
+    "KO": "사례 검색",
+    "EN": "Case Search",
+    "VN": "Tìm kiếm vụ việc",
+    "ID": "Pencarian Kasus",
+    "RU": "Поиск дел",
+    "MM": "အမှုရှာဖွေရန်",
+    "NP": "केस खोजी",
+    "TH": "ค้นหาตัวอย่าง"
+  },
+  "accident_kind": {
+    "KO": "사고 유형",
+    "EN": "Accident Type",
+    "VN": "Loại tai nạn",
+    "ID": "Jenis Kecelakaan",
+    "RU": "Тип несчастного случая",
+    "MM": "မတော်တဆမှုအမျိုးအစား",
+    "NP": "दुर्घटनाको प्रकार",
+    "TH": "ประเภทของอุบัติเหตุ"
+  },
+  "accident_whole": {
+    "KO": "전체",
+    "EN": "All",
+    "VN": "Toàn bộ",
+    "ID": "Semua",
+    "RU": "Все",
+    "MM": "အားလုံး",
+    "NP": "सबै",
+    "TH": "ทั้งหมด"
+  },
+  "accdient_aprove": {
+    "KO": "승인",
+    "EN": "Approved",
+    "VN": "Phê duyệt",
+    "ID": "Disetujui",
+    "RU": "Утверждено",
+    "MM": "အတည်ပြု",
+    "NP": "स्वीकृत",
+    "TH": "อนุมัติ"
+  },
+  "accident_disapprove": {
+    "KO": "불승인",
+    "EN": "Denied",
+    "VN": "Không được phê duyệt",
+    "ID": "Ditolak",
+    "RU": "Отклонено",
+    "MM": "အတည်မပြု",
+    "NP": "अस्वीकृत",
+    "TH": "ไม่อนุมัติ"
+  },
+  "one_title": {
+    "KO": "경비원 휴게실 출입구 빗물받이 설치 작업 중 추락 사고",
+    "EN": "Fall Accident During Rainwater Drain Installation at Security Guard Break Room Entrance",
+    "VN": " Tai nạn ngã trong khi lắp đặt máng xối nước mưa tại cửa ra vào phòng nghỉ của nhân viên bảo vệ",
+    "ID": "Kecelakaan jatuh saat memasang saluran air hujan di pintu masuk ruang istirahat petugas keamanan",
+    "RU": "Падение во время установки водосточной трубы у входа в комнату отдыха охранников",
+    "MM": "နားနေခန်းဝင်ပေါက် ရေတား (ရေစိမ့်) တပ်ဆင်ခြင်းလုပ်ငန်းဆောင်ရွက်နေစဥ် ပြုတ်ကျမှု မတော်တဆမှု",
+    "NP": "सुरक्षा गार्ड विश्राम कक्षको प्रवेशद्वारमा पानीको ढल राख्ने काम गर्दा लडेको दुर्घटना",
+    "TH": "อุบัติเหตุจากการตกขณะติดตั้งกันสาดทางเข้าห้องพักของเจ้าหน้าที่รักษาความปลอดภัย"
+  },
+  "one_summary0": {
+    "KO": "승인 여부: 승인",
+    "EN": "Approval Status: Approved",
+    "VN": "Kết quả công nhận: Được công nhận",
+    "ID": "Status Persetujuan: Disetujui",
+    "RU": "•    Статус утверждения: Утверждено\r\n",
+    "MM": "အတည်ပြု/မပြု အခြေအနေ: အတည်ပြုသည်",
+    "NP": "स्वीकृतिको अवस्था: स्वीकृत",
+    "TH": "สถานะการอนุมัติ: อนุมัติ"
+  },
+  "one_summary1": {
+    "KO": "발생 일시: 2023. 10. 14. 16:00경",
+    "EN": " Date/Time of Occurrence: Around 16:00 on October 14, 2023",
+    "VN": "Thời gian xảy ra: Khoảng 16:00 ngày 14/10/2023",
+    "ID": "Waktu Kejadian: Sekitar pukul 16.00 pada 14 Oktober 2023",
+    "RU": "•    Дата и время происшествия: Около 16:00, 14 октября 2023 г.\r\n",
+    "MM": "ဖြစ်ပွားသည့်ရက်စွဲ/အချိန်: ၂၀၂၃ ခုနှစ်၊ အောက်တိုဘာလ ၁၄ ရက်၊ ညနေ ၄:၀၀ နာရီခန့်",
+    "NP": "घटना भएको मिति/समय: सन् २०२३, अक्टोबर १४ गते, साँझ लगभग १६:०० बजे",
+    "TH": "วัน/เวลาที่เกิดเหตุ: ประมาณ ๑๖:๐๐ น. ของวันที่ ๑๔ ตุลาคม ๒๕๖๖"
+  },
+  "one_summary2": {
+    "KO": "발생 장소: ○○사업장 경비원 휴게실(숙소) 건물 지붕",
+    "EN": "Location: Roof of the building housing the security guard break room (dormitory) at ○○ Business Site",
+    "VN": "Địa điểm xảy ra: Mái nhà của phòng nghỉ (khu nhà ở) của nhân viên bảo vệ tại cơ sở ○○",
+    "ID": "Lokasi Kejadian: Atap gedung ruang istirahat (asrama) petugas keamanan di lokasi kerja ○○",
+    "RU": "• Место: Крыша здания комнаты отдыха охранников (жилого помещения) на рабочем месте ○○\r\n",
+    "MM": "ဖြစ်ပွားသည့်နေရာ: OO လုပ်ငန်းခွင်၊ လုံခြုံရေးဝန်ထမ်း နားနေခန်း (အိပ်ဆောင်) အဆောက်အအုံ၏ မျက်နှာကျက်",
+    "NP": "घटना भएको स्थान: OO कार्यस्थल, सुरक्षा गार्ड विश्राम कक्ष (आवास) भवनको छाना",
+    "TH": "สถานที่เกิดเหตุ: หลังคาอาคารห้องพัก (ที่พัก) เจ้าหน้าที่รักษาความปลอดภัย ณ สถานประกอบการ OO"
+  },
+  "one_summary3": {
+    "KO": "근로자 정보: 경비 근로자",
+    "EN": "Worker Information: Security guard",
+    "VN": "Thông tin nhân viên: Nhân viên bảo vệ",
+    "ID": "Informasi Pekerja: Petugas keamanan",
+    "RU": "• Информация о работнике: Охранник\r\n",
+    "MM": "လုပ်သားအချက်အလက်: လုံခြုံရေးဝန်ထမ်း",
+    "NP": "श्रमिकको जानकारी: सुरक्षा गार्ड",
+    "TH": "ข้อมูลลูกจ้าง: เจ้าหน้าที่รักษาความปลอดภัย"
+  },
+  "one_summary4": {
+    "KO": "상병명: 좌측 골반부 장골골절, 좌측 골반부 절구골절, 좌측 주관절부 요골두 골절, 좌측 주관절부 신전건 부분파열, 좌측 주관절부 척골측부 인대파열, 요추 및 골반 타박상",
+    "EN": "Injuries: Left pelvic iliac fracture, left pelvic acetabular fracture, left elbow radial head fracture, partial tear of left elbow extensor tendon, rupture of left elbow ulnar collateral ligament, lumbar spine and pelvic contusions\r\nCircumstances of the Accident",
+    "VN": "Chẩn đoán: Gãy xương chậu bên trái, gãy xương chậu bên trái, gãy xương cổ tay bên trái, đứt một phần gân duỗi bên trái, đứt dây chằng bên trái, bầm tím cột sống thắt lưng và xương chậu\r\nNguyên nhân tai nạn",
+    "ID": "Diagnosis: Fraktur tulang ilium bagian kiri, fraktur tulang pubis bagian kiri, fraktur kepala tulang radius bagian kiri, robekan parsial tendon ekstensor siku kiri, robekan ligamen ulnar siku kiri, memar tulang belakang dan panggul",
+    "RU": "•    Травмы: перелом левой подвздошной кости, перелом левой вертлужной впадины, перелом головки лучевой кости левого локтя, частичное разрыв сухожилия разгибателя левого локтя, разрыв коллатеральной связки левого локтя, ушибы поясничного отдела позвоночника и таза",
+    "MM": "ဒဏ်ရာအမည်များ: ဘယ်ဘက် တင်ပါးဆုံရိုး မူလီ (Ilium) ကျိုးခြင်း၊ ဘယ်ဘက် တင်ပါးဆုံရိုး Acetabulum ကျိုးခြင်း၊ ဘယ်ဘက် တံတောင်ဆစ်အဆစ်အနီးရှိ Radius ခေါင်း ကျိုးခြင်း၊ ဘယ်ဘက် တံတောင်ဆစ်အဆစ်အနီးရှိ Extension Tendon တစ်စိတ်တစ်ပိုင်း ပြဲခြင်း၊ ဘယ်ဘက် တံတောင်ဆစ်အဆစ်အနီးရှိ Ulnar Collateral Ligament ပြဲခြင်း၊ ခါးရိုးနှင့် တင်ပါးဆုံတို့တွင် ထိခိုက်ဒဏ်ရာရခြင်း",
+    "NP": "चोटपटकको नाम: देब्रे कम्मरको इलियम हड्डी भाँचिएको, देब्रे कम्मरको एसिटाबुलम (acetabulum) भाँचिएको, देब्रे कुमको रेडियस हेड (radius head) भाँचिएको, देब्रे कुमको एक्स्टेन्सर टेन्डन (extensor tendon) आंशिक रूपमा च्यातिएको, देब्रे कुमको अल्नर कोलैटरल लिगामेन्ट (ulnar collateral ligament) च्यातिएको, कम्मर र पेल्भिसमा चोटपटक",
+    "TH": "ชื่ออาการบาดเจ็บ: กระดูกเชิงกรานซ้ายส่วนกระดูกปีกสะโพกหัก (Left Ilium Fracture), กระดูกเบ้าสะโพกซ้ายหัก (Left Acetabulum Fracture), กระดูกส่วนหัวของกระดูกเรเดียสข้อศอกซ้ายหัก (Left Radial Head Fracture), เอ็นยืดเหยียดข้อศอกซ้ายฉีกขาดบางส่วน (Left Extensor Tendon Partial Rupture), เอ็นยึดข้อศอกซ้ายด้านในฉีกขาด (Left Ulnar Collateral Ligament Rupture), ฟกช้ำที่กระดูกสันหลังส่วนเอวและเชิงกราน"
+  },
+  "one_situation": {
+    "KO": "경비원이 휴게실 출입구 빗물받이 보수작업을 하던 중 낙상한 사고를 사업주 지시 없이 임의로 작업을 수행하던 중 발생한 사고라 하여 불승인한 사건에 대하여, 경비원의 경우 감시단속 업무 외에도 여러 일을 수행하고, 경비실 뚫밭이 설치작업도 사회통념상 업무에 수반되는 행위라고 판단하여 원처분 “취소” 결정한 사례",
+    "EN": "Regarding a case where an accident occurred when a security guard fell while repairing a rainwater drain at the break room entrance, and the claim was denied on the grounds that the work was performed arbitrarily without the employer's instruction, the court determined that security guards perform various tasks beyond surveillance duties, and installing a rainwater drain at the security room is an act that accompanies their duties according to social norms. Consequently, the original disposition was “cancelled.”",
+    "VN": "Vụ việc bảo vệ bị từ chối bồi thường vì cho rằng tai nạn xảy ra khi bảo vệ đang tự ý thực hiện công việc sửa chữa máng xối tại lối ra vào phòng nghỉ mà không có chỉ thị của chủ doanh nghiệp. Tuy nhiên, tòa án đã quyết định hủy bỏ quyết định ban đầu vì cho rằng bảo vệ không chỉ thực hiện công việc giám sát mà còn thực hiện nhiều công việc khác, và việc lắp đặt máng xối tại phòng bảo vệ là hành động đi kèm với công việc theo quan niệm xã hội.",
+    "ID": "Kasus di mana kecelakaan yang terjadi saat petugas keamanan jatuh saat melakukan perbaikan saluran air hujan di pintu masuk ruang istirahat, yang ditolak karena dianggap dilakukan tanpa instruksi dari pemberi kerja, diputuskan untuk dibatalkan. Hal ini karena petugas keamanan tidak hanya bertugas mengawasi, tetapi juga melakukan berbagai pekerjaan lain, dan pemasangan saluran air hujan di ruang istirahat dianggap sebagai tindakan yang secara umum termasuk dalam tugasnya.",
+    "RU": "В отношении случая, когда произошел несчастный случай, когда охранник упал во время ремонта водосточной трубы у входа в комнату отдыха, и заявление было отклонено на том основании, что работа выполнялась произвольно, без указания работодателя, суд постановил, что охранники выполняют различные задачи, выходящие за рамки обязанностей по охране, и что установка водосточной трубы в комнате охраны является действием, сопутствующим их обязанностям в соответствии с социальными нормами. В результате первоначальное решение было «отменено».",
+    "MM": "လုံခြုံရေးဝန်ထမ်းသည် နားနေခန်းဝင်ပေါက် ရေတား (ရေစိမ့်) ပြင်ဆင်ခြင်း လုပ်ငန်းကို လုပ်ဆောင်နေစဥ် ပြုတ်ကျခဲ့သော မတော်တဆမှုဖြစ်သည်။ ဤအမှုကို အလုပ်ရှင်၏ ညွှန်ကြားချက်မပါဘဲ ကိုယ်တိုင် ဆောင်ရွက်သော လုပ်ငန်းကြောင့်ဟုဆိုကာ ကနဦး ပယ်ချခဲ့ခြင်းကို လုံခြုံရေးဝန်ထမ်းများအနေဖြင့် စောင့်ကြည့်ခြင်းနှင့် တားဆီးထိန်းချုပ်ခြင်း လုပ်ငန်းများအပြင် အခြားလုပ်ငန်းများကိုလည်း လုပ်ဆောင်ကြပြီး၊ လုံခြုံရေးခန်း၏ ရေတား တပ်ဆင်ခြင်းလုပ်ငန်းသည်လည်း လူမှုဘောင်အမြင်အရ လုပ်ငန်းနှင့် တွဲဖက်ပါရှိသော ဆောင်ရွက်ချက်အဖြစ် သတ်မှတ်နိုင်သည်ဟု ဆုံးဖြတ်ကာ မူလဆုံးဖြတ်ချက်ကို \"ပယ်ဖျက်\" ရန် ဆုံးဖြတ်ခဲ့သော ဖြစ်ရပ်ဖြစ်သည်။",
+    "NP": "सुरक्षा गार्डले विश्राम कक्षको प्रवेशद्वारमा पानीको ढल मर्मत गर्ने काम गरिरहेको बेला लडेको दुर्घटना हो। यो घटनालाई पहिला मालिकको निर्देशन बिना आफैंले गरेको काम भनी अस्वीकार गरिएको थियो, तर सुरक्षा गार्डहरूले निगरानी र नियन्त्रणको काम बाहेक अन्य कामहरू पनि गर्ने र पानीको ढल राख्ने काम पनि सामाजिक मान्यता अनुसार कामसँग जोडिएको गतिविधि भएको ठहर गर्दै, मूल निर्णयलाई \"रद्द\" गर्ने निर्णय गरिएको उदाहरण हो।",
+    "TH": "เป็นอุบัติเหตุที่เจ้าหน้าที่รักษาความปลอดภัยพลัดตกขณะทำการซ่อมแซมกันสาดบริเวณทางเข้าห้องพัก โดยเหตุการณ์นี้เคยถูกปฏิเสธการอนุมัติในครั้งแรก เนื่องจากถูกพิจารณาว่าเป็นอุบัติเหตุที่เกิดขึ้นในขณะที่ลูกจ้างดำเนินการทำงานไปเองโดยไม่ได้รับคำสั่งจากนายจ้าง อย่างไรก็ตาม ได้มีการตัดสินใจ**“ยกเลิก”คำสั่งเดิม โดยพิจารณาว่าในกรณีของเจ้าหน้าที่รักษาความปลอดภัยนั้น นอกเหนือจากงานควบคุมและเฝ้าระวังแล้ว ยังปฏิบัติงานอื่น ๆ หลายอย่าง และการติดตั้งกันสาดห้องรักษาความปลอดภัยก็ถือเป็นการกระทำที่เป็นไปตามปกติ**ซึ่งมาพร้อมกับการทำงานตามสามัญสำนึกทางสังคม"
+  },
+  "one_facts0": {
+    "KO": "청구인은 경비원 휴게실 지붕에서 빗물받이 설치 작업 중 사다리에서 추락",
+    "EN": "The claimant fell from a ladder while installing a rainwater drain on the roof of the security guard break room.\r\n",
+    "VN": " Người yêu cầu bồi thường bị ngã từ thang trong khi lắp đặt máng xối trên mái phòng nghỉ của nhân viên bảo vệ.",
+    "ID": "Pemohon jatuh dari tangga saat memasang saluran air hujan di atap ruang istirahat petugas keamanan.",
+    "RU": "•    Истец упал с лестницы во время установки водосточной трубы на крыше туалета охранников.\r\n",
+    "MM": "တောင်းဆိုသူသည် လုံခြုံရေးဝန်ထမ်း နားနေခန်း အမိုးပေါ်၌ ရေတား တပ်ဆင်ခြင်းလုပ်ငန်း လုပ်ဆောင်နေစဥ် လှေကားပေါ်မှ ပြုတ်ကျခဲ့သည်။\r\n",
+    "NP": "निवेदक सुरक्षा गार्ड विश्राम कक्षको छानामा पानीको ढल राख्ने काम गर्दा भर्याङबाट खसेका थिए।\r\n\r\n",
+    "TH": "ผู้ร้องขอพลัดตกจากบันไดขณะทำงานติดตั้งกันสาดบนหลังคาห้องพักของเจ้าหน้าที่รักษาความปลอดภัย\r\n\r\n"
+  },
+  "one_facts1": {
+    "KO": "평소 시설팀 담당 업무이나 경비원들이 필요시 임의로 보수작업을 하기도 함",
+    "EN": "•    Although typically handled by the facilities team, security guards sometimes performed repairs on their own initiative when necessary.\r\n",
+    "VN": "Đây là công việc thường do đội bảo trì thực hiện, nhưng nhân viên bảo vệ cũng có thể tự ý sửa chữa khi cần thiết.",
+    "ID": "Meskipun pekerjaan tersebut biasanya menjadi tanggung jawab tim fasilitas, petugas keamanan kadang-kadang melakukan perbaikan secara sukarela jika diperlukan.",
+    "RU": "•    Хотя обычно это входит в обязанности технического персонала, охранники иногда по своему усмотрению выполняли такие ремонтные работы, когда это было необходимо.\r\n",
+    "MM": "ပုံမှန်အားဖြင့် Facility Team (အဆောက်အဦဌာန) ၏ တာဝန်ဖြစ်သော်လည်း လုံခြုံရေးဝန်ထမ်းများက လိုအပ်ပါက ကိုယ်တိုင်ပြင်ဆင်ခြင်း လုပ်ငန်းကိုလည်း ဆောင်ရွက်ခဲ့သည်။",
+    "NP": "यो सामान्यतया सुविधा टोली (Facility Team) को काम भए पनि, सुरक्षा गार्डहरूले आवश्यकता पर्दा आफैंले पनि मर्मत गर्ने गरेको पाइएको छ।\r\n\r\n",
+    "TH": "แม้ว่าปกติจะเป็นงานที่รับผิดชอบโดยทีมงานด้านสถานที่ (Facility Team) แต่เจ้าหน้าที่รักษาความปลอดภัยก็เคยดำเนินการซ่อมแซมเองตามความจำเป็น\r\n\r\n"
+  },
+  "one_facts2": {
+    "KO": "사고 당일 비 예보로 인해 급히 작업한 것으로 확인됨",
+    "EN": "•    It was confirmed that the work was done urgently due to a rain forecast on the day of the accident.\r\n",
+    "VN": "Được xác nhận là công việc được thực hiện gấp rút do dự báo thời tiết có mưa vào ngày xảy ra tai nạn.",
+    "ID": "Terkonfirmasi bahwa pekerjaan dilakukan secara mendadak karena perkiraan hujan pada hari kejadian.",
+    "RU": "•    Было подтверждено, что работа была выполнена в срочном порядке в день несчастного случая из-за прогноза дождя.\r\n",
+    "MM": "မတော်တဆမှု ဖြစ်ပွားသည့်နေ့တွင် မိုးရွာရန် ခန့်မှန်းထားသောကြောင့် အလျင်အမြန် လုပ်ဆောင်ခဲ့ခြင်း ဖြစ်ကြောင်း အတည်ပြုခဲ့သည်။",
+    "NP": "दुर्घटना भएको दिन पानी पर्ने पूर्वानुमान भएकोले हतारमा काम गरेको पुष्टि भएको छ।\r\n\r\n",
+    "TH": "ได้รับการยืนยันว่าได้รีบดำเนินการทำงานในวันเกิดเหตุเนื่องจากมีการพยากรณ์ว่าจะมีฝนตก\r\n\r\n"
+  },
+  "one_facts3": {
+    "KO": "원처분기관은 사업주 지시 없는 임의작업으로 불승인했으나 심사에서는 경비 업무와 밀접한 부수적 행위로 인정됨",
+    "EN": "•    The original disciplinary body disapproved it as unauthorized work without employer instruction, but the review recognized it as ancillary work closely related to security duties.",
+    "VN": "Cơ quan xử phạt ban đầu đã không chấp nhận vì đây là công việc tự ý thực hiện mà không có chỉ thị của chủ doanh nghiệp, nhưng trong quá trình thẩm tra, hành vi này được công nhận là hành vi phụ trợ liên quan mật thiết đến công việc bảo vệ.",
+    "ID": " Instansi yang mengeluarkan keputusan awal tidak menyetujui pekerjaan tersebut karena dianggap sebagai pekerjaan tanpa instruksi dari pemberi kerja, namun dalam proses peninjauan, hal tersebut diakui sebagai tindakan tambahan yang erat kaitannya dengan tugas keamanan.",
+    "RU": "•    Первоначальный дисциплинарный орган не одобрил работу как несанкционированную без указания работодателя, но при пересмотре она была признана вспомогательной деятельностью, тесно связанной с обязанностями охранников.",
+    "MM": "မူလဆုံးဖြတ်ချက်ချမှတ်သည့် အဖွဲ့အစည်းက အလုပ်ရှင်၏ ညွှန်ကြားချက်မပါသော ကိုယ်တိုင် လုပ်ငန်း ဖြစ်သောကြောင့် ပယ်ချခဲ့သော်လည်း၊ ဆန်းစစ်မှုတွင် လုံခြုံရေးလုပ်ငန်းနှင့် နီးစပ်သော တွဲဖက်ဆောင်ရွက်ချက်အဖြစ် အသိအမှတ်ပြုခဲ့သည်။",
+    "NP": "मूल निर्णय गर्ने निकायले मालिकको निर्देशन नभएको आफैं गरेको काम भनी अस्वीकार गरे पनि, जाँचमा सुरक्षा कामसँग नजिकबाट जोडिएको सहायक गतिविधि को रूपमा स्वीकार गरियो।",
+    "TH": "แม้ว่าหน่วยงานที่ออกคำสั่งเดิมจะปฏิเสธโดยถือว่าเป็นการทำงานโดยพลการที่ไม่มีคำสั่งจากนายจ้าง แต่ในการพิจารณาได้ยอมรับว่าเป็นกิจกรรมเสริมที่เกี่ยวข้องอย่างใกล้ชิดกับงานรักษาความปลอดภัย"
+  },
+  "one_important0": {
+    "KO": "근로계약에 따른 업무수행의 범위: 빗물받이 설치 작업이 ‘감시·단속적 근로자’의 통상 업무 범위를 벗어난 사적 행위인지, 아니면 사회통념상 부수적으로 인정되는 업무인지가 핵심 쟁점이 됨.",
+    "EN": "Scope of duties under the employment contract: The core issue is whether installing the rainwater drain constituted a private act beyond the normal scope of duties for a ‘surveillance and enforcement worker,’ or whether it was ancillary work recognized by social norms.\r\n",
+    "VN": "Phạm vi thực hiện công việc theo hợp đồng lao động: Vấn đề mấu chốt là việc lắp đặt máng xối có phải là hành vi cá nhân vượt quá phạm vi công việc thông thường của \"nhân viên giám sát, kiểm soát\" hay là công việc phụ trợ được công nhận theo quan niệm xã hội.",
+    "ID": "Ruang lingkup pelaksanaan tugas sesuai kontrak kerja: Apakah pemasangan talang air hujan merupakan tindakan pribadi yang melampaui ruang lingkup tugas normal ‘pekerja pengawasan dan penegakan hukum’, ataukah merupakan tugas tambahan yang diakui secara umum dalam masyarakat.",
+    "RU": "•\tОбъем обязанностей по трудовому договору: Основной вопрос заключается в том, являлась ли установка водосточной трубы частным действием, выходящим за рамки обычного объема обязанностей «работника по контролю и обеспечению соблюдения правил», или это была вспомогательная работа, признанная социальными нормами.\r\n",
+    "MM": "လုပ်ငန်းခွင်စာချုပ်အရ လုပ်ငန်းဆောင်ရွက်မှု အတိုင်းအတာ: ရေတား တပ်ဆင်ခြင်းလုပ်ငန်းသည် ‘စောင့်ကြည့်ခြင်းနှင့် တားဆီးထိန်းချုပ်ခြင်း လုပ်သား’ ၏ ပုံမှန်လုပ်ငန်းနယ်ပယ်ကို ကျော်လွန်သည့် ပုဂ္ဂလိက ဆောင်ရွက်ချက် ဟုတ်၊ မဟုတ် သို့မဟုတ် လူမှုဘောင်အမြင်အရ တွဲဖက်ပါရှိသည်ဟု အသိအမှတ်ပြုနိုင်သော လုပ်ငန်း ဟုတ်၊ မဟုတ်သည် အဓိက အငြင်းပွားဖွယ်ရာ ဖြစ်သည်။",
+    "NP": "श्रम सम्झौता अनुसार काम गर्ने क्षेत्रको दायरा: पानीको ढल राख्ने काम 'निगरानी र नियन्त्रण श्रमिक' को सामान्य कामको दायरा बाहिरको निजी गतिविधि हो वा सामाजिक मान्यता अनुसार सहायक रूपमा स्वीकार गरिने काम हो भन्ने मुख्य विवादको विषय बन्यो।\r\n\r\n",
+    "TH": "ขอบเขตของการปฏิบัติงานตามสัญญาจ้าง: ประเด็นหลักคือการติดตั้งกันสาดเป็นการกระทำส่วนตัวที่อยู่นอกเหนือขอบเขตงานปกติของ ‘ลูกจ้างเฝ้าระวังและควบคุม’ หรือเป็นงานที่ยอมรับได้ว่าเป็นส่วนเสริมตามสามัญสำนึกทางสังคม\r\n\r\n"
+  },
+  "one_important1": {
+    "KO": "업무수행성 인정 여부: 사업주 지시가 없었더라도, 경비원의 일상적 업무와 밀접하게 관련된 활동인지가 주요 판단 기준이 됨.",
+    "EN": "Recognition of work performance: The key criterion is whether the activity was closely related to the security guard's daily duties, even without employer instruction.",
+    "VN": "Có công nhận là thực hiện công việc hay không: Mặc dù không có chỉ thị của chủ doanh nghiệp, nhưng hoạt động này có liên quan chặt chẽ đến công việc hàng ngày của nhân viên bảo vệ hay không là tiêu chí đánh giá chính.",
+    "ID": "Pengakuan sebagai pelaksanaan tugas: Meskipun tanpa instruksi dari pemilik usaha, apakah aktivitas tersebut terkait erat dengan tugas sehari-hari petugas keamanan menjadi kriteria penilaian utama.",
+    "RU": "•    Признание выполнения работы: Ключевым критерием является то, была ли эта деятельность тесно связана с повседневными обязанностями охранника, даже без указания работодателя.",
+    "MM": "လုပ်ငန်းဆောင်ရွက်မှု အသိအမှတ်ပြုခြင်း အခြေအနေ: အလုပ်ရှင်၏ ညွှန်ကြားချက်မရှိသော်လည်း လုံခြုံရေးဝန်ထမ်း၏ နေ့စဥ်လုပ်ငန်းနှင့် နီးစပ်စွာ ဆက်စပ်နေသော လှုပ်ရှားမှု ဟုတ်၊ မဟုတ်သည် အဓိက ဆုံးဖြတ်ချက်ပေးမည့် စံနှုန်း ဖြစ်သည်။",
+    "NP": "कामको रूपमा स्वीकृति दिने/नदिने: मालिकको निर्देशन नभए पनि, त्यो काम सुरक्षा गार्डको दैनिक कामसँग नजिकबाट सम्बन्धित गतिविधि हो वा होइन भन्ने प्रमुख निर्णय मापदण्ड भयो।",
+    "TH": "การยอมรับว่าเป็นงานหรือไม่: เกณฑ์การตัดสินหลักคือ แม้ว่าจะไม่มีคำสั่งจากนายจ้าง แต่กิจกรรมดังกล่าวมีความเกี่ยวข้องอย่างใกล้ชิดกับการปฏิบัติงานประจำวันของเจ้าหน้าที่รักษาความปลอดภัยหรือไม่"
+  },
+  "one_decision": {
+    "KO": "산업재해보상보험심사위원회는 경비원의 빗물받이 설치 작업이 단순 사적 행위가 아니라 경비 업무 수행 중 사회통념상 수반되는 행위로 판단.\r\n따라서 청구인의 재해는 업무상 재해로 인정되며, 최초 불승인 처분은 취소됨.",
+    "EN": "The Industrial Accident Compensation Insurance Review Committee determined that the security guard's installation of the rainwater drain was not a purely private act but an action inherently associated with security duties according to social norms.\r\nTherefore, the claimant's injury is recognized as a work-related injury, and the initial denial decision is revoked.",
+    "VN": "Ủy ban thẩm định bảo hiểm tai nạn lao động công nghiệp đã phán quyết rằng việc lắp đặt máng xối của nhân viên bảo vệ không phải là hành vi cá nhân đơn thuần mà là hành vi đi kèm với công việc bảo vệ theo quan niệm xã hội. Do đó, tai nạn của người yêu cầu bồi thường được công nhận là tai nạn lao động, và quyết định từ chối ban đầu bị hủy bỏ.",
+    "ID": "Komisi Peninjauan Asuransi Kecelakaan Kerja Industri menilai bahwa pekerjaan pemasangan saluran air hujan oleh petugas keamanan bukanlah tindakan pribadi semata, melainkan tindakan yang secara umum dianggap sebagai bagian dari pelaksanaan tugas keamanan.\r\nOleh karena itu, kecelakaan yang dialami pemohon diakui sebagai kecelakaan kerja, dan keputusan penolakan awal dibatalkan.",
+    "RU": "Комиссия по пересмотру страхования от несчастных случаев на производстве постановила, что установка водосточной трубы охранником не была чисто частным действием, а действием, которое, согласно социальным нормам, является побочным при выполнении охранных обязанностей.\r\nТаким образом, травма заявителя признана производственной травмой, и первоначальное решение об отказе в признании отменено.",
+    "MM": "စက်မှုထိခိုက်မှု လျော်ကြေး အာမခံ ဆန်းစစ်ရေးကော်မတီသည် လုံခြုံရေးဝန်ထမ်း၏ ရေတား တပ်ဆင်ခြင်း လုပ်ငန်းသည် ရိုးရှင်းသော ပုဂ္ဂလိက ဆောင်ရွက်ချက်မဟုတ်ဘဲ လုံခြုံရေးလုပ်ငန်း ဆောင်ရွက်နေစဥ် လူမှုဘောင်အမြင်အရ တွဲဖက်ပါရှိသော ဆောင်ရွက်ချက်အဖြစ် ဆုံးဖြတ်ခဲ့သည်။\r\n\r\nထို့ကြောင့် တောင်းဆိုသူ၏ ဘေးဥပဒ်ကို လုပ်ငန်းခွင်ဆိုင်ရာ ဘေးဥပဒ်အဖြစ် အသိအမှတ်ပြုပြီး မူလ ပယ်ချခဲ့သော အမိန့်ကို ပယ်ဖျက်ခဲ့သည်။",
+    "NP": "औद्योगिक दुर्घटना क्षतिपूर्ति बीमा छानबिन समितिले सुरक्षा गार्डको पानीको ढल राख्ने काम साधारण निजी गतिविधि नभई सुरक्षा काम गर्ने क्रममा सामाजिक मान्यता अनुसार जोडिने गतिविधि भएको ठहर गर्‍यो।\r\n\r\nतसर्थ, निवेदकको चोटपटकलाई कामको क्रममा भएको दुर्घटना को रूपमा स्वीकार गरियो र पहिलो अस्वीकृतिको निर्णय रद्द गरियो।",
+    "TH": "คณะกรรมการพิจารณาประกันภัยเงินทดแทนผู้ประสบภัยจากงาน (산재보험심사위원회) ได้วินิจฉัยว่า การติดตั้งกันสาดของเจ้าหน้าที่รักษาความปลอดภัยไม่ใช่การกระทำส่วนตัวธรรมดา แต่เป็นการกระทำที่เป็นไปตามปกติซึ่งมาพร้อมกับการปฏิบัติงานรักษาความปลอดภัยตามสามัญสำนึกทางสังคม\r\n\r\nดังนั้น ภัยพิบัติของผู้ร้องขอจึงได้รับการยอมรับว่าเป็นอุบัติเหตุจากการทำงาน และคำสั่งปฏิเสธในครั้งแรกจึงถูกยกเลิก"
+  },
+  "one_laws0": {
+    "KO": "산재보험법 제5조(정의)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 5 (Definitions)\r\n",
+    "VN": "Điều 5 của \"Luật bảo hiểm tai nạn lao động\" (Định nghĩa)",
+    "ID": "Pasal 5 Undang-Undang Asuransi Kecelakaan Kerja (Definisi)\r\n",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 5 (Определения)\r\n",
+    "MM": "「စက်မှုထိခိုက်မှု အာမခံ ဥပဒေ (산재보험법)」 ပုဒ်မ ၅ (အဓိပ္ပာယ်ဖွင့်ဆိုချက်)\r\n\r\n",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन (산재보험법)」 धारा ५ (परिभाषा)\r\n\r\n",
+    "TH": "「พระราชบัญญัติประกันภัยเงินทดแทนผู้ประสบภัยจากงาน (산재보험법)」 มาตรา ๕ (คำนิยาม)\r\n\r\n"
+  },
+  "one_laws1": {
+    "KO": "산재보험법 제37조(업무상의 재해의 인정기준)",
+    "EN": "•    Industrial Accident Compensation Insurance Act Article 37 (Criteria for Recognizing Work-Related Injuries)\r\n",
+    "VN": "Điều 37 của \"Luật bảo hiểm tai nạn lao động\" (Tiêu chí công nhận tai nạn lao động)",
+    "ID": "•    「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 37 (Kriteria Pengakuan Kecelakaan Kerja)\r\n",
+    "RU": "•    Закон о страховании от несчастных случаев на производстве, статья 37 (Критерии признания травм, связанных с работой)\r\n",
+    "MM": "「စက်မှုထိခိုက်မှု အာမခံ ဥပဒေ (산재보험법)」 ပုဒ်မ ၃၇ (လုပ်ငန်းခွင်ဆိုင်ရာ ဘေးဥပဒ် အသိအမှတ်ပြုခြင်း စံနှုန်း)\r\n\r\n",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन (산재보험법)」 धारा ३७ (कामको क्रममा भएको दुर्घटनाको मान्यता मापदण्ड)\r\n\r\n",
+    "TH": "「พระราชบัญญัติประกันภัยเงินทดแทนผู้ประสบภัยจากงาน (산재보험법)」 มาตรา ๓๗ (เกณฑ์การยอมรับอุบัติเหตุจากการทำงาน)\r\n\r\n"
+  },
+  "one_laws2": {
+    "KO": "「산재보험법 시행령」 제27조(업무수행 중의 사고)",
+    "EN": "•    Industrial Accident Compensation Insurance Act Enforcement Decree Article 27 (Accidents During Work Performance)\r\n",
+    "VN": "Điều 27 của \"Nghị định thi hành Luật bảo hiểm tai nạn lao động\" (Tai nạn trong khi thực hiện công việc)",
+    "ID": "•    「Peraturan Pelaksanaan Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 27 (Kecelakaan Selama Pelaksanaan Tugas)\r\n",
+    "RU": "•    Постановление о применении Закона о страховании от несчастных случаев на производстве, статья 27 (Несчастные случаи, произошедшие во время выполнения работы)\r\n",
+    "MM": "「စက်မှုထိခိုက်မှု အာမခံ ဥပဒေ ပြန်တမ်း (산재보험법 시행령)」 ပုဒ်မ ၂၇ (လုပ်ငန်းဆောင်ရွက်နေစဥ်အတွင်း ဖြစ်ပွားသော မတော်တဆမှု)\r\n\r\n",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुनको कार्यान्वयन नियमावली (산재보험법 시행령)」 धारा २७ (काम गर्ने क्रममा भएको दुर्घटना)\r\n\r\n",
+    "TH": "「กฎกระทรวงตามพระราชบัญญัติประกันภัยเงินทดแทนผู้ประสบภัยจากงาน (산재보험법 시행령)」 มาตรา ๒๗ (อุบัติเหตุระหว่างการปฏิบัติงาน)\r\n\r\n"
+  },
+  "one_laws3": {
+    "KO": "산재보험법 제105조(심사청구에 대한 심리·결정) 제1항",
+    "EN": "•    Industrial Accident Compensation Insurance Act Article 105 (Hearing and Decision on Review Requests) Paragraph 1",
+    "VN": "Điều 105 của \"Luật bảo hiểm tai nạn lao động\" (Xét xử và quyết định yêu cầu thẩm định) Khoản 1",
+    "ID": "•    「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 105 (Pemeriksaan dan Keputusan atas Permohonan Peninjauan Kembali) Ayat 1",
+    "RU": "•    Закон о страховании от несчастных случаев на производстве, статья 105 (Слушание и решение по запросам о пересмотре), пункт 1",
+    "MM": "「စက်မှုထိခိုက်မှု အာမခံ ဥပဒေ (산재보험법)」 ပုဒ်မ ၁၀၅ (ဆန်းစစ်ရန် တောင်းဆိုမှုအပေါ် စိစစ်ဆုံးဖြတ်ခြင်း) အပိုဒ် ၁",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन (산재보험법)」 धारा १०५ (छानबिन निवेदनको सुनुवाइ र निर्णय) को उपधारा १",
+    "TH": "「พระราชบัญญัติประกันภัยเงินทดแทนผู้ประสบภัยจากงาน (산재보험법)」 มาตรา ๑๐๕ (การพิจารณาและวินิจฉัยคำร้องขอทบทวน) วรรค ๑"
+  },
+  "two_title": {
+    "KO": "배달 중 신호위반 사고",
+    "EN": "Traffic Signal Violation Accident During Delivery",
+    "VN": "Tai nạn vi phạm tín hiệu giao thông trong khi giao hàng",
+    "ID": "Kecelakaan pelanggaran lampu lalu lintas saat pengiriman",
+    "RU": "Несчастный случай в результате нарушения правил дорожного движения во время доставки",
+    "MM": "နီဖြတ်ကျော်မှုကြောင့် ဖြစ်ပွားသော မတော်တဆမှု",
+    "NP": "डेलिभरी गर्ने क्रममा ट्राफिक सिग्नल उल्लंघन दुर्घटना",
+    "TH": "อุบัติเหตุจากการฝ่าฝืนสัญญาณไฟจราจรขณะนำส่งสินค้า"
+  },
+  "two_summary0": {
+    "KO": "승인 여부: 승인\r\n",
+    "EN": "•    Approval Status: Approved\r\n",
+    "VN": "Kết quả phê duyệt: Được phê duyệt",
+    "ID": "•    Status Persetujuan: Disetujui\r\n",
+    "RU": "•    Статус утверждения: Утверждено\r\n",
+    "MM": "အတည်ပြု/မပြု အခြေအနေ: အတည်ပြုသည်\r\n\r\n",
+    "NP": "स्वीकृतिको अवस्था: स्वीकृत\r\n\r\n",
+    "TH": "สถานะการอนุมัติ: อนุมัติ\r\n\r\n"
+  },
+  "two_summary1": {
+    "KO": "•\t발생 일시: 2024. 2. 5. 15:21경\r\n",
+    "EN": "•    Date/Time of Occurrence: February 5, 2024, around 15:21\r\n",
+    "VN": "Thời gian xảy ra: Khoảng 15:21 ngày 5/2/2024",
+    "ID": "•    Waktu Terjadi: 5 Februari 2024, sekitar pukul 15:21\r\n",
+    "RU": "•    Дата и время происшествия: Примерно в 15:21 5 февраля 2024 г.\r\n",
+    "MM": "ဖြစ်ပွားသည့်ရက်စွဲ/အချိန်: ၂၀၂၄ ခုနှစ်၊ ဖေဖော်ဝါရီလ ၅ ရက်၊ နေ့လယ် ၁၅:၂၁ နာရီခန့်\r\n\r\n",
+    "NP": "घटना भएको मिति/समय: सन् २०२४, फेब्रुअरी ५ गते, दिउँसो लगभग १५:२१ बजे\r\n\r\n",
+    "TH": "วัน/เวลาที่เกิดเหตุ: ประมาณ ๑๕:๒๑ น. ของวันที่ ๕ กุมภาพันธ์ ๒๕๖๗\r\n\r\n"
+  },
+  "two_summary2": {
+    "KO": "•\t발생 장소: ○○시 ○○구 ○○삼거리\r\n",
+    "EN": "•    Location of Occurrence: ○○ Intersection, ○○ District, ○○ City\r\n",
+    "VN": "Địa điểm xảy ra: Ngã ba ○○, quận ○○, thành phố ○○",
+    "ID": "•    Lokasi Terjadi: Persimpangan ○○, ○○-gu, ○○-si\r\n",
+    "RU": "•    Место происшествия: ○○-самгеори, ○○-гу, город ○○\r\n",
+    "MM": "ဖြစ်ပွားသည့်နေရာ: OO မြို့၊ OO ရပ်ကွက်၊ OO သုံးလမ်းဆုံ\r\n\r\n",
+    "NP": "घटना भएको स्थान: OO शहर, OO गाउँपालिका, OO तीनमुखे सडक\r\n\r\n",
+    "TH": "สถานที่เกิดเหตุ: สี่แยก OO เมือง OO เขต OO\r\n\r\n"
+  },
+  "two_summary3": {
+    "KO": "•\t근로자 정보: 배달 기사 (오토바이 운전)\r\n",
+    "EN": "• Worker Information: Delivery Driver (Motorcycle Operator)\r\n",
+    "VN": "Thông tin người lao động: Tài xế giao hàng (lái xe máy)",
+    "ID": "•    Informasi Pekerja: Pengemudi Pengiriman (Mengendarai Sepeda Motor)\r\n",
+    "RU": "• Информация о работнике: Водитель-курьер (управление мотоциклом)\r\n",
+    "MM": "လုပ်သားအချက်အလက်: ပစ္စည်းပို့ဆောင်ရေး ဝန်ထမ်း (မော်တော်ဆိုင်ကယ် မောင်းသူ)\r\n\r\n",
+    "NP": "श्रमिकको जानकारी: डेलिभरी राइडर (मोटरसाइकल चालक)\r\n\r\n",
+    "TH": "ข้อมูลลูกจ้าง: พนักงานนำส่งสินค้า (ขับรถจักรยานยนต์)\r\n\r\n"
+  },
+  "two_summary4": {
+    "KO": "•\t상병명: 손목 및 손의 기타부분의 타박상, 좌측 경추 염좌 및 긴장, 경갑대의 기타 및 상세불명의 염좌 및 긴장, 요추의 염좌 및 긴장, 대퇴의 타박상, 손목 및 손의 기타 표재성 손상, 아킬레스건 타박상",
+    "EN": "• Diagnosis: Contusion of wrist and other parts of hand, Left cervical sprain and strain, Other and unspecified sprain and strain of shoulder girdle, Lumbar sprain and strain, Contusion of thigh, Other superficial injury of wrist and hand, Achilles tendon contusion",
+    "VN": "Chẩn đoán: Bầm tím cổ tay và các bộ phận khác của bàn tay, bong gân và căng cơ cổ bên trái, bong gân và căng cơ khác và không rõ chi tiết ở vùng vai, bong gân và căng cơ thắt lưng, bầm tím đùi, tổn thương bề ngoài khác ở cổ tay và bàn tay, bầm tím gân Achilles\r\nTình huống xảy ra tai nạn",
+    "ID": "Diagnosis: Memar pada pergelangan tangan dan bagian lain tangan, keseleo dan ketegangan pada leher kiri, keseleo dan ketegangan pada bagian lain dan tidak spesifik pada bahu, keseleo dan ketegangan pada pinggang, memar pada paha, luka superficial pada pergelangan tangan dan bagian lain tangan, memar pada tendon Achilles",
+    "RU": "• Диагноз: Ушиб запястья и других частей кисти; Растяжение и ушиб левой шейной мышцы; Другие и неуточненные растяжения и ушибы плечевого пояса; Растяжение и ушиб поясничной мышцы; Ушиб бедра; Другие поверхностные повреждения запястья и кисти; Ушиб ахиллова сухожилия",
+    "MM": "ဒဏ်ရာအမည်များ: လက်ကောက်ဝတ်နှင့် လက်၏ အခြားနေရာများတွင် ထိခိုက်ဒဏ်ရာရခြင်း၊ ဘယ်ဘက်လည်ပင်းရိုး (Cervical Spine) ညောင်းညာခြင်းနှင့် တင်းမာခြင်း၊ ပခုံးပတ်လည် (Scapular Girdle) ညောင်းညာခြင်းနှင့် တင်းမာခြင်း၊ ခါးရိုး (Lumbar Spine) ညောင်းညာခြင်းနှင့် တင်းမာခြင်း၊ ပေါင်တွင် ထိခိုက်ဒဏ်ရာရခြင်း၊ လက်ကောက်ဝတ်နှင့် လက်၏ အခြားနေရာများတွင် အပေါ်ယံထိခိုက်ဒဏ်ရာရခြင်း၊ ခြေသလုံးရှိ Achilles Tendon တွင် ထိခိုက်ဒဏ်ရာရခြင်း",
+    "NP": "चोटपटकको नाम: नाडी र हातका अन्य भागमा चोटपटक, देब्रे घाँटीको हड्डी (Cervical Vertebrae) मा मोच र तनाव, काँधको पेटी (Shoulder Girdle) मा अन्य तथा अस्पष्ट मोच र तनाव, कम्मरको हड्डी (Lumbar Vertebrae) मा मोच र तनाव, तिघ्रामा चोटपटक, नाडी र हातका अन्य भागमा सतही चोट, अकिलिस टेन्डन (Achilles Tendon) मा चोटपटक",
+    "TH": "ชื่ออาการบาดเจ็บ: ฟกช้ำที่ข้อมือและส่วนอื่น ๆ ของมือ, อาการเคล็ดและตึงที่กระดูกคอซ้าย, อาการเคล็ดและตึงที่ส่วนอื่น ๆ และไม่ระบุรายละเอียดของหัวไหล่, อาการเคล็ดและตึงที่กระดูกสันหลังส่วนเอว, ฟกช้ำที่ต้นขา, การบาดเจ็บที่ผิวหนังส่วนอื่น ๆ ของข้อมือและมือ, ฟกช้ำที่เอ็นร้อยหวาย (Achilles Tendon)"
+  },
+  "two_situation": {
+    "KO": "오토바이 배달 중 신호를 위반하여 발생한 사고를 범죄행위에 따른 사고로 요양 불승인한 사건에 대하여, 신호 위반 사실은 있으나 상대방 과실이 사고 발생의 주된 원인에 있는 것으로 판단하여 원처분 “취소” 결정한 사례",
+    "EN": "Case where the original decision to deny medical benefits for an accident caused by a traffic signal violation during motorcycle delivery was overturned. Although the signal violation occurred, the opposing party's negligence was determined to be the primary cause of the accident, leading to the original decision being “Reversed”.",
+    "VN": "Về vụ việc không chấp nhận điều trị do tai nạn xảy ra khi giao hàng bằng xe máy vi phạm tín hiệu giao thông được coi là hành vi phạm tội, mặc dù có vi phạm tín hiệu giao thông nhưng do xác định lỗi của đối phương là nguyên nhân chính dẫn đến tai nạn, nên đã quyết định “hủy bỏ” quyết định xử phạt ban đầu.",
+    "ID": "Kasus di mana klaim perawatan ditolak karena kecelakaan yang terjadi akibat pelanggaran lampu lalu lintas saat mengendarai sepeda motor dianggap sebagai kecelakaan akibat tindak pidana, namun diputuskan untuk “membatalkan” keputusan awal karena meskipun ada pelanggaran lampu lalu lintas, kesalahan pihak lawan dianggap sebagai penyebab utama kecelakaan.",
+    "RU": "Дело об отмене решения об отказе в предоставлении медицинских льгот в связи с несчастным случаем, признанным преступлением, возникшим в результате нарушения сигнала светофора во время доставки на мотоцикле. Несмотря на нарушение сигнала светофора, основной причиной несчастного случая была признана халатность противоположной стороны, что привело к отмене первоначального решения.",
+    "MM": "မော်တော်ဆိုင်ကယ်ဖြင့် ပစ္စည်းပို့ဆောင်နေစဥ် မီးနီဖြတ်ကျော်မှုကြောင့် ဖြစ်ပွားသော မတော်တဆမှုကို ပြစ်မှုဆိုင်ရာ လုပ်ရပ်ကြောင့်ဟုဆိုကာ ဆေးကုသခွင့် ပယ်ချခဲ့သော ဖြစ်ရပ်တွင်၊ မီးနီဖြတ်ကျော်မှု အချက်အလက်ရှိသော်လည်း တစ်ဖက်ယာဉ်၏ ပေါ့ဆမှုသည် မတော်တဆမှုဖြစ်ပွားရခြင်း၏ အဓိက အကြောင်းရင်းဖြစ်သည်ဟု ဆုံးဖြတ်ကာ မူလဆုံးဖြတ်ချက်ကို \"ပယ်ဖျက်\" ရန် ဆုံးဖြတ်ခဲ့သော ဖြစ်ရပ်ဖြစ်သည်။",
+    "NP": "मोटरसाइकल डेलिभरी गर्ने क्रममा ट्राफिक सिग्नल उल्लंघनका कारण भएको दुर्घटनालाई आपराधिक कार्यबाट भएको भनी उपचार अस्वीकार गरिएको घटनामा, सिग्नल उल्लंघन भएको भए तापनि विपक्षी पक्षको लापरबाही नै दुर्घटनाको मुख्य कारण भएको ठहर गरी मूल निर्णयलाई “रद्द” गर्ने निर्णय गरिएको उदाहरण हो।",
+    "TH": "เป็นกรณีที่เกิดอุบัติเหตุจากการฝ่าฝืนสัญญาณไฟจราจรขณะนำส่งสินค้าด้วยรถจักรยานยนต์ ซึ่งเคยถูกปฏิเสธการรักษาพยาบาลโดยถือว่าเป็นอุบัติเหตุที่เกิดจากการกระทำความผิดทางอาญา อย่างไรก็ตาม ได้มีการตัดสินใจ**“ยกเลิก”คำสั่งเดิม โดยพิจารณาว่าถึงแม้จะมีการฝ่าฝืนสัญญาณไฟจราจร แต่ความประมาทเลินเล่อของคู่กรณีถือเป็นสาเหตุหลัก**ของการเกิดอุบัติเหตุ"
+  },
+  "two_facts0": {
+    "KO": "•\t청구인은 배달 중 직진하다가 유턴하던 차량과 부딪쳐 부상.\r\n",
+    "EN": "•    The claimant was injured when colliding with a vehicle making a U-turn while proceeding straight during delivery.\r\n",
+    "VN": "•    Người yêu cầu bồi thường bị thương khi đang giao hàng, đi thẳng thì va chạm với xe đang quay đầu.\r\n",
+    "ID": "•    Pemohon mengalami cedera setelah bertabrakan dengan kendaraan yang berbelok balik saat sedang melaju lurus.\r\n",
+    "RU": "•    Истец получил травмы, когда, доставляя груз и двигаясь прямо, столкнулся с автомобилем, совершавшим разворот.\r\n",
+    "MM": "တောင်းဆိုသူသည် ပစ္စည်းပို့ဆောင်နေစဥ် တည့်တည့်မောင်းနှင်ရာမှ U-Turn လှည့်သော ကားနှင့် တိုက်မိ၍ ဒဏ်ရာရရှိခဲ့သည်။\r\n\r\n",
+    "NP": "निवेदक डेलिभरी गर्ने क्रममा सीधा गइरहेको बेला यू-टर्न गरिरहेको गाडीसँग ठोक्किएर घाइते भएका थिए।\r\n\r\n",
+    "TH": "ผู้ร้องขอได้รับบาดเจ็บจากการที่รถที่กำลังขับตรงไปเพื่อนำส่งสินค้าชนเข้ากับรถที่กำลังเลี้ยวกลับรถ (U-turn)\r\n\r\n"
+  },
+  "two_facts1": {
+    "KO": "•\t교통사고사실확인원 및 조사 결과 상대 차량이 황색신호에 신호위반하며 진입한 사실 확인.\r\n",
+    "EN": "•\tThe Traffic Accident Fact Confirmation Report and investigation confirmed the opposing vehicle entered the intersection while the light was yellow, violating the signal.\r\n",
+    "VN": "•\tTheo kết quả xác minh tai nạn giao thông và điều tra, xác định rằng xe đối phương đã vi phạm tín hiệu đèn vàng khi vào đường.\r\n",
+    "ID": "•\tBerdasarkan Surat Keterangan Fakta Kecelakaan Lalu Lintas dan hasil penyelidikan, dikonfirmasi bahwa kendaraan lawan melanggar lampu lalu lintas kuning saat memasuki persimpangan.\r\n",
+    "RU": "•\tОтчет о подтверждении факта дорожно-транспортного происшествия и расследование подтвердили, что автомобиль противоположной стороны въехал на перекресток с нарушением желтого сигнала светофора.\r\n",
+    "MM": "ယာဥ်မတော်တဆမှု အချက်အလက် အတည်ပြုချက်နှင့် စစ်ဆေးချက်များအရ တစ်ဖက်ယာဉ်သည် မီးဝါချိန်တွင် မီးနီကို ဖြတ်ကျော်ဝင်ရောက်ခဲ့သည်ကို အတည်ပြုခဲ့သည်။\r\n\r\n",
+    "NP": "ट्राफिक दुर्घटना तथ्य पुष्टि कागजात र अनुसन्धानको नतिजा अनुसार विपक्षी गाडीले पहेँलो सिग्नलमा सिग्नल उल्लंघन गर्दै प्रवेश गरेको तथ्य पुष्टि भएको छ।\r\n\r\n",
+    "TH": "จากใบยืนยันข้อเท็จจริงอุบัติเหตุจราจรและการสอบสวน พบว่ารถคู่กรณีฝ่าฝืนสัญญาณไฟจราจรและขับเข้ามาในช่วงสัญญาณไฟเหลือง\r\n\r\n"
+  },
+  "two_facts2": {
+    "KO": "•\t상대방 과실이 주요 원인으로 인정되어 불승인 처분 취소.",
+    "EN": "•    The opposing party's fault was recognized as the primary cause, leading to the cancellation of the denial decision.",
+    "VN": "•    Do lỗi của đối phương được công nhận là nguyên nhân chính, quyết định từ chối bồi thường đã bị hủy bỏ.",
+    "ID": "•    Kesalahan pihak lawan diakui sebagai penyebab utama, sehingga keputusan penolakan ditolak.\r\nPoin Penting\r\n",
+    "RU": "•    Вина противоположной стороны была признана основной причиной, что привело к отмене решения об отказе.\r\nКлючевые вопросы\r\n",
+    "MM": "တစ်ဖက်ယာဉ်၏ ပေါ့ဆမှုသည် အဓိကအကြောင်းရင်းအဖြစ် အသိအမှတ်ပြုခံရသောကြောင့် ပယ်ချခဲ့သည့် ဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ခဲ့သည်။",
+    "NP": "विपक्षीको लापरबाही मुख्य कारणको रूपमा स्वीकार गरिएकोले अस्वीकृतिको निर्णय रद्द गरियो।",
+    "TH": "การตัดสินใจปฏิเสธถูกยกเลิกเนื่องจากความประมาทเลินเล่อของคู่กรณีได้รับการยอมรับว่าเป็นสาเหตุหลัก"
+  },
+  "two_important0": {
+    "KO": "•\t범죄행위와 업무수행의 구분: 신호위반이 단순 교통법규 위반에 그친 것인지, 근로자의 범죄행위로 볼 수 있는지가 쟁점.\r\n",
+    "EN": "•    Distinction between criminal act and work performance: The issue was whether the signal violation constituted a simple traffic violation or could be considered a criminal act by the worker.\r\n",
+    "VN": "•    Phân biệt hành vi phạm tội và thực hiện công việc: Vấn đề là liệu vi phạm tín hiệu đèn chỉ là vi phạm đơn thuần luật giao thông hay có thể coi là hành vi phạm tội của người lao động.\r\n",
+    "ID": "•    Pembedaan antara tindak pidana dan pelaksanaan tugas: Apakah pelanggaran lampu lalu lintas hanya merupakan pelanggaran peraturan lalu lintas biasa, atau dapat dianggap sebagai tindak pidana pekerja.\r\n",
+    "RU": "•    Различие между уголовным деянием и выполнением рабочих обязанностей: Вопрос заключался в том, было ли нарушение светофора просто нарушением правил дорожного движения или оно может быть расценено как уголовное деяние работника.\r\n",
+    "MM": "ပြစ်မှုဆိုင်ရာ လုပ်ရပ်နှင့် လုပ်ငန်းဆောင်ရွက်မှု ခွဲခြားခြင်း: မီးနီဖြတ်ကျော်မှုသည် သာမန် ယာဉ်စည်းကမ်းဖောက်ဖျက်မှုအဆင့်တွင်သာ ရှိခြင်းလား သို့မဟုတ် လုပ်သား၏ ပြစ်မှုဆိုင်ရာ လုပ်ရပ်အဖြစ် ရှုမြင်နိုင်ခြင်းလားဆိုသည်မှာ အငြင်းပွားဖွယ်ရာ ဖြစ်သည်။\r\n\r\n",
+    "NP": "अपराधिक कार्य र कामको 구분 (छुट्ट्याउने): सिग्नल उल्लंघन केवल साधारण ट्राफिक नियमको उल्लंघनमा सीमित छ वा श्रमिकको आपराधिक कार्य मान्न सकिन्छ भन्ने नै विवादको विषय हो।\r\n\r\n",
+    "TH": "การแบ่งแยกการกระทำความผิดทางอาญาและการปฏิบัติงาน: ประเด็นคือการฝ่าฝืนสัญญาณไฟจราจรเป็นเพียงการละเมิดกฎจราจรเท่านั้น หรือสามารถถือได้ว่าเป็นการกระทำความผิดทางอาญาของลูกจ้าง\r\n\r\n"
+  },
+  "two_important1": {
+    "KO": "•\t사고 원인의 인과관계: 청구인의 신호위반에도 불구하고 상대방 차량의 중대한 과실이 사고의 직접적 원인으로 인정되는지가 핵심 판단 기준.",
+    "EN": "•\tCausal Relationship of Accident Cause: The key judgment criterion is whether the opposing vehicle's gross negligence is recognized as the direct cause of the accident, despite the claimant's signal violation.",
+    "VN": "•\tMối quan hệ nhân quả của nguyên nhân tai nạn: Mặc dù người yêu cầu bồi thường đã vi phạm tín hiệu đèn giao thông, nhưng lỗi nghiêm trọng của xe đối phương có được công nhận là nguyên nhân trực tiếp gây ra tai nạn hay không là tiêu chí đánh giá chính.",
+    "ID": "•\tHubungan sebab-akibat penyebab kecelakaan: Meskipun pemohon melanggar lampu lalu lintas, apakah kelalaian serius kendaraan lawan diakui sebagai penyebab langsung kecelakaan menjadi kriteria penilaian utama.",
+    "RU": "•\tПричинно-следственная связь причины ДТП: ключевым критерием является то, признается ли грубая небрежность встречного транспортного средства прямой причиной ДТП, несмотря на нарушение светофора заявителем.",
+    "MM": "မတော်တဆမှု အကြောင်းရင်း၏ ဆက်စပ်မှု: တောင်းဆိုသူ၏ မီးနီဖြတ်ကျော်မှု ရှိသော်လည်း တစ်ဖက်ယာဉ်၏ ကြီးလေးသော ပေါ့ဆမှုသည် မတော်တဆမှု၏ တိုက်ရိုက်အကြောင်းရင်းအဖြစ် အသိအမှတ်ပြုခြင်း ရှိ/မရှိသည် အဓိက ဆုံးဖြတ်ချက်ပေးမည့် စံနှုန်း ဖြစ်သည်။",
+    "NP": "दुर्घटनाको कारणको कारण-कार्य सम्बन्ध: निवेदकले सिग्नल उल्लंघन गरेको भए तापनि विपक्षी गाडीको गम्भीर लापरबाही नै दुर्घटनाको प्रत्यक्ष कारण को रूपमा स्वीकार हुन्छ वा हुँदैन भन्ने नै मुख्य निर्णय मापदण्ड हो।",
+    "TH": "ความสัมพันธ์เชิงเหตุผลของสาเหตุอุบัติเหตุ: เกณฑ์การตัดสินหลักคือ แม้ว่าผู้ร้องขอจะฝ่าฝืนสัญญาณไฟจราจร แต่ความประมาทเลินเล่ออย่างร้ายแรงของรถคู่กรณีได้รับการยอมรับว่าเป็นสาเหตุโดยตรงของอุบัติเหตุหรือไม่"
+  },
+  "two_decision": {
+    "KO": "상대방의 중대한 과실이 사고의 주요 원인이므로 업무상 재해로 인정. 최초요양 불승인 처분은 취소.",
+    "EN": "The opposing party's gross negligence was the primary cause of the accident; therefore, it is recognized as a work-related injury. The initial denial of medical treatment benefits is revoked.",
+    "VN": "Lỗi nghiêm trọng của đối phương là nguyên nhân chính gây ra tai nạn, do đó được công nhận là tai nạn lao động. Quyết định từ chối bồi thường chi phí điều trị ban đầu bị hủy bỏ.",
+    "ID": "Kelalaian serius pihak lawan diakui sebagai penyebab utama kecelakaan, sehingga diakui sebagai kecelakaan kerja. Keputusan penolakan awal ditolak.",
+    "RU": "Грубая небрежность встречного участника движения была основной причиной ДТП, поэтому оно признано производственной травмой. Первоначальное решение об отказе в медицинской помощи отменено.",
+    "MM": "တစ်ဖက်ယာဉ်၏ ကြီးလေးသော ပေါ့ဆမှုသည် မတော်တဆမှု၏ အဓိကအကြောင်းရင်းဖြစ်သောကြောင့် လုပ်ငန်းခွင်ဆိုင်ရာ ဘေးဥပဒ်အဖြစ် အသိအမှတ်ပြုသည်။ ပထမအကြိမ် ဆေးကုသခွင့် ပယ်ချခဲ့သော အမိန့်ကို ပယ်ဖျက်ခဲ့သည်။",
+    "NP": "विपक्षी पक्षको गम्भीर लापरबाही नै दुर्घटनाको मुख्य कारण भएकोले कामको क्रममा भएको दुर्घटना को रूपमा स्वीकार गरियो। पहिलो पटक उपचार अस्वीकार गरिएको निर्णय रद्द गरियो।",
+    "TH": "เนื่องจากความประมาทเลินเล่ออย่างร้ายแรงของคู่กรณีเป็นสาเหตุหลักของอุบัติเหตุ จึงได้รับการยอมรับว่าเป็นอุบัติเหตุจากการทำงาน คำสั่งปฏิเสธการรักษาพยาบาลครั้งแรกจึงถูกยกเลิก"
+  },
+  "two_laws0": {
+    "KO": "•\t산재보험법 제5조(정의)\r\n",
+    "EN": "•\tIndustrial Accident Compensation Insurance Act, Article 5 (Definitions)\r\n",
+    "VN": "•\tĐiều 5 (Định nghĩa) của \"Luật bảo hiểm tai nạn lao động\"\r\n",
+    "ID": "•\t「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 5 (Definisi)\r\n",
+    "RU": "•\tЗакон о страховании от несчастных случаев на производстве, статья 5 (Определения)\r\n",
+    "MM": "「စက်မှုထိခိုက်မှု အာမခံ ဥပဒေ (산재보험법)」 ပုဒ်မ ၅ (အဓိပ္ပာယ်ဖွင့်ဆိုချက်)\r\n\r\n",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन (산재보험법)」 धारा ५ (परिभाषा)\r\n\r\n",
+    "TH": "「พระราชบัญญัติประกันภัยเงินทดแทนผู้ประสบภัยจากงาน (산재보험법)」 มาตรา ๕ (คำนิยาม)\r\n\r\n"
+  },
+  "two_laws1": {
+    "KO": "•\t산재보험법 제37조(업무상의 재해의 인정기준)\r\n",
+    "EN": "•    Industrial Accident Compensation Insurance Act, Article 37 (Criteria for Recognizing Work-Related Injuries)\r\n",
+    "VN": "•    Điều 37 (Tiêu chí công nhận tai nạn lao động) của \"Luật bảo hiểm tai nạn lao động\"\r\n",
+    "ID": "•    「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 37 (Kriteria Pengakuan Kecelakaan Kerja)\r\n",
+    "RU": "•    Закон о страховании от несчастных случаев на производстве, статья 37 (Критерии признания производственных травм)\r\n",
+    "MM": "「စက်မှုထိခိုက်မှု အာမခံ ဥပဒေ (산재보험법)」 ပုဒ်မ ၃၇ (လုပ်ငန်းခွင်ဆိုင်ရာ ဘေးဥပဒ် အသိအမှတ်ပြုခြင်း စံနှုန်း)\r\n\r\n",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन (산재보험법)」 धारा ३७ (कामको क्रममा भएको दुर्घटनाको मान्यता मापदण्ड)\r\n\r\n",
+    "TH": "「พระราชบัญญัติประกันภัยเงินทดแทนผู้ประสบภัยจากงาน (산재보험법)」 มาตรา ๓๗ (เกณฑ์การยอมรับอุบัติเหตุจากการทำงาน)\r\n\r\n"
+  },
+  "two_laws2": {
+    "KO": "•\t「산재보험법 시행령」 제27조(업무수행 중의 사고)",
+    "EN": "•    Industrial Accident Compensation Insurance Act Enforcement Decree, Article 27 (Accidents During Work Performance)",
+    "VN": "•    Điều 27 (Tai nạn trong khi làm việc) của \"Nghị định thi hành Luật bảo hiểm tai nạn lao động\"",
+    "ID": "•    「Peraturan Pelaksanaan Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 27 (Kecelakaan Selama Pelaksanaan Pekerjaan)",
+    "RU": "•    Постановление о применении Закона о страховании от несчастных случаев на производстве, статья 27 (Несчастные случаи, произошедшие во время работы)",
+    "MM": "「စက်မှုထိခိုက်မှု အာမခံ ဥပဒေ ပြန်တမ်း (산재보험법 시행령)」 ပုဒ်မ ၂၇ (လုပ်ငန်းဆောင်ရွက်နေစဥ်အတွင်း ဖြစ်ပွားသော မတော်တဆမှု)",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुनको कार्यान्वयन नियमावली (산재보험법 시행령)」 धारा २७ (काम गर्ने क्रममा भएको दुर्घटना)",
+    "TH": "「กฎกระทรวงตามพระราชบัญญัติประกันภัยเงินทดแทนผู้ประสบภัยจากงาน (산재보험법 시행령)」 มาตรา ๒๗ (อุบัติเหตุระหว่างการปฏิบัติงาน)"
+  },
+  "three_title": {
+    "KO": "횡단보도 자전거 충돌 사고",
+    "EN": "Crosswalk Bicycle Collision",
+    "VN": "Vụ Va Chạm Xe Đạp Tại Vạch Qua Đường",
+    "ID": "Tabrakan Sepeda di Penyeberangan Zebra Cross",
+    "RU": "Столкновение с Велосипедом на Пешеходном Переходе",
+    "MM": "လမ်းကူးမျဉ်းပေါ်တွင် စက်ဘီးတိုက်မှု",
+    "NP": "क्रसवाकमा साइकलसँग ठोक्किएर भएको दुर्घटना",
+    "TH": "การชนกันของจักรยานบนทางม้าลาย"
+  },
+  "three_summary0": {
+    "KO": "•\t승인 여부: 승인\r\n",
+    "EN": "Approval Status: Approved\r\n\r\n",
+    "VN": "Tình trạng Phê duyệt: Được Phê duyệt (승인)\r\n\r\n",
+    "ID": "Status Persetujuan: Disetujui (승인)\r\n\r\n",
+    "RU": "Статус Одобрения: Одобрено (승인)\r\n\r\n",
+    "MM": "အတည်ပြု အခြေအနေ: အတည်ပြုခဲ့သည် (승인)\r\n\r\n",
+    "NP": "स्वीकृतिको स्थिति: स्वीकृत (स्वीकृत)\r\n\r\n",
+    "TH": "สถานะการอนุมัติ: อนุมัติ (승인)\r\n\r\n"
+  },
+  "three_summary1": {
+    "KO": "•\t발생 일시: 2024. 2. 14. 21:00경\r\n",
+    "EN": "Date/Time of Incident: Approximately 21:00, February 14, 2024\r\n\r\n",
+    "VN": "Thời gian Xảy ra: Khoảng 21:00, ngày 14 tháng 2 năm 2024\r\n\r\n",
+    "ID": "Tanggal/Waktu Kejadian: Kira-kira pukul 21.00, 14 Februari 2024\r\n\r\n",
+    "RU": "Дата/Время Происшествия: Приблизительно 21:00, 14 февраля 2024 г.\r\n\r\n",
+    "MM": "ဖြစ်ပွားသည့် နေ့စွဲ/အချိန်: ဖေဖော်ဝါရီ ၁၄ ရက်၊ ၂၀၂၄ ခုနှစ်၊ ည ၉ နာရီခန့်\r\n\r\n",
+    "NP": "घटना भएको मिति/समय: लगभग २०८० फागुन २ गते (फेब्रुअरी १४, २०२४) राति २१:०० बजे\r\n\r\n",
+    "TH": "วัน/เวลาเกิดเหตุ: ประมาณ 21:00 น. วันที่ 14 กุมภาพันธ์ 2024\r\n\r\n"
+  },
+  "three_summary2": {
+    "KO": "•\t발생 장소: ○○시 ○○구 ○○로 23 인근\r\n",
+    "EN": "Location of Incident: Near 23, ○○-ro, ○○-gu, ○○-si\r\n\r\n",
+    "VN": "Địa điểm Xảy ra: Gần 23, ○○-ro, ○○-gu, ○○-si\r\n\r\n",
+    "ID": "Lokasi Kejadian: Dekat 23, ○○-ro, ○○-gu, ○○-si\r\n\r\n",
+    "RU": "Место Происшествия: Рядом с 23, ○○-ro, ○○-gu, ○○-si\r\n\r\n",
+    "MM": "ဖြစ်ပွားသည့် နေရာ: ○○-ro, ○○-gu, ○○-si, နံပါတ် ၂၃ အနီး\r\n\r\n",
+    "NP": "घटना भएको स्थान: ○○-si, ○○-gu, ○○-ro २३ नजिक\r\n\r\n",
+    "TH": "สถานที่เกิดเหตุ: ใกล้ 23, ○○-ro, ○○-gu, ○○-si\r\n\r\n"
+  },
+  "three_summary3": {
+    "KO": "•\t근로자 정보: 배달 기사 (오토바이 운전)\r\n",
+    "EN": "Worker Information: Delivery Rider (Motorcycle Operator)\r\n\r\n",
+    "VN": "Thông tin Người lao động: Tài xế Giao hàng (Lái xe mô tô)\r\n\r\n",
+    "ID": "Informasi Pekerja: Pengemudi Pengiriman (Pengemudi Sepeda Motor)\r\n\r\n",
+    "RU": "Информация о Работнике: Курьер (Водитель мотоцикла)\r\n\r\n",
+    "MM": "အလုပ်သမား သတင်းအချက်အလက်: ပို့ဆောင်ရေးသမား (ဆိုင်ကယ် မောင်းသူ)\r\n\r\n",
+    "NP": "श्रमिकको जानकारी: डेलिभरी चालक (मोटरसाइकल चालक)\r\n\r\n",
+    "TH": "ข้อมูลคนงาน: พนักงานขับรถส่งของ (ผู้ขับขี่รถจักรยานยนต์)\r\n\r\n"
+  },
+  "three_summary4": {
+    "KO": "•\t상병명: 다발성 늑골골절(우측 5~11번째)",
+    "EN": "Diagnosis (Injury): Multiple rib fractures (5th to 11th ribs on the right side)",
+    "VN": "Chẩn đoán (Thương tật): Gãy đa xương sườn (Xương sườn thứ 5 đến 11 bên phải)",
+    "ID": "Diagnosis (Cedera): Patah tulang rusuk multipel (Tulang rusuk ke-5 hingga ke-11 sisi kanan)",
+    "RU": "Диагноз (Травма): Множественные переломы ребер (с 5-го по 11-е ребро справа)",
+    "MM": "ရောဂါရှာဖွေခြင်း (ထိခိုက်ဒဏ်ရာ): နံရိုးများစွာ ကျိုးခြင်း (ညာဘက် နံရိုး ၅ မှ ၁၁)",
+    "NP": "रोगको नाम (चोट): धेरै करङ भाँचिनु (दायाँतर्फ ५ देखि ११ औं करङ)",
+    "TH": "การวินิจฉัย (อาการบาดเจ็บ): กระดูกซี่โครงหักหลายซี่ (ซี่โครงซี่ที่ 5 ถึง 11 ด้านขวา)"
+  },
+  "three_situation": {
+    "KO": "오토바이 운전 중 횡단보도를 건너는 자전거와 부딪치며 발생한 사고를 재해자의 위법한 행위에 의한 사고로 보아 요양 불승인한 사건에 대하여, 청구인의 행위를 “횡단보도에서의 보행자 보호의무” 위반이 아닌 “안전운전의무”를 위반한 정도로 보아 원처분 “취소” 결정한 사례",
+    "EN": "The original decision to deny medical treatment coverage was made on the grounds that the accident, which occurred when the worker's motorcycle collided with a bicycle crossing a crosswalk, was caused by the worker's unlawful act.\r\n\r\nThe subsequent review, however, determined that the claimant's action constituted a violation of the \"Duty to Drive Safely\" rather than a violation of the \"Duty to Protect Pedestrians at a Crosswalk.\" Consequently, the original denial (disposition) was reversed (canceled).",
+    "VN": "Ban đầu, quyết định từ chối chi trả chi phí điều trị y tế được đưa ra, xem vụ tai nạn xảy ra khi xe mô tô của người lao động va chạm với một chiếc xe đạp đang qua vạch kẻ đường là do hành vi vi phạm pháp luật của người bị nạn.\r\n\r\nTuy nhiên, cuộc xem xét lại sau đó đã xác định hành vi của người yêu cầu bồi thường chỉ là vi phạm \"Nghĩa vụ Lái xe An toàn\" chứ không phải là vi phạm \"Nghĩa vụ Bảo vệ Người đi bộ tại Vạch Qua Đường.\" Do đó, quyết định từ chối ban đầu đã bị hủy bỏ (취소).",
+    "ID": "Keputusan awal untuk menolak pertanggungan perawatan medis dibuat karena kecelakaan tersebut, yang terjadi ketika sepeda motor pekerja bertabrakan dengan sepeda yang sedang menyeberang di zebra cross, dianggap disebabkan oleh tindakan melanggar hukum pekerja.\r\n\r\nNamun, peninjauan berikutnya menetapkan bahwa tindakan penggugat merupakan pelanggaran terhadap \"Kewajiban Mengemudi Aman\" (안전운전의무) dan bukan pelanggaran terhadap \"Kewajiban Melindungi Pejalan Kaki di Penyeberangan\" (보행자 보호의무). Akibatnya, keputusan penolakan awal (disposisi) dibatalkan (취소).",
+    "RU": "Первоначальное решение отказать в покрытии расходов на лечение было принято на том основании, что несчастный случай, произошедший, когда мотоцикл работника столкнулся с велосипедом, пересекающим пешеходный переход, был вызван незаконным действием работника.\r\n\r\nОднако последующее рассмотрение определило, что действия заявителя представляли собой нарушение \"Обязанности безопасного вождения\" (안전운전의무), а не нарушение \"Обязанности защищать пешеходов на пешеходном переходе\" (보행자 보호의무). Следовательно, первоначальное решение об отказе было отменено (취소).",
+    "MM": "အလုပ်သမား၏ ဆိုင်ကယ်သည် လမ်းကူးမျဉ်းပေါ်မှ ဖြတ်ကူးလာသော စက်ဘီးနှင့် တိုက်မိသည့် ဖြစ်စဉ်အား၊ အလုပ်သမား၏ ဥပဒေချိုးဖောက်သော လုပ်ရပ်ကြောင့် ဖြစ်ပွားသည်ဟု ယူဆကာ ဆေးကုသမှု အကျိုးခံစားခွင့်ကို မူလက ပယ်ချရန် ဆုံးဖြတ်ခဲ့သည်။\r\n\r\nသို့သော် နောက်ပိုင်း စိစစ်ချက်တွင် တောင်းဆိုသူ၏ လုပ်ရပ်သည် \"လမ်းသွားလမ်းလာ ကာကွယ်ရန် တာဝန်\" (보행자 보호의무) ကို ချိုးဖောက်ခြင်း မဟုတ်ဘဲ \"ဘေးအန္တရာယ် ကင်းရှင်းစွာ မောင်းနှင်ရန် တာဝန်\" (안전운전의무) ကို ချိုးဖောက်သည့် အဆင့်သာ ဖြစ်သည်ဟု ဆုံးဖြတ်ခဲ့သည်။ ထို့ကြောင့် မူလ ပယ်ချခဲ့သည့် ဆုံးဖြတ်ချက်အား ပယ်ဖျက်ခဲ့သည် (취소)။",
+    "NP": "सुरुमा, कामदारको मोटरसाइकल पैदल यात्रु क्रस गर्ने बाटोमा साइकलसँग ठोक्किएर भएको दुर्घटनालाई कामदारको गैरकानूनी कार्य को कारण भएको भनी चिकित्सा उपचार कभरेज अस्वीकार गर्ने निर्णय गरिएको थियो।\r\n\r\nतर, पछिल्लो समीक्षामा, दाबीकर्ताको कार्यलाई \"पैदल यात्रुहरूलाई सुरक्षा दिने कर्तव्य\" (보행자 보호의무) को उल्लङ्घन नभई \"सुरक्षित ड्राइभिङको कर्तव्य\" (안전운전의무) को उल्लङ्घनको रूपमा मात्र लिइयो। फलस्वरूप, सुरुको अस्वीकार गर्ने निर्णय रद्द (취소) गरियो।",
+    "TH": "การตัดสินใจครั้งแรกคือ ปฏิเสธ ความคุ้มครองการรักษาพยาบาล เนื่องจากอุบัติเหตุที่เกิดขึ้นเมื่อรถจักรยานยนต์ของคนงานชนกับจักรยานที่กำลังข้ามทางม้าลายนั้น ถือว่าเกิดจาก การกระทำที่ผิดกฎหมายของคนงานเอง\r\nอย่างไรก็ตาม การทบทวนในภายหลังได้ตัดสินว่าการกระทำของผู้เรียกร้องเป็นการละเมิด \"หน้าที่ในการขับขี่อย่างปลอดภัย\" (안전운전의무) มากกว่าจะเป็นการละเมิด \"หน้าที่ในการปกป้องคนเดินเท้าบนทางม้าลาย\" (보행자 보호의무) ดังนั้น การตัดสินใจปฏิเสธในตอนแรกจึง ถูกยกเลิก (취소)\r\n"
+  },
+  "three_facts0": {
+    "KO": "•\t청구인은 오토바이를 운전하다가 횡단보도를 건너던 자전거와 충돌.\r\n",
+    "EN": "The claimant was operating a motorcycle when they collided with a bicycle that was crossing the crosswalk.\r\n\r\n",
+    "VN": "Người yêu cầu bồi thường đang lái xe mô tô và va chạm với một chiếc xe đạp đang đi qua vạch kẻ đường.\r\n\r\n",
+    "ID": "Penggugat sedang mengendarai sepeda motor ketika bertabrakan dengan sepeda yang sedang melintasi zebra cross.\r\n\r\n",
+    "RU": "Заявитель управлял мотоциклом и столкнулся с велосипедом, который пересекал пешеходный переход.\r\n\r\n",
+    "MM": "တောင်းဆိုသူသည် ဆိုင်ကယ် မောင်းနှင်နေစဉ် လမ်းကူးမျဉ်းပေါ်မှ ဖြတ်ကူးလာသော စက်ဘီးနှင့် တိုက်မိခဲ့သည်။\r\n\r\n",
+    "NP": "दाबीकर्ता मोटरसाइकल चलाउँदै गर्दा क्रसवाक पार गर्दै गरेको साइकलसँग ठोक्किए।\r\n\r\n",
+    "TH": "ผู้เรียกร้องกำลังขับขี่รถจักรยานยนต์เมื่อชนกับจักรยานที่กำลังข้ามทางม้าลาย\r\n\r\n"
+  },
+  "three_facts1": {
+    "KO": "•\t교통사고사실확인원 및 현장 자료에 따르면, 청구인은 갑작스러운 자전거 운전자 출현을 피하려다 전도.\r\n",
+    "EN": "According to the traffic accident report and on-site data, the claimant fell over while attempting to avoid the sudden appearance of the bicycle operator.\r\n\r\n",
+    "VN": "Theo Biên bản Xác nhận Tai nạn Giao thông và dữ liệu hiện trường, người yêu cầu bồi thường đã ngã xuống khi cố gắng tránh sự xuất hiện đột ngột của người lái xe đạp.\r\n\r\n",
+    "ID": "Berdasarkan Laporan Verifikasi Fakta Kecelakaan Lalu Lintas dan data di lokasi, penggugat terjatuh saat mencoba menghindari kemunculan tiba-tiba pengendara sepeda.\r\n\r\n",
+    "RU": "Согласно Протоколу проверки фактов дорожно-транспортного происшествия и данным с места происшествия, заявитель упал, пытаясь избежать внезапного появления велосипедиста.\r\n\r\n",
+    "MM": "ယာဉ်မတော်တဆမှု အချက်အလက် စစ်ဆေးချက်နှင့် ဖြစ်ပွားရာ နေရာမှ အချက်အလက်များအရ၊ စက်ဘီးစီးသူ ရုတ်တရက် ထွက်ပေါ်လာခြင်းကို ရှောင်ရှားရန် ကြိုးပမ်းရင်း တောင်းဆိုသူ လဲကျခဲ့သည်။\r\n\r\n",
+    "NP": "ट्राफिक दुर्घटना तथ्य जाँच रिपोर्ट र घटनास्थलको तथ्याङ्क अनुसार, साइकल चालक अचानक देखा परेकाले उसलाई बचाउन खोज्दा दाबीकर्ता लडेका थिए।\r\n\r\n",
+    "TH": "ตามรายงานการยืนยันข้อเท็จจริงอุบัติเหตุจราจรและข้อมูลในที่เกิดเหตุ ผู้เรียกร้องล้มลงขณะพยายามหลีกเลี่ยงการปรากฏตัวอย่างกะทันหันของผู้ขับขี่จักรยาน\r\n\r\n"
+  },
+  "three_facts2": {
+    "KO": "•\t자전거 운전자는 피해를 입지 않았으나 청구인은 늑골 골절 부상.\r\n",
+    "EN": "The bicycle operator was not injured, but the claimant sustained rib fractures.\r\n\r\n",
+    "VN": "Người lái xe đạp không bị thương, nhưng người yêu cầu bồi thường bị gãy xương sườn.\r\n\r\n",
+    "ID": "Pengendara sepeda tidak terluka, tetapi penggugat mengalami patah tulang rusuk.\r\n\r\n",
+    "RU": "Велосипедист не пострадал, но заявитель получил переломы ребер.\r\n\r\n",
+    "MM": "စက်ဘီးစီးသူ ထိခိုက်ဒဏ်ရာ မရရှိခဲ့သော်လည်း တောင်းဆိုသူ နံရိုးများ ကျိုးသည့် ဒဏ်ရာ ရရှိခဲ့သည်။\r\n\r\n",
+    "NP": "साइकल चालकलाई चोटपटक लागेन, तर दाबीकर्ताको करङ भाँचियो।\r\n\r\n",
+    "TH": "ผู้ขับขี่จักรยานไม่ได้รับบาดเจ็บ แต่ผู้เรียกร้องได้รับบาดเจ็บกระดูกซี่โครงหัก\r\n\r\n"
+  },
+  "three_facts3": {
+    "KO": "•\t원처분기관은 보행자 보호의무 위반으로 보아 불승인했으나, 심사위는 안전운전의무 위반 수준으로 판단.\r\n\r\n",
+    "EN": "The initial decision-making body (original authority) denied the claim, viewing it as a violation of the duty to protect pedestrians, but the Review Committee judged it to be a lesser violation of the duty to drive safely.",
+    "VN": "Cơ quan quyết định ban đầu đã từ chối yêu cầu, coi đây là vi phạm nghĩa vụ bảo vệ người đi bộ, nhưng Ủy ban Đánh giá đã phán quyết đây chỉ ở mức độ vi phạm nghĩa vụ lái xe an toàn.",
+    "ID": "Badan pembuat keputusan awal (otoritas asli) menolak klaim tersebut, menganggapnya sebagai pelanggaran kewajiban melindungi pejalan kaki, tetapi Komite Peninjau menilai itu hanya sebagai pelanggaran kewajiban mengemudi aman.",
+    "RU": "Первоначальный орган, принявший решение, отказал в иске, расценив это как нарушение обязанности защищать пешеходов, но Комитет по рассмотрению оценил это только как нарушение обязанности безопасного вождения.",
+    "MM": "မူလ ဆုံးဖြတ်ချက်ချသည့် အဖွဲ့အစည်းက ယင်းအား လမ်းသွားလမ်းလာ ကာကွယ်ရန် တာဝန်ကို ချိုးဖောက်ခြင်းဟု မှတ်ယူကာ တောင်းဆိုမှုကို ပယ်ချခဲ့သော်လည်း စိစစ်ရေး ကော်မတီက ဘေးအန္တရာယ် ကင်းရှင်းစွာ မောင်းနှင်ရန် တာဝန်ကို ချိုးဖောက်သည့် အဆင့်သာ ဖြစ်သည်ဟု ဆုံးဖြတ်ခဲ့သည်။",
+    "NP": "प्रारम्भिक निर्णय गर्ने निकायले यसलाई पैदल यात्रु सुरक्षाको कर्तव्यको उल्लङ्घन मानेर दाबी अस्वीकार गरेको थियो, तर समीक्षा समितिले यसलाई सुरक्षित ड्राइभिङको कर्तव्यको उल्लङ्घन को स्तरको रूपमा मूल्याङ्कन गर्‍यो।",
+    "TH": "หน่วยงานตัดสินใจเดิม (หน่วยงานเริ่มต้น) ปฏิเสธการเรียกร้อง โดยมองว่าเป็น การละเมิดหน้าที่ในการปกป้องคนเดินเท้า แต่คณะกรรมการทบทวนตัดสินว่าเป็นการละเมิด หน้าที่ในการขับขี่อย่างปลอดภัย ในระดับที่น้อยกว่า"
+  },
+  "three_important0": {
+    "KO": "•\t법령위반의 성격 구분: 사고가 「보행자 보호의무」 위반으로 인한 중대한 위법행위인지, 단순한 「안전운전의무」 위반에 해당하는지가 쟁점.\r\n",
+    "EN": "Distinction of Legal Violation: The central issue was whether the accident resulted from a serious unlawful act (violation of the \"Duty to Protect Pedestrians\") or merely a violation of the \"Duty to Drive Safely.\"\r\n\r\n",
+    "VN": "Phân biệt Bản chất Vi phạm Pháp luật: Vấn đề trọng tâm là liệu vụ tai nạn là kết quả của một hành vi vi phạm pháp luật nghiêm trọng (vi phạm \"Nghĩa vụ Bảo vệ Người đi bộ\") hay chỉ là vi phạm \"Nghĩa vụ Lái xe An toàn\" đơn thuần.\r\n\r\n",
+    "ID": "Pembedaan Sifat Pelanggaran Hukum: Isu utamanya adalah apakah kecelakaan itu disebabkan oleh tindakan melanggar hukum yang serius (pelanggaran \"Kewajiban Melindungi Pejalan Kaki\") atau hanya pelanggaran \"Kewajiban Mengemudi Aman\".\r\n\r\n",
+    "RU": "Разграничение Характера Нарушения Закона: Центральным вопросом было, явился ли несчастный случай результатом серьезного противоправного действия (нарушения \"Обязанности защищать пешеходов\") или просто нарушением \"Обязанности безопасного вождения\".\r\n\r\n",
+    "MM": "ဥပဒေချိုးဖောက်မှု၏ သဘောသဘာဝ ခွဲခြားသတ်မှတ်ခြင်း: အဓိက ပြဿနာမှာ မတော်တဆမှုသည် ပြင်းထန်သော ဥပဒေချိုးဖောက်မှု (\"လမ်းသွားလမ်းလာ ကာကွယ်ရန် တာဝန်\" ချိုးဖောက်မှု) မှ ဖြစ်ပွားခြင်းလား၊ သို့မဟုတ် ရိုးရှင်းသော \"ဘေးအန္တရာယ် ကင်းရှင်းစွာ မောင်းနှင်ရန် တာဝန်\" ချိုးဖောက်မှု သာ ဖြစ်ခြင်းလား ဆိုသည်ကို ပိုင်းခြားရန် ဖြစ်သည်။\r\n\r\n",
+    "NP": "कानूनी उल्लङ्घनको प्रकृतिको भिन्नता: दुर्घटना गम्भीर गैरकानूनी कार्य (\"पैदल यात्रु सुरक्षाको कर्तव्य\" को उल्लङ्घन) को परिणाम हो वा सामान्य \"सुरक्षित ड्राइभिङको कर्तव्य\" को उल्लङ्घन मात्र हो भन्ने मुख्य मुद्दा थियो।\r\n\r\n",
+    "TH": "การแยกแยะลักษณะการละเมิดกฎหมาย: ประเด็นหลักคืออุบัติเหตุนี้เป็นผลมาจากการกระทำที่ผิดกฎหมายอย่างร้ายแรง (การละเมิด \"หน้าที่ในการปกป้องคนเดินเท้า\") หรือเป็นเพียงการละเมิด \"หน้าที่ในการขับขี่อย่างปลอดภัย\"\r\n\r\n"
+  },
+  "three_important1": {
+    "KO": "•\t업무수행성 인정 여부: 위법행위의 정도가 업무수행성을 상실할 정도인지, 업무상 재해로 보호할 수 있는 범위에 속하는지가 핵심 판단 기준.",
+    "EN": "Recognition of Work Performance: The core criterion for judgment was whether the degree of the unlawful act was severe enough to negate the work-relatedness (i.e., whether it fell within the scope of protection as an industrial accident).",
+    "VN": "Công nhận Tính chất Thực hiện Công việc: Tiêu chí cốt lõi để đưa ra phán quyết là liệu mức độ vi phạm pháp luật có đủ nghiêm trọng để làm mất đi tính chất thực hiện công việc hay không (tức là có thuộc phạm vi được bảo vệ là tai nạn lao động hay không).",
+    "ID": "Pengakuan Pelaksanaan Tugas: Kriteria inti untuk penilaian adalah apakah tingkat pelanggaran hukum cukup parah untuk menghilangkan sifat pelaksanaan tugas (yaitu, apakah kecelakaan tersebut masih dalam cakupan perlindungan sebagai kecelakaan kerja).",
+    "RU": "Признание Связи с Выполнением Работы: Основным критерием для принятия решения было, является ли степень нарушения закона достаточно серьезной, чтобы исключить связь с выполнением работы (то есть, подпадает ли несчастный случай под сферу защиты как производственная травма).",
+    "MM": "အလုပ်တာဝန် ထမ်းဆောင်မှု အသိအမှတ်ပြုခြင်း: ဥပဒေချိုးဖောက်မှု၏ အတိုင်းအတာသည် အလုပ်နှင့် သက်ဆိုင်မှုကို ပျက်ပြားသွားစေနိုင်လောက်အောင် ပြင်းထန်ခြင်း ရှိ၊ မရှိ (ဆိုလိုသည်မှာ ၎င်းသည် အလုပ်သမား နစ်နာကြေးအဖြစ် အကာအကွယ်ပေးနိုင်သည့် နယ်ပယ်အတွင်း ပါဝင်ခြင်း ရှိ၊ မရှိ) သည် ဆုံးဖြတ်ချက်အတွက် အဓိက စံနှုန်း ဖြစ်သည်။",
+    "NP": "कामको कार्यसम्पादनको मान्यता: कानूनी उल्लङ्घनको हद कामको कार्यसम्पादनको प्रकृतिलाई समाप्त पार्न पर्याप्त छ कि छैन (अर्थात्, यो औद्योगिक दुर्घटनाको रूपमा संरक्षणको दायरा भित्र पर्छ कि पर्दैन) भन्ने नै मुख्य निर्णयको मापदण्ड थियो।",
+    "TH": "การรับรองการปฏิบัติงาน: เกณฑ์หลักในการตัดสินคือ ระดับของการละเมิดกฎหมายรุนแรงพอที่จะ ทำให้ความเป็น \"การปฏิบัติงาน\" สิ้นสุดลง หรือไม่ (นั่นคือ ยังอยู่ในขอบเขตการคุ้มครองในฐานะอุบัติเหตุในอุตสาหกรรมหรือไม่)"
+  },
+  "three_decision": {
+    "KO": "청구인의 행위는 “보행자 보호의무 위반”이 아니라 “안전운전의무 위반” 수준으로 인정됨. 따라서 업무상 재해에 해당하며 최초요양 불승인 처분은 취소.",
+    "EN": "The claimant's action was recognized as a violation of the \"Duty to Drive Safely,\" not the \"Duty to Protect Pedestrians.\" Therefore, the incident is classified as a work-related accident (Industrial Accident), and the initial disposition denying medical treatment was canceled.",
+    "VN": "Hành vi của người yêu cầu bồi thường được công nhận là vi phạm \"Nghĩa vụ Lái xe An toàn,\" chứ không phải \"Nghĩa vụ Bảo vệ Người đi bộ.\" Do đó, vụ việc này được phân loại là tai nạn lao động, và quyết định ban đầu từ chối điều trị y tế đã bị hủy bỏ.",
+    "ID": "Tindakan penggugat diakui sebagai pelanggaran \"Kewajiban Mengemudi Aman,\" dan bukan \"Kewajiban Melindungi Pejalan Kaki.\" Oleh karena itu, insiden tersebut diklasifikasikan sebagai kecelakaan kerja, dan keputusan awal yang menolak perawatan medis dibatalkan.",
+    "RU": "Действие заявителя было признано нарушением \"Обязанности безопасного вождения,\" а не \"Обязанности защищать пешеходов.\" Следовательно, данный инцидент классифицируется как производственная травма, и первоначальное решение об отказе в лечении было отменено.",
+    "MM": "တောင်းဆိုသူ၏ လုပ်ရပ်သည် \"ဘေးအန္တရာယ် ကင်းရှင်းစွာ မောင်းနှင်ရန် တာဝန်\" ကို ချိုးဖောက်ခြင်းအဖြစ် အသိအမှတ်ပြုခံရပြီး၊ \"လမ်းသွားလမ်းလာ ကာကွယ်ရန် တာဝန်\" ချိုးဖောက်ခြင်း မဟုတ်ပေ။ ထို့ကြောင့်၊ ဤဖြစ်စဉ်ကို အလုပ်နှင့်သက်ဆိုင်သော မတော်တဆမှုအဖြစ် သတ်မှတ်ပြီး မူလ ဆေးကုသမှု ငြင်းပယ်သည့် ဆုံးဖြတ်ချက်အား ပယ်ဖျက်ခဲ့သည်။",
+    "NP": "दाबीकर्ताको कार्यलाई \"सुरक्षित ड्राइभिङको कर्तव्य\" को उल्लङ्घनको रूपमा मान्यता दिइयो, न कि \"पैदल यात्रु सुरक्षाको कर्तव्य\" को। तसर्थ, यो घटनालाई औद्योगिक दुर्घटनाको रूपमा वर्गीकृत गरिएको छ, र चिकित्सा उपचार अस्वीकार गर्ने प्रारम्भिक निर्णय रद्द गरियो।",
+    "TH": "การกระทำของผู้เรียกร้องได้รับการยอมรับว่าเป็นการละเมิด \"หน้าที่ในการขับขี่อย่างปลอดภัย\" ไม่ใช่ \"หน้าที่ในการปกป้องคนเดินเท้า\" ดังนั้น เหตุการณ์นี้จึงถูกจัดเป็นอุบัติเหตุที่เกี่ยวข้องกับการทำงาน (อุบัติเหตุในอุตสาหกรรม) และคำสั่งเดิมที่ปฏิเสธการรักษาพยาบาลจึง ถูกยกเลิก"
+  },
+  "three_laws0": {
+    "KO": "•\t산재보험법 제5조(정의)\r\n",
+    "EN": "Industrial Accident Compensation Insurance Act (Sanjae Insurance Act), Article 5 (Definitions)\r\n\r\n",
+    "VN": "Luật Bảo hiểm Bồi thường Tai nạn Lao động (Luật Bảo hiểm Sanjae), Điều 5 (Định nghĩa)\r\n\r\n",
+    "ID": "Undang-Undang Asuransi Kompensasi Kecelakaan Industri (Undang-Undang Asuransi Sanjae), Pasal 5 (Definisi)\r\n\r\n",
+    "RU": "Закон о страховании компенсации несчастных случаев на производстве (Закон о страховании Sanjae), Статья 5 (Определения)\r\n\r\n",
+    "MM": "စက်မှုလုပ်ငန်း မတော်တဆမှု လျော်ကြေး အာမခံ ဥပဒေ (Sanjae အာမခံ ဥပဒေ), ပုဒ်မ ၅ (အဓိပ္ပာယ်ဖွင့်ဆိုချက်များ)\r\n\r\n",
+    "NP": "औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन (Sanjae बीमा ऐन), धारा ५ (परिभाषाहरू)\r\n\r\n",
+    "TH": "พระราชบัญญัติประกันภัยค่าชดเชยอุบัติเหตุในอุตสาหกรรม (พระราชบัญญัติประกันภัย Sanjae), มาตรา 5 (คำจำกัดความ)\r\n\r\n"
+  },
+  "three_laws1": {
+    "KO": "•\t산재보험법 제37조(업무상의 재해의 인정기준)\r\n",
+    "EN": "Industrial Accident Compensation Insurance Act (Sanjae Insurance Act), Article 37 (Criteria for Recognition of Work-Related Accident)\r\n\r\n",
+    "VN": "Luật Bảo hiểm Bồi thường Tai nạn Lao động (Luật Bảo hiểm Sanjae), Điều 37 (Tiêu chí Công nhận Tai nạn Lao động)\r\n\r\n",
+    "ID": "Undang-Undang Asuransi Kompensasi Kecelakaan Industri (Undang-Undang Asuransi Sanjae), Pasal 37 (Kriteria Pengakuan Kecelakaan Kerja)\r\n\r\n",
+    "RU": "Закон о страховании компенсации несчастных случаев на производстве (Закон о страховании Sanjae), Статья 37 (Критерии признания несчастного случая на производстве)\r\n\r\n",
+    "MM": "စက်မှုလုပ်ငန်း မတော်တဆမှု လျော်ကြေး အာမခံ ဥပဒေ (Sanjae အာမခံ ဥပဒေ), ပုဒ်မ ၃၇ (အလုပ်နှင့် သက်ဆိုင်သော မတော်တဆမှု အသိအမှတ်ပြုခြင်း စံနှုန်းများ)\r\n\r\n",
+    "NP": "औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन (Sanjae बीमा ऐन), धारा ३७ (औद्योगिक दुर्घटनाको मान्यताको लागि मापदण्ड)\r\n\r\n",
+    "TH": "พระราชบัญญัติประกันภัยค่าชดเชยอุบัติเหตุในอุตสาหกรรม (พระราชบัญญัติประกันภัย Sanjae), มาตรา 37 (เกณฑ์การรับรองอุบัติเหตุที่เกี่ยวข้องกับการทำงาน)\r\n\r\n"
+  },
+  "three_laws2": {
+    "KO": "•\t근로복지공단 보상계획부-1352(2023. 3. 9.) 「법령위반으로 발생한 사고의 재해조사 매뉴얼 시달」",
+    "EN": "Korea Workers' Compensation and Welfare Service (COMWEL) Compensation Planning Department - 1352 (Mar. 9, 2023) 「Dissemination of the Manual for Accident Investigation of Accidents Caused by Violation of Law」",
+    "VN": "Cục Kế hoạch Bồi thường thuộc Cơ quan Phúc lợi và Bồi thường cho Người lao động Hàn Quốc (COMWEL) - 1352 (ngày 9 tháng 3 năm 2023) 「Ban hành Sổ tay Hướng dẫn Điều tra Tai nạn Xảy ra Do Vi phạm Pháp luật」",
+    "ID": "Departemen Perencanaan Kompensasi Layanan Kesejahteraan dan Kompensasi Pekerja Korea (COMWEL) - 1352 (9 Maret 2023) 「Penyebarluasan Manual Investigasi Kecelakaan yang Disebabkan oleh Pelanggaran Hukum」",
+    "RU": "Департамент Планирования Компенсаций Корейской Службы Благосостояния и Компенсаций Работникам (COMWEL) - 1352 (9 марта 2023 г.) 「Распространение Руководства по Расследованию Несчастных Случаев, Вызванных Нарушением Закона」",
+    "MM": "ကိုရီးယား အလုပ်သမား လျော်ကြေးနှင့် လူမှုဖူလုံရေး ဝန်ဆောင်မှု (COMWEL) လျော်ကြေး စီမံကိန်း ဌာန - 1352 (၂၀၂၃ ခုနှစ်၊ မတ်လ ၉ ရက်) 「ဥပဒေချိုးဖောက်မှုကြောင့် ဖြစ်ပွားသော မတော်တဆမှု စုံစမ်းစစ်ဆေးရေး လက်စွဲစာအုပ် ဖြန့်ဝေခြင်း」",
+    "NP": "कोरिया वर्कर्स कम्पेंसेसन एन्ड वेल्फेयर सर्भिस (COMWEL) क्षतिपूर्ति योजना विभाग - १३५२ (मार्च ९, २०२३) 「कानूनको उल्लङ्घनबाट भएको दुर्घटनाको अनुसन्धान पुस्तिकाको वितरण」",
+    "TH": "กรมวางแผนค่าชดเชย องค์การสวัสดิการและค่าชดเชยคนงานเกาหลี (COMWEL) - 1352 (9 มี.ค. 2023) 「การเผยแพร่คู่มือการสอบสวนอุบัติเหตุที่เกิดจากการละเมิดกฎหมาย」"
+  },
+  "four_title": {
+    "KO": "단순 착각에 의한 신호위반",
+    "EN": "Signal Violation Due to Simple Misjudgment",
+    "VN": "Vi phạm tín hiệu giao thông do nhầm lẫn đơn giản",
+    "ID": "Pelanggaran lampu lalu lintas akibat kesalahpahaman sederhana",
+    "RU": "нарушение правил дорожного движения из-за простой ошибки",
+    "MM": "ရိုးရှင်းသော မှားယွင်းမှုကြောင့် မီးနီဖြတ်ကျော်မှု၊ အလုပ်သမာ",
+    "NP": "साधारण भ्रमका कारण सिग्नल उल्लंघन",
+    "TH": " การฝ่าฝืนสัญญาณไฟอันเนื่องมาจากความเข้าใจผิดอย่างง่าย"
+  },
+  "four_summary0": {
+    "KO": "승인 여부: 승인\r\n",
+    "EN": "•    Approval Status: Approved\r\n",
+    "VN": "•    Tình trạng phê duyệt: Được phê duyệt\r\n",
+    "ID": "•    Status persetujuan: Disetujui\r\n",
+    "RU": "•    Статус утверждения: Утверждено\r\n",
+    "MM": "အတည်ပြု အခြေအနေ: အတည်ပြုခဲ့သည် (승인)\r\n\r\n",
+    "NP": "स्वीकृतिको अवस्था: स्वीकृत\r\n\r\n",
+    "TH": "สถานะการอนุมัติ: อนุมัติ\r\n\r\n"
+  },
+  "four_summary1": {
+    "KO": "•\t발생 일시: 2023. 12. 27. 21:20경\r\n",
+    "EN": "•    Date/Time of Occurrence: December 27, 2023, around 21:20\r\n",
+    "VN": "•    Thời gian xảy ra: Khoảng 21:20 ngày 27/12/2023\r\n",
+    "ID": "•    Waktu kejadian: Sekitar pukul 21:20 pada 27 Desember 2023\r\n",
+    "RU": "•    Дата и время происшествия: Примерно 21:20 27 декабря 2023 г.\r\n",
+    "MM": "ဖြစ်ပွားသည့် နေ့စွဲ/အချိန်: ၂၀၂၃ ခုနှစ်၊ ဒီဇင်ဘာလ ၂၇ ရက်၊ ည ၉ နာရီ ၂၀ မိနစ်ခန့်\r\n\r\n",
+    "NP": "घटना भएको मिति/समय: सन् २०२३, डिसेम्बर २७ गते, राति लगभग २१:२० बजे\r\n\r\n",
+    "TH": "วัน/เวลาที่เกิดเหตุ: ประมาณ ๒๑:๒๐ น. ของวันที่ ๒๗ ธันวาคม ๒๕๖๖\r\n\r\n"
+  },
+  "four_summary2": {
+    "KO": "•\t발생 장소: ○○구 ○○동 199-3번지 ○○교 교차로\r\n",
+    "EN": "•\tLocation: Intersection at ○○ Bridge, 199-3 ○○-dong, ○○-gu",
+    "VN": "•\tĐịa điểm xảy ra: Giao lộ ○○, số 199-3, ○○-dong, ○○-gu\r\n",
+    "ID": "•\tLokasi Kejadian: Persimpangan Jembatan ○○, 199-3 ○○-dong, ○○-gu\r\n",
+    "RU": "•\tМесто: Перекресток у моста ○○, 199-3 ○○-dong, ○○-gu\r\n",
+    "MM": "ဖြစ်ပွားသည့် နေရာ: ○○-gu, ○○-dong 199-3, ○○တံတား လမ်းဆုံ\r\n\r\n",
+    "NP": "घटना भएको स्थान: OO गाउँपालिका OO टोल १९९-३ नम्बरको OO पुल चोक\r\n\r\n",
+    "TH": "สถานที่เกิดเหตุ: สี่แยกสะพาน OO หมายเลข ๑๙๙-๓ OO ดง, OO กู\r\n\r\n"
+  },
+  "four_summary3": {
+    "KO": "•\t근로자 정보: 노무제공 플랫폼 종사자 (퀵서비스 기사)\r\n",
+    "EN": "•    Worker Information: Platform-based labor provider (Quick service driver)\r\n",
+    "VN": "•    Thông tin người lao động: Nhân viên nền tảng cung cấp dịch vụ lao động (tài xế dịch vụ giao hàng nhanh)\r\n",
+    "ID": "•    Informasi Pekerja: Pekerja platform penyedia jasa tenaga kerja (pengemudi layanan pengiriman cepat)\r\n",
+    "RU": "•    Информация о работнике: Работник на подъемной платформе (водитель службы быстрого обслуживания)\r\n",
+    "MM": "အလုပ်သမား သတင်းအချက်အလက်: ဝန်ဆောင်မှု ပလက်ဖောင်း အလုပ်သမား (အမြန်ချောပို့သမား)\r\n\r\n",
+    "NP": "श्रमिकको जानकारी: श्रम प्रदान गर्ने प्लेटफर्मका कामदार (क्विक सर्भिस राइडर)\r\n\r\n",
+    "TH": "ข้อมูลลูกจ้าง: ผู้ประกอบอาชีพอิสระผ่านแพลตฟอร์ม (พนักงานขนส่งด่วน)\r\n\r\n"
+  },
+  "four_summary4": {
+    "KO": "•\t상병명: 우측 비골 상단의 골절(폐쇄성), 좌측 기타중수골 몸통의 골절(폐쇄성), 우측 외측측부인대 파열",
+    "EN": "•    Diagnosis: Fracture of the upper right fibula (closed), Fracture of the left other metacarpal shaft (closed), Rupture of the right lateral collateral ligament",
+    "VN": "•    Chẩn đoán: Gãy xương mác bên phải (khép kín), gãy xương cổ tay trái (khép kín), đứt dây chằng bên ngoài bên phải",
+    "ID": "•    Diagnosis: Fraktur bagian atas tulang fibula kanan (tertutup), fraktur tubuh tulang metakarpal kiri (tertutup), robekan ligamen lateral lateral kanan",
+    "RU": "•    Диагноз: Перелом верхней части правой малоберцовой кости (закрытый), перелом тела левой другой пястной кости (закрытый), разрыв правой боковой коллатеральной связки",
+    "MM": "ရောဂါရှာဖွေခြင်း (ထိခိုက်ဒဏ်ရာ): ညာဘက် ခြေသလုံးအရိုး အပေါ်ပိုင်း ကျိုးခြင်း (အပိတ်), ဘယ်ဘက် အခြား လက်ဖဝါးရိုး ကျိုးခြင်း (အပိတ်), ညာဘက် ဘေးတိုက် အရွတ်ပြဲခြင်း",
+    "NP": "चोटपटकको नाम: दाहिने फाइबुलाको माथिल्लो भाग भाँचिएको (बन्द भाँचिएको), देब्रे अन्य मेटाकार्पलको शरीर भाँचिएको (बन्द भाँचिएको), दाहिने पार्श्व संपार्श्विक लिगामेन्ट च्यातिएको (Lateral Collateral Ligament Rupture)",
+    "TH": "ชื่ออาการบาดเจ็บ: กระดูกน่องส่วนบนด้านขวาหัก (แบบปิด), กระดูกฝ่ามืออื่น ๆ ด้านซ้ายหัก (แบบปิด), เอ็นด้านข้างข้อเข่าด้านขวาฉีกขาด (Lateral Collateral Ligament Rupture)"
+  },
+  "four_situation": {
+    "KO": "오토바이 배달 중 발생한 교통사고가 교통사고처리특례법에 따른 신호위반이 주된 원인으로 발생한 것으로 보아 요양 불승인한 사건에 대하여, 사고 시각, 도로 현황 및 신호체계를 고려하였을 때 교통사고가 발생할 수 있는 예외적인 상황이라고 판단하여 원처분 “취소” 결정한 사례",
+    "EN": "Regarding a case where medical benefits were denied for a traffic accident occurring during motorcycle delivery, primarily attributed to signal violation under the Special Act on the Handling of Traffic Accidents, the original decision was “Reversed” based on the determination that the accident occurred under exceptional circumstances where a collision was possible, considering the time of the accident, road conditions, and signal system.",
+    "VN": "Vụ tai nạn giao thông xảy ra trong khi giao hàng bằng xe máy được xác định là do vi phạm tín hiệu giao thông theo Luật xử lý đặc biệt tai nạn giao thông, dẫn đến việc không được chấp nhận điều trị. Tuy nhiên, khi xem xét thời gian xảy ra tai nạn, tình trạng đường xá và hệ thống tín hiệu giao thông, vụ tai nạn được xác định là một trường hợp ngoại lệ có thể xảy ra tai nạn giao thông, do đó quyết định ban đầu đã được \"hủy bỏ\". ",
+    "ID": "Terkait kasus penolakan klaim asuransi kecelakaan kerja akibat kecelakaan lalu lintas saat mengendarai sepeda motor pengiriman, yang dinilai sebagai pelanggaran lampu lalu lintas berdasarkan Undang-Undang Khusus Penanganan Kecelakaan Lalu Lintas, diputuskan untuk “membatalkan” putusan awal dengan pertimbangan bahwa kecelakaan tersebut terjadi dalam situasi luar biasa yang dapat terjadi pada waktu, kondisi jalan, dan sistem lampu lalu lintas saat itu. ",
+    "RU": "В отношении случая, когда было отказано в медицинской помощи при несчастном случае, произошедшем во время доставки на мотоцикле, в основном из-за нарушения сигнала светофора в соответствии с Законом о рассмотрении дорожно-транспортных происшествий, первоначальное решение было «отменено». Это было определено на основании времени происшествия, дорожных условий и системы светофоров, и было сделано заключение, что это было исключительное обстоятельство, при котором несчастный случай мог произойти по разумным причинам.",
+    "MM": "ဆိုင်ကယ် ပို့ဆောင်ရေး လုပ်ငန်းအတွင်း ဖြစ်ပွားသော ယာဉ်တိုက်မှုသည် ယာဉ်တိုက်မှု အထူးကိစ္စရပ်များ စီမံခန့်ခွဲရေး ဥပဒေအရ မီးနီဖြတ်ကျော်မှုသည် အဓိက အကြောင်းရင်းဟု ယူဆကာ ဆေးကုသမှု ငြင်းပယ်ခဲ့သည့် ဖြစ်စဉ်အား၊ ဖြစ်ပွားချိန်၊ လမ်းအခြေအနေနှင့် မီးပွိုင့်စနစ်တို့ကို ထည့်သွင်းစဉ်းစားပြီး ယာဉ်တိုက်မှု ဖြစ်ပွားနိုင်သည့် ခြွင်းချက် အခြေအနေဟု ဆုံးဖြတ်ကာ မူလ ဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ခဲ့သည်။",
+    "NP": "मोटरसाइकल डेलिभरी गर्ने क्रममा भएको ट्राफिक दुर्घटनालाई ट्राफिक दुर्घटना प्रक्रिया विशेष कानुन अनुसार सिग्नल उल्लंघन मुख्य कारण भनी उपचार अस्वीकार गरिएको घटनामा, दुर्घटनाको समय, सडकको अवस्था र सिग्नल प्रणालीलाई विचार गर्दा दुर्घटना हुन सक्ने असाधारण परिस्थिति भएको ठहर गरी मूल निर्णयलाई “रद्द” गर्ने निर्णय गरिएको उदाहरण हो।",
+    "TH": "เป็นกรณีที่เกิดอุบัติเหตุจราจรขณะนำส่งสินค้าด้วยรถจักรยานยนต์ ซึ่งเคยถูกปฏิเสธการรักษาพยาบาลโดยถือว่าการฝ่าฝืนสัญญาณไฟจราจรตามกฎหมายพิเศษว่าด้วยการจัดการอุบัติเหตุจราจรเป็นสาเหตุหลัก อย่างไรก็ตาม ได้มีการตัดสินใจ**“ยกเลิก”คำสั่งเดิม โดยพิจารณาว่าเมื่อพิจารณาเวลาเกิดเหตุ, สภาพถนน, และระบบสัญญาณไฟแล้ว ถือเป็นสถานการณ์ยกเว้น**ที่สามารถเกิดอุบัติเหตุจราจรได้"
+  },
+  "four_facts0": {
+    "KO": "•\t교통사고사실확인원(2024. 4. 26. 발행)에 따르면, 오토바이가 전방 차량의 움직임에 따라 좌회전 중 정상 신호 차량과 충돌한 것으로 확인됨.\r\n",
+    "EN": "•\tAccording to the Traffic Accident Fact Confirmation Report (issued April 26, 2024), the motorcycle was confirmed to have collided with a vehicle proceeding normally through a green light while turning left in response to the movement of the vehicle ahead.\r\n",
+    "VN": "•\tTheo xác nhận tai nạn giao thông (phát hành ngày 26/4/2024), xe máy đang rẽ trái theo chuyển động của xe phía trước thì va chạm với xe đang đi đúng tín hiệu.\r\nêu chí đánh giá chính.",
+    "ID": "•\tMenurut Surat Keterangan Fakta Kecelakaan Lalu Lintas (diterbitkan pada 26 April 2024), sepeda motor yang sedang berbelok kiri mengikuti gerakan kendaraan di depannya bertabrakan dengan kendaraan yang melintas sesuai lampu lalu lintas.\r\n",
+    "RU": "•\tСогласно отчету о подтверждении фактов дорожно-транспортного происшествия (выданному 26 апреля 2024 г.), было подтверждено, что мотоцикл столкнулся с автомобилем, который нормально двигался на зеленый сигнал светофора, при повороте налево в ответ на движение впереди идущего автомобиля.\r\n",
+    "MM": "ယာဉ်တိုက်မှု အချက်အလက် စစ်ဆေးချက် (၂၀၂၄၊ ဧပြီ ၂၆ ရက် ထုတ်ပြန်) အရ ဆိုင်ကယ်သည် ရှေ့မှ ယာဉ်၏ လှုပ်ရှားမှုနောက်သို့ လိုက်၍ ဘယ်ဘက်သို့ ကွေ့နေစဉ် ပုံမှန် မီးပွိုင့် အချက်ပြသော ယာဉ်နှင့် တိုက်မိခဲ့ကြောင်း အတည်ပြုခဲ့သည်။\r\n\r\n",
+    "NP": "ट्राफिक दुर्घटना तथ्य पुष्टि कागजात (२०२४. ४. २६ मा जारी) अनुसार, मोटरसाइकल अगाडिको गाडीको चाल पछ्याउँदै बायाँ मोडिँदा सामान्य सिग्नल भएको गाडीसँग ठोक्किएको पुष्टि भएको छ।\r\n\r\n",
+    "TH": "จากใบยืนยันข้อเท็จจริงอุบัติเหตุจราจร (ออกเมื่อ ๒๖ เม.ย. ๒๕๖๗) ยืนยันว่า รถจักรยานยนต์ชนเข้ากับรถที่ได้รับสัญญาณไฟปกติในขณะที่กำลังเลี้ยวซ้ายตามการเคลื่อนที่ของรถคันหน้า\r\n\r\n"
+  },
+  "four_facts1": {
+    "KO": "•\t신호위반 사실은 있으나, 단순 착각에 의한 것으로, 사고 당시 도로 구조·신호 주기·현장 상황을 종합할 때 예외적인 상황으로 판단됨.\r\n",
+    "EN": "•    Although a signal violation occurred, it was determined to be due to a simple misjudgment. Considering the road structure, signal cycle, and on-site conditions at the time of the accident, it was judged to be an exceptional circumstance.\r\n",
+    "VN": "•    Có vi phạm tín hiệu giao thông, nhưng đó chỉ là do nhầm lẫn đơn thuần, và khi xem xét tổng thể cấu trúc đường, chu kỳ tín hiệu và tình hình hiện trường tại thời điểm xảy ra tai nạn, thì đây được đánh giá là tình huống ngoại lệ.\r\n",
+    "ID": "•    Meskipun terdapat pelanggaran lampu lalu lintas, hal ini disebabkan oleh kesalahpahaman sederhana. Dengan mempertimbangkan struktur jalan, siklus lampu lalu lintas, dan kondisi lokasi kecelakaan pada saat kejadian, situasi ini dinilai sebagai keadaan luar biasa.\r\n",
+    "RU": "•    Хотя и имело место нарушение сигнала светофора, оно было признано простым ошибочным суждением. Учитывая структуру дороги, цикл светофора и условия на месте происшествия на момент аварии, это было признано исключительным обстоятельством.\r\n",
+    "MM": "မီးနီဖြတ်ကျော်မှု အမှန်တကယ် ရှိသော်လည်း ရိုးရှင်းသော မှားယွင်းမှုကြောင့် ဖြစ်သည်။ ဖြစ်ပွားချိန်က လမ်းဖွဲ့စည်းပုံ၊ မီးပွိုင့် လည်ပတ်ချိန်နှင့် ကွင်းဆင်းအခြေအနေတို့ကို ခြုံငုံသုံးသပ်ရာ ခြွင်းချက် အခြေအနေအဖြစ် မှတ်ယူခဲ့သည်။\r\n\r\n",
+    "NP": "सिग्नल उल्लंघनको तथ्य भए तापनि, यो साधारण भ्रमका कारण भएको र दुर्घटनाको समयमा सडकको संरचना, सिग्नल चक्र र घटनास्थलको अवस्थालाई समग्रमा विचार गर्दा असाधारण परिस्थिति मानिएको छ।\r\n\r\n",
+    "TH": "แม้จะมีการฝ่าฝืนสัญญาณไฟจราจร แต่เป็นการกระทำที่เกิดจากความเข้าใจผิดอย่างง่าย และเมื่อพิจารณาโครงสร้างถนน, วงจรสัญญาณไฟ, และสถานการณ์ ณ ที่เกิดเหตุโดยรวม ถือเป็นสถานการณ์ยกเว้น\r\n\r\n"
+  },
+  "four_facts2": {
+    "KO": "• 보험가입자와 원처분기관 역시 재해사실을 인정함.",
+    "EN": "•\tBoth the policyholder and the original disposition agency acknowledge the accident as a work-related injury.",
+    "VN": "•\tNgười tham gia bảo hiểm và cơ quan xử lý ban đầu cũng thừa nhận sự cố tai nạn.",
+    "ID": "•\tPemegang polis asuransi dan lembaga penjatuhan sanksi awal juga mengakui fakta kecelakaan.",
+    "RU": "•\tКак страхователь, так и первоначальный орган, вынесший решение, признают данную аварию производственной травмой.",
+    "MM": "အာမခံထားရှိသူနှင့် မူလ ဆုံးဖြတ်ချက်ချသည့် အဖွဲ့အစည်းတို့သည်လည်း ထိခိုက်ဒဏ်ရာ အချက်အလက်ကို အသိအမှတ်ပြုခဲ့သည်။",
+    "NP": "बीमा कम्पनी र मूल निर्णय गर्ने निकायले पनि दुर्घटना भएको तथ्य स्वीकार गरेका छन्।",
+    "TH": "ผู้เอาประกันภัยและหน่วยงานที่ออกคำสั่งเดิมก็ยอมรับการเกิดภัยพิบัติ"
+  },
+  "four_important0": {
+    "KO": "•\t신호위반 행위의 성격: 고의적·중대한 위법행위인지, 단순 착각에 따른 예외적 상황인지가 쟁점.\r\n",
+    "EN": "•    Nature of the signal violation: Whether it constitutes an intentional or grossly unlawful act, or an exceptional circumstance due to a simple mistake.\r\n",
+    "VN": "•    Bản chất của hành vi vi phạm tín hiệu: Vấn đề là liệu đó là hành vi vi phạm pháp luật có chủ ý và nghiêm trọng hay chỉ là tình huống ngoại lệ do nhầm lẫn đơn thuần.\r\n",
+    "ID": "•    Sifat pelanggaran lampu lalu lintas: Apakah merupakan pelanggaran sengaja dan serius, atau situasi luar biasa akibat kesalahpahaman sederhana.\r\n",
+    "RU": "•    Характер нарушения светофора: вопрос заключается в том, было ли это умышленным или грубым нарушением закона или исключительным обстоятельством, возникшим в результате простой ошибки.\r\n",
+    "MM": "မီးနီဖြတ်ကျော်မှု၏ သဘောသဘာဝ: ရည်ရွယ်ချက်ရှိသော၊ ပြင်းထန်သော ဥပဒေချိုးဖောက်မှုလား၊ သို့မဟုတ် ရိုးရှင်းသော မှားယွင်းမှုကြောင့် ဖြစ်သည့် ခြွင်းချက် အခြေအနေလား ဆိုသည်မှာ အဓိက ပြဿနာ ဖြစ်သည်။\r\n\r\n",
+    "NP": "सिग्नल उल्लंघन कार्यको प्रकृति: नियतपूर्ण/गम्भीर गैरकानूनी कार्य हो वा साधारण भ्रमका कारण भएको असाधारण परिस्थिति हो भन्ने नै विवादको विषय हो।\r\n\r\n",
+    "TH": "ลักษณะของการฝ่าฝืนสัญญาณไฟ: ประเด็นคือเป็นการกระทำที่จงใจ/ผิดกฎหมายอย่างร้ายแรง หรือเป็นสถานการณ์ยกเว้นที่เกิดจากความเข้าใจผิดอย่างง่าย\r\n\r\n"
+  },
+  "four_important1": {
+    "KO": "•\t업무수행성 인정 여부: 신호위반이 있었더라도, 사고가 업무 수행 과정에서 불가피하게 발생한 것인지가 핵심 판단 기준.",
+    "EN": "•    Recognition of work-relatedness: Even if a signal violation occurred, the core criterion is whether the accident was unavoidably incurred during the performance of work duties.",
+    "VN": "•    Có công nhận là trong khi thực hiện công việc hay không: Mặc dù có vi phạm tín hiệu, nhưng liệu tai nạn có phải là điều không thể tránh khỏi trong quá trình thực hiện công việc hay không là tiêu chí đánh giá chính",
+    "ID": "•    Pengakuan sifat tugas: Meskipun terjadi pelanggaran lampu lalu lintas, apakah kecelakaan tersebut terjadi secara tak terhindarkan dalam proses pelaksanaan tugas menjadi kriteria penilaian utama.",
+    "RU": "•    Признание связи с работой: основным критерием является то, была ли авария, несмотря на нарушение светофора, неизбежной в ходе выполнения рабочих обязанностей.",
+    "MM": "အလုပ်တာဝန် ထမ်းဆောင်မှု အသိအမှတ်ပြုခြင်း: မီးနီဖြတ်ကျော်မှု ရှိသော်လည်း မတော်တဆမှုသည် အလုပ်တာဝန် ထမ်းဆောင်နေစဉ် ရှောင်လွှဲမရဘဲ ဖြစ်ပွားခဲ့ခြင်း ဟုတ်၊ မဟုတ်သည် အဓိက ဆုံးဖြတ်ချက် စံနှုန်း ဖြစ်သည်။",
+    "NP": "कामको रूपमा स्वीकृति दिने/नदिने: सिग्नल उल्लंघन भएको भए तापनि, दुर्घटना काम गर्ने प्रक्रियामा अपरिहार्य रूपमा भएको हो वा होइन भन्ने नै मुख्य निर्णय मापदण्ड हो।",
+    "TH": "การยอมรับว่าเป็นงานหรือไม่: เกณฑ์การตัดสินหลักคือ แม้จะมีการฝ่าฝืนสัญญาณไฟ แต่การเกิดอุบัติเหตุนั้นหลีกเลี่ยงไม่ได้ในระหว่างการปฏิบัติงานหรือไม่"
+  },
+  "four_decision": {
+    "KO": "청구인의 행위는 ‘고의적 신호위반’이 아닌 단순 착각에 의한 것이므로, 업무 수행 중 발생한 예외적 상황에 따른 사고로 판단됨. 따라서 산재보험법상 업무상 재해로 인정되어 최초요양 불승인 처분은 취소됨.",
+    "EN": "The claimant's act was not an ‘intentional signal violation’ but resulted from a simple mistake. Therefore, it is judged as an accident arising from an exceptional circumstance during work performance. Consequently, it is recognized as a work-related injury under the Industrial Accident Compensation Insurance Act, and the initial denial of medical benefits is revoked.",
+    "VN": "Hành vi của người yêu cầu bồi thường không phải là \"vi phạm tín hiệu giao thông có chủ ý\" mà chỉ là do nhầm lẫn đơn thuần, do đó được đánh giá là tai nạn do tình huống ngoại lệ xảy ra trong khi thực hiện công việc. Do đó, theo Luật bảo hiểm tai nạn lao động, tai nạn này được công nhận là tai nạn lao động và quyết định từ chối chi trả chi phí điều trị ban đầu bị hủy bỏ.",
+    "ID": "Perbuatan pemohon bukanlah ‘pelanggaran lampu lalu lintas yang disengaja’ melainkan akibat kesalahpahaman sederhana, sehingga dinilai sebagai kecelakaan yang terjadi dalam situasi luar biasa selama pelaksanaan tugas. Oleh karena itu, kecelakaan tersebut diakui sebagai kecelakaan kerja berdasarkan Undang-Undang Asuransi Kecelakaan Kerja, dan keputusan penolakan perawatan awal dibatalkan.",
+    "RU": "Действия истца не были «умышленным нарушением правил дорожного движения», а были результатом простой ошибки в суждении. Поэтому это считается несчастным случаем, возникшим в результате исключительных обстоятельств во время выполнения рабочих обязанностей. Следовательно, это признается производственной травмой в соответствии с Законом о страховании от несчастных случаев на производстве, и первоначальное решение об отказе в предоставлении первоначальной медицинской помощи отменено.",
+    "MM": "တောင်းဆိုသူ၏ လုပ်ရပ်သည် ‘ရည်ရွယ်ချက်ရှိသော မီးနီဖြတ်ကျော်မှု’ မဟုတ်ဘဲ ရိုးရှင်းသော မှားယွင်းမှုကြောင့် ဖြစ်သည့်အတွက် အလုပ်တာဝန် ထမ်းဆောင်နေစဉ် ဖြစ်ပွားသော ခြွင်းချက် အခြေအနေနှင့် သက်ဆိုင်သည့် မတော်တဆမှုအဖြစ် ဆုံးဖြတ်ခဲ့သည်။ ထို့ကြောင့် အလုပ်သမား နစ်နာကြေး အာမခံ ဥပဒေအရ အလုပ်နှင့် သက်ဆိုင်သော ထိခိုက်မှုအဖြစ် အသိအမှတ်ပြုကာ မူလ ဆေးကုသမှု ငြင်းပယ်သည့် ဆုံးဖြတ်ချက်အား ပယ်ဖျက်ခဲ့သည်။",
+    "NP": "निवेदकको कार्य ‘नियतपूर्ण सिग्नल उल्लंघन’ नभई साधारण भ्रमका कारण भएकोले, काम गर्ने क्रममा उत्पन्न भएको असाधारण परिस्थितिबाट भएको दुर्घटना मानिन्छ। तसर्थ, औद्योगिक दुर्घटना बीमा कानुन अनुसार कामको क्रममा भएको दुर्घटनाको रूपमा स्वीकार गरी पहिलो पटक उपचार अस्वीकार गरिएको निर्णय रद्द गरियो।",
+    "TH": "การกระทำของผู้ร้องขอได้รับการวินิจฉัยว่าไม่ใช่ ‘การฝ่าฝืนสัญญาณไฟโดยเจตนา’ แต่เป็นเพียงการกระทำที่เกิดจากความเข้าใจผิดอย่างง่าย ดังนั้น จึงถือเป็นอุบัติเหตุที่เกิดจากสถานการณ์ยกเว้นในระหว่างการปฏิบัติงาน และได้รับการยอมรับว่าเป็นอุบัติเหตุจากการทำงานตามพระราชบัญญัติประกันภัยเงินทดแทนผู้ประสบภัยจากงาน โดยคำสั่งปฏิเสธการรักษาพยาบาลครั้งแรกจึงถูกยกเลิก"
+  },
+  "four_laws0": {
+    "KO": "•\t산재보험법 제5조(정의)\r\n",
+    "EN": "•\tIndustrial Accident Compensation Insurance Act, Article 5 (Definitions)\r\n",
+    "VN": "•\tĐiều 5 (Định nghĩa) của Luật Bảo hiểm tai nạn lao động\r\n",
+    "ID": "•\t「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 5 (Definisi)\r\n",
+    "RU": "•\tЗакон о страховании от несчастных случаев на производстве, статья 5 (Определения)\r\n",
+    "MM": "「စက်မှုလုပ်ငန်း မတော်တဆမှု လျော်ကြေး အာမခံ ဥပဒေ」၊ ပုဒ်မ ၅ (အဓိပ္ပာယ်ဖွင့်ဆိုချက်များ)\r\n\r\n",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन (산재보험법)」 धारा ५ (परिभाषा)\r\n\r\n",
+    "TH": "「พระราชบัญญัติประกันภัยเงินทดแทนผู้ประสบภัยจากงาน (산재보험법)」 มาตรา ๕ (คำนิยาม)\r\n\r\n"
+  },
+  "four_laws1": {
+    "KO": "•\t산재보험법 제37조(업무상의 재해의 인정기준)\r\n",
+    "EN": "•    Industrial Accident Compensation Insurance Act, Article 37 (Criteria for Recognizing Work-Related Injuries)\r\n",
+    "VN": "•    Điều 37 (Tiêu chí công nhận tai nạn lao động) của Luật Bảo hiểm tai nạn lao động\r\n",
+    "ID": "•    「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 37 (Kriteria Pengakuan Kecelakaan Kerja)\r\n",
+    "RU": "•    Закон о страховании от несчастных случаев на производстве, статья 37 (Критерии признания производственных травм)\r\n",
+    "MM": "「စက်မှုလုပ်ငန်း မတော်တဆမှု လျော်ကြေး အာမခံ ဥပဒေ」၊ ပုဒ်မ ၃၇ (အလုပ်နှင့် သက်ဆိုင်သော ထိခိုက်မှု အသိအမှတ်ပြုခြင်း စံနှုန်းများ)\r\n\r\n",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन (산재보험법)」 धारा ३७ (कामको क्रममा भएको दुर्घटनाको मान्यता मापदण्ड)\r\n\r\n",
+    "TH": "「พระราชบัญญัติประกันภัยเงินทดแทนผู้ประสบภัยจากงาน (산재보험법)」 มาตรา ๓๗ (เกณฑ์การยอมรับอุบัติเหตุจากการทำงาน)\r\n\r\n"
+  },
+  "four_laws2": {
+    "KO": "•\t「산재보험법 시행령」 제27조(업무수행 중의 사고)\r\n",
+    "EN": "•    Industrial Accident Compensation Insurance Act Enforcement Decree, Article 27 (Accidents During Work Performance)\r\n",
+    "VN": "•    Điều 27 (Tai nạn trong quá trình thực hiện công việc) của Nghị định thi hành Luật Bảo hiểm tai nạn lao động\r\n",
+    "ID": "•    「Peraturan Pelaksanaan Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 27 (Kecelakaan Selama Pelaksanaan Tugas)\r\n",
+    "RU": "•    Постановление о применении Закона о страховании от несчастных случаев на производстве, статья 27 (Несчастные случаи во время выполнения служебных обязанностей)\r\n",
+    "MM": "「စက်မှုလုပ်ငန်း မတော်တဆမှု လျော်ကြေး အာမခံ ဥပဒေ စီမံအုပ်ချုပ်မှု နည်းဥပဒေ」၊ ပုဒ်မ ၂၇ (အလုပ်တာဝန် ထမ်းဆောင်နေစဉ် ဖြစ်ပွားသော မတော်တဆမှု)\r\n\r\n",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुनको कार्यान्वयन नियमावली (산재보험법 시행령)」 धारा २७ (काम गर्ने क्रममा भएको दुर्घटना)\r\n\r\n",
+    "TH": "「กฎกระทรวงตามพระราชบัญญัติประกันภัยเงินทดแทนผู้ประสบภัยจากงาน (산재보험법 시행령)」 มาตรา ๒๗ (อุบัติเหตุระหว่างการปฏิบัติงาน)\r\n\r\n"
+  },
+  "four_laws3": {
+    "KO": "•\t산재보험법 제105조(심사 청구에 대한 심리·결정) 제1항",
+    "EN": "•    Industrial Accident Compensation Insurance Act, Article 105 (Hearing and Decision on Review Requests), Paragraph 1",
+    "VN": "•    Điều 105 (Xét xử và quyết định yêu cầu thẩm tra) khoản 1 của Luật Bảo hiểm tai nạn lao động",
+    "ID": "•    「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 105 (Pemeriksaan dan Keputusan atas Permohonan Banding) Ayat 1",
+    "RU": "•    Закон о страховании от несчастных случаев на производстве, статья 105 (Слушание и решение по запросам о пересмотре), пункт 1",
+    "MM": "「စက်မှုလုပ်ငန်း မတော်တဆမှု လျော်ကြေး အာမခံ ဥပဒေ」၊ ပုဒ်မ ၁၀၅ (စိစစ်ရန် တောင်းဆိုမှုအပေါ် စစ်ဆေးခြင်းနှင့် ဆုံးဖြတ်ခြင်း)၊ အပိုဒ် ၁",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन (산재보험법)」 धारा १०५ (छानबिन निवेदनको सुनुवाइ र निर्णय) को उपधारा १",
+    "TH": "「พระราชบัญญัติประกันภัยเงินทดแทนผู้ประสบภัยจากงาน (산재보험법)」 มาตรา ๑๐๕ (การพิจารณาและวินิจฉัยคำร้องขอทบทวน) วรรค ๑"
+  },
+  "five_title": {
+    "KO": "무면허 지게차 운전 사망 사고",
+    "EN": " Fatal Accident Involving Unlicensed Forklift Operation",
+    "VN": "Tai nạn tử vong do lái xe nâng hàng không có giấy phép",
+    "ID": "Kecelakaan fatal akibat mengemudikan forklift tanpa lisensi",
+    "RU": " Смертельный несчастный случай при управлении вилочным погрузчиком без лицензии",
+    "MM": "မလိုင်စင်ရှိ ဂျက်ကာမောင်းနှင်မှုကြောင့် သေဆုံးမှု",
+    "NP": "अनधिकृत (लाइसेन्स विना) फोर्कलिफ्ट चलाउँदा मृत्यु भएको दुर्घटना",
+    "TH": "อุบัติเหตุเสียชีวิตจากการขับรถยกโดยไม่มีใบอนุญาต"
+  },
+  "five_summary0": {
+    "KO": "승인 여부: 승인",
+    "EN": "Approval Status: Approved",
+    "VN": " Tình trạng phê duyệt: Được phê duyệt",
+    "ID": " Status persetujuan: Disetujui",
+    "RU": "Статус утверждения: Утверждено",
+    "MM": "အတည်ပြုမှုအခြေအနေ: အတည်ပြု",
+    "NP": "स्वीकृति स्थिति: स्वीकृत",
+    "TH": "สถานะการอนุมัติ: อนุมัติ"
+  },
+  "five_summary1": {
+    "KO": "발생 일시: 2023. 5. 16. 10:50경",
+    "EN": " Date/Time of Occurrence: May 16, 2023, around 10:50 AM",
+    "VN": "Thời gian xảy ra: Khoảng 10:50 ngày 16/5/2023",
+    "ID": " Waktu kejadian: 16 Mei 2023, sekitar pukul 10:50",
+    "RU": " Дата и время происшествия: 16 мая 2023 г., примерно в 10:50",
+    "MM": "ဖြစ်ပွားသည့်အချိန်: ၂၀၂၃ ခုနှစ် မေ ၁၆ ရက် နံနက် ၁၀:၅၀ ခန့်",
+    "NP": "घटना भएको मिति/समय: सन् २०२३, मे १६, बिहान करिब १०:५० बजे",
+    "TH": "วัน/เวลาที่เกิดเหตุ: วันที่ 16 พฤษภาคม 2023 เวลาประมาณ 10:50 น."
+  },
+  "five_summary2": {
+    "KO": "발생 장소: ○○군 ○○면 ○○리 ○○ 농로",
+    "EN": "Location: Farm road in ○○-ri, ○○-myeon, ○○-gun",
+    "VN": "Địa điểm xảy ra: Đường nông thôn ○○, ○○-myeon, ○○-gun",
+    "ID": "Lokasi Kejadian: Jalan Pertanian ○○, Desa ○○, Kecamatan ○○, Kabupaten ○○ ",
+    "RU": "Место: Сельская дорога, ○○-ри, ○○-мён, ○○-гун",
+    "MM": "ဖြစ်ပွားသည့်နေရာ: ○○မြို့နယ် ○○ရွာ ○○လမ်းပေါ်",
+    "NP": "घटना भएको स्थान: ○○ जिल्ला, ○○ गाउँपालिका, ○○ टोल, ○○ खेतको बाटो",
+    "TH": "สถานที่เกิดเหตุ: หมู่บ้าน ○○ ตำบล ○○ อำเภอ ○○ ทางเข้าสวน ○○"
+  },
+  "five_summary3": {
+    "KO": "근로자 정보: 건설자재 운반 업무 수행, 남성, 고용형태: 근로자",
+    "EN": "Worker Information: Transporting construction materials, Male, Employment Type: Worker",
+    "VN": "Thông tin người lao động: Nam giới, công việc vận chuyển vật liệu xây dựng, hình thức tuyển dụng: người lao động",
+    "ID": "Informasi Pekerja: Melakukan pekerjaan pengangkutan bahan bangunan, laki-laki, Status Ketenagakerjaan: Pekerja",
+    "RU": "Информация о работнике: Перевозка строительных материалов, мужчина, статус занятости: рабочий",
+    "MM": "အလုပ်သမားအချက်အလက်: ဆောက်လုပ်ရေးပစ္စည်း သယ်ယူပေးအပ်မှုအလုပ်, အမျိုးသား, အလုပ်အမျိုးအစား: အလုပ်သမား",
+    "NP": "श्रमिकको जानकारी: निर्माण सामग्री बोक्ने काम, पुरुष, रोजगारी प्रकार: श्रमिक",
+    "TH": "ข้อมูลพนักงาน: ทำหน้าที่ขนย้ายวัสดุก่อสร้าง, เพศชาย, ประเภทการจ้างงาน: ลูกจ้าง"
+  },
+  "five_summary4": {
+    "KO": "상병명: 다발성 골절 및 흉부손상 → 사망",
+    "EN": " Injury Diagnosis: Multiple fractures and thoracic injury → Death",
+    "VN": "Chẩn đoán bệnh: Gãy xương đa chấn thương và chấn thương ngực → tử vong",
+    "ID": "Diagnosis: Patah tulang multipel dan cedera dada → Meninggal",
+    "RU": " Диагноз травмы: Множественные переломы и травма грудной клетки → Смерть",
+    "MM": "ရောဂါအမျိုးအစား: အကြီးစားအကြွင်းအကျန်အများအပြား ခန္ဓာခွဲခြမ်းချိုးဖျက်ခြင်းနှင့် ရင်ဘတ်ထိခိုက်မှု → သေဆုံး",
+    "NP": "चोटपटक/रोगको नाम: बहुपटक हड्डी भाँचिएको तथा छातीमा चोट → मृत्यु",
+    "TH": "ชื่อการบาดเจ็บ/โรค: กระดูกหักหลายแห่งและบาดเจ็บที่หน้าอก → เสียชีวิต"
+  },
+  "five_situation": {
+    "KO": "무면허로 지게차를 운전하던 중 사망한 사고를 근로자의 범죄행위로 보아 유족급여 부지급 결정한 사건에 대하여, 고인이 소유주의 허락 없이 임의로 지게차를 가져갔고, 무면허로 지게차를 운전하다 운전 미숙으로 지게차가 전도되어 사망한 것으로 판단되므로 원처분 타당하다고 하여 “기각” 결정한 사례",
+    "EN": "Regarding a case where a decision was made to deny survivor benefits, treating the accident as a criminal act by the worker who died while operating a forklift without a license, the case was dismissed. It was determined that the deceased arbitrarily took the forklift without the owner's permission, operated it without a license, and died when the forklift overturned due to inexperience. Therefore, the original decision was deemed appropriate.",
+    "VN": "Vụ việc quyết định không chi trả trợ cấp cho gia đình người lao động vì coi tai nạn tử vong khi lái xe nâng hàng không có giấy phép là hành vi phạm tội của người lao động. Do người quá cố đã tự ý lấy xe nâng hàng mà không có sự cho phép của chủ sở hữu, lái xe nâng hàng không có giấy phép và do lái xe không thành thạo nên xe nâng hàng bị lật dẫn đến tử vong, nên quyết định \"bác bỏ\" là hợp lý.",
+    "ID": "Kasus di mana keputusan untuk tidak memberikan tunjangan ahli waris diambil dengan menganggap kecelakaan yang menyebabkan kematian saat mengemudikan forklift tanpa lisensi sebagai tindakan kriminal pekerja. Karena almarhum mengambil forklift tanpa izin pemilik dan kecelakaan terjadi akibat ketidakmampuan mengemudi yang menyebabkan forklift terguling, keputusan awal dianggap sah dan diputuskan “ditolak”.",
+    "RU": "В отношении дела, по которому было принято решение об отказе в выплате пособия по случаю потери кормильца, рассматривая смертельный несчастный случай, произошедший при вождении погрузчика без прав, как уголовное преступление работника, было установлено, что покойный взял погрузчик без разрешения владельца и, управляя им без прав, в результате неопытности опрокинул его, что привело к смерти. Таким образом, первоначальное решение было признано обоснованным, что привело к вынесению решения «Отклонить».",
+    "MM": "မလိုင်စင်ရှိအခြေအနေတွင် ဂျက်ကာမောင်းနှင်ရာတွင် သေဆုံးသည့်အမှုကို အလုပ်သမား၏ ပြစ်မှုအနေဖြင့် ခံယူကာ မိသားစုထောက်ပံ့ငွေ ပေးချေရန် မသင့်ကြောင်း ဆုံးဖြတ်ခဲ့သောအမှုဖြစ်သည်။\r\nသေဆုံးသူသည် ဂျက်ကာပိုင်ရှင်၏ ခွင့်ပြုချက်မရှိဘဲ သီးသန့်သုံးစွဲခဲ့ပြီး၊ မလိုင်စင်ဖြင့် မောင်းနှင်ရာတွင် မောင်းနှင်မှုမကျွမ်းကျင်ခြင်းကြောင့် ဂျက်ကာ ပြိုကျသွား၍ သေဆုံးခဲ့သောကြောင့် မူလအမိန့်ကို သင့်တော်ဟု “ပယ်ချ” ဆုံးဖြတ်ခဲ့သည်။",
+    "NP": "लाइसेन्स बिना फोर्कलिफ्ट चलाउँदै गर्दा मृत्यु भएको घटनालाई श्रमिकको आपराधिक कार्य (अपराध) मान्दै परिवारजनलाई बीमा रकम अस्वीकार गरिएको थियो। मृतकले मालिकको अनुमति बिना नै फोर्कलिफ्ट प्रयोग गरेका थिए र चालक अनुमतिपत्र (लाइसेन्स) नभएको अवस्थामा चलाउँदा चालक सीपको कमीका कारण फोर्कलिफ्ट उल्टिएर मृत्यु भएको ठहर गरियो। त्यसैले प्रारम्भिक निर्णय उचित ठहर गर्दै “अस्वीकृति (गिकाक)” निर्णय गरिएको उदाहरण हो।",
+    "TH": "กรณีที่พนักงานเสียชีวิตจากการขับรถยกโดยไม่มีใบอนุญาต ได้ถูกพิจารณาว่าเป็นการกระทำความผิดทางอาญาของลูกจ้าง จึงมีคำตัดสิน “ไม่อนุมัติการจ่ายเงินชดเชยให้ทายาท”\r\nโดยพบว่าผู้ตายได้นำรถยกออกมาใช้งานโดยไม่ได้รับอนุญาตจากเจ้าของ และขับโดยไม่มีใบอนุญาต ขณะขับขี่เกิดการควบคุมไม่อยู่ รถยกพลิกคว่ำจนเสียชีวิต ดังนั้นคำตัดสินเดิมจึงถือว่าถูกต้อง และคณะกรรมการได้ตัดสิน “ยกคำร้อง”"
+  },
+  "five_facts0": {
+    "KO": "고인은 중고 건조기를 운반하는 과정에서 임의로 지게차를 사용.",
+    "EN": "The deceased arbitrarily used the forklift while transporting a used dryer.",
+    "VN": "  Người quá cố đã tự ý sử dụng xe nâng trong quá trình vận chuyển máy sấy đã qua sử dụng.",
+    "ID": "Almarhum secara sepihak menggunakan forklift saat mengangkut mesin pengering bekas.",
+    "RU": "  Погибший произвольно использовал вилочный погрузчик при транспортировке подержанной сушильной машины.",
+    "MM": "သေဆုံးသူသည် အသုံးမပြုခွင့်ရသော ဂျက်ကာကို အသုံးပြု၍ သံပစ္စည်း သယ်ယူနေစဉ် ဖြစ်ပွားခဲ့သည်။",
+    "NP": "मृतकले प्रयोग गरिएको पुरानो ड्रायर बोक्ने क्रममा स्वेच्छाले फोर्कलिफ्ट प्रयोग गरेका थिए।",
+    "TH": "ผู้ตายใช้รถยกด้วยตนเองระหว่างการขนย้ายเครื่องอบแห้งมือสอง"
+  },
+  "five_facts1": {
+    "KO": "해당 지게차는 운전 자격(2.5톤 이상 취급 자격)을 갖춘 자가 필요한 기계였으나, 고인은 관련 자격 미보유.",
+    "EN": " The forklift required an operator with the necessary qualifications (license for handling 2.5 tons or more), which the deceased did not possess.",
+    "VN": "  Người quá cố đã tự ý sử dụng xe nâng trong quá trình vận chuyển máy sấy đã qua sử dụng.",
+    "ID": "Forklift tersebut merupakan mesin yang memerlukan pengemudi berlisensi (lisensi untuk mengoperasikan beban 2,5 ton atau lebih), namun almarhum tidak memiliki lisensi yang diperlukan.",
+    "RU": "  Для управления данным вилочным погрузчиком требовалась соответствующая квалификация (лицензия на управление транспортными средствами весом более 2,5 тонн), которой погибший не обладал.",
+    "MM": "ဂျက်ကာသည် မောင်းနှင်ရန် အထူးလိုင်စင် (၂.၅ တန်အထက် အကြီးစားပစ္စည်း မောင်းနှင်ခွင့်လက်မှတ်) လိုအပ်သော်လည်း သေဆုံးသူတွင် မရှိခဲ့။",
+    "NP": "सो फोर्कलिफ्ट २.५ टनभन्दा बढी सामान सम्हाल्न सक्षम लाइसेन्स प्राप्त चालकले मात्र चलाउन पाउने यन्त्र थियो, तर मृतकसँग सो सम्बन्धित अनुमतिपत्र थिएन।",
+    "TH": "รถยกคันดังกล่าวต้องได้รับการขับขี่โดยผู้ที่มีใบอนุญาตสำหรับรถยกขนาด 2.5 ตันขึ้นไป แต่ผู้ตายไม่มีคุณสมบัติดังกล่าว"
+  },
+  "five_facts2": {
+    "KO": "사고 장소는 내리막 경사가 급하고 노면이 불량하여 차량 전도의 위험이 높은 구간.",
+    "EN": "The accident site was a section with a steep downhill slope and poor road surface, posing a high risk of vehicle overturn.",
+    "VN": "Địa điểm xảy ra tai nạn là đoạn đường dốc xuống và mặt đường xấu, có nguy cơ lật xe cao.",
+    "ID": "Lokasi kecelakaan merupakan area dengan lereng curam dan permukaan jalan yang buruk, sehingga berisiko tinggi terjadi tergulingnya kendaraan.",
+    "RU": "Место аварии представляло собой участок с крутым спуском и плохим дорожным покрытием, что создавало высокий риск опрокидывания транспортного средства.",
+    "MM": "ဖြစ်ပွားသည့်နေရာသည် လျှောမြောင်းအနိမ့်ရှိပြီး လမ်းမျက်နှာပြင် မညီမညာသဖြင့် ပြိုကျမှု အန္တရာယ် မြင့်မားသောနေရာဖြစ်သည်။",
+    "NP": "घटना भएको स्थान तलतिरको तीव्र ढलान र असमान बाटो भएकोले फोर्कलिफ्ट उल्टिने जोखिम उच्च थियो।",
+    "TH": "สถานที่เกิดเหตุอยู่บนทางลาดชันและพื้นถนนไม่เรียบ ทำให้มีความเสี่ยงสูงที่รถจะพลิกคว่ำ"
+  },
+  "five_facts3": {
+    "KO": "경찰, 고용노동청 조사에 따르면 무면허 운전과 관리 소홀 모두 확인됨.",
+    "EN": "Police and Ministry of Employment and Labor investigations confirmed both unlicensed operation and negligent management.",
+    "VN": "Theo điều tra của cảnh sát và Cục Lao động, cả hai hành vi lái xe không có giấy phép và sơ suất trong quản lý đều được xác nhận.",
+    "ID": "Menurut penyelidikan polisi dan Kementerian Tenaga Kerja, baik mengemudi tanpa lisensi maupun kelalaian dalam pengelolaan telah terkonfirmasi.",
+    "RU": "Расследования полиции и Министерства занятости и труда подтвердили как управление транспортным средством без лицензии, так и халатное управление.",
+    "MM": "ရဲနှင့် အလုပ်အကွပ်အတည်းဌာန စုံစမ်းမှုအရ မလိုင်စင်မောင်းနှင်ခြင်းနှင့် စီမံခန့်ခွဲမှု ပျက်ကွက်ခြင်း နှစ်မျိုးစလုံးရှိကြောင်း တွေ့ရှိခဲ့သည်။",
+    "NP": "प्रहरी र श्रम मन्त्रालयको अनुसन्धान अनुसार लाइसेन्स विना सवारी चलाएको र व्यवस्थापनमा लापरबाही दुवै कुरा पुष्टि भएको थियो।",
+    "TH": "จากการสอบสวนของตำรวจและกระทรวงแรงงาน พบว่ามีทั้งการขับรถโดยไม่มีใบอนุญาตและการขาดการควบคุมดูแลที่เหมาะสม"
+  },
+  "five_facts4": {
+    "KO": "원처분기관은 근로자의 범죄행위(무면허 운전, 소유자 허락 없는 사용)에 해당한다고 판단, 유족급여 불승인.",
+    "EN": "The original disposition agency determined this constituted criminal conduct by the worker (unlicensed operation, use without owner's permission) and denied survivor benefits.",
+    "VN": " Cơ quan xử lý ban đầu đã xác định hành vi của người lao động là hành vi phạm tội (lái xe không có giấy phép, sử dụng xe mà không có sự cho phép của chủ sở hữu) và từ chối cấp trợ cấp cho gia đình người quá cố.",
+    "ID": "Instansi yang mengeluarkan keputusan awal menilai bahwa tindakan pekerja tersebut merupakan tindak pidana (mengemudi tanpa lisensi, penggunaan tanpa izin pemilik), sehingga menolak pemberian tunjangan ahli waris.",
+    "RU": " Первоначальный орган, принимавший решение, счел это преступным деянием работника (вождение без лицензии, несанкционированное использование без разрешения владельца) и отказал в выплате пособия по случаю потери кормильца.",
+    "MM": "အမှုစီရင်အဖွဲ့က အလုပ်သမား၏ ပြစ်မှုအဖြစ် (မလိုင်စင်မောင်းနှင်ခြင်း၊ ပိုင်ရှင်ခွင့်ပြုချက်မရှိဘဲ အသုံးပြုခြင်း) ဟု သတ်မှတ်ကာ မိသားစုထောက်ပံ့ငွေ ပေးချေမှု မအတည်ပြုခဲ့သည်။",
+    "NP": "सम्बन्धित निकायले श्रमिकको अपराध (लाइसेन्स विना सवारी चलाउने र मालिकको अनुमति बिना प्रयोग गर्ने) ठहर गर्दै परिवारजनको बीमा रकम अस्वीकार गरेको थियो।",
+    "TH": "หน่วยงานที่ออกคำสั่งเดิมเห็นว่าการกระทำดังกล่าวเป็นการกระทำความผิดของลูกจ้าง (ขับรถโดยไม่มีใบอนุญาต และนำทรัพย์สินของผู้อื่นมาใช้โดยไม่ได้รับอนุญาต) จึงไม่อนุมัติการจ่ายเงินชดเชยให้ทายาท"
+  },
+  "five_important0": {
+    "KO": "무면허 운전의 위법성: 지게차 운전 자격이 없는 상태에서의 운전이 산업재해 인정 범위를 벗어나는지 여부.",
+    "EN": " Illegality of unlicensed driving: Whether operating a forklift without the required license falls outside the scope of recognized industrial accidents.",
+    "VN": "Tính bất hợp pháp của việc lái xe không có giấy phép: Việc lái xe mà không có giấy phép lái xe nâng có nằm ngoài phạm vi công nhận tai nạn lao động hay không.",
+    "ID": "Illegalitas mengemudi tanpa lisensi: Apakah mengemudi tanpa lisensi forklift melampaui batas pengakuan kecelakaan kerja.",
+    "RU": "Незаконность вождения без прав: входит ли вождение без квалификации на управление вилочным погрузчиком в сферу признанных производственных несчастных случаев.",
+    "MM": "မလိုင်စင်မောင်းနှင်ခြင်း၏ ဥပဒေချိုးဖောက်မှု – လိုင်စင်မရှိဘဲ ဂျက်ကာမောင်းနှင်ခြင်းသည် လုပ်ငန်းဆိုင်ရာထိခိုက်မှုအဖြစ် သတ်မှတ်နိုင်မည် မဟုတ်ပါသလား။",
+    "NP": "लाइसेन्स विना सवारी चलाउने कार्यको अवैधता: फोर्कलिफ्ट चलाउने अनुमति नभएका अवस्थामा गरिएको सवारी उद्योगजन्य दुर्घटना (औद्योगिक दुर्घटना) को मान्यता दायराभन्दा बाहिर पर्छ कि पर्दैन भन्ने प्रश्न।",
+    "TH": "ความผิดทางกฎหมายจากการขับรถโดยไม่มีใบอนุญาต: การขับรถยกโดยไม่มีใบอนุญาตถือว่าอยู่นอกขอบเขตของการรับรองอุบัติเหตุจากการทำงานหรือไม่"
+  },
+  "five_important1": {
+    "KO": "업무수행성 인정 한계: 고인의 행위가 업무와 직접적으로 연관은 있으나, 위법행위로 인한 사망 사고를 업무상 재해로 볼 수 있는지 여부.",
+    "EN": "Limits of recognizing work-relatedness: While the deceased's actions were directly related to work, whether a fatal accident resulting from illegal acts can be considered a work-related injury.",
+    "VN": " Giới hạn công nhận khả năng thực hiện công việc: Hành vi của người quá cố có liên quan trực tiếp đến công việc, nhưng liệu tai nạn tử vong do hành vi vi phạm pháp luật có thể được coi là tai nạn lao động hay không.",
+    "ID": "Batasan pengakuan hubungan dengan pekerjaan: Meskipun tindakan almarhum terkait langsung dengan pekerjaan, apakah kecelakaan fatal akibat tindakan ilegal dapat dianggap sebagai kecelakaan kerja.",
+    "RU": "Пределы признания связи с работой: хотя действия погибшего были напрямую связаны с рабочими обязанностями, можно ли считать смертельный несчастный случай, произошедший в результате незаконных действий, производственной травмой.",
+    "MM": "ထို့ကြောင့် 「အလုပ်အချို့ထိခိုက်မှု အာမခံဥပဒေ」အခန်း(၃၇) ပုဒ်မ(၂) အရ အလုပ်ဆိုင်ရာထိခိုက်မှုအဖြစ် သတ်မှတ်မရပါ။ ထို့ကြောင့် မူလဆုံးဖြတ်ချက် (မိသားစုထောက်ပံ့ငွေ မအတည်ပြုခြင်း) သည် သင့်တော်ပါသည်။",
+    "NP": "कामको सम्बन्धिकता (कार्य सम्पादनको सीमा): मृतकको कार्य कामसँग प्रत्यक्ष सम्बन्धित भए पनि, अवैध कार्य (अनधिकृत सवारी) का कारण भएको मृत्यु दुर्घटनालाई कामको क्रममा भएको दुर्घटना मान्न सकिन्छ वा सकिँदैन भन्ने।",
+    "TH": "ขอบเขตของการปฏิบัติงาน: แม้ว่าการกระทำของผู้ตายจะเกี่ยวข้องโดยตรงกับงาน แต่การเสียชีวิตที่เกิดจากการกระทำที่ผิดกฎหมายสามารถถือเป็นอุบัติเหตุจากการทำงานได้หรือไม่"
+  },
+  "five_decision0": {
+    "KO": "사고는 업무 수행 중 발생했으나, 고인의 무면허 운전 및 임의 사용이라는 위법행위가 직접 원인이 되어 사망에 이른 것임.",
+    "EN": "Although the accident occurred during work performance, the deceased's illegal acts—unlicensed operation and unauthorized use—were the direct cause of death.",
+    "VN": "Tai nạn xảy ra trong khi thực hiện công việc, nhưng hành vi vi phạm pháp luật của người quá cố là lái xe không có giấy phép và sử dụng xe tùy tiện là nguyên nhân trực tiếp dẫn đến tử vong.",
+    "ID": " Kecelakaan terjadi saat menjalankan tugas, namun tindakan melanggar hukum almarhum berupa mengemudi tanpa lisensi dan penggunaan tanpa izin menjadi penyebab langsung kematian.",
+    "RU": " Хотя несчастный случай произошел во время выполнения рабочих обязанностей, прямой причиной смерти были незаконные действия погибшего, связанные с вождением без прав и несанкционированным использованием.",
+    "MM": "မတော်တဆဖြစ်ပွားမှုသည် အလုပ်ဆောင်ရွက်နေစဉ် ဖြစ်ပွားခဲ့သော်လည်း၊ သေဆုံးသူ၏ မလိုင်စင်မောင်းနှင်ခြင်းနှင့် ပိုင်ဆိုင်သူခွင့်ပြုချက်မရှိဘဲ အသုံးပြုခြင်းတို့သည် တိုက်ရိုက်အကြောင်းရင်းဖြစ်သည်။",
+    "NP": "दुर्घटना कामको क्रममा भएको भए पनि, मृतकको अनधिकृत फोर्कलिफ्ट प्रयोग र लाइसेन्स विना सवारी चलाउने अवैध कार्य नै मृत्युको प्रत्यक्ष कारण भएको हो।",
+    "TH": "แม้อุบัติเหตุจะเกิดขึ้นระหว่างการทำงาน แต่สาเหตุโดยตรงของการเสียชีวิตคือการกระทำที่ผิดกฎหมาย ได้แก่ การขับรถยกโดยไม่มีใบอนุญาตและการนำไปใช้โดยไม่ได้รับอนุญาต"
+  },
+  "five_decision1": {
+    "KO": "따라서 산업재해보상보험법 제37조 제2항에 따라 업무상 재해로 인정되지 않으며, 원처분(유족급여 불승인)은 타당.",
+    "EN": " Therefore, it is not recognized as a work-related injury under Article 37(2) of the Industrial Accident Compensation Insurance Act, and the original decision (denial of survivor benefits) is valid.",
+    "VN": " Do đó, theo Điều 37, Khoản 2 của Luật Bảo hiểm tai nạn lao động, tai nạn này không được công nhận là tai nạn lao động, và quyết định ban đầu (từ chối cấp trợ cấp cho gia đình người quá cố) là hợp lý.",
+    "ID": "Oleh karena itu, berdasarkan Pasal 37 Ayat 2 Undang-Undang Asuransi Kecelakaan Kerja, kecelakaan tersebut tidak diakui sebagai kecelakaan kerja, dan keputusan awal (penolakan tunjangan ahli waris) dianggap tepat.",
+    "RU": "Таким образом, в соответствии со статьей 37(2) Закона о страховании от несчастных случаев на производстве, данный случай не признается производственной травмой, и первоначальное решение (отказ в выплате пособия по случаю потери кормильца) является действительным.",
+    "MM": "ထို့ကြောင့် 「အလုပ်အချို့ထိခိုက်မှု အာမခံဥပဒေ」အခန်း(၃၇) ပုဒ်မ(၂) အရ အလုပ်ဆိုင်ရာထိခိုက်မှုအဖြစ် သတ်မှတ်မရပါ။ ထို့ကြောင့် မူလဆုံးဖြတ်ချက် (မိသားစုထောက်ပံ့ငွေ မအတည်ပြုခြင်း) သည် သင့်တော်ပါသည်။",
+    "NP": "त्यसैले 「औद्योगिक दुर्घटना बीमा ऐन」 धारा ३७(२) अनुसार यसलाई कामको क्रममा भएको दुर्घटना (औद्योगिक दुर्घटना) को रूपमा मान्यता दिन सकिँदैन, र प्रारम्भिक निर्णय (बीमा रकम अस्वीकृति) उचित ठहरिन्छ।",
+    "TH": "ดังนั้น ตามมาตรา 37 วรรค 2 แห่งพระราชบัญญัติประกันอุบัติเหตุจากการทำงาน จึงไม่อาจถือว่าเป็นอุบัติเหตุจากการทำงานได้ และคำสั่งเดิม (ไม่อนุมัติการจ่ายเงินชดเชยให้ทายาท) ถือว่าถูกต้องแล้ว"
+  },
+  "five_laws0": {
+    "KO": "산재보험법 제5조(정의)",
+    "EN": "Industrial Accident Compensation Insurance Act Article 5 (Definitions)",
+    "VN": "Điều 5 (Định nghĩa) của Luật Bảo hiểm tai nạn lao động",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 5 (Definisi)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 5 (Определения)",
+    "MM": "「အလုပ်အချို့ထိခိုက်မှု အာမခံဥပဒေ」 ပုဒ်မ(၅) (သတ်မှတ်ချက်များ)",
+    "NP": "「औद्योगिक दुर्घटना बीमा ऐन」 धारा ५ (परिभाषा)",
+    "TH": "พระราชบัญญัติประกันอุบัติเหตุจากการทำงาน มาตรา 5 (คำจำกัดความ)"
+  },
+  "five_laws1": {
+    "KO": "산재보험법 제37조(업무상의 재해의 인정 기준)",
+    "EN": " Industrial Accident Compensation Insurance Act Article 37 (Criteria for Recognizing Work-Related Accidents)",
+    "VN": "Điều 37 (Tiêu chuẩn công nhận tai nạn lao động) của Luật Bảo hiểm tai nạn lao động",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 37 (Kriteria Pengakuan Kecelakaan Kerja)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 37 (Критерии признания несчастных случаев, связанных с работой)",
+    "MM": "「အလုပ်အချို့ထိခိုက်မှု အာမခံဥပဒေ」 ပုဒ်မ(၃၇) (အလုပ်ဆိုင်ရာထိခိုက်မှု အတည်ပြုခြင်းစည်းမျဉ်းများ)",
+    "NP": "「औद्योगिक दुर्घटना बीमा ऐन」 धारा ३७ (कामको क्रममा भएको दुर्घटनाको मान्यता मापदण्ड)",
+    "TH": "พระราชบัญญัติประกันอุบัติเหตุจากการทำงาน มาตรา 37 (หลักเกณฑ์การรับรองอุบัติเหตุจากการทำงาน)"
+  },
+  "five_laws2": {
+    "KO": "산재보험법 제62조(유족급여)",
+    "EN": "Industrial Accident Compensation Insurance Act Article 62 (Survivor Benefits)",
+    "VN": "Điều 62 (Trợ cấp cho gia đình người chết) của Luật Bảo hiểm tai nạn lao động",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 62 (Tunjangan Ahli Waris)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 62 (Пособия по случаю потери кормильца)",
+    "MM": "「အလုပ်အချို့ထိခိုက်မှု အာမခံဥပဒေ」 ပုဒ်မ(၆၂) (မိသားစုထောက်ပံ့ငွေ)",
+    "NP": "「औद्योगिक दुर्घटना बीमा ऐन」 धारा ६२ (परिवारजनलाई दिने बीमा रकम)",
+    "TH": "พระราชบัญญัติประกันอุบัติเหตุจากการทำงาน มาตรา 62 (เงินชดเชยแก่ทายาท)"
+  },
+  "five_laws3": {
+    "KO": "산재보험법 제71조(장례비)",
+    "EN": " Industrial Accident Compensation Insurance Act Article 71 (Funeral Expenses)",
+    "VN": "Điều 71 (Chi phí tang lễ) của Luật Bảo hiểm tai nạn lao động",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 71 (Biaya Pemakaman)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 71 (Расходы на похороны)",
+    "MM": "「အလုပ်အချို့ထိခိုက်မှု အာမခံဥပဒေ」 ပုဒ်မ(၇၁) (အလောင်းသင်္ချိုင်းကုန်ကျစရိတ်)",
+    "NP": "「औद्योगिक दुर्घटना बीमा ऐन」 धारा ७१ (अन्त्येष्टि खर्च)",
+    "TH": "พระราชบัญญัติประกันอุบัติเหตุจากการทำงาน มาตรา 71 (ค่าใช้จ่ายงานศพ)"
+  },
+  "five_laws4": {
+    "KO": "산재보험법 제105조(심사청구에 대한 심리·결정)",
+    "EN": "Industrial Accident Compensation Insurance Act Article 105 (Hearing and Decision on Review Requests)",
+    "VN": "Điều 105 (Xét xử và quyết định yêu cầu thẩm tra) của Luật Bảo hiểm tai nạn lao động",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 105 (Pemeriksaan dan Keputusan atas Permohonan Banding)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 105 (Рассмотрение и принятие решения по запросам о пересмотре)",
+    "MM": "「အလုပ်အချို့ထိခိုက်မှု အာမခံဥပဒေ」 ပုဒ်မ(၁၀၅) (ပြန်လည်စိစစ်မှုနှင့် ဆုံးဖြတ်ချက်)",
+    "NP": "「औद्योगिक दुर्घटना बीमा ऐन」 धारा १०५ (अपीलको समीक्षा र निर्णय)",
+    "TH": "พระราชบัญญัติประกันอุบัติเหตุจากการทำงาน มาตรา 105 (การพิจารณาอุทธรณ์และการตัดสิน)"
+  },
+  "six_title": {
+    "KO": "철근 밴딩기 운반 중 허리 부상",
+    "EN": "Back Injury While Transporting Rebar Bending Machine",
+    "VN": "Chấn thương lưng trong khi vận chuyển máy uốn thép",
+    "ID": "Cedera Punggung Saat Mengangkut Mesin Pembengkok Baja",
+    "RU": "Травма спины при транспортировке машины для гибки арматуры",
+    "MM": "သံချောင်းကွေးစက် (Bending Machine) သယ်ယူပို့ဆောင်နေစဥ် ခါးဒဏ်ရာ",
+    "NP": "छड बेंडिङ मेसिन ढुवानी गर्दा कम्मरमा चोट",
+    "TH": "อาการบาดเจ็บที่หลังขณะขนย้ายเครื่องดัดเหล็กเส้น (Bending Machine)"
+  },
+  "six_summary0": {
+    "KO": "승인 여부: 승인",
+    "EN": "Approval Status: Approved",
+    "VN": "Kết quả phê duyệt: Phê duyệt",
+    "ID": "Status Persetujuan: Disetujui",
+    "RU": "Статус утверждения: Утверждено",
+    "MM": "အတည်ပြု/မပြု အခြေအနေ: အတည်ပြုသည်",
+    "NP": "स्वीकृतिको अवस्था: स्वीकृत",
+    "TH": "สถานะการอนุมัติ: อนุมัติ"
+  },
+  "six_summary1": {
+    "KO": "발생 일시: 2023. 9. 24.",
+    "EN": "Date of Occurrence: September 24, 2023",
+    "VN": "Thời gian xảy ra: 24/9/2023",
+    "ID": "Tanggal dan Waktu Terjadi: 24 September 2023",
+    "RU": "Дата происшествия: 24 сентября 2023 г.",
+    "MM": "ဖြစ်ပွားသည့်ရက်စွဲ/အချိန်: ၂၀၂၃ ခုနှစ်၊ စက်တင်ဘာလ ၂၄ ရက်",
+    "NP": "घटना भएको मिति/समय: सन् २०२३, सेप्टेम्बर २४ गते",
+    "TH": "วัน/เวลาที่เกิดเหตุ: ๒๔ กันยายน ๒๕๖๖"
+  },
+  "six_summary2": {
+    "KO": "발생 장소: ○○시 ○○동 단독주택 건설현장",
+    "EN": "Location: Construction Site of a Detached House in ○○-dong, ○○ City",
+    "VN": "Địa điểm xảy ra: Công trường xây dựng nhà riêng tại ○○-dong, thành phố ○○",
+    "ID": "Lokasi Terjadi: Lokasi Pembangunan Rumah Tunggal di ○○-dong, ○○-si",
+    "RU": "Место происшествия: Строительная площадка отдельно стоящего дома в ○○-донге, город ○○",
+    "MM": "ဖြစ်ပွားသည့်နေရာ: OO မြို့၊ OO ရပ်ကွက်၊ တစ်အိမ်တည်းနေအိမ် ဆောက်လုပ်ရေးလုပ်ငန်းခွင်",
+    "NP": "घटना भएको स्थान: OO शहर, OO टोलको एकल घर निर्माणस्थल",
+    "TH": "สถานที่เกิดเหตุ: สถานที่ก่อสร้างบ้านเดี่ยว OO ดง OO ซี"
+  },
+  "six_summary3": {
+    "KO": "근로자 정보: 철근 작업 보조원 (일용직 근로자)",
+    "EN": "Worker Information: Rebar Work Assistant (Daily Wage Worker)",
+    "VN": "Thông tin người lao động: Nhân viên phụ việc uốn thép (lao động thời vụ)",
+    "ID": "Informasi Pekerja: Asisten Pekerja Baja (Pekerja Harian)",
+    "RU": "Информация о работнике: Помощник по работе с арматурой (работник с повременной оплатой)",
+    "MM": "လုပ်သားအချက်အလက်: သံချောင်းလုပ်ငန်း အကူဝန်ထမ်း (နေ့စားလုပ်သား)",
+    "NP": "श्रमिकको जानकारी: छड (फलामे डन्डी) कामको सहयोगी (दैनिक ज्यालादारी श्रमिक)",
+    "TH": "ข้อมูลลูกจ้าง: ผู้ช่วยงานเหล็กเส้น (ลูกจ้างรายวัน)"
+  },
+  "six_summary4": {
+    "KO": "상병명: 경추 염좌, 요추 염좌",
+    "EN": "Injury Diagnosis: Cervical Sprain, Lumbar Sprain",
+    "VN": "Chẩn đoán: Bị trật khớp cổ, trật khớp thắt lưng",
+    "ID": "Diagnosis: Sprain pada tulang leher, sprain pada tulang pinggang",
+    "RU": "Диагноз травмы: растяжение шейного отдела позвоночника, растяжение поясничного отдела позвоночника",
+    "MM": "ဒဏ်ရာအမည်များ: လည်ပင်းရိုး (Cervical Spine) ညောင်းညာခြင်း၊ ခါးရိုး (Lumbar Spine) ညောင်းညာခြင်း",
+    "NP": "चोटपटकको नाम: घाँटीको हड्डी (Cervical Vertebrae) मा मोच, कम्मरको हड्डी (Lumbar Vertebrae) मा मोच",
+    "TH": "ชื่ออาการบาดเจ็บ: อาการเคล็ดที่กระดูกคอ, อาการเคล็ดที่กระดูกสันหลังส่วนเอว"
+  },
+  "six_situation": {
+    "KO": "재해원자가 불명확하고 사고 목적자가 없는 등 재해경위의 신뢰성 결여를 이유로 요양 불승인한 사건에 대하여, 사고 사실에 대하여 들었다는 동료 근로자의 진술, 진단서 상의 재해원자가 일치하는 등 청구인의 재해 경위를 신뢰할 수 있다고 판단하여 원처분 “취소” 결정한 사례 ",
+    "EN": "Regarding a case where medical treatment was denied due to lack of credibility in the accident circumstances (e.g., unclear cause of injury, no identified responsible party), the claim was approved. The decision to “Reverse” the original denial was based on credible evidence supporting the claimant's account, including statements from fellow workers who heard about the accident and consistency in the cause of injury listed on the medical certificate. ",
+    "VN": "Đối với vụ việc không được chấp thuận điều trị do thiếu tính xác thực về tình huống tai nạn, như nguyên nhân tai nạn không rõ ràng, không có người gây tai nạn, v.v., dựa trên lời khai của đồng nghiệp về sự việc tai nạn, chẩn đoán y tế trùng khớp với nguyên nhân tai nạn, v.v., chúng tôi đã quyết định “hủy bỏ” quyết định ban đầu vì cho rằng tình huống tai nạn của người yêu cầu bồi thường là đáng tin cậy. ",
+    "ID": "Kasus di mana klaim perawatan ditolak dengan alasan ketidakjelasan penyebab kecelakaan dan tidak adanya pihak yang bertanggung jawab, namun diputuskan untuk membatalkan keputusan awal karena pernyataan rekan kerja yang mendengar fakta kecelakaan dan kesesuaian penyebab kecelakaan dalam surat keterangan medis, sehingga dianggap dapat dipercaya. ",
+    "RU": "В отношении случая, когда в лечении было отказано из-за недостоверности обстоятельств несчастного случая (например, неясная причина травмы, отсутствие установленной ответственной стороны), заявление было удовлетворено. Решение «отменить» первоначальное распоряжение было основано на достоверном описании несчастного случая заявителем, подкрепленном заявлением коллеги, подтверждающим инцидент, и согласующимся с причиной травмы, указанной в медицинской справке. ",
+    "MM": "ဘေးဥပဒ် ဖြစ်စေသူ မရှင်းလင်းခြင်း၊ မတော်တဆမှု ရည်ရွယ်ချက် မရှိခြင်း စသည့် အကြောင်းပြချက်များဖြင့် မတော်တဆမှု ဖြစ်ပွားပုံ၏ ယုံကြည်စိတ်ချရမှု မရှိဟုဆိုကာ ဆေးကုသခွင့် ပယ်ချခဲ့သော ဖြစ်ရပ်တွင်၊ မတော်တဆမှုအကြောင်း အသိပေးခဲ့သည်ဟုဆိုသော လုပ်ဖော်ကိုင်ဖက် လုပ်သား၏ ထွက်ဆိုချက်နှင့် ဆေးစစ်ချက်ပါ ဘေးဥပဒ် အကြောင်းရင်းများ ကိုက်ညီခြင်းတို့ကြောင့် တောင်းဆိုသူ၏ ဘေးဥပဒ် ဖြစ်ပွားပုံကို ယုံကြည်စိတ်ချနိုင်သည်ဟု ဆုံးဖြတ်ကာ မူလဆုံးဖြတ်ချက်ကို \"ပယ်ဖျက်\" ရန် ဆုံးဖြတ်ခဲ့သော ဖြစ်ရပ်ဖြစ်သည်။",
+    "NP": "दुर्घटनाको कारण अस्पष्ट भएको र दुर्घटनाको उद्देश्य नभएको भन्दै दुर्घटनाको विवरणमा विश्वासनीयताको कमी भएको कारणले उपचार अस्वीकार गरिएको घटनामा, दुर्घटनाको तथ्यबारे सुनेको सहकर्मी श्रमिकको बयान, र निदान प्रतिवेदनमा दुर्घटनाको कारण मिल्दोजुल्दो रहेकोले निवेदकको दुर्घटना विवरणलाई विश्वास गर्न सकिने ठहर गरी मूल निर्णयलाई “रद्द” गर्ने निर्णय गरिएको उदाहरण हो।",
+    "TH": "เป็นกรณีที่เคยถูกปฏิเสธการรักษาพยาบาลโดยให้เหตุผลว่าขาดความน่าเชื่อถือในลำดับเหตุการณ์ เนื่องจากไม่ชัดเจนว่าใครเป็นผู้ทำให้เกิดภัยพิบัติและไม่มีวัตถุประสงค์ของการเกิดเหตุ โดยมีการตัดสินใจ**“ยกเลิก”คำสั่งเดิม เนื่องจากวินิจฉัยว่าลำดับเหตุการณ์ของผู้ร้องขอมีความน่าเชื่อถือ** โดยอ้างอิงจากคำให้การของเพื่อนร่วมงานที่ระบุว่าได้ยินเรื่องราวอุบัติเหตุทันที และสาเหตุของภัยพิบัติที่สอดคล้องกับใบรับรองแพทย์"
+  },
+  "six_fact0": {
+    "KO": "동료 근로자가 “철근 밴딩기를 운반하던 중 허리를 삐끗했다”는 청구인의 말을 즉시 전해 들었다고 진술.",
+    "EN": "A coworker testified to having immediately heard the claimant state, “I strained my back while transporting the rebar bender.”",
+    "VN": "Đồng nghiệp khai rằng đã nghe ngay lời khai của người yêu cầu bồi thường rằng \"đã bị trật lưng khi vận chuyển máy uốn thép\".",
+    "ID": "Rekan kerja menyatakan bahwa ia langsung mendengar pernyataan pemohon bahwa “saat mengangkut mesin pembengkok besi, ia mengalami keseleo pada punggung”.",
+    "RU": "Коллега свидетельствовал, что сразу же услышал, как заявитель сказал: «Я потянул спину при транспортировке арматурного станка».",
+    "MM": "လုပ်ဖော်ကိုင်ဖက် လုပ်သားက \"သံချောင်းကွေးစက် သယ်ယူပို့ဆောင်နေစဥ် ခါးကို နာသွားသည်\" ဟူသော တောင်းဆိုသူ၏ စကားကို ချက်ချင်း ကြားသိခဲ့သည်ဟု ထွက်ဆိုခဲ့သည်။",
+    "NP": "सहकर्मी श्रमिकले “छड बेंडिङ मेसिन ढुवानी गर्दा कम्मर मर्कियो” भन्ने निवेदकको कुरा तत्कालै सुनेको भनी बयान दिए।",
+    "TH": "เพื่อนร่วมงานให้การว่าได้ยินคำพูดของผู้ร้องขอทันทีที่ระบุว่า “เอวเคล็ดขณะขนย้ายเครื่องดัดเหล็กเส้น”"
+  },
+  "six_fact1": {
+    "KO": "병원 진단서에는 재해발생일이 2023. 9. 24.로 기재되어 있음.",
+    "EN": "The hospital medical certificate lists the date of injury as September 24, 2023.",
+    "VN": "Giấy chứng nhận y tế ghi ngày xảy ra tai nạn là 24/9/2023.",
+    "ID": "Surat keterangan medis rumah sakit mencantumkan tanggal kejadian kecelakaan pada 24 September 2023.",
+    "RU": "В медицинской справке больницы датой травмы указано 24 сентября 2023 года.",
+    "MM": "ဆေးရုံ ဆေးစစ်ချက်တွင် ဘေးဥပဒ် ဖြစ်ပွားသည့်ရက်စွဲကို ၂၀၂၃ ခုနှစ်၊ စက်တင်ဘာလ ၂၄ ရက်ဟု ဖော်ပြထားသည်။",
+    "NP": "अस्पतालको निदान प्रतिवेदनमा दुर्घटना भएको मिति २०२३. ९. २४ उल्लेख छ।",
+    "TH": "ใบรับรองแพทย์ของโรงพยาบาลระบุวันที่เกิดเหตุไว้เป็นวันที่ ๒๔ กันยายน ๒๕๖๖"
+  },
+  "six_fact2": {
+    "KO": "청구인의 진술, 동료 진술, 문자·통화 기록 등을 종합한 결과 재해 경위에 신빙성이 있다고 판단.",
+    "EN": "Based on a comprehensive review of the claimant's statement, colleague's statement, text/call records, etc., the circumstances of the accident were deemed credible.",
+    "VN": "Kết hợp lời khai của người yêu cầu, lời khai của đồng nghiệp, tin nhắn và ghi âm cuộc gọi, v.v., cơ quan xét duyệt đã đánh giá rằng tình tiết tai nạn là đáng tin cậy.",
+    "ID": "Berdasarkan kesimpulan dari pernyataan pemohon, pernyataan rekan kerja, catatan pesan teks dan panggilan telepon, dsb., dianggap bahwa keterangan mengenai penyebab kecelakaan dapat dipercaya.",
+    "RU": "После всестороннего рассмотрения заявления заявителя, показаний коллеги и текстовых сообщений/записей звонков обстоятельства несчастного случая были признаны достоверными.",
+    "MM": "တောင်းဆိုသူ၏ ထွက်ဆိုချက်၊ လုပ်ဖော်ကိုင်ဖက်၏ ထွက်ဆိုချက်၊ စာတို/ဖုန်းခေါ်ဆိုမှု မှတ်တမ်းများ စသည်တို့ကို ခြုံငုံသုံးသပ်၍ ဘေးဥပဒ် ဖြစ်ပွားပုံတွင် ယုံကြည်စိတ်ချရမှု ရှိသည်ဟု ဆုံးဖြတ်သည်။",
+    "NP": "निवेदकको बयान, सहकर्मीको बयान, मेसेज/कल रेकर्डहरू समेतलाई समग्रमा विचार गर्दा दुर्घटनाको विवरणमा विश्वासनीयता रहेको ठहर गरियो।",
+    "TH": "ผลการสรุปคำให้การของผู้ร้องขอ, คำให้การของเพื่อนร่วมงาน, บันทึกข้อความ/การโทร ฯลฯ พบว่าลำดับเหตุการณ์มีความน่าเชื่อถือ"
+  },
+  "six_fact3": {
+    "KO": "원처분기관의 ‘불분명하다’는 이유는 타당하지 않다고 보아 심사위에서 취소 결정.",
+    "EN": "The original decision-making body's reason of ‘unclear’ was deemed invalid, leading the review committee to decide on cancellation.",
+    "VN": "Cơ quan xét duyệt đã hủy bỏ quyết định ban đầu vì cho rằng lý do \"không rõ ràng\" của cơ quan ban hành quyết định ban đầu là không hợp lý.",
+    "ID": "Alasan “tidak jelas” dari instansi yang mengeluarkan keputusan awal dianggap tidak beralasan, sehingga komite peninjauan memutuskan untuk membatalkan keputusan tersebut.",
+    "RU": "Причина «неясность» первоначального органа, принимавшего решение, была признана необоснованной, в результате чего комиссия по пересмотру отменила решение.",
+    "MM": "မူလဆုံးဖြတ်ချက်ချမှတ်သည့် အဖွဲ့အစည်း၏ 'မရှင်းလင်းပါ' ဟူသော အကြောင်းပြချက်သည် သင့်လျော်မှုမရှိဟု ရှုမြင်၍ ဆန်းစစ်ရေးကော်မတီမှ ပယ်ဖျက်ရန် ဆုံးဖြတ်ခဲ့သည်။",
+    "NP": "मूल निर्णय गर्ने निकायको 'अस्पष्टता' को कारण उचित नभएको मानी छानबिन समितिले रद्द गर्ने निर्णय गर्‍यो।",
+    "TH": "คณะกรรมการพิจารณาตัดสินว่าเหตุผลของหน่วยงานที่ออกคำสั่งเดิมที่ระบุว่า 'ไม่ชัดเจน' นั้นไม่มีความสมเหตุสมผล จึงมีคำสั่งยกเลิก"
+  },
+  "six_important0": {
+    "KO": "재해 발생의 신빙성: 목격자가 없는 상황에서 동료 진술과 진단 기록을 근거로 재해 사실을 인정할 수 있는지 여부.",
+    "EN": "Credibility of the accident occurrence: Whether the accident can be recognized based solely on a colleague's statement and medical records in the absence of eyewitnesses.",
+    "VN": "Tính xác thực của tai nạn: Liệu có thể công nhận tai nạn dựa trên lời khai của đồng nghiệp và hồ sơ chẩn đoán trong trường hợp không có nhân chứng hay không.",
+    "ID": "Keabsahan terjadinya kecelakaan: Apakah fakta kecelakaan dapat diakui berdasarkan keterangan rekan kerja dan catatan diagnosis tanpa adanya saksi mata.",
+    "RU": "Достоверность факта несчастного случая: можно ли признать несчастный случай на основании только показаний коллеги и медицинских записей при отсутствии очевидцев.",
+    "MM": "ဘေးဥပဒ် ဖြစ်ပွားမှု၏ ယုံကြည်စိတ်ချရမှု: မျက်မြင်သက်သေ မရှိသည့် အခြေအနေတွင် လုပ်ဖော်ကိုင်ဖက်၏ ထွက်ဆိုချက်နှင့် ဆေးစစ်ချက် မှတ်တမ်းများကို အခြေခံ၍ ဘေးဥပဒ် ဖြစ်ပွားသည့် အချက်ကို အသိအမှတ်ပြုနိုင်ခြင်း ရှိ/မရှိ။",
+    "NP": "दुर्घटना भएको तथ्यको विश्वासनीयता: साक्षी नभएको अवस्थामा सहकर्मीको बयान र निदान रेकर्डलाई आधार मानेर दुर्घटनाको तथ्यलाई स्वीकार गर्न सकिन्छ वा सकिँदैन।",
+    "TH": "ความน่าเชื่อถือของการเกิดภัยพิบัติ: การยอมรับข้อเท็จจริงของการเกิดภัยพิบัติโดยอ้างอิงจากคำให้การของเพื่อนร่วมงานและบันทึกการวินิจฉัยโรค ในสถานการณ์ที่ไม่มีพยานผู้เห็นเหตุการณ์ได้หรือไม่"
+  },
+  "six_important1": {
+    "KO": "재해일 특정 문제: 최초 불승인 사유였던 ‘재해일 불명확’이 동료 진술과 진단서를 통해 보완될 수 있는지 여부.",
+    "EN": "Specification of the Date of the Accident: Whether the initial reason for denial, “unclear date of the accident,” can be supplemented by colleague statements and medical certificates.",
+    "VN": "Vấn đề cụ thể về ngày xảy ra tai nạn: Liệu lý do ban đầu từ chối công nhận là \"ngày xảy ra tai nạn không rõ ràng\" có thể được bổ sung bằng lời khai của đồng nghiệp và giấy chứng nhận chẩn đoán hay không.",
+    "ID": "Masalah spesifik tanggal kecelakaan: Apakah alasan penolakan awal “tanggal kecelakaan tidak jelas” dapat diperbaiki melalui keterangan rekan kerja dan surat keterangan medis.",
+    "RU": "Уточнение даты несчастного случая: можно ли дополнить первоначальное обоснование отказа «неясность даты несчастного случая» заявлениями коллег и медицинскими справками.",
+    "MM": "ဘေးဥပဒ် ဖြစ်ပွားသည့်ရက်စွဲ သတ်မှတ်ခြင်း ပြဿနာ: ပထမအကြိမ် ပယ်ချခဲ့သည့် အကြောင်းရင်းဖြစ်သော 'ဘေးဥပဒ် ဖြစ်ပွားသည့်ရက်စွဲ မရှင်းလင်းမှု' ကို လုပ်ဖော်ကိုင်ဖက်၏ ထွက်ဆိုချက်နှင့် ဆေးစစ်ချက်တို့ဖြင့် ဖြည့်ဆည်းပေးနိုင်ခြင်း ရှိ/မရှိ။",
+    "NP": "दुर्घटना मिति निर्धारणको समस्या: पहिलो पटक अस्वीकृतिको कारण रहेको 'दुर्घटना मिति अस्पष्ट' भन्ने कुरालाई सहकर्मीको बयान र निदान प्रतिवेदनले पूरक बनाउन सक्छ वा सक्दैन।",
+    "TH": "ปัญหาการระบุวันที่เกิดเหตุ: 'วันที่เกิดเหตุไม่ชัดเจน' ซึ่งเป็นสาเหตุของการปฏิเสธครั้งแรก สามารถถูกเสริมด้วยคำให้การของเพื่อนร่วมงานและใบรับรองแพทย์ได้หรือไม่"
+  },
+  "six_decision": {
+    "KO": "청구인의 상병은 업무 중 발생한 사고로 인정되며, 최초 불승인 처분은 취소됨.",
+    "EN": "The claimant's injury is recognized as an accident occurring during work, and the initial denial decision is revoked.",
+    "VN": "Chấn thương của người yêu cầu bồi thường được công nhận là tai nạn xảy ra trong khi làm việc, và quyết định từ chối ban đầu bị hủy bỏ.",
+    "ID": "Cedera pemohon diakui sebagai kecelakaan kerja, dan keputusan penolakan awal dibatalkan.",
+    "RU": "Травма заявителя признана полученной в результате несчастного случая на производстве, и первоначальное решение об отказе отменено.",
+    "MM": "တောင်းဆိုသူ၏ ဒဏ်ရာသည် လုပ်ငန်းဆောင်ရွက်နေစဥ်အတွင်း ဖြစ်ပွားသော မတော်တဆမှုအဖြစ် အသိအမှတ်ပြုသည်။ ပထမအကြိမ် ပယ်ချခဲ့သော အမိန့်ကို ပယ်ဖျက်ခဲ့သည်။",
+    "NP": "निवेदकको रोग कामको क्रममा भएको दुर्घटनाको रूपमा स्वीकार गरिन्छ र पहिलो पटक अस्वीकार गरिएको निर्णय रद्द गरियो।",
+    "TH": "อาการบาดเจ็บของผู้ร้องขอได้รับการยอมรับว่าเป็นอุบัติเหตุที่เกิดขึ้นระหว่างการปฏิบัติงาน และคำสั่งปฏิเสธในครั้งแรกจึงถูกยกเลิก"
+  },
+  "six_laws0": {
+    "KO": "산재보험법 제5조 제1호 (업무상의 재해)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 5, Item 1 (Work-Related Accident)",
+    "VN": "Điều 5, khoản 1 của \"Luật bảo hiểm tai nạn lao động\" (Tai nạn trong khi làm việc)",
+    "ID": "Pasal 5 Ayat 1 Undang-Undang Asuransi Kecelakaan Kerja (Kecelakaan Kerja)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 5(1) (Несчастный случай на производстве)",
+    "MM": "「စက်မှုထိခိုက်မှု အာမခံ ဥပဒေ (산재보험법)」 ပုဒ်မ ၅၊ အပိုဒ် ၁ (လုပ်ငန်းခွင်ဆိုင်ရာ ဘေးဥပဒ်)",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन (산재보험법)」 धारा ५ को उपधारा १ (कामको क्रममा भएको दुर्घटना)",
+    "TH": "「พระราชบัญญัติประกันภัยเงินทดแทนผู้ประสบภัยจากงาน (산재보험법)」 มาตรา ๕ วรรค ๑ (อุบัติเหตุจากการทำงาน)"
+  },
+  "six_laws1": {
+    "KO": "산재보험법 제37조 (업무상의 재해의 인정 기준)",
+    "EN": "Industrial Accident Compensation Insurance Act Article 37 (Criteria for Recognizing Work-Related Injuries)",
+    "VN": "Điều 37 của 「Luật bảo hiểm tai nạn lao động」 (Tiêu chuẩn công nhận tai nạn lao động)",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 37 (Kriteria Pengakuan Kecelakaan Kerja)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 37 (Критерии признания травм, связанных с работой)",
+    "MM": "「စက်မှုထိခိုက်မှု အာမခံ ဥပဒေ (산재보험법)」 ပုဒ်မ ၃၇ (လုပ်ငန်းခွင်ဆိုင်ရာ ဘေးဥပဒ် အသိအမှတ်ပြုခြင်း စံနှုန်း)",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन (산재보험법)」 धारा ३७ (कामको क्रममा भएको दुर्घटनाको मान्यता मापदण्ड)",
+    "TH": "「พระราชบัญญัติประกันภัยเงินทดแทนผู้ประสบภัยจากงาน (산재보험법)」 มาตรา ๓๗ (เกณฑ์การยอมรับอุบัติเหตุจากการทำงาน)"
+  },
+  "six_laws2": {
+    "KO": "「산재보험법 시행령」 제27조 (업무수행 중의 사고)",
+    "EN": "Industrial Accident Compensation Insurance Act Enforcement Decree Article 27 (Accidents During Work Performance)",
+    "VN": "Điều 27 của 「Nghị định thi hành Luật bảo hiểm tai nạn lao động」 (Tai nạn trong khi làm việc)",
+    "ID": "「Peraturan Pelaksanaan Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 27 (Kecelakaan Selama Melakukan Pekerjaan)",
+    "RU": "Постановление о применении Закона о страховании от несчастных случаев на производстве, статья 27 (Несчастные случаи во время выполнения работы)",
+    "MM": "「စက်မှုထိခိုက်မှု အာမခံ ဥပဒေ ပြန်တမ်း (산재보험법 시행령)」 ပုဒ်မ ၂၇ (လုပ်ငန်းဆောင်ရွက်နေစဥ်အတွင်း ဖြစ်ပွားသော မတော်တဆမှု)",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुनको कार्यान्वयन नियमावली (산재보험법 시행령)」 धारा २७ (काम गर्ने क्रममा भएको दुर्घटना)",
+    "TH": "「กฎกระทรวงตามพระราชบัญญัติประกันภัยเงินทดแทนผู้ประสบภัยจากงาน (산재보험법 시행령)」 มาตรา ๒๗ (อุบัติเหตุระหว่างการปฏิบัติงาน)"
+  },
+  "six_laws3": {
+    "KO": "산재보험법 제105조 (심사청구에 대한 심리·결정)",
+    "EN": "Industrial Accident Compensation Insurance Act Article 105 (Hearing and Decision on Review Requests)",
+    "VN": "Điều 105 của 「Luật bảo hiểm tai nạn lao động」 (Xét xử và quyết định đối với yêu cầu thẩm tra)",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 105 (Pemeriksaan dan Keputusan atas Permohonan Banding)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 105 (Слушание и решение по запросам о пересмотре)",
+    "MM": "「စက်မှုထိခိုက်မှု အာမခံ ဥပဒေ (산재보험법)」 ပုဒ်မ ၁၀၅ (ဆန်းစစ်ရန် တောင်းဆိုမှုအပေါ် စိစစ်ဆုံးဖြတ်ခြင်း)",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन (산재보험법)」 धारा १०५ (छानबिन निवेदनको सुनुवाइ र निर्णय)",
+    "TH": "「พระราชบัญญัติประกันภัยเงินทดแทนผู้ประสบภัยจากงาน (산재보험법)」 มาตรา ๑๐๕ (การพิจารณาและวินิจฉัยคำร้องขอทบทวน)"
+  },
+  "seven_title": {
+    "KO": "배달업무 중 낙상사고",
+    "EN": " Fall Accident During Delivery Work",
+    "VN": "Tai nạn ngã trong khi giao hàng",
+    "ID": "Kecelakaan jatuh saat mengantarkan pesanan",
+    "RU": "Несчастный случай с падением во время доставки",
+    "MM": "ပစ္စည်းပို့ဆောင်ရေးလုပ်ငန်းဆောင်ရွက်နေစဥ် ပြုတ်ကျမှုမတော်တဆမှု",
+    "NP": "डेलिभरी कामको क्रममा लडेर भएको दुर्घटना",
+    "TH": "การยอมรับเป็นอุบัติเหตุจากการทำงาน (ซันแจ)"
+  },
+  "seven_summary0": {
+    "KO": "승인 여부: 승인",
+    "EN": " Approval Status: Approved",
+    "VN": "Kết quả phê duyệt: Được phê duyệt",
+    "ID": "Status Persetujuan: Disetujui",
+    "RU": "Статус утверждения: Утверждено",
+    "MM": "အတည်ပြု/မပြု အခြေအနေ: အတည်ပြုသည်",
+    "NP": "स्वीकृतिको अवस्था: स्वीकृत\r\n\r\n",
+    "TH": "สถานะการอนุมัติ: อนุมัติ\r\n\r\n"
+  },
+  "seven_summary1": {
+    "KO": "발생 일시: 2023. 11. 18. 22:10경",
+    "EN": " Date/Time of Occurrence: Around 22:10 on November 18, 2023",
+    "VN": "Thời gian xảy ra: Khoảng 22:10 ngày 18/11/2023",
+    "ID": "Waktu Kejadian: 2023. 11. 18. Sekitar pukul 22:10",
+    "RU": "Дата и время происшествия: Около 22:10 18 ноября 2023 г.",
+    "MM": "ဖြစ်ပွားသည့်ရက်စွဲ/အချိန်: ၂၀၂၃ ခုနှစ်၊ နိုဝင်ဘာလ ၁၈ ရက်၊ ည ၂၂:၁၀ နာရီခန့်",
+    "NP": "घटना भएको मिति/समय: सन् २०२३, नोभेम्बर १८ गते, राति लगभग २२:१० बजे\r\n\r\n",
+    "TH": "วัน/เวลาที่เกิดเหตุ: ประมาณ ๒๒:๑๐ น. ของวันที่ ๑๘ พฤศจิกายน ๒๕๖๖\r\n\r\n"
+  },
+  "seven_summary2": {
+    "KO": "발생 장소: ○○동 ○○ 음식점 출입문 인근",
+    "EN": "Location: Near the entrance of ○○ Restaurant in ○○-dong",
+    "VN": "Địa điểm xảy ra: Gần cửa ra vào nhà hàng ○○ ở ○○-dong",
+    "ID": "Lokasi Kejadian: Dekat pintu masuk restoran ○○ di ○○-dong",
+    "RU": "Место: возле входа в ресторан ○○, ○○-дон",
+    "MM": "ဖြစ်ပွားသည့်နေရာ: OO ရပ်ကွက် OO စားသောက်ဆိုင် ဝင်ပေါက်အနီး",
+    "NP": "घटना भएको स्थान: OO टोल OO रेस्टुरेन्टको प्रवेशद्वार नजिक\r\n\r\n",
+    "TH": "สถานที่เกิดเหตุ: บริเวณประตูทางเข้าร้านอาหาร OO ดง OO\r\n\r\n"
+  },
+  "seven_summary3": {
+    "KO": "근로자 정보: 배달 기사 (음식배달)",
+    "EN": "Worker Information: Delivery Driver (Food Delivery)",
+    "VN": "Thông tin người lao động: Nhân viên giao hàng (giao đồ ăn)",
+    "ID": "Informasi Pekerja: Kurir pengiriman (pengiriman makanan)",
+    "RU": "ИнМесто: возле входа в ресторан ○○, ○○-донформация о работнике: водитель-курьер (доставка еды)",
+    "MM": "လုပ်သားအချက်အလက်: ပစ္စည်းပို့ဆောင်ရေး ဝန်ထမ်း (အစားအသောက်ပို့ဆောင်သူ)",
+    "NP": "श्रमिकको जानकारी: डेलिभरी राइडर (खाना डेलिभरी)\r\n\r\n",
+    "TH": "ข้อมูลลูกจ้าง: พนักงานจัดส่งสินค้า (จัดส่งอาหาร)\r\n\r\n"
+  },
+  "seven_summary4": {
+    "KO": "상병명: 좌측 제5중족골 골절, 요추부 염좌",
+    "EN": "njuries: Left 5th Metatarsal Fracture, Lumbar Sprain",
+    "VN": " Chẩn đoán: Gãy xương bàn chân trái, bong gân cột sống thắt lưng",
+    "ID": "Diagnosis: Fraktur tulang metatarsal kelima kiri, keseleo tulang belakang",
+    "RU": "Травмы: перелом пятой плюсневой кости левой стопы, растяжение поясничных мышц",
+    "MM": "ဒဏ်ရာအမည်များ: ဘယ်ဘက် ခြေဖဝါး ငါးခုမြောက် အရိုးကျိုးခြင်း (Metatarsal Fracture), ခါးရိုး (Lumbar Spine) ညောင်းညာခြင်း",
+    "NP": "चोटपटकको नाम: देब्रे पाँचौं मेटाटार्सल हड्डी भाँचिएको, कम्मरको हड्डी (Lumbar Vertebrae) मा मोच",
+    "TH": "ชื่ออาการบาดเจ็บ: กระดูกฝ่าเท้าชิ้นที่ ๕ ด้านซ้ายหัก, อาการเคล็ดที่กระดูกสันหลังส่วนเอว"
+  },
+  "seven_situation": {
+    "KO": "배달업무 중 발생한 사고를 재해 발생 이후 배달 이력이 확인되고, 재해일자와 재해경위의 신뢰성이 결여되었다는 이유로 요양 불승인한 사건에 대하여, 통화기록 등에서 동료 기사가 실제 배달을 대행한 사실이 확인되고 의무기록상 재해경위가 확인됨으로써 업무상 재해로 보는 것이 타당하다고 판단하여 원처분을 “취소” 결정한 사례",
+    "EN": "Case where the original decision to deny medical benefits for an accident occurring during delivery work was overturned. The denial was based on the lack of confirmed delivery history after the accident and the unreliability of the accident date and circumstances. However, phone records confirmed a colleague driver actually performed the delivery, and the medical records verified the accident circumstances. It was therefore determined reasonable to recognize this as a work-related injury, leading to a decision to “Reverse” the original disposition.",
+    "VN": "Vụ việc liên quan đến việc từ chối chi trả chi phí điều trị do không xác định được ngày xảy ra tai nạn và nguyên nhân tai nạn, mặc dù có xác nhận lịch sử giao hàng sau khi tai nạn xảy ra trong quá trình giao hàng. Tuy nhiên, dựa trên các bản ghi âm cuộc gọi, có thể xác nhận rằng một tài xế đồng nghiệp đã thực hiện việc giao hàng thay, và nguyên nhân tai nạn được xác nhận trong hồ sơ y tế, nên vụ việc được coi là tai nạn lao động và quyết định ban đầu được \"hủy bỏ\".",
+    "ID": "Kasus di mana permohonan perawatan ditolak dengan alasan riwayat pengiriman setelah kecelakaan tidak terkonfirmasi dan keandalan tanggal kecelakaan serta kronologi kecelakaan diragukan. Namun, berdasarkan catatan panggilan telepon dan bukti lain, dikonfirmasi bahwa rekan pengemudi benar-benar melakukan pengiriman pengganti, dan kronologi kecelakaan tercatat dalam catatan medis. Oleh karena itu, diputuskan bahwa kecelakaan tersebut merupakan kecelakaan kerja, dan keputusan awal dibatalkan.",
+    "RU": "Случай, когда первоначальное решение об отказе в предоставлении медицинских льгот в связи с несчастным случаем, произошедшим во время выполнения обязанностей по доставке, было отменено. Отказ был основан на отсутствии подтвержденной истории доставок после несчастного случая и ненадежности даты и обстоятельств несчастного случая. Однако было решено, что несчастный случай должен быть признан производственным, поскольку записи звонков подтверждали, что доставку действительно выполнил коллега, а обстоятельства несчастного случая были подтверждены в медицинских записях. Таким образом, первоначальное решение было «отменено».",
+    "MM": "ပစ္စည်းပို့ဆောင်ရေး လုပ်ငန်းဆောင်ရွက်နေစဥ် ဖြစ်ပွားသော မတော်တဆမှုကို ဘေးဥပဒ် ဖြစ်ပွားပြီးနောက် ပစ္စည်းပို့ဆောင်မှု မှတ်တမ်းများ ဆက်လက်ရှိနေခြင်းနှင့် ဘေးဥပဒ် ဖြစ်ပွားသည့်ရက်စွဲ/ဖြစ်ပွားပုံ ယုံကြည်စိတ်ချရမှု မရှိခြင်းတို့ကြောင့် ဆေးကုသခွင့် ပယ်ချခဲ့သော ဖြစ်ရပ်တွင်၊ တယ်လီဖုန်းမှတ်တမ်းများအရ လုပ်ဖော်ကိုင်ဖက် ဝန်ထမ်းက တကယ်တမ်း ပစ္စည်းပို့ဆောင်မှုကို ကိုယ်စားဆောင်ရွက်ပေးခဲ့သည်ကို အတည်ပြုနိုင်ခြင်းနှင့် ဆေးမှတ်တမ်းများအရ ဘေးဥပဒ် ဖြစ်ပွားပုံကို အတည်ပြုနိုင်ခြင်းတို့ကြောင့် လုပ်ငန်းခွင်ဆိုင်ရာ ဘေးဥပဒ်အဖြစ် ရှုမြင်ခြင်းသည် သင့်လျော်သည်ဟု ဆုံးဖြတ်ကာ မူလဆုံးဖြတ်ချက်ကို \"ပယ်ဖျက်\" ရန် ဆုံးဖြတ်ခဲ့သော ဖြစ်ရပ်ဖြစ်သည်။",
+    "NP": "डेलिभरी कामको क्रममा भएको दुर्घटनालाई दुर्घटना भएपछि पनि डेलिभरी गरेको रेकर्ड पाइएको र दुर्घटना मिति तथा विवरणमा विश्वासनीयताको कमी भएको भन्दै उपचार अस्वीकार गरिएको घटनामा, कल रेकर्ड आदिबाट सहकर्मी राइडरले वास्तवमा डेलिभरीको काम प्रतिनिधि भएर गरेको तथ्य पुष्टि भएको र चिकित्सा रेकर्डमा दुर्घटनाको विवरण पुष्टि भएकाले कामको क्रममा भएको दुर्घटना मान्नु उचित भएको ठहर गरी मूल निर्णयलाई “रद्द” गर्ने निर्णय गरिएको उदाहरण हो।",
+    "TH": "เป็นกรณีที่เคยถูกปฏิเสธการรักษาพยาบาลโดยให้เหตุผลว่าเกิดอุบัติเหตุระหว่างปฏิบัติงานจัดส่งสินค้า แต่มีประวัติการจัดส่งสินค้าเพิ่มเติมหลังเกิดเหตุ และขาดความน่าเชื่อถือในวันที่เกิดเหตุและลำดับเหตุการณ์ โดยมีการตัดสินใจ**“ยกเลิก”คำสั่งเดิม เนื่องจากวินิจฉัยว่าการเป็นอุบัติเหตุจากการทำงานมีความสมเหตุสมผล โดยได้รับการยืนยันว่าเพื่อนร่วมงานเป็นผู้จัดส่งสินค้าแทนจริงจากบันทึกการโทรศัพท์และลำดับเหตุการณ์ได้รับการยืนยันจากบันทึกทางการแพทย์**"
+  },
+  "seven_facts0": {
+    "KO": "청구인은 음식배달 업무 중 사고 발생을 주장하며 최초요양 신청.",
+    "EN": "The claimant initially applied for medical benefits, asserting an accident occurred during food delivery work.",
+    "VN": "Người yêu cầu bồi thường đã nộp đơn xin điều trị ban đầu với lý do bị tai nạn trong khi giao hàng.",
+    "ID": "Pemohon mengajukan permohonan perawatan pertama kali dengan mengklaim terjadinya kecelakaan selama tugas pengiriman makanan.",
+    "RU": "Заявитель подал заявку на получение первоначальных медицинских пособий, утверждая, что несчастный случай произошел во время выполнения обязанностей по доставке еды.",
+    "MM": "တောင်းဆိုသူသည် အစားအသောက်ပို့ဆောင်ရေး လုပ်ငန်းဆောင်ရွက်နေစဥ် မတော်တဆမှု ဖြစ်ပွားခဲ့သည်ဟုဆိုကာ ပထမအကြိမ် ဆေးကုသခွင့် လျှောက်ထားခဲ့သည်။",
+    "NP": "निवेदकले खाना डेलिभरीको काम गर्ने क्रममा दुर्घटना भएको दाबी गर्दै पहिलो पटक उपचारको लागि निवेदन दिएका थिए।\r\n\r\n",
+    "TH": "ผู้ร้องขอเรียกร้องการรักษาพยาบาลครั้งแรก โดยอ้างว่าเกิดอุบัติเหตุขณะปฏิบัติงานจัดส่งอาหาร\r\n\r\n"
+  },
+  "seven_facts1": {
+    "KO": "원처분기관은 재해 당일과 이후에 추가 배달 이력이 존재하는 점을 들어 불승인 처리.",
+    "EN": "The original decision-making agency denied the claim, citing additional delivery history existing on the day of the accident and thereafter.",
+    "VN": "  Cơ quan xử lý ban đầu đã từ chối đơn xin điều trị với lý do có lịch sử giao hàng bổ sung vào ngày xảy ra tai nạn và sau đó.",
+    "ID": "Instansi yang mengeluarkan keputusan awal menolak permohonan dengan alasan adanya riwayat pengiriman tambahan pada hari kecelakaan dan setelahnya.",
+    "RU": "Первоначальный орган, принимавший решение, отклонил заявку, сославшись на дополнительные записи о доставках, имевшиеся на день несчастного случая и после него.",
+    "MM": "မူလဆုံးဖြတ်ချက်ချမှတ်သည့် အဖွဲ့အစည်းက ဘေးဥပဒ် ဖြစ်ပွားသည့်နေ့နှင့် နောက်ပိုင်းတွင် ထပ်ဆောင်း ပစ္စည်းပို့ဆောင်မှု မှတ်တမ်းများ ရှိနေခြင်းကို အကြောင်းပြ၍ ပယ်ချခဲ့သည်။",
+    "NP": "मूल निर्णय गर्ने निकायले दुर्घटना भएको दिन र त्यसपछि पनि थप डेलिभरी गरेको रेकर्ड भएको कारण देखाउँदै अस्वीकार गरेको थियो।\r\n\r\n",
+    "TH": "หน่วยงานที่ออกคำสั่งเดิมปฏิเสธ โดยอ้างถึงการมีประวัติการจัดส่งสินค้าเพิ่มเติมในวันเกิดเหตุและหลังจากนั้น\r\n\r\n"
+  },
+  "seven_facts2": {
+    "KO": "그러나 청구인은 아픈 상태로 동료 기사에게 배달을 대행하도록 부탁했고, 실제 대리 수행이 있었음이 통화내역과 확인서, 녹음파일 등으로 입증됨.",
+    "EN": "However, the claimant requested a colleague to substitute for deliveries while ill, and this substitution was proven through call records, confirmation statements, and audio files.",
+    "VN": "Tuy nhiên, người yêu cầu bồi thường đã nhờ đồng nghiệp giao hàng thay mình do bị ốm, và việc đồng nghiệp thực sự đã giao hàng thay mình đã được chứng minh bằng các bản ghi âm cuộc gọi, giấy xác nhận, tệp ghi âm, v.v",
+    "ID": "Namun, pemohon meminta rekan pengemudi untuk menggantikan pengiriman dalam kondisi sakit, dan fakta penggantian tersebut dibuktikan melalui catatan panggilan telepon, surat keterangan, dan file rekaman.",
+    "RU": "Однако заявитель попросил коллегу заменить его во время болезни, и эта замена была подтверждена записями звонков, подтверждающими заявлениями и аудиофайлами.",
+    "MM": "သို့သော် တောင်းဆိုသူသည် ဒဏ်ရာရရှိထားသည့် အခြေအနေဖြင့် လုပ်ဖော်ကိုင်ဖက် ဝန်ထမ်းအား ပစ္စည်းပို့ဆောင်မှုကို ကိုယ်စားဆောင်ရွက်ပေးရန် တောင်းဆိုခဲ့သည်ကို ဖုန်းခေါ်ဆိုမှု မှတ်တမ်းများ၊ အတည်ပြုချက်နှင့် အသံသွင်းဖိုင်များဖြင့် အမှန်တကယ် ကိုယ်စားဆောင်ရွက်မှု ရှိခဲ့ကြောင်း သက်သေပြခဲ့သည်။",
+    "NP": "तर, निवेदकले चोट लागेको अवस्थामा सहकर्मी राइडरलाई डेलिभरीको काम प्रतिनिधि भएर गरिदिन आग्रह गरेको र वास्तवमा प्रतिनिधि काम भएको कुरा कल विवरण, पुष्टि पत्र र अडियो फाइलहरूबाट प्रमाणित भयो।\r\n\r\n",
+    "TH": "อย่างไรก็ตาม ผู้ร้องขอได้พิสูจน์ว่ามีการให้เพื่อนร่วมงานจัดส่งสินค้าแทนจริงในขณะที่ตนเองบาดเจ็บ โดยมีหลักฐานจากรายละเอียดการโทร, หนังสือยืนยัน, และไฟล์บันทึกเสียง\r\n\r\n"
+  },
+  "seven_facts3": {
+    "KO": "CCTV 일부는 삭제되었으나, 남아 있는 영상과 통화기록, 동료 기사 진술에서 사고의 신뢰성이 인정됨.",
+    "EN": "Although some CCTV footage was deleted, the remaining video, call records, and colleague statements established the accident's credibility.",
+    "VN": "Một phần CCTV đã bị xóa, nhưng tính xác thực của tai nạn được công nhận dựa trên các đoạn video còn lại, bản ghi cuộc gọi và lời khai của đồng nghiệp.",
+    "ID": "Meskipun sebagian CCTV dihapus, keandalan kecelakaan diakui berdasarkan rekaman video yang tersisa, catatan panggilan telepon, dan keterangan rekan pengemudi.",
+    "RU": "Хотя часть записей с камер видеонаблюдения была удалена, оставшиеся видеозаписи, записи звонков и показания коллег подтвердили достоверность несчастного случая",
+    "MM": "CCTV အချို့ ဖျက်ထားသော်လည်း ကျန်ရှိသော ဗီဒီယိုများ၊ ဖုန်းမှတ်တမ်းများနှင့် လုပ်ဖော်ကိုင်ဖက်၏ ထွက်ဆိုချက်များအရ မတော်တဆမှု၏ ယုံကြည်စိတ်ချရမှုကို အသိအမှတ်ပြုခဲ့သည်။",
+    "NP": "CCTV को केही अंश मेटिएको भए तापनि बाँकी रहेका भिडियो, कल रेकर्ड र सहकर्मी राइडरको बयानबाट दुर्घटनाको विश्वासनीयता स्वीकार गरियो।\r\n\r\n",
+    "TH": "แม้ว่า CCTV บางส่วนจะถูกลบไป แต่ความน่าเชื่อถือของการเกิดอุบัติเหตุได้รับการยอมรับจากวิดีโอที่เหลืออยู่, บันทึกการโทรศัพท์, และคำให้การของเพื่อนร่วมงาน\r\n\r\n"
+  },
+  "seven_facts4": {
+    "KO": "심사위는 재해경위와 의무기록이 일치하고 대리수행 사실이 확인됨에 따라 업무상 재해로 인정.",
+    "EN": "he Review Committee recognized it as a work-related injury, as the accident circumstances matched the medical records and the substitution was confirmed.",
+    "VN": "Ủy ban thẩm định công nhận đây là tai nạn lao động do các tình tiết tai nạn và hồ sơ y tế khớp nhau và việc thay thế đã được xác nhận.",
+    "ID": "Komisi Peninjau mengakui kecelakaan tersebut sebagai kecelakaan kerja karena kesesuaian antara kronologi kecelakaan dan catatan medis, serta terkonfirmasinya fakta penggantian tugas.",
+    "RU": "Комиссия по пересмотру признала его производственной травмой, поскольку обстоятельства несчастного случая соответствовали медицинским записям, а замена была подтверждена.",
+    "MM": "ဆန်းစစ်ရေးကော်မတီက ဘေးဥပဒ် ဖြစ်ပွားပုံနှင့် ဆေးမှတ်တမ်းများ ကိုက်ညီခြင်းနှင့် ကိုယ်စားဆောင်ရွက်မှု အတည်ပြုခြင်းတို့အရ လုပ်ငန်းခွင်ဆိုင်ရာ ဘေးဥပဒ်အဖြစ် အသိအမှတ်ပြုခဲ့သည်။",
+    "NP": "छानबिन समितिले दुर्घटनाको विवरण र चिकित्सा रेकर्ड मिलेको तथा प्रतिनिधि काम भएको तथ्य पुष्टि भएकाले कामको क्रममा भएको दुर्घटनाको रूपमा स्वीकार गर्‍यो।",
+    "TH": "คณะกรรมการพิจารณายอมรับว่าเป็นอุบัติเหตุจากการทำงาน เนื่องจากลำดับเหตุการณ์และบันทึกทางการแพทย์สอดคล้องกัน และมีการยืนยันการจัดส่งแทน"
+  },
+  "seven_important0": {
+    "KO": "재해 경위의 신뢰성: 병원 진료일과 배달 이력이 엇갈리는 상황에서 사고 사실을 어떻게 객관적으로 입증할 수 있는지가 핵심 쟁점.",
+    "EN": "Credibility of the accident circumstances: The core issue was how to objectively prove the accident occurred when hospital treatment dates and delivery records conflicted.",
+    "VN": "Tính xác thực của tình tiết tai nạn: Vấn đề mấu chốt là làm thế nào để chứng minh một cách khách quan sự thật về tai nạn trong tình huống ngày khám bệnh và lịch trình giao hàng không khớp nhau.",
+    "ID": "Keandalan kronologi kecelakaan: Bagaimana membuktikan secara objektif fakta kecelakaan dalam situasi di mana tanggal perawatan rumah sakit dan riwayat pengiriman bertentangan.",
+    "RU": "Достоверность обстоятельств несчастного случая: основной вопрос заключался в том, как объективно доказать, что несчастный случай произошел, когда даты лечения в больнице и записи о доставках противоречили друг другу.",
+    "MM": "ဘေးဥပဒ် ဖြစ်ပွားပုံ၏ ယုံကြည်စိတ်ချရမှု: ဆေးရုံတက်ရောက်သည့်ရက်စွဲနှင့် ပစ္စည်းပို့ဆောင်မှု မှတ်တမ်းများ မကိုက်ညီသည့် အခြေအနေတွင် မတော်တဆမှု အချက်အလက်ကို မည်သို့ ရည်ရွယ်ချက်ရှိရှိ သက်သေပြနိုင်မည်ဆိုသည်မှာ အဓိက အငြင်းပွားဖွယ်ရာ ဖြစ်သည်။",
+    "NP": "दुर्घटना विवरणको विश्वासनीयता: अस्पतालमा उपचार गराएको मिति र डेलिभरी गरेको रेकर्ड बाझिएको अवस्थामा दुर्घटनाको तथ्यलाई कसरी वस्तुनिष्ठ रूपमा प्रमाणित गर्न सकिन्छ भन्ने नै मुख्य विवादको विषय हो।\r\n\r\n",
+    "TH": "ความน่าเชื่อถือของลำดับเหตุการณ์: ในสถานการณ์ที่วันเข้ารับการรักษาพยาบาลและประวัติการจัดส่งสินค้าขัดแย้งกัน จะสามารถพิสูจน์ข้อเท็จจริงของการเกิดอุบัติเหตุได้อย่างเป็นกลางอย่างไร เป็นประเด็นหลัก\r\n\r\n"
+  },
+  "seven_important1": {
+    "KO": "업무 수행의 연속성: 사고 직후 업무 수행 여부와 관계없이, 실제 대리 수행과 의무기록을 통해 업무상 재해임이 확인되는지가 판단 기준.",
+    "EN": "Continuity of Work Performance: The determining factor is whether the accident is confirmed as work-related through actual substitute work and medical records, regardless of whether work was performed immediately after the accident.",
+    "VN": "ính liên tục của công việc: Tiêu chí đánh giá là xác định tai nạn lao động dựa trên việc thực hiện công việc thay thế và hồ sơ y tế, bất kể việc thực hiện công việc sau tai nạn.",
+    "ID": "Kelanjutan pelaksanaan tugas: Terlepas dari apakah tugas dilanjutkan setelah kecelakaan, kriteria penilaian adalah apakah kecelakaan tersebut diakui sebagai kecelakaan kerja berdasarkan bukti pelaksanaan tugas pengganti dan catatan medis.",
+    "RU": "Непрерывность выполнения работы: определяющим критерием является то, подтверждается ли несчастный случай как связанный с работой на основании фактического выполнения замещающих обязанностей и медицинских записей, независимо от того, выполнялась ли работа сразу после несчастного случая.",
+    "MM": "လုပ်ငန်းဆောင်ရွက်မှု၏ ဆက်တိုက်ရှိနေခြင်း: မတော်တဆမှု ဖြစ်ပွားပြီးနောက် လုပ်ငန်း ဆက်လက်ဆောင်ရွက်ခြင်း ရှိ/မရှိနှင့် မသက်ဆိုင်ဘဲ၊ ကိုယ်စားဆောင်ရွက်မှု အမှန်တကယ် ရှိခဲ့ခြင်းနှင့် ဆေးမှတ်တမ်းများမှတစ်ဆင့် လုပ်ငန်းခွင်ဆိုင်ရာ ဘေးဥပဒ်အဖြစ် အတည်ပြုနိုင်ခြင်း ရှိ/မရှိသည် ဆုံးဖြတ်ချက်ပေးမည့် စံနှုန်း ဖြစ်သည်။",
+    "NP": "कामको निरन्तरता: दुर्घटना लगत्तै काम गरेको वा नगरेको सँग सम्बन्धित नभई, वास्तविक प्रतिनिधि काम र चिकित्सा रेकर्ड मार्फत कामको क्रममा भएको दुर्घटना पुष्टि हुन्छ वा हुँदैन भन्ने नै निर्णय मापदण्ड हो।",
+    "TH": "ความต่อเนื่องของการปฏิบัติงาน: ไม่ว่าจะมีการปฏิบัติงานต่อทันทีหลังเกิดอุบัติเหตุหรือไม่ การยืนยันว่าเป็นอุบัติเหตุจากการทำงานผ่านการจัดส่งแทนจริงและบันทึกทางการแพทย์ เป็นเกณฑ์การตัดสินหรือไม่"
+  },
+  "seven_decision": {
+    "KO": "청구인의 사고는 업무 수행 중 발생한 재해로 인정되며, 원처분 불승인 결정은 신뢰성이 부족하여 취소되어야 한다고 판단됨.",
+    "EN": "The claimant's accident is recognized as a work-related injury occurring during work performance. The original denial decision is deemed to lack sufficient credibility and should be revoked.",
+    "VN": "Tai nạn của người yêu cầu bồi thường được công nhận là tai nạn lao động xảy ra trong khi thực hiện công việc, và quyết định từ chối bồi thường ban đầu phải bị hủy bỏ do thiếu tính xác thực.",
+    "ID": "Kecelakaan yang dialami pemohon diakui sebagai kecelakaan kerja yang terjadi selama pelaksanaan tugas, dan keputusan penolakan awal dianggap tidak memiliki kredibilitas yang cukup sehingga harus dibatalkan.",
+    "RU": "Несчастный случай истца признан травмой, полученной во время выполнения работы. Первоначальное решение об отказе в выплате компенсации признано недостаточно достоверным и подлежит отмене.",
+    "MM": "တောင်းဆိုသူ၏ မတော်တဆမှုသည် လုပ်ငန်းဆောင်ရွက်နေစဥ်အတွင်း ဖြစ်ပွားသော ဘေးဥပဒ်အဖြစ် အသိအမှတ်ပြုသည်။ မူလဆုံးဖြတ်ချက် ပယ်ချခြင်းသည် ယုံကြည်စိတ်ချရမှု မရှိဟု ဆုံးဖြတ်ရသောကြောင့် ပယ်ဖျက်သင့်သည်ဟု ဆုံးဖြတ်သည်။",
+    "NP": "निवेदकको दुर्घटना काम गर्ने क्रममा भएको दुर्घटनाको रूपमा स्वीकार गरिन्छ र मूल निर्णयको अस्वीकृति विश्वासनीयताको कमी भएकोले रद्द हुनुपर्छ भनी ठहर गरियो।",
+    "TH": "อุบัติเหตุของผู้ร้องขอได้รับการยอมรับว่าเป็นภัยพิบัติที่เกิดขึ้นระหว่างการปฏิบัติงาน และคำสั่งปฏิเสธในครั้งแรกถูกวินิจฉัยว่าขาดความน่าเชื่อถือจึงควรถูกยกเลิก"
+  },
+  "seven_laws0": {
+    "KO": "산재보험법 제5조 (정의)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 5 (Definitions)",
+    "VN": "Điều 5 (Định nghĩa) của \"Luật bảo hiểm tai nạn lao động\"",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 5 (Definisi)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 5 (Определения)",
+    "MM": "「စက်မှုထိခိုက်မှု အာမခံ ဥပဒေ (산재보험법)」 ပုဒ်မ ၅ (အဓိပ္ပာယ်ဖွင့်ဆိုချက်)",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन (산재보험법)」 धारा ५ (परिभाषा)\r\n\r\n",
+    "TH": "「พระราชบัญญัติประกันภัยเงินทดแทนผู้ประสบภัยจากงาน (산재보험법)」 มาตรา ๕ (คำนิยาม)\r\n\r\n"
+  },
+  "seven_laws1": {
+    "KO": "산재보험법 제37조 (업무상 재해의 인정 기준)",
+    "EN": " Industrial Accident Compensation Insurance Act, Article 37 (Criteria for Recognizing Work-Related Injuries)",
+    "VN": " Điều 37 (Tiêu chí công nhận tai nạn lao động) của \"Luật bảo hiểm tai nạn lao động\"",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 37 (Kriteria Pengakuan Kecelakaan Kerja)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 37 (Критерии признания производственных травм)",
+    "MM": "「စက်မှုထိခိုက်မှု အာမခံ ဥပဒေ (산재보험법)」 ပုဒ်မ ၃၇ (လုပ်ငန်းခွင်ဆိုင်ရာ ဘေးဥပဒ် အသိအမှတ်ပြုခြင်း စံနှုန်း)",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन (산재보험법)」 धारा ३७ (कामको क्रममा भएको दुर्घटनाको मान्यता मापदण्ड)\r\n\r\n",
+    "TH": "「พระราชบัญญัติประกันภัยเงินทดแทนผู้ประสบภัยจากงาน (산재보험법)」 มาตรา ๓๗ (เกณฑ์การยอมรับอุบัติเหตุจากการทำงาน)\r\n\r\n"
+  },
+  "seven_laws2": {
+    "KO": "「산재보험법 시행령」 제27조 (업무수행 중의 사고)",
+    "EN": "Industrial Accident Compensation Insurance Act Enforcement Decree, Article 27 (Accidents During Work Performance)",
+    "VN": " Điều 27 (Tai nạn trong khi thực hiện công việc) của \"Nghị định thi hành Luật bảo hiểm tai nạn lao động\"",
+    "ID": "「Peraturan Pelaksanaan Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 27 (Kecelakaan Selama Pelaksanaan Tugas)",
+    "RU": "Постановление о применении Закона о страховании от несчастных случаев на производстве, статья 27 (Несчастные случаи во время выполнения рабочих обязанностей)",
+    "MM": "「စက်မှုထိခိုက်မှု အာမခံ ဥပဒေ ပြန်တမ်း (산재보험법 시행령)」 ပုဒ်မ ၂၇ (လုပ်ငန်းဆောင်ရွက်နေစဥ်အတွင်း ဖြစ်ပွားသော မတော်တဆမှု)",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुनको कार्यान्वयन नियमावली (산재보험법 시행령)」 धारा २७ (काम गर्ने क्रममा भएको दुर्घटना)\r\n\r\n",
+    "TH": "「กฎกระทรวงตามพระราชบัญญัติประกันภัยเงินทดแทนผู้ประสบภัยจากงาน (산재보험법 시행령)」 มาตรา ๒๗ (อุบัติเหตุระหว่างการปฏิบัติงาน)\r\n\r\n"
+  },
+  "seven_laws3": {
+    "KO": "산재보험법 제105조 (심사 청구에 대한 심리·결정)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 105 (Hearing and Decision on Review Requests)",
+    "VN": " Điều 105 (Xét xử và quyết định đối với yêu cầu thẩm tra) của \"Luật bảo hiểm tai nạn lao động\"",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 105 (Pemeriksaan dan Keputusan atas Permohonan Banding)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 105 (Слушание и решение по запросам о пересмотре)",
+    "MM": "「စက်မှုထိခိုက်မှု အာမခံ ဥပဒေ (산재보험법)」 ပုဒ်မ ၁၀၅ (ဆန်းစစ်ရန် တောင်းဆိုမှုအပေါ် စိစစ်ဆုံးဖြတ်ခြင်း)",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन (산재보험법)」 धारा १०५ (छानबिन निवेदनको सुनुवाइ र निर्णय)",
+    "TH": "「พระราชบัญญัติประกันภัยเงินทดแทนผู้ประสบภัยจากงาน (산재보험법)」 มาตรา ๑๐๕ (การพิจารณาและวินิจฉัยคำร้องขอทบทวน)"
+  }
+}

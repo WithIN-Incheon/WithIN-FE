@@ -1,0 +1,1302 @@
+{
+  "fifteen_title": {
+    "KO": "휴게시간 중 사망 사고 – 산재 인정",
+    "EN": "Fatal Accident During Break Time – Recognized as Industrial Accident",
+    "VN": "Tên vụ việc: Tai nạn tử vong trong giờ nghỉ – Công nhận tai nạn lao động",
+    "ID": "Judul Peristiwa: Kecelakaan fatal selama waktu istirahat – Dinyatakan",
+    "RU": "Название дела: Смертельный несчастный случай во время ",
+    "MM": "ဖြစ်စဉ်ခေါင်းစဉ်- အလုပ်နားချိန်အတွင်း သေဆုံးမှု - လုပ်ငန်းခွင် မတော်တဆမှု",
+    "NP": "घटनाको शीर्षक: छुट्टीको समयमा मृत्यु - औद्योगिक दुर्घटनाको रूपमा मान्यता",
+    "TH": "ชื่อเรื่อง: อุบัติเหตุเสียชีวิตระหว่างเวลาพัก – การยอมรับเป็นอุบัติเหตุจากการทำงาน"
+  },
+  "fifteen_summary0": {
+    "KO": "승인 여부: 승인",
+    "EN": "Approval Status: Approved",
+    "VN": "Kết quả phê duyệt: Được phê duyệt",
+    "ID": "Status Persetujuan: Disetujui",
+    "RU": "Статус утверждения: Утверждено",
+    "MM": "ခွင့်ပြုခြင်းရှိမရှိ: ခွင့်ပြု",
+    "NP": "स्वीकृति स्थिति: स्वीकृत",
+    "TH": "สถานะการอนุมัติ: อนุมัติ"
+  },
+  "fifteen_summary1": {
+    "KO": "발생 일시: 2023. 9. 8. 13:03경",
+    "EN": "Date/Time of Occurrence: Around 13:03 on September 8, 2023",
+    "VN": "Thời gian xảy ra: Khoảng 13:03 ngày 8/9/2023",
+    "ID": "Waktu Kejadian: Sekitar pukul 13:03 pada tanggal 8 September 2023",
+    "RU": "Дата и время происшествия: Около 13:03 8 сентября 2023 г.",
+    "MM": "ဖြစ်ပွားသည့်နေ့: ၂၀၂၃ ခုနှစ်၊ စက်တင်ဘာလ ၈ ရက်၊ နေ့လယ် ၁ နာရီ ၀၃ မိနစ်ခန့်",
+    "NP": "घट्ना भएको मिति र समय: २०२३. ९. ८. दिउँसो १:०३ बजे",
+    "TH": "วันและเวลาเกิดเหตุ: วันที่ 8 กันยายน 2566 เวลาประมาณ 13:03 น."
+  },
+  "fifteen_summary2": {
+    "KO": "발생 장소: ○○건설 ○○공 병사식당 시설공사 현장",
+    "EN": "Location: Construction site for the employee cafeteria facilities at ○○ Construction's ○○ Project",
+    "VN": "Địa điểm xảy ra: Công trường xây dựng nhà ăn công nhân của công ty xây dựng ○○",
+    "ID": "Lokasi Kejadian: Lokasi Proyek Konstruksi Fasilitas Kantin Pekerja ○○ Construction ○○ Project",
+    "RU": "Место происшествия:Строительная площадка для строительства столовой для персонала проекта ○○ Construction ○○.",
+    "MM": "ဖြစ်ပွားသည့်နေရာ: ○○ဆောက်လုပ်ရေး ○○တပ်ရင်း စားသောက်ခန်းမ အဆောက်အအုံဆောက်လုပ်ရေးလုပ်ငန်းခွင်",
+    "NP": "घट्ना भएको स्थान: ○○ निर्माण कम्पनीको सैनिक भोजनालय निर्माणस्थल",
+    "TH": "สถานที่เกิดเหตุ: สถานที่ก่อสร้างอาคารโรงอาหารทหารของบริษัท ○○ก่อสร้าง"
+  },
+  "fifteen_summary3": {
+    "KO": "근로자 정보: ○○건설 소속 일용직 근로자",
+    "EN": "Worker Information: Daily laborer employed by ○○ Construction",
+    "VN": "Thông tin công nhân: Công nhân làm việc theo ngày của công ty xây dựng ○○",
+    "ID": "Informasi Pekerja: Pekerja harian yang terdaftar di ○○ Construction",
+    "RU": "Информация о работнике: Работник, нанятый ○○ Construction на повседневной основе.",
+    "MM": "လုပ်သားအချက်အလက်: ○○ဆောက်လုပ်ရေးမှ နေ့စားလုပ်သား",
+    "NP": "श्रमिकको जानकारी: ○○ निर्माण कम्पनीका दैनिक ज्यालादारी श्रमिक",
+    "TH": "ข้อมูลพนักงาน: พนักงานรายวันของบริษัท ○○ก่อสร้าง"
+  },
+  "fifteen_summary4": {
+    "KO": "상병명: 두부 손상, 다발성 장기 손상",
+    "EN": "Injuries: Head injury, multiple organ damage",
+    "VN": "Chẩn đoán: Chấn thương sọ não, chấn thương đa cơ quan",
+    "ID": "Diagnosis Cedera: Cedera kepala, cedera organ multipel",
+    "RU": "Травмы: Травма головы, повреждение нескольких органов.",
+    "MM": "ဒဏ်ရာအမျိုးအစား: ဦးခေါင်းဒဏ်ရာ၊ ကိုယ်တွင်းအင်္ဂါများစွာ ထိခိုက်ဒဏ်ရာရခြင်း",
+    "NP": "चोटको विवरण: टाउकोमा चोटपटक, बहु-अङ्गमा चोटपटक",
+    "TH": "อาการบาดเจ็บ: บาดเจ็บที่ศีรษะ, บาดเจ็บที่อวัยวะภายในหลายส่วน"
+  },
+  "fifteen_situation": {
+    "KO": "사업장에서 지정하지 않은 임의의 장소에서 휴게 중 사망한 사고에 대하여 ‘우발적·비정형적·특별한 방법’에 따라 휴게시간을 이용하던 중 발생한 사고로 판단하여 유족급여 부지급 결정하였으나, 사고가 공사현장 내에서 발생하였고, 신호수가 배치되지 않았으며 덤프트럭 진입 및 작업이 계속되었음에도 불구하고 휴식을 취하던 고인을 방치하는 등 안전관리자의 역할 소홀로 발생한 사고로 판단하여 원처분 “취소” 결정한 사례",
+    "EN": "Regarding the accident where the worker died while resting at an unauthorized location not designated by the workplace, The initial decision denied survivor benefits, judging it an accident occurring during break time under ‘incidental, atypical, or special circumstances’. However, the case was reviewed and the original decision was “cancelled”. The review determined the accident occurred within the construction site, a signaler was not assigned, and despite ongoing dump truck entry and operations, the deceased was left unattended while resting. This was judged to be an accident resulting from the safety manager's negligence in their duties.",
+    "VN": "Vụ tai nạn tử vong trong giờ nghỉ tại một địa điểm không được chỉ định trong công trường đã được xác định là tai nạn xảy ra trong thời gian nghỉ ngơi theo 'phương pháp ngẫu nhiên, bất thường, đặc biệt' và quyết định không chi trả trợ cấp cho gia đình nạn nhân. Tuy nhiên, tai nạn xảy ra trong công trường xây dựng, không có nhân viên chỉ huy giao thông, xe tải vẫn tiếp tục ra vào và làm việc, nhưng người quản lý an toàn lại bỏ mặc nạn nhân đang nghỉ ngơi, do đó tai nạn được xác định là do sự sơ suất của người quản lý an toàn và quyết định ban đầu đã bị 'hủy bỏ'.",
+    "ID": "Terkait kecelakaan kematian yang terjadi saat istirahat di lokasi yang tidak ditentukan oleh tempat kerja, kecelakaan yang terjadi saat menggunakan waktu istirahat dengan cara yang ‘tidak terduga, tidak teratur, dan khusus’ sehingga diputuskan untuk tidak memberikan tunjangan keluarga. Namun, kecelakaan terjadi di dalam lokasi konstruksi, tidak ada petugas pengatur lalu lintas yang ditempatkan, dan meskipun truk dump terus masuk dan bekerja, korban yang sedang beristirahat dibiarkan tanpa pengawasan. Hal ini dinilai sebagai kecelakaan yang terjadi akibat kelalaian peran pengawas keselamatan, sehingga diputuskan untuk ‘membatalkan’ keputusan awal.",
+    "RU": "В отношении несчастного случая, в результате которого работник погиб во время отдыха в несанкционированном месте, не предназначенном для отдыха на рабочем месте, Первоначальное решение заключалось в отказе в выплате пособия по случаю смерти, поскольку несчастный случай был признан произошедшим во время отдыха в «случайных, нетипичных или особых обстоятельствах». Однако дело было пересмотрено, и первоначальное решение было «отменено». Это было связано с тем, что несчастный случай произошел на территории строительной площадки, не было назначено сигнальщика, и, несмотря на постоянный доступ и работу самосвалов, погибший оставался без присмотра во время отдыха. Это было признано несчастным случаем, произошедшим в результате невыполнения обязанностей менеджером по безопасности.",
+    "MM": "လုပ်ငန်းခွင်မှ သတ်မှတ်မထားသော နေရာတစ်ခုတွင် အနားယူနေစဉ် သေဆုံးခဲ့သည့် မတော်တဆမှုနှင့် ပတ်သက်၍ 'မထင်မှတ်သော၊ ပုံမှန်မဟုတ်သော၊ အထူးနည်းလမ်း' ဖြင့် အလုပ်နားချိန်ကို အသုံးပြုနေစဉ် ဖြစ်ပွားသည့် မတော်တဆမှုအဖြစ် ဆုံးဖြတ်ပြီး မိသားစုအတွက် ထောက်ပံ့ကြေး မပေးရန် ဆုံးဖြတ်ခဲ့သည်။ သို့သော်လည်း မတော်တဆမှုမှာ ဆောက်လုပ်ရေးလုပ်ငန်းခွင်အတွင်း ဖြစ်ပွားခဲ့ပြီး အချက်ပြသူ (signalman) မရှိခြင်း၊ သဲတင်ကားများ ဝင်ရောက်ကာ အလုပ်လုပ်နေချိန်တွင် အနားယူနေသူကို ဂရုမစိုက်ဘဲ ထားခဲ့ခြင်း စသည်တို့ကြောင့် ဘေးကင်းရေးအရာရှိ၏ တာဝန်ပေါ့ဆမှုကြောင့် ဖြစ်ပွားခဲ့သည်ဟု ဆုံးဖြတ်ပြီး မူလဆုံးဖြတ်ချက်ကို \"ပယ်ဖျက်\" ခဲ့သည့် ဖြစ်ရပ်ဖြစ်သည်။",
+    "NP": "काम गर्ने स्थानले तोकेको बाहेकको कुनै पनि स्थानमा छुट्टीको समयमा आराम गरिरहेको बेला भएको मृत्युको सन्दर्भमा, यसलाई 'आकस्मिक, अनौपचारिक, र विशेष तरिका' ले छुट्टीको समय प्रयोग गर्दा भएको दुर्घटना मानी मृतकको परिवारलाई क्षतिपूर्ति नदिने निर्णय गरिएको थियो। तर, दुर्घटना निर्माणस्थल भित्रै भएको, सिग्नलम्यानको व्यवस्था नगरिएको, र डम्प ट्रकको आवागमन र काम निरन्तर भइरहेको अवस्थामा आराम गरिरहेका मृतकलाई बेवास्ता गरिएको जस्ता सुरक्षा व्यवस्थापनको कमीका कारण भएको दुर्घटना ठहर गरी मूल निर्णयलाई \"रद्द\" गर्ने निर्णय गरिएको हो।",
+    "TH": "เป็นกรณีที่พนักงานเสียชีวิตขณะพักผ่อนในสถานที่ที่ไม่ได้กำหนดโดยบริษัท ซึ่งเดิมทีถูกตัดสินว่าเป็นการใช้วิธี 'บังเอิญ, ไม่เป็นไปตามปกติ, และพิเศษ' ในช่วงเวลาพัก ทำให้มีการตัดสินใจไม่อนุมัติเงินช่วยเหลือครอบครัว อย่างไรก็ตาม ศาลได้พิจารณาแล้วเห็นว่าอุบัติเหตุดังกล่าวเกิดขึ้นภายในสถานที่ก่อสร้าง ไม่มีเจ้าหน้าที่ให้สัญญาณ และรถบรรทุกดัมพ์ยังคงเข้า-ออกและทำงานอย่างต่อเนื่อง โดยละเลยการดูแลผู้เสียชีวิตที่กำลังพักผ่อน ซึ่งถือเป็นความประมาทเลินเล่อของเจ้าหน้าที่ความปลอดภัย จึงมีคำสั่ง \"ยกเลิก\" คำสั่งเดิม"
+  },
+  "fifteen_facts0": {
+    "KO": "원처분기관은 현장 내 법적 기준을 충족하는 휴게실이 있었고, 고인이 지정된 휴게실이 아닌 임의 장소에서 휴식을 취했으므로 ‘우발적·비정형적·특별한 방법’에 따른 휴게시간 사고로 불승인 처리",
+    "EN": "he original decision-making authority denied benefits, stating that a legally compliant break room existed on-site and the deceased rested in an arbitrary location rather than the designated break room, thus classifying it as an accident during break time involving ‘unplanned, atypical, or special circumstances’.",
+    "VN": "Cơ quan xử lý ban đầu cho rằng tại công trường có phòng nghỉ ngơi đáp ứng tiêu chuẩn pháp lý, và người quá cố đã nghỉ ngơi tại một nơi tùy ý chứ không phải phòng nghỉ ngơi được chỉ định, do đó không công nhận đây là tai nạn xảy ra trong giờ nghỉ ngơi theo 'phương pháp ngẫu nhiên, bất thường, đặc biệt'.",
+    "ID": "Instansi yang mengeluarkan keputusan awal menyatakan bahwa terdapat ruang istirahat yang memenuhi standar hukum di lokasi, dan almarhum beristirahat di tempat yang tidak ditentukan, sehingga kecelakaan tersebut dianggap sebagai kecelakaan selama waktu istirahat yang terjadi secara tiba-tiba, tidak teratur, dan dengan cara khusus, sehingga tidak disetujui.",
+    "RU": "Первоначальный орган, принимавший решение, отказал в выплате пособия, заявив, что на объекте имелась соответствующая требованиям закона комната для отдыха, а погибший отдыхал в неразрешенном месте, что представляло собой несчастный случай во время перерыва в работе в «случайных, нетипичных или особых обстоятельствах».",
+    "MM": "မူလဆုံးဖြတ်ချက်ချသည့်အဖွဲ့အစည်းက လုပ်ငန်းခွင်အတွင်း ဥပဒေအရ သတ်မှတ်ထားသည့် အနားယူခန်း ရှိကြောင်းနှင့် ကွယ်လွန်သူသည် သတ်မှတ်ထားသော အနားယူခန်းမဟုတ်ဘဲ သတ်မှတ်မထားသော နေရာတွင် အနားယူခဲ့ခြင်းကြောင့် 'မထင်မှတ်သော၊ ပုံမှန်မဟုတ်သော၊ အထူးနည်းလမ်း' ဖြင့် အလုပ်နားချိန်အတွင်း မတော်တဆမှုအဖြစ် သတ်မှတ်ပြီး ခွင့်မပြုရန် ဆုံးဖြတ်ခဲ့သည်။",
+    "NP": "मूल निर्णय गर्ने निकायले निर्माणस्थलमा कानूनी मापदण्ड पुरा गर्ने आराम कक्ष रहेको र मृतकले तोकिएको आराम कक्ष बाहेकको स्थानमा आराम गरिरहेकोले यसलाई 'आकस्मिक, अनौपचारिक, र विशेष तरिका' ले छुट्टीको समयमा भएको दुर्घटना मानी अस्वीकृत गरेको थियो।",
+    "TH": "หน่วยงานที่ตัดสินใจในตอนแรกได้ปฏิเสธการอนุมัติ โดยให้เหตุผลว่าสถานที่ก่อสร้างมีห้องพักที่ตรงตามมาตรฐานทางกฎหมาย และผู้เสียชีวิตได้เลือกพักผ่อนในสถานที่อื่นที่ไม่ได้กำหนด ซึ่งเป็นอุบัติเหตุที่เกิดขึ้นในช่วงเวลาพักด้วยวิธี 'บังเอิญ, ไม่เป็นไปตามปกติ, และพิเศษ'"
+  },
+  "fifteen_facts1": {
+    "KO": "그러나 현장 CCTV, 목격자 진술, 구급활동일지 등에서 고인의 사고 사실 및 업무연속성이 입증됨",
+    "EN": "However, the accident's occurrence and its connection to work continuity were substantiated by on-site CCTV footage, witness statements, and emergency response logs.",
+    "VN": "Tuy nhiên, CCTV tại công trường, lời khai của nhân chứng, nhật ký hoạt động cứu thương, v.v. đã chứng minh sự thật về tai nạn của người quá cố và tính liên tục của công việc.",
+    "ID": "Namun, berdasarkan rekaman CCTV lokasi, keterangan saksi mata, dan catatan kegiatan pertolongan pertama, fakta kecelakaan almarhum dan kesinambungan pekerjaannya terbukti.",
+    "RU": "Однако факт происшествия и его связь с продолжением работы были подтверждены записями камер видеонаблюдения на объекте, показаниями свидетелей и журналами экстренных вызовов.",
+    "MM": "သို့သော်လည်း လုပ်ငန်းခွင် CCTV၊ မျက်မြင်သက်သေများ၏ ထွက်ဆိုချက်၊ အရေးပေါ်ကယ်ဆယ်ရေးမှတ်တမ်းများ စသည်တို့အရ ကွယ်လွန်သူ၏ မတော်တဆမှုအဖြစ်မှန်နှင့် အလုပ်နှင့် ဆက်စပ်မှုရှိကြောင်း သက်သေပြနိုင်ခဲ့သည်။",
+    "NP": "तर, निर्माणस्थलको CCTV फुटेज, प्रत्यक्षदर्शीको बयान, र आपत्कालीन उद्धार कार्यको रेकर्ड लगायतका प्रमाणहरूबाट मृतकको दुर्घटना र कामको निरन्तरता प्रमाणित भएको छ।",
+    "TH": "อย่างไรก็ตาม จากภาพวงจรปิดในสถานที่เกิดเหตุ คำให้การของพยาน และบันทึกกิจกรรมฉุกเฉิน ได้ยืนยันข้อเท็จจริงเกี่ยวกับการเกิดอุบัติเหตุและการทำงานของผู้เสียชีวิต"
+  },
+  "fifteen_facts2": {
+    "KO": "현장 내 휴게시설이 있었으나 실제로는 작업자들이 주로 외부에서 휴식하는 관행이 확인됨",
+    "EN": "Although rest facilities existed on-site, it was confirmed that workers primarily rested outside as a common practice.",
+    "VN": "Có phòng nghỉ ngơi tại hiện trường, nhưng thực tế các công nhân chủ yếu nghỉ ngơi bên ngoài.",
+    "ID": "Meskipun terdapat fasilitas istirahat di lokasi, praktik pekerja yang umumnya beristirahat di luar lokasi telah teridentifikasi.",
+    "RU": "Несмотря на наличие помещений для отдыха на объекте, было подтверждено, что работники в основном отдыхали на улице, что было обычной практикой.",
+    "MM": "လုပ်ငန်းခွင်အတွင်း အနားယူရန် အဆောက်အအုံရှိသော်လည်း လုပ်သားများသည် အပြင်ဘက်တွင်သာ အနားယူလေ့ရှိသည့် အလေ့အထကို တွေ့ရှိခဲ့သည်။",
+    "NP": "निर्माणस्थलमा आराम गर्ने सुविधा भएता पनि श्रमिकहरूले प्रायः बाहिर आराम गर्ने चलन रहेको पुष्टि भएको छ।",
+    "TH": "แม้จะมีสถานที่พักผ่อนในบริเวณก่อสร้าง แต่ก็พบว่าเป็นเรื่องปกติที่คนงานมักจะพักผ่อนอยู่ภายนอก"
+  },
+  "fifteen_facts3": {
+    "KO": "심사위는 고인이 안전관리자의 역할을 수행하던 중 발생한 사고로 판단하여 업무상 재해로 인정",
+    "EN": "The Review Committee determined the accident occurred while the deceased was performing safety management duties and recognized it as a work-related injury.",
+    "VN": "Ủy ban thẩm định xác định tai nạn xảy ra khi người quá cố đang thực hiện nhiệm vụ quản lý an toàn, do đó công nhận là tai nạn lao động.",
+    "ID": "Komisi Peninjau menilai kecelakaan tersebut terjadi saat almarhum sedang menjalankan peran sebagai pengawas keselamatan, sehingga diakui sebagai kecelakaan kerja.",
+    "RU": "Комиссия по пересмотру определила, что несчастный случай произошел во время выполнения погибшим обязанностей по обеспечению безопасности, и признала его производственной травмой.",
+    "MM": "ပြန်လည်စစ်ဆေးရေးကော်မတီက ကွယ်လွန်သူသည် ဘေးကင်းရေးအရာရှိ၏ တာဝန်ဝတ္တရားများကို ထမ်းဆောင်နေစဉ် ဖြစ်ပွားသည့် မတော်တဆမှုအဖြစ် သတ်မှတ်ပြီး လုပ်ငန်းခွင် မတော်တဆမှုအဖြစ် အသိအမှတ်ပြုခဲ့သည်။",
+    "NP": "छानबिन समितिले मृतकको मृत्यु सुरक्षा व्यवस्थापन सम्बन्धी कामको सिलसिलामा भएको ठहर गरी यसलाई औद्योगिक दुर्घटनाको रूपमा मान्यता दिएको छ।",
+    "TH": "คณะกรรมการตรวจสอบพิจารณาแล้วเห็นว่าอุบัติเหตุที่เกิดขึ้นกับผู้เสียชีวิตเป็นอุบัติเหตุที่เกี่ยวข้องกับการปฏิบัติหน้าที่ในฐานะผู้จัดการความปลอดภัย จึงได้ยอมรับว่าเป็นอุบัติเหตุจากการทำงาน"
+  },
+  "fifteen_important0": {
+    "KO": "휴게시간 중 사고의 업무연속성 인정 여부: 지정된 휴게실 외부에서 휴식하던 중 발생한 사고가 업무상 재해에 해당하는지",
+    "EN": "Recognition of work continuity during rest time: Whether an accident occurring while resting outside the designated rest area qualifies as a work-related injury.",
+    "VN": "Có công nhận tính liên tục của công việc trong thời gian nghỉ ngơi hay không: Tai nạn xảy ra khi nghỉ ngơi bên ngoài phòng nghỉ ngơi được chỉ định có phải là tai nạn lao động hay không.",
+    "ID": "Pengakuan kontinuitas pekerjaan selama waktu istirahat: Apakah kecelakaan yang terjadi saat beristirahat di luar ruang istirahat yang ditunjuk termasuk dalam kecelakaan kerja.",
+    "RU": "Признание непрерывности работы во время перерыва на отдых: является ли несчастный случай, произошедший во время отдыха вне специально отведенного туалета, производственной травмой.",
+    "MM": "အလုပ်နားချိန်အတွင်း မတော်တဆမှု၏ အလုပ်နှင့်ဆက်စပ်မှုရှိမရှိ: သတ်မှတ်ထားသော အနားယူခန်းပြင်ပတွင် အနားယူနေစဉ် ဖြစ်ပွားသည့် မတော်တဆမှုသည် လုပ်ငန်းခွင် မတော်တဆမှုဖြစ်ကြောင်း သက်ဆိုင်မှုရှိမရှိ။",
+    "NP": "छुट्टीको समयमा भएको दुर्घटनालाई कामको निरन्तरताको रूपमा मान्यता दिने/नदिने: तोकिएको आराम कक्ष बाहिर आराम गरिरहेको बेला भएको दुर्घटनालाई औद्योगिक दुर्घटना मान्न सकिन्छ कि सकिँदैन।",
+    "TH": "การยอมรับความต่อเนื่องของการทำงานในอุบัติเหตุระหว่างเวลาพัก: การพักผ่อนภายนอกห้องพักที่กำหนดเป็นอุบัติเหตุจากการทำงานหรือไม่"
+  },
+  "fifteen_important1": {
+    "KO": "안전관리 책임의 범위: 현장 안전관리 미비(신호수 미배치, 차량 진입 중 휴식자 방치)가 사고 원인으로 작용했는지 여부",
+    "EN": "Scope of safety management responsibility: Whether inadequate on-site safety management (failure to assign a signaler, leaving resting personnel unattended during vehicle entry) contributed to the accident.",
+    "VN": "Phạm vi trách nhiệm quản lý an toàn: Liệu việc quản lý an toàn tại hiện trường không đầy đủ (không bố trí người ra hiệu, để người nghỉ ngơi trong khi xe đang vào) có phải là nguyên nhân gây ra tai nạn hay không.",
+    "ID": "Ruang lingkup tanggung jawab manajemen keselamatan: Apakah kelalaian manajemen keselamatan di lokasi kerja (tidak menempatkan petugas sinyal, membiarkan pekerja beristirahat saat kendaraan masuk) berperan sebagai penyebab kecelakaan.",
+    "RU": "Объем ответственности за управление безопасностью: способствовало ли несчастному случаю ненадлежащее управление безопасностью на объекте (неназначение сигнальщика, оставление отдыхающего персонала без присмотра во время въезда транспортного средства).",
+    "MM": "ဘေးကင်းရေးတာဝန်၏ အတိုင်းအတာ: လုပ်ငန်းခွင် ဘေးကင်းရေးအားနည်းချက်များ (အချက်ပြသူမရှိခြင်း၊ ယာဉ်များဝင်ရောက်နေစဉ် အနားယူနေသူကို ဂရုမစိုက်ဘဲ ထားခြင်း) သည် မတော်တဆမှု၏ အဓိကအကြောင်းရင်း ဖြစ်ခဲ့ခြင်းရှိမရှိ။",
+    "NP": "सुरक्षा व्यवस्थापनको दायरा: निर्माणस्थलमा सुरक्षा व्यवस्थापनको कमी (सिग्नलम्यानको अनुपस्थिति, सवारी साधन आवतजावत गर्दा आराम गरिरहेका व्यक्तिलाई बेवास्ता) दुर्घटनाको कारण बनेको हो कि होइन।",
+    "TH": "ขอบเขตความรับผิดชอบด้านความปลอดภัย: การละเลยด้านความปลอดภัยในสถานที่ (ไม่มีเจ้าหน้าที่ให้สัญญาณ, ละเลยผู้ที่พักผ่อนในขณะที่รถเข้า-ออก) มีส่วนทำให้เกิดอุบัติเหตุหรือไม่"
+  },
+  "fifteen_decision": {
+    "KO": "고인의 사망은 단순한 개인적 행위가 아닌 작업 환경과 안전관리 업무와 밀접한 관련 속에서 발생한 것으로 보아 업무상 재해에 해당한다고 판단, 원처분 취소 결정",
+    "EN": "The deceased's death was deemed not a mere personal act but occurred within a context closely related to the work environment and safety management duties, thus qualifying as a work-related injury. The original decision was overturned.",
+    "VN": "Cái chết của người quá cố không phải là hành vi cá nhân đơn thuần mà xảy ra trong mối liên hệ chặt chẽ với môi trường làm việc và công việc quản lý an toàn, do đó được xác định là tai nạn lao động, quyết định hủy bỏ quyết định xử phạt ban đầu.",
+    "ID": "Kematian almarhum dinilai bukan sekadar tindakan pribadi, melainkan terjadi dalam kaitan erat dengan lingkungan kerja dan tugas manajemen keselamatan, sehingga dikategorikan sebagai kecelakaan kerja. Keputusan pembatalan putusan awal.",
+    "RU": "Смерть погибшего была признана производственной травмой, произошедшей не в результате личного действия, а в контексте, тесно связанном с рабочей средой и обязанностями по управлению безопасностью. Таким образом, первоначальное решение было отменено.",
+    "MM": "ကွယ်လွန်သူ၏ သေဆုံးမှုသည် ရိုးရှင်းသော ပုဂ္ဂိုလ်ရေးဆိုင်ရာ လုပ်ဆောင်ချက်တစ်ခုမဟုတ်ဘဲ လုပ်ငန်းခွင်ပတ်ဝန်းကျင်နှင့် ဘေးကင်းရေးတာဝန်များနှင့် နီးနီးစပ်စပ် ဆက်စပ်နေသည်ဟု သုံးသပ်ပြီး လုပ်ငန်းခွင် မတော်တဆမှုအဖြစ် သတ်မှတ်ကာ မူလဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ရန် ဆုံးဖြတ်ခဲ့သည်။",
+    "NP": "मृतकको मृत्युलाई केवल व्यक्तिगत कार्य नभई कार्यस्थलको वातावरण र सुरक्षा व्यवस्थापन सम्बन्धी कामसँग गहिरो सम्बन्ध राख्ने घटना मानी औद्योगिक दुर्घटना ठहर गरी मूल निर्णयलाई रद्द गर्ने निर्णय गरिएको छ।",
+    "TH": "การเสียชีวิตของผู้เสียชีวิตไม่ใช่การกระทำส่วนตัว แต่มีความเกี่ยวข้องอย่างใกล้ชิดกับสภาพแวดล้อมการทำงานและหน้าที่ด้านความปลอดภัย จึงตัดสินว่าเป็นอุบัติเหตุจากการทำงานและมีคำสั่งยกเลิกคำสั่งเดิม"
+  },
+  "fifteen_laws0": {
+    "KO": "산재보험법 제5조(정의)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 5 (Definitions)",
+    "VN": "Điều 5 (Định nghĩa) của \"Luật bảo hiểm tai nạn lao động\"",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 5 (Definisi)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 5 (Определения)",
+    "MM": "「စက်မှုလုပ်ငန်း မတော်တဆမှု အာမခံဥပဒေ」 ပုဒ်မ ၅ (အဓိပ္ပာယ်ဖွင့်ဆိုချက်)",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन」को दफा ५ (परिभाषा)",
+    "TH": "「พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน」 มาตรา 5 (คำนิยาม)"
+  },
+  "fifteen_laws1": {
+    "KO": "산재보험법 제37조(업무상 재해의 인정 기준)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 37 (Criteria for Recognizing Work-Related Injuries)",
+    "VN": "Điều 37 (Tiêu chuẩn công nhận tai nạn lao động) của \"Luật bảo hiểm tai nạn lao động\"",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 37 (Kriteria Pengakuan Kecelakaan Kerja)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 37 (Критерии признания производственных травм)",
+    "MM": "「စက်မှုလုပ်ငန်း မတော်တဆမှု အာမခံဥပဒေ」 ပုဒ်မ ၃၇ (လုပ်ငန်းခွင် မတော်တဆမှု သတ်မှတ်ချက်များ)",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन」को दफा ३७ (औद्योगिक दुर्घटनाको मान्यताको मापदण्ड)",
+    "TH": "「พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน」 มาตรา 37 (หลักเกณฑ์การยอมรับอุบัติเหตุจากการทำงาน)"
+  },
+  "fifteen_laws2": {
+    "KO": "산재보험법 제38조(업무상질병판정위원회)",
+    "EN": "ndustrial Accident Compensation Insurance Act, Article 38 (Work-Related Disease Determination Committee)",
+    "VN": "Điều 38 (Ủy ban đánh giá bệnh nghề nghiệp) của \"Luật bảo hiểm tai nạn lao động\"",
+    "ID": " 「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 38 (Komisi Penilaian Penyakit Kerja)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 38 (Комиссия по определению производственных заболеваний)",
+    "MM": "「စက်မှုလုပ်ငန်း မတော်တဆမှု အာမခံဥပဒေ」 ပုဒ်မ ၃၈ (လုပ်ငန်းခွင်ရောဂါ ဆုံးဖြတ်ရေးကော်မတီ)",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन」को दफा ३८ (औद्योगिक रोग निर्णय समिति",
+    "TH": "「พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน」 มาตรา 38 (คณะกรรมการวินิจฉัยโรคจากการทำงาน)"
+  },
+  "fifteen_laws3": {
+    "KO": "산재보험법 제105조(심사 청구에 대한 심리·결정)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 105 (Hearing and Decision on Review Requests)",
+    "VN": "Điều 105 (Xét xử và quyết định yêu cầu thẩm tra) của \"Luật bảo hiểm tai nạn lao động\"",
+    "ID": " 「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 105 (Sidang dan Keputusan atas Permohonan Banding)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 105 (Слушание и решение по запросам о пересмотре)",
+    "MM": "「စက်မှုလုပ်ငန်း မတော်တဆမှု အာမခံဥပဒေ」 ပုဒ်မ ၁၀၅ (ပြန်လည်စစ်ဆေးရန် တောင်းဆိုမှုအပေါ် စစ်ဆေးဆုံးဖြတ်ခြင်း)",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन」को दफा १०५ (छानबिनको लागि अनुरोधको छानबिन र निर्णय)",
+    "TH": "「พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน」 มาตรา 105 (การพิจารณาและตัดสินคำร้องขอทบทวน)"
+  },
+  "sixteen_title": {
+    "KO": "자택에서 옷과 신문을 챙겨 자전거로 출근 중 교통사고 – 산재 인정",
+    "EN": "Traffic accident while commuting by bicycle after gathering clothes and newspapers at home – Recognized as work-related injury",
+    "VN": "Tai nạn giao thông khi đang đi làm bằng xe đạp sau khi lấy quần áo và báo tại nhà – Được công nhận là tai nạn lao động",
+    "ID": "Kecelakaan lalu lintas saat berangkat kerja dengan sepeda setelah mengambil pakaian dan koran di rumah – diakui ",
+    "RU": "Дорожно-транспортное происшествие по дороге на работу на велосипеде после сбора одежды и газет из дома – признано несчастным случаем на производстве",
+    "MM": "နေအိမ်မှ အဝတ်အစားနှင့် သတင်းစာယူပြီး စက်ဘီးဖြင့် အလုပ်သွားနေစဉ် ယာဉ်တိုက်မှု - လုပ်ငန်းခွင် မတော်တဆမှုအဖြစ် အသိအမှတ်ပြုခြင်း\r\nဖြစ်စဉ်အကျဉ်းချုပ်",
+    "NP": "घरबाट लुगा र पत्रिका लिएर साइकलमा काममा जाँदै गर्दा दुर्घटना - औद्योगिक दुर्घटनाको रूपमा मान्यता",
+    "TH": "อุบัติเหตุทางจักรยานขณะไปทำงานหลังจากแวะเอาเสื้อผ้าและหนังสือพิมพ์ที่บ้าน – การยอมรับเป็นอุบัติเหตุจากการทำงาน"
+  },
+  "sixteen_summary0": {
+    "KO": "승인 여부: 승인",
+    "EN": "Approval Status: Approved",
+    "VN": "Kết quả phê duyệt: Được phê duyệt",
+    "ID": "Status Persetujuan: Disetujui",
+    "RU": "Статус утверждения: Утверждено",
+    "MM": "ခွင့်ပြုခြင်းရှိမရှိ: ခွင့်ပြု",
+    "NP": "स्वीकृति स्थिति: स्वीकृत",
+    "TH": "สถานะการอนุมัติ: อนุมัติ"
+  },
+  "sixteen_summary1": {
+    "KO": "발생 일시: 2024. 2. 6. 05:48경",
+    "EN": "Date/Time of Occurrence: February 6, 2024, around 05:48",
+    "VN": "Thời gian xảy ra: Khoảng 05:48 ngày 6/2/2024",
+    "ID": " Waktu Terjadi: Sekitar pukul 05:48 pada 6 Februari 2024",
+    "RU": " Дата и время происшествия: Примерно в 05:48 6 февраля 2024 г.",
+    "MM": "ဖြစ်ပွားသည့်နေ့: ၂၀၂၄ ခုနှစ်၊ ဖေဖော်ဝါရီလ ၆ ရက်၊ နံနက် ၅ နာရီ ၄၈ မိနစ်ခန့်",
+    "NP": "घट्ना भएको मिति र समय: २०२४. २. ६. बिहान ५:४८ बजे",
+    "TH": " วันและเวลาเกิดเหตุ: วันที่ 6 กุมภาพันธ์ 2567 เวลาประมาณ 05:48 น."
+  },
+  "sixteen_summary2": {
+    "KO": "발생 장소: ○○군 ○○읍 ○○동 ○○공단 인근 도로",
+    "EN": "Location: Road near ○○ Industrial Complex, ○○-dong, ○○-eup, ○○-gun",
+    "VN": "Địa điểm xảy ra: Đường gần khu công nghiệp ○○, ○○-dong, ○○-eup, ○○-gun",
+    "ID": "Lokasi Kejadian: Jalan dekat Kawasan Industri ○○, ○○-dong, ○○-eup, ○○-gun",
+    "RU": "Место: Дорога возле промышленного комплекса ○○, ○○-дон, ○○-эуп, ○○-гун",
+    "MM": "ဖြစ်ပွားသည့်နေရာ: ○○ခရိုင် ○○မြို့နယ် ○○ရပ်ကွက် ○○စက်မှုဇုန်အနီး လမ်းမပေါ်",
+    "NP": " घट्ना भएको स्थान: ○○郡 ○○읍 ○○동 ○○औद्योगिक क्षेत्र नजिकैको सडक",
+    "TH": " สถานที่เกิดเหตุ: ถนนใกล้กับนิคมอุตสาหกรรม ○○ ในเขต ○○ ตำบล ○○ อำเภอ ○○"
+  },
+  "sixteen_summary3": {
+    "KO": "근로자 정보: 운전직/덤프트럭 기사",
+    "EN": "Worker Information: Driver/Dump Truck Operator",
+    "VN": "Thông tin người lao động: Lái xe/tài xế xe tải tự đổ",
+    "ID": "Informasi Pekerja: Pekerja Mengemudi/Sopir Truk Dump",
+    "RU": "Информация о работнике: Водитель/водитель самосвала",
+    "MM": "လုပ်သားအချက်အလက်: ယာဉ်မောင်း/သဲတင်ကားမောင်းသူ",
+    "NP": "श्रमिकको जानकारी: चालक/डम्प ट्रक चालक",
+    "TH": " ข้อมูลพนักงาน: พนักงานขับรถ/คนขับรถบรรทุกดัมพ์"
+  },
+  "sixteen_summary4": {
+    "KO": "상병명: 뇌간실조, 뇌내출혈, 뇌내부종 등",
+    "EN": "Diagnosis: Cerebellar ataxia, intracerebral hemorrhage, cerebral edema, etc.",
+    "VN": "Chẩn đoán: Rối loạn điều hòa não, xuất huyết não, phù não, v.v.",
+    "ID": "Diagnosis: Ataksia batang otak, perdarahan intrakranial, edema intrakranial, dll.",
+    "RU": "Диагноз: Атаксия мозжечка, внутримозговое кровоизлияние, отек мозга и т. д.",
+    "MM": "ဒဏ်ရာအမျိုးအစား: ဦးနှောက်ပင်စည်ခြောက်သွေ့ခြင်း၊ ဦးနှောက်အတွင်း သွေးယိုစီးမှု၊ ဦးနှောက်ရောင်ရမ်းမှု စသည်တို့",
+    "NP": " चोटको विवरण: ब्रेनस्टेम अट्याक्सिया, इन्ट्रासेरेब्रल हेमोरेज, सेरेब्रल इडेमा आदि।",
+    "TH": " อาการบาดเจ็บ: สมองน้อยเสียการทรงตัว, เลือดออกในสมอง, สมองบวม ฯลฯ"
+  },
+  "sixteen_situation": {
+    "KO": "재해자가 회사 숙소에서 취침 후 자택에서 옷과 신문을 챙겨 자전거를 타고 회사로 가던 중 연석과 충돌하는 사고로 사망한 것을 ‘일상생활에 필요한 행위로 볼 수 없어 일탈행위에 해당’한다며 유족급여 부지급 결정한 사건에 대하여, 재해자가 취업 장소로 가기 전 신문이나 옷을 가져간 행위를 ‘일상생활에 필요한 행위’라고 인정하여 원처분 “취소” 결정한 사례.",
+    "EN": "Regarding a case where the bereaved family's compensation was denied because the victim's death occurred while riding a bicycle to work after sleeping at the company dormitory and collecting clothes and newspapers from home, with the collision against a curb deemed “not an act necessary for daily life and thus constituting a deviation,” the original disposition was revoked. “Reversed” the original decision.",
+    "VN": "Vụ việc liên quan đến quyết định không chi trả trợ cấp cho gia đình nạn nhân với lý do \"hành vi này không thể coi là hành vi cần thiết trong cuộc sống hàng ngày mà là hành vi sai trái\" khi nạn nhân tử vong do va chạm với lề đường trong khi đang đi xe đạp đến công ty sau khi ngủ tại ký túc xá công ty và mang theo quần áo và báo. Tuy nhiên, tòa án đã hủy bỏ quyết định ban đầu .",
+    "ID": "Kasus di mana korban meninggal dunia akibat kecelakaan saat bersepeda menuju tempat kerja setelah mengambil pakaian dan koran dari rumahnya, dengan alasan bahwa tindakan tersebut “tidak dapat dianggap sebagai kegiatan sehari-hari yang diperlukan dan termasuk dalam tindakan penyimpangan”, sehingga diputuskan untuk tidak memberikan tunjangan keluarga. Namun, dalam kasus ini, tindakan korban mengambil koran atau pakaian sebelum pergi ke tempat kerja diakui sebagai “kegiatan sehari-hari yang diperlukan”, sehingga keputusan awal “dibatalkan”.",
+    "RU": "Данное дело касается решения об отказе в выплате пособия по случаю смерти, мотивированного тем, что смерть погибшего, произошедшая в результате столкновения с бордюром во время поездки на велосипеде на работу после сбора одежды и газет из дома после ночлега в общежитии компании, представляла собой «отклонение от поведения, необходимого для повседневной жизни». В апелляции сбор газет или одежды перед поездкой на работу был признан «необходимым для повседневной жизни», что привело к отмене первоначального решения об «отмене». ",
+    "MM": "ကွယ်လွန်သူ၏ လုပ်ငန်းခွင်သည် တနင်္ဂနွေနေ့ဖြစ်၍ သားသမီးနေအိမ်သို့ ဝင်ရောက်ပြီးနောက် အလုပ်သွားနေစဉ် ဖြစ်ပွားသည့် မတော်တဆမှုကို မူလဆုံးဖြတ်ချက်ချသည့်အဖွဲ့အစည်းက အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်း သွေဖည်မှု/ပြတ်တောက်မှုအဖြစ် သတ်မှတ်ကာ ခွင့်မပြုခဲ့သော်လည်း၊ အိမ်ထောင်စုစာရင်းပါ လိပ်စာသည် အမှန်တကယ် နေထိုင်ရာနေရာမဟုတ်ကြောင်းနှင့် တင်ပြထားသော စာရွက်စာတမ်းများအရ သားသမီးနေအိမ်သည် အမှန်တကယ် နေထိုင်ရာနေရာဖြစ်ကြောင်း အတည်ပြုနိုင်ခဲ့သည်။ ထို့ကြောင့် ပုံမှန်အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်းတွင် ဖြစ်ပွားသည့် မတော်တဆမှုအဖြစ် အသိအမှတ်ပြုပြီး မူလဆုံးဖြတ်ချက်ကို \"ပယ်ဖျက်\" ခဲ့သည့် ဖြစ်ရပ်ဖြစ်သည်။",
+    "NP": "यो घटनामा, पीडित कम्पनीको आवासमा सुतेर बिहान घरबाट लुगा र पत्रिका लिएर साइकलमा काममा जाँदै गर्दा कर्बमा ठोक्किएर मृत्यु भएको थियो। यसलाई 'दैनिक जीवनका लागि आवश्यक कार्य नभएकोले मार्गबाट विचलित भएको कार्य' मानी पीडितको परिवारलाई क्षतिपूर्ति नदिने निर्णय गरिएको थियो। तर, पीडितले काममा जानुअघि पत्रिका वा लुगा लिएको कार्यलाई 'दैनिक जीवनका लागि आवश्यक कार्य' को रूपमा मान्यता दिई मूल निर्णयलाई \"रद्द\" गर्ने निर्णय गरिएको हो।",
+    "TH": "เป็นกรณีที่พนักงานเสียชีวิตจากอุบัติเหตุจักรยานชนกับขอบถนนในขณะที่เดินทางไปบริษัท หลังจากพักที่หอพักของบริษัทและแวะเอาเสื้อผ้ากับหนังสือพิมพ์ที่บ้าน ซึ่งเดิมทีถูกตัดสินว่า \"ไม่ใช่การกระทำที่จำเป็นในชีวิตประจำวัน จึงถือเป็นการเบี่ยงเบนจากเส้นทาง\" และปฏิเสธการจ่ายเงินช่วยเหลือครอบครัว อย่างไรก็ตาม ศาลได้พิจารณาและยอมรับว่าการที่ผู้เสียชีวิตแวะเอาเสื้อผ้าหรือหนังสือพิมพ์ก่อนไปทำงานนั้นเป็นการกระทำที่ \"จำเป็นในชีวิตประจำวัน\" จึงมีคำสั่ง \"ยกเลิก\" คำสั่งเดิม"
+  },
+  "sixteen_facts0": {
+    "KO": "원처분기관은 재해자가 자택에 들러 옷이나 신문을 가져간 행위가 출퇴근 중 일탈행위에 해당한다고 보아 유족급여 불승인 처리.",
+    "EN": "he original decision-making body denied survivor benefits, viewing the victim's act of stopping at home to retrieve clothes or newspapers as a deviation during commuting.",
+    "VN": "Cơ quan xử lý ban đầu cho rằng hành vi của nạn nhân khi ghé qua nhà để lấy quần áo và báo là hành vi sai lệch trong quá trình đi làm, nên đã từ chối chi trả trợ cấp cho gia đình nạn nhân.",
+    "ID": "nstansi yang mengeluarkan keputusan awal menganggap tindakan korban yang mampir ke rumah untuk mengambil pakaian atau koran sebagai tindakan menyimpang selama perjalanan pulang-pergi kerja, sehingga menolak pemberian tunjangan ahli waris.",
+    "RU": "Первоначальный орган, принимавший решение, счел действие жертвы по остановке дома для сбора одежды или газет отклонением от маршрута поездки на работу и отказал в выплате пособия по случаю потери кормильца.",
+    "MM": "မူလဆုံးဖြတ်ချက်ချသည့်အဖွဲ့အစည်းက ကွယ်လွန်သူသည် နေအိမ်သို့ ဝင်ရောက်ကာ အဝတ်အစား သို့မဟုတ် သတင်းစာကို ယူဆောင်သွားခြင်းသည် အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်းမှ သွေဖည်သော လုပ်ရပ်ဖြစ်သည်ဟု သတ်မှတ်ကာ မိသားစုအတွက် ထောက်ပံ့ကြေး မပေးရန် ဆုံးဖြတ်ခဲ့သည်။",
+    "NP": "मूल निर्णय गर्ने निकायले पीडितले आफ्नो घरमा गएर लुगा वा पत्रिका लिएको कार्यलाई काममा आउने-जाने क्रममा मार्गबाट विचलित भएको कार्य मानी पीडितको परिवारलाई क्षतिपूर्ति अस्वीकृत गरेको थियो।",
+    "TH": "หน่วยงานที่ตัดสินใจในตอนแรกพิจารณาว่าการที่ผู้เสียชีวิตแวะที่บ้านเพื่อเอาเสื้อผ้าหรือหนังสือพิมพ์เป็นการเบี่ยงเบนจากเส้นทางระหว่างการเดินทางไปทำงาน จึงได้ปฏิเสธการจ่ายเงินช่วยเหลือครอบครัว"
+  },
+  "sixteen_facts1": {
+    "KO": "그러나 조사 결과 재해자는 평소 자택과 숙소를 오가며 생활했으며, 자택에서 출근하는 것이 통상적인 출퇴근 경로로 인정됨.",
+    "EN": "However, the investigation revealed the victim routinely commuted between home and the company dormitory, and commuting from home was recognized as the customary route.",
+    "VN": "Tuy nhiên, kết quả điều tra cho thấy nạn nhân thường xuyên đi lại giữa nhà và ký túc xá, và việc đi làm từ nhà được công nhận là lộ trình đi làm bình thường.",
+    "ID": "Namun, hasil penyelidikan menunjukkan bahwa korban biasa bolak-balik antara rumah dan asrama, dan berangkat kerja dari rumah dianggap sebagai rute perjalanan pulang-pergi kerja yang biasa.",
+    "RU": "Однако расследование показало, что жертва регулярно ездила между домом и жильем, и поездка из дома была признана обычным маршрутом.",
+    "MM": "သို့သော်လည်း စစ်ဆေးမှုရလဒ်အရ ကွယ်လွန်သူသည် နေအိမ်နှင့် အဆောင်ကို သွားလာနေထိုင်လေ့ရှိပြီး နေအိမ်မှ အလုပ်သွားခြင်းသည် ပုံမှန် အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်းအဖြစ် အသိအမှတ်ပြုခဲ့သည်။",
+    "NP": " तर, अनुसन्धानबाट पीडित सामान्यतया घर र कम्पनीको आवास दुवैमा बस्ने गरेको र घरबाट काममा जानुलाई सामान्य कार्यस्थल आउने-जाने मार्गको रूपमा मान्यता दिइएको थियो।",
+    "TH": "  อย่างไรก็ตาม ผลการสอบสวนพบว่าผู้เสียชีวิตมักใช้ชีวิตสลับไปมาระหว่างบ้านและหอพัก และการเดินทางไปทำงานจากบ้านก็ถือเป็นเส้นทางปกติในการเดินทาง"
+  },
+  "sixteen_facts2": {
+    "KO": "자택에 들러 옷이나 신문을 가져간 행위는 일상생활에 필요한 부수적 행위로 판단됨.",
+    "EN": " The act of stopping by the residence to retrieve clothes or newspapers was judged to be an incidental act necessary for daily life.",
+    "VN": " Hành vi ghé qua nhà để lấy quần áo và báo được đánh giá là hành vi phụ trợ cần thiết cho cuộc sống hàng ngày.",
+    "ID": "Perilaku mampir ke rumah untuk mengambil pakaian atau koran dinilai sebagai perilaku tambahan yang diperlukan dalam kehidupan sehari-hari.",
+    "RU": " Действие по остановке дома для того, чтобы забрать одежду или газеты, было признано случайным действием, необходимым для повседневной жизни.",
+    "MM": "နေအိမ်သို့ ဝင်ရောက်ကာ အဝတ်အစား သို့မဟုတ် သတင်းစာကို ယူဆောင်သွားခြင်းသည် နေ့စဉ်ဘဝအတွက် လိုအပ်သော လုပ်ရပ်၏ အစိတ်အပိုင်းတစ်ခုအဖြစ် ဆုံးဖြတ်ခဲ့သည်။",
+    "NP": "घरमा गएर लुगा वा पत्रिका लिएको कार्यलाई दैनिक जीवनका लागि आवश्यक सहायक कार्यको रूपमा ठहर गरिएको छ।",
+    "TH": "  การแวะที่บ้านเพื่อเอาเสื้อผ้าหรือหนังสือพิมพ์ถูกพิจารณาว่าเป็นการกระทำเสริมที่จำเป็นในชีวิตประจำวัน"
+  },
+  "sixteen_facts3": {
+    "KO": "따라서 출퇴근 재해로 인정하는 것이 타당하다는 심사위 판단이 내려짐.",
+    "EN": " Therefore, the review committee determined that recognizing it as a commuting accident was appropriate.",
+    "VN": "Do đó, ủy ban thẩm định đã đưa ra quyết định rằng việc công nhận đây là tai nạn trên đường đi làm là hợp lý.",
+    "ID": "Oleh karena itu, komite peninjau memutuskan bahwa perilaku tersebut layak diakui sebagai kecelakaan saat perjalanan pulang-pergi kerja.",
+    "RU": "В результате комиссия по пересмотру постановила, что признание этого случая несчастным случаем по дороге на работу является правомерным.",
+    "MM": "ထို့ကြောင့် ယင်းဖြစ်စဉ်ကို အလုပ်သွားအလုပ်ပြန် မတော်တဆမှုအဖြစ် အသိအမှတ်ပြုခြင်းသည် သင့်လျော်သည်ဟု ပြန်လည်စစ်ဆေးရေးကော်မတီက ဆုံးဖြတ်ခဲ့သည်။",
+    "NP": "यसैले, यसलाई काममा आउने-जाने क्रममा भएको दुर्घटनाको रूपमा मान्यता दिनु उचित भएको छानबिन समितिले ठहर गरेको छ।",
+    "TH": " ดังนั้น คณะกรรมการตรวจสอบจึงตัดสินว่าสมควรที่จะยอมรับว่าเป็นอุบัติเหตุที่เกิดขึ้นระหว่างการเดินทางไปทำงาน"
+  },
+  "sixteen_important0": {
+    "KO": "출퇴근 경로의 일탈 여부: 자택에 들러 옷·신문을 가져가는 행위가 출퇴근 경로 일탈인지 여부.",
+    "EN": " Deviation from the Commuting Route: Whether stopping by the residence to retrieve clothes or newspapers constituted a deviation from the commuting route.",
+    "VN": "Việc có phải là hành vi đi chệch khỏi lộ trình đi làm hay không: Hành vi ghé qua nhà để lấy quần áo và báo có phải là hành vi đi chệch khỏi lộ trình đi làm hay không.",
+    "ID": "Apakah perilaku mampir ke rumah untuk mengambil pakaian atau koran merupakan penyimpangan dari rute perjalanan pulang-pergi kerja.",
+    "RU": "Отклонение от маршрута поездки на работу: представляла ли остановка дома для того, чтобы забрать одежду или газеты, отклонение от маршрута поездки на работу.",
+    "MM": "အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်းမှ သွေဖည်မှုရှိမရှိ: နေအိမ်သို့ ဝင်ရောက်ကာ အဝတ်အစားနှင့် သတင်းစာယူဆောင်သွားခြင်းသည် အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်းမှ သွေဖည်မှုဟုတ်မဟုတ်။",
+    "NP": "काममा आउने-जाने मार्गबाट विचलित भएको हो कि होइन: घरमा गएर लुगा वा पत्रिका लिने कार्य काममा आउने-जाने मार्गबाट विचलित भएको हो कि होइन।",
+    "TH": "การเบี่ยงเบนจากเส้นทางไปทำงาน: การแวะที่บ้านเพื่อเอาเสื้อผ้าและหนังสือพิมพ์ถือเป็นการเบี่ยงเบนจากเส้นทางไปทำงานหรือไม่"
+  },
+  "sixteen_important1": {
+    "KO": "일상생활 부수행위 인정 범위: 출근 전 개인적 필요를 위한 행위가 ‘일상생활에 필요한 행위’로 인정될 수 있는지 여부.",
+    "EN": " Scope of Recognition for Daily Life Incidental Acts: Whether actions taken for personal needs before work can be recognized as ‘acts necessary for daily life’.",
+    "VN": "Phạm vi công nhận hành vi phụ thuộc vào cuộc sống hàng ngày: Hành vi vì nhu cầu cá nhân trước khi đi làm có thể được công nhận là 'hành vi cần thiết cho cuộc sống hàng ngày' hay không.",
+    "ID": "Ruang lingkup pengakuan tindakan tambahan dalam kehidupan sehari-hari: Apakah tindakan untuk kebutuhan pribadi sebelum berangkat kerja dapat diakui sebagai ‘tindakan yang diperlukan dalam kehidupan sehari-hari’.",
+    "RU": "Сфера признания побочных действий повседневной жизни: может ли действие, совершенное перед поездкой на работу для личных нужд, быть признано «действием, необходимым для повседневной жизни».",
+    "MM": "နေ့စဉ်ဘဝ၏ လုပ်ရပ်အဖြစ် အသိအမှတ်ပြုနိုင်သည့် အတိုင်းအတာ: အလုပ်မသွားမီ ကိုယ်ရေးကိုယ်တာ လိုအပ်ချက်အတွက် လုပ်ဆောင်သည့် လုပ်ရပ်ကို 'နေ့စဉ်ဘဝအတွက် လိုအပ်သော လုပ်ရပ်' အဖြစ် အသိအမှတ်ပြုနိုင်ခြင်းရှိမရှိ။",
+    "NP": "दैनिक जीवनका सहायक कार्यहरूको मान्यताको दायरा: काममा जानुअघि व्यक्तिगत आवश्यकताका लागि गरिएको कार्यलाई 'दैनिक जीवनका लागि आवश्यक कार्य' को रूपमा मान्यता दिन सकिन्छ कि सकिँदैन।",
+    "TH": " ขอบเขตการยอมรับการกระทำเสริมในชีวิตประจำวัน: การกระทำเพื่อความจำเป็นส่วนตัวก่อนไปทำงานสามารถยอมรับว่าเป็น \"การกระทำที่จำเป็นในชีวิตประจำวัน\" ได้หรือไม่"
+  },
+  "sixteen_decision": {
+    "KO": "본 사건은 재해자의 출퇴근 경로상 일상적인 행위 중 발생한 사고로, 산재보험법상 업무상 재해에 해당하여 원처분을 취소함.",
+    "EN": "This case involves an accident occurring during a routine act on the injured party's commuting route, qualifying as a work-related injury under the Industrial Accident Compensation Insurance Act. The original decision is therefore revoked.",
+    "VN": "Vụ việc này là tai nạn xảy ra trong quá trình thực hiện hành vi thường ngày trên đường đi làm của nạn nhân, thuộc trường hợp tai nạn lao động theo Luật bảo hiểm tai nạn lao động, do đó quyết định ban đầu bị hủy bỏ.",
+    "ID": "Kasus ini merupakan kecelakaan yang terjadi selama tindakan rutin dalam perjalanan pulang-pergi kerja, sehingga termasuk dalam kecelakaan kerja berdasarkan Undang-Undang Asuransi Kecelakaan Kerja, dan putusan awal dibatalkan.",
+    "RU": "Данное дело касается несчастного случая, произошедшего во время обычного действия на пути поездки на работу пострадавшего. Оно представляет собой производственную травму в соответствии с Законом о страховании от несчастных случаев на производстве, и поэтому первоначальное решение отменено.",
+    "MM": "ဤဖြစ်စဉ်သည် ကွယ်လွန်သူ၏ အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်းပေါ်ရှိ ပုံမှန်လုပ်ရပ်တစ်ခုအတွင်း ဖြစ်ပွားသည့် မတော်တဆမှုဖြစ်၍ စက်မှုလုပ်ငန်း မတော်တဆမှု အာမခံဥပဒေအရ လုပ်ငန်းခွင် မတော်တဆမှုအဖြစ် သတ်မှတ်ကာ မူလဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ခဲ့သည်။",
+    "NP": "यो घटना पीडितको काममा आउने-जाने मार्गमा सामान्य दैनिक कार्यको क्रममा भएको दुर्घटना हो। तसर्थ, यो औद्योगिक दुर्घटना बीमा कानुन अन्तर्गत औद्योगिक दुर्घटना हो र मूल निर्णयलाई रद्द गरिएको छ।",
+    "TH": "เหตุการณ์นี้เป็นอุบัติเหตุที่เกิดขึ้นระหว่างการกระทำปกติบนเส้นทางเดินทางไปทำงานของผู้เสียชีวิต จึงถือเป็นอุบัติเหตุจากการทำงานตามกฎหมายประกันภัยอุบัติเหตุจากการทำงาน และได้มีการยกเลิกคำสั่งเดิม"
+  },
+  "sixteen_laws0": {
+    "KO": "산재보험법 제5조(정의)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 5 (Definitions)",
+    "VN": "Điều 5 (Định nghĩa) của Luật Bảo hiểm tai nạn lao động",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 5 (Definisi)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 5 (Определения)",
+    "MM": "「စက်မှုလုပ်ငန်း မတော်တဆမှု အာမခံဥပဒေ」 ပုဒ်မ ၅ (အဓိပ္ပာယ်ဖွင့်ဆိုချက်)",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन」को दफा ५ (परिभाषा)",
+    "TH": "「พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน」 มาตรา 5 (คำนิยาม)"
+  },
+  "sixteen_laws1": {
+    "KO": "산재보험법 제37조(업무상 재해의 인정 기준)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 37 (Criteria for Recognizing Work-Related Injuries)",
+    "VN": "Điều 37 (Tiêu chuẩn công nhận tai nạn lao động) của Luật Bảo hiểm tai nạn lao động",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 37 (Kriteria Pengakuan Kecelakaan Kerja)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 37 (Критерии признания производственных травм)",
+    "MM": "「စက်မှုလုပ်ငန်း မတော်တဆမှု အာမခံဥပဒေ」 ပုဒ်မ ၃၇ (လုပ်ငန်းခွင် မတော်တဆမှု သတ်မှတ်ချက်များ)",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन」को दफा ३७ (औद्योगिक दुर्घटनाको मान्यताको मापदण्ड)",
+    "TH": "  「พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน」 มาตรา 37 (หลักเกณฑ์การยอมรับอุบัติเหตุจากการทำงาน)"
+  },
+  "sixteen_laws2": {
+    "KO": " 산재보험법 제62조(유족급여)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 62 (Survivor Benefits)",
+    "VN": "Điều 62 (Trợ cấp cho gia đình người chết) của Luật Bảo hiểm tai nạn lao động",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 62 (Tunjangan Ahli Waris)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 62 (Пособия выжившим)",
+    "MM": "「စက်မှုလုပ်ငန်း မတော်တဆမှု အာမခံဥပဒေ」 ပုဒ်မ ၆၂ (မိသားစုအတွက် ထောက်ပံ့ကြေး)",
+    "NP": " 「औद्योगिक दुर्घटना बीमा कानुन」को दफा ६२ (पीडितको परिवारलाई क्षतिपूर्ति)",
+    "TH": "  「พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน」 มาตรา 62 (เงินช่วยเหลือครอบครัว)"
+  },
+  "sixteen_laws3": {
+    "KO": "산재보험법 제71조(장례비)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 71 (Funeral Expenses)",
+    "VN": "Điều 71 (Chi phí tang lễ) của Luật Bảo hiểm tai nạn lao động",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 71 (Biaya Pemakaman)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 71 (Расходы на похороны)",
+    "MM": "「စက်မှုလုပ်ငန်း မတော်တဆမှု အာမခံဥပဒေ」 ပုဒ်မ ၇၁ (ဈာပနစရိတ်)",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन」को दफा ७१ (अन्त्येष्टि खर्च)",
+    "TH": "  「พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน」 มาตรา 71 (ค่าทำศพ)"
+  },
+  "sixteen_laws4": {
+    "KO": "산재보험법 제105조(심사 청구에 대한 심리·결정)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 105 (Hearing and Decision on Review Requests)",
+    "VN": "Điều 105 (Xét xử và quyết định về yêu cầu thẩm tra) của Luật Bảo hiểm tai nạn lao động",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 105 (Pemeriksaan dan Keputusan atas Permohonan Banding)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 105 (Рассмотрение и принятие решения по запросам о пересмотре)",
+    "MM": "「စက်မှုလုပ်ငန်း မတော်တဆမှု အာမခံဥပဒေ」 ပုဒ်မ ၁၀၅ (ပြန်လည်စစ်ဆေးရန် တောင်းဆိုမှုအပေါ် စစ်ဆေးဆုံးဖြတ်ခြင်း)",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन」को दफा १०५ (छानबिनको लागि अनुरोधको छानबिन र निर्णय)",
+    "TH": " 「พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน」 มาตรา 105 (การพิจารณาและตัดสินคำร้องขอทบทวน)"
+  },
+  "seventeen_title": {
+    "KO": "오토바이 엔진오일 교환 후 교통사고 – 산재 인정",
+    "EN": "Traffic Accident After Motorcycle Engine Oil Change – Work Injury Compensation Approved",
+    "VN": "Tai nạn giao thông sau khi thay dầu động cơ xe máy – Công nhận tai nạn lao động",
+    "ID": "Kecelakaan Lalu Lintas setelah Penggantian Oli Mesin Sepeda Motor – Dinyatakan sebagai Kecelakaan Kerja",
+    "RU": "Дорожно-транспортное происшествие после замены моторного масла в мотоцикле – признано ",
+    "MM": "ဆိုင်ကယ်အင်ဂျင်ဝိုင်လဲပြီးနောက် ယာဉ်တိုက်မှု - လုပ်ငန်းခွင် မတော်တဆမှုအဖြစ် အသိအမှတ်ပြုခြင်း",
+    "NP": "मोटरसाइकलको इन्जिन तेल फेरेपछि दुर्घटना - औद्योगिक दुर्घटनाको रूपमा मान्यता",
+    "TH": "อุบัติเหตุทางจักรยานยนต์หลังเปลี่ยนถ่ายน้ำมันเครื่อง – การยอมรับเป็นอุบัติเหตุจากการทำงาน"
+  },
+  "seventeen_summary0": {
+    "KO": "승인 여부: 승인",
+    "EN": "Approval Status: Approved",
+    "VN": "Kết quả phê duyệt: Được phê duyệt",
+    "ID": "Status Persetujuan: Disetujui",
+    "RU": "Статус утверждения: Утверждено",
+    "MM": "ခွင့်ပြုခြင်းရှိမရှိ: ခွင့်ပြု",
+    "NP": "स्वीकृति स्थिति: स्वीकृत",
+    "TH": "สถานะการอนุมัติ: อนุมัติ"
+  },
+  "seventeen_summary1": {
+    "KO": " 발생 일시: 2024. 4. 17. 09:40경",
+    "EN": "  Date/Time of Occurrence: April 17, 2024, around 09:40",
+    "VN": "  Thời gian xảy ra: Khoảng 09:40 ngày 17/4/2024",
+    "ID": "  Waktu Terjadi: 17 April 2024, sekitar pukul 09:40",
+    "RU": "  Дата и время происшествия: 17 апреля 2024 г., примерно в 09:40",
+    "MM": "  ဖြစ်ပွားသည့်နေ့: ၂၀၂၄ ခုနှစ်၊ ဧပြီလ ၁၇ ရက်၊ နံနက် ၉ နာရီ ၄၀ မိနစ်ခန့်",
+    "NP": "  घट्ना भएको मिति र समय: २०२४. ४. १७. बिहान ९:४० बजे",
+    "TH": "  วันและเวลาเกิดเหตุ: วันที่ 17 เมษายน 2567 เวลาประมาณ 09:40 น."
+  },
+  "seventeen_summary2": {
+    "KO": " 발생 장소: ○○시 ○○로 278, ○○○앞 도로",
+    "EN": "  Location: Road in front of ○○○, 278 ○○-ro, ○○ City",
+    "VN": "  Địa điểm xảy ra: Đường ○○, số 278, thành phố ○○, trước ○○○",
+    "ID": "  Lokasi Kejadian: Jalan ○○-ro 278, ○○○, ○○ City",
+    "RU": "  Место: Дорога перед ○○○, 278 ○○-ro, город ○○",
+    "MM": "  ဖြစ်ပွားသည့်နေရာ: ○○မြို့ ○○လမ်း ၂၇၈၊ ○○○ရှေ့ လမ်းမပေါ်",
+    "NP": "  घट्ना भएको स्थान: ○○शहर ○○रोड २७८, ○○○अगाडिको सडक",
+    "TH": "  สถานที่เกิดเหตุ: ถนนหน้าอาคาร ○○○, เลขที่ 278 ถนน ○○, เมือง ○○"
+  },
+  "seventeen_summary3": {
+    "KO": " 근로자 정보: 주식회사 ○○○○ 소속 택시서비스 기사 (배달라이더)",
+    "EN": "  Worker Information: Taxi service driver (delivery rider) employed by ○○○○ Co., Ltd.",
+    "VN": "  Thông tin người lao động: Tài xế taxi (người giao hàng) thuộc Công ty cổ phần ○○○○",
+    "ID": "  Informasi Pekerja: Sopir layanan taksi (pengemudi pengiriman) dari PT ○○○○",
+    "RU": "  Информация о работнике: Водитель такси (курьер), работающий в компании ○○○○ Co., Ltd.",
+    "MM": "  လုပ်သားအချက်အလက်: 株式会社 ○○○○ မှ တက္ကစီဝန်ဆောင်မှု ယာဉ်မောင်း (Delivery Rider)",
+    "NP": "  श्रमिकको जानकारी: कम्पनी लिमिटेड ○○○○ मा कार्यरत ट्याक्सी सेवा चालक (डेलिभरी राइडर)",
+    "TH": "  ข้อมูลพนักงาน: พนักงานขับแท็กซี่/ไรเดอร์ส่งอาหารของบริษัท ○○○○ จำกัด"
+  },
+  "seventeen_summary4": {
+    "KO": "상병명: 다발성 늑골골절(좌측 3,4,5,6,7), 좌측 쇄골 원위부 분쇄골절",
+    "EN": "  Injuries: Multiple rib fractures (left 3rd, 4th, 5th, 6th, 7th), comminuted fracture of the distal left clavicle",
+    "VN": "  Chẩn đoán: Gãy xương sườn nhiều chỗ (bên trái 3,4,5,6,7), gãy xương đòn trái",
+    "ID": "  Diagnosis: Patah tulang rusuk multipel (kiri 3,4,5,6,7), patah tulang selangka kiri bagian distal",
+    "RU": "  Травмы: Множественные переломы ребер (левые 3, 4, 5, 6, 7), оскольчатый перелом дистального отдела левой ключицы",
+    "MM": "  ဒဏ်ရာအမျိုးအစား: နံရိုးများစွာ ကျိုးခြင်း (ဘယ်ဘက် ၃၊ ၄၊ ၅၊ ၆၊ ၇)၊ ဘယ်ဘက်ပခုံးရိုး distal end ကြေမွခြင်း",
+    "NP": "  चोटको विवरण: धेरै करङ भाँचिएको (बायाँ ३,४,५,६,७), बायाँ क्लाभिकलको अन्तिम भाग चकनाचुर भएको",
+    "TH": "  อาการบาดเจ็บ: ซี่โครงหักหลายซี่ (ซี่ที่ 3, 4, 5, 6, 7 ทางซ้าย), กระดูกไหปลาร้าซ้ายส่วนปลายแตกละเอียด"
+  },
+  "seventeen_situation": {
+    "KO": "오토바이 엔진오일 교환 후 출근하던 중 발생한 사고를 출퇴근 경로 일탈로 보아 요양 불승인한 사건에 대하여, 자택에서 출발하여 엔진오일 교환 후 출근하던 중 발생한 사고는 일상생활에 필요한 행위 이후 출근 중 발생한 사고로 보는 것이 타당하다고 판단하여 원처분 “취소” 결정한 사례",
+    "EN": "Regarding a case where an accident occurring while commuting after changing motorcycle engine oil was deemed a deviation from the commuting route and denied medical benefits, it was determined that an accident occurring while commuting after changing engine oil following departure from home should reasonably be considered an accident occurring during commuting after an act necessary for daily life. Consequently, the original decision was “cancelled.”",
+    "VN": "Về vụ việc từ chối chi trả chi phí điều trị do coi tai nạn xảy ra khi đi làm sau khi thay dầu động cơ xe máy là đi chệch khỏi lộ trình đi làm, tòa án đã quyết định “hủy bỏ” quyết định ban đầu vì cho rằng tai nạn xảy ra khi đi làm sau khi thay dầu động cơ xe máy là tai nạn xảy ra trong quá trình đi làm sau khi thực hiện hành vi cần thiết cho cuộc sống hàng ngày.",
+    "ID": "Kasus di mana kecelakaan yang terjadi saat berangkat kerja setelah mengganti oli mesin motor dianggap sebagai penyimpangan dari rute perjalanan kerja dan ditolak klaim asuransinya, namun diputuskan untuk “membatalkan” putusan awal dengan pertimbangan bahwa kecelakaan yang terjadi saat berangkat kerja setelah mengganti oli mesin motor dari rumah merupakan kecelakaan yang terjadi setelah melakukan aktivitas yang diperlukan dalam kehidupan sehari-hari.",
+    "RU": "В отношении случая, когда несчастный случай, произошедший во время поездки на работу после замены моторного масла в мотоцикле, был признан отклонением от маршрута поездки на работу и, следовательно, было отказано в предоставлении медицинских льгот, было решено, что несчастный случай, произошедший во время поездки на работу после выхода из дома и замены моторного масла, должен быть обоснованно признан несчастным случаем, произошедшим во время поездки на работу после совершения действия, необходимого для повседневной жизни. В результате первоначальное решение было «отменено».",
+    "MM": "ဆိုင်ကယ်အင်ဂျင်ဝိုင်လဲပြီးနောက် အလုပ်သွားနေစဉ် ဖြစ်ပွားသည့် မတော်တဆမှုကို အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်းမှ သွေဖည်မှုအဖြစ် သတ်မှတ်ကာ ဆေးကုသခွင့် မပေးရန် ဆုံးဖြတ်ခဲ့သည့် ဖြစ်စဉ်နှင့် ပတ်သက်၍ နေအိမ်မှ စတင်ထွက်ခွာပြီး အင်ဂျင်ဝိုင်လဲပြီးနောက် အလုပ်သွားနေစဉ် ဖြစ်ပွားသည့် မတော်တဆမှုကို နေ့စဉ်ဘဝအတွက် လိုအပ်သော လုပ်ရပ်အပြီးတွင် အလုပ်သွားနေစဉ် ဖြစ်ပွားသည့် မတော်တဆမှုအဖြစ် ရှုမြင်ခြင်းသည် သင့်လျော်သည်ဟု သုံးသပ်ပြီး မူလဆုံးဖြတ်ချက်ကို \"ပယ်ဖျက်\" ခဲ့သည့် ဖြစ်ရပ်ဖြစ်သည်။",
+    "NP": "यो घटनामा, मोटरसाइकलको इन्जिन तेल फेरेपछि काममा जाँदै गर्दा भएको दुर्घटनालाई काममा आउने-जाने मार्गबाट विचलित भएको मानी उपचार खर्च अस्वीकृत गरिएको थियो। तर, घरबाट निस्केर इन्जिन तेल फेरेपछि काममा जाँदै गर्दा भएको दुर्घटनालाई दैनिक जीवनका लागि आवश्यक कार्यपछि काममा जाने क्रममा भएको दुर्घटना मान्नु उचित भएको ठहर गरी मूल निर्णयलाई \"रद्द\" गर्ने निर्णय गरिएको हो।",
+    "TH": "เป็นกรณีที่อุบัติเหตุเกิดขึ้นขณะเดินทางไปทำงานหลังจากเปลี่ยนถ่ายน้ำมันเครื่องรถจักรยานยนต์ ซึ่งเดิมทีถูกตัดสินว่าเป็นการเบี่ยงเบนจากเส้นทางเดินทางไปทำงาน และปฏิเสธการรักษาพยาบาล อย่างไรก็ตาม ศาลได้พิจารณาแล้วเห็นว่าอุบัติเหตุที่เกิดขึ้นหลังจากออกจากบ้านและเปลี่ยนถ่ายน้ำมันเครื่องก่อนเดินทางไปทำงานนั้นเป็นการกระทำที่จำเป็นในชีวิตประจำวัน และมีคำสั่ง \"ยกเลิก\" คำสั่งเดิม"
+  },
+  "seventeen_facts0": {
+    "KO": "원처분기관은 “출근 중 오토바이 엔진오일 교환 후 이동 중 사고는 출퇴근 재해에 해당하지 않는다”며 불승인 처분.",
+    "EN": "The original decision-making agency denied benefits, stating, “An accident occurring while traveling after changing motorcycle engine oil during the commute does not constitute a commuting accident.”",
+    "VN": "Cơ quan xử lý ban đầu đã từ chối chi trả với lý do \"tai nạn xảy ra trong khi đi làm sau khi thay dầu động cơ xe máy không thuộc trường hợp tai nạn trên đường đi làm\".",
+    "ID": " Instansi yang mengeluarkan keputusan awal menolak dengan alasan “kecelakaan yang terjadi saat berpindah tempat setelah mengganti oli mesin motor dalam perjalanan ke tempat kerja tidak termasuk dalam kecelakaan kerja”.",
+    "RU": "Первоначальный орган, принимавший решение, отклонил заявление, заявив: «Несчастный случай, произошедший во время поездки после замены моторного масла мотоцикла по дороге на работу, не является несчастным случаем по дороге на работу».",
+    "MM": "မူလဆုံးဖြတ်ချက်ချသည့်အဖွဲ့အစည်းက \"အလုပ်သွားနေစဉ် ဆိုင်ကယ်အင်ဂျင်ဝိုင်လဲပြီးနောက် သွားလာနေစဉ် ဖြစ်ပွားသည့် မတော်တဆမှုသည် အလုပ်သွားအလုပ်ပြန် မတော်တဆမှု မဟုတ်\" ဟု သတ်မှတ်ကာ ခွင့်မပြုရန် ဆုံးဖြတ်ခဲ့သည်။",
+    "NP": "ल निर्णय गर्ने निकायले \"काममा जाने क्रममा मोटरसाइकलको इन्जिन तेल फेरेर हिँड्दै गर्दा भएको दुर्घटना काममा आउने-जाने क्रममा भएको दुर्घटनामा पर्दैन\" भनी अस्वीकृत गरेको थियो।",
+    "TH": "หน่วยงานที่ตัดสินใจในตอนแรกปฏิเสธการอนุมัติ โดยให้เหตุผลว่า \"อุบัติเหตุที่เกิดขึ้นระหว่างเดินทางไปทำงานหลังจากเปลี่ยนถ่ายน้ำมันเครื่องรถจักรยานยนต์ไม่ถือเป็นอุบัติเหตุระหว่างเดินทางไปทำงาน\""
+  },
+  "seventeen_facts1": {
+    "KO": " 청구인은 출근 경로 및 업무 수행상 필수적인 과정으로서 엔진오일 교환은 일상생활에 필요한 행위에 해당하며, 업무에도 직접적 영향을 주는 안전 관련 조치라고 주장.",
+    "EN": "  The claimant argued that the engine oil change was an essential part of the commute route and work performance, constituting an activity necessary for daily life, and was a safety-related measure directly affecting work.",
+    "VN": "  Người yêu cầu bồi thường cho rằng việc thay dầu động cơ là hành động cần thiết trong cuộc sống hàng ngày và là quá trình cần thiết trong quá trình đi làm và thực hiện công việc, đồng thời là biện pháp an toàn có ảnh hưởng trực tiếp đến công việc.",
+    "ID": "  Pemohon berargumen bahwa penggantian oli mesin motor merupakan bagian dari rute perjalanan kerja dan proses yang diperlukan dalam pelaksanaan tugas, sehingga termasuk dalam kegiatan yang diperlukan dalam kehidupan sehari-hari dan merupakan tindakan keamanan yang berdampak langsung pada pekerjaan.",
+    "RU": "  Заявитель утверждал, что замена моторного масла была неотъемлемой частью маршрута поездки на работу и выполнения рабочих обязанностей, составляя деятельность, необходимую для повседневной жизни, и являлась мерой безопасности, непосредственно влияющей на работу.",
+    "MM": " လျှောက်ထားသူက အလုပ်သွားသည့် လမ်းကြောင်းနှင့် လုပ်ငန်းတာဝန် ထမ်းဆောင်ရန်အတွက် မရှိမဖြစ်လိုအပ်သော လုပ်ငန်းစဉ်တစ်ခုဖြစ်သည့် အင်ဂျင်ဝိုင်လဲလှယ်ခြင်းသည် နေ့စဉ်ဘဝအတွက် လိုအပ်သော လုပ်ရပ်ဖြစ်ကြောင်းနှင့် လုပ်ငန်းအပေါ်လည်း တိုက်ရိုက်သက်ရောက်မှုရှိသော ဘေးကင်းရေးဆိုင်ရာ ဆောင်ရွက်ချက်ဖြစ်ကြောင်း တင်ပြခဲ့သည်။",
+    "NP": "  पीडितले काममा जाने मार्ग र कामको लागि इन्जिन तेल फेर्नु अनिवार्य प्रक्रिया भएकोले यो दैनिक जीवनका लागि आवश्यक कार्य भएको र काममा समेत प्रत्यक्ष असर पार्ने सुरक्षा सम्बन्धी कदम भएको दाबी गरेका थिए।",
+    "TH": "  ผู้ร้องเรียนแย้งว่าการเปลี่ยนถ่ายน้ำมันเครื่องเป็นกระบวนการที่จำเป็นสำหรับการเดินทางไปทำงานและการปฏิบัติหน้าที่ และเป็นมาตรการด้านความปลอดภัยที่มีผลโดยตรงต่อการทำงาน ซึ่งถือเป็นการกระทำที่จำเป็นในชีวิตประจำวัน"
+  },
+  "seventeen_facts2": {
+    "KO": "  오토바이 엔진오일 교환을 정기적으로 하지 않으면 안전사고 위험이 커져 업무수행에도 직접적 영향이 있음.",
+    "EN": "  Failure to regularly change motorcycle engine oil increases the risk of safety accidents, directly affecting work performance.",
+    "VN": "  Nếu không thay dầu động cơ xe máy định kỳ, nguy cơ tai nạn an toàn sẽ tăng cao, ảnh hưởng trực tiếp đến việc thực hiện công việc.",
+    "ID": "  Jika penggantian oli mesin motor tidak dilakukan secara teratur, risiko kecelakaan keselamatan meningkat dan berdampak langsung pada pelaksanaan pekerjaan.",
+    "RU": "  Невыполнение регулярной замены моторного масла мотоцикла увеличивает риск несчастных случаев, непосредственно влияющих на производительность труда.",
+    "MM": " ဆိုင်ကယ်အင်ဂျင်ဝိုင်ကို ပုံမှန်မလဲလှယ်ပါက ဘေးကင်းရေးအန္တရာယ် ပိုများလာပြီး လုပ်ငန်းတာဝန် ထမ်းဆောင်မှုအပေါ် တိုက်ရိုက်သက်ရောက်မှုရှိသည်။",
+    "NP": "  मोटरसाइकलको इन्जिन तेल नियमित रूपमा नफेर्दा सुरक्षा जोखिम बढ्ने र यसले काममा समेत प्रत्यक्ष असर पार्ने गर्दछ।",
+    "TH": "  การไม่เปลี่ยนถ่ายน้ำมันเครื่องรถจักรยานยนต์เป็นประจำจะเพิ่มความเสี่ยงต่ออุบัติเหตุและส่งผลกระทบโดยตรงต่อการปฏิบัติงาน"
+  },
+  "seventeen_facts3": {
+    "KO": " 방문한 정비소는 통상 출근 경로와 인접, 소요 시간도 약 10분으로 출근 연속성이 유지됨.",
+    "EN": "  The visited repair shop was adjacent to the usual commute route, and the time taken was approximately 10 minutes, maintaining the continuity of the commute.",
+    "VN": "  Xưởng sửa chữa mà người khiếu nại đến nằm gần đường đi làm, thời gian di chuyển khoảng 10 phút, không ảnh hưởng đến việc đi làm.",
+    "ID": "  Bengkel yang dikunjungi terletak di dekat rute perjalanan kerja, dan waktu tempuh sekitar 10 menit sehingga kontinuitas perjalanan kerja tetap terjaga.",
+    "RU": "  Посещенная ремонтная мастерская находилась рядом с обычным маршрутом поездки на работу, время в пути составляло примерно 10 минут, что обеспечивало непрерывность поездки на работу.",
+    "MM": " သွားရောက်ခဲ့သည့် ပြုပြင်ရေးဆိုင်သည် ပုံမှန်အလုပ်သွားသည့် လမ်းကြောင်းနှင့် နီးကပ်ပြီး ကြာမြင့်ချိန်မှာလည်း ၁၀ မိနစ်ခန့်သာ ရှိသဖြင့် အလုပ်သွားခြင်း၏ ဆက်စပ်မှု ရှိနေသေးသည်။",
+    "NP": "  भ्रमण गरिएको मर्मत पसल सामान्य काममा आउने-जाने मार्गसँगै जोडिएको थियो र समय पनि करिब १० मिनेट मात्र लागेकोले काममा जाने निरन्तरता कायम रहेको थियो।",
+    "TH": "  ร้านซ่อมที่ไปใช้บริการอยู่ใกล้เคียงกับเส้นทางเดินทางไปทำงานปกติ และใช้เวลาเพียงประมาณ 10 นาที ซึ่งยังคงความต่อเนื่องในการเดินทาง"
+  },
+  "seventeen_facts4": {
+    "KO": " 이에 따라 산재보험법 제35조 및 관련 규정에 따라 출퇴근 중 발생한 사고로 인정됨.",
+    "EN": "  Accordingly, the accident was recognized as occurring during commuting under Article 35 of the Industrial Accident Compensation Insurance Act and related regulations.",
+    "VN": "  Do đó, theo Điều 35 của Luật Bảo hiểm tai nạn lao động và các quy định liên quan, tai nạn này được công nhận là tai nạn trên đường đi làm",
+    "ID": "  Oleh karena itu, berdasarkan Pasal 35 Undang-Undang Asuransi Kecelakaan Kerja dan peraturan terkait, kecelakaan tersebut diakui sebagai kecelakaan saat perjalanan kerja.",
+    "RU": "  Соответственно, несчастный случай был признан произошедшим во время поездки на работу в соответствии со статьей 35 Закона о страховании от несчастных случаев на производстве и связанными с ним положениями.",
+    "MM": " ထို့ကြောင့် စက်မှုလုပ်ငန်း မတော်တဆမှု အာမခံဥပဒေ ပုဒ်မ ၃၅ နှင့် သက်ဆိုင်ရာ စည်းမျဉ်းများအရ အလုပ်သွားအလုပ်ပြန်နေစဉ် ဖြစ်ပွားသည့် မတော်တဆမှုအဖြစ် အသိအမှတ်ပြုခဲ့သည်။",
+    "NP": "  यसैले, औद्योगिक दुर्घटना बीमा कानुनको दफा ३५ र सम्बन्धित नियमहरू अनुसार, यो काममा आउने-जाने क्रममा भएको दुर्घटनाको रूपमा मान्यता दिइएको छ।",
+    "TH": "  ดังนั้น จึงได้รับการยอมรับว่าเป็นอุบัติเหตุที่เกิดขึ้นระหว่างเดินทางไปทำงานตามมาตรา 35 และข้อกำหนดที่เกี่ยวข้องของกฎหมายประกันภัยอุบัติเหตุจากการทำงาน"
+  },
+  "seventeen_important0": {
+    "KO": "출퇴근 경로 일탈 여부: 정비소 방문이 통상적인 출퇴근 경로에서 벗어난 것인지, 아니면 부수적·필수적 행위로 인정될 수 있는지 여부.",
+    "EN": "Deviation from the Commuting Route: Whether the visit to the repair shop deviated from the usual commuting route or could be recognized as an incidental and necessary act.",
+    "VN": "Việc đi lệch khỏi đường đi làm: Việc đến xưởng sửa chữa có phải là việc đi lệch khỏi đường đi làm thông thường hay có thể được công nhận là hành động phụ trợ và cần thiết.",
+    "ID": "Apakah menyimpang dari rute perjalanan kerja: Apakah kunjungan ke bengkel menyimpang dari rute perjalanan kerja biasa, atau dapat diakui sebagai tindakan tambahan/esensial.",
+    "RU": "Отклонение от обычного маршрута поездки на работу: представляло ли посещение ремонтной мастерской отклонение от обычного маршрута поездки на работу или могло ли оно быть признано случайным и необходимым действием.",
+    "MM": "အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်း သွေဖည်မှုရှိမရှိ: ပြုပြင်ရေးဆိုင်သို့ သွားရောက်ခြင်းသည် ပုံမှန်အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်းမှ သွေဖည်သွားခြင်း ဟုတ်မဟုတ်၊ သို့မဟုတ် ၎င်းသည် အရန် သို့မဟုတ် မရှိမဖြစ်လိုအပ်သော လုပ်ရပ်အဖြစ် အသိအမှတ်ပြုနိုင်ခြင်းရှိမရှိ။",
+    "NP": "काममा आउने-जाने मार्गबाट विचलित भएको हो कि होइन: मर्मत पसलमा जानु सामान्य काममा आउने-जाने मार्गबाट विचलित भएको हो कि सहायक वा आवश्यक कार्यको रूपमा मान्यता दिन सकिन्छ कि सकिँदैन।",
+    "TH": "การเบี่ยงเบนจากเส้นทางไปทำงาน: การแวะร้านซ่อมถือเป็นการเบี่ยงเบนจากเส้นทางปกติในการเดินทางไปทำงานหรือไม่ หรือสามารถยอมรับเป็นการกระทำเสริมที่จำเป็นได้หรือไม่"
+  },
+  "seventeen_important1": {
+    "KO": "  업무 연속성 및 안전성: 엔진오일 교환이 단순 개인적 행위가 아니라, 업무수행을 위한 안전 확보와 직결되는 필수 행위로 볼 수 있는지가 핵심 쟁점.",
+    "EN": "  Work Continuity and Safety: The core issue is whether the engine oil change was a simple personal act or an essential act directly linked to ensuring safety for work performance.",
+    "VN": "  Tính liên tục và an toàn trong công việc: Vấn đề cốt lõi là việc thay dầu động cơ không phải là hành động cá nhân đơn thuần mà có thể được coi là hành động cần thiết để đảm bảo an toàn trong công việc.",
+    "ID": "  Kelancaran dan keamanan pekerjaan: Apakah penggantian oli mesin bukan sekadar tindakan pribadi, tetapi dapat dianggap sebagai tindakan esensial yang langsung berkaitan dengan keamanan dalam pelaksanaan pekerjaan.",
+    "RU": "  Непрерывность и безопасность работы: основной вопрос заключается в том, было ли замена моторного масла простым личным действием или необходимым действием, непосредственно связанным с обеспечением безопасности для выполнения работы.",
+    "MM": "  လုပ်ငန်းနှင့် ဆက်စပ်မှုနှင့် ဘေးကင်းမှု: အင်ဂျင်ဝိုင်လဲလှယ်ခြင်းသည် ရိုးရှင်းသော ကိုယ်ရေးကိုယ်တာ လုပ်ရပ်မဟုတ်ဘဲ လုပ်ငန်းတာဝန် ထမ်းဆောင်ရန်အတွက် ဘေးကင်းမှုရရှိရေးနှင့် တိုက်ရိုက်သက်ဆိုင်သော မရှိမဖြစ်လိုအပ်သည့် လုပ်ရပ်အဖြစ် ရှုမြင်နိုင်ခြင်း ရှိမရှိ။",
+    "NP": "  कामको निरन्तरता र सुरक्षा: इन्जिन तेल फेर्नु केवल व्यक्तिगत कार्य मात्र नभई, कामको लागि सुरक्षा सुनिश्चित गर्न प्रत्यक्ष रूपमा सम्बन्धित एक आवश्यक कार्य हो कि होइन भन्ने कुरा मुख्य विवादको विषय थियो।",
+    "TH": "  ความต่อเนื่องของการทำงานและความปลอดภัย: การเปลี่ยนถ่ายน้ำมันเครื่องเป็นเพียงการกระทำส่วนตัวหรือไม่ หรือเป็นสิ่งที่จำเป็นโดยตรงต่อการรับรองความปลอดภัยในการปฏิบัติงาน ซึ่งเป็นประเด็นหลักในการพิจารณา"
+  },
+  "seventeen_decision": {
+    "KO": "본 사건은 출근 과정에서 발생한 오토바이 엔진오일 교환 직후 사고로, 통상적인 출퇴근 경로 및 업무 수행의 연속성상 업무상 재해로 인정됨. 따라서 원처분은 취소됨.",
+    "EN": "This case involved an accident occurring immediately after changing the motorcycle engine oil during the commute. It was recognized as a work-related injury based on the ordinary commuting route and the continuity of work performance. Therefore, the original disposition was revoked.",
+    "VN": "Vụ việc này là tai nạn xảy ra ngay sau khi thay dầu động cơ xe máy trong quá trình đi làm, được công nhận là tai nạn lao động dựa trên lộ trình đi làm thông thường và tính liên tục của công việc. Do đó, quyết định ban đầu bị hủy bỏ.",
+    "ID": "Kasus ini merupakan kecelakaan yang terjadi segera setelah penggantian oli mesin sepeda motor selama perjalanan kerja, sehingga diakui sebagai kecelakaan kerja berdasarkan rute perjalanan kerja biasa dan kontinuitas pelaksanaan pekerjaan. Oleh karena itu, putusan awal dibatalkan.",
+    "RU": "Данное дело касалось несчастного случая, произошедшего сразу после замены моторного масла в мотоцикле во время поездки на работу. Он был признан производственной травмой на основании обычного маршрута поездки на работу и непрерывности выполнения работы. Поэтому первоначальное решение было отменено.",
+    "MM": "ဤဖြစ်စဉ်သည် အလုပ်သွားသည့် လုပ်ငန်းစဉ်အတွင်း ဆိုင်ကယ်အင်ဂျင်ဝိုင်လဲလှယ်ပြီး ချက်ချင်းဖြစ်ပွားသည့် မတော်တဆမှုဖြစ်၍ ပုံမှန်အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်းနှင့် လုပ်ငန်းတာဝန်၏ ဆက်စပ်မှုအရ လုပ်ငန်းခွင် မတော်တဆမှုအဖြစ် အသိအမှတ်ပြုခဲ့သည်။ ထို့ကြောင့် မူလဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ခဲ့သည်။",
+    "NP": "यो घटना काममा जाने क्रममा मोटरसाइकलको इन्जिन तेल फेरेको लगत्तै भएको दुर्घटना हो। तसर्थ, सामान्य काममा आउने-जाने मार्ग र कामको निरन्तरताको आधारमा यसलाई औद्योगिक दुर्घटनाको रूपमा मान्यता दिइएको छ। यसैले, मूल निर्णय रद्द गरिएको छ।",
+    "TH": "เหตุการณ์นี้เป็นอุบัติเหตุที่เกิดขึ้นทันทีหลังจากการเปลี่ยนถ่ายน้ำมันเครื่องรถจักรยานยนต์ในระหว่างเดินทางไปทำงาน ซึ่งถือเป็นอุบัติเหตุจากการทำงานเนื่องจากมีความต่อเนื่องของเส้นทางเดินทางปกติและการปฏิบัติงาน ดังนั้นจึงมีการยกเลิกคำสั่งเดิม"
+  },
+  "seventeen_laws0": {
+    "KO": "산재보험법 제5조(정의)",
+    "EN": "Workers' Compensation Insurance Act, Article 5 (Definitions)",
+    "VN": "Điều 5 (Định nghĩa) của \"Luật bảo hiểm tai nạn lao động\"",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 5 (Definisi)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 5 (Определения)",
+    "MM": "「စက်မှုလုပ်ငန်း မတော်တဆမှု အာမခံဥပဒေ」 ပုဒ်မ ၅ (အဓိပ္ပာယ်ဖွင့်ဆိုချက်)",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन」को दफा ५ (परिभाषा)",
+    "TH": "  「พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน」 มาตรา 5 (คำนิยาม)"
+  },
+  "seventeen_laws1": {
+    "KO": "  산재보험법 제37조(업무상 재해의 인정 기준)",
+    "EN": "  Workers' Compensation Insurance Act, Article 37 (Criteria for Recognizing Work-Related Injuries)",
+    "VN": "  Điều 37 (Tiêu chuẩn công nhận tai nạn lao động) của \"Luật bảo hiểm tai nạn lao động\"",
+    "ID": "  「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 37 (Kriteria Pengakuan Kecelakaan Kerja)",
+    "RU": "  Закон о страховании от несчастных случаев на производстве, статья 37 (Критерии признания производственных травм)",
+    "MM": " 「စက်မှုလုပ်ငန်း မတော်တဆမှု အာမခံဥပဒေ」 ပုဒ်မ ၃၇ (လုပ်ငန်းခွင် မတော်တဆမှု သတ်မှတ်ချက်များ)",
+    "NP": "  「औद्योगिक दुर्घटना बीमा कानुन」को दफा ३७ (औद्योगिक दुर्घटनाको मान्यताको मापदण्ड)",
+    "TH": "  「พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน」 มาตรา 37 (หลักเกณฑ์การยอมรับอุบัติเหตุจากการทำงาน)"
+  },
+  "seventeen_laws2": {
+    "KO": "  「산재보험법 시행령」 제35조(출퇴근 중의 사고)",
+    "EN": "  Enforcement Decree of the Industrial Accident Compensation Insurance Act, Article 35 (Accidents During Commuting)",
+    "VN": "  Điều 35 (Tai nạn trong quá trình đi làm) của \"Nghị định thi hành Luật bảo hiểm tai nạn lao động\"",
+    "ID": "  Peraturan Pelaksanaan Undang-Undang Asuransi Kecelakaan Kerja Pasal 35 (Kecelakaan Selama Perjalanan Kerja)",
+    "RU": "  Статья 35 (Несчастные случаи во время поездки на работу) Постановления о применении Закона о страховании от несчастных случаев на производстве",
+    "MM": " 「စက်မှုလုပ်ငန်း မတော်တဆမှု အာမခံဥပဒေ စည်းမျဉ်း」 ပုဒ်မ ၃၅ (အလုပ်သွားအလုပ်ပြန်စဉ် ဖြစ်ပွားသည့် မတော်တဆမှု)",
+    "NP": "  「औद्योगिक दुर्घटना बीमा कानुनको कार्यान्वयन अध्यादेश」को दफा ३५ (काममा आउने-जाने क्रममा भएको दुर्घटना)",
+    "TH": "  「พระราชบัญญัติบังคับใช้กฎหมายประกันภัยอุบัติเหตุจากการทำงาน」 มาตรา 35 (อุบัติเหตุระหว่างเดินทางไปทำงาน)"
+  },
+  "seventeen_laws3": {
+    "KO": "  산재보험법 제105조(심사 청구에 대한 심리·결정)",
+    "EN": "  Industrial Accident Compensation Insurance Act, Article 105 (Hearing and Decision on Requests for Review)",
+    "VN": "  Điều 105 (Xét xử và quyết định yêu cầu thẩm tra) của \"Luật bảo hiểm tai nạn lao động\"",
+    "ID": "  Undang-Undang Asuransi Kecelakaan Kerja Pasal 105 (Pemeriksaan dan Keputusan atas Permohonan Banding)",
+    "RU": "  Статья 105 (Рассмотрение и принятие решения по запросам о пересмотре) Закона о страховании от несчастных случаев на производстве",
+    "MM": " 「စက်မှုလုပ်ငန်း မတော်တဆမှု အာမခံဥပဒေ」 ပုဒ်မ ၁၀၅ (ပြန်လည်စစ်ဆေးရန် တောင်းဆိုမှုအပေါ် စစ်ဆေးဆုံးဖြတ်ခြင်း)",
+    "NP": "  「औद्योगिक दुर्घटना बीमा कानुन」को दफा १०५ (छानबिनको लागि अनुरोधको छानबिन र निर्णय)",
+    "TH": "  「พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน」 มาตรา 105 (การพิจารณาและตัดสินคำร้องขอทบทวน)"
+  },
+  "eighteen_title": {
+    "KO": "동생 집에서 출발 후 출근길 교통사고 – 원처분 취소",
+    "EN": "Traffic Accident on Way to Work After Leaving Sibling's Home – Original Disposition Revoked",
+    "VN": "Tai nạn giao thông trên đường đi làm sau khi rời nhà em trai – Hủy bỏ quyết định xử phạt ban đầu",
+    "ID": "Kecelakaan lalu lintas saat berangkat kerja setelah berangkat dari rumah adik – Pembatalan keputusan awal",
+    "RU": "Дорожно-транспортное происшествие по дороге на работу после отъезда из дома родственника – первоначальное решение отменено",
+    "MM": "ညီဖြစ်သူ၏ နေအိမ်မှ ထွက်လာပြီးနောက် အလုပ်သွားရာလမ်းတွင် ယာဉ်တိုက်မှု - မူလဆုံးဖြတ်ချက် ပယ်ဖျက်",
+    "NP": "भाइको घरबाट निस्केपछि काममा जाने बाटोमा भएको दुर्घटना – मूल निर्णय रद्द\r\nघटनाको विवरण",
+    "TH": "อุบัติเหตุบนท้องถนนระหว่างเดินทางไปทำงานหลังจากออกจากบ้านน้องชาย – การยกเลิกคำสั่งเดิม"
+  },
+  "eighteen_summary0": {
+    "KO": "승인 여부: 승인",
+    "EN": "Approval Status: Approved",
+    "VN": "Tình trạng phê duyệt: Được phê duyệt",
+    "ID": "Persetujuan: Disetujui",
+    "RU": "Статус утверждения: Утверждено",
+    "MM": "ခွင့်ပြုခြင်းရှိမရှိ: ခွင့်ပြု",
+    "NP": "स्वीकृति स्थिति: स्वीकृत",
+    "TH": "สถานะการอนุมัติ: อนุมัติ"
+  },
+  "eighteen_summary1": {
+    "KO": "발생 일시: 2023. 5. 29. 06:35경",
+    "EN": "Date/Time of Occurrence: May 29, 2023, around 06:35",
+    "VN": " Thời gian xảy ra: Khoảng 06:35 ngày 29/5/2023",
+    "ID": " Waktu kejadian: 29 Mei 2023, sekitar pukul 06:35",
+    "RU": " Дата и время происшествия: 29 мая 2023 г., примерно в 06:35",
+    "MM": " ဖြစ်ပွားသည့်နေ့: ၂၀၂၃ ခုနှစ်၊ မေလ ၂၉ ရက်၊ နံနက် ၆ နာရီ ၃၅ မိနစ်ခန့်",
+    "NP": " घट्ना भएको मिति र समय: २०२३. ५. २९. बिहान ६:३५ बजे",
+    "TH": " วันและเวลาเกิดเหตุ: วันที่ 29 พฤษภาคม 2566 เวลาประมาณ 06:35 น."
+  },
+  "eighteen_summary2": {
+    "KO": "발생 장소: ○○시 ○○구 소재 전설공사현장 출근 중",
+    "EN": "Location: En route to work at a construction site in ○○ District, ○○ City",
+    "VN": " Địa điểm xảy ra: Trên đường đi làm tại công trường xây dựng ở quận ○○, thành phố ○○",
+    "ID": " Lokasi Kejadian: Di lokasi proyek konstruksi di ○○-gu, ○○-si saat dalam perjalanan ke tempat kerja",
+    "RU": " Место: по дороге на работу на строительную площадку в районе ○○, город ○○",
+    "MM": " ဖြစ်ပွားသည့်နေရာ: ○○မြို့ ○○ရပ်ကွက်ရှိ လျှပ်စစ်ဓာတ်အားလိုင်း ဆောက်လုပ်ရေးလုပ်ငန်းခွင်သို့ အလုပ်သွားနေစဉ်",
+    "NP": " घट्ना भएको स्थान: ○○शहर ○○गु मा रहेको विद्युत् प्रसारण लाइन निर्माणस्थलमा काममा जाँदै गर्दा",
+    "TH": " สถานที่เกิดเหตุ: ระหว่างเดินทางไปทำงานที่สถานที่ก่อสร้างสายส่งในเขต ○○ เมือง ○○"
+  },
+  "eighteen_summary3": {
+    "KO": "근로자 정보: 건설현장 근로자 (보조자 역할)",
+    "EN": "Worker Information: Construction site worker (assistant role)",
+    "VN": " Thông tin người lao động: Công nhân xây dựng (vai trò phụ tá)",
+    "ID": " Informasi Pekerja: Pekerja konstruksi (peran pembantu)",
+    "RU": " Информация о работнике: работник строительной площадки (вспомогательная роль)",
+    "MM": " လုပ်သားအချက်အလက်: ဆောက်လုပ်ရေးလုပ်ငန်းခွင် လုပ်သား (အကူအညီပေးသူ)",
+    "NP": " श्रमिकको जानकारी: निर्माणस्थलमा कार्यरत श्रमिक (सहायक)",
+    "TH": " ข้อมูลพนักงาน: พนักงานก่อสร้าง (ผู้ช่วย)"
+  },
+  "eighteen_summary4": {
+    "KO": "상병명: 제1요추의 발측성 골절",
+    "EN": "Injury Diagnosis: Lateral fracture of the first lumbar vertebra",
+    "VN": " Chẩn đoán: Gãy xương đốt sống thắt lưng thứ nhất",
+    "ID": " Diagnosis Cedera: Fraktur lateral vertebra lumbal pertama",
+    "RU": " Диагноз травмы: боковой перелом первого поясничного позвонка",
+    "MM": " ဒဏ်ရာအမျိုးအစား: ခါးရိုးပထမ အရိုးဆစ် ကျိုးခြင်း",
+    "NP": " चोटको विवरण: पहिलो कम्मरको हड्डीको पार्श्व भागमा भाँचिएको",
+    "TH": " อาการบาดเจ็บ: กระดูกสันหลังส่วนเอวข้อที่ 1 หัก"
+  },
+  "eighteen_situation": {
+    "KO": "개인적 사유로 동생 집에서 잔 뒤 출근하던 중 발생한 교통사고를 통상의 출퇴근 재해로 인정하기 어렵다며 요양 불승인한 사건에 대하여, 통화내역 및 거주 형태 조사 결과, 청구인의 실 주거지가 ○○아파트로 확인되고 동생 집은 일시적 방문지였음이 입증됨. 따라서 출발지를 주거지로 인정하여 원처분 “취소” 결정한 사례.",
+    "EN": "Regarding a case where medical benefits were denied, claiming it was difficult to recognize a traffic accident occurring while commuting after staying overnight at a sibling's home for personal reasons as a typical commuting accident, investigation of call records and living arrangements confirmed the claimant's actual residence was ○○ Apartment, and the sibling's home was a temporary visit location. Therefore, the departure point was recognized as the residence, leading to a decision to “cancel” the original disposition.",
+    "VN": "Vụ việc từ chối chi trả chi phí điều trị với lý do khó công nhận tai nạn giao thông xảy ra khi đang đi làm sau khi ngủ lại nhà em trai vì lý do cá nhân là tai nạn đi làm thông thường. Tuy nhiên, kết quả điều tra nội dung cuộc gọi và hình thức cư trú cho thấy nơi cư trú thực tế của người yêu cầu là căn hộ ○○, còn nhà em trai chỉ là nơi tạm trú. Do đó, nơi xuất phát được công nhận là nơi cư trú và quyết định ban đầu bị “hủy bỏ”.",
+    "ID": "Dalam kasus penolakan perawatan karena kecelakaan lalu lintas yang terjadi saat pekerja pulang kerja dari rumah adiknya karena alasan pribadi sulit diakui sebagai kecelakaan kerja biasa, hasil penyelidikan riwayat panggilan telepon dan pola tinggal menunjukkan bahwa tempat tinggal sebenarnya pemohon adalah Apartemen ○○, sedangkan rumah adiknya hanyalah tempat kunjungan sementara. Oleh karena itu, tempat keberangkatan diakui sebagai tempat tinggal, sehingga keputusan awal “dibatalkan”.",
+    "RU": "В отношении случая, когда в медицинской помощи было отказано на том основании, что дорожно-транспортное происшествие, произошедшее по дороге с места проживания брата/сестры после ночлега по личным причинам, не может быть признано типичным несчастным случаем по дороге на работу, расследование записей телефонных звонков и условий проживания подтвердило, что фактическим местом проживания заявителя была квартира ○○, что доказывает, что место проживания брата/сестры было временным местом пребывания. В результате место отправления было признано местом проживания, что привело к решению «отменить» первоначальное распоряжение.",
+    "MM": "ကိုယ်ရေးကိုယ်တာ ကိစ္စဖြင့် ညီဖြစ်သူ၏ နေအိမ်တွင် အိပ်ပြီးနောက် အလုပ်သွားနေစဉ် ဖြစ်ပွားသည့် ယာဉ်တိုက်မှုကို ပုံမှန် အလုပ်သွားအလုပ်ပြန် မတော်တဆမှုအဖြစ် အသိအမှတ်ပြုရန် ခက်ခဲသည်ဟု သတ်မှတ်ကာ ဆေးကုသခွင့် မပေးရန် ဆုံးဖြတ်ခဲ့သည့် ဖြစ်စဉ်နှင့် ပတ်သက်၍ တယ်လီဖုန်းခေါ်ဆိုမှုမှတ်တမ်းများနှင့် နေထိုင်မှုပုံစံ စစ်ဆေးမှုရလဒ်များအရ လျှောက်ထားသူ၏ အမှန်တကယ် နေအိမ်သည် ○○တိုက်ခန်းဖြစ်ပြီး ညီဖြစ်သူ၏ နေအိမ်မှာ ယာယီသွားရောက်လည်ပတ်သည့် နေရာသာ ဖြစ်ကြောင်း သက်သေပြနိုင်ခဲ့သည်။ ထို့ကြောင့် စတင်ထွက်ခွာသည့် နေရာကို အမှန်တကယ်နေအိမ်အဖြစ် အသိအမှတ်ပြုပြီး မူလဆုံးဖြတ်ချက်ကို \"ပယ်ဖျက်\" ခဲ့သည့် ဖြစ်ရပ်ဖြစ်သည်။",
+    "NP": "यो घटनामा, व्यक्तिगत कारणले भाइको घरमा सुतेर काममा जाँदै गर्दा भएको सवारी दुर्घटनालाई सामान्य काममा आउने-जाने दुर्घटनाको रूपमा मान्न गाह्रो भएकोले उपचार खर्च अस्वीकृत गरिएको थियो। तर, कल रेकर्ड र बसोबासको ढाँचा अनुसन्धानको नतिजा अनुसार, पीडितको वास्तविक बसोबासको स्थान ○○अपार्टमेन्ट रहेको र भाइको घर अस्थायी बसोबासको स्थान मात्र भएको प्रमाणित भएको छ। त्यसैले, प्रस्थान बिन्दुलाई वास्तविक बसोबासको स्थानको रूपमा मान्यता दिई मूल निर्णयलाई \"रद्द\" गर्ने निर्णय गरिएको हो।",
+    "TH": "เป็นกรณีที่อุบัติเหตุทางรถยนต์ที่เกิดขึ้นขณะเดินทางไปทำงานหลังจากพักค้างคืนที่บ้านน้องชายด้วยเหตุผลส่วนตัว ซึ่งเดิมทีถูกตัดสินว่าเป็นการเดินทางไปทำงานที่ผิดปกติและปฏิเสธการรักษาพยาบาล อย่างไรก็ตาม ผลการสอบสวนจากประวัติการโทรศัพท์และรูปแบบการอยู่อาศัยยืนยันว่าที่พักอาศัยจริงของผู้ร้องเรียนคืออพาร์ตเมนต์ ○○ และบ้านน้องชายเป็นเพียงสถานที่ที่แวะไปชั่วคราวเท่านั้น ดังนั้นจึงตัดสินใจยอมรับสถานที่เริ่มต้นเป็นที่พักอาศัยและมีคำสั่ง \"ยกเลิก\" คำสั่งเดิม"
+  },
+  "eighteen_facts0": {
+    "KO": "청구인의 실 주거지는 ○○아파트였으며, 동생 집은 일시적 방문지임.",
+    "EN": "The claimant's actual residence was ○○ Apartment, and his brother's house was a temporary visitation location.",
+    "VN": "Nơi cư trú thực tế của người yêu cầu là căn hộ ○○, còn nhà em trai là nơi tạm trú.",
+    "ID": "Tempat tinggal sebenarnya pemohon adalah Apartemen ○○, sedangkan rumah adiknya adalah tempat kunjungan sementara.",
+    "RU": " Фактическим местом проживания заявителя была квартира ○○, а дом брата/сестры был временным местом пребывания.",
+    "MM": "လျှောက်ထားသူ၏ အမှန်တကယ် နေအိမ်သည် ○○တိုက်ခန်းဖြစ်ပြီး ညီဖြစ်သူ၏ နေအိမ်မှာ ယာယီသွားရောက်လည်ပတ်သည့် နေရာသာဖြစ်သည်။",
+    "NP": "पीडितको वास्तविक बसोबासको स्थान ○○अपार्टमेन्ट रहेको र भाइको घर अस्थायी भ्रमणको स्थान मात्र थियो।",
+    "TH": "ที่พักอาศัยจริงของผู้ร้องเรียนคืออพาร์ตเมนต์ ○○ และบ้านน้องชายเป็นเพียงสถานที่ที่แวะไปชั่วคราว"
+  },
+  "eighteen_facts1": {
+    "KO": "통신 내역, 전입신고, 주민등록 자료 등에서 생활 근거지가 ○○아파트임이 객관적으로 확인됨.",
+    "EN": "Communication records, residence registration reports, and resident registration data objectively confirmed that the primary living base was ○○ Apartment.",
+    "VN": " Dựa trên các cuộc gọi điện thoại, giấy đăng ký chuyển đến, dữ liệu đăng ký cư trú, v.v., có thể xác nhận một cách khách quan rằng nơi cư trú thực tế là căn hộ ○○.",
+    "ID": " Berdasarkan catatan komunikasi, pendaftaran pindah, dan data kependudukan, secara objektif terkonfirmasi bahwa tempat tinggal sebenarnya adalah Apartemen ○○.",
+    "RU": " Записи телефонных разговоров, отчеты о регистрации места жительства и данные регистрации жителей объективно подтвердили, что квартира ○○ была основным местом проживания.",
+    "MM": " တယ်လီဖုန်းမှတ်တမ်းများ၊ အိမ်ထောင်စုစာရင်း မှတ်ပုံတင်များ၊ နေထိုင်မှုဆိုင်ရာ စာရွက်စာတမ်းများ စသည်တို့မှ ၎င်း၏ နေထိုင်ရာ အမှန်တကယ် အခြေခံနေရာသည် ○○တိုက်ခန်းဖြစ်ကြောင်း ပကတိအားဖြင့် အတည်ပြုနိုင်ခဲ့သည်။",
+    "NP": " सञ्चार रेकर्ड, घर ठेगाना दर्ता, र नागरिकता सम्बन्धी कागजातहरूबाट पीडितको वास्तविक जीवनयापनको आधार ○○अपार्टमेन्टरहेको वस्तुनिष्ठ रूपमा प्रमाणित भएको छ।",
+    "TH": " ข้อมูลการสื่อสาร, การแจ้งย้ายที่อยู่, และข้อมูลทะเบียนราษฎร์ยืนยันอย่างเป็นรูปธรรมว่าสถานที่ตั้งถิ่นฐานของผู้ร้องเรียนคืออพาร์ตเมนต์ ○○"
+  },
+  "eighteen_facts2": {
+    "KO": "원처분기관은 동생 집을 출발지로 보아 통상의 출퇴근 재해 불인정 결정을 내렸으나, 이는 사실과 다른 것으로 판단됨.",
+    "EN": "The original decision-making agency deemed the brother's house as the departure point and denied recognition as a typical commuting accident, but this was judged to be inconsistent with the facts.",
+    "VN": " Cơ quan ban hành quyết định ban đầu đã coi nhà em trai là điểm xuất phát và quyết định không công nhận tai nạn đi làm thông thường, nhưng điều này được đánh giá là không phù hợp với thực tế.",
+    "ID": " Instansi yang mengeluarkan keputusan awal menganggap rumah adiknya sebagai titik keberangkatan dan menolak pengakuan sebagai kecelakaan biasa saat berangkat kerja, namun hal ini dinilai tidak sesuai dengan fakta.",
+    "RU": " Первоначальный орган, принимавший решение, счел дом брата/сестры точкой отправления, что привело к решению не признавать данный случай типичным несчастным случаем по дороге на работу; это было признано несоответствующим фактам.",
+    "MM": " မူလဆုံးဖြတ်ချက်ချသည့်အဖွဲ့အစည်းက ညီဖြစ်သူ၏ နေအိမ်ကို စတင်ထွက်ခွာသည့်နေရာအဖြစ် သတ်မှတ်ကာ ပုံမှန်အလုပ်သွားအလုပ်ပြန် မတော်တဆမှုအဖြစ် အသိအမှတ်မပြုရန် ဆုံးဖြတ်ခဲ့သော်လည်း ယင်းသည် အမှန်တကယ် အခြေအနေနှင့် ကွဲလွဲနေကြောင်း တွေ့ရှိရသည်။",
+    "NP": " मूल निर्णय गर्ने निकायले भाइको घरलाई प्रस्थान बिन्दु मानी सामान्य काममा आउने-जाने दुर्घटना नमान्ने निर्णय गरेको थियो, तर यो तथ्यसँग मेल नखाएको ठहर गरिएको छ।",
+    "TH": " หน่วยงานที่ตัดสินใจในตอนแรกตัดสินว่าบ้านน้องชายเป็นจุดเริ่มต้น และปฏิเสธการยอมรับว่าเป็นอุบัติเหตุระหว่างเดินทางไปทำงานตามปกติ แต่ข้อเท็จจริงดังกล่าวไม่ตรงกับความเป็นจริง"
+  },
+  "eighteen_important0": {
+    "KO": "출발지 인정 범위: 동생 집을 출발지로 보아 일탈행위로 볼 것인지, 실제 주거지(○○아파트)에서 출근하는 것으로 볼 것인지가 핵심.",
+    "EN": "Scope of departure point recognition: The core issue is whether the brother's residence should be considered the departure point, thereby constituting a deviation, or whether the actual residence (○○ Apartment) should be considered the departure point for commuting.",
+    "VN": "Phạm vi công nhận điểm xuất phát: Vấn đề cốt lõi là liệu nhà em trai được coi là điểm xuất phát và được xem là hành vi vi phạm hay được coi là đi làm từ nơi cư trú thực tế (căn hộ ○○).",
+    "ID": "Ruang lingkup pengakuan titik keberangkatan: Apakah rumah adiknya dianggap sebagai titik keberangkatan yang menyimpang, atau apakah dianggap sebagai keberangkatan dari tempat tinggal sebenarnya (Apartemen ○○)?",
+    "RU": "Сфера признанного места отправления: основной вопрос заключается в том, следует ли считать место проживания брата местом отправления, что представляет собой отклонение, или же заявитель должен считаться совершившим поездку с места фактического проживания (квартира ○○).",
+    "MM": "စတင်ထွက်ခွာသည့်နေရာ၏ အတိုင်းအတာ: ညီဖြစ်သူ၏ နေအိမ်ကို စတင်ထွက်ခွာသည့်နေရာအဖြစ် သတ်မှတ်ကာ လမ်းကြောင်းသွေဖည်မှုအဖြစ် ရှုမြင်မည်လား၊ သို့မဟုတ် အမှန်တကယ်နေအိမ် (○○တိုက်ခန်း) မှ အလုပ်သွားခြင်းအဖြစ် ရှုမြင်မည်လားဟူသည်မှာ အဓိကအငြင်းပွားဖွယ်ရာဖြစ်သည်။",
+    "NP": "प्रस्थान बिन्दुको मान्यताको दायरा: भाइको घरलाई प्रस्थान बिन्दु मानी मार्गबाट विचलित भएको कार्यको रूपमा हेर्ने कि वास्तविक बसोबासको स्थान (○○अपार्टमेन्ट) बाट काममा गएको रूपमा हेर्ने भन्ने कुरा मुख्य मुद्दा हो।",
+    "TH": "ขอบเขตการยอมรับจุดเริ่มต้น: จะถือว่าบ้านน้องชายเป็นจุดเริ่มต้นและเป็นการกระทำที่เบี่ยงเบนจากเส้นทางหรือไม่ หรือจะถือว่าเป็นการเดินทางไปทำงานจากที่พักอาศัยจริง (อพาร์ตเมนต์ ○○) ซึ่งเป็นประเด็นหลัก"
+  },
+  "eighteen_important1": {
+    "KO": "실 거주지 확인: 청구인의 실 거주지가 어딘지 객관적으로 입증할 수 있는 자료(통신내역, 전입신고, 주민등록 등) 신빙성.",
+    "EN": "Verification of actual residence: The credibility of evidence (telecommunications records, change of residence registration, resident registration, etc.) that can objectively prove where the claimant's actual residence was.",
+    "VN": " Xác nhận nơi cư trú thực tế: Tính xác thực của các tài liệu có thể chứng minh một cách khách quan nơi cư trú thực tế của người yêu cầu (hồ sơ liên lạc, đăng ký chuyển đến, đăng ký cư trú, v.v.).",
+    "ID": " Pengecekan tempat tinggal sebenarnya: Keabsahan data yang dapat membuktikan secara objektif tempat tinggal sebenarnya pemohon (catatan komunikasi, pendaftaran pindah, catatan kependudukan, dll.).",
+    "RU": " Проверка фактического места проживания: достоверность доказательств (телекоммуникационные записи, регистрация смены адреса, регистрация по месту жительства и т. д.), способных объективно подтвердить фактическое место проживания заявителя.",
+    "MM": " အမှန်တကယ်နေအိမ်ကို အတည်ပြုခြင်း: လျှောက်ထားသူ၏ အမှန်တကယ်နေအိမ်သည် မည်သည့်နေရာဖြစ်သည်ကို ပကတိအားဖြင့် သက်သေပြနိုင်သည့် အချက်အလက်များ (တယ်လီဖုန်းမှတ်တမ်း၊ အိမ်ထောင်စုစာရင်း မှတ်ပုံတင်၊ နေထိုင်မှုဆိုင်ရာ စာရွက်စာတမ်းများ စသည်တို့) ၏ ယုံကြည်စိတ်ချရမှု။",
+    "NP": " वास्तविक बसोबासको स्थानको पुष्टि: पीडितको वास्तविक बसोबासको स्थान कहाँ हो भन्ने कुरालाई वस्तुनिष्ठ रूपमा प्रमाणित गर्न सकिने कागजातहरू (सञ्चार रेकर्ड, घर ठेगाना दर्ता, नागरिकता लगायतका) को विश्वसनीयता।",
+    "TH": " การยืนยันที่พักอาศัยจริง: ความน่าเชื่อถือของหลักฐานที่สามารถยืนยันที่พักอาศัยจริงของผู้ร้องเรียนได้อย่างเป็นรูปธรรม (ประวัติการสื่อสาร, การแจ้งย้ายที่อยู่, ทะเบียนราษฎร์ ฯลฯ)"
+  },
+  "eighteen_decision": {
+    "KO": "청구인의 실 주거지가 ○○아파트임이 객관적으로 확인되었고, 동생 집은 일시적 방문지에 불과함. 따라서 본 사고는 통상의 출퇴근 재해에 해당하여 최초 불승인 처분은 취소됨.",
+    "EN": "The claimant's actual residence at ○○ Apartment was objectively confirmed, and the sibling's residence was merely a temporary visitation location. Therefore, this accident qualifies as a typical commuting injury, and the initial denial decision is revoked.",
+    "VN": "Địa chỉ cư trú thực tế của người yêu cầu bồi thường được xác nhận một cách khách quan là căn hộ ○○, và nhà em trai chỉ là nơi ghé thăm tạm thời. Do đó, tai nạn này thuộc trường hợp tai nạn đi làm bình thường, nên quyết định từ chối ban đầu bị hủy bỏ.",
+    "ID": "Tempat tinggal sebenarnya pemohon telah dikonfirmasi secara objektif sebagai Apartemen ○○, dan rumah adiknya hanyalah tempat kunjungan sementara. Oleh karena itu, kecelakaan ini termasuk dalam kecelakaan kerja biasa saat berangkat dan pulang kerja, sehingga keputusan penolakan awal dibatalkan.",
+    "RU": "Фактическое место жительства заявителя в квартире ○○ было объективно подтверждено, а место жительства брата было лишь временным местом посещения. Таким образом, данный несчастный случай является стандартной производственной травмой, и первоначальное решение об отказе в удовлетворении заявления отменено.",
+    "MM": "လျှောက်ထားသူ၏ အမှန်တကယ် နေအိမ်သည် ○○တိုက်ခန်းဖြစ်ကြောင်း ပကတိအားဖြင့် အတည်ပြုနိုင်ခဲ့ပြီး ညီဖြစ်သူ၏ နေအိမ်သည် ယာယီသွားရောက်လည်ပတ်သည့် နေရာသာ ဖြစ်သည်။ ထို့ကြောင့် ဤမတော်တဆမှုသည် ပုံမှန်အလုပ်သွားအလုပ်ပြန် မတော်တဆမှုတွင် ပါဝင်သဖြင့် မူလ ခွင့်မပြုရန် ဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ခဲ့သည်။",
+    "NP": "पीडितको वास्तविक बसोबासको स्थान ○○अपार्टमेन्ट रहेको वस्तुनिष्ठ रूपमा प्रमाणित भएको छ र भाइको घर केवल एक अस्थायी भ्रमणको स्थान मात्र हो। तसर्थ, यो दुर्घटना सामान्य काममा आउने-जाने दुर्घटनामा पर्ने भएकोले सुरुको अस्वीकृतिको निर्णय रद्द गरिएको छ।",
+    "TH": "เนื่องจากที่พักอาศัยจริงของผู้ร้องเรียนได้รับการยืนยันอย่างเป็นรูปธรรมว่าเป็นอพาร์ตเมนต์ ○○ และบ้านน้องชายเป็นเพียงสถานที่ที่แวะไปชั่วคราวเท่านั้น ดังนั้นอุบัติเหตุนี้จึงถือเป็นอุบัติเหตุระหว่างเดินทางไปทำงานตามปกติ และคำสั่งปฏิเสธในตอนแรกจึงถูกยกเลิก"
+  },
+  "eighteen_laws0": {
+    "KO": "산재보험법 제5조(정의)",
+    "EN": "Workers' Compensation Insurance Act, Article 5 (Definitions)",
+    "VN": "Điều 5 (Định nghĩa) của \"Luật bảo hiểm tai nạn lao động\"",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 5 (Definisi)",
+    "RU": "Закон о страховании от производственных несчастных случаев, статья 5 (Определения)",
+    "MM": "「စက်မှုလုပ်ငန်း မတော်တဆမှု အာမခံဥပဒေ」 ပုဒ်မ ၅ (အဓိပ္ပာယ်ဖွင့်ဆိုချက်)",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन」को दफा ५ (परिभाषा)",
+    "TH": "「พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน」 มาตรา 5 (คำนิยาม)"
+  },
+  "eighteen_laws1": {
+    "KO": "산재보험법 제37조(업무상 재해의 인정 기준)",
+    "EN": "  Workers' Compensation Insurance Act, Article 37 (Criteria for Recognizing Work-Related Injuries)",
+    "VN": " Điều 37 (Tiêu chuẩn công nhận tai nạn lao động) của \"Luật bảo hiểm tai nạn lao động\"",
+    "ID": " 「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 37 (Kriteria Pengakuan Kecelakaan Kerja)",
+    "RU": " Закон о страховании от производственных несчастных случаев, статья 37 (Критерии признания производственных травм)",
+    "MM": " 「စက်မှုလုပ်ငန်း မတော်တဆမှု အာမခံဥပဒေ」 ပုဒ်မ ၃၇ (လုပ်ငန်းခွင် မတော်တဆမှု သတ်မှတ်ချက်များ)",
+    "NP": " 「औद्योगिक दुर्घटना बीमा कानुन」को दफा ३७ (औद्योगिक दुर्घटनाको मान्यताको मापदण्ड)",
+    "TH": " 「พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน」 มาตรา 37 (หลักเกณฑ์การยอมรับอุบัติเหตุจากการทำงาน)"
+  },
+  "eighteen_laws2": {
+    "KO": "산재보험법 제105조(심사 청구에 대한 심리·결정) 제1항",
+    "EN": "  Article 105 (Hearing and Decision on Review Requests) Paragraph 1 of the Industrial Accident Compensation Insurance Act",
+    "VN": " Điều 105 (Xét xử và quyết định yêu cầu thẩm tra) Khoản 1 của 「Luật bảo hiểm tai nạn lao động」",
+    "ID": " 「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 105 (Pemeriksaan dan Keputusan atas Permohonan Banding) Ayat 1",
+    "RU": " Статья 105 (Рассмотрение и принятие решения по запросам о пересмотре) Пункт 1 Закона о страховании от несчастных случаев на производстве",
+    "MM": " 「စက်မှုလုပ်ငန်း မတော်တဆမှု အာမခံဥပဒေ」 ပုဒ်မ ၁၀၅ (ပြန်လည်စစ်ဆေးရန် တောင်းဆိုမှုအပေါ် စစ်ဆေးဆုံးဖြတ်ခြင်း) ပုဒ်မခွဲ ၁",
+    "NP": " 「औद्योगिक दुर्घटना बीमा कानुन」को दफा १०५ (छानबिनको लागि अनुरोधको छानबिन र निर्णय) को दफा १",
+    "TH": " 「พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน」 มาตรา 105 (การพิจารณาและตัดสินคำร้องขอทบทวน) วรรค 1"
+  },
+  "eighteen_laws3": {
+    "KO": "출퇴근 재해 업무처리지침(2023-23호",
+    "EN": "  Guidelines for Handling Commuting Accidents (No. 2023-23)",
+    "VN": " Hướng dẫn xử lý tai nạn trên đường đi làm (2023-23)",
+    "ID": " Pedoman Penanganan Kecelakaan Kerja Saat Perjalanan Kerja (Nomor 2023-23)",
+    "RU": " Руководство по рассмотрению несчастных случаев по дороге на работу и с работы (№ 2023-23)",
+    "MM": " အလုပ်သွားအလုပ်ပြန် မတော်တဆမှု လုပ်ငန်းဆောင်ရွက်မှု လမ်းညွှန်ချက် (၂၀၂၃-၂၃)",
+    "NP": " काममा आउने-जाने दुर्घटना कार्यसम्पादन निर्देशिका (२०२३-२३)",
+    "TH": " แนวทางปฏิบัติเกี่ยวกับการจัดการอุบัติเหตุระหว่างเดินทางไปทำงาน (ฉบับที่ 2023-23)"
+  },
+  "nineteen_title": {
+    "KO": "출퇴근 중 사고 – 자택 인정 여부 사례",
+    "EN": "Commuting Accident – Case on Recognition of Residence",
+    "VN": "Tai nạn trên đường đi làm – Trường hợp công nhận nhà riêng",
+    "ID": "Kecelakaan saat Perjalanan Kerja – Kasus Pengakuan Tempat Tinggal",
+    "RU": "Несчастный случай по дороге на работу – дело о признании места жительства",
+    "MM": "အလုပ်သွားအလုပ်ပြန် မတော်တဆမှု - နေအိမ်အဖြစ် အသိအမှတ်ပြုခြင်းဆိုင်ရာ ဖြစ်ရပ်",
+    "NP": "काममा आउने-जाने क्रममा दुर्घटना - घरलाई मान्यता दिने/नदिने सम्बन्धी उदाहरण",
+    "TH": "อุบัติเหตุระหว่างเดินทางไปทำงาน – กรณีตัวอย่างการยอมรับที่พักอาศัย\r\nข้อมูลสรุปของเหตุการณ์"
+  },
+  "nineteen_summary0": {
+    "KO": "승인 여부: 승인",
+    "EN": "Approval Status: Approved",
+    "VN": "Có được chấp thuận hay không: Được chấp thuận",
+    "ID": "Persetujuan: Disetujui",
+    "RU": "Статус утверждения: Утверждено",
+    "MM": "ခွင့်ပြုခြင်းရှိမရှိ: ခွင့်ပြု",
+    "NP": "स्वीकृति स्थिति: स्वीकृत",
+    "TH": "สถานะการอนุมัติ: อนุมัติ"
+  },
+  "nineteen_summary1": {
+    "KO": " 발생 일시: 2023. 8. 2. 07:50경",
+    "EN": " Date/Time of Occurrence: Around 07:50 on August 2, 2023",
+    "VN": " Thời gian xảy ra: Khoảng 07:50 ngày 2/8/2023",
+    "ID": " Waktu Kejadian: 2 Agustus 2023, sekitar pukul 07:50",
+    "RU": " Дата и время происшествия: 2 августа 2023 г., примерно в 07:50",
+    "MM": " ဖြစ်ပွားသည့်နေ့: ၂၀၂၃ ခုနှစ်၊ ဩဂုတ်လ ၂ ရက်၊ နံနက် ၇ နာရီ ၅၀ မိနစ်ခန့်",
+    "NP": " घट्ना भएको मिति र समय: २०२३. ८. २. बिहान ७:५० बजे",
+    "TH": " วันและเวลาเกิดเหตุ: วันที่ 2 สิงหาคม 2566 เวลาประมาณ 07:50 น."
+  },
+  "nineteen_summary2": {
+    "KO": " 발생 장소: ○○광역시 ○구 ○로 360 인도와 차도 사이",
+    "EN": " Location of Occurrence: Between the sidewalk and roadway at 360, ○-ro, ○-gu, ○○ Metropolitan City",
+    "VN": " Địa điểm xảy ra: Giữa vỉa hè và đường xe chạy tại 360, ○-gu, ○○, thành phố lớn",
+    "ID": " Lokasi Kejadian: Jalan ○, Distrik ○, Kota Metropolitan ○○, antara trotoar dan jalan raya",
+    "RU": " Место происшествия: Между тротуаром и проезжей частью по адресу 360, ○-ro, ○-gu, ○○ Metropolitan City",
+    "MM": " ဖြစ်ပွားသည့်နေရာ: ○○မြို့ ○ရပ်ကွက် ○လမ်း ၃၆၀ လမ်းဘေးလူသွားလမ်းနှင့် ကားလမ်းကြား",
+    "NP": " घट्ना भएको स्थान: ○○महानगरपालिका ○गु ○रो ३६०, फुटपाथ र सडकको बीचमा",
+    "TH": " สถานที่เกิดเหตุ: ระหว่างทางเท้ากับถนนที่ ○○, ○○, ○○, เมือง ○○"
+  },
+  "nineteen_summary3": {
+    "KO": " 근로자 정보: 요양보호사",
+    "EN": " Worker Information: Nursing Care Worker",
+    "VN": " Thông tin người lao động: Nhân viên chăm sóc y tế",
+    "ID": " Informasi Pekerja: Perawat Lansia",
+    "RU": " Информация о работнике: Уход за больными",
+    "MM": " လုပ်သားအချက်အလက်: သက်ကြီးရွယ်အိုစောင့်ရှောက်ရေးဝန်ဆောင်မှု လုပ်ငန်း",
+    "NP": " श्रमिकको जानकारी: वृद्धवृद्धाको हेरचाह गर्ने कर्मचारी",
+    "TH": " ข้อมูลพนักงาน: พนักงานดูแลผู้สูงอายุ"
+  },
+  "nineteen_summary4": {
+    "KO": " 상병명: 요추 골절, 늑골 골절, 발목 골절",
+    "EN": " Injuries: Lumbar spine fracture, rib fracture, ankle fracture",
+    "VN": " Chẩn đoán: Gãy xương thắt lưng, gãy xương sườn, gãy xương mắt cá chân",
+    "ID": " Diagnosis: Fraktur tulang belakang, fraktur tulang rusuk, fraktur pergelangan kaki",
+    "RU": " Травмы: перелом поясничного позвонка, перелом ребра, перелом голеностопа",
+    "MM": "ဒဏ်ရာအမျိုးအစား: ခါးရိုးကျိုးခြင်း၊ နံရိုးကျိုးခြင်း၊ ခြေကျင်းဝတ်ကျိုးခြင်း",
+    "NP": " चोटको विवरण: कम्मरको हड्डी भाँचिएको, करङ भाँचिएको, गोलीगाँठो भाँचिएको",
+    "TH": " อาการบาดเจ็บ: กระดูกสันหลังส่วนเอวหัก, ซี่โครงหัก, ข้อเท้าหัก"
+  },
+  "nineteen_situation": {
+    "KO": "지인의 자택을 주거지로 인정할 수 없으므로 통상의 출퇴근 재해에 해당하지 않는다고 요양 불승인한 사건에 대하여, 청구인의 진술, 월세 송금 내역 등으로 보았을 때 연고지 주거로 인정함이 타당하다고 판단하여 원처분 “취소” 결정한 사례 ",
+    "EN": "Regarding a case where care benefits were denied on the grounds that an acquaintance's residence could not be recognized as the worker's home, thus not qualifying as a typical commuting accident, the original decision was “Reversed.” This reversal was based on the claimant's statements and monthly rent payment records, which indicated it was reasonable to recognize the acquaintance's residence as the worker's habitual residence. ",
+    "VN": "Vụ việc từ chối chi trả bảo hiểm vì cho rằng nhà của người quen không thể được công nhận là nơi cư trú, do đó không thuộc trường hợp tai nạn trên đường đi làm thông thường. Tuy nhiên, dựa trên lời khai của người yêu cầu bồi thường và hồ sơ chuyển tiền thuê nhà, tòa án đã quyết định “hủy bỏ” quyết định ban đầu vì cho rằng nơi cư trú có liên quan là hợp lý. ",
+    "ID": "Kasus di mana klaim perawatan ditolak dengan alasan bahwa rumah kenalan tidak dapat diakui sebagai tempat tinggal, sehingga tidak termasuk dalam kecelakaan perjalanan kerja biasa. Namun, berdasarkan keterangan pemohon dan riwayat transfer sewa bulanan, diputuskan bahwa tempat tinggal tersebut layak diakui sebagai tempat tinggal yang terkait, sehingga keputusan awal “dibatalkan”. ",
+    "RU": "В отношении дела, в котором в выплате пособия по уходу было отказано на том основании, что место жительства знакомого не могло быть признано местом жительства заявителя, а значит, не соответствовало стандарту несчастного случая по дороге на работу, первоначальное решение было «отменено». Это было основано на заявлении заявителя и записях о ежемесячных перечислениях арендной платы, которые указывали на то, что было разумно признать место жительства знакомого местом постоянного проживания заявителя. ",
+    "MM": "အသိမိတ်ဆွေတစ်ဦး၏ နေအိမ်ကို နေထိုင်ရာနေရာအဖြစ် အသိအမှတ်ပြု၍မရသောကြောင့် ပုံမှန်အလုပ်သွားအလုပ်ပြန် မတော်တဆမှုတွင် မပါဝင်ဟု သတ်မှတ်ကာ ဆေးကုသခွင့် မပေးရန် ဆုံးဖြတ်ခဲ့သည့် ဖြစ်စဉ်နှင့် ပတ်သက်၍ လျှောက်ထားသူ၏ ထွက်ဆိုချက်နှင့် လစဉ်အိမ်ငှားခ လွှဲပြောင်းပေးသည့် မှတ်တမ်းများအရ ၎င်း၏ ဆွေမျိုးသားချင်းများရှိရာ နေရာကို နေထိုင်ရာအဖြစ် အသိအမှတ်ပြုရန် သင့်လျော်သည်ဟု သုံးသပ်ပြီး မူလဆုံးဖြတ်ချက်ကို \"ပယ်ဖျက်\" ခဲ့သည့် ဖြစ်ရပ်ဖြစ်သည်။",
+    "NP": "यो घटनामा, परिचित व्यक्तिको घरलाई बसोबासको स्थानको रूपमा मान्यता दिन नसकिने भएकोले यो सामान्य काममा आउने-जाने दुर्घटना नभएको मानी उपचार खर्च अस्वीकृत गरिएको थियो। तर, पीडितको बयान र मासिक भाडा भुक्तानीको रेकर्ड लगायतका प्रमाणहरूबाट बसोबासको स्थानलाई बसोबासको स्थानको रूपमा मान्यता दिनु उचित भएको ठहर गरी मूल निर्णयलाई \"रद्द\" गर्ने निर्णय गरिएको हो।",
+    "TH": "เป็นกรณีที่อุบัติเหตุซึ่งเกิดขึ้นขณะเดินทางไปทำงาน โดยเดิมทีถูกตัดสินว่าไม่สามารถยอมรับที่พักของคนรู้จักเป็นที่พักอาศัยได้ จึงไม่ถือเป็นอุบัติเหตุระหว่างเดินทางไปทำงานตามปกติ และปฏิเสธการรักษาพยาบาล อย่างไรก็ตาม จากคำให้การของผู้ร้องเรียนและประวัติการโอนเงินค่าเช่ารายเดือน ทำให้ตัดสินว่าที่พักดังกล่าวสามารถยอมรับเป็นที่พักอาศัยของผู้ร้องเรียนได้ จึงมีคำสั่ง \"ยกเลิก\" คำสั่งเดิม"
+  },
+  "nineteen_facts0": {
+    "KO": "청구인은 주택임대차계약서를 제출하였고 실제 거주 사실이 확인됨.",
+    "EN": "The claimant submitted a residential lease agreement, and actual residence was confirmed.",
+    "VN": "Người yêu cầu đã nộp hợp đồng thuê nhà và việc thực tế cư trú đã được xác nhận.",
+    "ID": "Pemohon menyerahkan kontrak sewa rumah dan fakta tinggal di sana telah dikonfirmasi.",
+    "RU": "Заявитель представил договор аренды жилья, подтверждающий фактическое место жительства.",
+    "MM": "လျှောက်ထားသူသည် အိမ်ငှားစာချုပ်ကို တင်သွင်းခဲ့ပြီး ၎င်း၏ အမှန်တကယ် နေထိုင်မှုအခြေအနေကို အတည်ပြုခဲ့သည်။",
+    "NP": "पीडितले घर बहाल सम्झौता पेश गरेर आफ्नो वास्तविक बसोबासको तथ्य प्रमाणित गरेका थिए।",
+    "TH": "ผู้ร้องเรียนได้ยื่นสัญญาเช่าที่พักอาศัยและได้รับการยืนยันว่าพักอาศัยอยู่จริง"
+  },
+  "nineteen_facts1": {
+    "KO": " 출근 중 공사현장 반대편 골목길 계단에서 넘어져 요추 압박골절, 늑골 골절, 발목 골절 발생.",
+    "EN": " While commuting, the claimant fell on stairs in an alley opposite the construction site, sustaining a lumbar compression fracture, rib fractures, and an ankle fracture.",
+    "VN": " Trong khi đi làm, người yêu cầu bị ngã trên cầu thang ở con hẻm đối diện công trường xây dựng, dẫn đến gãy xương sống lưng, gãy xương sườn, gãy mắt cá chân.",
+    "ID": " Saat berangkat kerja, pemohon terjatuh di tangga gang di seberang lokasi konstruksi dan mengalami fraktur kompresi tulang belakang, fraktur tulang rusuk, dan fraktur pergelangan kaki.",
+    "RU": " Во время поездки на работу заявитель упал на лестнице в переулке напротив строительной площадки, в результате чего получил компрессионный перелом позвоночника, переломы ребер и перелом голеностопа.",
+    "MM": " အလုပ်သွားနေစဉ် ဆောက်လုပ်ရေးလုပ်ငန်းခွင်၏ တစ်ဖက်ခြမ်းရှိ လမ်းသွယ်မှ လှေကားပေါ်တွင် ချော်လဲခဲ့ရာ ခါးရိုးကျိုးခြင်း၊ နံရိုးကျိုးခြင်းနှင့် ခြေကျင်းဝတ်ကျိုးခြင်းများ ဖြစ်ပွားခဲ့သည်။",
+    "NP": " काममा जाने क्रममा निर्माणस्थलको विपरीत दिशाको गल्लीको सिँढीमा लडेर कम्मरको हड्डी, करङ र गोलीगाँठोमा चोट लागेको थियो।",
+    "TH": " อุบัติเหตุเกิดขึ้นขณะเดินทางไปทำงาน โดยผู้ร้องเรียนลื่นล้มลงบนบันไดในซอยฝั่งตรงข้ามสถานที่ก่อสร้าง ทำให้กระดูกสันหลังส่วนเอว, ซี่โครง, และข้อเท้าหัก"
+  },
+  "nineteen_facts2": {
+    "KO": " 진료기록 및 영상검사 결과 상병이 객관적으로 확인됨.",
+    "EN": " Medical records and imaging tests objectively confirmed the injuries.",
+    "VN": " Kết quả khám bệnh và chụp ảnh X-quang đã xác nhận khách quan bệnh tình.",
+    "ID": " Catatan medis dan hasil pemeriksaan pencitraan menunjukkan diagnosis secara objektif.",
+    "RU": " Медицинские записи и результаты обследований объективно подтвердили наличие травм.",
+    "MM": " ဆေးမှတ်တမ်းများနှင့် ရုပ်ပုံရိုက်စစ်ဆေးမှု ရလဒ်များအရ ဒဏ်ရာများကို ပကတိအားဖြင့် အတည်ပြုနိုင်ခဲ့သည်။",
+    "NP": " उपचार रेकर्ड र एक्स-रे/इमेज परीक्षणको नतिजाबाट चोटपटकको वस्तुनिष्ठ पुष्टि भएको छ।",
+    "TH": " อาการบาดเจ็บได้รับการยืนยันอย่างเป็นรูปธรรมจากบันทึกการรักษาและผลการตรวจภาพถ่าย"
+  },
+  "nineteen_important0": {
+    "KO": "청구인은 주택임대차계약서를 제출하였고 실제 거주 사실이 확인됨.",
+    "EN": "Legal Recognition of Residence: Whether the claimant's residence could be considered a substantive ‘place of residence’ or merely a temporary dwelling.",
+    "VN": "Việc công nhận hợp pháp nơi cư trú: Nơi cư trú của người yêu cầu có thể được coi là \"nơi cư trú\" thực tế hay chỉ là nơi cư trú tạm thời.",
+    "ID": "Pengakuan hukum atas tempat tinggal: Apakah tempat tinggal pemohon dapat dianggap sebagai ‘tempat tinggal’ secara substansial, atau hanya tempat tinggal sementara.",
+    "RU": "Юридическое признание места жительства: можно ли считать место жительства заявителя фактическим «местом жительства» или лишь временным жилищем.",
+    "MM": "နေအိမ်၏ ဥပဒေအရ အသိအမှတ်ပြုနိုင်မှု: လျှောက်ထားသူ၏ နေအိမ်ကို 'နေထိုင်ရာနေရာ' အဖြစ် လက်တွေ့ကျကျ ရှုမြင်နိုင်ခြင်းရှိမရှိ၊ သို့မဟုတ် ရိုးရှင်းသော ယာယီနေထိုင်ရာနေရာသာ ဖြစ်ခြင်းရှိမရှိ။",
+    "NP": "घरको कानूनी मान्यता: पीडितको घरलाई वास्तवमा 'बसोबासको स्थान' मान्न सकिन्छ कि केवल अस्थायी बसोबासको स्थान मात्र हो।",
+    "TH": "การยอมรับที่พักอาศัยตามกฎหมาย: ที่พักอาศัยของผู้ร้องเรียนสามารถถือเป็น 'ที่อยู่อาศัย' ได้จริงหรือไม่ หรือเป็นเพียงที่พักชั่วคราวเท่านั้น"
+  },
+  "nineteen_important1": {
+    "KO": " 출근 중 공사현장 반대편 골목길 계단에서 넘어져 요추 압박골절, 늑골 골절, 발목 골절 발생.",
+    "EN": " Legitimacy of Commuting Route: The core issue was whether the route originating from this residence could be recognized as a typical commuting route.",
+    "VN": " Tính hợp pháp của đường đi làm: Vấn đề cốt lõi là liệu đường đi từ nơi cư trú đó có thể được công nhận là đường đi làm bình thường hay không.",
+    "ID": " Keabsahan rute perjalanan kerja: Apakah rute yang dimulai dari tempat tinggal tersebut dapat diakui sebagai rute perjalanan kerja yang biasa.",
+    "RU": " Законность маршрута поездки на работу: основной вопрос заключался в том, можно ли считать маршрут, отправляющийся от этого места жительства, обычным маршрутом поездки на работу.",
+    "MM": " အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်း၏ တရားဝင်မှု: အဆိုပါ နေထိုင်ရာနေရာမှ စတင်သည့် လမ်းကြောင်းကို ပုံမှန်အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်းအဖြစ် အသိအမှတ်ပြုနိုင်ခြင်းရှိမရှိ။",
+    "NP": " काममा आउने-जाने मार्गको वैधता: उक्त बसोबासको स्थानबाट सुरु भएको मार्गलाई सामान्य काममा आउने-जाने मार्गको रूपमा मान्यता दिन सकिन्छ कि सकिँदैन भन्ने कुरा मुख्य मुद्दा हो।",
+    "TH": " ความถูกต้องของเส้นทางเดินทางไปทำงาน: เส้นทางที่เริ่มต้นจากที่พักดังกล่าวสามารถยอมรับว่าเป็นเส้นทางเดินทางไปทำงานตามปกติได้หรือไม่ ซึ่งเป็นประเด็นหลัก"
+  },
+  "nineteen_decision": {
+    "KO": "청구인의 실제 주거지가 해당 장소임이 객관적으로 확인됨. 따라서 출퇴근 경로상에서 발생한 사고로 보아 통상의 출퇴근 재해에 해당하므로 원처분 불승인 결정은 취소됨.",
+    "EN": "The claimant's actual residence at the location was objectively confirmed. Therefore, the accident occurring on the commuting route is deemed a typical commuting accident, and the original denial decision is revoked.",
+    "VN": "Địa điểm cư trú thực tế của người yêu cầu bồi thường được xác nhận một cách khách quan. Do đó, tai nạn xảy ra trên đường đi làm được coi là tai nạn đi làm thông thường, nên quyết định từ chối bồi thường ban đầu bị hủy bỏ.",
+    "ID": "Tempat tinggal sebenarnya pemohon secara objektif terkonfirmasi sebagai lokasi tersebut. Oleh karena itu, kecelakaan yang terjadi di rute perjalanan kerja dianggap sebagai kecelakaan kerja biasa, sehingga keputusan penolakan awal dibatalkan.",
+    "RU": "Фактическое место жительства заявителя в данном месте было объективно подтверждено. Поэтому несчастный случай, произошедший на пути следования на работу, считается типичным несчастным случаем на пути следования на работу, и первоначальное решение об отказе в выплате компенсации отменено.",
+    "MM": "လျှောက်ထားသူ၏ အမှန်တကယ် နေထိုင်ရာနေရာသည် အဆိုပါနေရာဖြစ်ကြောင်း ပကတိအားဖြင့် အတည်ပြုနိုင်ခဲ့သည်။ ထို့ကြောင့် အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်းတွင် ဖြစ်ပွားသည့် မတော်တဆမှုအဖြစ် ရှုမြင်နိုင်သဖြင့် ပုံမှန်အလုပ်သွားအလုပ်ပြန် မတော်တဆမှုတွင် ပါဝင်ပြီး မူလ ခွင့်မပြုရန် ဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ခဲ့သည်။",
+    "NP": "पीडितको वास्तविक बसोबासको स्थान उक्त स्थान रहेको वस्तुनिष्ठ रूपमा प्रमाणित भएको छ। त्यसैले, यो काममा आउने-जाने मार्गमा भएको दुर्घटना भएकोले सामान्य काममा आउने-जाने दुर्घटनामा पर्छ र मूल अस्वीकृतिको निर्णय रद्द गरिएको छ।",
+    "TH": "ที่พักอาศัยจริงของผู้ร้องเรียนได้รับการยืนยันอย่างเป็นรูปธรรมว่าเป็นสถานที่ดังกล่าว ดังนั้นจึงถือเป็นอุบัติเหตุที่เกิดขึ้นบนเส้นทางเดินทางไปทำงานตามปกติ และคำสั่งปฏิเสธในตอนแรกจึงถูกยกเลิก"
+  },
+  "nineteen_laws0": {
+    "KO": "「산업재해보상보험법」 제37조(업무상 재해의 인정 기준)",
+    "EN": " Industrial Accident Compensation Insurance Act, Article 37 (Criteria for Recognizing Work-Related Accidents)",
+    "VN": "Điều 37 của \"Luật bảo hiểm tai nạn lao động\" (Tiêu chuẩn công nhận tai nạn lao động)",
+    "ID": "Pasal 37 Undang-Undang Asuransi Kecelakaan Kerja (Kriteria Pengakuan Kecelakaan Kerja)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 37 (Критерии признания несчастных случаев, связанных с работой)",
+    "MM": "「စက်မှုလုပ်ငန်းဆိုင်ရာ ထိခိုက်မှု လျော်ကြေးအာမခံဥပဒေ」 ပုဒ်မ ၃၇ (လုပ်ငန်းခွင် မတော်တဆမှု သတ်မှတ်ချက်များ)",
+    "NP": "「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन」को दफा ३७ (काममा लाग्ने चोटपटकको मापदण्ड)",
+    "TH": "「พระราชบัญญัติประกันภัยค่าตอบแทนอุบัติเหตุทางอุตสาหกรรม」 มาตรา 37 (หลักเกณฑ์การยอมรับอุบัติเหตุจากการทำงาน)"
+  },
+  "nineteen_laws1": {
+    "KO": " 「산재보험법 시행령」 제34조(출퇴근 재해의 범위)",
+    "EN": " Enforcement Decree of the Industrial Accident Compensation Insurance Act, Article 34 (Scope of Commuting Accidents)",
+    "VN": " Điều 34 của \"Nghị định thi hành Luật bảo hiểm tai nạn lao động\" (Phạm vi tai nạn đi làm)",
+    "ID": " Peraturan Pelaksanaan Undang-Undang Asuransi Kecelakaan Kerja Pasal 34 (Ruang Lingkup Kecelakaan Perjalanan Kerja)",
+    "RU": " Статья 34 Постановления о применении Закона о страховании от несчастных случаев на производстве (Сфера применения несчастных случаев по дороге на работу и с работы)",
+    "MM": " 「စက်မှုလုပ်ငန်း မတော်တဆမှု အာမခံဥပဒေ စည်းမျဉ်း」 ပုဒ်မ ၃၄ (အလုပ်သွားအလုပ်ပြန် မတော်တဆမှု၏ အတိုင်းအတာ)",
+    "NP": " 「औद्योगिक दुर्घटना बीमा ऐनको कार्यान्वयन अध्यादेश」को दफा ३४ (काममा आउने-जाने दुर्घटनाको दायरा)",
+    "TH": " 「พระราชบัญญัติบังคับใช้กฎหมายประกันภัยอุบัติเหตุจากการทำงาน」 มาตรา 34 (ขอบเขตของอุบัติเหตุระหว่างเดินทางไปทำงาน)"
+  },
+  "nineteen_laws2": {
+    "KO": " 「근로기준법」 제73조(업무상 재해 보상)",
+    "EN": " Labor Standards Act, Article 73 (Compensation for Work-Related Injuries)",
+    "VN": " Điều 73 của \"Luật tiêu chuẩn lao động\" (Bồi thường tai nạn lao động)",
+    "ID": " Undang-Undang Ketenagakerjaan Pasal 73 (Kompensasi Kecelakaan Kerja)",
+    "RU": " Статья 73 Закона о трудовых стандартах (Компенсация за производственные травмы)",
+    "MM": " 「အလုပ်သမားစံနှုန်းဥပဒေ」 ပုဒ်မ ၇၃ (လုပ်ငန်းခွင် ထိခိုက်မှု လျော်ကြေး)",
+    "NP": " 「श्रम मानक ऐन」को दफा ७३ (काममा लाग्ने चोटपटकको क्षतिपूर्ति)",
+    "TH": " 「พระราชบัญญัติมาตรฐานแรงงาน」 มาตรา 73 (ค่าตอบแทนสำหรับอุบัติเหตุจากการทำงาน)"
+  },
+  "nineteen_laws3": {
+    "KO": " 「민법」 제193조(주거 개념 관련)",
+    "EN": " Civil Act, Article 193 (Concept of Residence)",
+    "VN": " Điều 193 của \"Luật dân sự\" (Liên quan đến khái niệm nơi cư trú)",
+    "ID": " Undang-Undang Perdata Pasal 193 (Konsep Tempat Tinggal)",
+    "RU": " Статья 193 Гражданского кодекса (Понятие места жительства)",
+    "MM": " 「မြို့ပြဥပဒေ」 ပုဒ်မ ၁၉၃ (နေထိုင်ရာနေရာ၏ သဘောတရားနှင့် ပတ်သက်၍)",
+    "NP": " 「नागरिक संहिता」को दफा १९३ (बसोबासको अवधारणा सम्बन्धी)",
+    "TH": " 「ประมวลกฎหมายแพ่ง」 มาตรา 193 (เกี่ยวกับแนวคิดของที่อยู่อาศัย)"
+  },
+  "nineteen_laws4": {
+    "KO": " 「주택임대차보호법」 제3조(임차인의 권리 보장)",
+    "EN": " Housing Lease Protection Act, Article 3 (Guarantee of Tenant Rights)",
+    "VN": " Điều 3 của \"Luật bảo vệ thuê nhà\" (Bảo đảm quyền của người thuê nhà)",
+    "ID": " Undang-Undang Perlindungan Sewa Rumah Pasal 3 (Jaminan Hak Penyewa)",
+    "RU": " Статья 3 Закона о защите прав арендаторов жилья (Гарантия прав арендаторов)",
+    "MM": " 「အိမ်ငှားကာကွယ်ရေးဥပဒေ」 ပုဒ်မ ၃ (အိမ်ငှား၏ အခွင့်အရေး ကာကွယ်မှု)",
+    "NP": " 「घर बहाल संरक्षण ऐन」को दफा ३ (बहालमा बस्नेको अधिकारको सुरक्षा)",
+    "TH": " 「พระราชบัญญัติคุ้มครองการเช่าที่พักอาศัย」 มาตรา 3 (การรับประกันสิทธิของผู้เช่า)"
+  },
+  "twenty_title": {
+    "KO": "출퇴근 중 사고 – 단독주택 계단에서의 넘어짐",
+    "EN": "Commuting Accident – Fall on Stairs of Detached House",
+    "VN": "Tai nạn trong giờ đi làm – Ngã trên cầu thang nhà riêng\r\nTóm tắt vụ việc",
+    "ID": "Kecelakaan saat berangkat atau pulang kerja – Terpeleset di tangga rumah tunggal",
+    "RU": "Несчастный случай по дороге на работу – падение на лестнице отдельного дома",
+    "MM": "အလုပ်သွားအလုပ်ပြန်နေစဉ် မတော်တဆမှု - တစ်ဦးတည်းနေအိမ် လှေကားပေါ်မှ ချော်လဲခြင်း",
+    "NP": "काममा आउने-जाने क्रममा दुर्घटना - एकल घरको भर्याङमा लडेको घटना\r\nघटनाको विवरण",
+    "TH": "อุบัติเหตุระหว่างเดินทางไปทำงาน – การล้มบนบันไดบ้านเดี่ยว"
+  },
+  "twenty_summary0": {
+    "KO": "승인 여부: 승인",
+    "EN": "Approval Status: Approved",
+    "VN": "Tình trạng phê duyệt: Đã phê duyệt",
+    "ID": "Status Persetujuan: Disetujui",
+    "RU": "Статус утверждения: Утверждено",
+    "MM": "ခွင့်ပြုခြင်းရှိမရှိ: ခွင့်ပြု",
+    "NP": "स्वीकृति स्थिति: स्वीकृत",
+    "TH": "สถานะการอนุมัติ: อนุมัติ"
+  },
+  "twenty_summary1": {
+    "KO": " 발생 일시: 2023. 8. 16. 06:45경",
+    "EN": " Date/Time of Occurrence: August 16, 2023, around 06:45",
+    "VN": " Thời gian xảy ra: Khoảng 06:45 ngày 16/8/2023",
+    "ID": " Waktu Kejadian: Sekitar pukul 06:45 pada 16 Agustus 2023",
+    "RU": " Дата и время происшествия: 16 августа 2023 г., около 06:45",
+    "MM": " ဖြစ်ပွားသည့်နေ့: ၂၀၂၃ ခုနှစ်၊ ဩဂုတ်လ ၁၆ ရက်၊ နံနက် ၆ နာရီ ၄၅ မိနစ်ခန့်",
+    "NP": " घट्ना भएको मिति र समय: २०२३. ८. १६. बिहान ६:४५ बजे",
+    "TH": " วันและเวลาเกิดเหตุ: วันที่ 16 สิงหาคม 2566 เวลาประมาณ 06:45 น."
+  },
+  "twenty_summary2": {
+    "KO": " 발생 장소: ○○광역시 ○○구 ○○로 26, 단독주택 2층 계단",
+    "EN": " Location: Stairs on the 2nd floor of a detached house, 26 ○○-ro, ○○-gu, ○○ Metropolitan City",
+    "VN": " Địa điểm xảy ra: 26, ○○-ro, ○○-gu, ○○, cầu thang tầng 2 của nhà riêng",
+    "ID": " Lokasi Kejadian: ○○-gu, ○○-ro 26, ○○ Metropolitan City, tangga lantai 2 rumah tunggal",
+    "RU": " Место: Лестница на втором этаже отдельно стоящего дома, 26 ○○-ro, ○○-gu, ○○ Metropolitan City",
+    "MM": " ဖြစ်ပွားသည့်နေရာ: ○○မြို့ ○○ရပ်ကွက် ○○လမ်း ၂၆၊ တစ်ဦးတည်းနေအိမ် ၂ ထပ် လှေကားပေါ်",
+    "NP": " घट्ना भएको स्थान: ○○महानगरपालिका ○○गु ○○रो २६, एकल घरको दोस्रो तलाको भर्याङ",
+    "TH": " สถานที่เกิดเหตุ: บันไดชั้น 2 ของบ้านเดี่ยว เลขที่ 26 ถนน ○○, เขต ○○, เมือง ○○"
+  },
+  "twenty_summary3": {
+    "KO": " 근로자 정보: 환경미화원",
+    "EN": " Worker Information: Environmental Cleaner",
+    "VN": " Thông tin người lao động: Nhân viên vệ sinh môi trường",
+    "ID": " Informasi Pekerja: Petugas kebersihan",
+    "RU": " Информация о работнике: Уборщик",
+    "MM": " လုပ်သားအချက်အလက်: သဘာဝပတ်ဝန်းကျင်သန့်ရှင်းရေးလုပ်ငန်း",
+    "NP": " श्रमिकको जानकारी: सरसफाइ कर्मचारी",
+    "TH": " ข้อมูลพนักงาน: พนักงานทำความสะอาดสิ่งแวดล้อม"
+  },
+  "twenty_summary4": {
+    "KO": " 상병명: 요추 압박골절, 늑골 골절, 발목 골절",
+    "EN": " Injuries: Lumbar compression fracture, Rib fracture, Ankle fracture",
+    "VN": " Chẩn đoán: Gãy xương cột sống thắt lưng, gãy xương sườn, gãy xương mắt cá chân",
+    "ID": " Diagnosis: Fraktur kompresi tulang belakang, fraktur tulang rusuk, fraktur pergelangan kaki",
+    "RU": " Травмы: Компрессионный перелом позвоночника, перелом ребра, перелом голеностопа",
+    "MM": " ဒဏ်ရာအမျိုးအစား: ခါးရိုးကျိုးခြင်း၊ နံရိုးကျိုးခြင်း၊ ခြေကျင်းဝတ်ကျိုးခြင်း",
+    "NP": " चोटको विवरण: कम्मरको हड्डीको दबाबपूर्ण भाँचिएको, करङ भाँचिएको, गोलीगाँठो भाँचिएको",
+    "TH": " อาการบาดเจ็บ: กระดูกสันหลังส่วนเอวหักแบบยุบตัว, ซี่โครงหัก, ข้อเท้าหัก"
+  },
+  "twenty_situation": {
+    "KO": "출근 중 단독주택 2층 계단에서 넘어져 사고가 발생하였으나, 사업장 외에서의 사고로 보아 최초에 요양 불승인 처리됨. 그러나 해당 계단은 공사근로자들 또한 통상적으로 이용하는 경로로 확인되어, 사적 경로로 볼 수 없으므로 통상의 출퇴근 경로에서 발생한 사고로 인정되어 원처분 “취소” 결정한 사례.",
+    "EN": "The accident occurred when the worker fell on the stairs of a two-story detached house while commuting to work. Initially, the claim was denied as the accident happened outside the workplace. However, it was confirmed that the stairs were also a route commonly used by construction workers. Therefore, the stairs could not be considered a private route, and the accident was recognized as occurring on the usual commuting route. Consequently, the original decision was “Reversed.”",
+    "VN": "Trong khi đi làm, người lao động bị ngã trên cầu thang tầng 2 của nhà riêng và xảy ra tai nạn, nhưng do tai nạn xảy ra ngoài nơi làm việc nên ban đầu không được chấp thuận điều trị. Tuy nhiên, cầu thang này được xác nhận là lối đi thường xuyên được sử dụng bởi các công nhân xây dựng, không thể coi là lối đi riêng tư, nên được công nhận là tai nạn xảy ra trên đường đi làm bình thường và quyết định “hủy bỏ” quyết định ban đầu.",
+    "ID": "Kecelakaan terjadi saat pekerja jatuh di tangga lantai 2 rumah tunggal saat berangkat kerja. Awalnya ditolak karena dianggap kecelakaan di luar tempat kerja. Namun, tangga tersebut juga digunakan secara rutin oleh pekerja konstruksi, sehingga tidak dapat dianggap sebagai jalur pribadi. Kecelakaan ini diakui sebagai kecelakaan di jalur biasa berangkat-pulang kerja, sehingga keputusan awal “dibatalkan”.",
+    "RU": "Несчастный случай произошел, когда заявитель упал на лестнице второго этажа отдельного дома по пути на работу. Первоначально заявление было отклонено, поскольку несчастный случай произошел вне рабочего места. Однако было подтверждено, что лестница также регулярно использовалась строительными рабочими. Поэтому ее нельзя было считать частным маршрутом. Несчастный случай был признан произошедшим на обычном маршруте поездки на работу, в результате чего первоначальное решение было «отменено».",
+    "MM": "အလုပ်သွားနေစဉ် တစ်ဦးတည်းနေအိမ် ၂ ထပ် လှေကားပေါ်တွင် ချော်လဲ၍ မတော်တဆမှု ဖြစ်ပွားခဲ့သော်လည်း လုပ်ငန်းခွင်ပြင်ပ မတော်တဆမှုအဖြစ် သတ်မှတ်ကာ အစပိုင်းတွင် ဆေးကုသခွင့် မပေးရန် ဆုံးဖြတ်ခဲ့သည်။ သို့သော်လည်း အဆိုပါ လှေကားသည် ဆောက်လုပ်ရေးလုပ်သားများလည်း ပုံမှန်အသုံးပြုသည့် လမ်းကြောင်းဖြစ်ကြောင်း အတည်ပြုနိုင်ခဲ့ရာ ၎င်းအား ကိုယ်ရေးကိုယ်တာလမ်းကြောင်းအဖြစ် မသတ်မှတ်နိုင်သောကြောင့် ပုံမှန်အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်းပေါ်တွင် ဖြစ်ပွားသည့် မတော်တဆမှုအဖြစ် အသိအမှတ်ပြုပြီး မူလဆုံးဖြတ်ချက်ကို \"ပယ်ဖျက်\" ခဲ့သည့် ဖြစ်ရပ်ဖြစ်သည်။",
+    "NP": "यो घटनामा, काममा जाने क्रममा एकल घरको दोस्रो तलाको भर्याङमा लडेर दुर्घटना भएको थियो। सुरुमा यो काम गर्ने स्थान बाहिर भएको दुर्घटना भनी उपचार खर्च अस्वीकृत गरिएको थियो। तर, उक्त भर्याङ निर्माणकर्मीहरूले पनि सामान्य रूपमा प्रयोग गर्ने मार्ग भएको पुष्टि भएकोले, यसलाई व्यक्तिगत मार्ग मान्न सकिँदैन र यसलाई सामान्य काममा आउने-जाने मार्गमा भएको दुर्घटनाको रूपमा मान्यता दिई मूल निर्णयलाई \"रद्द\" गर्ने निर्णय गरिएको हो।",
+    "TH": "เป็นกรณีที่อุบัติเหตุเกิดขึ้นขณะเดินทางไปทำงาน โดยลื่นล้มบนบันไดชั้น 2 ของบ้านเดี่ยว ซึ่งเดิมทีถูกตัดสินว่าเป็นการรักษาที่ไม่ได้รับอนุมัติเนื่องจากเป็นอุบัติเหตุที่เกิดขึ้นนอกสถานประกอบการ อย่างไรก็ตาม ได้รับการยืนยันว่าบันไดดังกล่าวเป็นเส้นทางที่คนงานก่อสร้างมักใช้เป็นประจำ จึงไม่สามารถถือเป็นเส้นทางส่วนตัวได้ ดังนั้นจึงได้รับการยอมรับว่าเป็นอุบัติเหตุที่เกิดขึ้นบนเส้นทางเดินทางไปทำงานตามปกติ และมีคำสั่ง \"ยกเลิก\" คำสั่งเดิม"
+  },
+  "twenty_facts0": {
+    "KO": "청구인은 출근을 위해 단독주택 2층 계단을 내려오다 넘어져 부상.",
+    "EN": "The claimant fell and was injured while descending the stairs on the second floor of a detached house on the way to work.",
+    "VN": "Người yêu cầu bồi thường bị ngã và bị thương khi đi xuống cầu thang tầng 2 của nhà riêng để đi làm.",
+    "ID": "Pemohon jatuh dan terluka saat turun tangga lantai dua rumah tunggal untuk berangkat kerja.",
+    "RU": "Заявитель получил травмы после падения при спуске по лестнице на втором этаже отдельно стоящего дома по пути на работу.",
+    "MM": "လျှောက်ထားသူသည် အလုပ်သွားရန် တစ်ဦးတည်းနေအိမ် ၂ ထပ် လှေကားမှ ဆင်းလာစဉ် ချော်လဲ၍ ဒဏ်ရာရရှိခဲ့သည်။",
+    "NP": "पीडित काममा जानको लागि एकल घरको दोस्रो तलाको भर्याङबाट तल झर्दै गर्दा लडेर घाइते भएका थिए।",
+    "TH": "ผู้ร้องเรียนได้รับบาดเจ็บจากการลื่นล้มขณะลงบันไดชั้น 2 ของบ้านเดี่ยวเพื่อไปทำงาน"
+  },
+  "twenty_facts1": {
+    "KO": " 최초 요양신청서에는 ‘출근 중 사고’로 기재, 요추 압박골절·늑골 골절·발목 골절 진단 확인됨.",
+    "EN": " The initial medical treatment application stated it was an ‘accident during commuting,’ with diagnoses of lumbar compression fracture, rib fracture, and ankle fracture confirmed.",
+    "VN": " Trong đơn xin điều trị ban đầu, vụ tai nạn được ghi là \"tai nạn trên đường đi làm\", và được chẩn đoán là gãy xương cột sống thắt lưng, gãy xương sườn và gãy xương mắt cá chân.",
+    "ID": " Pada permohonan perawatan awal, dicatat sebagai “kecelakaan saat berangkat kerja”, dan didiagnosis mengalami fraktur kompresi tulang belakang, fraktur tulang rusuk, dan fraktur pergelangan kaki.",
+    "RU": " В первоначальном заявлении о предоставлении медицинской помощи было указано, что это был «несчастный случай по дороге на работу», с подтвержденными диагнозами: компрессионный перелом поясничного отдела позвоночника, перелом ребра и перелом голеностопного сустава.",
+    "MM": " ကနဦး ဆေးကုသမှုလျှောက်လွှာတွင် 'အလုပ်သွားနေစဉ် မတော်တဆမှု' ဟု ဖော်ပြထားပြီး ခါးရိုးကျိုးခြင်း၊ နံရိုးကျိုးခြင်းနှင့် ခြေကျင်းဝတ်ကျိုးခြင်းများအား စစ်ဆေးအတည်ပြုခဲ့သည်။",
+    "NP": " सुरुको उपचार आवेदनमा 'काममा जाने क्रममा भएको दुर्घटना' भनी उल्लेख गरिएको थियो, र कम्मरको हड्डी, करङ र गोलीगाँठो भाँचिएको निदान पुष्टि भएको थियो।",
+    "TH": " ในใบคำขอรับการรักษาพยาบาลฉบับแรกระบุว่าเป็น 'อุบัติเหตุระหว่างเดินทางไปทำงาน' และได้รับการวินิจฉัยว่ากระดูกสันหลังส่วนเอวหักแบบยุบตัว, ซี่โครงหัก, และข้อเท้าหัก"
+  },
+  "twenty_facts2": {
+    "KO": " 현장 확인 결과, 해당 계단은 2층 세대뿐 아니라 공사근로자들도 통상적으로 이용하는 출입 경로로 파악됨.",
+    "EN": " On-site verification determined that the stairs were a commonly used access route not only for the second-floor unit but also for construction workers.",
+    "VN": " Kết quả kiểm tra hiện trường cho thấy cầu thang này là lối đi thường được sử dụng không chỉ bởi các hộ gia đình ở tầng 2 mà còn bởi các công nhân xây dựng.",
+    "ID": " Hasil pemeriksaan lapangan menunjukkan bahwa tangga tersebut merupakan jalur akses yang biasa digunakan tidak hanya oleh penghuni lantai dua, tetapi juga oleh pekerja konstruksi.",
+    "RU": " Проверка на месте установила, что лестница была обычным маршрутом доступа не только для жильцов второго этажа, но и для строительных рабочих.",
+    "MM": " လုပ်ငန်းခွင် စစ်ဆေးမှုရလဒ်အရ အဆိုပါ လှေကားသည် ၂ ထပ် အိမ်တွင် နေထိုင်သူများသာမက ဆောက်လုပ်ရေးလုပ်သားများပါ ပုံမှန်အသုံးပြုသော ဝင်ထွက်ပေါက် လမ်းကြောင်းဖြစ်ကြောင်း တွေ့ရှိရသည်။",
+    "NP": " घटनास्थलको निरीक्षणमा उक्त भर्याङ दोस्रो तलामा बस्नेहरूका लागि मात्र नभई निर्माणकर्मीहरूले पनि सामान्य रूपमा प्रयोग गर्ने प्रवेश मार्ग भएको पाइएको छ।",
+    "TH": " จากการตรวจสอบสถานที่เกิดเหตุพบว่าบันไดดังกล่าวไม่ได้ใช้เพียงแค่สำหรับครัวเรือนที่อยู่ชั้น 2 เท่านั้น แต่ยังเป็นเส้นทางเข้า-ออกที่คนงานก่อสร้างใช้เป็นประจำด้วย"
+  },
+  "twenty_facts3": {
+    "KO": " 원처분기관은 주거지 내부의 사적 공간에서 발생한 사고라 보아 불승인 처분.",
+    "EN": " The original decision-making agency denied the claim, viewing it as an accident occurring within the private space of the residence.",
+    "VN": " Cơ quan xử lý ban đầu đã từ chối đơn xin bồi thường vì cho rằng tai nạn xảy ra trong không gian riêng tư bên trong khu dân cư.",
+    "ID": " Instansi penentu awal menolak klaim dengan alasan kecelakaan terjadi di ruang pribadi di dalam tempat tinggal.",
+    "RU": " Первоначальный орган, принимавший решение, счел, что несчастный случай произошел в частном пространстве внутри жилого дома, и отклонил заявление.",
+    "MM": " မူလဆုံးဖြတ်ချက်ချသည့်အဖွဲ့အစည်းက နေအိမ်အတွင်းရှိ ကိုယ်ရေးကိုယ်တာ နေရာတွင် ဖြစ်ပွားသည့် မတော်တဆမှုအဖြစ် သတ်မှတ်ကာ ခွင့်မပြုရန် ဆုံးဖြတ်ခဲ့သည်။",
+    "NP": " मूल निर्णय गर्ने निकायले यसलाई बसोबासको स्थान भित्रको व्यक्तिगत स्थानमा भएको दुर्घटना मानेर अस्वीकृत गरेको थियो।",
+    "TH": " หน่วยงานที่ตัดสินใจในตอนแรกพิจารณาว่าเป็นอุบัติเหตุที่เกิดขึ้นในพื้นที่ส่วนตัวภายในที่พักอาศัยและปฏิเสธการอนุมัติ"
+  },
+  "twenty_facts4": {
+    "KO": " 심사위원회는 계단이 근로자 일반이 이용 가능한 통상의 출퇴근 경로임을 인정하여 원처분을 취소함.",
+    "EN": " The review committee recognized the staircase as a common commuting route accessible to workers in general and overturned the original decision.",
+    "VN": " Ủy ban xét duyệt đã hủy bỏ quyết định xử lý ban đầu vì công nhận cầu thang là lối đi làm thông thường mà công nhân thường sử dụng.",
+    "ID": " Komisi Peninjau membatalkan keputusan awal dengan mengakui bahwa tangga tersebut merupakan jalur masuk-keluar yang biasa digunakan oleh pekerja secara umum.",
+    "RU": " Комиссия по пересмотру признала лестницу общим маршрутом, доступным для всех работников, и отменила первоначальное решение.",
+    "MM": " ပြန်လည်စစ်ဆေးရေးကော်မတီက အဆိုပါ လှေကားသည် လုပ်သားများ အများအားဖြင့် အသုံးပြုနိုင်သည့် ပုံမှန်အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်းဖြစ်ကြောင်း အသိအမှတ်ပြုကာ မူလဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ခဲ့သည်။",
+    "NP": " छानबिन समितिले उक्त भर्याङलाई सामान्य श्रमिकहरूले प्रयोग गर्न सक्ने सामान्य काममा आउने-जाने मार्गको रूपमा मान्यता दिई मूल निर्णयलाई रद्द गरेको छ।",
+    "TH": " คณะกรรมการพิจารณาจึงยอมรับว่าบันไดดังกล่าวเป็นเส้นทางเดินทางไปทำงานตามปกติที่พนักงานทั่วไปสามารถใช้ได้ และได้ยกเลิกคำสั่งเดิม"
+  },
+  "twenty_important0": {
+    "KO": "출퇴근 경로의 정당성: 사고 장소인 단독주택 계단이 통상의 출퇴근 경로로 인정될 수 있는지 여부.",
+    "EN": "Legitimacy of the Commuting Route: Whether the staircase in the single-family home, the accident site, could be recognized as a common commuting route.",
+    "VN": "Tính hợp pháp của lối đi làm: Liệu cầu thang của ngôi nhà riêng, nơi xảy ra tai nạn, có thể được công nhận là lối đi làm thông thường hay không.",
+    "ID": "Keabsahan jalur masuk-keluar: Apakah tangga di rumah tunggal tempat kecelakaan terjadi dapat diakui sebagai jalur masuk-keluar yang biasa digunakan?",
+    "RU": "Законность маршрута: можно ли признать лестницу в отдельно стоящем доме, где произошел несчастный случай, общим маршрутом.",
+    "MM": "အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်း၏ တရားဝင်မှု: မတော်တဆမှုဖြစ်ပွားသည့် တစ်ဦးတည်းနေအိမ်၏ လှေကားကို ပုံမှန်အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်းအဖြစ် အသိအမှတ်ပြုနိုင်ခြင်းရှိမရှိ။",
+    "NP": "काममा आउने-जाने मार्गको वैधता: दुर्घटना भएको एकल घरको भर्याङलाई सामान्य काममा आउने-जाने मार्गको रूपमा मान्यता दिन सकिन्छ कि सकिँदैन।",
+    "TH": "ความถูกต้องของเส้นทางเดินทางไปทำงาน: สถานที่เกิดเหตุซึ่งเป็นบันไดบ้านเดี่ยวสามารถยอมรับว่าเป็นเส้นทางเดินทางไปทำงานตามปกติได้หรือไม่"
+  },
+  "twenty_important1": {
+    "KO": " 사적 경로 여부 판단: 해당 계단이 공사근로자 일반이 이용 가능한 경로인지, 개인적 사적 공간인지가 핵심 쟁점.",
+    "EN": " Determination of Private Route: The key issue is whether the staircase was a route generally accessible to construction workers or a purely private space.",
+    "VN": " Xác định liệu đó có phải là con đường riêng tư hay không: Vấn đề mấu chốt là liệu cầu thang đó có phải là con đường mà công nhân xây dựng nói chung có thể sử dụng hay là không gian riêng tư cá nhân.",
+    "ID": " Penilaian apakah jalur tersebut bersifat pribadi: Apakah tangga tersebut merupakan jalur yang dapat digunakan oleh pekerja konstruksi pada umumnya atau merupakan ruang pribadi adalah poin utama.",
+    "RU": " Определение статуса частного маршрута: ключевым вопросом является то, была ли лестница маршрутом, общедоступным для строительных рабочих, или чисто частным пространством.",
+    "MM": " ကိုယ်ရေးကိုယ်တာလမ်းကြောင်းဟုတ်မဟုတ် ဆုံးဖြတ်ခြင်း: အဆိုပါလှေကားသည် ဆောက်လုပ်ရေးလုပ်သားများ အများအားဖြင့် အသုံးပြုနိုင်သည့် လမ်းကြောင်းဟုတ်မဟုတ်၊ သို့မဟုတ် ကိုယ်ရေးကိုယ်တာ နေရာတစ်ခုသာ ဖြစ်ခြင်းရှိမရှိသည် အဓိကအငြင်းပွားဖွယ်ရာဖြစ်သည်။",
+    "NP": " व्यक्तिगत मार्गको पहिचान: उक्त भर्याङ सामान्य निर्माणकर्मीहरूले प्रयोग गर्न सक्ने मार्ग हो कि व्यक्तिगत स्थान हो भन्ने कुरा नै मुख्य मुद्दा हो।",
+    "TH": " การพิจารณาว่าเป็นเส้นทางส่วนตัวหรือไม่: ประเด็นสำคัญคือบันไดดังกล่าวเป็นเส้นทางที่คนงานก่อสร้างทั่วไปสามารถใช้ได้ หรือเป็นพื้นที่ส่วนตัวของบุคคล"
+  },
+  "twenty_decision0": {
+    "KO": "청구인의 사고는 근로자가 통상적으로 사용하는 출퇴근 경로(계단)에서 발생한 사고로 인정됨.",
+    "EN": "The claimant's accident was recognized as occurring on a staircase that workers typically use as a commuting route.",
+    "VN": "Tai nạn của người yêu cầu bồi thường được công nhận là tai nạn xảy ra trên con đường đi làm thông thường (cầu thang) mà công nhân sử dụng.",
+    "ID": "Kecelakaan yang dialami pemohon diakui sebagai kecelakaan yang terjadi di jalur pulang-pergi kerja (tangga) yang biasa digunakan oleh pekerja.",
+    "RU": "Несчастный случай с истцом был признан произошедшим на лестнице, которая является маршрутом, обычно используемым рабочими для передвижения.",
+    "MM": "「စက်မှုလုပ်ငန်းဆိုင်ရာ ထိခိုက်မှု လျော်ကြေးအာမခံဥပဒေ」 ပုဒ်မ ၃၇ (လုပ်ငန်းခွင် မတော်တဆမှု သတ်မှတ်ချက်များ) ပုဒ်မခွဲ ၁၊ အပိုဒ်ခွဲ ၃ (အလုပ်သွားအလုပ်ပြန် မတော်တဆမှု)",
+    "NP": "पीडितको दुर्घटना श्रमिकले सामान्य रूपमा प्रयोग गर्ने काममा आउने-जाने मार्ग (भर्याङ) मा भएको दुर्घटनाको रूपमा मान्यता दिइएको छ।",
+    "TH": "อุบัติเหตุของผู้ร้องเรียนได้รับการยอมรับว่าเป็นอุบัติเหตุที่เกิดขึ้นบนเส้นทางเดินทางไปทำงานตามปกติที่พนักงานใช้เป็นประจำ (บันได)"
+  },
+  "twenty_decision1": {
+    "KO": " 따라서 최초 불승인 처분은 취소되고, 업무상 재해로 승인됨.",
+    "EN": " Therefore, the initial denial decision was revoked, and the accident was approved as a work-related injury.",
+    "VN": " Do đó, quyết định từ chối ban đầu bị hủy bỏ và tai nạn được công nhận là tai nạn lao động.",
+    "ID": " Oleh karena itu, keputusan awal yang menolak klaim dibatalkan, dan kecelakaan tersebut diakui sebagai kecelakaan kerja.",
+    "RU": " В результате первоначальное решение об отказе было отменено, и несчастный случай был признан производственной травмой.",
+    "MM": " 「စက်မှုလုပ်ငန်းဆိုင်ရာ ထိခိုက်မှု လျော်ကြေးအာမခံဥပဒေ စည်းမျဉ်း」 ပုဒ်မ ၃၅ (အလုပ်သွားအလုပ်ပြန်စဉ် ဖြစ်ပွားသည့် မတော်တဆမှု)",
+    "NP": " त्यसैले, सुरुको अस्वीकृतिको निर्णय रद्द गरी औद्योगिक दुर्घटनाको रूपमा स्वीकृत गरिएको छ।",
+    "TH": " ดังนั้น คำสั่งปฏิเสธในตอนแรกจึงถูกยกเลิกและได้รับการอนุมัติว่าเป็นอุบัติเหตุจากการทำงาน"
+  },
+  "twenty_laws0": {
+    "KO": "「산업재해보상보험법」 제37조(업무상 재해의 인정 기준) 제1항 제3호(출퇴근 재해)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 37 (Criteria for Recognizing Work-Related Injuries), Paragraph 1, Item 3 (Commuting Injuries)",
+    "VN": "Điều 37 (Tiêu chuẩn công nhận tai nạn lao động) Khoản 1 Điều 3 (Tai nạn khi đi làm) của Luật Bảo hiểm tai nạn lao động",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 37 (Kriteria Pengakuan Kecelakaan Kerja) Ayat 1 Poin 3 (Kecelakaan Saat Perjalanan Kerja)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 37 (Критерии признания производственных травм), пункт 1, подпункт 3 (Травмы при перемещении)",
+    "MM": "「စက်မှုလုပ်ငန်းဆိုင်ရာ ထိခိုက်မှု လျော်ကြေးအာမခံဥပဒေ」 ပုဒ်မ ၃၇ (လုပ်ငန်းခွင် မတော်တဆမှု သတ်မှတ်ချက်များ) ပုဒ်မခွဲ ၁၊ အပိုဒ်ခွဲ ၃ (အလုပ်သွားအလုပ်ပြန် မတော်တဆမှု)",
+    "NP": "「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन」को दफा ३७ (काममा लाग्ने चोटपटकको मापदण्ड) को दफा १, उपदफा ३ (काममा आउने-जाने क्रममा लाग्ने चोटपटक)",
+    "TH": "「พระราชบัญญัติประกันภัยค่าตอบแทนอุบัติเหตุทางอุตสาหกรรม」 มาตรา 37 (หลักเกณฑ์การยอมรับอุบัติเหตุจากการทำงาน) วรรค 1 ข้อ 3 (อุบัติเหตุระหว่างเดินทางไปทำงาน)"
+  },
+  "twenty_laws1": {
+    "KO": " 「산업재해보상보험법 시행령」 제35조(출퇴근 중의 사고)",
+    "EN": " Industrial Accident Compensation Insurance Act Enforcement Decree, Article 35 (Accidents During Commuting)",
+    "VN": " Điều 35 (Tai nạn khi đi làm) của Nghị định thi hành Luật Bảo hiểm tai nạn lao động",
+    "ID": " 「Peraturan Pelaksanaan Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 35 (Kecelakaan Saat Perjalanan Kerja)",
+    "RU": " Постановление о применении Закона о страховании от несчастных случаев на производстве, статья 35 (Несчастные случаи при перемещении)",
+    "MM": " 「စက်မှုလုပ်ငန်းဆိုင်ရာ ထိခိုက်မှု လျော်ကြေးအာမခံဥပဒေ စည်းမျဉ်း」 ပုဒ်မ ၃၅ (အလုပ်သွားအလုပ်ပြန်စဉ် ဖြစ်ပွားသည့် မတော်တဆမှု)",
+    "NP": " 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐनको कार्यान्वयन अध्यादेश」को दफा ३५ (काममा आउने-जाने क्रममा भएको दुर्घटना)",
+    "TH": " 「พระราชบัญญัติบังคับใช้กฎหมายประกันภัยอุบัติเหตุทางอุตสาหกรรม」 มาตรา 35 (อุบัติเหตุระหว่างเดินทางไปทำงาน)"
+  },
+  "twentyone_title": {
+    "KO": "출퇴근 중 사고 – 자녀집 출발 인정 사례",
+    "EN": "Commuting Accident – Case Recognizing Departure from Child's Home",
+    "VN": "Tai nạn trên đường đi làm – Trường hợp được công nhận xuất phát từ nhà con cái",
+    "ID": "Kecelakaan saat berangkat atau pulang kerja – Kasus pengakuan keberangkatan dari rumah anak",
+    "RU": "Несчастный случай по дороге на работу – Дело признано начавшимся от места проживания ребенка",
+    "MM": "အလုပ်သွားအလုပ်ပြန်နေစဉ် မတော်တဆမှု - သားသမီးနေအိမ်မှ ထွက်ခွာခြင်းကို အသိအမှတ်ပြုခြင်း ဖြစ်ရပ်",
+    "NP": "काममा आउने-जाने क्रममा दुर्घटना - छोराछोरीको घरबाट प्रस्थानलाई मान्यता दिइएको उदाहरण",
+    "TH": "อุบัติเหตุระหว่างเดินทางไปทำงาน – ตัวอย่างการยอมรับการเดินทางจากบ้านบุตร"
+  },
+  "twentyone_summary0": {
+    "KO": "승인 여부: 승인",
+    "EN": "Approval Status: Approved",
+    "VN": "Kết quả phê duyệt: Được phê duyệt",
+    "ID": "Status Persetujuan: Disetujui",
+    "RU": "Статус утверждения: Утверждено",
+    "MM": "ခွင့်ပြုခြင်းရှိမရှိ: ခွင့်ပြု",
+    "NP": "स्वीकृति स्थिति: स्वीकृत",
+    "TH": "สถานะการอนุมัติ: อนุมัติ"
+  },
+  "twentyone_summary1": {
+    "KO": " 발생 일시: 2024. 2. 25. 19:30경",
+    "EN": " Date/Time of Occurrence: February 25, 2024, around 19:30",
+    "VN": " Thời gian xảy ra: Khoảng 19:30 ngày 25/02/2024",
+    "ID": " Waktu Kejadian: 25 Februari 2024, sekitar pukul 19:30",
+    "RU": " Дата и время происшествия: Примерно 19:30, 25 февраля 2024 г.",
+    "MM": " ဖြစ်ပွားသည့်နေ့: ၂၀၂၄ ခုနှစ်၊ ဖေဖော်ဝါရီလ ၂၅ ရက်၊ ညနေ ၇ နာရီ ၃၀ မိနစ်ခန့်",
+    "NP": " घट्ना भएको मिति र समय: २०२४. २. २५. साँझ ७:३० बजे",
+    "TH": " วันและเวลาเกิดเหตุ: วันที่ 25 กุมภาพันธ์ 2567 เวลาประมาณ 19:30 น."
+  },
+  "twentyone_summary2": {
+    "KO": " 발생 장소: ○○광역시 ○○구 ○○로 ○○요양원 앞 경사진 도로",
+    "EN": " Location: Sloped road in front of ○○ Nursing Home, ○○-ro, ○○-gu, ○○ Metropolitan City",
+    "VN": " Địa điểm xảy ra: Đường dốc trước viện dưỡng lão ○○, ○○-ro, ○○-gu, thành phố ○○",
+    "ID": " Lokasi Kejadian: Jalan miring di depan Panti Jompo ○○, Jalan ○○, Distrik ○○, Kota Metropolitan ○○",
+    "RU": " Место: Уклонная дорога перед домом престарелых ○○, ○○-ро, ○○-гу, город ○○",
+    "MM": " ဖြစ်ပွားသည့်နေရာ: ○○မြို့ ○○ရပ်ကွက် ○○လမ်း ○○ဆေးရုံရှေ့ လျှောစောက်လမ်းပေါ်",
+    "NP": " घट्ना भएको स्थान: ○○महानगरपालिका ○○गु ○○रो ○○हेमगृह अगाडिको उकालो सडक",
+    "TH": " สถานที่เกิดเหตุ: ถนนทางลาดชันหน้าศูนย์ดูแลผู้สูงอายุ ○○, ถนน ○○, เขต ○○, เมือง ○○"
+  },
+  "twentyone_summary3": {
+    "KO": " 근로자 정보: 요양보호사",
+    "EN": " Worker Information: Nursing Care Worker",
+    "VN": " Thông tin người lao động: Nhân viên chăm sóc dưỡng lão",
+    "ID": " Informasi Pekerja: Perawat Lansia",
+    "RU": " Информация о работнике: Уход за больными",
+    "MM": " လုပ်သားအချက်အလက်: သက်ကြီးရွယ်အိုစောင့်ရှောက်ရေးဝန်ဆောင်မှု လုပ်ငန်း",
+    "NP": " श्रमिकको जानकारी: वृद्धवृद्धाको हेरचाह गर्ने कर्मचारी",
+    "TH": " ข้อมูลพนักงาน: พนักงานดูแลผู้สูงอายุ"
+  },
+  "twentyone_summary4": {
+    "KO": " 상병명: 요추부 염좌, 경추부 염좌, 양측 무릎의 염좌, 좌측 손목의 염좌, 좌측 얼굴 찰과상",
+    "EN": " Injuries: Lumbar Sprain, Cervical Sprain, Bilateral Knee Sprains, Left Wrist Sprain, Left Facial Abrasion",
+    "VN": " Chẩn đoán: Bị trật khớp cột sống thắt lưng, trật khớp cột sống cổ, trật khớp cả hai đầu gối, trật khớp cổ tay trái, trầy xước mặt trái",
+    "ID": " Diagnosis Cedera: Sprain tulang belakang bawah, sprain tulang belakang leher, sprain kedua lutut, sprain pergelangan tangan kiri, lecet wajah kiri",
+    "RU": " Травмы: Растяжение поясничного отдела позвоночника, растяжение шейного отдела позвоночника, растяжение коленного сустава с обеих сторон, растяжение левого запястья, ссадина левой части лица",
+    "MM": "ဒဏ်ရာအမျိုးအစား: ခါးရိုးအဆစ်လွဲခြင်း၊ လည်ပင်းရိုးအဆစ်လွဲခြင်း၊ ဒူးနှစ်ဖက်စလုံး အဆစ်လွဲခြင်း၊ ဘယ်ဘက်လက်ကောက်ဝတ် အဆစ်လွဲခြင်း၊ ဘယ်ဘက်မျက်နှာ ပွန်းပဲ့ဒဏ်ရာများ",
+    "NP": " चोटको विवरण: कम्मर, घाँटी, दुवै घुँडा, बायाँ नाडीको मोच, बायाँ अनुहारमा घाउ",
+    "TH": " อาการบาดเจ็บ: ข้อกระดูกสันหลังส่วนเอวเคล็ด, ข้อกระดูกคอเคล็ด, ข้อเข่าทั้งสองข้างเคล็ด, ข้อมือซ้ายเคล็ด, แผลถลอกที่ใบหน้าด้านซ้าย"
+  },
+  "twentyone_situation": {
+    "KO": "재해자의 근무일이 일요일이라 자녀 집에 들른 후 출근하던 중 발생한 사고를 원처분기관은 출근 경로 이탈·중단으로 판단하여 불승인했으나, 주민등록상 주소지는 실제 거주지가 아니었고, 제출된 자료에 따라 자녀 집이 실제 거주지임이 확인되어 통상의 출퇴근 경로에서 발생한 사고로 인정, 원처분 “취소” 결정한 사례",
+    "EN": "The original decision-making authority denied the claim, judging the accident—which occurred while the injured worker was commuting after visiting their child's home on a Sunday workday—as a deviation/interruption from the usual commute route. However, the address on the resident registration was not the actual residence, and submitted evidence confirmed the child's home as the actual residence. The accident was thus recognized as occurring on the usual commute route, leading to a decision to “cancel” the original denial.",
+    "VN": "Vì ngày làm việc của nạn nhân là Chủ nhật, nên sau khi ghé qua nhà con cái, trên đường đi làm thì xảy ra tai nạn. Cơ quan xử lý ban đầu đã từ chối bồi thường vì cho rằng nạn nhân đã đi chệch khỏi đường đi làm và ngừng làm việc. Tuy nhiên, địa chỉ đăng ký cư trú không phải là nơi cư trú thực tế, và theo tài liệu được nộp, nhà con cái là nơi cư trú thực tế, nên tai nạn được công nhận là tai nạn xảy ra trên đường đi làm bình thường, và quyết định xử lý ban đầu đã bị \"hủy bỏ\".",
+    "ID": "Karena hari kerja korban adalah hari Minggu, ia mampir ke rumah anaknya sebelum berangkat kerja. Instansi penentu awal menilai kecelakaan tersebut sebagai penyimpangan atau penghentian rute perjalanan kerja dan menolak klaim. Namun, alamat terdaftar dalam catatan kependudukan bukanlah tempat tinggal sebenarnya, dan berdasarkan dokumen yang diajukan, rumah anaknya terbukti sebagai tempat tinggal sebenarnya. Oleh karena itu, kecelakaan tersebut diakui sebagai kecelakaan yang terjadi di rute perjalanan kerja biasa, dan keputusan penolakan awal dibatalkan.",
+    "RU": "Первоначальный орган, принимавший решение, счел, что несчастный случай, произошедший во время поездки пострадавшего на работу после посещения дома своего ребенка в воскресенье (его рабочий день), был отклонением/прерыванием маршрута поездки на работу и поэтому отклонил заявление. Однако адрес, указанный в регистрации по месту жительства, не был фактическим местом проживания, и представленные доказательства подтвердили, что фактическим местом проживания был дом ребенка. В результате несчастный случай был признан произошедшим на обычном маршруте поездки на работу, что привело к решению «отменить» первоначальное распоряжение.",
+    "MM": "ကွယ်လွန်သူ၏ လုပ်ငန်းခွင်သည် တနင်္ဂနွေနေ့ဖြစ်၍ သားသမီးနေအိမ်သို့ ဝင်ရောက်ပြီးနောက် အလုပ်သွားနေစဉ် ဖြစ်ပွားသည့် မတော်တဆမှုကို မူလဆုံးဖြတ်ချက်ချသည့်အဖွဲ့အစည်းက အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်း သွေဖည်မှု/ပြတ်တောက်မှုအဖြစ် သတ်မှတ်ကာ ခွင့်မပြုခဲ့သော်လည်း၊ အိမ်ထောင်စုစာရင်းပါ လိပ်စာသည် အမှန်တကယ် နေထိုင်ရာနေရာမဟုတ်ကြောင်းနှင့် တင်ပြထားသော စာရွက်စာတမ်းများအရ သားသမီးနေအိမ်သည် အမှန်တကယ် နေထိုင်ရာနေရာဖြစ်ကြောင်း အတည်ပြုနိုင်ခဲ့သည်။ ထို့ကြောင့် ပုံမှန်အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်းတွင် ဖြစ်ပွားသည့် မတော်တဆမှုအဖြစ် အသိအမှတ်ပြုပြီး မူလဆုံးဖြတ်ချက်ကို \"ပယ်ဖျက်\" ခဲ့သည့် ဖြစ်ရပ်ဖြစ်သည်။",
+    "NP": "यो घटनामा, पीडितको काम गर्ने दिन आइतबार भएकोले छोराछोरीको घरमा गएपछि काममा जाँदै गर्दा दुर्घटना भएको थियो। सुरुमा, मूल निर्णय गर्ने निकायले यसलाई काममा जाने मार्गबाट विचलित वा बाधित भएको कार्य मानी अस्वीकृत गरेको थियो। तर, नागरिकतामा भएको ठेगाना वास्तविक बसोबासको स्थान नभएको र पेश गरिएका कागजातहरूबाट छोराछोरीको घर नै वास्तविक बसोबासको स्थान भएको पुष्टि भएकोले, यसलाई सामान्य काममा आउने-जाने मार्गमा भएको दुर्घटनाको रूपमा मान्यता दिई मूल निर्णयलाई \"रद्द\" गर्ने निर्णय गरिएको हो।",
+    "TH": "เป็นกรณีที่อุบัติเหตุเกิดขึ้นขณะเดินทางไปทำงานในวันอาทิตย์หลังจากแวะที่บ้านบุตร ซึ่งเดิมทีหน่วยงานที่ตัดสินใจในตอนแรกพิจารณาว่าเป็นการเบี่ยงเบนและหยุดชะงักจากเส้นทางไปทำงานและปฏิเสธการอนุมัติ อย่างไรก็ตาม ที่อยู่ตามทะเบียนราษฎร์ไม่ใช่ที่พักอาศัยจริง และหลักฐานที่ยื่นแสดงให้เห็นว่าบ้านบุตรเป็นที่พักอาศัยจริง จึงได้รับการยอมรับว่าเป็นอุบัติเหตุที่เกิดขึ้นบนเส้นทางเดินทางไปทำงานตามปกติ และมีคำสั่ง \"ยกเลิก\" คำสั่งเดิม"
+  },
+  "twentyone_facts0": {
+    "KO": "청구인은 출근길에 요양원 앞 도로에서 미끄러져 넘어졌다고 진술.",
+    "EN": "The claimant stated they slipped and fell on the road in front of a nursing home while commuting.",
+    "VN": "Người yêu cầu bồi thường khai rằng mình bị trượt ngã trên đường đi làm trước một viện dưỡng lão.",
+    "ID": "Pemohon menyatakan bahwa ia terpeleset dan jatuh di jalan depan panti jompo saat dalam perjalanan ke tempat kerja.",
+    "RU": "Заявитель указал, что он поскользнулся и упал на дороге перед домом престарелых во время поездки на работу.",
+    "MM": "လျှောက်ထားသူသည် အလုပ်သွားရာလမ်းတွင် သက်ကြီးရွယ်အိုစောင့်ရှောက်ရေးဆေးရုံရှေ့ရှိ လမ်းမပေါ်တွင် ချော်လဲခဲ့ကြောင်း ထွက်ဆိုခဲ့သည်။",
+    "NP": "पीडितले काममा जाने क्रममा हेमगृह अगाडिको सडकमा चिप्लिएर लडेको बयान दिएका थिए।",
+    "TH": "ผู้ร้องเรียนให้การว่าลื่นล้มบนถนนหน้าศูนย์ดูแลผู้สูงอายุขณะเดินทางไปทำงาน"
+  },
+  "twentyone_facts1": {
+    "KO": " 최초요양신청서 내용과 진단기록에서 상병과 사고 경위가 일치함.",
+    "EN": " The initial medical treatment application and diagnostic records show consistency between the injury and the accident circumstances.",
+    "VN": " Nội dung đơn xin điều trị ban đầu và hồ sơ chẩn đoán phù hợp với tình trạng bệnh và hoàn cảnh tai nạn.",
+    "ID": " Isi permohonan perawatan awal dan catatan diagnosis sesuai dengan penyakit dan keadaan kecelakaan.",
+    "RU": " Первоначальное заявление о медицинской помощи и диагностические записи показали соответствие между травмой и обстоятельствами несчастного случая.",
+    "MM": " ကနဦး ဆေးကုသမှုလျှောက်လွှာနှင့် ဆေးမှတ်တမ်းများတွင် ဒဏ်ရာများနှင့် မတော်တဆမှုဖြစ်ပွားရခြင်း အကြောင်းရင်းတို့ ကိုက်ညီသည်။",
+    "NP": " सुरुको उपचार आवेदन र निदान रेकर्डमा चोटपटक र दुर्घटनाको कारण मिल्दोजुल्दो थियो।",
+    "TH": " เนื้อหาในใบคำขอรับการรักษาพยาบาลฉบับแรกและบันทึกการวินิจฉัยสอดคล้องกันทั้งอาการบาดเจ็บและรายละเอียดการเกิดอุบัติเหตุ"
+  },
+  "twentyone_facts2": {
+    "KO": " 사업주 진술, 조사 확인, CCTV·블랙박스 등으로 사고 사실 인정됨.",
+    "EN": " The accident fact was acknowledged based on the employer's statement, investigation confirmation, CCTV, and dashcam footage.",
+    "VN": " Tai nạn được xác nhận dựa trên lời khai của chủ doanh nghiệp, kết quả điều tra, camera an ninh và hộp đen.",
+    "ID": " Pernyataan pemilik usaha, hasil penyelidikan, CCTV, dan black box mengonfirmasi fakta kecelakaan.",
+    "RU": " Несчастный случай был признан на основании заявления работодателя, подтверждения расследования, записей камер видеонаблюдения и видеорегистратора.",
+    "MM": " လုပ်ငန်းပိုင်ရှင်၏ ထွက်ဆိုချက်၊ စစ်ဆေးမှုများ၊ CCTV/Black Box မှတ်တမ်းများအရ မတော်တဆမှုဖြစ်ရပ်ကို အတည်ပြုနိုင်သည်။",
+    "NP": " रोजगारदाताको बयान, अनुसन्धान र CCTV/ब्ल्याक बक्स जस्ता प्रमाणहरूबाट दुर्घटनाको तथ्य स्वीकार गरिएको थियो।",
+    "TH": " ข้อเท็จจริงของอุบัติเหตุได้รับการยอมรับจากคำให้การของนายจ้าง, การตรวจสอบ, และกล้องวงจรปิด/กล้องหน้ารถ"
+  },
+  "twentyone_facts3": {
+    "KO": " 주민등록상 주소는 실제 거주지가 아니며, 각종 자료를 통해 자녀 집이 실거주지임이 확인됨.",
+    "EN": " The address on the resident registration was not the actual residence, and various materials confirmed the child's home as the actual residence.",
+    "VN": " Địa chỉ đăng ký cư trú không phải là nơi cư trú thực tế, và các tài liệu khác xác nhận nhà con cái là nơi cư trú thực tế.",
+    "ID": " Alamat pada daftar penduduk bukan tempat tinggal sebenarnya, dan berbagai dokumen menunjukkan bahwa rumah anak adalah tempat tinggal sebenarnya.",
+    "RU": " Зарегистрированный адрес не был фактическим местом проживания; различные документы подтвердили, что дом ребенка был фактическим местом проживания.",
+    "MM": " အိမ်ထောင်စုစာရင်းပါ လိပ်စာသည် အမှန်တကယ် နေထိုင်ရာနေရာမဟုတ်ကြောင်းနှင့် အမျိုးမျိုးသော စာရွက်စာတမ်းများမှ သားသမီးနေအိမ်သည် အမှန်တကယ် နေထိုင်ရာနေရာဖြစ်ကြောင်း အတည်ပြုနိုင်ခဲ့သည်။",
+    "NP": " नागरिकतामा भएको ठेगाना वास्तविक बसोबासको स्थान नभएको र विभिन्न कागजातहरूबाट छोराछोरीको घर नै वास्तविक बसोबासको स्थान भएको पुष्टि भएको थियो।",
+    "TH": " ที่อยู่ตามทะเบียนราษฎร์ไม่ใช่ที่พักอาศัยจริง และได้รับการยืนยันจากเอกสารต่างๆ ว่าบ้านบุตรเป็นที่พักอาศัยจริง"
+  },
+  "twentyone_facts4": {
+    "KO": " 원처분은 경로 이탈로 불승인했으나, 심사위는 자녀 집을 실거주지로 인정해 출퇴근 경로로 판단.",
+    "EN": " The initial decision denied the claim due to deviation from the route, but the review committee recognized the child's home as the actual residence and deemed it part of the commuting route.",
+    "VN": " Quyết định ban đầu không chấp nhận do lệch khỏi lộ trình, nhưng ủy ban thẩm định công nhận nhà của con cái là nơi cư trú thực tế và xác định đó là lộ trình đi làm.",
+    "ID": " Keputusan awal menolak klaim karena dianggap menyimpang dari rute normal, namun komite peninjau mengakui rumah anak sebagai tempat tinggal sebenarnya dan menilai rute tersebut sebagai rute perjalanan kerja.",
+    "RU": " Первоначальное решение отклонило заявление на основании отклонения от маршрута, но комиссия по пересмотру признала дом ребенка фактическим местом проживания и посчитала его частью маршрута поездки на работу.",
+    "MM": " မူလဆုံးဖြတ်ချက်က လမ်းကြောင်းသွေဖည်မှုအဖြစ် သတ်မှတ်ကာ ခွင့်မပြုခဲ့သော်လည်း၊ ပြန်လည်စစ်ဆေးရေးကော်မတီက သားသမီးနေအိမ်ကို အမှန်တကယ် နေထိုင်ရာနေရာအဖြစ် အသိအမှတ်ပြုကာ အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်းအဖြစ် သတ်မှတ်ခဲ့သည်။",
+    "NP": " मूल निर्णय मार्गबाट विचलित भएकोले अस्वीकृत गरिएको थियो, तर छानबिन समितिले छोराछोरीको घरलाई वास्तविक बसोबासको स्थान मानी काममा जाने मार्गको रूपमा ठहर गरेको छ।",
+    "TH": " เดิมทีมีการปฏิเสธเนื่องจากเป็นการเบี่ยงเบนเส้นทาง แต่คณะกรรมการพิจารณาได้ยอมรับบ้านบุตรเป็นที่พักอาศัยจริงและตัดสินว่าเป็นเส้นทางเดินทางไปทำงาน"
+  },
+  "twentyone_important0": {
+    "KO": "실제 거주지의 인정 여부: 주민등록상 주소지가 아닌 자녀 집이 실 거주지로 인정될 수 있는지.",
+    "EN": "Recognition of Actual Residence: Whether the child's home, not the address on the resident registration, can be recognized as the actual residence.",
+    "VN": "Việc công nhận nơi cư trú thực tế: Có thể công nhận nhà của con cái, không phải địa chỉ đăng ký cư trú, là nơi cư trú thực tế hay không.",
+    "ID": "Pengakuan tempat tinggal sebenarnya: Apakah rumah anak, bukan alamat terdaftar, dapat diakui sebagai tempat tinggal sebenarnya.",
+    "RU": "Признание фактического места проживания: может ли дом ребенка, а не зарегистрированный адрес, быть признан фактическим местом проживания?",
+    "MM": "အမှန်တကယ် နေထိုင်ရာနေရာကို အသိအမှတ်ပြုခြင်းရှိမရှိ: အိမ်ထောင်စုစာရင်းပါ လိပ်စာမဟုတ်ဘဲ သားသမီးနေအိမ်ကို အမှန်တကယ် နေထိုင်ရာနေရာအဖြစ် အသိအမှတ်ပြုနိုင်ခြင်းရှိမရှိ။",
+    "NP": "वास्तविक बसोबासको स्थानको मान्यता: नागरिकतामा भएको ठेगाना नभई छोराछोरीको घरलाई वास्तविक बसोबासको स्थानको रूपमा मान्यता दिन सकिन्छ कि सकिँदैन।",
+    "TH": "การยอมรับที่พักอาศัยจริง: บ้านของบุตรซึ่งไม่ใช่ที่อยู่ตามทะเบียนราษฎร์สามารถยอมรับเป็นที่พักอาศัยจริงได้หรือไม่"
+  },
+  "twentyone_important1": {
+    "KO": " 출퇴근 경로의 연속성: 자녀 집에서 출발한 경로가 통상의 출퇴근 경로에 해당하는지 여부.",
+    "EN": " Continuity of Commuting Route: Whether the route starting from the child's home constitutes the usual commuting route.",
+    "VN": " Tính liên tục của lộ trình đi làm: Lộ trình khởi hành từ nhà của con cái có phải là lộ trình đi làm thông thường hay không.",
+    "ID": " Kelanjutan rute perjalanan kerja: Apakah rute yang dimulai dari rumah anak termasuk dalam rute perjalanan kerja normal.",
+    "RU": " Непрерывность маршрута поездки на работу: является ли маршрут, начинающийся от дома ребенка, обычным маршрутом поездки на работу?",
+    "MM": " အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်း၏ ဆက်စပ်မှု: သားသမီးနေအိမ်မှ စတင်ထွက်ခွာသည့် လမ်းကြောင်းသည် ပုံမှန်အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်းတွင် ပါဝင်ခြင်းရှိမရှိ။",
+    "NP": " काममा आउने-जाने मार्गको निरन्तरता: छोराछोरीको घरबाट सुरु भएको मार्ग सामान्य काममा आउने-जाने मार्गमा पर्छ कि पर्दैन।",
+    "TH": " ความต่อเนื่องของเส้นทางเดินทางไปทำงาน: เส้นทางที่เริ่มต้นจากบ้านของบุตรถือเป็นเส้นทางเดินทางไปทำงานตามปกติหรือไม่"
+  },
+  "twentyone_decision0": {
+    "KO": "자녀 집이 실제 생활 근거지임이 입증됨.",
+    "EN": " It was proven that the child's residence served as the actual base of daily life.",
+    "VN": "Đã chứng minh được nhà của con là nơi sinh sống thực tế.",
+    "ID": "Rumah anak terbukti sebagai tempat tinggal sebenarnya.",
+    "RU": "Было доказано, что дом ребенка являлся фактической базой повседневной жизни.",
+    "MM": "သားသမီးနေအိမ်သည် အမှန်တကယ် နေထိုင်ရာ အခြေခံနေရာဖြစ်ကြောင်း သက်သေပြနိုင်ခဲ့သည်။",
+    "NP": "छोराछोरीको घर नै वास्तविक जीवनयापनको आधार भएको प्रमाणित भएको छ।",
+    "TH": "มีการพิสูจน์ได้ว่าบ้านของบุตรเป็นสถานที่ตั้งถิ่นฐานจริง"
+  },
+  "twentyone_decision1": {
+    "KO": " 따라서 자녀 집에서 출발한 출근 경로는 통상의 출퇴근 경로에 해당.",
+    "EN": " Therefore, the commuting route starting from the child's residence constitutes a normal commuting route.",
+    "VN": " Do đó, lộ trình đi làm bắt đầu từ nhà của con là lộ trình đi làm bình thường.",
+    "ID": " Oleh karena itu, rute perjalanan kerja yang dimulai dari rumah anak termasuk dalam rute perjalanan kerja biasa.",
+    "RU": " Следовательно, маршрут, начинающийся от дома ребенка, являлся обычным маршрутом поездки на работу.",
+    "MM": " ထို့ကြောင့် သားသမီးနေအိမ်မှ စတင်ထွက်ခွာသည့် အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်းသည် ပုံမှန်အလုပ်သွားအလုပ်ပြန်လမ်းကြောင်းတွင် ပါဝင်သည်။",
+    "NP": " त्यसैले, छोराछोरीको घरबाट सुरु भएको काममा जाने मार्ग सामान्य काममा आउने-जाने मार्गमा पर्छ।",
+    "TH": " ดังนั้น เส้นทางเดินทางไปทำงานที่เริ่มต้นจากบ้านของบุตรจึงถือเป็นเส้นทางเดินทางไปทำงานตามปกติ"
+  },
+  "twentyone_decision2": {
+    "KO": " 본 사고는 업무상 재해로 인정되며, 원처분 불승인 처분은 취소됨.",
+    "EN": " This accident is recognized as a work-related injury, and the original denial decision is revoked.",
+    "VN": " Tai nạn này được công nhận là tai nạn lao động, và quyết định từ chối ban đầu bị hủy bỏ.",
+    "ID": " Kecelakaan ini diakui sebagai kecelakaan kerja, dan keputusan awal yang menolak pengakuan dibatalkan.",
+    "RU": " Данный несчастный случай признан производственной травмой, и первоначальное решение об отказе отменено.",
+    "MM": " ဤမတော်တဆမှုသည် လုပ်ငန်းခွင် မတော်တဆမှုအဖြစ် အသိအမှတ်ပြုခံရပြီး မူလ ခွင့်မပြုရန် ဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ခဲ့သည်။",
+    "NP": " यो दुर्घटनालाई औद्योगिक दुर्घटनाको रूपमा मान्यता दिइएको छ, र सुरुको अस्वीकृतिको निर्णय रद्द गरिएको छ।",
+    "TH": " อุบัติเหตุนี้ได้รับการยอมรับว่าเป็นอุบัติเหตุจากการทำงาน และคำสั่งปฏิเสธในตอนแรกถูกยกเลิก"
+  },
+  "twentyone_laws0": {
+    "KO": "산재보험법 제5조 (정의) 제1호",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 5 (Definitions), Item 1",
+    "VN": "Điều 5 (Định nghĩa) Khoản 1 của 「Luật bảo hiểm tai nạn lao động」",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 5 (Definisi) Ayat 1",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 5 (Определения), пункт 1.",
+    "MM": "「စက်မှုလုပ်ငန်းဆိုင်ရာ ထိခိုက်မှု လျော်ကြေးအာမခံဥပဒေ」 ပုဒ်မ ၅ (အဓိပ္ပာယ်ဖွင့်ဆိုချက်) ပုဒ်မခွဲ ၁",
+    "NP": "「औद्योगिक दुर्घटना बीमा कानुन」को दफा ५ (परिभाषा) को उपदफा १",
+    "TH": "「พระราชบัญญัติประกันภัยค่าตอบแทนอุบัติเหตุทางอุตสาหกรรม」 มาตรา 5 (คำนิยาม) ข้อ 1"
+  },
+  "twentyone_laws1": {
+    "KO": " 산재보험법 제37조 (업무상의 재해의 인정기준)",
+    "EN": " Industrial Accident Compensation Insurance Act Article 37 (Criteria for Recognizing Work-Related Injuries)",
+    "VN": " Điều 37 (Tiêu chuẩn công nhận tai nạn lao động) của \"Luật bảo hiểm tai nạn lao động\"",
+    "ID": " 「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 37 (Kriteria Pengakuan Kecelakaan Kerja)",
+    "RU": " Закон о страховании от несчастных случаев на производстве, статья 37 (Критерии признания производственных травм)",
+    "MM": " 「စက်မှုလုပ်ငန်းဆိုင်ရာ ထိခိုက်မှု လျော်ကြေးအာမခံဥပဒေ」 ပုဒ်မ ၃၇ (လုပ်ငန်းခွင်ဆိုင်ရာ မတော်တဆမှု သတ်မှတ်ချက်များ)",
+    "NP": " 「औद्योगिक दुर्घटना बीमा कानुन」को दफा ३७ (काममा लाग्ने चोटपटकको मापदण्ड)",
+    "TH": " 「พระราชบัญญัติประกันภัยค่าตอบแทนอุบัติเหตุทางอุตสาหกรรม」 มาตรา 37 (หลักเกณฑ์การยอมรับอุบัติเหตุจากการทำงาน)"
+  },
+  "twentyone_laws2": {
+    "KO": " 「산재보험법 시행령」 제35조 (출퇴근 중의 사고)",
+    "EN": " Industrial Accident Compensation Insurance Act Enforcement Decree Article 35 (Accidents During Commuting)",
+    "VN": " Điều 35 (Tai nạn trong quá trình đi làm) của \"Nghị định thi hành Luật bảo hiểm tai nạn lao động\"",
+    "ID": " 「Peraturan Pelaksanaan Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 35 (Kecelakaan Selama Perjalanan Kerja)",
+    "RU": " Постановление о применении Закона о страховании от несчастных случаев на производстве, статья 35 (Несчастные случаи во время поездки на работу и с работы)",
+    "MM": " 「စက်မှုလုပ်ငန်းဆိုင်ရာ ထိခိုက်မှု လျော်ကြေးအာမခံဥပဒေ စည်းမျဉ်း」 ပုဒ်မ ၃၅ (အလုပ်သွားအလုပ်ပြန်စဉ် ဖြစ်ပွားသည့် မတော်တဆမှု)",
+    "NP": " 「औद्योगिक दुर्घटना बीमा कानुनको कार्यान्वयन अध्यादेश」को दफा ३५ (काममा आउने-जाने क्रममा भएको दुर्घटना)",
+    "TH": " 「พระราชบัญญัติบังคับใช้กฎหมายประกันภัยอุบัติเหตุทางอุตสาหกรรม」 มาตรา 35 (อุบัติเหตุระหว่างเดินทางไปทำงาน)"
+  },
+  "twentyone_laws3": {
+    "KO": " 산재보험법 제105조 (심사청구에 대한 심리·결정) 제1항",
+    "EN": " Industrial Accident Compensation Insurance Act Article 105 (Hearing and Decision on Review Requests) Paragraph 1",
+    "VN": " Điều 105 (Xét xử và quyết định yêu cầu thẩm tra) khoản 1 của \"Luật bảo hiểm tai nạn lao động\"",
+    "ID": " 「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 105 (Pemeriksaan dan Keputusan atas Permohonan Banding) Ayat 1",
+    "RU": " Закон о страховании от несчастных случаев на производстве, статья 105 (Слушание и решение по запросам о пересмотре), пункт 1",
+    "MM": " 「စက်မှုလုပ်ငန်းဆိုင်ရာ ထိခိုက်မှု လျော်ကြေးအာမခံဥပဒေ」 ပုဒ်မ ၁၀၅ (ပြန်လည်စစ်ဆေးရန် တောင်းဆိုမှုအပေါ် စစ်ဆေးဆုံးဖြတ်ခြင်း) ပုဒ်မခွဲ ၁",
+    "NP": " 「औद्योगिक दुर्घटना बीमा कानुन」को दफा १०५ (छानबिनको लागि अनुरोधको छानबिन र निर्णय) को दफा १",
+    "TH": " 「พระราชบัญญัติประกันภัยค่าตอบแทนอุบัติเหตุทางอุตสาหกรรม」 มาตรา 105 (การพิจารณาและตัดสินคำร้องขอทบทวน) วรรค 1"
+  }
+}
