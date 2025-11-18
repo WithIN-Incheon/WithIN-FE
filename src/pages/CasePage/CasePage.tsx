@@ -6,6 +6,8 @@ import { CASES, type CaseItem, type CaseKind } from "./cases";
 import { useLocalization } from "../../contexts/LocalizationContext";
 import "./CasePage.css";
 
+type DisplayCaseItem = CaseItem & { displayTitle: string };
+
 export default function CasePage() {
   const { t } = useLocalization();
   const [tab, setTab] = useState<CaseKind>("accident");
@@ -20,13 +22,33 @@ export default function CasePage() {
     disease: [t("entire"), "exampleWhileSick"],
   };
 
+  const translateTitle = (titleKey: string) => {
+    try {
+      const translated = t(titleKey as any);
+      return translated !== titleKey ? translated : titleKey;
+    } catch {
+      return titleKey;
+    }
+  };
+
   // 필터 + 검색 적용
-  const list = useMemo<CaseItem[]>(() => {
-    const all = CASES.filter((c) => c.kind === tab);
-    const filtered = filter === t("entire") ? all : all.filter((c) => c.tag === filter);
+  const list = useMemo<DisplayCaseItem[]>(() => {
+    const all = CASES.filter((c) => c.kind === tab).map((item) => ({
+      ...item,
+      displayTitle: translateTitle(item.title),
+    }));
+
+    const filtered =
+      filter === t("entire") ? all : all.filter((c) => c.tag === filter);
+
     if (!search) return filtered;
-    return filtered.filter((c) => c.title.includes(search));
-  }, [tab, filter, search]);
+    const keyword = search.trim().toLowerCase();
+    if (!keyword) return filtered;
+
+    return filtered.filter((c) =>
+      c.displayTitle.toLowerCase().includes(keyword)
+    );
+  }, [tab, filter, search, t]);
 
   const goDetail = (id: number, title: string) => {
     nav(`/cases/${id}`, { state: { title } });
@@ -141,9 +163,9 @@ export default function CasePage() {
                 <div className="case-title-line">
                   <button
                     className="title"
-                    onClick={() => goDetail(c.id, c.title)}
+                    onClick={() => goDetail(c.id, c.displayTitle)}
                   >
-                    {c.title}
+                    {c.displayTitle}
                   </button>
                 </div>
 
@@ -156,7 +178,7 @@ export default function CasePage() {
                   className="arrow"
                   src="/arrow-gray.svg"
                   alt="자세히"
-                  onClick={() => goDetail(c.id, c.title)}
+                  onClick={() => goDetail(c.id, c.displayTitle)}
                 />
                 <div className="divider" />
               </li>

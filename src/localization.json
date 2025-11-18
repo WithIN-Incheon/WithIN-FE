@@ -1608,5 +1608,85 @@
     "NP": "မရှိပါ",
     "TH": "ไม่มีข้อมูล",
     "RU": "Нет информации"
+  },
+  "event_title": {
+    "KO": "사건 제목",
+    "EN": "Case Title",
+    "VN": "Tên vụ việc",
+    "ID": "Judul Insiden",
+    "RU": "Название дела",
+    "MM": "အမှုခေါင်းစဉ်",
+    "NP": "घटनाको शीर्षक",
+    "TH": "ชื่อกรณี"
+  },
+  "event_summary": {
+    "KO": "사건 개요",
+    "EN": "Case Summary",
+    "VN": "Tóm tắt vụ việc",
+    "ID": "Ringkasan Insiden",
+    "RU": "Краткое изложение дела",
+    "MM": "အမှုအကျဉ်းချုပ်",
+    "NP": "घटनाको सारांश",
+    "TH": "สรุปเหตุการณ์"
+  },
+  "event_situation": {
+    "KO": "사고 발생 경위",
+    "EN": "Circumstances of the Accident",
+    "VN": "Tình tiết vụ tai nạn",
+    "ID": "Kronologi Kecelakaan",
+    "RU": "Обстоятельства несчастного случая",
+    "MM": "မတော်တဆမှုဖြစ်ပွားပုံ",
+    "NP": "दुर्घटनाको विवरण",
+    "TH": "รายละเอียดของอุบัติเหตุ"
+  },
+  "event_facts": {
+    "KO": "사실관계 및 조사 내용",
+    "EN": "Factual Circumstances and Investigation Findings",
+    "VN": "Thực tế và nội dung điều tra",
+    "ID": "Fakta dan Hasil Penyelidikan",
+    "RU": "Фактические обстоятельства и результаты расследования",
+    "MM": "အဖြစ်မှန်နှင့် စုံစမ်းစစ်ဆေးမှုအကြောင်းအရာ",
+    "NP": "तथ्य र अनुसन्धान सामग्री",
+    "TH": "ข้อเท็จจริงและเนื้อหาการสอบสวน"
+  },
+  "event_important": {
+    "KO": "중요 쟁점",
+    "EN": "Key Issues",
+    "VN": "Vấn đề quan trọng",
+    "ID": "Poin Penting",
+    "RU": "Ключевые вопросы",
+    "MM": "အဓိကအငြင်းပွားဖွယ်ရာအချက်များ",
+    "NP": "मुख्य विवादका विषयहरू",
+    "TH": "ประเด็นสำคัญ"
+  },
+  "event_decision": {
+    "KO": "판정 요지",
+    "EN": "Key Findings",
+    "VN": "Tóm tắt phán quyết",
+    "ID": "Inti Putusan",
+    "RU": "Резюме решения",
+    "MM": "ဆုံးဖြတ်ချက်",
+    "NP": "निर्णयको सारांश",
+    "TH": "บทสรุปคำตัดสิน"
+  },
+  "event_laws": {
+    "KO": "관계 법령",
+    "EN": "Relevant Laws",
+    "VN": "Các văn bản pháp luật liên quan",
+    "ID": "Peraturan Perundang-undangan Terkait",
+    "RU": "Соответствующее законодательство",
+    "MM": "သက်ဆိုင်ရာဥပဒေများ",
+    "NP": "सम्बन्धित कानूनहरू",
+    "TH": "กฎหมายที่เกี่ยวข้อง"
+  },
+  "event_source": {
+    "KO": "출처",
+    "EN": "Source",
+    "VN": "Nguồn",
+    "ID": "Sumber",
+    "RU": "Источник",
+    "MM": "ကိုးကား",
+    "NP": "स्रोत",
+    "TH": "ที่มา"
   }
 }

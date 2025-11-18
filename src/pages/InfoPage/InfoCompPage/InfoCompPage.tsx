@@ -15,7 +15,7 @@ function toLines(input: unknown): string[] {
   // li 태그가 있으면 그 내부만 사용
   const liMatches = [...s.matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi)].map((m) =>
     m[1]
-      .replace(/<br\s*\/?>/gi, "\n")
+      .replace(/<br\s*\/?>/gi, "")
       .replace(/<[^>]+>/g, "")
       .replace(/\s+/g, " ")
       .trim()
@@ -23,9 +23,9 @@ function toLines(input: unknown): string[] {
   if (liMatches.length) return liMatches.filter(Boolean);
 
   // <br> 제거 후 줄/구분자 분해, 앞의 "• ", "- ", "· " 제거
-  const cleaned = s.replace(/<br\s*\/?>/gi, "\n").replace(/<[^>]+>/g, "");
+  const cleaned = s.replace(/<br\s*\/?>/gi, "").replace(/<[^>]+>/g, "");
   return cleaned
-    .split(/\r?\n|·|•|;|，|、/g)
+    .split(/\?|·|•|;|，|、/g)
     .map((t) => t.trim().replace(/^[-•·]\s*/, "")) // ← bullet 문자 제거 핵심
     .filter(Boolean);
 }

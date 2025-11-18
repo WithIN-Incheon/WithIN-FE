@@ -1,0 +1,1452 @@
+{
+  "twentynine_title": {
+    "KO": "업무 종료 후 발판 제작 중 발생한 사고",
+    "EN": "Accident Occurring During Scaffolding Construction After Work Hours",
+    "VN": "Tai nạn xảy ra trong quá trình sản xuất bệ đỡ sau giờ làm việc",
+    "ID": "Kecelakaan yang terjadi saat membuat pijakan setelah jam kerja berakhir",
+    "RU": "Несчастный случай, произошедший во время изготовления подножки после окончания рабочего дня",
+    "MM": "လုပ်ငန်းခွင်သုံး ခြေနင်းခုံ ပြုလုပ်နေစဉ် တာဝန်ချိန်ပြင်ပ၌ ဖြစ်ပွားခဲ့သော မတော်တဆမှု",
+    "NP": "काम सकिएपछि खुट्टा राख्ने टेको बनाउँदा भएको दुर्घटना",
+    "TH": "อุบัติเหตุที่เกิดขึ้นระหว่างการทำที่วางเท้าหลังเลิกงาน"
+  },
+  "twentynine_summary0": {
+    "KO": "승인 여부: 승인",
+    "EN": "Approval Status: Approved",
+    "VN": "Kết quả phê duyệt: Được phê duyệt",
+    "ID": "Status Persetujuan: Disetujui",
+    "RU": "Статус утверждения: Утверждено",
+    "MM": "* အတည်ပြု 여부: အတည်ပြုခဲ့သည်။",
+    "NP": "* स्वीकृति स्थिति: स्वीकृत",
+    "TH": "* สถานะการอนุมัติ: อนุมัติ"
+  },
+  "twentynine_summary1": {
+    "KO": "발생 일시: 2024. 2. 1. 19:11경",
+    "EN": "Date/Time of Occurrence: February 1, 2024, around 19:11",
+    "VN": "Thời gian xảy ra: Khoảng 19:11 ngày 1/2/2024",
+    "ID": "Waktu Kejadian: 2024. 2. 1. Sekitar pukul 19:11",
+    "RU": "Дата и время происшествия: Примерно в 19:11 1 февраля 2024 г.",
+    "MM": "* ဖြစ်ပွားချိန်: ၂၀၂၄ ခုနှစ်၊ ဖေဖော်ဝါရီလ ၁ ရက်၊ ညနေ ၇ နာရီ ၁၁ မိနစ်ခန့်",
+    "NP": "* घटना मिति र समय: २०२४ फेब्रुअरी १, साँझ ७:११ बजेतिर",
+    "TH": "* วันเวลาที่เกิดเหตุ: ประมาณวันที่ 1 กุมภาพันธ์ 2024 เวลา 19:11 น."
+  },
+  "twentynine_summary2": {
+    "KO": "발생 장소: ○○사업장 내 6층 창고",
+    "EN": "Location of Occurrence: 6th Floor Warehouse within ○○ Business Site",
+    "VN": "Địa điểm xảy ra: Kho hàng tầng 6 trong khuôn viên cơ sở ○○",
+    "ID": "Lokasi Kejadian: Gudang lantai 6 di lokasi kerja ○○",
+    "RU": "Место происшествия: Склад на 6-м этаже рабочего помещения ○○",
+    "MM": "* ဖြစ်ပွားရာနေရာ: ○○ လုပ်ငန်းခွင်၏ ၆ လွှာရှိ ဂိုဒေါင်",
+    "NP": "* घटना स्थल: ○○ कार्यस्थलको छैठौं तलाको गोदाम",
+    "TH": "* สถานที่เกิดเหตุ: โกดังชั้น 6 ภายในสถานประกอบการ ○○"
+  },
+  "twentynine_summary3": {
+    "KO": "근로자 정보: 경비 근로자",
+    "EN": "Worker Information: Security Guard",
+    "VN": "Thông tin người lao động: Nhân viên bảo vệ",
+    "ID": "Informasi Pekerja: Pekerja keamanan",
+    "RU": "Информация о работнике: Охранник",
+    "MM": "* လုပ်သားအချက်အလက်: လုံခြုံရေးဝန်ထမ်း",
+    "NP": "* कामदारको जानकारी: सुरक्षा गार्ड",
+    "TH": "* ข้อมูลลูกจ้าง: พนักงานรักษาความปลอดภัย"
+  },
+  "twentynine_summary4": {
+    "KO": "상병명: 좌측 아킬레스건 파열",
+    "EN": "Injury Diagnosis: Ruptured left Achilles tendon",
+    "VN": "Chẩn đoán: Đứt gân Achilles bên trái",
+    "ID": "Jenis Cedera: Robekan tendon Achilles kiri",
+    "RU": "Диагноз травмы: разрыв левого ахиллова сухожилия.",
+    "MM": "* ထိခိုက်ဒဏ်ရာအမည်: ဘယ်ဘက် ခြေဖနောင့်အကြောပြတ်ခြင်း",
+    "NP": "* चोटको नाम: देब्रे खुट्टाको एकिलिस टेन्डन च्यातिनु",
+    "TH": "* ชื่อโรค/การบาดเจ็บ: เอ็นร้อยหวายข้างซ้ายฉีกขาด"
+  },
+  "twentynine_situation": {
+    "KO": "업무시간 종료 후 사적 행위를 하던 중 발생한 재해로 불승인한 처분에 대해, 업무에 활용하기 위해 목적 작업 중 발생한 재해로 업무관련성이 높다고 판단되므로 업무상 재해에 해당되어 “취소”된 사례",
+    "EN": "Regarding the initial non-approval decision that this injury occurred during personal activities after work hours, it was determined that the injury occurred during purposeful work for business use, indicating high work-relatedness. Therefore, it qualifies as a work-related injury, resulting in the decision being “Reversed.”",
+    "VN": "Vụ tai nạn xảy ra khi nhân viên đang làm việc riêng sau giờ làm việc, ban đầu bị từ chối công nhận là tai nạn lao động, nhưng sau đó được xem xét lại và công nhận là tai nạn lao động do vụ tai nạn xảy ra trong khi thực hiện công việc liên quan đến công việc, nên quyết định “hủy bỏ” quyết định từ chối công nhận.",
+    "ID": "Kecelakaan yang terjadi saat melakukan kegiatan pribadi setelah jam kerja berakhir awalnya ditolak. Namun, karena kecelakaan tersebut terjadi saat melakukan pekerjaan yang bertujuan untuk digunakan dalam pekerjaan, maka dianggap memiliki keterkaitan yang tinggi dengan pekerjaan. Oleh karena itu, kecelakaan tersebut diklasifikasikan sebagai kecelakaan kerja dan keputusan penolakan dicabut.",
+    "RU": "В отношении первоначального решения об отклонении, в котором травма была признана не связанной с работой, поскольку она произошла во время частных действий после окончания рабочего дня, впоследствии было установлено, что травма произошла во время целенаправленной работы, предназначенной для использования в деловых целях, что свидетельствует о высокой степени связи с работой. В результате несчастный случай был признан производственным, в результате чего решение было «отменено».",
+    "MM": "လုပ်ငန်းချိန်ပြီးဆုံးပြီးနောက် ကိုယ်ရေးကိုယ်တာ ကိစ္စဆောင်ရွက်နေစဉ် ဖြစ်ပွားခဲ့သော ထိခိုက်ဒဏ်ရာဖြစ်သောကြောင့် အသိအမှတ်မပြုကြောင်း ချမှတ်ထားသည့် ဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ခဲ့သည်။ အဘယ်ကြောင့်ဆိုသော် အဆိုပါ လုပ်ဆောင်ချက်သည် လုပ်ငန်းဆောင်ရွက်ရန်အတွက် လိုအပ်သော ပြင်ဆင်မှုဖြစ်နေသဖြင့် လုပ်ငန်းနှင့် ဆက်စပ်မှု မြင့်မားသည်ဟု 판단ကာ လုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာရမှုအဖြစ် အသိအမှတ်ပြုခဲ့သော အမှုဖြစ်သည်။",
+    "NP": "कामको समय सकिएपछि व्यक्तिगत काम गर्दा भएको दुर्घटना भएकोले अस्वीकृत गरिएको निर्णयलाई उल्टाएर, काममा प्रयोग गर्ने उद्देश्यले वस्तु बनाउँदा भएको दुर्घटना भएकोले कामसँगको सम्बन्ध उच्च रहेको ठहर गर्दै औद्योगिक दुर्घटनाको रूपमा मान्यता दिई \"खारेज\" गरिएको मुद्दा।",
+    "TH": "เป็นกรณีที่คำตัดสินที่เคยไม่อนุมัติเนื่องจากเป็นอุบัติเหตุที่เกิดขึ้นระหว่างการกระทำส่วนตัวหลังเลิกงานได้ถูก \"เพิกถอน\" เนื่องจากคณะกรรมการพิจารณาแล้วเห็นว่าอุบัติเหตุที่เกิดขึ้นระหว่างการทำงานโดยมีวัตถุประสงค์เพื่อนำไปใช้ในงานนั้นมีความเกี่ยวข้องกับงานสูง จึงถือเป็นอุบัติเหตุจากการทำงาน"
+  },
+  "twentynine_facts0": {
+    "KO": "청구인은 ○○사업장 경비 근로자로, 시설 관리·게이트 점검 등을 담당.",
+    "EN": "The claimant was a security worker at the ○○ workplace, responsible for facility management and gate inspections.",
+    "VN": "Người yêu cầu bồi thường là nhân viên bảo vệ tại cơ sở ○○, chịu trách nhiệm quản lý cơ sở vật chất, kiểm tra cổng ra vào, v.v.",
+    "ID": "Pemohon adalah pekerja keamanan di tempat kerja ○○, bertugas mengelola fasilitas dan memeriksa gerbang.",
+    "RU": "Заявитель был охранником на рабочем месте ○○, отвечал за управление объектом и проверку пропуска на вход.",
+    "MM": "* တောင်းဆိုသူသည် ○○ လုပ်ငန်းခွင်၏ လုံခြုံရေးဝန်ထမ်းတစ်ဦးဖြစ်ပြီး အဆောက်အအုံ စီမံခန့်ခွဲမှုနှင့် ဂိတ်စစ်ဆေးခြင်း တာဝန်များကို ထမ်းဆောင်သည်။",
+    "NP": "* निवेदक ○○ कार्यस्थलका सुरक्षा गार्ड हुन्, जसले सुविधा व्यवस्थापन, गेट जाँच जस्ता कामहरू गर्छन्।",
+    "TH": "* ผู้เรียกร้องเป็นพนักงานรักษาความปลอดภัยของสถานประกอบการ ○○ รับผิดชอบดูแลอาคารสถานที่และตรวจสอบประตูทางเข้าออก"
+  },
+  "twentynine_facts1": {
+    "KO": "평소에도 사업장 내 보수와 관련된 목재 작업을 수행.",
+    "EN": "He routinely performed woodworking tasks related to repairs within the workplace.",
+    "VN": "Thông thường, anh ta cũng thực hiện các công việc liên quan đến bảo trì cơ sở vật chất bằng gỗ.",
+    "ID": "Secara rutin melakukan pekerjaan kayu terkait pemeliharaan di tempat kerja.",
+    "RU": "Он регулярно выполнял столярные работы, связанные с ремонтом на рабочем месте.",
+    "MM": "* ပုံမှန်အားဖြင့်လည်း လုပ်ငန်းခွင်အတွင်း ပြုပြင်ထိန်းသိမ်းရေးနှင့် သက်ဆိုင်သော သစ်သားလုပ်ငန်းများကို လုပ်ဆောင်လေ့ရှိသည်။",
+    "NP": "* उनी पहिलेदेखि नै कार्यस्थलको मर्मत सम्भार सम्बन्धी काठको कामहरू गर्दै आएका थिए।",
+    "TH": "* โดยปกติแล้ว ผู้เรียกร้องมักจะทำงานไม้ที่เกี่ยวข้องกับการซ่อมบำรุงภายในสถานประกอบการอยู่แล้ว"
+  },
+  "twentynine_facts2": {
+    "KO": "사고 당일에도 근무 종료 후 창고에서 발판을 제작하다가 사고 발생.",
+    "EN": "On the day of the accident, after finishing work, he was constructing a platform in the warehouse when the accident occurred.",
+    "VN": "Vào ngày xảy ra tai nạn, sau khi kết thúc giờ làm việc, anh ta đang chế tạo bệ đỡ trong kho thì tai nạn xảy ra.",
+    "ID": "Pada hari kejadian, setelah jam kerja berakhir, kecelakaan terjadi saat membuat pijakan di gudang.",
+    "RU": "В день несчастного случая, после окончания работы, он строил платформу на складе, когда произошел несчастный случай.",
+    "MM": "* မတော်တဆမှုဖြစ်ပွားသည့်နေ့တွင်လည်း တာဝန်ချိန်ပြီးဆုံးပြီးနောက် ဂိုဒေါင်ထဲတွင် ခြေနင်းခုံတစ်ခုကို ပြုလုပ်နေစဉ် မတော်တဆမှု ဖြစ်ပွားခဲ့သည်။",
+    "NP": "* दुर्घटना भएको दिन पनि काम सकिएपछि गोदाममा खुट्टा राख्ने टेको बनाउँदा दुर्घटना भएको हो।",
+    "TH": "* ในวันเกิดเหตุ หลังจากเลิกงานแล้ว ผู้เรียกร้องได้ทำที่วางเท้าในโกดังและประสบอุบัติเหตุขึ้น"
+  },
+  "twentynine_facts3": {
+    "KO": "사업주 및 동료 진술에 따르면 발판은 업무상 필요성이 인정되는 설비였음.",
+    "EN": "According to statements from the employer and colleagues, the platform was equipment recognized as necessary for work.",
+    "VN": "Theo lời khai của chủ doanh nghiệp và đồng nghiệp, bệ đỡ là thiết bị được công nhận là cần thiết cho công việc.",
+    "ID": "Menurut keterangan pemilik usaha dan rekan kerja, pijakan tersebut merupakan peralatan yang diakui keperluannya untuk pekerjaan.",
+    "RU": "Согласно заявлениям работодателя и коллег, платформа была признана оборудованием, необходимым для работы.",
+    "MM": "* အလုပ်ရှင်နှင့် လုပ်ဖော်ကိုင်ဖက်များ၏ ထွက်ဆိုချက်များအရ အဆိုပါ ခြေနင်းခုံသည် လုပ်ငန်းအတွက် လိုအပ်သော ပစ္စည်းတစ်ခုဖြစ်ကြောင်း အသိအမှတ်ပြုထားသည်။",
+    "NP": "* रोजगारदाता र सहकर्मीहरूको बयानअनुसार उक्त टेको कामको लागि आवश्यक उपकरण थियो।",
+    "TH": "* จากคำให้การของนายจ้างและเพื่อนร่วมงาน ที่วางเท้านั้นเป็นอุปกรณ์ที่ยอมรับว่ามีความจำเป็นต่องาน"
+  },
+  "twentynine_facts4": {
+    "KO": "따라서 단순 사적 행위가 아닌 업무 관련 준비행위로 판단됨.",
+    "EN": "Therefore, it was judged to be a work-related preparatory act, not a purely private activity.",
+    "VN": "Do đó, hành vi này được đánh giá là hành vi chuẩn bị liên quan đến công việc, không phải hành vi cá nhân đơn thuần.",
+    "ID": "Oleh karena itu, dianggap sebagai persiapan pekerjaan yang terkait dengan pekerjaan, bukan sekadar kegiatan pribadi.",
+    "RU": "Поэтому было решено, что это было подготовительным действием, связанным с работой, а не просто частной деятельностью.",
+    "MM": "* ထို့ကြောင့် ဤလုပ်ရပ်သည် သာမန်ကိုယ်ရေးကိုယ်တာ ကိစ္စမဟုတ်ဘဲ လုပ်ငန်းနှင့် သက်ဆိုင်သော ပြင်ဆင်မှုတစ်ရပ်ဟု မှတ်ယူနိုင်သည်။",
+    "NP": "* त्यसैले, यसलाई केवल व्यक्तिगत कार्य नभई कामसँग सम्बन्धित तयारी कार्यको रूपमा गरियो।",
+    "TH": "* ดังนั้น จึงพิจารณาว่าการกระทำดังกล่าวไม่ใช่เป็นเพียงการกระทำส่วนตัว แต่เป็นการเตรียมการที่เกี่ยวข้องกับงาน"
+  },
+  "twentynine_important0": {
+    "KO": "업무 관련성: 근무시간 이후 발생한 행위가 ‘사적 활동’인지, 업무와 밀접한 관련성이 있는 ‘준비행위’인지 여부.",
+    "EN": "Work-Related Nature: Whether the activity occurring after working hours constituted ‘private activity’ or a ‘preparatory act’ closely related to work.",
+    "VN": "Mối liên quan đến công việc: Hành vi xảy ra sau giờ làm việc là \"hoạt động cá nhân\" hay là \"hành vi chuẩn bị\" có liên quan mật thiết đến công việc.",
+    "ID": "Keterkaitan dengan pekerjaan: Apakah tindakan yang terjadi setelah jam kerja merupakan ‘kegiatan pribadi’ atau ‘tindakan persiapan’ yang erat kaitannya dengan pekerjaan.",
+    "RU": "Связь с работой: Являлась ли деятельность, осуществляемая после рабочего времени, «частной деятельностью» или «подготовительным действием», тесно связанным с работой.",
+    "MM": "* လုပ်ငန်းနှင့် ဆက်စပ်မှု: တာဝန်ချိန်ပြင်ပတွင် ပြုလုပ်ခဲ့သော လုပ်ရပ်သည် ‘ကိုယ်ရေးကိုယ်တာ လုပ်ဆောင်ချက်’ သို့မဟုတ် လုပ်ငန်းနှင့် နီးကပ်စွာ ဆက်စပ်မှုရှိသော ‘ပြင်ဆင်မှုဆိုင်ရာ လုပ်ဆောင်ချက်’ ဟုတ်မဟုတ် ဆိုသည့်အချက်။",
+    "NP": "* कामसँगको सम्बन्ध: कामको समयपछि गरिएको कार्य 'व्यक्तिगत गतिविधि' हो वा कामसँग नजिकको सम्बन्ध भएको 'तयारी कार्य' हो भन्ने प्रश्न।",
+    "TH": "* ความเกี่ยวข้องกับงาน: การกระทำที่เกิดขึ้นหลังเวลาทำงานเป็น 'กิจกรรมส่วนตัว' หรือเป็น 'การเตรียมการ' ที่มีความเกี่ยวข้องอย่างใกล้ชิดกับงาน"
+  },
+  "twentynine_important1": {
+    "KO": "사업주의 사전 인지 여부 및 업무상 필요성 인정 여부",
+    "EN": "Whether the employer had prior knowledge and whether the necessity for work purposes is recognized.",
+    "VN": "Chủ doanh nghiệp có biết trước hay không và có công nhận sự cần thiết cho công việc hay không.",
+    "ID": "Pengetahuan sebelumnya dari pemilik usaha dan pengakuan kebutuhan pekerjaan",
+    "RU": "Имел ли работодатель предварительную информацию и была ли признана необходимость для рабочих целей.",
+    "MM": "* အလုပ်ရှင်က ကြိုတင်သိရှိထားခြင်း ရှိမရှိနှင့် လုပ်ငန်းအတွက် လိုအပ်ချက်ဖြစ်ကြောင်း အသိအမှတ်ပြုထားခြင်း ရှိမရှိ ဆိုသည့်အချက်။",
+    "NP": "* रोजगारदातालाई पूर्व जानकारी थियो वा थिएन, र कामको लागि आवश्यक थियो भनी स्वीकारेको थियो वा थिएन भन्ने प्रश्न।",
+    "TH": "* นายจ้างรับทราบล่วงหน้าหรือไม่ และยอมรับถึงความจำเป็นต่องานหรือไม่"
+  },
+  "twentynine_decision": {
+    "KO": "산업재해보상보험심사위원회는 청구인의 발판 제작이 개인적 활동이 아닌 업무상 필요성이 인정된 준비행위임을 확인. 따라서 본 사고는 산재보험법 제37조(업무상의 재해의 인정기준)에 따라 업무상 재해로 인정되며, 최초요양 불승인 처분은 취소됨.",
+    "EN": "The Industrial Accident Compensation Insurance Review Committee confirmed that the claimant's platform construction was a preparatory act recognized as necessary for work purposes, not a personal activity. Therefore, this accident is recognized as a work-related injury under Article 37 (Criteria for Recognizing Work-Related Injuries) of the Industrial Accident Compensation Insurance Act, and the initial denial of medical treatment benefits is revoked.",
+    "VN": "Ủy ban thẩm định bảo hiểm tai nạn lao động xác nhận việc chế tạo bệ đỡ của người yêu cầu bồi thường không phải là hoạt động cá nhân mà là hành động chuẩn bị được công nhận là cần thiết cho công việc. Do đó, tai nạn này được công nhận là tai nạn lao động theo Điều 37 (Tiêu chuẩn công nhận tai nạn lao động) của Luật bảo hiểm tai nạn lao động, và quyết định từ chối bồi thường ban đầu bị hủy bỏ.",
+    "ID": "Komisi Peninjauan Asuransi Kecelakaan Kerja mengonfirmasi bahwa pembuatan pijakan oleh pemohon bukanlah kegiatan pribadi, melainkan tindakan persiapan yang diakui sebagai kebutuhan pekerjaan. Oleh karena itu, kecelakaan ini diakui sebagai kecelakaan kerja sesuai dengan Pasal 37 (Kriteria Pengakuan Kecelakaan Kerja) Undang-Undang Asuransi Kecelakaan Kerja, dan keputusan penolakan perawatan awal dibatalkan.",
+    "RU": "Комитет по пересмотру страхования от несчастных случаев на производстве подтвердил, что изготовление платформы заявителем было подготовительным действием, признанным необходимым для рабочих целей, а не личной деятельностью. Поэтому данный несчастный случай признается производственной травмой в соответствии со статьей 37 (Критерии признания производственных травм) Закона о страховании от несчастных случаев на производстве, и первоначальное решение об отказе в оказании первичной медицинской помощи отменено.",
+    "MM": "စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံ စိစစ်ရေးကော်မတီသည် တောင်းဆိုသူ၏ ခြေနင်းခုံပြုလုပ်ခြင်းသည် ကိုယ်ရေးကိုယ်တာ လုပ်ဆောင်ချက်မဟုတ်ဘဲ လုပ်ငန်းအတွက် လိုအပ်ကြောင်း အသိအမှတ်ပြုထားသော ပြင်ဆင်မှုတစ်ရပ်ဖြစ်ကြောင်း အတည်ပြုခဲ့သည်။ ထို့ကြောင့် ဤမတော်တဆမှုသည် 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ」 ပုဒ်မ ၃၇ (လုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာရမှု အသိအမှတ်ပြုခြင်း စံနှုန်း) အရ လုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာရမှုအဖြစ် အသိအမှတ်ပြုသည်။ ထို့ကြောင့် ကနဦးတွင် ဆေးကုသမှုစရိတ်ကို အသိအမှတ်မပြုကြောင်း ချမှတ်ထားသည့် ဆုံးဖြတ်ချက်ကို ပယ်ဖျက်လိုက်သည်။",
+    "NP": "औद्योगिक दुर्घटना क्षतिपूर्ति बीमा छानबिन समितिले निवेदकले टेको बनाउनु व्यक्तिगत गतिविधि नभई कामको लागि आवश्यक भनी स्वीकारिएको तयारी कार्य भएको पुष्टि गर्यो। तसर्थ, यो दुर्घटना 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन」 को धारा ३७ (औद्योगिक दुर्घटनाको मान्यताको मापदण्ड) अनुसार औद्योगिक दुर्घटनाको रूपमा मान्यता प्राप्त हुन्छ, र प्रारम्भिक उपचार अस्वीकृत गर्ने निर्णय खारेज गरिन्छ।",
+    "TH": "คณะกรรมการพิจารณาค่าทดแทนอุบัติเหตุจากการทำงานได้ยืนยันว่าการทำที่วางเท้าของผู้เรียกร้องไม่ใช่กิจกรรมส่วนตัว แต่เป็นการเตรียมการที่ยอมรับว่ามีความจำเป็นต่องาน ดังนั้น อุบัติเหตุนี้จึงได้รับการยอมรับว่าเป็นอุบัติเหตุจากการทำงานตามมาตรา 37 แห่งพระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน (มาตรฐานการยอมรับอุบัติเหตุจากการทำงาน) และคำตัดสินที่ไม่อนุมัติค่ารักษาพยาบาลในเบื้องต้นจึงถูกเพิกถอน"
+  },
+  "twentynine_laws0": {
+    "KO": "산재보험법 제5조(정의) 제2호",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 5 (Definitions), Item 2",
+    "VN": "Điều 5 (Định nghĩa) khoản 2 của Luật Bảo hiểm tai nạn lao động",
+    "ID": "Pasal 5 (Definisi) Ayat 2 Undang-Undang Asuransi Kecelakaan Kerja",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 5 (Определения), пункт 2.",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ」 ပုဒ်မ ၅ (အဓိပ္ပာယ်ဖွင့်ဆိုချက်)၊ အပိုဒ် ၂",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन」 धारा ५ (परिभाषा) उपधारा २",
+    "TH": "* พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 5 (คำนิยาม) อนุมาตรา 2"
+  },
+  "twentynine_laws1": {
+    "KO": "산재보험법 제37조(업무상의 재해의 인정기준)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 37 (Criteria for Recognizing Work-Related Injuries)",
+    "VN": "Điều 37 (Tiêu chuẩn công nhận tai nạn lao động) của Luật Bảo hiểm tai nạn lao động",
+    "ID": "Pasal 37 (Kriteria Pengakuan Kecelakaan Kerja) Undang-Undang Asuransi Kecelakaan Kerja",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 37 (Критерии признания производственных травм).",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ」 ပုဒ်မ ၃၇ (လုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာရမှု အသိအမှတ်ပြုခြင်း စံနှုန်း)",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन」 धारा ३७ (औद्योगिक दुर्घटनाको मान्यताको मापदण्ड)",
+    "TH": "* พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 37 (มาตรฐานการยอมรับอุบัติเหตุจากการทำงาน)"
+  },
+  "twentynine_laws2": {
+    "KO": "「산재보험법 시행령」 제27조(업무수행 중의 사고)",
+    "EN": "Industrial Accident Compensation Insurance Act Enforcement Decree, Article 27 (Accidents During Work Performance)",
+    "VN": "Điều 27 (Tai nạn trong khi làm việc) của Nghị định thi hành Luật Bảo hiểm tai nạn lao động",
+    "ID": "Pasal 27 (Kecelakaan Selama Pelaksanaan Pekerjaan) Peraturan Pelaksanaan Undang-Undang Asuransi Kecelakaan Kerja",
+    "RU": "Постановление о применении Закона о страховании от несчастных случаев на производстве, статья 27 (Несчастные случаи во время выполнения работы).",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ အကောင်အထည်ဖော်ရေးဆိုင်ရာ အမိန့်」 ပုဒ်မ ၂၇ (လုပ်ငန်းဆောင်ရွက်နေစဉ် ဖြစ်ပွားသော မတော်တဆမှု)",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐनको कार्यान्वयन नियमावली」 धारा २७ (कामको सिलसिलामा भएको दुर्घटना)",
+    "TH": "* กฤษฎีกาบังคับใช้พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 27 (อุบัติเหตุระหว่างการปฏิบัติงาน)"
+  },
+  "twentynine_laws3": {
+    "KO": "산재보험법 제105조(심사청구에 대한 심리·결정) 제1항",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 105 (Hearing and Decision on Review Requests), Paragraph 1",
+    "VN": "Điều 105 (Xét xử và quyết định yêu cầu thẩm định) khoản 1 của Luật Bảo hiểm tai nạn lao động",
+    "ID": "Pasal 105 (Pemeriksaan dan Keputusan atas Permohonan Peninjauan Kembali) Ayat 1 Undang-Undang Asuransi Kecelakaan Kerja",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 105 (Слушание и решение по запросам о пересмотре), пункт 1.",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ」 ပုဒ်မ ၁၀၅ (စိစစ်ရန် တောင်းဆိုမှုအပေါ် စစ်ဆေးခြင်းနှင့် ဆုံးဖြတ်ခြင်း)၊ အပိုဒ် ၁",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन」 धारा १०५ (छानबिन अनुरोधको सुनुवाइ र निर्णय) उपधारा १",
+    "TH": "* พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 105 (การพิจารณาและตัดสินคำร้องขอให้พิจารณาใหม่) วรรค 1"
+  },
+  "thirty_title": {
+    "KO": "외국인 관광택시 운전 중 사고",
+    "EN": "Accident while driving a foreign tourist taxi",
+    "VN": "Tai nạn khi lái xe taxi du lịch cho người nước ngoài",
+    "ID": "Kecelakaan saat mengemudi taksi wisata asing",
+    "RU": "Несчастный случай при вождении туристического такси для иностранных граждан",
+    "MM": "နိုင်ငံခြားသား ခရီးသွားတက္ကစီ မောင်းနှင်နေစဉ် မတော်တဆမှု",
+    "NP": "विदेशी पर्यटक ट्याक्सी चलाउँदा भएको दुर्घटना",
+    "TH": "อุบัติเหตุระหว่างขับรถแท็กซี่สำหรับนักท่องเที่ยวชาวต่างชาติ"
+  },
+  "thirty_summary0": {
+    "KO": "승인 여부: 승인",
+    "EN": "Approval Status: Approved",
+    "VN": "Kết quả phê duyệt: Được phê duyệt",
+    "ID": "Status Persetujuan: Disetujui",
+    "RU": "Статус утверждения: Утверждено",
+    "MM": "* အတည်ပြု 여부: အတည်ပြုခဲ့သည်။",
+    "NP": "* स्वीकृति स्थिति: स्वीकृत",
+    "TH": "* สถานะการอนุมัติ: อนุมัติ"
+  },
+  "thirty_summary1": {
+    "KO": "발생 일시: 2023. 4. 9. 10:40경",
+    "EN": "Date/Time of Occurrence: April 9, 2023, around 10:40 a.m.",
+    "VN": "Thời gian xảy ra: Khoảng 10:40 ngày 9/4/2023",
+    "ID": "Waktu Terjadi: 9 April 2023, sekitar pukul 10:40",
+    "RU": "Дата и время происшествия: 9 апреля 2023 г., примерно в 10:40",
+    "MM": "* ဖြစ်ပွားချိန်: ၂၀၂၃ ခုနှစ်၊ ဧပြီလ ၉ ရက်၊ နံနက် ၁၀ နာရီ ၄၀ မိနစ်ခန့်",
+    "NP": "* घटना मिति र समय: २०२३ अप्रिल ९, बिहान १०:४० बजेतिर",
+    "TH": "* วันเวลาที่เกิดเหตุ: ประมาณวันที่ 9 เมษายน 2023 เวลา 10:40 น."
+  },
+  "thirty_summary2": {
+    "KO": "발생 장소: ○○군 ○○읍 ○○리 ○○섬 일대",
+    "EN": "Location: ○○ Island area, ○○-ri, ○○-eup, ○○-gun",
+    "VN": "Địa điểm xảy ra: Khu vực đảo ○○, làng ○○, thị trấn ○○, huyện ○○",
+    "ID": "Lokasi Kejadian: Wilayah Pulau ○○, Desa ○○, Kecamatan ○○, Kabupaten ○○",
+    "RU": "Место происшествия: район острова ○○, ○○-ри, ○○-эуп, ○○-гун",
+    "MM": "* ဖြစ်ပွားရာနေရာ: ○○ မြို့နယ်၊ ○○ မြို့၊ ○○ ရပ်ကွက်၊ ○○ ကျွန်းတစ်ဝိုက်",
+    "NP": "* घटना स्थल: ○○ जिल्ला, ○○ गाउँ, ○○ टोल, ○○ टापु क्षेत्र",
+    "TH": "* สถานที่เกิดเหตุ: บริเวณเกาะ ○○ ตำบล ○○ อำเภอ ○○"
+  },
+  "thirty_summary3": {
+    "KO": "근로자 정보: 외국인 관광택시 운전기사",
+    "EN": "Worker Information: Foreign tourist taxi driver",
+    "VN": "Thông tin người lao động: Tài xế taxi du lịch nước ngoài",
+    "ID": "Informasi Pekerja: Sopir taksi wisata asing",
+    "RU": "Информация о работнике: водитель туристического такси для иностранных граждан",
+    "MM": "* လုပ်သားအချက်အလက်: နိုင်ငံခြားသား ခရီးသွားတက္ကစီ ယာဉ်မောင်း",
+    "NP": "* कामदारको जानकारी: विदेशी पर्यटक ट्याक्सी चालक",
+    "TH": "* ข้อมูลลูกจ้าง: พนักงานขับรถแท็กซี่สำหรับนักท่องเที่ยวชาวต่างชาติ"
+  },
+  "thirty_summary4": {
+    "KO": "상병명: 외상성 경막하출혈, 외상성 지주막하출혈, 열린 두개내 상처가 없는 대뇌 타박상(NOS)",
+    "EN": "Diagnosis: Traumatic subdural hemorrhage, traumatic subarachnoid hemorrhage, cerebral contusion (NOS) without open intracranial wound",
+    "VN": "Chẩn đoán: Chấn thương sọ não, chấn thương màng não, chấn thương não không có vết thương hở sọ (NOS)",
+    "ID": "Diagnosis: Perdarahan subdural traumatis, perdarahan subarachnoid traumatis, kontusio otak tanpa luka terbuka pada tengkorak (NOS)",
+    "RU": "Диагноз: травматическое субдуральное кровоизлияние, травматическое субарахноидальное кровоизлияние, ушиб головного мозга (NOS) без открытой внутричерепной раны",
+    "MM": "* ထိခိုက်ဒဏ်ရာအမည်: ဦးခေါင်းခွံအတွင်း ထိခိုက်ဒဏ်ရာကြောင့် သွေးယိုစီးခြင်း (Traumatic Subdural Hemorrhage), ဦးနှောက်အမြှေးပါးအတွင်း သွေးယိုစီးခြင်း (Traumatic Subarachnoid Hemorrhage), ဦးခေါင်းခွံတွင် အပြင်ဒဏ်ရာမရှိဘဲ ဦးနှောက်ဖူးရောင်ခြင်း (Cerebral Contusion without open intracranial wound, NOS)",
+    "NP": "* चोटको नाम: टाउकोमा चोट लागेर हुने सबड्युरल हेमोरेज (Traumatic subdural hemorrhage), सबएराक्नोइड हेमोरेज (Traumatic subarachnoid hemorrhage), खुला घाउ बिनाको सेरेब्रल कन्ट्युजन (Cerebral contusion without open intracranial wound, NOS)",
+    "TH": "* ชื่อโรค/การบาดเจ็บ: ภาวะเลือดออกใต้เยื่อหุ้มสมองชั้นนอกจากการบาดเจ็บ, ภาวะเลือดออกใต้เยื่อหุ้มสมองชั้นกลางจากการบาดเจ็บ, สมองช้ำที่ไม่มีบาดแผลเปิดในกะโหลกศีรษะ (NOS)"
+  },
+  "thirty_situation": {
+    "KO": "외국인 관광객 택시 운전기사가 업무수행 범위를 벗어난 행위로 발생한 사고에 대해 불승인한 처분에 대해, 외국인 관광객 대상 택시의 특수성을 고려할 때 관광지 안내 등 행위는 근로계약에 따른 업무나 그에 따른 행위를 하던 중 발생한 사고로 봄이 타당하므로 업무상 재해로 인정되어 “취소”한 사례",
+    "EN": "Regarding the disapproval of an accident involving a foreign tourist taxi driver arising from actions beyond the scope of their duties, considering the unique nature of taxis serving foreign tourists, activities such as guiding tourists around scenic areas are deemed to have occurred while performing duties under the employment contract or related tasks. Therefore, it is reasonable to recognize this as a work-related injury, resulting in the decision being “Reversed.”",
+    "VN": "Đối với quyết định không chấp thuận tai nạn xảy ra do hành vi vượt quá phạm vi công việc của tài xế taxi du lịch nước ngoài, khi xem xét đặc thù của taxi dành cho khách du lịch nước ngoài, hành vi hướng dẫn du lịch được coi là hành vi phù hợp với hợp đồng lao động hoặc hành vi liên quan đến công việc, do đó được công nhận là tai nạn lao động và quyết định được \"hủy bỏ\".",
+    "ID": "Terkait penolakan persetujuan atas kecelakaan yang terjadi akibat tindakan di luar lingkup tugas pengemudi taksi turis asing, dengan mempertimbangkan keunikan taksi turis asing, tindakan seperti pemandu wisata di kawasan wisata dapat dianggap sebagai kecelakaan yang terjadi saat melaksanakan tugas sesuai kontrak kerja atau tindakan terkait, sehingga diakui sebagai kecelakaan kerja dan diputuskan untuk “dibatalkan”",
+    "RU": "В отношении отказа в утверждении несчастного случая, произошедшего в результате действий водителя такси для иностранных туристов, выходящих за рамки его должностных обязанностей, с учетом особого характера такси для иностранных туристов, разумно считать такие действия, как сопровождение туристов по достопримечательностям, происходящими во время работы или связанными с ней в соответствии с трудовым договором. Поэтому несчастный случай был признан производственной травмой, и решение было «отменено».",
+    "MM": "နိုင်ငံခြားသား ခရီးသွားတက္ကစီ ယာဉ်မောင်းတစ်ဦးသည် လုပ်ငန်းတာဝန်ขอบเขตပြင်ပ လုပ်ရပ်ကြောင့် ဖြစ်ပွားခဲ့သော မတော်တဆမှုဟုဆိုကာ အသိအမှတ်မပြုထားသည့် ဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ခဲ့သည်။ အကြောင်းမှာ နိုင်ငံခြားသား ခရီးသွားများကို ဝန်ဆောင်မှုပေးရသည့် တက္ကစီလုပ်ငန်း၏ အထူးသဘောသဘာဝကို ထည့်သွင်းစဉ်းစားသောအခါ ခရီးသွားဧည့်လမ်းညွှန်ခြင်းကဲ့သို့သော လုပ်ဆောင်ချက်များသည် အလုပ်ခန့်အပ်မှုစာချုပ်ပါ တာဝန်များ သို့မဟုတ် ယင်းနှင့်ဆက်စပ်သော လုပ်ဆောင်ချက်များအတွင်း ဖြစ်ပွားခဲ့သော မတော်တဆမှုအဖြစ် မှတ်ယူရန် သင့်လျော်သောကြောင့် လုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာရမှုအဖြစ် အသိအမှတ်ပြုကာ \"ပယ်ဖျက်\" ခဲ့သည့် အမှုဖြစ်သည်။",
+    "NP": "विदेशी पर्यटक ट्याक्सी चालकले आफ्नो कार्यक्षेत्रभन्दा बाहिरको काम गर्दा भएको दुर्घटना भनी अस्वीकृत गरिएको निर्णयलाई उल्टाएर, विदेशी पर्यटकलाई लक्षित ट्याक्सीको विशेष प्रकृतिलाई ध्यानमा राख्दा पर्यटकीय स्थलको जानकारी दिने जस्ता कार्यहरू श्रम सम्झौताअनुसारको काम वा सोही क्रममा भएको दुर्घटना मान्नु उचित हुने हुँदा औद्योगिक दुर्घटनाको रूपमा मान्यता दिई \"खारेज\" गरिएको मुद्दा।",
+    "TH": "เป็นกรณีที่คำตัดสินซึ่งเคยไม่อนุมัติโดยอ้างว่าอุบัติเหตุเกิดจากการกระทำนอกเหนือขอบเขตการปฏิบัติงานของพนักงานขับรถแท็กซี่นักท่องเที่ยวชาวต่างชาติได้ถูก \"เพิกถอน\" เนื่องจากเมื่อพิจารณาถึงลักษณะพิเศษของรถแท็กซี่สำหรับนักท่องเที่ยวชาวต่างชาติแล้ว การกระทำต่างๆ เช่น การแนะนำสถานที่ท่องเที่ยว ถือเป็นอุบัติเหตุที่เกิดขึ้นระหว่างการปฏิบัติงานตามสัญญาจ้างหรือการกระทำที่เกี่ยวข้อง จึงสมควรได้รับการยอมรับว่าเป็นอุบัติเหตุจากการทำงาน"
+  },
+  "thirty_facts0": {
+    "KO": "재해자는 (주)○○○택시 소속으로 ‘외국인 관광택시’ 업무를 수행.",
+    "EN": "The injured party was employed by ○○○ Taxi Co., Ltd. and performed duties as a ‘foreign tourist taxi’ driver.",
+    "VN": "Nạn nhân là nhân viên của công ty taxi ○○○, thực hiện công việc \"taxi du lịch nước ngoài\".",
+    "ID": "Korban kecelakaan adalah karyawan PT ○○○ Taxi yang bertugas mengemudikan “taxi wisata untuk turis asing”.",
+    "RU": "Пострадавший был нанят компанией ○○○ Taxi Co., Ltd. и выполнял обязанности водителя «такси для иностранных туристов».",
+    "MM": "* ထိခိုက်ဒဏ်ရာရရှိသူသည် (ကုမ္ပဏီ) ○○○ တက္ကစီ ကုမ္ပဏီတွင် ‘နိုင်ငံခြားသား ခရီးသွားတက္ကစီ’ ယာဉ်မောင်းအဖြစ် တာဝန်ထမ်းဆောင်သည်။",
+    "NP": "* पीडित (प्रा) लि. ○○○ ट्याक्सी अन्तर्गत 'विदेशी पर्यटक ट्याक्सी' को काम गर्थे।",
+    "TH": "* ผู้ประสบเหตุทำงานเป็นพนักงานขับ 'รถแท็กซี่สำหรับนักท่องเที่ยวชาวต่างชาติ' สังกัดบริษัท ○○○ Taxi จำกัด"
+  },
+  "thirty_facts1": {
+    "KO": "외국인 관광택시는 일반 택시와 달리 관광객 안내·통역·사진 촬영 등의 부가서비스 제공이 제도적으로 포함됨.",
+    "EN": "Unlike regular taxis, foreign tourist taxis are institutionally required to provide additional services such as tourist guidance, interpretation, and photography.",
+    "VN": "Khác với taxi thông thường, taxi du lịch nước ngoài bao gồm các dịch vụ bổ sung như hướng dẫn du khách, phiên dịch, chụp ảnh, v.v.",
+    "ID": "Taxi wisata untuk turis asing berbeda dengan taksi biasa karena secara sistematis mencakup layanan tambahan seperti pemandu wisata, penerjemahan, dan pengambilan foto.",
+    "RU": "В отличие от обычных такси, такси для иностранных туристов по закону обязаны предоставлять дополнительные услуги, такие как туристическое сопровождение, устный перевод и фотографирование.",
+    "MM": "* နိုင်ငံခြားသား ခရီးသွားတက္ကစီသည် သာမန်တက္ကစီများနှင့်မတူဘဲ ခရီးသွားဧည့်လမ်းညွှန်ခြင်း၊ စကားပြန်လုပ်ပေးခြင်း၊ ဓာတ်ပုံရိုက်ပေးခြင်းကဲ့သို့သော ထပ်ဆောင်းဝန်ဆောင်မှုများကို လုပ်ငန်းမူဘောင်အတွင်း ထည့်သွင်းထားသည်။",
+    "NP": "* विदेशी पर्यटक ट्याक्सी सामान्य ट्याक्सीभन्दा फरक, पर्यटकलाई जानकारी दिने, दोभाषेको काम गर्ने, र फोटो खिचिदिने जस्ता अतिरिक्त सेवाहरू प्रणालीगत रूपमै समावेश गरिएको हुन्छ।",
+    "TH": "* รถแท็กซี่สำหรับนักท่องเที่ยวชาวต่างชาติแตกต่างจากรถแท็กซี่ทั่วไป โดยมีการให้บริการเสริม เช่น การแนะนำสถานที่ท่องเที่ยว การเป็นล่าม และการถ่ายภาพ ซึ่งรวมอยู่ในระบบการให้บริการอย่างเป็นทางการ"
+  },
+  "thirty_facts2": {
+    "KO": "사고 당일에도 ○○호텔에서 외국인 관광객을 태워 ○○섬 관광을 진행하던 중 발생.",
+    "EN": "The accident occurred while transporting foreign tourists from ○○ Hotel to tour ○○ Island.",
+    "VN": "Vào ngày xảy ra tai nạn, nạn nhân đang chở khách du lịch nước ngoài từ khách sạn ○○ đến đảo ○○ thì tai nạn xảy ra.",
+    "ID": "Kecelakaan terjadi saat mengantar turis asing dari Hotel ○○ ke Pulau ○○.",
+    "RU": "Несчастный случай произошел в день, когда он перевозил иностранных туристов из отеля ○○ на экскурсию по острову ○○.",
+    "MM": "* မတော်တဆမှုဖြစ်ပွားသည့်နေ့တွင် ○○ ဟိုတယ်မှ နိုင်ငံခြားသား ခရီးသွားများကို တင်ဆောင်၍ ○○ ကျွန်းသို့ လိုက်လံပို့ဆောင် လမ်းညွှန်ပေးနေစဉ် ဖြစ်ပွားခဲ့ခြင်းဖြစ်သည်။",
+    "NP": "* दुर्घटना भएको दिन पनि ○○ होटेलबाट विदेशी पर्यटकलाई लिएर ○○ टापुको भ्रमण गराउने क्रममा दुर्घटना भएको हो।",
+    "TH": "* ในวันเกิดเหตุ อุบัติเหตุเกิดขึ้นขณะกำลังพานักท่องเที่ยวชาวต่างชาติจากโรงแรม ○○ ไปเที่ยวชมเกาะ ○○"
+  },
+  "thirty_facts3": {
+    "KO": "행사 목적은 관광 안내로, 이는 외국인 관광택시의 정상적 업무수행 범위에 포함됨.",
+    "EN": "The purpose of the event was tourist guidance, which falls within the normal scope of duties for a foreign tourist taxi.",
+    "VN": "Mục đích của sự kiện là hướng dẫn du lịch, thuộc phạm vi công việc bình thường của taxi du lịch nước ngoài.",
+    "ID": "Tujuan kegiatan adalah panduan wisata, yang termasuk dalam lingkup tugas normal taksi wisata asing.",
+    "RU": "Целью мероприятия было туристическое сопровождение, что входит в обычный круг обязанностей такси для иностранных туристов.",
+    "MM": "* အဆိုပါ ခရီးစဉ်၏ ရည်ရွယ်ချက်မှာ ခရီးသွားလမ်းညွှန်မှုဖြစ်ပြီး ၎င်းသည် နိုင်ငံခြားသား ခရီးသွားတက္ကစီ၏ ပုံမှန်လုပ်ငန်းတာဝန်ขอบเขตအတွင်း ပါဝင်သည်။",
+    "NP": "* उक्त कार्यको उद्देश्य पर्यटकीय जानकारी प्रदान गर्नु थियो, जुन विदेशी पर्यटक ट्याक्सीको सामान्य कार्यक्षेत्रभित्र पर्दछ।",
+    "TH": "* วัตถุประสงค์ของกิจกรรมคือการแนะนำสถานที่ท่องเที่ยว ซึ่งถือเป็นขอบเขตการปฏิบัติงานตามปกติของรถแท็กซี่สำหรับนักท่องเที่ยวชาวต่างชาติ"
+  },
+  "thirty_facts4": {
+    "KO": "원처분기관은 불승인 처분을 내렸으나, 심사에서는 업무상 필요성이 인정되어 취소됨.",
+    "EN": "The original decision-making agency issued a non-approval decision, but upon review, the necessity for work purposes was recognized, leading to the decision being revoked.",
+    "VN": "Cơ quan xử lý ban đầu đã ra quyết định không chấp thuận, nhưng trong quá trình thẩm tra, sự cần thiết trong công việc đã được công nhận và quyết định bị hủy bỏ.",
+    "ID": "Instansi penentu awal menolak permohonan, namun dalam proses peninjauan, kebutuhan pekerjaan diakui sehingga keputusan dibatalkan.",
+    "RU": "Первоначальный орган, принимавший решение, вынес решение об отказе, но после пересмотра была признана необходимость для рабочих целей, и решение было отменено.",
+    "MM": "* မူလဆုံးဖြတ်ချက်ချမှတ်ခဲ့သည့် အာဏာပိုင်အဖွဲ့အစည်းက အသိအမှတ်မပြုခဲ့သော်လည်း ပြန်လည်စိစစ်သုံးသပ်မှုတွင် လုပ်ငန်းလိုအပ်ချက်အရ ဖြစ်ကြောင်း အသိအမှတ်ပြုကာ ဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ခဲ့သည်။",
+    "NP": "* प्रारम्भिक निर्णय गर्ने निकायले यसलाई अस्वीकृत गरे तापनि, छानबिनको क्रममा कामको आवश्यकतालाई स्वीकार गरी उक्त निर्णय खारेज गरियो।",
+    "TH": "* หน่วยงานที่พิจารณาในครั้งแรกได้มีคำสั่งไม่อนุมัติ แต่ในการพิจารณาอุทธรณ์ได้มีการยอมรับถึงความจำเป็นในทางปฏิบัติงาน จึงได้เพิกถอนคำสั่งเดิม"
+  },
+  "thirty_important0": {
+    "KO": "업무 관련성: 사진 촬영 행위가 단순 사적 부탁인지, 외국인 관광택시 제도의 본래 업무에 포함되는지 여부.",
+    "EN": "Work-Relatedness: Whether the act of taking photos constituted a simple private request or was part of the inherent duties under the foreign tourist taxi system.",
+    "VN": "Mối liên quan với công việc: Việc chụp ảnh là yêu cầu cá nhân đơn thuần hay thuộc phạm vi công việc ban đầu của hệ thống taxi du lịch nước ngoài.",
+    "ID": "Keterkaitan dengan pekerjaan: Apakah tindakan pengambilan foto merupakan permintaan pribadi semata atau termasuk dalam tugas pokok sistem taksi wisata asing.",
+    "RU": "Связь с работой: Являлось ли фотографирование простым частным запросом или было частью обязанностей, присущих системе такси для иностранных туристов.",
+    "MM": "* လုပ်ငန်းနှင့် ဆက်စပ်မှု: ဓာတ်ပုံရိုက်ပေးသည့် လုပ်ရပ်သည် သာမန်ကိုယ်ရေးကိုယ်တာ အကူအညီတောင်းခံမှု သို့မဟုတ် နိုင်ငံခြားသား ခရီးသွားတက္ကစီ လုပ်ငန်းမူဘောင်၏ မူလလုပ်ငန်းတာဝန်တွင် ပါဝင်ခြင်း ရှိ၊ မရှိ ဆိုသည့်အချက်။",
+    "NP": "* कामसँगको सम्बन्ध: फोटो खिच्ने कार्य केवल व्यक्तिगत अनुरोध थियो वा विदेशी पर्यटक ट्याक्सी प्रणालीको मौलिक काममा समावेश थियो भन्ने प्रश्न।",
+    "TH": "* ความเกี่ยวข้องกับงาน: การถ่ายภาพเป็นเพียงการขอร้องส่วนตัว หรือเป็นส่วนหนึ่งของหน้าที่การงานตามระบบของรถแท็กซี่สำหรับนักท่องเที่ยวชาวต่างชาติ"
+  },
+  "thirty_important1": {
+    "KO": "업무수행의 필수적 범위 인정 여부: 관광객 편의를 위한 안내·촬영 서비스가 업무수행의 필수적 범위로 인정되는지 여부.",
+    "EN": "Recognition of Essential Scope of Work: Whether guidance and photography services for tourist convenience constitute an essential part of work duties.",
+    "VN": "Việc công nhận phạm vi cần thiết của công việc: Việc hướng dẫn và chụp ảnh để tạo sự thuận tiện cho khách du lịch có được công nhận là phạm vi cần thiết của công việc hay không.",
+    "ID": "Pengakuan lingkup esensial pelaksanaan tugas: Apakah layanan panduan dan pengambilan foto untuk kenyamanan wisatawan diakui sebagai lingkup esensial pelaksanaan tugas.",
+    "RU": "Признание существенного объема работы: являются ли услуги по сопровождению и фотографированию для удобства туристов существенной частью выполнения работы.",
+    "MM": "* လုပ်ငန်းဆောင်ရွက်မှု၏ မရှိမဖြစ်လိုအပ်သောขอบเขตကို အသိအမှတ်ပြုခြင်း: ခရီးသွားများအတွက် အဆင်ပြေစေရန် လမ်းညွှန်ခြင်းနှင့် ဓာတ်ပုံရိုက်ပေးခြင်းကဲ့သို့သော ဝန်ဆောင်မှုများသည် လုပ်ငန်းဆောင်ရွက်မှု၏ မရှိမဖြစ်လိုအပ်သောขอบเขตအဖြစ် အသိအမှတ်ပြုနိုင်ခြင်း ရှိ၊ မရှိ ဆိုသည့်အချက်။",
+    "NP": "* कार्य सम्पादनको अनिवार्य दायराको मान्यता: पर्यटकको सुविधाका लागि जानकारी दिने र फोटो खिच्ने सेवालाई कार्य सम्पादनको अनिवार्य दायराको रूपमा मान्यता दिइन्छ कि दिइँदैन भन्ने प्रश्न।",
+    "TH": "* การยอมรับขอบเขตที่จำเป็นของการปฏิบัติงาน: การให้บริการแนะนำสถานที่และการถ่ายภาพเพื่ออำนวยความสะดวกแก่นักท่องเที่ยว ถือเป็นขอบเขตที่จำเป็นของการปฏิบัติงานหรือไม่"
+  },
+  "thirty_decision0": {
+    "KO": "관광택시 제도의 특수성을 고려할 때, 사진 촬영 등은 정상적인 업무수행 과정으로 판단됨.",
+    "EN": "Considering the unique nature of the tourist taxi system, activities like taking photos are deemed part of normal work duties.",
+    "VN": "Xét đến tính đặc thù của hệ thống taxi du lịch, việc chụp ảnh được coi là một phần của quá trình thực hiện công việc bình thường.",
+    "ID": "Mengingat keunikan sistem taksi wisata, pengambilan foto dsb. dinilai sebagai bagian dari proses pelaksanaan tugas normal.",
+    "RU": "Учитывая уникальный характер системы туристических такси, такие действия, как фотографирование, считаются частью обычного выполнения работы.",
+    "MM": "* ခရီးသွားတက္ကစီ လုပ်ငန်းမူဘောင်၏ အထူးသဘောသဘာဝကို ထည့်သွင်းစဉ်းစားသောအခါ ဓာတ်ပုံရိုက်ပေးခြင်းကဲ့သို့သော လုပ်ဆောင်ချက်များသည် ပုံမှန်လုပ်ငန်းဆောင်ရွက်မှု၏ အစိတ်အပိုင်းတစ်ခုအဖြစ် မှတ်ယူနိုင်သည်။",
+    "NP": "* पर्यटक ट्याक्सी प्रणालीको विशेष प्रकृतिलाई ध्यानमा राख्दा, फोटो खिच्ने जस्ता कार्यहरू सामान्य कार्य सम्पादन प्रक्रियाकै हिस्सा मानिन्छ।",
+    "TH": "* เมื่อพิจารณาถึงลักษณะพิเศษของระบบรถแท็กซี่เพื่อการท่องเที่ยว การถ่ายภาพจึงถือเป็นส่วนหนึ่งของกระบวนการปฏิบัติงานตามปกติ"
+  },
+  "thirty_decision1": {
+    "KO": "재해자는 손님의 요구에 따라 업무수행 중 사고를 당한 것이므로, 이는 업무상 재해에 해당.",
+    "EN": "The injured party suffered an accident while performing work duties at the customer's request, thus qualifying as a work-related injury.",
+    "VN": "Nạn nhân bị tai nạn trong khi thực hiện công việc theo yêu cầu của khách, do đó, đây là tai nạn lao động.",
+    "ID": "Korban mengalami kecelakaan saat melaksanakan tugas sesuai permintaan penumpang, sehingga hal ini termasuk dalam kecelakaan kerja.",
+    "RU": "Поскольку пострадавший получил травму при выполнении служебных обязанностей по просьбе клиента, это является производственной травмой.",
+    "MM": "* ထိခိုက်ဒဏ်ရာရရှိသူသည် ခရီးသည်၏ တောင်းဆိုမှုအရ လုပ်ငန်းတာဝန်ထမ်းဆောင်နေစဉ် မတော်တဆမှုနှင့် ကြုံတွေ့ခဲ့ရခြင်းဖြစ်သောကြောင့် ၎င်းသည် လုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာရမှုနှင့် သက်ဆိုင်သည်။",
+    "NP": "* पीडितले यात्रुको अनुरोधमा आफ्नो कर्तव्य निर्वाह गर्ने क्रममा दुर्घटना भोगेकाले यो औद्योगिक दुर्घटना हो।",
+    "TH": "* ผู้ประสบเหตุได้รับอุบัติเหตุระหว่างปฏิบัติงานตามคำขอของลูกค้า ดังนั้นจึงถือเป็นอุบัติเหตุจากการทำงาน"
+  },
+  "thirty_decision2": {
+    "KO": "따라서 원처분기관의 최초요양 불승인 처분은 취소되고, 업무상 재해로 인정됨.",
+    "EN": "Therefore, the initial denial of medical benefits by the original decision-making agency is revoked, and the incident is recognized as a work-related injury.",
+    "VN": "Do đó, quyết định từ chối chi trả chi phí điều trị ban đầu của cơ quan xử lý ban đầu bị hủy bỏ, và vụ việc được công nhận là tai nạn lao động.",
+    "ID": "Oleh karena itu, keputusan awal penolakan perawatan oleh instansi yang berwenang dibatalkan, dan kecelakaan tersebut diakui sebagai kecelakaan kerja.",
+    "RU": "Таким образом, первоначальное решение органа, отказавшего в предоставлении медицинских льгот, отменено, и инцидент признан производственной травмой.",
+    "MM": "* ထို့ကြောင့် မူလအာဏာပိုင်အဖွဲ့အစည်း၏ ကနဦးဆေးကုသမှုစရိတ်ကို အသိအမှတ်မပြုကြောင်း ချမှတ်ထားသည့် ဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ပြီး လုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာရမှုအဖြစ် အသိအမှတ်ပြုလိုက်သည်။",
+    "NP": "* तसर्थ, प्रारम्भिक निर्णय गर्ने निकायले सुरुमा उपचार खर्च अस्वीकृत गरेको निर्णय खारेज गरी यसलाई औद्योगिक दुर्घटनाको रूपमा मान्यता दिइन्छ।",
+    "TH": "* ด้วยเหตุนี้ คำตัดสินของหน่วยงานที่พิจารณาในครั้งแรกที่ไม่อนุมัติค่ารักษาพยาบาลจึงถูกเพิกถอน และได้รับการยอมรับว่าเป็นอุบัติเหตุจากการทำงาน"
+  },
+  "thirty_laws0": {
+    "KO": "산재보험법 제5조(정의) 제1항",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 5 (Definitions), Paragraph 1",
+    "VN": "Điều 5 (Định nghĩa) Khoản 1 của Luật Bảo hiểm tai nạn lao động",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 5 (Definisi) Ayat 1",
+    "RU": "Закон о страховании от производственных травм, статья 5 (Определения), пункт 1",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ」 ပုဒ်မ ၅ (အဓိပ္ပာယ်ဖွင့်ဆိုချက်)၊ အပိုဒ် ၁",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन」 धारा ५ (परिभाषा) उपधारा १",
+    "TH": "* พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 5 (คำนิยาม) วรรค 1"
+  },
+  "thirty_laws1": {
+    "KO": "산재보험법 제37조(업무상의 재해의 인정기준)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 37 (Criteria for Recognizing Work-Related Injuries)",
+    "VN": "Điều 37 (Tiêu chuẩn công nhận tai nạn lao động) của Luật Bảo hiểm tai nạn lao động",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 37 (Kriteria Pengakuan Kecelakaan Kerja)",
+    "RU": "Закон о страховании от производственных травм, статья 37 (Критерии признания производственных травм)",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ」 ပုဒ်မ ၃၇ (လုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာရမှု အသိအမှတ်ပြုခြင်း စံနှုန်း)",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन」 धारा ३७ (औद्योगिक दुर्घटनाको मान्यताको मापदण्ड)",
+    "TH": "* พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 37 (มาตรฐานการยอมรับอุบัติเหตุจากการทำงาน)"
+  },
+  "thirty_laws2": {
+    "KO": "산재보험법 제105조(심사청구에 대한 심리·결정) 제1항",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 105 (Hearing and Decision on Review Requests), Paragraph 1",
+    "VN": "Điều 105 (Xét xử và quyết định yêu cầu thẩm tra) Khoản 1 của Luật Bảo hiểm tai nạn lao động",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 105 (Pemeriksaan dan Keputusan atas Permohonan Banding) Ayat 1",
+    "RU": "Закон о страховании от производственных травм, статья 105 (Слушание и решение по запросам о пересмотре), пункт 1",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ」 ပုဒ်မ ၁၀၅ (စိစစ်ရန် တောင်းဆိုမှုအပေါ် စစ်ဆေးခြင်းနှင့် ဆုံးဖြတ်ခြင်း)၊ အပိုဒ် ၁",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन」 धारा १०५ (छानबिन अनुरोधको सुनुवाइ र निर्णय) उपधारा १",
+    "TH": "* พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 105 (การพิจารณาและตัดสินคำร้องขอให้พิจารณาใหม่) วรรค 1"
+  },
+  "thirtyone_title": {
+    "KO": "경비원 보안업무 중 뇌경색 발병 산재 불승인 취소 사례",
+    "EN": "Reversal of Denial of Workers' Compensation Claim for Security Guard Suffering Cerebral Infarction During Duty",
+    "VN": "Trường hợp hủy bỏ quyết định không công nhận tai nạn lao động do nhân viên bảo vệ bị đột quỵ trong khi làm nhiệm vụ bảo vệ",
+    "ID": "Pembatalan Penolakan Klaim Kecelakaan Kerja Akibat Serangan Jantung pada Petugas Keamanan Selama Tugas",
+    "RU": "Отмена отказа в выплате компенсации за производственную травму охраннику, перенесшему инфаркт мозга во время несения службы",
+    "MM": "လုံခြုံရေးဝန်ထမ်းတစ်ဦး လုံခြုံရေးတာဝန်ထမ်းဆောင်နေစဉ် ဦးနှောက်သွေးကြောပိတ်ရောဂါ ဖြစ်ပွားမှုအတွက် လုပ်ငန်းခွင်ထိခိုက်ဒဏ်ရာရမှုအဖြစ် အသိအမှတ်မပြုသည့် ဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ခဲ့သည့်အမှု",
+    "NP": "सुरक्षा गार्डले सुरक्षा कार्य गर्दा मस्तिष्कघात भएपछि औद्योगिक दुर्घटनाको रूपमा अस्वीकृत निर्णय खारेज गरिएको मुद्दा",
+    "TH": "กรณีการเพิกถอนคำตัดสินไม่อนุมัติเป็นอุบัติเหตุจากการทำงาน จากภาวะสมองขาดเลือดที่เกิดขึ้นระหว่างพนักงานรักษาความปลอดภัยปฏิบัติหน้าที่"
+  },
+  "thirtyone_summary0": {
+    "KO": "승인 여부: 승인",
+    "EN": "Approval Status: Approved",
+    "VN": "Kết quả phê duyệt: Được phê duyệt",
+    "ID": "Status Persetujuan: Disetujui",
+    "RU": "Статус утверждения: Утверждено",
+    "MM": "* အတည်ပြု 여부: အတည်ပြုခဲ့သည်။",
+    "NP": "* स्वीकृति स्थिति: स्वीकृत",
+    "TH": "* สถานะการอนุมัติ: อนุมัติ"
+  },
+  "thirtyone_summary1": {
+    "KO": "발생 일시: 2023. 6. 13. 22:40경",
+    "EN": "Date/Time of Occurrence: June 13, 2023, around 22:40",
+    "VN": "Thời gian xảy ra: Khoảng 22:40 ngày 13/6/2023",
+    "ID": "Waktu Kejadian: 13 Juni 2023, sekitar pukul 22:40",
+    "RU": "Дата и время происшествия: Примерно 22:40, 13 июня 2023 г.",
+    "MM": "* ဖြစ်ပွားချိန်: ၂၀၂၃ ခုနှစ်၊ ဇွန်လ ၁၃ ရက်၊ ည ၁၀ နာရီ ၄၀ မိနစ်ခန့်",
+    "NP": "* घटना मिति र समय: २०२३ जुन १३, राति १०:४० बजेतिर",
+    "TH": "* วันเวลาที่เกิดเหตุ: ประมาณวันที่ 13 มิถุนายน 2023 เวลา 22:40 น."
+  },
+  "thirtyone_summary2": {
+    "KO": "발생 장소: ○○시 ○○구 ○○병원 1층 로비",
+    "EN": "Location of Occurrence: 1st Floor Lobby, ○○ Hospital, ○○ District, ○○ City",
+    "VN": "Địa điểm xảy ra: Sảnh tầng 1 bệnh viện ○○, quận ○○, thành phố ○○",
+    "ID": "Lokasi Kejadian: Lobi Lantai 1 Rumah Sakit ○○, ○○-gu, ○○-si",
+    "RU": "Место происшествия: Вестибюль, 1-й этаж, больница ○○, район ○○, город ○○",
+    "MM": "* ဖြစ်ပွားရာနေရာ: ○○ မြို့၊ ○○ ရပ်ကွက်၊ ○○ ဆေးရုံ၊ မြေညီထပ် ဧည့်ကြိုခန်းမ",
+    "NP": "* घटना स्थल: ○○ शहर, ○○ जिल्ला, ○○ अस्पतालको पहिलो तलाको लबी",
+    "TH": "* สถานที่เกิดเหตุ: ล็อบบี้ชั้น 1 โรงพยาบาล ○○ เขต ○○ เมือง ○○"
+  },
+  "thirtyone_summary3": {
+    "KO": "근로자 정보: 병원 보안업무 종사자",
+    "EN": "Worker Information: Hospital security guard",
+    "VN": "Thông tin người lao động: Nhân viên bảo vệ bệnh viện",
+    "ID": "Informasi Pekerja: Petugas keamanan rumah sakit",
+    "RU": "Информация о работнике: сотрудник службы безопасности больницы",
+    "MM": "* လုပ်သားအချက်အလက်: ဆေးရုံလုံခြုံရေးဝန်ထမ်း",
+    "NP": "* कामदारको जानकारी: अस्पतालको सुरक्षा कार्यमा संलग्न व्यक्ति",
+    "TH": "* ข้อมูลลูกจ้าง: ผู้ปฏิบัติงานด้านรักษาความปลอดภัยในโรงพยาบาล"
+  },
+  "thirtyone_summary4": {
+    "KO": "상병명: 뇌경색증",
+    "EN": "Diagnosis: Cerebral infarction",
+    "VN": "Tên bệnh: Đột quỵ não",
+    "ID": "Nama Penyakit: Stroke",
+    "RU": "Диагноз: инфаркт мозга",
+    "MM": "* ရောဂါအမည်: ဦးနှောက်သွေးကြောပိတ်ခြင်း (Cerebral Infarction)",
+    "NP": "* रोगको नाम: मस्तिष्कघात (Cerebral Infarction)",
+    "TH": "* ชื่อโรค/การบาดเจ็บ: ภาวะสมองขาดเลือด (Cerebral Infarction)"
+  },
+  "thirtyone_situation": {
+    "KO": "경비원으로 업무수행 중 발병된 뇌경색증에 대해 단기근무 및 급성피로 인정요건에 해당되지 않아 불승인한 처분에 대해, 업무와 뇌경색 발병 간에 상당인과관계가 인정되지 않아 “취소” 한 사례",
+    "EN": "The initial denial of the claim for cerebral infarction occurring during security duties was based on the worker not meeting the criteria for short-term work or acute fatigue. This decision was overturned (“Reversed”) because no substantial causal relationship between the work and the cerebral infarction was established.",
+    "VN": "Trường hợp từ chối công nhận tai nạn lao động do đột quỵ não xảy ra trong khi làm nhiệm vụ bảo vệ vì không đáp ứng các điều kiện công nhận làm việc ngắn hạn và mệt mỏi cấp tính, nhưng sau đó được hủy bỏ vì không công nhận có mối quan hệ nhân quả đáng kể giữa công việc và đột quỵ não.",
+    "ID": "Terhadap stroke yang terjadi saat bekerja sebagai petugas keamanan, penolakan klaim karena tidak memenuhi syarat kerja singkat dan kelelahan akut. Namun, karena tidak terdapat hubungan sebab-akibat yang cukup antara pekerjaan dan stroke, klaim ditolak dan diputuskan untuk “dibatalkan”.",
+    "RU": "Первоначальное решение об отказе в выплате компенсации за инфаркт мозга, произошедший во время выполнения служебных обязанностей, было основано на том, что работник не соответствовал критериям краткосрочной занятости или острой усталости. Это решение было отменено, поскольку не было установлено существенной причинно-следственной связи между работой и инфарктом мозга.",
+    "MM": "လုံခြုံရေးဝန်ထမ်းတစ်ဦးအဖြစ် တာဝန်ထမ်းဆောင်နေစဉ် ဖြစ်ပွားခဲ့သော ဦးနှောက်သွေးကြောပိတ်ရောဂါအား ကာလတိုလုပ်ငန်းခွင်နှင့် ရုတ်တရက်ပင်ပန်းနွမ်းနယ်မှု အသိအမှတ်ပြုခြင်းဆိုင်ရာ သတ်မှတ်ချက်များနှင့် မကိုက်ညီဟုဆိုကာ အသိအမှတ်မပြုခဲ့သည့် ဆုံးဖြတ်ချက်ကို လုပ်ငန်းနှင့် ဦးနှောက်သွေးကြောပိတ်ရောဂါ ဖြစ်ပွားမှုအကြား သိသာထင်ရှားသော အကြောင်းအကျိုးဆက်နွယ်မှုရှိကြောင်း အသိအမှတ်ပြု၍ \"ပယ်ဖျက်\" ခဲ့သည့် အမှုဖြစ်သည်။",
+    "NP": "सुरक्षा गार्डको रूपमा काम गर्दा भएको मस्तिष्कघातलाई छोटो अवधिको काम र तीव्र थकानको मान्यताका सर्तहरू पूरा नभएको भन्दै अस्वीकृत गरिएको निर्णयलाई, काम र मस्तिष्कघातको बीचमा पर्याप्त कारण-कार्य सम्बन्ध स्वीकार गरी \"खारेज\" गरिएको मुद्दा।",
+    "TH": "เป็นกรณีที่คำตัดสินซึ่งเคยไม่อนุมัติโดยอ้างว่าภาวะสมองขาดเลือดที่เกิดขึ้นกับพนักงานรักษาความปลอดภัยไม่เข้าข่ายเงื่อนไขการทำงานระยะสั้นและความเหนื่อยล้าเฉียบพลัน ได้ถูก \"เพิกถอน\" เนื่องจากมีการยอมรับความสัมพันธ์เชิงสาเหตุและผลที่สำคัญระหว่างการทำงานกับการเกิดโรค"
+  },
+  "thirtyone_facts0": {
+    "KO": "청구인은 병원 보안업무를 담당하며 장시간 근무와 휴게시간 미보장 상태에서 근무함.",
+    "EN": "The claimant was responsible for hospital security duties, working long hours without guaranteed rest periods.",
+    "VN": "Người yêu cầu bồi thường chịu trách nhiệm bảo vệ bệnh viện, làm việc trong thời gian dài và không được đảm bảo thời gian nghỉ ngơi.",
+    "ID": "Pemohon bertugas sebagai petugas keamanan rumah sakit dan bekerja dalam kondisi jam kerja panjang tanpa jaminan waktu istirahat.",
+    "RU": "Заявитель отвечал за охрану больницы, работая по много часов без гарантированных перерывов на отдых.",
+    "MM": "* တောင်းဆိုသူသည် ဆေးရုံလုံခြုံရေးတာဝန်ကို ထမ်းဆောင်ခဲ့ပြီး အလုပ်ချိန်ကြာမြင့်ခြင်းနှင့် အနားယူချိန် အာမခံချက်မရှိသော အခြေအနေတွင် အလုပ်လုပ်ခဲ့ရသည်။",
+    "NP": "* निवेदकले अस्पतालको सुरक्षा कार्यको जिम्मेवारी लिई लामो समयसम्म काम गरे र आरामको समय पनि सुनिश्चित थिएन।",
+    "TH": "* ผู้เรียกร้องรับผิดชอบงานรักษาความปลอดภัยของโรงพยาบาล โดยทำงานเป็นเวลานานและไม่มีการรับประกันเวลาพักผ่อน"
+  },
+  "thirtyone_facts1": {
+    "KO": "지하 주차장 순찰 등 냉방시설 부재, 세탁물·식자재 관리, 쓰레기 정리 등으로 육체적 부담이 지속됨.",
+    "EN": "Physical strain persisted due to tasks like patrolling the underground parking lot (lacking air conditioning), managing laundry and food supplies, and disposing of trash.",
+    "VN": "Công việc liên tục gây ra gánh nặng về thể chất như tuần tra bãi đậu xe ngầm không có điều hòa, quản lý đồ giặt, nguyên liệu thực phẩm, dọn rác.",
+    "ID": "Tugas seperti patroli di parkir bawah tanah tanpa fasilitas pendingin udara, pengelolaan cucian dan bahan makanan, serta pembersihan sampah menyebabkan beban fisik yang berkelanjutan.",
+    "RU": "Физическая нагрузка была связана с такими задачами, как патрулирование подземной парковки (без кондиционера), управление стиркой и поставками продуктов питания, а также утилизацией отходов.",
+    "MM": "* မြေအောက်ကားပါကင် ကင်းလှည့်ခြင်းကဲ့သို့သော လေအေးပေးစက်မရှိသည့် နေရာများတွင် တာဝန်ထမ်းဆောင်ရခြင်း၊ အဝတ်လျှော်ဖွတ်ရေးပစ္စည်းများနှင့် စားသောက်ကုန်များ စီမံခန့်ခွဲရခြင်း၊ အမှိုက်များ ရှင်းလင်းရခြင်းတို့ကြောင့် ခန္ဓာကိုယ်ဆိုင်ရာဝန်ပိမှုများ စဉ်ဆက်မပြတ်ရှိခဲ့သည်။",
+    "NP": "* भूमिगत पार्किङको गस्ती जस्ता वातानुकूलित सुविधा नभएको ठाउँमा काम, लुगा धुने सामान र खाद्य सामग्रीको व्यवस्थापन, र फोहोर सफा गर्ने जस्ता कामहरूले शारीरिक बोझ निरन्तर थियो।",
+    "TH": "* ภาระทางกายภาพเกิดขึ้นอย่างต่อเนื่องจากการทำงาน เช่น การตรวจตราลานจอดรถใต้ดินที่ไม่มีเครื่องปรับอากาศ การจัดการผ้าและวัตถุดิบอาหาร และการจัดเก็บขยะ"
+  },
+  "thirtyone_facts2": {
+    "KO": "환자·보호자·외부인으로부터 빈번한 폭언·위협 등 정신적 스트레스가 누적됨.",
+    "EN": "Mental stress accumulated from frequent verbal abuse and threats from patients, guardians, and outsiders.",
+    "VN": "Căng thẳng tinh thần tích tụ do thường xuyên bị bệnh nhân, người nhà bệnh nhân, người ngoài chửi bới, đe dọa.",
+    "ID": "Stres mental terus menumpuk akibat seringnya menerima kata-kata kasar dan ancaman dari pasien, keluarga pasien, dan orang luar.",
+    "RU": "Психологический стресс накапливался из-за частых словесных оскорблений и угроз со стороны пациентов, опекунов и внешних посетителей.",
+    "MM": "* လူနာများ၊ လူနာစောင့်များနှင့် ပြင်ပလူများထံမှ မကြာခဏဆိုသလို ကြမ်းတမ်းစွာပြောဆိုခြိမ်းခြောက်မှုများကို ခံရသောကြောင့် စိတ်ပိုင်းဆိုင်ရာ ဖိစီးမှုများ စုပုံနေခဲ့သည်။",
+    "NP": "* बिरामी, बिरामीका आफन्त, र बाहिरी व्यक्तिहरूबाट बारम्बार हुने दुर्व्यवहार र धम्की जस्ता कारणले मानसिक तनाव थुप्रिएको थियो।",
+    "TH": "* มีความเครียดทางจิตใจสะสมจากการถูกต่อว่าด้วยถ้อยคำรุนแรงและการข่มขู่จากผู้ป่วย ญาติผู้ป่วย และบุคคลภายนอกอยู่บ่อยครั้ง"
+  },
+  "thirtyone_facts3": {
+    "KO": "야간 근무 중 어지럼증과 시력 이상 증상이 발생, ‘급성 뇌경색’ 진단을 받음.",
+    "EN": "During a night shift, the claimant experienced dizziness and visual disturbances, leading to a diagnosis of ‘acute cerebral infarction’.",
+    "VN": "Trong ca làm việc ban đêm, người yêu cầu bồi thường bị chóng mặt và rối loạn thị lực, được chẩn đoán là \"đột quỵ cấp tính\".",
+    "ID": "Selama shift malam, mengalami gejala pusing dan gangguan penglihatan, dan didiagnosis menderita ‘serangan stroke akut’.",
+    "RU": "Во время ночной смены истец испытал головокружение и нарушения зрения, впоследствии ему был поставлен диагноз «острый инфаркт мозга».",
+    "MM": "* ညပိုင်းတာဝန်ထမ်းဆောင်နေစဉ် မူးဝေခြင်းနှင့် အမြင်အာရုံမကောင်းသည့် လက္ခဏာများ ဖြစ်ပေါ်ခဲ့ပြီး 'ရုတ်တရက် ဦးနှောက်သွေးကြောပိတ်ခြင်း' ဟု ရောဂါရှာဖွေတွေ့ရှိခဲ့သည်။",
+    "NP": "* रातिको ड्युटीको क्रममा चक्कर लाग्ने र दृष्टिमा समस्या देखियो, र 'तीव्र मस्तिष्कघात' भएको निदान भयो।",
+    "TH": "* ระหว่างการทำงานกะกลางคืน มีอาการเวียนศีรษะและสายตาผิดปกติเกิดขึ้น และได้รับการวินิจฉัยว่าเป็น 'ภาวะสมองขาดเลือดเฉียบพลัน'"
+  },
+  "thirtyone_facts4": {
+    "KO": "과중한 근무시간, 열악한 근무환경, 지속적 스트레스가 복합적으로 작용한 것으로 확인됨.",
+    "EN": "It was confirmed that excessive working hours, poor working conditions, and persistent stress acted in combination to cause the illness.",
+    "VN": "Được xác định là do tác động tổng hợp của thời gian làm việc quá dài, môi trường làm việc tồi tệ và căng thẳng liên tục.",
+    "ID": "Dikonfirmasi bahwa hal ini disebabkan oleh kombinasi jam kerja yang berlebihan, lingkungan kerja yang buruk, dan stres yang berkelanjutan.",
+    "RU": "Было подтверждено, что это стало результатом совокупного воздействия чрезмерной продолжительности рабочего дня, плохих условий труда и постоянного стресса.",
+    "MM": "* အလွန်အကျွံ အလုပ်ချိန်များခြင်း၊ ဆိုးရွားသော လုပ်ငန်းခွင်ပတ်ဝန်းကျင်နှင့် စဉ်ဆက်မပြတ်ဖြစ်ပေါ်နေသော ဖိစီးမှုများက ပေါင်းစပ်သက်ရောက်ခဲ့ကြောင်း အတည်ပြုနိုင်ခဲ့သည်။",
+    "NP": "* अत्यधिक कामको घण्टा, खराब कामको वातावरण, र निरन्तर तनावले संयुक्त रूपमा प्रभाव पारेको पुष्टि भयो।",
+    "TH": "* ได้รับการยืนยันว่าชั่วโมงการทำงานที่หนักเกินไป สภาพแวดล้อมการทำงานที่ย่ำแย่ และความเครียดต่อเนื่องเป็นปัจจัยที่ส่งผลร่วมกัน"
+  },
+  "thirtyone_important0": {
+    "KO": "인과관계 인정: 단기근무 및 급성피로 요건을 충족하지 않더라도, 장시간 근무와 열악한 환경이 질병 발병과 인과관계를 형성할 수 있는지 여부.",
+    "EN": "Recognition of Causation: Whether prolonged working hours and poor working conditions can establish a causal relationship with the onset of the disease, even if the requirements for short-term work and acute fatigue are not met.",
+    "VN": "Công nhận mối quan hệ nhân quả: Mặc dù không đáp ứng các yêu cầu về thời gian làm việc ngắn hạn và mệt mỏi cấp tính, liệu thời gian làm việc dài và môi trường làm việc tồi tệ có thể tạo ra mối quan hệ nhân quả với bệnh tật hay không.",
+    "ID": "Pengakuan Hubungan Kausal: Meskipun tidak memenuhi syarat kerja singkat dan kelelahan akut, apakah jam kerja yang panjang dan lingkungan kerja yang buruk dapat membentuk hubungan kausal dengan timbulnya penyakit.",
+    "RU": "Признание причинно-следственной связи: могут ли длительная продолжительность рабочего дня и плохие условия труда установить причинно-следственную связь с возникновением заболевания, даже если не были выполнены требования в отношении краткосрочной работы и острой усталости.",
+    "MM": "* အကြောင်းအကျိုးဆက်နွယ်မှု အသိအမှတ်ပြုခြင်း: ကာလတိုလုပ်ငန်းခွင်နှင့် ရုတ်တရက်ပင်ပန်းနွမ်းနယ်မှုဆိုင်ရာ သတ်မှတ်ချက်များနှင့် မကိုက်ညီသော်လည်း၊ အချိန်ကြာမြင့်စွာ အလုပ်လုပ်ခြင်းနှင့် ဆိုးရွားသော ပတ်ဝန်းကျင်တို့သည် ရောဂါဖြစ်ပွားမှုနှင့် အကြောင်းအကျိုးဆက်နွယ်မှု ရှိ၊ မရှိ ဆိုသည့်အချက်။",
+    "NP": "* कारण-कार्य सम्बन्धको मान्यता: छोटो अवधिको काम र तीव्र थकानको सर्तहरू पूरा नभए तापनि, लामो कामको घण्टा र खराब वातावरणले रोगको उत्पत्तिसँग कारण-कार्य सम्बन्ध स्थापित गर्न सक्छ कि सक्दैन भन्ने प्रश्न।",
+    "TH": "* การยอมรับความสัมพันธ์เชิงสาเหตุและผล: แม้จะไม่เข้าข่ายเงื่อนไขการทำงานระยะสั้นและความเหนื่อยล้าเฉียบพลัน แต่การทำงานเป็นเวลานานและสภาพแวดล้อมที่ย่ำแย่สามารถสร้างความสัมพันธ์เชิงสาเหตุและผลกับการเกิดโรคได้หรือไม่"
+  },
+  "thirtyone_important1": {
+    "KO": "발병 요인 인정: 과로 및 스트레스 노출이 뇌심혈관계 질환의 주요 발병 요인으로 인정되는지 여부.",
+    "EN": "Recognition of Causative Factors: Whether exposure to overwork and stress is recognized as a major causative factor for cerebrovascular diseases.",
+    "VN": "Công nhận yếu tố gây bệnh: Liệu làm việc quá sức và tiếp xúc với căng thẳng có được công nhận là yếu tố chính gây ra bệnh tim mạch não hay không.",
+    "ID": "Pengakuan faktor penyebab: Apakah paparan kelelahan berlebihan dan stres diakui sebagai faktor penyebab utama penyakit kardiovaskular otak.",
+    "RU": "Признание сопутствующих факторов: признается ли переутомление и стресс в качестве основных сопутствующих факторов, способствующих развитию цереброваскулярного заболевания.",
+    "MM": "* ရောဂါဖြစ်ပွားစေသည့် အကြောင်းအရင်းကို အသိအမှတ်ပြုခြင်း: အလွန်အကျွံအလုပ်လုပ်ခြင်းနှင့် စိတ်ဖိစီးမှုများ ခံစားရခြင်းသည် ဦးနှောက်နှင့် နှလုံးသွေးကြောဆိုင်ရာ ရောဂါများ၏ အဓိကဖြစ်ပွားစေသည့် အကြောင်းအရင်းများအဖြစ် အသိအမှတ်ပြုနိုင်ခြင်း ရှိ၊ မရှိ ဆိုသည့်အချက်။",
+    "NP": "* रोग उत्पन्न गराउने कारकहरूको मान्यता: अत्यधिक काम र तनावलाई मस्तिष्क तथा मुटुसम्बन्धी रोगहरूको प्रमुख कारणको रूपमा मान्यता दिइन्छ कि दिइँदैन भन्ने प्रश्न।",
+    "TH": "* การยอมรับปัจจัยที่ทำให้เกิดโรค: การทำงานหนักเกินไปและความเครียดถือเป็นปัจจัยหลักที่ทำให้เกิดโรคหลอดเลือดสมองและหัวใจได้หรือไม่"
+  },
+  "thirtyone_decision0": {
+    "KO": "청구인은 장시간 근무, 불규칙한 휴게시간, 과중한 신체·정신적 업무 환경에 지속적으로 노출되어 있었음.",
+    "EN": "The claimant was continuously exposed to long working hours, irregular rest periods, and an excessively demanding physical and mental work environment.",
+    "VN": "Người yêu cầu bồi thường đã liên tục tiếp xúc với thời gian làm việc dài, thời gian nghỉ ngơi không đều đặn, môi trường làm việc nặng nhọc về thể chất và tinh thần.",
+    "ID": "Pemohon terus-menerus terpapar jam kerja panjang, waktu istirahat tidak teratur, dan lingkungan kerja fisik dan mental yang berat.",
+    "RU": "Заявитель постоянно подвергался длительной работе, нерегулярным перерывам на отдых и чрезмерно напряженной физической и умственной работе.",
+    "MM": "* တောင်းဆိုသူသည် အချိန်ကြာမြင့်စွာ အလုပ်လုပ်ခြင်း၊ ပုံမှန်မရှိသော အနားယူချိန်နှင့် ခန္ဓာကိုယ်နှင့် စိတ်ပိုင်းဆိုင်ရာ ဝန်ပိမှုများသော လုပ်ငန်းခွင်ပတ်ဝန်းကျင်တွင် စဉ်ဆက်မပြတ် တာဝန်ထမ်းဆောင်ခဲ့သည်။",
+    "NP": "* निवेदक लामो कामको घण्टा, अनियमित आरामको समय, र अत्यधिक शारीरिक तथा मानसिक बोझ भएको कामको वातावरणमा निरन्तर रूपमा थिए।",
+    "TH": "* ผู้เรียกร้องต้องเผชิญกับชั่วโมงการทำงานที่ยาวนาน เวลาพักผ่อนที่ไม่แน่นอน และสภาพแวดล้อมการทำงานที่สร้างภาระหนักทางร่างกายและจิตใจอย่างต่อเนื่อง"
+  },
+  "thirtyone_decision1": {
+    "KO": "발병 전 근무 형태와 환경을 종합할 때 뇌경색 발생과 상당인과관계가 인정됨.",
+    "EN": "Considering the work patterns and environment prior to onset, a substantial causal relationship with the cerebral infarction is recognized.",
+    "VN": "Khi tổng hợp hình thức và môi trường làm việc trước khi phát bệnh, có thể công nhận mối quan hệ nhân quả đáng kể với việc phát sinh đột quỵ não.",
+    "ID": "Berdasarkan analisis komprehensif bentuk kerja dan lingkungan sebelum timbulnya penyakit, hubungan sebab-akibat yang signifikan dengan terjadinya stroke otak diakui.",
+    "RU": "Учитывая режим работы и условия труда до развития заболевания, признается существенная причинно-следственная связь с церебральным инфарктом.",
+    "MM": "* ရောဂါမဖြစ်ပွားမီ လုပ်ငန်းခွင်ပုံစံနှင့် ပတ်ဝန်းကျင်ကို ခြုံငုံသုံးသပ်ပါက ဦးနှောက်သွေးကြောပိတ်ရောဂါ ဖြစ်ပွားမှုနှင့် သိသာထင်ရှားသော အကြောင်းအကျိုးဆက်နွယ်မှုရှိကြောင်း အသိအမှတ်ပြုနိုင်သည်။",
+    "NP": "* रोग लाग्नु अघिको कामको प्रकृति र वातावरणलाई समग्रमा हेर्दा, मस्तिष्कघातको उत्पत्तिसँग पर्याप्त कारण-कार्य सम्बन्ध स्वीकार गरियो।",
+    "TH": "* เมื่อพิจารณารูปแบบการทำงานและสภาพแวดล้อมก่อนเกิดโรคโดยรวมแล้ว จึงยอมรับว่ามีความสัมพันธ์เชิงสาเหตุและผลที่สำคัญกับการเกิดภาวะสมองขาดเลือด"
+  },
+  "thirtyone_decision2": {
+    "KO": "따라서 최초 불승인 처분은 취소되고, 업무상 질병으로 승인됨.",
+    "EN": "Therefore, the initial denial decision is revoked, and the condition is approved as an occupational disease.",
+    "VN": "Do đó, quyết định từ chối ban đầu bị hủy bỏ và được công nhận là bệnh nghề nghiệp.",
+    "ID": "Oleh karena itu, keputusan penolakan awal dibatalkan, dan penyakit ini diakui sebagai penyakit akibat kerja.",
+    "RU": "Таким образом, первоначальное решение об отказе от признания отменяется, и заболевание признается профессиональным заболеванием.",
+    "MM": "* ထို့ကြောင့် ကနဦးတွင် အသိအမှတ်မပြုကြောင်း ချမှတ်ထားသည့် ဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ပြီး လုပ်ငန်းခွင်ရောဂါအဖြစ် အတည်ပြုလိုက်သည်။",
+    "NP": "* तसर्थ, प्रारम्भिक अस्वीकृतिको निर्णय खारेज गरी, यसलाई व्यावसायिक रोगको रूपमा स्वीकृत गरियो।",
+    "TH": "* ดังนั้น คำตัดสินที่ไม่อนุมัติในเบื้องต้นจึงถูกเพิกถอน และได้รับการอนุมัติให้เป็นโรคจากการทำงาน"
+  },
+  "thirtyone_laws0": {
+    "KO": "산재보험법 제37조(업무상의 재해의 인정기준)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 37 (Criteria for Recognition of Occupational Injuries)",
+    "VN": "Điều 37 của \"Luật bảo hiểm tai nạn lao động\" (Tiêu chuẩn công nhận tai nạn lao động)",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 37 (Kriteria Pengakuan Kecelakaan Kerja)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 37 (Критерии признания производственных травм)",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ」 ပုဒ်မ ၃၇ (လုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာရမှု အသိအမှတ်ပြုခြင်း စံနှုန်း)",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन」 धारा ३७ (औद्योगिक दुर्घटनाको मान्यताको मापदण्ड)",
+    "TH": "* พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 37 (มาตรฐานการยอมรับอุบัติเหตุจากการทำงาน)"
+  },
+  "thirtyone_laws1": {
+    "KO": "「산재보험법 시행령」 제34조(업무상 질병의 인정기준)",
+    "EN": "Industrial Accident Compensation Insurance Act Enforcement Decree, Article 34 (Criteria for Recognition of Occupational Diseases)",
+    "VN": "Điều 34 của \"Nghị định thi hành Luật bảo hiểm tai nạn lao động\" (Tiêu chuẩn công nhận bệnh nghề nghiệp)",
+    "ID": "「Peraturan Pelaksanaan Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 34 (Kriteria Pengakuan Penyakit Akibat Kerja)",
+    "RU": "Постановление о применении Закона о страховании от несчастных случаев на производстве, статья 34 (Критерии признания профессиональных заболеваний)",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ အကောင်အထည်ဖော်ရေးဆိုင်ရာ အမိန့်」 ပုဒ်မ ၃၄ (လုပ်ငန်းခွင်ရောဂါ အသိအမှတ်ပြုခြင်း စံနှုန်း)",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐनको कार्यान्वयन नियमावली」 धारा ३४ (व्यावसायिक रोगको मान्यताको मापदण्ड)",
+    "TH": "* กฤษฎีกาบังคับใช้พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 34 (มาตรฐานการยอมรับโรคจากการทำงาน)"
+  },
+  "thirtyone_laws2": {
+    "KO": "산재보험법 제105조(심사청구에 대한 심리·결정) 제1항",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 105 (Hearing and Decision on Review Requests), Paragraph 1",
+    "VN": "Điều 105 của \"Luật bảo hiểm tai nạn lao động\" (Xét duyệt và quyết định yêu cầu thẩm định) Khoản 1",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 105 (Pemeriksaan dan Keputusan atas Permohonan Banding) Ayat 1",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 105 (Слушание и решение по запросам о пересмотре), пункт 1",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ」 ပုဒ်မ ၁၀၅ (စိစစ်ရန် တောင်းဆိုမှုအပေါ် စစ်ဆေးခြင်းနှင့် ဆုံးဖြတ်ခြင်း)၊ အပိုဒ် ၁",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन」 धारा १०५ (छानबिन अनुरोधको सुनुवाइ र निर्णय) उपधारा १",
+    "TH": "* พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 105 (การพิจารณาและตัดสินคำร้องขอให้พิจารณาใหม่) วรรค 1"
+  },
+  "thirtytwo_title": {
+    "KO": "품질·생산관리 업무 중 급성심근경색 사망 산재 불승인 취소 사례",
+    "EN": "Reversal of Denial of Workers' Compensation Claim for Death by Acute Myocardial Infarction During Quality/Production Management Duties",
+    "VN": "Trường hợp hủy bỏ quyết định không công nhận tai nạn lao động do tử vong vì nhồi máu cơ tim cấp tính trong khi làm công việc quản lý chất lượng và sản xuất",
+    "ID": "Pembatalan Penolakan Klaim Kecelakaan Kerja Akibat Serangan Jantung Akut Selama Tugas Pengendalian Kualitas dan Produksi",
+    "RU": "Отмена отказа в выплате компенсации за смерть в результате острого инфаркта миокарда во время выполнения обязанностей по управлению качеством/производством",
+    "MM": "အရည်အသွေးနှင့် ထုတ်လုပ်မှု စီမံခန့်ခွဲရေးတာဝန်ထမ်းဆောင်နေစဉ် ရုတ်တရက်နှလုံးသွေးကြောပိတ်၍ သေဆုံးမှုကို လုပ်ငန်းခွင်ထိခိုက်ဒဏ်ရာရမှုအဖြစ် အသိအမှတ်မပြုသည့် ဆုံးဖြတ်ချက်အား ပယ်ဖျက်ခဲ့သည့်အမှု",
+    "NP": "गुणस्तर तथा उत्पादन व्यवस्थापनको काम गर्दा तीव्र हृदयाघातबाट मृत्यु भएपछि औद्योगिक दुर्घटनाको रूपमा अस्वीकृत निर्णय खारेज गरिएको मुद्दा",
+    "TH": "กรณีการเพิกถอนคำตัดสินไม่อนุมัติเป็นอุบัติเหตุจากการทำงาน จากการเสียชีวิตด้วยภาวะกล้ามเนื้อหัวใจตายเฉียบพลันระหว่างปฏิบัติงานด้านการควบคุมคุณภาพและการผลิต"
+  },
+  "thirtytwo_summary0": {
+    "KO": "승인 여부: 승인",
+    "EN": "Approval Status: Approved",
+    "VN": "Quyết định công nhận: Công nhận",
+    "ID": "Status Persetujuan: Disetujui",
+    "RU": "Статус утверждения: Утверждено",
+    "MM": "* အတည်ပြု 여부: အတည်ပြုခဲ့သည်။",
+    "NP": "* स्वीकृति स्थिति: स्वीकृत",
+    "TH": "* สถานะการอนุมัติ: อนุมัติ"
+  },
+  "thirtytwo_summary1": {
+    "KO": "발생 일시: 2022. 12. 14. 21:23경",
+    "EN": "Date/Time of Occurrence: December 14, 2022, around 21:23",
+    "VN": "Thời gian xảy ra: Khoảng 21:23 ngày 14/12/2022",
+    "ID": "Waktu Kejadian: 14 Desember 2022, sekitar pukul 21:23",
+    "RU": "Дата/время происшествия: Примерно 21:23, 14 декабря 2022 г.",
+    "MM": "* ဖြစ်ပွားချိန်: ၂၀၂၂ ခုနှစ်၊ ဒီဇင်ဘာလ ၁၄ ရက်၊ ည ၉ နာရီ ၂၃ မိနစ်ခန့်",
+    "NP": "* घटना मिति र समय: २०२२ डिसेम्बर १४, राति ९:२३ बजेतिर",
+    "TH": "* วันเวลาที่เกิดเหตุ: ประมาณวันที่ 14 ธันวาคม 2022 เวลา 21:23 น."
+  },
+  "thirtytwo_summary2": {
+    "KO": "발생 장소: ○○회사 사업장 내 화장실",
+    "EN": "Location of Occurrence: Restroom within ○○ Company's workplace",
+    "VN": "Địa điểm xảy ra: Nhà vệ sinh trong khuôn viên công ty ○○",
+    "ID": "Lokasi Kejadian: Toilet di lokasi kerja Perusahaan ○○",
+    "RU": "Место происшествия: Туалет на рабочем месте компании ○○",
+    "MM": "* ဖြစ်ပွားရာနေရာ: ○○ ကုမ္ပဏီ လုပ်ငန်းခွင်အတွင်းရှိ အိမ်သာ",
+    "NP": "* घटना स्थल: ○○ कम्पनीको कार्यस्थल भित्रको शौचालय",
+    "TH": "* สถานที่เกิดเหตุ: ห้องน้ำภายในสถานประกอบการของบริษัท ○○"
+  },
+  "thirtytwo_summary3": {
+    "KO": "근로자 정보: 품질·생산관리 업무 담당자",
+    "EN": "Worker Information: Quality/Production Management Supervisor",
+    "VN": "Thông tin người lao động: Nhân viên phụ trách quản lý chất lượng và sản xuất",
+    "ID": "Informasi Pekerja: Petugas Pengendalian Kualitas dan Produksi",
+    "RU": "Информация о работнике: Лицо, ответственное за управление качеством/производством",
+    "MM": "* လုပ်သားအချက်အလက်: အရည်အသွေးနှင့် ထုတ်လုပ်မှု စီမံခန့်ခွဲရေး တာဝန်ခံ",
+    "NP": "* कामदारको जानकारी: गुणस्तर तथा उत्पादन व्यवस्थापनको जिम्मेवार व्यक्ति",
+    "TH": "* ข้อมูลลูกจ้าง: ผู้รับผิดชอบงานด้านการควบคุมคุณภาพและการผลิต"
+  },
+  "thirtytwo_summary4": {
+    "KO": "상병명: 급성심근경색증",
+    "EN": "Diagnosis: Acute Myocardial Infarction",
+    "VN": "Chẩn đoán bệnh: Nhồi máu cơ tim cấp tính",
+    "ID": "Nama Penyakit: Infark Miokard Akut",
+    "RU": "Диагноз: острый инфаркт миокарда",
+    "MM": "* ရောဂါအမည်: ရုတ်တရက် နှလုံးသွေးကြောပိတ်ခြင်း (Acute Myocardial Infarction)",
+    "NP": "* रोगको नाम: तीव्र हृदयाघात (Acute Myocardial Infarction)",
+    "TH": "* ชื่อโรค/การบาดเจ็บ: ภาวะกล้ามเนื้อหัวใจตายเฉียบพลัน (Acute Myocardial Infarction)"
+  },
+  "thirtytwo_situation": {
+    "KO": "고인의 기왕증(고혈압, 당뇨 등)과 생활습관 등 개인적 요인으로 발병된 급성심근경색증이라며 불승인 처분하였으나, 업무상 정신적 긴장과 과중한 부담이 발병 요인으로 작용했다고 판단하여 원처분 “취소” 결정한 사례.",
+    "EN": "The initial denial decision stated the acute myocardial infarction was caused by the deceased's pre-existing conditions (hypertension, diabetes, etc.) and personal lifestyle factors. However, it was determined that work-related mental stress and excessive burden acted as contributing factors to the onset, leading to a decision to “Reverse” the original denial.",
+    "VN": "Ban đầu, trường hợp này bị từ chối bồi thường với lý do nhồi máu cơ tim cấp tính là do các yếu tố cá nhân như bệnh lý từ trước (cao huyết áp, tiểu đường, v.v.) và thói quen sinh hoạt của người quá cố. Tuy nhiên, sau khi xem xét, cơ quan chức năng đã quyết định hủy bỏ quyết định ban đầu vì cho rằng căng thẳng tinh thần và áp lực công việc quá lớn là nguyên nhân dẫn đến tai nạn.",
+    "ID": "Awalnya ditolak dengan alasan infark miokard akut disebabkan oleh riwayat penyakit sebelumnya (hipertensi, diabetes, dll.) dan faktor pribadi seperti gaya hidup. Namun, diputuskan untuk membatalkan keputusan awal karena dinilai bahwa tekanan mental dan beban kerja berlebihan dalam pekerjaan menjadi faktor penyebab.",
+    "RU": "первоначальное решение отклонило заявление, объяснив острый инфаркт миокарда предшествующими заболеваниями (гипертония, диабет и т. д.) и личными факторами образа жизни умершего. Однако было установлено, что профессиональное психическое напряжение и чрезмерная нагрузка способствовали возникновению заболевания, что привело к решению «отменить» первоначальное отклонение.",
+    "MM": "သေဆုံးသူ၏ ရှိရင်းစွဲရောဂါ (သွေးတိုး၊ ဆီးချို စသည်) နှင့် နေထိုင်မှုပုံစံကဲ့သို့သော ပုဂ္ဂိုလ်ရေးဆိုင်ရာအကြောင်းများကြောင့် ရုတ်တရက်နှလုံးသွေးကြောပိတ်ခြင်း ဖြစ်ပွားခဲ့သည်ဟုဆိုကာ အသိအမှတ်မပြုခဲ့သည့် ဆုံးဖြတ်ချက်ကို၊ လုပ်ငန်းခွင်ဆိုင်ရာ စိတ်ပိုင်းဆိုင်ရာတင်းမာမှုနှင့် ဝန်ပိမှုများက ရောဂါဖြစ်ပွားစေသည့် အဓိကအကြောင်းအရင်းအဖြစ် သက်ရောက်ခဲ့သည်ဟု ဆုံးဖြတ်ကာ မူလဆုံးဖြတ်ချက်အား \"ပယ်ဖျက်\" ခဲ့သည့် အမှုဖြစ်သည်။",
+    "NP": "मृतकको पूर्व-विद्यमान रोग (उच्च रक्तचाप, मधुमेह आदि) र जीवनशैली जस्ता व्यक्तिगत कारणले तीव्र हृदयाघात भएको भन्दै अस्वीकृत गरिएको निर्णयलाई, कामको मानसिक तनाव र अत्यधिक बोझले रोग उत्पन्न गराउनमा भूमिका खेलेको ठहर गर्दै प्रारम्भिक निर्णय \"खारेज\" गरिएको मुद्दा।",
+    "TH": "เป็นกรณีที่คำตัดสินซึ่งเคยไม่อนุมัติโดยอ้างว่าภาวะกล้ามเนื้อหัวใจตายเฉียบพลันเกิดจากปัจจัยส่วนบุคคล เช่น โรคประจำตัวของผู้เสียชีวิต (ความดันโลหิตสูง, เบาหวาน เป็นต้น) และพฤติกรรมการใช้ชีวิต ได้ถูก \"เพิกถอน\" เนื่องจากพิจารณาแล้วเห็นว่าความตึงเครียดทางจิตใจและภาระงานที่หนักเกินไปเป็นปัจจัยที่ทำให้เกิดโรค"
+  },
+  "thirtytwo_facts0": {
+    "KO": "청구인은 품질검사·생산관리·납기조율 등 업무를 수행하며 장시간 근무와 초과근무가 지속됨.",
+    "EN": "The claimant performed duties including quality inspection, production management, and delivery schedule coordination, involving sustained long working hours and overtime.",
+    "VN": "Người yêu cầu bồi thường thực hiện các công việc kiểm tra chất lượng, quản lý sản xuất, điều phối thời gian giao hàng, v.v. và liên tục làm việc trong thời gian dài và làm thêm giờ.",
+    "ID": "Pemohon melakukan pekerjaan seperti pemeriksaan kualitas, manajemen produksi, dan koordinasi tenggat waktu, yang menyebabkan jam kerja panjang dan lembur yang berkelanjutan.",
+    "RU": "Заявитель выполнял обязанности, включая контроль качества, управление производством и координацию графика поставок, что предполагало длительный рабочий день и сверхурочную работу.",
+    "MM": "* တောင်းဆိုသူသည် အရည်အသွေးစစ်ဆေးခြင်း၊ ထုတ်လုပ်မှုစီမံခန့်ခွဲခြင်း၊ ကုန်ပစ္စည်းပေးပို့ရက်ညှိနှိုင်းခြင်း စသည့်တာဝန်များကို ထမ်းဆောင်ခဲ့ပြီး အချိန်ကြာမြင့်စွာ အလုပ်လုပ်ခြင်းနှင့် အချိန်ပိုဆင်းခြင်းများ စဉ်ဆက်မပြတ်ရှိခဲ့သည်။",
+    "NP": "* निवेदकले गुणस्तर निरीक्षण, उत्पादन व्यवस्थापन, र डेलिभरी मिति समन्वय जस्ता कामहरू गर्दथे, र लामो समयसम्म काम गर्ने र ओभरटाइम गर्ने क्रम निरन्तर थियो।",
+    "TH": "* ผู้เรียกร้องปฏิบัติงานด้านการตรวจสอบคุณภาพ การจัดการการผลิต และการประสานงานกำหนดส่งมอบสินค้า โดยทำงานเป็นเวลานานและทำงานล่วงเวลาอย่างต่อเนื่อง"
+  },
+  "thirtytwo_facts1": {
+    "KO": "발병 전 12주 평균 근무시간은 56시간 이상으로 과로 기준을 충족함.",
+    "EN": "The average working hours in the 12 weeks prior to onset exceeded 56 hours per week, meeting the criteria for overwork.",
+    "VN": "Trước khi phát bệnh, thời gian làm việc trung bình trong 12 tuần là hơn 56 giờ, đáp ứng tiêu chuẩn làm việc quá sức.",
+    "ID": "Rata-rata jam kerja selama 12 minggu sebelum kejadian melebihi 56 jam, memenuhi kriteria kelelahan berlebihan.",
+    "RU": "Средняя продолжительность рабочей недели за 12 недель, предшествовавших возникновению заболевания, превышала 56 часов, что соответствует критериям переработки.",
+    "MM": "* ရောဂါမဖြစ်ပွားမီ ၁၂ ပတ်တာကာလ၏ ပျမ်းမျှအလုပ်ချိန်သည် တစ်ပတ်လျှင် ၅၆ နာရီကျော်ရှိခဲ့ပြီး အလွန်အကျွံအလုပ်လုပ်ခြင်း စံနှုန်းနှင့် ကိုက်ညီခဲ့သည်။",
+    "NP": "* रोग लाग्नुभन्दा १२ हप्ता अघिको औसत कामको समय प्रति हप्ता ५६ घण्टाभन्दा बढी थियो, जुन अत्यधिक कामको मापदण्ड पूरा गर्दछ।",
+    "TH": "* ชั่วโมงการทำงานเฉลี่ย 12 สัปดาห์ก่อนเกิดเหตุอยู่ที่มากกว่า 56 ชั่วโมง ซึ่งเข้าเกณฑ์การทำงานหนักเกินไป"
+  },
+  "thirtytwo_facts2": {
+    "KO": "납기 압박, 일정 조율, 상급자 관리·감독 책임 등으로 지속적인 스트레스와 업무 부담이 가중됨.",
+    "EN": "Constant stress and work burden intensified due to delivery deadline pressure, schedule coordination, and supervisory responsibilities toward superiors.",
+    "VN": "Áp lực về thời hạn giao hàng, điều phối lịch trình, trách nhiệm quản lý và giám sát cấp trên khiến căng thẳng và áp lực công việc liên tục gia tăng.",
+    "ID": "Tekanan tenggat waktu, koordinasi jadwal, dan tanggung jawab pengawasan atasan menyebabkan stres dan beban kerja yang terus-menerus meningkat.",
+    "RU": "Постоянный стресс и повышенная рабочая нагрузка усугублялись давлением сроков поставки, необходимостью координации графика и обязанностями по контролю за подчиненными.",
+    "MM": "* ကုန်ပစ္စည်းပေးပို့ရက်ဆိုင်ရာ ဖိအားများ၊ အချိန်ဇယားညှိနှိုင်းခြင်း၊ အထက်အရာရှိ၏ စီမံခန့်ခွဲမှုနှင့် ကြီးကြပ်မှုဆိုင်ရာ တာဝန်များကြောင့် စဉ်ဆက်မပြတ် စိတ်ဖိစီးမှုနှင့် လုပ်ငန်းတာဝန်ဝန်ပိမှုများ တိုးပွားနေခဲ့သည်။",
+    "NP": "* डेलिभरीको दबाब, तालिका समन्वय, र माथिल्लो तहको व्यवस्थापन तथा सुपरिवेक्षणको जिम्मेवारीका कारण निरन्तर तनाव र कामको बोझ बढेको थियो।",
+    "TH": "* ความเครียดและภาระงานเพิ่มขึ้นอย่างต่อเนื่องจากแรงกดดันเรื่องกำหนดส่งมอบ การประสานงานตารางเวลา และความรับผิดชอบในการจัดการและกำกับดูแลจากผู้บังคับบัญชา"
+  },
+  "thirtytwo_facts3": {
+    "KO": "회식 후 귀가 과정에서 급성 증상이 발현되어 병원 이송 후 급성심근경색으로 사망함.",
+    "EN": "Acute symptoms manifested while returning home after a company dinner. The claimant was transported to the hospital and died from acute myocardial infarction.",
+    "VN": "Sau bữa tiệc công ty, trên đường về nhà, các triệu chứng cấp tính xuất hiện, được đưa đến bệnh viện và tử vong do nhồi máu cơ tim cấp tính.",
+    "ID": "Gejala akut muncul saat pulang setelah acara makan malam, dan setelah dibawa ke rumah sakit, ia meninggal akibat infark miokard akut.",
+    "RU": "Острые симптомы проявились во время поездки домой после корпоративного ужина. После перевода в больницу заявитель скончался от острого инфаркта миокарда.",
+    "MM": "* ကုမ္ပဏီညစာစားပွဲအပြီး အိမ်ပြန်လမ်းတွင် ရောဂါလက္ခဏာများ ရုတ်တရက်ပေါ်ပေါက်ခဲ့ပြီး ဆေးရုံသို့ ပို့ဆောင်ခဲ့ပြီးနောက် ရုတ်တရက်နှလုံးသွေးကြောပိတ်ခြင်းဖြင့် သေဆုံးခဲ့သည်။",
+    "NP": "* कम्पनीको डिनर पार्टीपछि घर फर्कने क्रममा तीव्र लक्षणहरू देखा परे, र अस्पताल लैजाँदा तीव्र हृदयाघातका कारण मृत्यु भयो।",
+    "TH": "* หลังจากงานเลี้ยงของบริษัท ระหว่างทางกลับบ้าน เกิดอาการเฉียบพลันขึ้น และเสียชีวิตด้วยภาวะกล้ามเนื้อหัวใจตายเฉียบพลันหลังจากถูกนำตัวส่งโรงพยาบาล"
+  },
+  "thirtytwo_facts4": {
+    "KO": "기왕증은 있었으나, 과로와 업무상 스트레스가 주된 발병 및 사망 원인으로 확인됨.",
+    "EN": "Although pre-existing conditions existed, overwork and work-related stress were confirmed as the primary causes of onset and death.",
+    "VN": "Mặc dù có tiền sử bệnh, nhưng làm việc quá sức và căng thẳng trong công việc được xác định là nguyên nhân chính dẫn đến phát bệnh và tử vong.",
+    "ID": "Meskipun ada riwayat penyakit sebelumnya, kelelahan berlebihan dan stres pekerjaan dikonfirmasi sebagai penyebab utama kejadian dan kematian.",
+    "RU": "Несмотря на наличие ранее существовавших заболеваний, переработка и стресс, связанный с работой, были признаны основными причинами возникновения заболевания и смерти.",
+    "MM": "* ရှိရင်းစွဲရောဂါများရှိခဲ့သော်လည်း အလွန်အကျွံအလုပ်လုပ်ခြင်းနှင့် လုပ်ငန်းခွင်ဆိုင်ရာ စိတ်ဖိစီးမှုများက ရောဂါဖြစ်ပွားမှုနှင့် သေဆုံးမှု၏ အဓိကအကြောင်းအရင်းဖြစ်ကြောင်း အတည်ပြုနိုင်ခဲ့သည်။",
+    "NP": "* पूर्व-विद्यमान रोगहरू भए तापनि, अत्यधिक काम र कामको तनाव नै रोग लाग्नु र मृत्यु हुनुको मुख्य कारण भएको पुष्टि भयो।",
+    "TH": "* แม้ว่าจะมีโรคประจำตัวอยู่ แต่ได้รับการยืนยันว่าการทำงานหนักเกินไปและความเครียดจากการทำงานเป็นสาเหตุหลักของการเกิดโรคและการเสียชีวิต"
+  },
+  "thirtytwo_important0": {
+    "KO": "과로 여부: 주당 평균 56시간 이상 장시간 근무가 발병과 인과관계를 형성하는지 여부.",
+    "EN": "Excessive Workload: Whether the average weekly work hours exceeding 56 hours established a causal relationship with the onset of illness.",
+    "VN": "Có phải là làm việc quá sức hay không: Liệu việc làm việc trung bình hơn 56 giờ mỗi tuần có liên quan đến nguyên nhân gây bệnh hay không.",
+    "ID": "Apakah kelelahan kerja: Apakah jam kerja rata-rata lebih dari 56 jam per minggu membentuk hubungan kausal dengan penyakit.",
+    "RU": "Чрезмерная рабочая нагрузка: имела ли средняя продолжительность рабочей недели, превышающая 56 часов, причинно-следственную связь с наступлением заболевания.",
+    "MM": "* အလွန်အကျွံအလုပ်လုပ်ခြင်း ဟုတ်၊ မဟုတ်: တစ်ပတ်လျှင် ပျမ်းမျှ ၅၆ နာရီကျော် အချိန်ကြာမြင့်စွာ အလုပ်လုပ်ခြင်းသည် ရောဂါဖြစ်ပွားမှုနှင့် အကြောင်းအကျိုးဆက်နွယ်မှု ရှိ၊ မရှိ ဆိုသည့်အချက်။",
+    "NP": "* अत्यधिक कामको प्रश्न: प्रति हप्ता औसत ५६ घण्टाभन्दा बढी लामो समयसम्म काम गर्नुले रोगको उत्पत्तिसँग कारण-कार्य सम्बन्ध स्थापित गर्छ कि गर्दैन भन्ने प्रश्न।",
+    "TH": "* การทำงานหนักเกินไป: การทำงานเป็นเวลานานโดยเฉลี่ยมากกว่า 56 ชั่วโมงต่อสัปดาห์สร้างความสัมพันธ์เชิงสาเหตุและผลกับการเกิดโรคหรือไม่"
+  },
+  "thirtytwo_important1": {
+    "KO": "업무 스트레스 요인: 납기·생산관리 부담, 관리감독 책임 등 업무상 정신적 긴장이 주요 원인으로 인정되는지 여부.",
+    "EN": "Work Stress Factors: Whether work-related mental strain, such as deadlines, production management burdens, and supervisory responsibilities, was recognized as the primary cause.",
+    "VN": "Yếu tố căng thẳng trong công việc: Liệu áp lực về thời hạn, quản lý sản xuất, trách nhiệm quản lý, giám sát, v.v. có được công nhận là nguyên nhân chính gây căng thẳng tinh thần trong công việc hay không.",
+    "ID": "Faktor stres kerja: Apakah beban tenggat waktu dan manajemen produksi, serta tanggung jawab pengawasan, diakui sebagai penyebab utama stres mental.",
+    "RU": "Связанные с работой факторы стресса: были ли признаны в качестве основной причины связанные с работой психические нагрузки, такие как сроки, бремя управления производством и обязанности по надзору.",
+    "MM": "* လုပ်ငန်းခွင် စိတ်ဖိစီးမှုဆိုင်ရာ အကြောင်းအရင်းများ: ကုန်ပစ္စည်းပေးပို့ရက်နှင့် ထုတ်လုပ်မှုစီမံခန့်ခွဲမှုဆိုင်ရာ ဝန်ပိမှု၊ စီမံခန့်ခွဲမှုနှင့် ကြီးကြပ်မှုဆိုင်ရာ တာဝန်များကဲ့သို့သော လုပ်ငန်းခွင်ဆိုင်ရာ စိတ်ပိုင်းဆိုင်ရာတင်းမာမှုများကို အဓိကအကြောင်းအရင်းအဖြစ် အသိအမှတ်ပြုနိုင်ခြင်း ရှိ၊ မရှိ ဆိုသည့်အချက်။",
+    "NP": "* कामको तनावका कारकहरू: डेलिभरी तथा उत्पादन व्यवस्थापनको बोझ, व्यवस्थापन तथा सुपरिवेक्षणको जिम्मेवारी जस्ता कामको मानसिक तनावलाई मुख्य कारणको रूपमा मान्यता दिइन्छ कि दिइँदैन भन्ने प्रश्न।",
+    "TH": "* ปัจจัยความเครียดจากการทำงาน: ความตึงเครียดทางจิตใจจากการทำงาน เช่น ภาระในการจัดการกำหนดส่งมอบและการผลิต ความรับผิดชอบในการจัดการและกำกับดูแล ถือเป็นสาเหตุหลักได้หรือไม่"
+  },
+  "thirtytwo_important2": {
+    "KO": "개인적 요인과의 구분: 기왕증(고혈압, 당뇨 등)과 개인적 생활습관보다 업무 요인이 더 큰 영향을 미쳤는지 여부.",
+    "EN": "Distinction from Personal Factors: Whether work-related factors had a greater influence than pre-existing conditions (hypertension, diabetes, etc.) and personal lifestyle habits.",
+    "VN": "Phân biệt với yếu tố cá nhân: Liệu yếu tố công việc có ảnh hưởng lớn hơn so với bệnh lý từ trước (cao huyết áp, tiểu đường, v.v.) và thói quen sinh hoạt cá nhân hay không.",
+    "ID": "Pembedaan dengan faktor pribadi: Apakah faktor pekerjaan memiliki pengaruh lebih besar daripada riwayat penyakit (hipertensi, diabetes, dll.) dan kebiasaan hidup pribadi.",
+    "RU": "Отличие от личных факторов: оказали ли факторы, связанные с работой, большее влияние, чем ранее существовавшие заболевания (гипертония, диабет и т. д.) и личные привычки в образе жизни.",
+    "MM": "* ပုဂ္ဂိုလ်ရေးဆိုင်ရာ အကြောင်းများနှင့် ခွဲခြားသုံးသပ်ခြင်း: ရှိရင်းစွဲရောဂါ (သွေးတိုး၊ ဆီးချို စသည်) နှင့် ပုဂ္ဂိုလ်ရေးဆိုင်ရာ နေထိုင်မှုပုံစံများထက် လုပ်ငန်းခွင်ဆိုင်ရာ အကြောင်းများက ပိုမိုသက်ရောက်မှုရှိခဲ့ခြင်း ရှိ၊ မရှိ ဆိုသည့်အချက်။",
+    "NP": "* व्यक्तिगत कारणहरूसँगको भिन्नता: पूर्व-विद्यमान रोगहरू (उच्च रक्तचाप, मधुमेह आदि) र व्यक्तिगत जीवनशैलीभन्दा कामको कारणले बढी प्रभाव पारेको थियो कि थिएन भन्ने प्रश्न।",
+    "TH": "* การแยกแยะจากปัจจัยส่วนบุคคล: ปัจจัยจากการทำงานส่งผลกระทบมากกว่าโรคประจำตัว (ความดันโลหิตสูง, เบาหวาน เป็นต้น) และพฤติกรรมการใช้ชีวิตส่วนตัวหรือไม่"
+  },
+  "thirtytwo_decision0": {
+    "KO": "고인의 기왕증 및 생활습관 요인이 일부 존재했으나, 발병 전 장시간 근무와 과중한 업무 부담, 정신적 긴장과 스트레스가 발병을 촉발한 주요 요인으로 인정됨.",
+    "EN": "Although pre-existing conditions and lifestyle factors were partially present, prolonged working hours, excessive workload burdens, and mental tension and stress prior to onset were recognized as the primary factors triggering the disease.",
+    "VN": "Mặc dù người quá cố có một số bệnh nền và thói quen sinh hoạt, nhưng việc làm việc nhiều giờ, áp lực công việc nặng nề, căng thẳng tinh thần và stress trước khi phát bệnh được công nhận là các yếu tố chính gây ra bệnh.",
+    "ID": "Meskipun terdapat faktor riwayat penyakit dan kebiasaan hidup almarhum, jam kerja panjang sebelum timbulnya penyakit, beban kerja berlebihan, serta ketegangan dan stres mental diakui sebagai faktor utama yang memicu timbulnya penyakit.",
+    "RU": "Несмотря на наличие предшествующих заболеваний и факторов образа жизни, длительная продолжительность рабочего дня, чрезмерная рабочая нагрузка, а также психическое напряжение и стресс до начала заболевания были признаны основными факторами, вызвавшими заболевание.",
+    "MM": "* သေဆုံးသူတွင် ရှိရင်းစွဲရောဂါနှင့် နေထိုင်မှုပုံစံဆိုင်ရာ အကြောင်းများ အချို့ရှိခဲ့သော်လည်း၊ ရောဂါမဖြစ်ပွားမီ အချိန်ကြာမြင့်စွာ အလုပ်လုပ်ခဲ့ခြင်း၊ ဝန်ပိမှုများသော လုပ်ငန်းတာဝန်များ၊ စိတ်ပိုင်းဆိုင်ရာ တင်းမာမှုနှင့် စိတ်ဖိစီးမှုများက ရောဂါကို ဖြစ်ပေါ်စေသည့် အဓိကအကြောင်းအရင်းများအဖြစ် အသိအမှတ်ပြုခဲ့သည်။",
+    "NP": "* मृतकको पूर्व-विद्यमान रोग र जीवनशैलीका केही कारकहरू भए तापनि, रोग लाग्नु अघिको लामो कामको घण्टा, अत्यधिक कामको बोझ, मानसिक तनाव र चिन्ता नै रोग उत्पन्न गराउने मुख्य कारकहरू भएको स्वीकार गरियो।",
+    "TH": "* แม้ว่าผู้เสียชีวิตจะมีปัจจัยจากโรคประจำตัวและพฤติกรรมการใช้ชีวิตอยู่บ้าง แต่การทำงานเป็นเวลานาน ภาระงานที่หนักเกินไป ความตึงเครียดทางจิตใจและความเครียดก่อนเกิดเหตุได้รับการยอมรับว่าเป็นปัจจัยหลักที่กระตุ้นให้เกิดโรค"
+  },
+  "thirtytwo_decision1": {
+    "KO": "따라서 고인의 사망은 업무상 재해로 판단되며, 원처분 불승인 결정은 취소됨.",
+    "EN": "Therefore, the deceased's death is determined to be a work-related injury, and the original decision denying compensation is revoked.",
+    "VN": "Do đó, cái chết của người quá cố được công nhận là tai nạn lao động, và quyết định từ chối bồi thường ban đầu bị hủy bỏ.",
+    "ID": "Oleh karena itu, kematian almarhum dinilai sebagai kecelakaan kerja, dan keputusan penolakan awal dicabut.",
+    "RU": "Таким образом, смерть покойного признана производственной травмой, и первоначальное решение об отказе в признании отменено.",
+    "MM": "* ထို့ကြောင့် သေဆုံးသူ၏ သေဆုံးမှုသည် လုပ်ငန်းခွင်ထိခိုက်ဒဏ်ရာရမှုအဖြစ် မှတ်ယူပြီး မူလအသိအမှတ်မပြုသည့် ဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ခဲ့သည်။",
+    "NP": "* तसर्थ, मृतकको मृत्युलाई औद्योगिक दुर्घटनाको रूपमा ठहर गरिन्छ, र प्रारम्भिक अस्वीकृतिको निर्णय खारेज गरिन्छ।",
+    "TH": "* ดังนั้น การเสียชีวิตของผู้เสียชีวิตจึงถือเป็นอุบัติเหตุจากการทำงาน และคำตัดสินที่ไม่อนุมัติในเบื้องต้นจึงถูกเพิกถอน"
+  },
+  "thirtytwo_laws0": {
+    "KO": "산재보험법 제37조(업무상의 재해의 인정기준)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 37 (Criteria for Recognition of Work-Related Injuries)",
+    "VN": "Điều 37 của Luật Bảo hiểm tai nạn lao động (Tiêu chuẩn công nhận tai nạn lao động)",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 37 (Kriteria Pengakuan Kecelakaan Kerja)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 37 (Критерии признания производственных травм)",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ」 ပုဒ်မ ၃၇ (လုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာရမှု အသိအမှတ်ပြုခြင်း စံနှုန်း)",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन」 धारा ३७ (औद्योगिक दुर्घटनाको मान्यताको मापदण्ड)",
+    "TH": "* พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 37 (มาตรฐานการยอมรับอุบัติเหตุจากการทำงาน)"
+  },
+  "thirtytwo_laws1": {
+    "KO": "산재보험법 제62조(유족급여)",
+    "EN": "Industrial Accident Compensation Insurance Act Article 62 (Survivor Benefits)",
+    "VN": "Điều 62 của \"Luật bảo hiểm tai nạn lao động\" (Trợ cấp cho gia đình người chết)",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 62 (Tunjangan Ahli Waris)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 62 (Пособия выжившим)",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ」 ပုဒ်မ ၆၂ (ကျန်ရစ်သူမိသားစု ထောက်ပံ့ကြေး)",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन」 धारा ६२ (आश्रित परिवारको भत्ता)",
+    "TH": "* พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 62 (เงินทดแทนสำหรับทายาท)"
+  },
+  "thirtytwo_laws2": {
+    "KO": "산재보험법 제71조(장례비)",
+    "EN": "Industrial Accident Compensation Insurance Act Article 71 (Funeral Expenses)",
+    "VN": "Điều 71 của \"Luật bảo hiểm tai nạn lao động\" (Chi phí tang lễ)",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 71 (Biaya Pemakaman)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 71 (Расходы на похороны)",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ」 ပုဒ်မ ၇၁ (ဈာပနစရိတ်)",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन」 धारा ७१ (अन्त्येष्टि खर्च)",
+    "TH": "* พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 71 (ค่าจัดการศพ)"
+  },
+  "thirtytwo_laws3": {
+    "KO": "「산재보험법 시행령」 제34조(업무상 질병의 인정기준)",
+    "EN": "Industrial Accident Compensation Insurance Act Enforcement Decree Article 34 (Criteria for Recognizing Occupational Diseases)",
+    "VN": "Điều 34 của \"Nghị định thi hành Luật bảo hiểm tai nạn lao động\" (Tiêu chuẩn công nhận bệnh nghề nghiệp)",
+    "ID": "「Peraturan Pelaksanaan Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 34 (Kriteria Pengakuan Penyakit Akibat Kerja)",
+    "RU": "Постановление о введении в действие Закона о страховании от несчастных случаев на производстве, статья 34 (Критерии признания профессиональных заболеваний)",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ အကောင်အထည်ဖော်ရေးဆိုင်ရာ အမိန့်」 ပုဒ်မ ၃၄ (လုပ်ငန်းခွင်ရောဂါ အသိအမှတ်ပြုခြင်း စံနှုန်း)",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐनको कार्यान्वयन नियमावली」 धारा ३४ (व्यावसायिक रोगको मान्यताको मापदण्ड)",
+    "TH": "* กฤษฎีกาบังคับใช้พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 34 (มาตรฐานการยอมรับโรคจากการทำงาน)"
+  },
+  "thirtytwo_laws4": {
+    "KO": "산재보험법 제105조(심사청구에 대한 심리·결정) 제1항",
+    "EN": "Industrial Accident Compensation Insurance Act Article 105 (Hearing and Decision on Review Requests) Paragraph 1",
+    "VN": "Điều 105 của \"Luật bảo hiểm tai nạn lao động\" (Xét duyệt và quyết định yêu cầu thẩm tra) Khoản 1",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 105 (Pemeriksaan dan Keputusan atas Permohonan Banding) Ayat 1",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 105 (Слушание и решение по запросам о пересмотре), пункт 1",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ」 ပုဒ်မ ၁၀၅ (စိစစ်ရန် တောင်းဆိုမှုအပေါ် စစ်ဆေးခြင်းနှင့် ဆုံးဖြတ်ခြင်း)၊ အပိုဒ် ၁",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन」 धारा १०५ (छानबिन अनुरोधको सुनुवाइ र निर्णय) उपधारा १",
+    "TH": "* พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 105 (การพิจารณาและตัดสินคำร้องขอให้พิจารณาใหม่) วรรค 1"
+  },
+  "thirtythree_title": {
+    "KO": "철근공 근무 중 요추 추간판 탈출증 산재 불승인 취소 사례",
+    "EN": "Reversal of Denial of Workers' Compensation Claim for Lumbar Disc Herniation During Reinforcing Steel Worker's Employment",
+    "VN": "Trường hợp hủy bỏ quyết định từ chối bồi thường tai nạn lao động do thoát vị đĩa đệm cột sống thắt lưng trong khi làm việc với tư cách là công nhân thép",
+    "ID": "Pembatalan Penolakan Klaim Kecelakaan Kerja untuk Hernia Diskus Lumbal pada Pekerja Baja",
+    "RU": "Отмена отказа в выплате компенсации за производственную травму в связи с грыжей межпозвоночного диска поясничного отдела во время работ по армированию",
+    "MM": "သံချောင်းစည်းလုပ်သားတစ်ဦးအဖြစ် တာဝန်ထမ်းဆောင်နေစဉ် ခါးရိုးကျီးပေါင်းឌစ်ပြားကျွံရောဂါ ဖြစ်ပွားမှုအတွက် လုပ်ငန်းခွင်ထိခိုက်ဒဏ်ရာရမှုအဖြစ် အသိအမှတ်မပြုသည့် ဆုံးဖြတ်ချက်အား ပယ်ဖျက်ခဲ့သည့်အမှု",
+    "NP": "फलामको छड बाँध्ने काम गर्दा कम्मरको डिस्क सरेकोमा औद्योगिक दुर्घटनाको रूपमा अस्वीकृत निर्णय खारेज गरिएको मुद्दा",
+    "TH": "กรณีการเพิกถอนคำตัดสินไม่อนุมัติเป็นอุบัติเหตุจากการทำงาน จากโรคหมอนรองกระดูกสันหลังส่วนเอวเคลื่อนทับเส้นประสาทระหว่างทำงานเป็นช่างเหล็ก"
+  },
+  "thirtythree_summary0": {
+    "KO": "승인 여부: 승인",
+    "EN": "Approval Status: Approved",
+    "VN": "Kết quả phê duyệt: Phê duyệt",
+    "ID": "Status Persetujuan: Disetujui",
+    "RU": "Статус утверждения: Утверждено",
+    "MM": "* အတည်ပြု 여부: အတည်ပြုခဲ့သည်။",
+    "NP": "* स्वीकृति स्थिति: स्वीकृत",
+    "TH": "* สถานะการอนุมัติ: อนุมัติ"
+  },
+  "thirtythree_summary1": {
+    "KO": "발생 일시: 2021. 4. 14. (진단일 기준)",
+    "EN": "Date of Occurrence: April 14, 2021 (based on diagnosis date)",
+    "VN": "Thời gian xảy ra: 14/4/2021 (theo ngày chẩn đoán)",
+    "ID": "Tanggal Kejadian: 14 April 2021 (berdasarkan tanggal diagnosis)",
+    "RU": "Дата происшествия: 14 апреля 2021 г. (на основании даты диагноза)",
+    "MM": "* ဖြစ်ပွားချိန်: ၂၀၂၁ ခုနှစ်၊ ဧပြီလ ၁၄ ရက် (ရောဂါရှာဖွေတွေ့ရှိသည့်နေ့ 기준)",
+    "NP": "* घटना मिति: २०२१ अप्रिल १४ (निदान मितिको आधारमा)",
+    "TH": "* วันที่เกิดเหตุ: 14 เมษายน 2021 (ตามวันที่วินิจฉัย)"
+  },
+  "thirtythree_summary2": {
+    "KO": "발생 장소: ○○건설 현장",
+    "EN": "Location of Occurrence: ○○ Construction Site",
+    "VN": "Địa điểm xảy ra: Công trường xây dựng ○○",
+    "ID": "Lokasi Kejadian: Lokasi Proyek Konstruksi ○○",
+    "RU": "Место происшествия: Строительная площадка ○○",
+    "MM": "* ဖြစ်ပွားရာနေရာ: ○○ ဆောက်လုပ်ရေး လုပ်ငန်းခွင်",
+    "NP": "* घटना स्थल: ○○ निर्माण स्थल",
+    "TH": "* สถานที่เกิดเหตุ: สถานที่ก่อสร้างของบริษัท ○○"
+  },
+  "thirtythree_summary3": {
+    "KO": "근로자 정보: 철근공(건설 현장 종사자)",
+    "EN": "Worker Information: Reinforcing Steel Worker (Construction Site Employee)",
+    "VN": "Thông tin người lao động: Công nhân thép (người làm việc tại công trường xây dựng)",
+    "ID": "Informasi Pekerja: Pekerja Baja (Pekerja di Lokasi Proyek Konstruksi)",
+    "RU": "Информация о работнике: Работник по армированию (работник строительной площадки)",
+    "MM": "* လုပ်သားအချက်အလက်: သံချောင်းစည်းလုပ်သား (ဆောက်လုပ်ရေးလုပ်ငန်းခွင် လုပ်သား)",
+    "NP": "* कामदारको जानकारी: फलामको छड बाँध्ने कामदार (निर्माण स्थलमा कार्यरत)",
+    "TH": "* ข้อมูลลูกจ้าง: ช่างเหล็ก (คนงานก่อสร้าง)"
+  },
+  "thirtythree_summary4": {
+    "KO": "상병명: 요추 추간판 탈출증(제4-5요추간)",
+    "EN": "Diagnosis: Lumbar Disc Herniation (L4-L5 Level)",
+    "VN": "Tên bệnh: Thoát vị đĩa đệm cột sống thắt lưng (đốt sống thắt lưng thứ 4-5)",
+    "ID": "Nama Penyakit: Hernia diskus lumbal (antara vertebra lumbal ke-4 dan ke-5)",
+    "RU": "Диагноз: грыжа поясничного диска (уровень L4-L5)",
+    "MM": "* ရောဂါအမည်: ခါးရိုးကျီးပေါင်းឌစ်ပြားကျွံခြင်း (Lumbar Herniated Intervertebral Disc) (ခါးရိုးဆစ် L4-5 ကြား)",
+    "NP": "* रोगको नाम: कम्मरको डिस्क सरेको (लम्बर हर्निएटेड डिस्क, L4-L5 बीच)",
+    "TH": "* ชื่อโรค/การบาดเจ็บ: โรคหมอนรองกระดูกสันหลังส่วนเอวเคลื่อนทับเส้นประสาท (ระหว่างกระดูกสันหลังส่วนเอวข้อที่ 4-5)"
+  },
+  "thirtythree_situation": {
+    "KO": "철근공으로 8년여의 근무경력으로 볼 때 업무와 상병간의 인과관계 인정하지 않아 불승인 처분건에 대해, 장기간(약 17년) 요추 부위의 신체 부담 정도가 높은 작업을 수행한 것으로 판단되어 “취소” 한 사례",
+    "EN": "Regarding a case where compensation was denied due to the lack of recognition of a causal relationship between the work and the injury, considering the worker's approximately 8-year work history as a rebar worker. The case was “Reversed” as it was determined that the worker had performed work involving high physical strain on the lumbar region for an extended period (approximately 17 years).",
+    "VN": "Với kinh nghiệm làm việc khoảng 8 năm với tư cách là công nhân thép, không công nhận mối quan hệ nhân quả giữa công việc và bệnh tật, nên đã từ chối bồi thường. Tuy nhiên, do công nhân này đã thực hiện công việc có mức độ tải trọng cao lên vùng thắt lưng trong thời gian dài (khoảng 17 năm), nên đã quyết định \"hủy bỏ\" quyết định từ chối bồi thường.",
+    "ID": "Dalam kasus penolakan klaim karena tidak diakui adanya hubungan kausal antara pekerjaan dan penyakit, meskipun pekerja memiliki pengalaman kerja sebagai pekerja besi selama lebih dari 8 tahun, diputuskan untuk “membatalkan” penolakan tersebut karena dinilai telah melakukan pekerjaan dengan beban fisik tinggi pada area lumbal selama jangka waktu yang lama (sekitar 17 tahun).",
+    "RU": "В отношении дела, в котором первоначально было отказано в компенсации из-за невыявления причинно-следственной связи между работой и травмой, несмотря на то, что работник имел более 8 лет опыта работы в качестве арматурщика, решение было отменено («отменено»), поскольку было установлено, что работник в течение длительного периода времени (около 17 лет) выполнял задачи, связанные с высокой физической нагрузкой на поясничный отдел.",
+    "MM": "သံချောင်းစည်းလုပ်သားအဖြစ် ၈ နှစ်ကျော်ကြာ လုပ်ငန်းအတွေ့အကြုံအရ လုပ်ငန်းနှင့် ရောဂါအကြား အကြောင်းအကျိုးဆက်နွယ်မှု မရှိဟုဆိုကာ အသိအမှတ်မပြုခဲ့သည့် ဆုံးဖြတ်ချက်ကို၊ အချိန်ကြာမြင့်စွာ (ခန့်မှန်းခြေ ၁၇ နှစ်) ခါးပိုင်းကို ခန္ဓာကိုယ်ဆိုင်ရာဝန်ပိမှုများသော အလုပ်များကို လုပ်ဆောင်ခဲ့သည်ဟု ဆုံးဖြတ်ကာ \"ပယ်ဖျက်\" ခဲ့သည့် အမှုဖြစ်သည်။",
+    "NP": "फलामको छड बाँध्ने कामदारको रूपमा करिब ८ वर्षको कार्य अनुभवको आधारमा काम र रोगबीचको कारण-कार्य सम्बन्धलाई स्वीकार नगरी अस्वीकृत गरिएको निर्णयलाई, लामो समयसम्म (लगभग १७ वर्ष) कम्मरमा शारीरिक रूपमा अत्यधिक बोझ पर्ने काम गरेको ठहर गर्दै \"खारेज\" गरिएको मुद्दा।",
+    "TH": "เป็นกรณีที่คำตัดสินซึ่งเคยไม่อนุมัติโดยอ้างว่าจากประวัติการทำงานเป็นช่างเหล็กประมาณ 8 ปี ไม่สามารถยอมรับความสัมพันธ์เชิงสาเหตุและผลระหว่างงานกับอาการป่วยได้นั้น ได้ถูก \"เพิกถอน\" เนื่องจากพิจารณาแล้วเห็นว่าผู้ป่วยได้ทำงานที่สร้างภาระหนักต่อกระดูกสันหลังส่วนเอวเป็นระยะเวลานาน (ประมาณ 17 ปี)"
+  },
+  "thirtythree_facts0": {
+    "KO": "청구인은 철근공으로 장기간 근무하며 철근 운반·절단·배근·결속 등 허리에 과중한 부하가 반복적으로 누적됨.",
+    "EN": "The claimant worked long-term as a rebar worker, repeatedly accumulating excessive strain on the lower back through tasks like transporting, cutting, laying, and tying rebar.",
+    "VN": "Người yêu cầu đã làm việc trong thời gian dài với tư cách là công nhân thép, liên tục phải thực hiện các công việc như vận chuyển, cắt, uốn, buộc thép, gây ra áp lực quá mức lên lưng.",
+    "ID": "Pemohon bekerja sebagai tukang besi dalam jangka waktu lama, melakukan pekerjaan seperti mengangkut, memotong, mengatur, dan mengikat besi yang secara berulang-ulang memberikan beban berlebihan pada punggung.",
+    "RU": "Заявитель долгое время работал арматурщиком, неоднократно подвергая нижнюю часть спины чрезмерной нагрузке при выполнении таких задач, как транспортировка, резка, укладка и связывание стальных арматурных стержней.",
+    "MM": "* တောင်းဆိုသူသည် သံချောင်းစည်းလုပ်သားအဖြစ် အချိန်ကြာမြင့်စွာ လုပ်ကိုင်ခဲ့ပြီး သံချောင်းများ သယ်ယူခြင်း၊ ဖြတ်တောက်ခြင်း၊ နေရာချထားခြင်း၊ စည်းနှောင်ခြင်း စသည့် ခါးကို ဝန်ပိစေသော အလုပ်များကို ထပ်ခါတလဲလဲ လုပ်ဆောင်ခဲ့ရသည်။",
+    "NP": "* निवेदकले लामो समयसम्म फलामको छड बाँध्ने कामदारको रूपमा काम गर्दा फलामको छड बोक्ने, काट्ने, मिलाउने र बाँध्ने जस्ता कामहरूले कम्मरमा बारम्बार अत्यधिक बोझ परेको थियो।",
+    "TH": "* ผู้เรียกร้องทำงานเป็นช่างเหล็กเป็นระยะเวลานาน โดยมีการสะสมภาระงานหนักที่หลังส่วนล่างอย่างซ้ำๆ จากการขนย้าย ตัด จัดวาง และผูกเหล็กเส้น"
+  },
+  "thirtythree_facts1": {
+    "KO": "누적 근무일수는 약 1,560일로, 반복적이고 육체적으로 무거운 작업이 지속되었음.",
+    "EN": "The cumulative work days totaled approximately 1,560, involving sustained repetitive and physically demanding labor.",
+    "VN": "Tổng số ngày làm việc là khoảng 1.560 ngày, liên tục thực hiện các công việc nặng nhọc về thể chất.",
+    "ID": "Jumlah hari kerja akumulatif sekitar 1.560 hari, dengan pekerjaan berulang dan berat secara fisik yang terus-menerus.",
+    "RU": "Общее количество рабочих дней составило примерно 1560, включая постоянную повторяющуюся и физически тяжелую работу.",
+    "MM": "* စုစုပေါင်းအလုပ်လုပ်ခဲ့သည့် ရက်ပေါင်းမှာ ခန့်မှန်းခြေ ၁,၅၆၀ ရက်ရှိပြီး ထပ်ခါတလဲလဲ လုပ်ဆောင်ရသော၊ ကာယအားစိုက်ထုတ်ရသော အလုပ်များကို စဉ်ဆက်မပြတ် လုပ်ဆောင်ခဲ့သည်။",
+    "NP": "* कुल काम गरेको दिन लगभग १,५६० दिन थियो, जसमा बारम्बार र शारीरिक रूपमा गाह्रो काम निरन्तर रूपमा गरिएको थियो।",
+    "TH": "* จำนวนวันทำงานสะสมประมาณ 1,560 วัน โดยเป็นการทำงานที่ต้องทำซ้ำๆ และใช้แรงงานหนักอย่างต่อเนื่อง"
+  },
+  "thirtythree_facts2": {
+    "KO": "MRI 검사에서 요추 추간판 탈출증이 확인되었으며, 과거 허리 관련 치료 이력은 없음.",
+    "EN": "An MRI confirmed lumbar disc herniation, with no prior history of lower back-related treatment.",
+    "VN": "Kết quả chụp MRI cho thấy thoát vị đĩa đệm cột sống thắt lưng, không có tiền sử điều trị liên quan đến lưng.",
+    "ID": "Pemeriksaan MRI menunjukkan herniasi diskus lumbal, dan tidak ada riwayat pengobatan sebelumnya terkait punggung.",
+    "RU": "МРТ-сканирование подтвердило грыжу поясничного диска, при этом в анамнезе не было ранее лечения, связанного с нижней частью спины.",
+    "MM": "* MRI စစ်ဆေးချက်အရ ခါးရိုးကျီးပေါင်းឌစ်ပြားကျွံရောဂါရှိကြောင်း တွေ့ရှိခဲ့ရပြီး ယခင်က ခါးနှင့်ပတ်သက်၍ ဆေးကုသမှုခံယူခဲ့သည့် မှတ်တမ်းမရှိပါ။",
+    "NP": "* MRI जाँचमा कम्मरको डिस्क सरेको पुष्टि भयो, र पहिले कम्मरसँग सम्बन्धित कुनै उपचारको इतिहास थिएन।",
+    "TH": "* ผลการตรวจ MRI ยืนยันว่าเป็นโรคหมอนรองกระดูกสันหลังส่วนเอวเคลื่อนทับเส้นประสาท และไม่มีประวัติการรักษาเกี่ยวกับหลังมาก่อน"
+  },
+  "thirtythree_facts3": {
+    "KO": "원처분기관은 공백 기간과 단기 근무를 이유로 불승인했으나,",
+    "EN": "The original decision-making body denied the claim citing employment gaps and short-term work periods.",
+    "VN": "Cơ quan xử lý ban đầu đã từ chối đơn xin bồi thường với lý do có khoảng thời gian nghỉ việc và làm việc ngắn hạn,",
+    "ID": "Instansi penentu awal menolak klaim dengan alasan adanya masa kosong dan pekerjaan jangka pendek,",
+    "RU": "Первоначальный орган, принимавший решение, отклонил заявление, сославшись на перерывы в трудовой деятельности и краткосрочные периоды работы.",
+    "MM": "* မူလဆုံးဖြတ်ချက်ချမှတ်ခဲ့သည့် အာဏာပိုင်အဖွဲ့အစည်းက အလုပ်နားခဲ့သည့်ကာလများနှင့် လုပ်ငန်းခွင်ဝင်ရောက်သည့် ကာလတိုဖြစ်နေသည်ကို အကြောင်းပြ၍ အသိအမှတ်မပြုခဲ့သော်လည်း၊",
+    "NP": "* प्रारम्भिक निर्णय गर्ने निकायले काममा भएको अन्तराल र छोटो अवधिको कामलाई कारण देखाउँदै अस्वीकृत गरेको थियो।",
+    "TH": "* หน่วยงานที่พิจารณาในครั้งแรกได้มีคำสั่งไม่อนุมัติโดยให้เหตุผลว่ามีช่วงว่างเว้นจากการทำงานและเป็นการทำงานระยะสั้น"
+  },
+  "thirtythree_facts4": {
+    "KO": "심사위는 17년 이상 철근공 업무 수행으로 인한 누적 부담을 인정해 원처분을 취소함.",
+    "EN": "However, the Review Committee recognized the cumulative burden from over 17 years of rebar work and overturned the original decision.",
+    "VN": "nhưng Ủy ban thẩm định đã hủy bỏ quyết định ban đầu sau khi công nhận gánh nặng tích lũy do làm công việc thợ sắt trong hơn 17 năm.",
+    "ID": "namun komite peninjau membatalkan keputusan awal dengan mengakui beban akumulatif akibat pekerjaan sebagai tukang besi selama lebih dari 17 tahun.",
+    "RU": "Однако Комитет по пересмотру признал совокупную нагрузку от более чем 17 лет работы с арматурой и отменил первоначальное решение.",
+    "MM": "* စိစစ်ရေးကော်မတီက ၁၇ နှစ်ကျော်ကြာ သံချောင်းစည်းလုပ်သားအဖြစ် လုပ်ကိုင်ခဲ့ခြင်းကြောင့် စုပုံလာသော ဝန်ပိမှုကို အသိအမှတ်ပြုကာ မူလဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ခဲ့သည်။",
+    "NP": "* तर, छानबिन समितिले १७ वर्षभन्दा बढी समयसम्म फलामको छड बाँध्ने काम गर्दा जम्मा भएको बोझलाई स्वीकार गर्दै प्रारम्भिक निर्णय खारेज गर्‍यो।",
+    "TH": "* อย่างไรก็ตาม คณะกรรมการพิจารณาได้ยอมรับภาระที่สะสมจากการทำงานเป็นช่างเหล็กมานานกว่า 17 ปี และได้เพิกถอนคำตัดสินเดิม"
+  },
+  "thirtythree_important0": {
+    "KO": "근무 이력의 연속성: 공백·단기 근무에도 누적 부담 인정 가능 여부.",
+    "EN": "Continuity of Work History: Whether cumulative burden can be recognized despite employment gaps and short-term work.",
+    "VN": "Tính liên tục của lịch sử làm việc: Có thể công nhận gánh nặng tích lũy mặc dù có khoảng thời gian nghỉ việc và làm việc ngắn hạn hay không.",
+    "ID": "Kelanjutan riwayat kerja: Apakah beban akumulatif dapat diakui meskipun ada masa kosong atau pekerjaan jangka pendek.",
+    "RU": "Непрерывность трудовой деятельности: можно ли признать совокупную нагрузку, несмотря на перерывы и краткосрочную занятость.",
+    "MM": "* လုပ်ငန်းခွင်သမိုင်း၏ ဆက်တိုက်ဖြစ်မှု: အလုပ်နားခဲ့သည့်ကာလများနှင့် ကာလတိုလုပ်ငန်းခွင်ဖြစ်နေသော်လည်း စုပုံလာသော ဝန်ပိမှုကို အသိအမှတ်ပြုနိုင်ခြင်း ရှိ၊ မရှိ ဆိုသည့်အချက်။",
+    "NP": "* कार्य इतिहासको निरन्तरता: काममा अन्तराल र छोटो अवधिको काम हुँदाहुँदै पनि जम्मा भएको बोझलाई स्वीकार गर्न सकिन्छ कि सकिँदैन भन्ने प्रश्न।",
+    "TH": "* ความต่อเนื่องของประวัติการทำงาน: สามารถยอมรับภาระงานที่สะสมได้หรือไม่ แม้จะมีช่วงว่างเว้นหรือเป็นการทำงานระยะสั้น"
+  },
+  "thirtythree_important1": {
+    "KO": "업무 특성: 반복적·과중한 허리 부담이 주요 요인인지 여부.",
+    "EN": "Nature of Work: Whether repetitive and excessive lumbar strain was the primary contributing factor.",
+    "VN": "Đặc điểm công việc: Gánh nặng lặp đi lặp lại và quá nặng cho lưng có phải là yếu tố chính hay không.",
+    "ID": "Ciri pekerjaan: Apakah beban berulang dan berat pada punggung merupakan faktor utama.",
+    "RU": "Характер работы: была ли повторяющаяся и чрезмерная нагрузка на поясницу основным фактором, повлиявшим на заболевание.",
+    "MM": "* လုပ်ငန်း၏ သဘောသဘာဝ: ထပ်ခါတလဲလဲဖြစ်သော၊ ဝန်ပိမှုများသော ခါးအသုံးပြုမှုသည် အဓိကအကြောင်းအရင်း ဟုတ်၊ မဟုတ် ဆိုသည့်အချက်။",
+    "NP": "* कामको प्रकृति: बारम्बार र अत्यधिक कम्मरमा पर्ने बोझ मुख्य कारण हो कि होइन भन्ने प्रश्न।",
+    "TH": "* ลักษณะของงาน: ภาระที่หลังอย่างซ้ำๆ และหนักหน่วงเป็นปัจจัยหลักหรือไม่"
+  },
+  "thirtythree_important2": {
+    "KO": "인과관계 인정: 개인적 요인보다 업무상 부담의 영향이 더 큰지 여부.",
+    "EN": "Causal Relationship Recognition: Whether occupational strain had a greater impact than personal factors.",
+    "VN": "Công nhận mối quan hệ nhân quả: Tác động của gánh nặng công việc có lớn hơn các yếu tố cá nhân hay không.",
+    "ID": "Pengakuan hubungan sebab-akibat: Apakah pengaruh beban kerja lebih besar daripada faktor pribadi.",
+    "RU": "Признание причинно-следственной связи: преобладает ли влияние профессиональной нагрузки над личными факторами.",
+    "MM": "* အကြောင်းအကျိုးဆက်နွယ်မှု အသိအမှတ်ပြုခြင်း: ပုဂ္ဂိုလ်ရေးဆိုင်ရာ အကြောင်းများထက် လုပ်ငန်းခွင်ဆိုင်ရာ ဝန်ပိမှု၏ သက်ရောက်မှုက ပိုမိုကြီးမားခြင်း ရှိ၊ မရှိ ဆိုသည့်အချက်။",
+    "NP": "* कारण-कार्य सम्बन्धको मान्यता: व्यक्तिगत कारणभन्दा कामको बोझको प्रभाव बढी थियो कि थिएन भन्ने प्रश्न।",
+    "TH": "* การยอมรับความสัมพันธ์เชิงสาเหตุและผล: อิทธิพลจากภาระงานมีมากกว่าปัจจัยส่วนบุคคลหรือไม่"
+  },
+  "thirtythree_decision0": {
+    "KO": "청구인은 장기간 철근공으로 근무하며 반복적이고 과중한 허리 부담 업무에 종사.",
+    "EN": "The claimant worked long-term as a rebar worker, engaged in repetitive and heavy lumbar strain tasks.",
+    "VN": "Người yêu cầu đã làm việc trong thời gian dài với tư cách là công nhân thép, tham gia vào công việc lặp đi lặp lại và gây gánh nặng quá mức cho lưng.",
+    "ID": "Pemohon telah bekerja sebagai tukang besi selama jangka waktu yang lama dan terlibat dalam pekerjaan yang melibatkan beban berulang dan berlebihan pada punggung.",
+    "RU": "Заявитель долгое время работал арматурщиком, выполняя повторяющиеся и чрезмерные нагрузки на поясничный отдел позвоночника.",
+    "MM": "* တောင်းဆိုသူသည် အချိန်ကြာမြင့်စွာ သံချောင်းစည်းလုပ်သားအဖြစ် လုပ်ကိုင်ခဲ့ပြီး ထပ်ခါတလဲလဲဖြစ်သော၊ ဝန်ပိမှုများသော ခါးအသုံးပြုရသည့် အလုပ်များကို လုပ်ဆောင်ခဲ့သည်။",
+    "NP": "* निवेदकले लामो समयसम्म फलामको छड बाँध्ने कामदारको रूपमा काम गर्दा बारम्बार र अत्यधिक कम्मरमा बोझ पर्ने काममा संलग्न थिए।",
+    "TH": "* ผู้เรียกร้องทำงานเป็นช่างเหล็กเป็นระยะเวลานาน โดยปฏิบัติงานที่สร้างภาระหนักและซ้ำๆ ต่อหลังส่วนล่าง"
+  },
+  "thirtythree_decision1": {
+    "KO": "업무 특성상 허리에 지속적 부담이 누적되어 발생한 질환으로 인정.",
+    "EN": "The disease is recognized as arising from sustained cumulative lumbar strain inherent to the job's nature.",
+    "VN": "Do đặc thù công việc, bệnh được công nhận là do gánh nặng liên tục tích lũy lên lưng.",
+    "ID": "Penyakit yang timbul diakui sebagai akibat beban berulang pada punggung yang terakumulasi karena sifat pekerjaan.",
+    "RU": "Состояние признано возникшим в результате длительной кумулятивной нагрузки на поясничный отдел позвоночника, присущей характеру работы.",
+    "MM": "* လုပ်ငန်း၏ သဘောသဘာဝအရ ခါးပေါ်တွင် စဉ်ဆက်မပြတ် ဝန်ပိမှုများ စုပုံလာခြင်းကြောင့် ဖြစ်ပွားခဲ့သော ရောဂါအဖြစ် အသိအမှတ်ပြုသည်။",
+    "NP": "* कामको प्रकृतिको कारण कम्मरमा निरन्तर रूपमा बोझ जम्मा भएर उत्पन्न भएको रोगको रूपमा स्वीकार गरियो।",
+    "TH": "* ยอมรับว่าเป็นโรคที่เกิดขึ้นจากการสะสมภาระที่หลังอย่างต่อเนื่องตามลักษณะของงาน"
+  },
+  "thirtythree_decision2": {
+    "KO": "따라서 최초 불승인 처분은 취소되고, 업무상 재해로 승인.",
+    "EN": "Therefore, the initial denial is revoked, and the injury is approved as work-related.",
+    "VN": "Do đó, quyết định từ chối ban đầu bị hủy bỏ và được công nhận là tai nạn lao động.",
+    "ID": "Oleh karena itu, keputusan penolakan awal dibatalkan, dan diakui sebagai kecelakaan kerja.",
+    "RU": "Таким образом, первоначальное отклонение отменено, и заявление о выплате компенсации в качестве профессиональной травмы удовлетворено.",
+    "MM": "* ထို့ကြောင့် ကနဦးတွင် အသိအမှတ်မပြုကြောင်း ချမှတ်ထားသည့် ဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ပြီး လုပ်ငန်းခွင်ထိခိုက်ဒဏ်ရာရမှုအဖြစ် အတည်ပြုလိုက်သည်။",
+    "NP": "* तसर्थ, प्रारम्भिक अस्वीकृतिको निर्णय खारेज गरी, यसलाई औद्योगिक दुर्घटनाको रूपमा स्वीकृत गरियो।",
+    "TH": "* ดังนั้น คำตัดสินที่ไม่อนุมัติในเบื้องต้นจึงถูกเพิกถอน และได้รับการอนุมัติให้เป็นอุบัติเหตุจากการทำงาน"
+  },
+  "thirtythree_laws0": {
+    "KO": "산재보험법 제5조(정의)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 5 (Definitions)",
+    "VN": "Điều 5 (Định nghĩa) của \"Luật bảo hiểm tai nạn lao động\"",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 5 (Definisi)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 5 (Определения)",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ」 ပုဒ်မ ၅ (အဓိပ္ပာယ်ဖွင့်ဆိုချက်)",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन」 धारा ५ (परिभाषा)",
+    "TH": "* พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 5 (คำนิยาม)"
+  },
+  "thirtythree_laws1": {
+    "KO": "산재보험법 제37조(업무상의 재해의 인정 기준)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 37 (Criteria for Recognizing Work-Related Injuries)",
+    "VN": "Điều 37 (Tiêu chuẩn công nhận tai nạn lao động) của \"Luật bảo hiểm tai nạn lao động\"",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 37 (Kriteria Pengakuan Kecelakaan Kerja)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 37 (Критерии признания производственных травм)",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ」 ပုဒ်မ ၃၇ (လုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာရမှု အသိအမှတ်ပြုခြင်း စံနှုန်း)",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन」 धारा ३७ (औद्योगिक दुर्घटनाको मान्यताको मापदण्ड)",
+    "TH": "* พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 37 (มาตรฐานการยอมรับอุบัติเหตุจากการทำงาน)"
+  },
+  "thirtythree_laws2": {
+    "KO": "산재보험법 제105조(심사청구에 대한 심리·결정)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 105 (Hearing and Decision on Review Requests)",
+    "VN": "Điều 105 (Xét xử và quyết định yêu cầu thẩm tra) của \"Luật bảo hiểm tai nạn lao động\"",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 105 (Pemeriksaan dan Keputusan atas Permohonan Banding)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 105 (Слушание и решение по запросам о пересмотре)",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ」 ပုဒ်မ ၁၀၅ (စိစစ်ရန် တောင်းဆိုမှုအပေါ် စစ်ဆေးခြင်းနှင့် ဆုံးဖြတ်ခြင်း)",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन」 धारा १०५ (छानबिन अनुरोधको सुनुवाइ र निर्णय)",
+    "TH": "* พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 105 (การพิจารณาและตัดสินคำร้องขอให้พิจารณาใหม่)"
+  },
+  "thirtythree_laws3": {
+    "KO": "「산재보험법 시행령」 제34조(업무상 질병의 인정 기준)",
+    "EN": "Industrial Accident Compensation Insurance Act Enforcement Decree, Article 34 (Criteria for Recognizing Occupational Diseases)",
+    "VN": "Điều 34 (Tiêu chuẩn công nhận bệnh nghề nghiệp) của \"Nghị định thi hành Luật bảo hiểm tai nạn lao động\"",
+    "ID": "「Peraturan Pelaksanaan Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 34 (Kriteria Pengakuan Penyakit Kerja)",
+    "RU": "Постановление о применении Закона о страховании от несчастных случаев на производстве, статья 34 (Критерии признания профессиональных заболеваний)",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ အကောင်အထည်ဖော်ရေးဆိုင်ရာ အမိန့်」 ပုဒ်မ ၃၄ (လုပ်ငန်းခွင်ရောဂါ အသိအမှတ်ပြုခြင်း စံနှုန်း)",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐनको कार्यान्वयन नियमावली」 धारा ३४ (व्यावसायिक रोगको मान्यताको मापदण्ड)",
+    "TH": "* กฤษฎีกาบังคับใช้พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 34 (มาตรฐานการยอมรับโรคจากการทำงาน)"
+  },
+  "thirtyfour_title": {
+    "KO": "요추 추간판 탈출증 요양기간 일부 불승인 취소 사례",
+    "EN": "Case of Partial Revocation of Non-Approval for Medical Leave Period for Lumbar Disc Herniation",
+    "VN": "Trường hợp hủy bỏ một phần quyết định không chấp thuận thời gian điều trị thoát vị đĩa đệm cột sống thắt lưng",
+    "ID": "Pembatalan Penolakan Sebagian Masa Perawatan untuk Hernia Diskus Lumbal",
+    "RU": "Дело о частичной отмене отказа в утверждении периода реабилитации при грыже межпозвоночного диска поясничного отдела",
+    "MM": "ခါးရိုးကျီးပေါင်းឌစ်ပြားကျွံရောဂါအတွက် ဆေးကုသမှုခံယူသည့်ကာလအား တစ်စိတ်တစ်ပိုင်း အသိအမှတ်မပြုသည့် ဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ခဲ့သည့်အမှု",
+    "NP": "कम्मरको डिस्क सरेको उपचार अवधिको आंशिक अस्वीकृति खारेज गरिएको मुद्दा",
+    "TH": "กรณีการเพิกถอนคำตัดสินที่ไม่อนุมัติระยะเวลาการรักษาโรคหมอนรองกระดูกสันหลังส่วนเอวเคลื่อนทับเส้นประสาทบางส่วน"
+  },
+  "thirtyfour_summary0": {
+    "KO": "승인 여부: 승인",
+    "EN": "Approval Status: Approved",
+    "VN": "Quyết định chấp thuận: Chấp thuận",
+    "ID": "Status Persetujuan: Disetujui",
+    "RU": "Статус утверждения: Утверждено",
+    "MM": "* အတည်ပြု 여부: အတည်ပြုခဲ့သည်။",
+    "NP": "* स्वीकृति स्थिति: स्वीकृत",
+    "TH": "* สถานะการอนุมัติ: อนุมัติ"
+  },
+  "thirtyfour_summary1": {
+    "KO": "발생 일시: 2023. 1. 26. 최초 재해 입원일",
+    "EN": "Date of Occurrence: January 26, 2023 (Initial hospitalization date for the injury)",
+    "VN": "Thời gian xảy ra: 26/01/2023, ngày nhập viện lần đầu tiên do tai nạn",
+    "ID": "Tanggal Kejadian: 26 Januari 2023 (Tanggal Rawat Inap Pertama Akibat Kecelakaan)",
+    "RU": "Дата происшествия: 26 января 2023 г. (дата первоначальной госпитализации по поводу травмы)",
+    "MM": "* ဖြစ်ပွားချိန်: ၂၀၂၃ ခုနှစ်၊ ဇန်နဝါရီလ ၂၆ ရက် (ထိခိုက်ဒဏ်ရာအတွက် ပထမဆုံးအကြိမ် ဆေးရုံတက်သည့်နေ့)",
+    "NP": "* घटना मिति: २०२३ जनवरी २६ (पहिलो पटक दुर्घटनाको लागि अस्पताल भर्ना भएको दिन)",
+    "TH": "* วันที่เกิดเหตุ: 26 มกราคม 2023 (วันที่เข้ารับการรักษาในโรงพยาบาลครั้งแรก)"
+  },
+  "thirtyfour_summary2": {
+    "KO": "발생 장소: ○○병원",
+    "EN": "Location of Occurrence: ○○ Hospital",
+    "VN": "Địa điểm xảy ra: Bệnh viện ○○",
+    "ID": "Lokasi Kejadian: Rumah Sakit ○○",
+    "RU": "Место происшествия: Больница ○○",
+    "MM": "* ဖြစ်ပွားရာနေရာ: ○○ ဆေးရုံ",
+    "NP": "* घटना स्थल: ○○ अस्पताल",
+    "TH": "* สถานที่เกิดเหตุ: โรงพยาบาล ○○"
+  },
+  "thirtyfour_summary3": {
+    "KO": "근로자 정보: 벌목 및 조림 작업 기능공",
+    "EN": "Worker Information: Logging and Afforestation Technician",
+    "VN": "Thông tin người lao động: Công nhân khai thác gỗ và trồng rừng",
+    "ID": "Informasi Pekerja: Tenaga Kerja Pemotongan dan Penanaman Pohon",
+    "RU": "Информация о работнике: техник по лесозаготовке и лесопосадке",
+    "MM": "* လုပ်သားအချက်အလက်: သစ်ခုတ်ခြင်းနှင့် သစ်တောစိုက်ပျိုးခြင်းဆိုင်ရာ ကျွမ်းကျင်လုပ်သား",
+    "NP": "* कामदारको जानकारी: रुख काट्ने र वृक्षारोपण गर्ने दक्ष कामदार",
+    "TH": "* ข้อมูลลูกจ้าง: ช่างฝีมือด้านการตัดไม้และปลูกป่า"
+  },
+  "thirtyfour_summary4": {
+    "KO": "상병명: 요추부 4-5번 추간판 탈출증",
+    "EN": "Diagnosis: Lumbar Disc Herniation at L4-L5",
+    "VN": "Tên bệnh: Thoát vị đĩa đệm cột sống thắt lưng 4-5",
+    "ID": "Nama Penyakit: Hernia Diskus Lumbal 4-5",
+    "RU": "Диагноз: грыжа межпозвоночного диска в поясничном отделе позвоночника на уровне L4-L5",
+    "MM": "* ရောဂါအမည်: ခါးရိုးဆစ် L4-5 ကြား ကျီးပေါင်းឌစ်ပြားကျွံခြင်း",
+    "NP": "* रोगको नाम: कम्मरको L4-L5 डिस्क सरेको",
+    "TH": "* ชื่อโรค/การบาดเจ็บ: โรคหมอนรองกระดูกสันหลังส่วนเอวข้อที่ 4-5 เคลื่อนทับเส้นประสาท"
+  },
+  "thirtyfour_situation": {
+    "KO": "업무상 질병 승인상병인 요추부 4-5번 척추협착의 요양기간 일부 승인 처분에 대해, 상병상태 및 치료경과로 보아 신청 요양기간 모두 인정함이 타당하여 “취소” 한 사례",
+    "EN": "Regarding the partial approval of the medical treatment period for lumbar spinal stenosis at L4-L5, a work-related illness approved condition, the case was “cancelled” as it was deemed appropriate to recognize the entire requested treatment period based on the condition and treatment progress.",
+    "VN": "Về việc phê duyệt một phần thời gian điều trị bệnh nghề nghiệp là hẹp ống sống cột sống thắt lưng 4-5, căn cứ vào tình trạng bệnh và quá trình điều trị, việc phê duyệt toàn bộ thời gian điều trị là hợp lý, nên đã “hủy bỏ” quyết định phê duyệt.",
+    "ID": "Terkait dengan keputusan persetujuan sebagian masa perawatan untuk penyakit akibat kerja (spinal stenosis lumbal 4-5), berdasarkan kondisi penyakit dan perkembangan pengobatan, seluruh masa perawatan yang diajukan dianggap layak untuk disetujui, sehingga keputusan tersebut “dibatalkan”.",
+    "RU": "В отношении частичного утверждения периода лечения поясничного стеноза позвоночника на уровне L4-L5, признанного профессиональным заболеванием, дело было «отменено», поскольку было сочтено целесообразным признать весь запрошенный период лечения на основании состояния и хода лечения.",
+    "MM": "လုပ်ငန်းခွင်ရောဂါအဖြစ် အသိအမှတ်ပြုထားသော ခါးရိုးဆစ် L4-5 ကျောရိုးပေါက်ကျဉ်းရောဂါအတွက် ဆေးကုသမှုခံယူသည့်ကာလကို တစ်စိတ်တစ်ပိုင်းသာ အသိအမှတ်ပြုခဲ့သည့် ဆုံးဖြတ်ချက်အား၊ ရောဂါအခြေအနေနှင့် ကုသမှုတိုးတက်မှုကို ထောက်ရှု၍ တောင်းဆိုထားသည့် ဆေးကုသမှုကာလတစ်ခုလုံးကို အသိအမှတ်ပြုရန် သင့်လျော်သည်ဟု ဆုံးဖြတ်ကာ \"ပယ်ဖျက်\" ခဲ့သည့် အမှုဖြစ်သည်။",
+    "NP": "व्यावसायिक रोगको रूपमा स्वीकृत कम्मरको L4-L5 स्पाइनल स्टेनोसिसको उपचार अवधिलाई आंशिक रूपमा मात्र स्वीकृत गर्ने निर्णयलाई, रोगको अवस्था र उपचारको प्रगति हेर्दा अनुरोध गरिएको सम्पूर्ण उपचार अवधि स्वीकृत गर्नु उचित ठहर गरी \"खारेज\" गरिएको मुद्दा।",
+    "TH": "เป็นกรณีที่คำตัดสินซึ่งอนุมัติระยะเวลาการรักษาเพียงบางส่วนสำหรับโรคโพรงกระดูกสันหลังตีบแคบบริเวณเอวข้อที่ 4-5 ซึ่งเป็นโรคที่ได้รับการอนุมัติว่าเป็นโรคจากการทำงาน ได้ถูก \"เพิกถอน\" เนื่องจากเมื่อพิจารณาสภาพของโรคและกระบวนการรักษาแล้ว เห็นสมควรให้ยอมรับระยะเวลาการรักษาทั้งหมดตามที่ร้องขอ"
+  },
+  "thirtyfour_facts0": {
+    "KO": "청구인은 약 25년간 벌목·조림작업 등 허리에 과중한 부담이 되는 업무를 수행하며 허리 통증과 하지 방사통, 발가락 저림 증상이 지속됨.",
+    "EN": "The claimant performed work involving logging and afforestation for approximately 25 years, which placed excessive strain on the lower back, resulting in persistent lower back pain, radiating pain in the lower limbs, and numbness in the toes.",
+    "VN": "Người yêu cầu đã thực hiện công việc khai thác gỗ và trồng rừng trong khoảng 25 năm, gây áp lực quá nặng lên lưng, dẫn đến đau lưng, đau lan xuống chân và tê ngón chân.",
+    "ID": "Pemohon telah melakukan pekerjaan yang membebani punggung secara berlebihan, seperti penebangan dan penanaman pohon, selama sekitar 25 tahun, dan mengalami nyeri punggung, nyeri radiasi ke kaki, dan kesemutan pada jari kaki secara terus-menerus.",
+    "RU": "Заявитель в течение примерно 25 лет выполнял работы по лесозаготовке и лесопосадке, которые создавали чрезмерную нагрузку на нижнюю часть спины, что привело к постоянной боли в нижней части спины, иррадиирующей боли в нижних конечностях и онемению пальцев ног.",
+    "MM": "* တောင်းဆိုသူသည် နှစ်ပေါင်း ၂၅ နှစ်ခန့် သစ်ခုတ်ခြင်း၊ သစ်တောစိုက်ပျိုးခြင်းကဲ့သို့သော ခါးကို ဝန်ပိစေသည့် အလုပ်များကို လုပ်ကိုင်ခဲ့ပြီး ခါးနာကျင်ခြင်း၊ ခြေထောက်များသို့ နာကျင်ကိုက်ခဲမှု ပျံ့နှံ့ခြင်း၊ ခြေချောင်းများ ထုံကျဉ်ခြင်း စသည့် လက္ခဏာများကို စဉ်ဆက်မပြတ် ခံစားခဲ့ရသည်။",
+    "NP": "* निवेदकले लगभग २५ वर्षसम्म रुख काट्ने र वृक्षारोपण गर्ने जस्ता कम्मरमा अत्यधिक बोझ पर्ने काम गर्दा लगातार कम्मर दुख्ने, खुट्टातिर दुखाइ सर्ने र औंलाहरू झमझमाउने जस्ता लक्षणहरू भोग्दै आएका थिए।",
+    "TH": "* ผู้เรียกร้องปฏิบัติงานที่สร้างภาระหนักต่อหลังส่วนล่าง เช่น การตัดไม้และการปลูกป่า มาเป็นเวลาประมาณ 25 ปี โดยมีอาการปวดหลัง ปวดร้าวลงขา และอาการชาที่ปลายนิ้วเท้าอย่างต่อเนื่อง"
+  },
+  "thirtyfour_facts1": {
+    "KO": "병원 내원 후 요추 추간판 탈출증 진단을 받고 약물·주사치료 및 수술(편측후궁절제술·추간판 절제술)을 받음.",
+    "EN": "After visiting the hospital, the claimant was diagnosed with lumbar disc herniation and underwent medication, injection therapy, and surgery (hemilaminectomy and discectomy).",
+    "VN": "Sau khi đến bệnh viện, người yêu cầu được chẩn đoán thoát vị đĩa đệm cột sống thắt lưng và được điều trị bằng thuốc, tiêm và phẫu thuật (cắt bỏ một bên cung sau và cắt bỏ đĩa đệm).",
+    "ID": "Setelah berkunjung ke rumah sakit, ia didiagnosis menderita herniasi diskus lumbal dan menerima pengobatan dengan obat-obatan, suntikan, serta operasi (laminectomy unilateral posterior dan discectomy).",
+    "RU": "После консультации в больнице был поставлен диагноз «грыжа межпозвоночного диска», и заявитель прошел курс медикаментозного лечения, инъекционной терапии и хирургического вмешательства (гемиламинэктомия и дискэктомия).",
+    "MM": "* ဆေးရုံသို့ သွားရောက်ပြသပြီးနောက် ခါးရိုးကျီးပေါင်းឌစ်ပြားကျွံရောဂါဟု ရောဂါရှာဖွေတွေ့ရှိခဲ့ပြီး ဆေးဝါးကုထုံး၊ ထိုးဆေးကုထုံးနှင့် ခွဲစိတ်ကုသမှု (တစ်ခြမ်းတည်းသော ကျောရိုးအချပ်ပြားဖယ်ရှားခြင်း၊ ကျီးပေါင်းឌစ်ပြားဖယ်ရှားခြင်း) တို့ကို ခံယူခဲ့သည်။",
+    "NP": "* अस्पताल गएपछि कम्मरको डिस्क सरेको निदान भयो र औषधि, सुई तथा शल्यक्रिया (एकतर्फी ल्यामिनेक्टोमी, डिस्केक्टोमी) गराए।",
+    "TH": "* หลังจากไปโรงพยาบาล ได้รับการวินิจฉัยว่าเป็นโรคหมอนรองกระดูกสันหลังส่วนเอวเคลื่อนทับเส้นประสาท และได้รับการรักษาด้วยยา การฉีดยา และการผ่าตัด (การผ่าตัดเลาะกระดูกส่วนโค้งด้านหลังออกข้างเดียว และการผ่าตัดหมอนรองกระดูกสันหลัง)"
+  },
+  "thirtyfour_facts2": {
+    "KO": "최초 신청 요양기간 전체에 대해 원처분기관은 일부만 승인하고 나머지를 불승인함.",
+    "EN": "The initial decision-making authority approved only part of the entire requested medical leave period and denied the remainder.",
+    "VN": "Cơ quan xử lý ban đầu chỉ chấp thuận một phần thời gian điều trị ban đầu và từ chối phần còn lại.",
+    "ID": "Lembaga yang mengeluarkan keputusan awal hanya menyetujui sebagian dari seluruh periode perawatan yang diajukan dan menolak sisanya.",
+    "RU": "Первоначальный орган, принимающий решение, одобрил только часть всего запрошенного периода лечения, отклонив остальную часть.",
+    "MM": "* မူလတောင်းဆိုခဲ့သော ဆေးကုသမှုကာလတစ်ခုလုံးအပေါ် မူလဆုံးဖြတ်ချက်ချမှတ်ခဲ့သည့် အာဏာပိုင်အဖွဲ့အစည်းက တစ်စိတ်တစ်ပိုင်းကိုသာ အသိအမှတ်ပြုပြီး ကျန်ကာလကို အသိအမှတ်မပြုခဲ့ပါ။",
+    "NP": "* प्रारम्भिक निर्णय गर्ने निकायले सुरुमा अनुरोध गरिएको सम्पूर्ण उपचार अवधिमध्ये केहीलाई मात्र स्वीकृत गरी बाँकीलाई अस्वीकृत गरेको थियो।",
+    "TH": "* หน่วยงานที่พิจารณาในครั้งแรกได้อนุมัติระยะเวลาการรักษาที่ร้องขอทั้งหมดเพียงบางส่วน และไม่อนุมัติส่วนที่เหลือ"
+  },
+  "thirtyfour_facts3": {
+    "KO": "심사위는 상병의 악화 및 치료 연속성을 근거로 전체 요양기간이 타당하다고 판단함.",
+    "EN": "The Review Committee determined that the entire medical leave period was justified based on the worsening of the illness and the continuity of treatment.",
+    "VN": "Ủy ban thẩm định cho rằng toàn bộ thời gian điều trị là hợp lý dựa trên sự xấu đi của bệnh và tính liên tục của việc điều trị.",
+    "ID": "Komisi Peninjau menilai bahwa seluruh periode perawatan tersebut wajar berdasarkan memburuknya kondisi penyakit dan kelanjutan pengobatan.",
+    "RU": "Комиссия по пересмотру постановила, что весь запрошенный период лечения был оправдан с учетом ухудшения заболевания и непрерывности лечения.",
+    "MM": "* စိစစ်ရေးကော်မတီက ရောဂါအခြေအနေ ပိုမိုဆိုးရွားလာမှုနှင့် ကုသမှု၏ ဆက်တိုက်ဖြစ်မှုကို အခြေခံ၍ ဆေးကုသမှုကာလတစ်ခုလုံးသည် သင့်လျော်ကြောင်း ဆုံးဖြတ်ခဲ့သည်။",
+    "NP": "* छानबिन समितिले रोगको अवस्था बिग्रँदै गएको र उपचारको निरन्तरताको आधारमा सम्पूर्ण उपचार अवधि उचित रहेको ठहर गर्यो।",
+    "TH": "* คณะกรรมการพิจารณาได้ตัดสินว่าระยะเวลาการรักษาทั้งหมดมีความสมเหตุสมผล โดยพิจารณาจากการที่อาการของโรคแย่ลงและความต่อเนื่องของการรักษา"
+  },
+  "thirtyfour_facts4": {
+    "KO": "따라서 최초 불승인 처분은 취소되고 신청 요양기간 전부가 승인됨.",
+    "EN": "Therefore, the initial denial decision was revoked, and the entire requested medical leave period was approved.",
+    "VN": "Do đó, quyết định từ chối ban đầu bị hủy bỏ và toàn bộ thời gian điều trị được chấp thuận.",
+    "ID": "Oleh karena itu, keputusan penolakan awal dibatalkan dan seluruh periode perawatan yang diajukan disetujui.",
+    "RU": "В результате первоначальное решение об отклонении было отменено, и весь запрошенный период лечения был одобрен.",
+    "MM": "* ထို့ကြောင့် ကနဦးတွင် အသိအမှတ်မပြုကြောင်း ချမှတ်ထားသည့် ဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ပြီး တောင်းဆိုခဲ့သည့် ဆေးကုသမှုကာလတစ်ခုလုံးကို အတည်ပြုလိုက်သည်။",
+    "NP": "* तसर्थ, प्रारम्भिक अस्वीकृतिको निर्णय खारेज गरी अनुरोध गरिएको सम्पूर्ण उपचार अवधि स्वीकृत गरियो।",
+    "TH": "* ดังนั้น คำตัดสินที่ไม่อนุมัติในเบื้องต้นจึงถูกเพิกถอน และระยะเวลาการรักษาทั้งหมดตามที่ร้องขอได้รับการอนุมัติ"
+  },
+  "thirtyfour_important0": {
+    "KO": "요양기간의 연속성: 증상 악화와 치료 경과를 고려할 때 전체 요양기간을 업무상 질병 치료로 인정할 수 있는지 여부.",
+    "EN": "Continuity of Treatment Period: Whether the entire treatment period can be recognized as treatment for an occupational disease, considering the worsening symptoms and treatment progression.",
+    "VN": "Tính liên tục của thời gian điều trị: Xem xét tình trạng bệnh nặng hơn và quá trình điều trị, liệu toàn bộ thời gian điều trị có thể được công nhận là điều trị bệnh nghề nghiệp hay không.",
+    "ID": "Kelanjutan Masa Perawatan: Apakah seluruh masa perawatan dapat diakui sebagai perawatan penyakit akibat kerja, mengingat memburuknya gejala dan perjalanan pengobatan.",
+    "RU": "Непрерывность периода лечения: можно ли признать весь период лечения лечением профессионального заболевания, учитывая ухудшение симптомов и прогрессирование лечения.",
+    "MM": "* ဆေးကုသမှုကာလ၏ ဆက်တိုက်ဖြစ်မှု: ရောဂါလက္ခဏာများ ပိုမိုဆိုးရွားလာမှုနှင့် ကုသမှုတိုးတက်မှုကို ထည့်သွင်းစဉ်းစားသောအခါ ဆေးကုသမှုကာလတစ်ခုလုံးကို လုပ်ငန်းခွင်ရောဂါကုသမှုအဖြစ် အသိအမှတ်ပြုနိုင်ခြင်း ရှိ၊ မရှိ ဆိုသည့်အချက်။",
+    "NP": "* उपचार अवधिको निरन्तरता: लक्षणहरू बिग्रँदै गएको र उपचारको प्रगतिलाई ध्यानमा राख्दा सम्पूर्ण उपचार अवधिलाई व्यावसायिक रोगको उपचारको रूपमा मान्यता दिन सकिन्छ कि सकिँदैन भन्ने प्रश्न।",
+    "TH": "* ความต่อเนื่องของระยะเวลาการรักษา: เมื่อพิจารณาจากอาการที่แย่ลงและกระบวนการรักษา สามารถยอมรับระยะเวลาการรักษาทั้งหมดเป็นการรักษาโรคจากการทำงานได้หรือไม่"
+  },
+  "thirtyfour_important1": {
+    "KO": "업무와 상병 인과관계: 장기간 허리부담 작업이 질병 발병과 치료 필요성을 직접적으로 초래했는지 여부.",
+    "EN": "Causal Relationship Between Work and Illness: Whether prolonged back-straining work directly caused the onset of the disease and necessitated treatment.",
+    "VN": "Mối quan hệ nhân quả giữa công việc và bệnh tật: Liệu công việc nặng nhọc trong thời gian dài có trực tiếp gây ra bệnh và cần điều trị hay không.",
+    "ID": "Hubungan Kausal antara Pekerjaan dan Penyakit: Apakah pekerjaan yang membebani punggung dalam jangka panjang secara langsung menyebabkan timbulnya penyakit dan kebutuhan pengobatan.",
+    "RU": "Причинно-следственная связь между работой и заболеванием: привела ли длительная работа, связанная с нагрузкой на спину, непосредственно к возникновению заболевания и необходимости лечения.",
+    "MM": "* လုပ်ငန်းနှင့် ရောဂါအကြား အကြောင်းအကျိုးဆက်နွယ်မှု: အချိန်ကြာမြင့်စွာ ခါးဝန်ပိစေသော အလုပ်လုပ်ကိုင်ခဲ့ခြင်းက ရောဂါဖြစ်ပွားမှုနှင့် ကုသမှုခံယူရန် လိုအပ်မှုကို တိုက်ရိုက်ဖြစ်ပေါ်စေခဲ့ခြင်း ရှိ၊ မရှိ ဆိုသည့်အချက်။",
+    "NP": "* काम र रोगबीचको कारण-कार्य सम्बन्ध: लामो समयसम्म कम्मरमा बोझ पर्ने कामले प्रत्यक्ष रूपमा रोग र उपचारको आवश्यकता निम्त्याएको हो कि होइन भन्ने प्रश्न।",
+    "TH": "* ความสัมพันธ์เชิงสาเหตุและผลระหว่างงานกับโรค: การทำงานที่สร้างภาระต่อหลังเป็นระยะเวลานานก่อให้เกิดโรคและความจำเป็นในการรักษาโดยตรงหรือไม่"
+  },
+  "thirtyfour_decision0": {
+    "KO": "청구인은 25년간 허리부담 작업을 수행해 요추 추간판 탈출증이 발생한 것으로 확인됨",
+    "EN": "It was confirmed that the claimant developed lumbar disc herniation after performing back-straining work for 25 years.",
+    "VN": "Người yêu cầu được xác nhận là đã bị thoát vị đĩa đệm cột sống thắt lưng do thực hiện công việc nặng nhọc trong 25 năm.",
+    "ID": "Pemohon telah melakukan pekerjaan yang membebani punggung selama 25 tahun, yang dikonfirmasi menyebabkan herniasi diskus lumbal.",
+    "RU": "Было подтверждено, что заявитель заболел грыжей межпозвоночного диска после 25 лет работы, связанной с нагрузкой на спину.",
+    "MM": "* တောင်းဆိုသူသည် ၂၅ နှစ်ကြာ ခါးဝန်ပိစေသော အလုပ်များကို လုပ်ဆောင်ခဲ့ခြင်းကြောင့် ခါးရိုးကျီးပေါင်းឌစ်ပြားကျွံရောဂါ ဖြစ်ပွားခဲ့ကြောင်း အတည်ပြုနိုင်သည်။",
+    "NP": "* निवेदकले २५ वर्षसम्म कम्मरमा बोझ पर्ने काम गरेकाले कम्मरको डिस्क सरेको पुष्टि भयो।",
+    "TH": "* ได้รับการยืนยันว่าผู้เรียกร้องเกิดโรคหมอนรองกระดูกสันหลังส่วนเอวเคลื่อนทับเส้นประสาทจากการทำงานที่สร้างภาระต่อหลังเป็นเวลา 25 ปี"
+  },
+  "thirtyfour_decision1": {
+    "KO": "2023. 1. 26.부터 치료가 시작되어 수술에 이른 점 등을 종합할 때 신청 요양기간 전부가 업무상 질병 치료로 필요하다고 판단됨.",
+    "EN": "Considering that treatment began on January 26, 2023, and progressed to surgery, it is determined that the entire requested medical treatment period was necessary for treating an occupational disease.",
+    "VN": "Khi tổng hợp các yếu tố như việc điều trị bắt đầu từ ngày 26/1/2023 và dẫn đến phẫu thuật, toàn bộ thời gian điều trị được yêu cầu được xác định là cần thiết để điều trị bệnh nghề nghiệp.",
+    "ID": "Mengingat pengobatan dimulai pada 26 Januari 2023 dan berlanjut hingga operasi, seluruh masa perawatan yang diajukan dinilai diperlukan sebagai pengobatan penyakit akibat kerja.",
+    "RU": "Учитывая, что лечение началось 26 января 2023 года и перешло в хирургическое вмешательство, было решено, что весь запрошенный период лечения был необходим для лечения профессионального заболевания.",
+    "MM": "* ၂၀၂၃ ခုနှစ်၊ ဇန်နဝါရီလ ၂၆ ရက်နေ့မှစ၍ ကုသမှုစတင်ခဲ့ပြီး ခွဲစိတ်ကုသမှုအထိ ခံယူခဲ့ရသည့်အချက်များကို ခြုံငုံသုံးသပ်ပါက တောင်းဆိုထားသည့် ဆေးကုသမှုကာလတစ်ခုလုံးသည် လုပ်ငန်းခွင်ရောဂါကုသမှုအတွက် လိုအပ်သည်ဟု ဆုံးဖြတ်သည်။",
+    "NP": "* २०२३ जनवरी २६ देखि उपचार सुरु भई शल्यक्रियासम्म पुगेको कुरालाई समग्रमा विचार गर्दा, अनुरोध गरिएको सम्पूर्ण उपचार अवधि व्यावसायिक रोगको उपचारका लागि आवश्यक रहेको ठहर भयो।",
+    "TH": "* เมื่อพิจารณาโดยรวมถึงข้อเท็จจริงที่ว่าการรักษาได้เริ่มขึ้นตั้งแต่วันที่ 26 มกราคม 2023 และนำไปสู่การผ่าตัด จึงตัดสินได้ว่าระยะเวลาการรักษาทั้งหมดตามที่ร้องขอมีความจำเป็นสำหรับการรักษาโรคจากการทำงาน"
+  },
+  "thirtyfour_decision2": {
+    "KO": "따라서 최초 불승인 처분은 취소되고, 신청 요양기간 전체가 승인됨.",
+    "EN": "Therefore, the initial denial decision is revoked, and the entire requested medical treatment period is approved.",
+    "VN": "Do đó, quyết định từ chối ban đầu bị hủy bỏ và toàn bộ thời gian điều trị được yêu cầu được chấp thuận.",
+    "ID": "Oleh karena itu, keputusan penolakan awal dibatalkan, dan seluruh masa perawatan yang diajukan disetujui.",
+    "RU": "Таким образом, первоначальное решение об отказе отклонено, и весь запрошенный период лечения утвержден.",
+    "MM": "* ထို့ကြောင့် ကနဦးတွင် အသိအမှတ်မပြုကြောင်း ချမှတ်ထားသည့် ဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ပြီး တောင်းဆိုခဲ့သည့် ဆေးကုသမှုကာလတစ်ခုလုံးကို အတည်ပြုလိုက်သည်။",
+    "NP": "* तसर्थ, प्रारम्भिक अस्वीकृतिको निर्णय खारेज गरी, अनुरोध गरिएको सम्पूर्ण उपचार अवधि स्वीकृत गरियो।",
+    "TH": "* ดังนั้น คำตัดสินที่ไม่อนุมัติในเบื้องต้นจึงถูกเพิกถอน และระยะเวลาการรักษาทั้งหมดตามที่ร้องขอได้รับการอนุมัติ"
+  },
+  "thirtyfour_laws0": {
+    "KO": "산재보험법 제5조(정의)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 5 (Definitions)",
+    "VN": "Điều 5 (Định nghĩa) của \"Luật bảo hiểm tai nạn lao động\"",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 5 (Definisi)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 5 (Определения)",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ」 ပုဒ်မ ၅ (အဓိပ္ပာယ်ဖွင့်ဆိုချက်)",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन」 धारा ५ (परिभाषा)",
+    "TH": "* พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 5 (คำนิยาม)"
+  },
+  "thirtyfour_laws1": {
+    "KO": "산재보험법 제37조(업무상 재해의 인정 기준)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 37 (Criteria for Recognizing Occupational Injuries)",
+    "VN": "Điều 37 (Tiêu chuẩn công nhận tai nạn lao động) của \"Luật bảo hiểm tai nạn lao động\"",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 37 (Kriteria Pengakuan Kecelakaan Kerja)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 37 (Критерии признания профессиональных травм)",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ」 ပုဒ်မ ၃၇ (လုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာရမှု အသိအမှတ်ပြုခြင်း စံနှုန်း)",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन」 धारा ३७ (औद्योगिक दुर्घटनाको मान्यताको मापदण्ड)",
+    "TH": "* พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 37 (มาตรฐานการยอมรับอุบัติเหตุจากการทำงาน)"
+  },
+  "thirtyfour_laws2": {
+    "KO": "산재보험법 제105조(심사청구에 대한 심리·결정)",
+    "EN": "Workers' Compensation Insurance Act Article 105 (Hearing and Decision on Review Requests)",
+    "VN": "Điều 105 (Xét xử và quyết định yêu cầu thẩm tra) của Luật Bảo hiểm tai nạn lao động",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 105 (Pemeriksaan dan Keputusan atas Permohonan Banding)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 105 (Слушание и решение по запросам о пересмотре)",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ」 ပုဒ်မ ၁၀၅ (စိစစ်ရန် တောင်းဆိုမှုအပေါ် စစ်ဆေးခြင်းနှင့် ဆုံးဖြတ်ခြင်း)",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐन」 धारा १०५ (छानबिन अनुरोधको सुनुवाइ र निर्णय)",
+    "TH": "* พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 105 (การพิจารณาและตัดสินคำร้องขอให้พิจารณาใหม่)"
+  },
+  "thirtyfour_laws3": {
+    "KO": "「산재보험법 시행령」 제25조(직업병에 걸린 사람에 대한 평균임금 산정 특례)",
+    "EN": "Workers' Compensation Insurance Act Enforcement Decree Article 25 (Special Provisions for Calculating Average Wages for Persons Suffering from Occupational Diseases)",
+    "VN": "Điều 25 (Đặc biệt về tính toán mức lương trung bình cho người mắc bệnh nghề nghiệp) của Nghị định thi hành Luật Bảo hiểm tai nạn lao động",
+    "ID": "「Peraturan Pelaksanaan Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 25 (Ketentuan Khusus Perhitungan Upah Rata-Rata bagi Penderita Penyakit Akibat Kerja)",
+    "RU": "Постановление о применении Закона о страховании от несчастных случаев на производстве, статья 25 (Особые положения о расчете средней заработной платы для лиц, страдающих профессиональными заболеваниями)",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ အကောင်အထည်ဖော်ရေးဆိုင်ရာ အမိန့်」 ပုဒ်မ ၂၅ (လုပ်ငန်းခွင်ရောဂါရရှိသူများအတွက် ပျမ်းမျှလစာ တွက်ချက်ခြင်းဆိုင်ရာ အထူးပြဋ္ဌာန်းချက်)",
+    "NP": "* 「औद्योगिक दुर्घटना क्षतिपूर्ति बीमा ऐनको कार्यान्वयन नियमावली」 धारा २५ (व्यावसायिक रोग लागेका व्यक्तिहरूका लागि औसत ज्याला गणनासम्बन्धी विशेष नियम)",
+    "TH": "* กฤษฎีกาบังคับใช้พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 25 (ข้อยกเว้นพิเศษในการคำนวณค่าจ้างเฉลี่ยสำหรับผู้ที่เป็นโรคจากการทำงาน)"
+  },
+  "thirtyfive_title": {
+    "KO": "최초요양 불승인 처분 취소 청구",
+    "EN": "Request to Revoke Initial Denial of Medical Benefits",
+    "VN": "Yêu cầu hủy bỏ quyết định từ chối cấp phép điều trị ban đầu",
+    "ID": "Permohonan Pembatalan Keputusan Penolakan Perawatan Awal",
+    "RU": "Ходатайство об отмене первоначального решения об отказе в лечении",
+    "MM": "ကနဦးဆေးကုသမှုစရိတ် အသိအမှတ်မပြုသည့် ဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ပေးရန် တောင်းဆိုမှု",
+    "NP": "การร้องขอให้เพิกถอนคำตัดสินที่ไม่อนุมัติค่ารักษาพยาบาลในเบื้องต้น",
+    "TH": "การร้องขอให้เพิกถอนคำตัดสินที่ไม่อนุมัติค่ารักษาพยาบาลในเบื้องต้น"
+  },
+  "thirtyfive_summary0": {
+    "KO": "승인 여부: 승인",
+    "EN": "Approval Status: Approved",
+    "VN": "Kết quả phê duyệt: Được phê duyệt",
+    "ID": "Status Persetujuan: Disetujui",
+    "RU": "Статус утверждения: Утверждено",
+    "MM": "* အတည်ပြု 여부: အတည်ပြုခဲ့သည်။",
+    "NP": "* สถานะการอนุมัติ: อนุมัติ",
+    "TH": "* สถานะการอนุมัติ: อนุมัติ"
+  },
+  "thirtyfive_summary1": {
+    "KO": "발생 일시: 2023. 2. 8.",
+    "EN": "Date of Occurrence: February 8, 2023",
+    "VN": "Thời gian xảy ra: 8/2/2023",
+    "ID": "Tanggal Kejadian: 8 Februari 2023",
+    "RU": "Дата происшествия: 8 февраля 2023 г.",
+    "MM": "* ဖြစ်ပွားချိန်: ၂၀၂၃ ခုနှစ်၊ ဖေဖော်ဝါရီလ ၈ ရက်",
+    "NP": "* วันที่เกิดเหตุ: 8 กุมภาพันธ์ 2023",
+    "TH": "* วันที่เกิดเหตุ: 8 กุมภาพันธ์ 2023"
+  },
+  "thirtyfive_summary2": {
+    "KO": "발생 장소: ○○사업장",
+    "EN": "Location of Occurrence: ○○ Workplace",
+    "VN": "Địa điểm xảy ra: Nơi làm việc ○○",
+    "ID": "Lokasi Kejadian: Tempat Kerja ○○",
+    "RU": "Место происшествия: ○○ Рабочее место",
+    "MM": "* ဖြစ်ပွားရာနေရာ: ○○ လုပ်ငန်းခွင်",
+    "NP": "* สถานที่เกิดเหตุ: สถานประกอบการ ○○",
+    "TH": "* สถานที่เกิดเหตุ: สถานประกอบการ ○○"
+  },
+  "thirtyfive_summary3": {
+    "KO": "근로자 정보: 수습사원",
+    "EN": "Worker Information: Probationary Employee",
+    "VN": "Thông tin người lao động: Nhân viên tập sự",
+    "ID": "Informasi Pekerja: Karyawan Magang",
+    "RU": "Информация о работнике: сотрудник, проходящий испытательный срок",
+    "MM": "* လုပ်သားအချက်အလက်: အစမ်းခန့်ဝန်ထမ်း",
+    "NP": "* ข้อมูลลูกจ้าง: พนักงานทดลองงาน",
+    "TH": "* ข้อมูลลูกจ้าง: พนักงานทดลองงาน"
+  },
+  "thirtyfive_summary4": {
+    "KO": "상병명: 공황장애, 적응장애, 우울장애",
+    "EN": "Diagnosis: Panic Disorder, Adjustment Disorder, Depressive Disorder",
+    "VN": "Tên bệnh: Rối loạn hoảng loạn, rối loạn thích ứng, rối loạn trầm cảm",
+    "ID": "Nama Penyakit: Gangguan Panik, Gangguan Adaptasi, Gangguan Depresi",
+    "RU": "Диагноз: паническое расстройство, расстройство адаптации, депрессивное расстройство",
+    "MM": "* ရောဂါအမည်: ထိတ်လန့်ခြင်းရောဂါ (Panic Disorder), အခြေအနေသစ်နှင့် လိုက်လျောညီထွေမဖြစ်နိုင်သည့် စိတ်ပိုင်းဆိုင်ရာရောဂါ (Adjustment Disorder), စိတ်ကျရောဂါ (Depressive Disorder)",
+    "NP": "* ชื่อโรค/การบาดเจ็บ: โรคแพนิค, โรคการปรับตัวผิดปกติ, โรคซึมเศร้า",
+    "TH": "* ชื่อโรค/การบาดเจ็บ: โรคแพนิค, โรคการปรับตัวผิดปกติ, โรคซึมเศร้า"
+  },
+  "thirtyfive_situation": {
+    "KO": "신청인의 진술 외 객관적인 근거가 확인되지 않는다는 판정위원회 결과에 따라 요양신청을 불승인한 사건에 대해, 소속 사업장의 징계위원회 결과 징계처분 등 객관적 사실이 인정되어 신청 상병의 업무관련성이 높다고 판단하여 원처분을 “취소”한 사례.",
+    "EN": "Regarding a case where the medical leave application was denied based on the determination committee's conclusion that no objective evidence beyond the applicant's statement was confirmed, the original decision was “revoked” after it was determined that the disciplinary committee's findings at the workplace, including disciplinary action, constituted objective facts, and the work-relatedness of the claimed illnesses was deemed high.",
+    "VN": "Theo kết quả của ủy ban xét duyệt, không có bằng chứng khách quan nào ngoài lời khai của người nộp đơn, nên đơn xin điều trị đã bị từ chối. Tuy nhiên, dựa trên kết quả của ủy ban kỷ luật nơi làm việc, các bằng chứng khách quan như hình thức kỷ luật đã được công nhận, và bệnh của người nộp đơn được xác định là có liên quan cao đến công việc, nên quyết định ban đầu đã bị \"hủy bỏ\".",
+    "ID": "Berdasarkan hasil komite penilaian yang menyatakan tidak ada bukti objektif selain pernyataan pemohon, permohonan perawatan ditolak. Namun, berdasarkan hasil komite disiplin tempat kerja yang mengakui adanya sanksi disiplin dan fakta objektif lainnya, diputuskan bahwa penyakit yang diajukan memiliki kaitan yang tinggi dengan pekerjaan, sehingga keputusan awal “dibatalkan”.",
+    "RU": "после того, как комиссия по рассмотрению дел пришла к выводу, что объективные доказательства, помимо заявления заявителя, не подтверждены, заявление о медицинском лечении было отклонено. Однако на основании выводов дисциплинарной комиссии на рабочем месте, которая установила объективные факты, включая дисциплинарные меры, была признана высокая вероятность связи заявленных заболеваний с работой. В результате первоначальное решение было «отменено».",
+    "MM": "တောင်းဆိုသူ၏ ထွက်ဆိုချက်မှလွဲ၍ ობjektiv အထောက်အထားများ မတွေ့ရှိရဟုဆိုကာ ဆေးကုသမှုစရိတ်ပေးရန် တောင်းဆိုမှုကို အသိအမှတ်မပြုခဲ့သည့် ဆုံးဖြတ်ချက်အား၊ သက်ဆိုင်ရာလုပ်ငန်းခွင်၏ စည်းကမ်းထိန်းသိမ်းရေးကော်မတီ၏ အပြစ်ပေးအရေးယူမှု ဆုံးဖြတ်ချက်ကဲ့သို့သော ობjektiv အချက်အလက်များ အတည်ပြုနိုင်ခဲ့သဖြင့် တောင်းဆိုထားသော ရောဂါသည် လုပ်ငန်းနှင့် ဆက်စပ်မှုမြင့်မားသည်ဟု ဆုံးဖြတ်ကာ မူလဆုံးဖြတ်ချက်ကို \"ပယ်ဖျက်\" ခဲ့သည့် အမှုဖြစ်သည်။",
+    "NP": "เป็นกรณีที่คำตัดสินซึ่งเคยไม่อนุมัติคำขอรับค่ารักษาพยาบาลตามผลของคณะกรรมการพิจารณาที่ว่าไม่พบหลักฐานที่เป็นรูปธรรมนอกเหนือจากคำให้การของผู้ร้อง ได้ถูก \"เพิกถอน\" เนื่องจากมีการยอมรับข้อเท็จจริงที่เป็นรูปธรรม เช่น ผลการลงโทษทางวินัยจากคณะกรรมการทางวินัยของบริษัทต้นสังกัด และพิจารณาว่าความเจ็บป่วยที่ยื่นขอมีความเกี่ยวข้องกับงานสูง",
+    "TH": "เป็นกรณีที่คำตัดสินซึ่งเคยไม่อนุมัติคำขอรับค่ารักษาพยาบาลตามผลของคณะกรรมการพิจารณาที่ว่าไม่พบหลักฐานที่เป็นรูปธรรมนอกเหนือจากคำให้การของผู้ร้อง ได้ถูก \"เพิกถอน\" เนื่องจากมีการยอมรับข้อเท็จจริงที่เป็นรูปธรรม เช่น ผลการลงโทษทางวินัยจากคณะกรรมการทางวินัยของบริษัทต้นสังกัด และพิจารณาว่าความเจ็บป่วยที่ยื่นขอมีความเกี่ยวข้องกับงานสูง"
+  },
+  "thirtyfive_facts0": {
+    "KO": "청구인은 입사 이후 직장 상사 및 동료로부터 성희롱, 과도한 업무지시, 따돌림, 모욕 등을 당했다고 진술함.",
+    "EN": "The claimant stated that since joining the company, they had suffered sexual harassment, excessive work assignments, exclusion, and insults from their supervisor and colleagues.",
+    "VN": "Người yêu cầu bồi thường khai rằng sau khi vào công ty, họ đã bị sếp và đồng nghiệp quấy rối tình dục, giao việc quá sức, cô lập, sỉ nhục, v.v.",
+    "ID": "Pemohon menyatakan bahwa sejak masuk kerja, ia mengalami pelecehan seksual, perintah kerja berlebihan, pengucilan, dan penghinaan dari atasan dan rekan kerja.",
+    "RU": "Заявитель утверждал, что с момента поступления на работу в компанию он подвергался сексуальным домогательствам, чрезмерным рабочим заданиям, остракизму и оскорблениям со стороны своего начальника и коллег.",
+    "MM": "* တောင်းဆိုသူသည် အလုပ်စဝင်သည့်အချိန်မှစ၍ အထက်အရာရှိနှင့် လုပ်ဖော်ကိုင်ဖက်များထံမှ လိင်ပိုင်းဆိုင်ရာစော်ကားမှု၊ အလွန်အကျွံအလုပ်ခိုင်းစေမှု၊ အုပ်စုဖွဲ့အ孤立ထားမှု၊ စော်ကားမော်ကားပြောဆိုမှုများကို ခံခဲ့ရသည်ဟု ထွက်ဆိုခဲ့သည်။",
+    "NP": "* ผู้เรียกร้องให้การว่าหลังจากเข้าทำงาน ถูกหัวหน้างานและเพื่อนร่วมงานล่วงละเมิดทางเพศ สั่งงานที่มากเกินไป กลั่นแกล้งโดดเดี่ยว และดูหมิ่น",
+    "TH": "* ผู้เรียกร้องให้การว่าหลังจากเข้าทำงาน ถูกหัวหน้างานและเพื่อนร่วมงานล่วงละเมิดทางเพศ สั่งงานที่มากเกินไป กลั่นแกล้งโดดเดี่ยว และดูหมิ่น"
+  },
+  "thirtyfive_facts1": {
+    "KO": "사건 이후 증상이 악화되어 정신건강의학과 진료에서 ‘적응장애’ 진단을 받고 치료 중임이 확인됨.",
+    "EN": "Following the incident, their symptoms worsened, and they were diagnosed with ‘Adjustment Disorder’ during psychiatric treatment, which is ongoing.",
+    "VN": "Sau vụ việc, các triệu chứng trở nên trầm trọng hơn, họ được chẩn đoán là \"rối loạn thích ứng\" tại khoa tâm thần và đang được điều trị.",
+    "ID": "Setelah kejadian, gejalanya memburuk dan ia didiagnosis menderita “gangguan adaptasi” dalam pemeriksaan psikiatri dan sedang menjalani pengobatan.",
+    "RU": "После этого инцидента его симптомы ухудшились. Было подтверждено, что он проходил лечение после того, как ему был поставлен диагноз «расстройство адаптации» во время психиатрических консультаций.",
+    "MM": "* အဆိုပါဖြစ်ရပ်များအပြီးတွင် ရောဂါလက္ခဏာများ ပိုမိုဆိုးရွားလာပြီး စိတ်ကျန်းမာရေးဆေးခန်းတွင် 'အခြေအနေသစ်နှင့် လိုက်လျောညီထွေမဖြစ်နိုင်သည့် စိတ်ပိုင်းဆိုင်ရာရောဂါ' ဟု ရောဂါရှာဖွေတွေ့ရှိကာ ဆေးကုသမှုခံယူနေကြောင်း အတည်ပြုနိုင်ခဲ့သည်။",
+    "NP": "* ได้รับการยืนยันว่าหลังจากเกิดเหตุการณ์ดังกล่าว อาการได้แย่ลง และได้รับการวินิจฉัยว่าเป็น ‘โรคการปรับตัวผิดปกติ’ จากการตรวจรักษาที่แผนกจิตเวชศาสตร์และกำลังอยู่ในระหว่างการรักษา",
+    "TH": "* ได้รับการยืนยันว่าหลังจากเกิดเหตุการณ์ดังกล่าว อาการได้แย่ลง และได้รับการวินิจฉัยว่าเป็น ‘โรคการปรับตัวผิดปกติ’ จากการตรวจรักษาที่แผนกจิตเวชศาสตร์และกำลังอยู่ในระหว่างการรักษา"
+  },
+  "thirtyfive_facts2": {
+    "KO": "회사 징계위원회 회의록에서 성희롱·괴롭힘 정황이 일부 확인되어 청구인의 주장이 객관적으로 입증됨.",
+    "EN": "The company disciplinary committee meeting minutes partially confirmed the circumstances of sexual harassment and bullying, objectively substantiating the claimant's allegations.",
+    "VN": "Biên bản cuộc họp của ủy ban kỷ luật công ty xác nhận một phần tình tiết quấy rối tình dục và bắt nạt, chứng minh khách quan cho tuyên bố của người yêu cầu bồi thường.",
+    "ID": "Catatan rapat komite disiplin perusahaan menunjukkan adanya bukti pelecehan seksual dan perundungan, sehingga klaim pemohon terbukti secara objektif.",
+    "RU": "Протокол заседания дисциплинарного комитета компании частично подтвердил обстоятельства сексуальных домогательств и издевательств, объективно подтвердив утверждения заявителя.",
+    "MM": "* ကုမ္ပဏီ၏ စည်းကမ်းထိန်းသိမ်းရေးကော်မတီ အစည်းအဝေးမှတ်တမ်းတွင် လိင်ပိုင်းဆိုင်ရာစော်ကားမှုနှင့် အနိုင်ကျင့်မှု အခြေအနေအချို့ကို အတည်ပြုနိုင်ခဲ့သဖြင့် တောင်းဆိုသူ၏ ထွက်ဆိုချက်သည် ობjektiv အားဖြင့် သက်သေပြနိုင်ခဲ့သည်။",
+    "NP": "* จากบันทึกการประชุมของคณะกรรมการทางวินัยของบริษัท ได้มีการยืนยันสถานการณ์การล่วงละเมิดทางเพศและการกลั่นแกล้งบางส่วน ทำให้คำกล่าวอ้างของผู้เรียกร้องได้รับการพิสูจน์อย่างเป็นรูปธรรม",
+    "TH": "* จากบันทึกการประชุมของคณะกรรมการทางวินัยของบริษัท ได้มีการยืนยันสถานการณ์การล่วงละเมิดทางเพศและการกลั่นแกล้งบางส่วน ทำให้คำกล่าวอ้างของผู้เรียกร้องได้รับการพิสูจน์อย่างเป็นรูปธรรม"
+  },
+  "thirtyfive_facts3": {
+    "KO": "심사위는 직장 내 괴롭힘과 성희롱 등 업무환경 요인이 상병 발생에 상당히 기여했다고 판단함.",
+    "EN": "The review committee determined that workplace factors, including workplace harassment and sexual harassment, significantly contributed to the onset of the illness.",
+    "VN": "Ủy ban thẩm định đã xác định rằng các yếu tố môi trường làm việc như quấy rối và quấy rối tình dục tại nơi làm việc đã góp phần đáng kể vào việc phát sinh bệnh.",
+    "ID": "Komisi Peninjau menilai bahwa faktor lingkungan kerja seperti perundungan dan pelecehan seksual di tempat kerja berkontribusi signifikan terhadap timbulnya penyakit.",
+    "RU": "Комиссия по пересмотру определила, что домогательства на рабочем месте и сексуальные домогательства, среди прочих факторов рабочей среды, в значительной степени способствовали возникновению заболевания.",
+    "MM": "* စိစစ်ရေးကော်မတီက လုပ်ငန်းခွင်အတွင်း အနိုင်ကျင့်မှုနှင့် လိင်ပိုင်းဆိုင်ရာစော်ကားမှုကဲ့သို့သော လုပ်ငန်းခွင်ပတ်ဝန်းကျင်ဆိုင်ရာ အကြောင်းများက ရောဂါဖြစ်ပွားမှုအပေါ် သိသာထင်ရှားစွာ အကျိုးသက်ရောက်မှုရှိခဲ့သည်ဟု ဆုံးဖြတ်ခဲ့သည်။",
+    "NP": "* คณะกรรมการพิจารณาได้ตัดสินว่าปัจจัยแวดล้อมในการทำงาน เช่น การกลั่นแกล้งและการล่วงละเมิดทางเพศในที่ทำงาน มีส่วนสำคัญอย่างยิ่งต่อการเกิดโรค",
+    "TH": "* คณะกรรมการพิจารณาได้ตัดสินว่าปัจจัยแวดล้อมในการทำงาน เช่น การกลั่นแกล้งและการล่วงละเมิดทางเพศในที่ทำงาน มีส่วนสำคัญอย่างยิ่งต่อการเกิดโรค"
+  },
+  "thirtyfive_facts4": {
+    "KO": "이에 최초 불승인 처분은 취소되고 업무상 질병으로 승인됨.",
+    "EN": "Accordingly, the initial denial decision is revoked, and the illness is approved as an occupational disease.",
+    "VN": "Do đó, quyết định từ chối ban đầu đã bị hủy bỏ và bệnh được công nhận là bệnh nghề nghiệp.",
+    "ID": "Oleh karena itu, keputusan penolakan awal dibatalkan dan penyakit tersebut disetujui sebagai penyakit akibat kerja.",
+    "RU": "В результате первоначальное решение об отказе было отменено, и заболевание было признано профессиональным.",
+    "MM": "* ထို့ကြောင့် ကနဦးတွင် အသိအမှတ်မပြုကြောင်း ချမှတ်ထားသည့် ဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ပြီး လုပ်ငန်းခွင်ရောဂါအဖြစ် အတည်ပြုလိုက်သည်။",
+    "NP": "* ดังนั้น คำตัดสินที่ไม่อนุมัติในเบื้องต้นจึงถูกเพิกถอน และได้รับการอนุมัติให้เป็นโรคจากการทำงาน",
+    "TH": "* ดังนั้น คำตัดสินที่ไม่อนุมัติในเบื้องต้นจึงถูกเพิกถอน และได้รับการอนุมัติให้เป็นโรคจากการทำงาน"
+  },
+  "thirtyfive_important0": {
+    "KO": "인격적 침해 행위: 단순 개인적 문제인지, 업무관련 스트레스로 인정할 수 있는지 여부.",
+    "EN": "Acts of Personal Infringement: Whether these constitute merely personal issues or can be recognized as work-related stress.",
+    "VN": "Hành vi xâm phạm nhân phẩm: Đây là vấn đề cá nhân đơn thuần hay có thể được công nhận là căng thẳng liên quan đến công việc?",
+    "ID": "Pelanggaran kepribadian: Apakah ini masalah pribadi semata atau dapat diakui sebagai stres terkait pekerjaan.",
+    "RU": "Действия, составляющие нарушение личных прав: являются ли они чисто личными проблемами или могут быть признаны стрессом, связанным с работой.",
+    "MM": "* လူ့ဂုဏ်သိက္ခာကို ထိခိုက်စေသော လုပ်ရပ်: သာမန်ပုဂ္ဂိုလ်ရေးဆိုင်ရာ ပြဿနာ သို့မဟုတ် လုပ်ငန်းနှင့်ဆက်စပ်သော စိတ်ဖိစီးမှုအဖြစ် အသိအမှတ်ပြုနိုင်ခြင်း ရှိ၊ မရှိ ဆိုသည့်အချက်။",
+    "NP": "* การกระทำที่ละเมิดศักดิ์ศรีความเป็นมนุษย์: เป็นเพียงปัญหาส่วนตัว หรือสามารถยอมรับได้ว่าเป็นความเครียดที่เกี่ยวข้องกับงาน",
+    "TH": "* การกระทำที่ละเมิดศักดิ์ศรีความเป็นมนุษย์: เป็นเพียงปัญหาส่วนตัว หรือสามารถยอมรับได้ว่าเป็นความเครียดที่เกี่ยวข้องกับงาน"
+  },
+  "thirtyfive_important1": {
+    "KO": "적응장애 발생 원인: 개인적 요인과 업무환경 요인의 기여도를 어떻게 판단할 것인지 여부.",
+    "EN": "Causes of Adjustment Disorder: How to assess the relative contributions of personal factors versus workplace environmental factors.",
+    "VN": "Nguyên nhân phát sinh rối loạn thích ứng: Làm thế nào để đánh giá mức độ đóng góp của các yếu tố cá nhân và môi trường làm việc?",
+    "ID": "Penyebab gangguan adaptasi: Bagaimana menilai kontribusi faktor pribadi dan faktor lingkungan kerja.",
+    "RU": "Причины адаптационного расстройства: как оценить относительный вклад личных факторов по сравнению с факторами рабочей среды.",
+    "MM": "* အခြေအနေသစ်နှင့် လိုက်လျောညီထွေမဖြစ်နိုင်သည့် စိတ်ပိုင်းဆိုင်ရာရောဂါ ဖြစ်ပွားစေသည့် အကြောင်းအရင်း: ပုဂ္ဂိုလ်ရေးဆိုင်ရာ အကြောင်းများနှင့် လုပ်ငန်းခွင်ပတ်ဝန်းကျင်ဆိုင်ရာ အကြောင်းများ၏ သက်ရောက်မှုကို မည်သို့ဆုံးဖြတ်မည်ဆိုသည့်အချက်။",
+    "NP": "* สาเหตุของการเกิดโรคการปรับตัวผิดปกติ: จะพิจารณาถึงสัดส่วนของปัจจัยส่วนบุคคลและปัจจัยแวดล้อมในการทำงานอย่างไร",
+    "TH": "* สาเหตุของการเกิดโรคการปรับตัวผิดปกติ: จะพิจารณาถึงสัดส่วนของปัจจัยส่วนบุคคลและปัจจัยแวดล้อมในการทำงานอย่างไร"
+  },
+  "thirtyfive_important2": {
+    "KO": "객관적 자료: 업무관련성 입증에 충분한 근거가 되는지 여부.",
+    "EN": "Objective Evidence: Whether it provides sufficient grounds to prove work-relatedness.",
+    "VN": "Dữ liệu khách quan: liệu có đủ cơ sở để chứng minh liên quan đến công việc hay không.",
+    "ID": "Bukti objektif: Apakah bukti tersebut cukup untuk membuktikan hubungan dengan pekerjaan.",
+    "RU": "Объективные доказательства: являются ли они достаточным основанием для доказательства связи с работой.",
+    "MM": "* ობjektiv အချက်အလက်: လုပ်ငန်းနှင့်ဆက်စပ်မှုကို သက်သေပြရန် လုံလောက်သော အထောက်အထား ဟုတ်၊ မဟုတ် ဆိုသည့်အချက်။",
+    "NP": "* ข้อมูลที่เป็นรูปธรรม: เป็นหลักฐานที่เพียงพอในการพิสูจน์ความเกี่ยวข้องกับงานหรือไม่",
+    "TH": "* ข้อมูลที่เป็นรูปธรรม: เป็นหลักฐานที่เพียงพอในการพิสูจน์ความเกี่ยวข้องกับงานหรือไม่"
+  },
+  "thirtyfive_decision0": {
+    "KO": "청구인의 상병 ‘적응장애’는 개인적 취약성만이 아니라 직장 내 괴롭힘·성희롱 등 업무환경 요인이 복합적으로 작용하여 발생한 것으로 인정됨.",
+    "EN": "The claimant's illness, ‘adjustment disorder,’ is recognized as arising not solely from personal vulnerability but from the combined effects of workplace factors such as workplace bullying and sexual harassment.",
+    "VN": "Bệnh tật \"rối loạn thích ứng\" của người yêu cầu bồi thường được công nhận là do sự kết hợp của các yếu tố môi trường làm việc như quấy rối và quấy rối tình dục tại nơi làm việc, chứ không chỉ do tính cách cá nhân.",
+    "ID": "Penyakit ‘gangguan adaptasi’ yang diderita pemohon diakui sebagai akibat dari interaksi kompleks antara kerentanan pribadi dan faktor lingkungan kerja seperti pelecehan di tempat kerja dan pelecehan seksual.",
+    "RU": "Заболевание заявителя, «расстройство адаптации», признано возникшим не только в результате личной уязвимости, но и в результате совокупного воздействия факторов рабочей среды, таких как издевательства на рабочем месте и сексуальные домогательства.",
+    "MM": "* တောင်းဆိုသူ၏ ရောဂါ 'အခြေအနေသစ်နှင့် လိုက်လျောညီထွေမဖြစ်နိုင်သည့် စိတ်ပိုင်းဆိုင်ရာရောဂါ' သည် ပုဂ္ဂိုလ်ရေးဆိုင်ရာ အားနည်းချက်တစ်ခုတည်းကြောင့်သာမက လုပ်ငန်းခွင်အတွင်း အနိုင်ကျင့်မှု၊ လိင်ပိုင်းဆိုင်ရာစော်ကားမှုကဲ့သို့သော လုပ်ငန်းခွင်ပတ်ဝန်းကျင်ဆိုင်ရာ အကြောင်းများ ပေါင်းစပ်သက်ရောက်မှုကြောင့် ဖြစ်ပွားခဲ့ခြင်းဖြစ်ကြောင်း အသိအမှတ်ပြုသည်။",
+    "NP": "* ยอมรับว่าโรค ‘การปรับตัวผิดปกติ’ ของผู้เรียกร้องไม่ได้เกิดจากความเปราะบางส่วนบุคคลเพียงอย่างเดียว แต่เกิดจากการทำงานร่วมกันของปัจจัยแวดล้อมในที่ทำงาน เช่น การกลั่นแกล้งและการล่วงละเมิดทางเพศ",
+    "TH": "* ยอมรับว่าโรค ‘การปรับตัวผิดปกติ’ ของผู้เรียกร้องไม่ได้เกิดจากความเปราะบางส่วนบุคคลเพียงอย่างเดียว แต่เกิดจากการทำงานร่วมกันของปัจจัยแวดล้อมในที่ทำงาน เช่น การกลั่นแกล้งและการล่วงละเมิดทางเพศ"
+  },
+  "thirtyfive_decision1": {
+    "KO": "따라서 최초 불승인 처분은 취소되고, 업무상 질병으로 승인됨.",
+    "EN": "Therefore, the initial denial decision is revoked, and the illness is approved as an occupational disease.",
+    "VN": "Do đó, quyết định từ chối ban đầu bị hủy bỏ và bệnh tật được công nhận là bệnh nghề nghiệp.",
+    "ID": "Oleh karena itu, keputusan penolakan awal dibatalkan, dan penyakit tersebut disetujui sebagai penyakit akibat kerja.",
+    "RU": "Таким образом, первоначальное решение об отказе отменено, и заболевание признано профессиональным заболеванием.",
+    "MM": "* ထို့ကြောင့် ကနဦးတွင် အသိအမှတ်မပြုကြောင်း ချမှတ်ထားသည့် ဆုံးဖြတ်ချက်ကို ပယ်ဖျက်ပြီး လုပ်ငန်းခွင်ရောဂါအဖြစ် အတည်ပြုလိုက်သည်။",
+    "NP": "* ดังนั้น คำตัดสินที่ไม่อนุมัติในเบื้องต้นจึงถูกเพิกถอน และได้รับการอนุมัติให้เป็นโรคจากการทำงาน",
+    "TH": "* ดังนั้น คำตัดสินที่ไม่อนุมัติในเบื้องต้นจึงถูกเพิกถอน และได้รับการอนุมัติให้เป็นโรคจากการทำงาน"
+  },
+  "thirtyfive_laws0": {
+    "KO": "산재보험법 제37조(업무상의 재해의 인정기준)",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 37 (Criteria for Recognizing Work-Related Injuries)",
+    "VN": "Điều 37 của \"Luật bảo hiểm tai nạn lao động\" (Tiêu chuẩn công nhận tai nạn lao động)",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 37 (Kriteria Pengakuan Kecelakaan Kerja)",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 37 (Критерии признания производственных травм)",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ」 ပုဒ်မ ၃၇ (လုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာရမှု အသိအမှတ်ပြုခြင်း စံနှုန်း)",
+    "NP": "* พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 37 (มาตรฐานการยอมรับอุบัติเหตุจากการทำงาน)",
+    "TH": "* 「พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน」 มาตรา 37 (มาตรฐานการยอมรับอุบัติเหตุจากการทำงาน)"
+  },
+  "thirtyfive_laws1": {
+    "KO": "「산재보험법 시행령」 제34조(업무상 질병의 인정기준)",
+    "EN": "Industrial Accident Compensation Insurance Act Enforcement Decree, Article 34 (Criteria for Recognizing Work-Related Illnesses)",
+    "VN": "Điều 34 của \"Nghị định thi hành Luật bảo hiểm tai nạn lao động\" (Tiêu chuẩn công nhận bệnh nghề nghiệp)",
+    "ID": "「Peraturan Pelaksanaan Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 34 (Kriteria Pengakuan Penyakit Kerja)",
+    "RU": "Постановление о применении Закона о страховании от несчастных случаев на производстве, статья 34 (Критерии признания профессиональных заболеваний)",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ အကောင်အထည်ဖော်ရေးဆိုင်ရာ အမိန့်」 ပုဒ်မ ၃၄ (လုပ်ငန်းခွင်ရောဂါ အသိအမှတ်ပြုခြင်း စံနှုန်း)",
+    "NP": "* กฤษฎีกาบังคับใช้พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 34 (มาตรฐานการยอมรับโรคจากการทำงาน)",
+    "TH": "* 「กฤษฎีกาบังคับใช้พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน」 มาตรา 34 (มาตรฐานการยอมรับโรคจากการทำงาน)"
+  },
+  "thirtyfive_laws2": {
+    "KO": "「산재보험법 시행령」 제34조 별표3(업무상 질병에 대한 구체적 인정기준)",
+    "EN": "Industrial Accident Compensation Insurance Act Enforcement Decree, Article 34, Appendix 3 (Specific Criteria for Recognizing Work-Related Illnesses)",
+    "VN": "Bảng phụ lục 3 của Điều 34 của \"Nghị định thi hành Luật bảo hiểm tai nạn lao động\" (Tiêu chuẩn công nhận cụ thể đối với bệnh nghề nghiệp)",
+    "ID": "「Peraturan Pelaksanaan Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 34 Lampiran 3 (Kriteria Pengakuan Penyakit Kerja secara Konkret)",
+    "RU": "Постановление о применении Закона о страховании от несчастных случаев на производстве, статья 34, приложение 3 (Конкретные критерии признания профессиональных заболеваний)",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ အကောင်အထည်ဖော်ရေးဆိုင်ရာ အမိန့်」 ပုဒ်မ ၃၄၊ ဇယား ၃ (လုပ်ငန်းခွင်ရောဂါများအတွက် တိကျသော အသိအမှတ်ပြုခြင်း စံနှုန်း)",
+    "NP": "* กฤษฎีกาบังคับใช้พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 34 ตารางแนบท้ายที่ 3 (มาตรฐานการยอมรับโรคจากการทำงานอย่างละเอียด)",
+    "TH": "* 「กฤษฎีกาบังคับใช้พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน」 มาตรา 34 ตารางแนบท้ายที่ 3 (มาตรฐานการยอมรับโรคจากการทำงานอย่างละเอียด)"
+  },
+  "thirtyfive_laws3": {
+    "KO": "산재보험법 제105조(심사청구에 대한 심리·결정) 제1항",
+    "EN": "Industrial Accident Compensation Insurance Act, Article 105 (Hearing and Decision on Review Requests), Paragraph 1",
+    "VN": "Điều 105 của \"Luật bảo hiểm tai nạn lao động\" (Xét xử và quyết định đối với yêu cầu thẩm tra) Khoản 1",
+    "ID": "「Undang-Undang Asuransi Kecelakaan Kerja」 Pasal 105 (Pemeriksaan dan Keputusan atas Permohonan Banding) Ayat 1",
+    "RU": "Закон о страховании от несчастных случаев на производстве, статья 105 (Слушание и решение по запросам о пересмотре), пункт 1",
+    "MM": "* 「စက်မှုလုပ်ငန်းခွင် ထိခိုက်ဒဏ်ရာလျော်ကြေး အာမခံဥပဒေ」 ပုဒ်မ ၁၀၅ (စိစစ်ရန် တောင်းဆိုမှုအပေါ် စစ်ဆေးခြင်းနှင့် ဆုံးဖြတ်ခြင်း)၊ အပိုဒ် ၁",
+    "NP": "* พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน มาตรา 105 (การพิจารณาและตัดสินคำร้องขอให้พิจารณาใหม่) วรรค 1",
+    "TH": "* 「พระราชบัญญัติประกันภัยอุบัติเหตุจากการทำงาน」 มาตรา 105 (การพิจารณาและตัดสินคำร้องขอให้พิจารณาใหม่) วรรค 1"
+  }
+}

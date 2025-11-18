@@ -59,7 +59,6 @@ html, body, #root { min-height: 100%; }
 /* Row */
 .case-row {
   position: relative;
-  height: 88px;
   padding: 23px 28px 20px 40px;
   display: flex;
   flex-direction: column;
