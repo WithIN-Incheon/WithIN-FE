@@ -76,7 +76,8 @@
   font-weight: 700;
   line-height: 1.3;
   color: #000;
-  margin: 0;
+  margin-right:60px;
+  margin-bottom: 0px;
 }
 
 /* 서브타이틀 */
@@ -88,6 +89,8 @@
   color: #92939f;
   text-align: left;
   white-space: pre-line; /* 줄바꿈 유지 */
+  margin-right:50px;
+  
 }
 
 /* === 반응형 === */
@@ -135,7 +138,7 @@
   }
   .info-card-title {
     margin-top: 10px;
-    font-size: 21px; /* ← 원래 2px → 수정 */
+    font-size: 21px;
   }
   .info-card-subtitle {
     font-size: 14px;
