@@ -18,7 +18,7 @@ const SplashPage: React.FC = () => {
     <div className="splash-container">
       <div className="logo-container">
         <img 
-          src="/Logo-splash.svg" 
+          src="/Logo-splash.jpg" 
           alt="Logo" 
           className="logo-image floating-logo"
         />
