@@ -72,7 +72,7 @@
   font-weight: 700;
   line-height: 1.3;
   color: #000;
-  margin: 0;
+  margin-right: 10px; 
 }
 
 /* 서브타이틀 */
@@ -83,6 +83,7 @@
   line-height: 1.4;
   color: #92939f;
   text-align: left;
+  margin-right: 50px;  /* 이모지겹침 방지 */
 }
 
 /* === 반응형 === */
