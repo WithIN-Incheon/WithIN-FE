@@ -5,6 +5,18 @@
 한국에서 근로 중인 외국인 노동자들은 산재보험 관련 정보가 대부분 한국어 기반으로 제공되고, 용어가 어렵고, 기관마다 정보가 분산되어 있어 정확한 안내를 받기 어려운 상황에 놓여 있습니다.
 **With IN** 웹앱은 이러한 문제를 해결하기 위해 개발된 **다국어 산재보험 가이드 웹앱 서비스**입니다. 
 인천시 외국인종합지원센터와 협업하여 프론트엔드 2명, 기획 2명, 디자이너 1명에서 진행한 프로젝트입니다. 26년 1월 출시 목표로 실제 민원 데이터를 기반으로 설계되었으며, 외국인 근로자가 복잡한 산재보험 절차를 쉽고 빠르게 신청할 수 있도록 돕습니다.
+<!-- 첫 번째 행: 3개 이미지 -->
+<p align="center">
+  <img width="300" alt="Frame 5176" src="https://github.com/user-attachments/assets/de404a22-3aed-408b-b7d3-bd6c7c6d8cb3" />
+  <img width="300" alt="Frame 5178" src="https://github.com/user-attachments/assets/229e8e6a-baad-40e4-903f-8b4994cf2197" />
+  <img width="300" alt="Frame 5179" src="https://github.com/user-attachments/assets/5fbb430d-1536-40a3-9beb-d4b69187ef95" />
+</p>
+
+<!-- 두 번째 행: 2개 이미지 -->
+<p align="center">
+  <img width="300" alt="Frame 5180" src="https://github.com/user-attachments/assets/a07e10ec-9c23-49b8-b50f-1fc9910b9a10" />
+  <img width="300" alt="Frame 5181" src="https://github.com/user-attachments/assets/34e06812-a091-4048-9374-6910483113cb" />
+</p>
 
 ---
 
@@ -107,4 +119,5 @@ WithIN-FE/
 * CI, 테스트, 폴더 구조, 번역 시스템 등 **코드 품질 중심 설계**
 
 ---
+
 
