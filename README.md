@@ -5,6 +5,18 @@
 한국에서 근로 중인 외국인 노동자들은 산재보험 관련 정보가 대부분 한국어 기반으로 제공되고, 용어가 어렵고, 기관마다 정보가 분산되어 있어 정확한 안내를 받기 어려운 상황에 놓여 있습니다.
 **With IN** 웹앱은 이러한 문제를 해결하기 위해 개발된 **다국어 산재보험 가이드 웹앱 서비스**입니다. 
 인천시 외국인종합지원센터와 협업하여 프론트엔드 2명, 기획 2명, 디자이너 1명에서 진행한 프로젝트입니다. 26년 1월 출시 목표로 실제 민원 데이터를 기반으로 설계되었으며, 외국인 근로자가 복잡한 산재보험 절차를 쉽고 빠르게 신청할 수 있도록 돕습니다.
+<!-- 첫 번째 행: 3개 이미지 -->
+<p align="center">
+  <img width="200" alt="Frame 5176" src="https://github.com/user-attachments/assets/de404a22-3aed-408b-b7d3-bd6c7c6d8cb3" />
+  <img width="200" alt="Frame 5178" src="https://github.com/user-attachments/assets/229e8e6a-baad-40e4-903f-8b4994cf2197" />
+  <img width="200" alt="Frame 5179" src="https://github.com/user-attachments/assets/5fbb430d-1536-40a3-9beb-d4b69187ef95" />
+</p>
+
+<!-- 두 번째 행: 2개 이미지 -->
+<p align="center">
+  <img width="200" alt="Frame 5180" src="https://github.com/user-attachments/assets/a07e10ec-9c23-49b8-b50f-1fc9910b9a10" />
+  <img width="200" alt="Frame 5181" src="https://github.com/user-attachments/assets/34e06812-a091-4048-9374-6910483113cb" />
+</p>
 
 ---
 
@@ -22,6 +34,14 @@
 * `FormDataContext` 기반 전역 관리
 * 단일 JSON으로 최종 제출 정보 생성 기능 제공
 
+### ✔ PDF 산재신청서 자동 생성
+* Node.js + pdf-lib 기반 PDF 엔진 사용
+* 템플릿 PDF(templates/template.pdf) 위에 입력 데이터를 오버레이
+* 한글 폰트 지원(예: NotoSansKR-Regular.otf)으로 글 깨짐 방지
+* 주민등록번호 마스킹, 글자 간격 조정, 페이지별 좌표 설정 가능
+* React에서 버튼 클릭 시 서버에 데이터를 전송 → PDF 다운로드 가능
+* 좌표 기반 설계로 정확한 텍스트 위치 반영
+
 ### ✔ React + TypeScript 기반 아키텍처
 * 모든 컴포넌트 및 컨텍스트를 TypeScript로 정교하게 타이핑
 * 안정성과 유지보수성을 고려한 디렉토리 구조
@@ -30,7 +50,7 @@
 ### ✔ 모바일 퍼스트 UI
 * 외국인 근로자 실사용 시나리오 기반
 * 큰 글자, 명확한 UI, 직관적인 흐름
-
+  
 ---
 
 ## 🗂️ Project Structure
@@ -81,28 +101,6 @@ WithIN-FE/
 * 제출 전 `getJsonData()`로 JSON 변환 가능
 * 페이지별 데이터 스키마 관리
 
-### 예시
-
-```ts
-updateFormData({ name: "Min Thu" });
-```
-
----
-
-## 🧪 CI & Quality
-
-### GitHub Actions CI
-
-* Lint
-* Type-check
-* Test 실행
-* Build 검증
-
-### Test
-
-* Vitest + React Testing Library 구성
-* 유틸 및 UI 컴포넌트 테스트 작성
-
 ---
 
 ## 🛠️ Tech Stack
@@ -121,3 +119,6 @@ updateFormData({ name: "Min Thu" });
 * CI, 테스트, 폴더 구조, 번역 시스템 등 **코드 품질 중심 설계**
 
 ---
+
+
+
