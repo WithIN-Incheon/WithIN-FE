@@ -1,6 +1,7 @@
 // src/contexts/LocalizationContext.tsx
 import React, { createContext, useContext, useState, useEffect, type ReactNode } from 'react';
 import localizationData from '../localization.json';
+import localizationInfo from '../localization-info.json';
 import caseData1_7 from '../localization-case_1-7.json';
 import caseData8_14 from '../localization-case_8-14.json';
 import caseData15_21 from '../localization-case_15-21.json';
@@ -13,6 +14,7 @@ export type Language = 'KO' | 'MM' | 'VN' | 'ID' | 'EN' | 'NP' | 'TH' | 'RU';
 // 모든 localization 데이터 병합
 const allLocalizationData = {
   ...localizationData,
+  ...localizationInfo,
   ...caseData1_7,
   ...caseData8_14,
   ...caseData15_21,
