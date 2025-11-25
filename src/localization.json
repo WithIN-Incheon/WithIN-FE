@@ -29,6 +29,26 @@
     "TH": "เริ่มต้น",
     "RU": "Начать"
   },
+  "appInfo":{
+    "KO": "인천 외국인 근로자",
+    "MM": "နိုင်ငံခြားသား လုပ်ငန်းသား",
+    "VN": "Hướng dẫn Bảo hiểm Bồi thường Tai nạn Lao động",
+    "ID": "Panduan Asuransi Kompensasi Kecelakaan Kerja",
+    "EN": "Incheon Guide to Industrial Accident Compensation Insurance",
+    "NP": "इन्चोन औद्योगिक दुर्घटना क्षतिपूर्ति बीमा मार्गदर्शिका",
+    "TH": "คู่มือประกันการบาดเจ็บจากการทำงาน",
+    "RU": "Руководство по страхованию от несчастных случаев на производстве"
+  },
+  "appInfo2":{
+    "KO": "산재보험 가이드",
+    "MM": "စက်မှုလုပ်ငန်းခွင် မတော်တဆထိခိုက်မှု အာမခံ လမ်းညွှန်",
+    "VN": "cho Người lao động nước ngoài tại Incheon",
+    "ID": "untuk Pekerja Asing di Incheon",
+    "EN": "for Foreign Workers",
+    "NP": "विदेशी श्रमिकहरूका लागि",
+    "TH": "สำหรับแรงงานต่างชาติในอินชอน",
+    "RU": "для иностранных работников в Инчхоне"
+  },
   "mainGuide": {
     "KO": "산업재해가이드 (산재가이드)",
     "MM": "စက်မှုလုပ်ငန်းခွင် မတော်တဆထိခိုက်မှု လမ်းညွှန်",
