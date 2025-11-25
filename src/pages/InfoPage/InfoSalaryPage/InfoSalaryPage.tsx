@@ -198,7 +198,7 @@ function InfoSalaryPageContent() {
 
   return (
     <div className="salary-page">
-      <Header title={t("mainIndustry")} />
+      <Header title={t("infoWage")} />
 
       <main className="salary-content">
         {/* 페이지 타이틀 */}
