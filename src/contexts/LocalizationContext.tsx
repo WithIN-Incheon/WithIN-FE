@@ -51,14 +51,13 @@ export const LocalizationProvider: React.FC<{ children: ReactNode }> = ({ childr
 
   // 번역 함수
   const t = (key: LocalizationKey): string => {
-    const translation = allLocalizationData[key];
+    const translation = allLocalizationData[key] as Record<Language, string>;
     if (!translation) {
       console.warn(`Translation key "${key}" not found`);
       return key;
     }
     return translation[language] || translation['KO'] || key;
   };
-
   return (
     <LocalizationContext.Provider value={{ language, setLanguage, t }}>
       {children}
