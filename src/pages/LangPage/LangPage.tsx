@@ -16,7 +16,11 @@ const LangPage = () => {
     <div className="lang-page">
       {/* 로고 섹션 */}
       <div className="logo-section">
-        <img src="/Logo-lang.svg" alt="WithIN" className="logo" />
+        <div className="logo-text">
+          {t('appInfo')}
+          <br />
+          {t('appInfo2')}
+        </div>
       </div>
 
       {/* 메인 콘텐츠 섹션 */}
