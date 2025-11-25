@@ -2,6 +2,7 @@ import Header from "../../../components/Header/Header";
 import BottomBar from "../../../components/BottomBar/BottomBar";
 import { useLocalization } from "../../../contexts/LocalizationContext";
 import "./InfoProcessPage.css";
+import "../../../../src/styles/infopage.css"
 
 function stripOrderedPrefix(text: string) {
   return text.replace(/^\s*\d+\.\s*/, "");

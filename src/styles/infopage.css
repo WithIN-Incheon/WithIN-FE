@@ -1,0 +1,8 @@
+/* info 페이지 공용 하이라이터 */
+.section-title.hl {
+  display: inline; 
+  box-shadow: inset 0 -0.45em 0 #e0eeff;
+  line-height: 1.3; 
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}

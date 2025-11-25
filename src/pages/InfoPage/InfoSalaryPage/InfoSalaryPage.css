@@ -60,14 +60,14 @@
 /* 트리거 박스 */
 .acc-trigger {
   width: var(--box-w);
-  min-height: var(--box-h); 
+  min-height: var(--box-h); /* 최소 높이 유지 */
   background: var(--box-bg);
   border: 0;
   border-radius: 3px; 
   cursor: pointer;
 
   position: relative;
-  display: flex;      
+  display: flex;              /* flex로 글자와 아이콘 배치 */
   align-items: center; 
   justify-content: flex-start;
   padding: 0 var(--icon-right); 

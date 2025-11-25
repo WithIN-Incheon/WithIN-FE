@@ -38,29 +38,8 @@
   color: #2f3747;
 }
 
-/* 섹션 제목 */
-.section-title {
-  position: relative;
-  display: block;
-  width: fit-content;
-  z-index: 0;
-  margin: 25px 0 0;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 1.3;
-  color: #2f3747;
-}
-.section-title.hl::after {
-  content: "";
-  position: absolute;
-  left: -6px;
-  right: -27px;
-  top: 50%;
-  height: 12px;
-  background: #e0eeff;
-  border-radius: 4px;
-  z-index: -1;
-}
+
+
 .section-title + .paragraph,
 .section-title + .check-list,
 .section-title + .dash-list {

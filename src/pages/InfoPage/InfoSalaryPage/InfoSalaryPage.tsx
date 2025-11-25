@@ -1,9 +1,9 @@
-// 산재 보험 급여 안내
 import { useState } from "react";
 import Header from "../../../components/Header/Header";
 import BottomBar from "../../../components/BottomBar/BottomBar";
 import { useLocalization } from "../../../contexts/LocalizationContext";
 import "./InfoSalaryPage.css";
+import "../../../../src/styles/infopage.css"
 
 type Item = {
   key: string;
