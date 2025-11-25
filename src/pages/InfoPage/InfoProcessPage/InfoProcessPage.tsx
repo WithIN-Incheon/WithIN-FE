@@ -42,11 +42,6 @@ export default function InfoProcessPage() {
           <p className="paragraph13">{t("second_step5")}</p>
           <p className="paragraph13">{t("second_step6")}</p>
         </section>
-        <img
-            className="proc-flow-img"
-            src="/Info/Process.svg"
-            alt={t("second_diff_step1")}
-        />
 
         {/* 업무상 질병 산재 보험 신청 절차 */}
         <section className="proc-section">
@@ -79,7 +74,6 @@ export default function InfoProcessPage() {
           </ul>
         </section>
 
-        <div className="bottom-spacer" />
       </main>
 
       <BottomBar />
