@@ -20,9 +20,9 @@ html, body, #root { min-height: 100%; }
 }
 
 .tab-btn {
-  flex: 0 1 45%;   
-  max-width: 45%;    
-  padding: 6px 8px;
+  flex: 1 1 auto;           /* 폭 자동 확장 가능 */
+  min-width: 80px;          /* 최소 폭 */
+  padding: 6px 10px;
   border-radius: 10px;
   border: 1px solid #DEDEDE;
   background: #fff;
@@ -31,10 +31,10 @@ html, body, #root { min-height: 100%; }
   color: #2b2f3a;
 
   display: flex;
-  align-items: center;     
-  justify-content: center; 
-  text-align: center;      
-  word-break: break-word; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  word-break: break-word;   /* 글자가 길면 줄바꿈 */
   line-height: 1.2;
 }
 
