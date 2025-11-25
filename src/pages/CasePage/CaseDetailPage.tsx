@@ -10,20 +10,6 @@ import "./CaseDetailPage.css";
 
 type LocationState = { state?: { title?: string } };
 
-// 케이스 번호를 영어 숫자로 변환 (1 → "one", 2 → "two", ...)
-function getCaseNumberName(num: number): string {
-  const names: Record<number, string> = {
-    1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 7: "seven",
-    8: "eight", 9: "nine", 10: "ten", 11: "eleven", 12: "twelve", 13: "thirteen",
-    14: "fourteen", 15: "fifteen", 16: "sixteen", 17: "seventeen", 18: "eighteen",
-    19: "nineteen", 20: "twenty", 21: "twentyone", 22: "twentytwo", 23: "twentythree",
-    24: "twentyfour", 25: "twentyfive", 26: "twentysix", 27: "twentyseven",
-    28: "twentyeight", 29: "twentynine", 30: "thirty", 31: "thirtyone",
-    32: "thirtytwo", 33: "thirtythree", 34: "thirtyfour", 35: "thirtyfive"
-  };
-  return names[num] || String(num);
-}
-
 // 번역 키로 번역을 시도하고, 없으면 원본 반환
 function tryTranslate(t: (key: any) => string, key: string, fallback?: string): string {
   try {
