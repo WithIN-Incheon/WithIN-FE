@@ -12,25 +12,25 @@ export default function InfoPage() {
     {
       title: t('infoInsurance'),
       subtitle: t('infoExplain'),
-      img: "/Info/Compensation-box.svg",
+      img: "/Info/Compensation-logo.svg",
       path: "/info/compensation",
     },
     {
       title: t('infoStep'),
       subtitle: t('infoReward'),
-      img: "/Info/Process-box.svg",
+      img: "/Info/Process-logo.svg",
       path: "/info/process",
     },
     {
       title: t('infoWage'),
       subtitle: t('infoKindOfWage'),
-      img: "/Info/Benefit-box.svg",
+      img: "/Info/Benefit-logo.svg",
       path: "/info/salary",
     },
     {
       title: t('infoDic'),
       subtitle: t('infoDicintro'),
-      img: "/Info/Glossary-box.svg",
+      img: "/Info/Glossary-logo.svg",
       path: "/info/dictionary",
     },
   ];
@@ -42,17 +42,20 @@ export default function InfoPage() {
       <main className="info-content">
         <div className="info-card-group">
           {infoCards.map((card, i) => (
-            <div
-              key={i}
-              className="info-card-item"
-              onClick={() => navigate(card.path)}
-            >
-              <img className="info-card-img" src={card.img} alt={card.title} />
-              <div className="info-card-text">
-                <h3 className="info-card-title">{card.title}</h3>
-                <p className="info-card-subtitle">{card.subtitle}</p>
-              </div>
+          <div
+            key={i}
+            className="info-card-item"
+            onClick={() => navigate(card.path)}
+          >
+            <div className="info-card-text">
+              <h3 className="info-card-title">{card.title}</h3>
+              <p className="info-card-subtitle">{card.subtitle}</p>
             </div>
+            <div className="info-card-logo">
+              <img src={card.img} alt={card.title} />
+            </div>
+          </div>
+
           ))}
         </div>
       </main>
