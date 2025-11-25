@@ -6,7 +6,7 @@ import HomePage from "./pages/HomePage/HomePage";
 import CasePage from "./pages/CasePage/CasePage";
 import CaseDetailPage from "./pages/CasePage/CaseDetailPage";
 import GuidePage from "./pages/Comp-GuidePage/Comp-GuidePage";
-import ListPage from "./pages/LocationPage/ListPage"
+import ListPage from "./pages/ListPage/ListPage"
 
 import InfoPage from "./pages/InfoPage/InfoPage";
 import InfoCompPage from "./pages/InfoPage/InfoCompPage/InfoCompPage";

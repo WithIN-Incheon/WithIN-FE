@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { HOSPITALS, type Hospital } from "../src/pages/LocationPage/hospitals";
+import { HOSPITALS, type Hospital } from "../src/pages/ListPage/hospitals";
 import { geocodeByRest } from "./geocode";
 
 interface MapProps {
