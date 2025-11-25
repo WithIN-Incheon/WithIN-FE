@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
-import { HOSPITALS, type Hospital } from "../pages/LocationPage/hospitals";
-import { geocodeByRest } from "../utils/geocode";
+import { HOSPITALS, type Hospital } from "../src/pages/LocationPage/hospitals";
+import { geocodeByRest } from "./geocode";
 
 interface MapProps {
   onSelectHospital?: (hospital: Hospital | null) => void;
