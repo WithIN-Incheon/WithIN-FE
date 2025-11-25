@@ -68,7 +68,7 @@
 
   position: relative;
   display: flex;              /* flex로 글자와 아이콘 배치 */
-  align-items: center; 
+  align-items: center;        /* 세로 가운데 정렬 */
   justify-content: flex-start;
   padding: 0 var(--icon-right); 
   box-sizing: border-box;
