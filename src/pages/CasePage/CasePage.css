@@ -11,9 +11,39 @@ html, body, #root { min-height: 100%; }
 .case-fixed { margin-top: 14px; background: #fff; }
 
 /* Tabs */
-.case-tabs { margin: 14px 16px 0; display: flex; gap: 8px; }
-.tab-btn { flex: 1; height: 34px; border-radius: 10px; border: 1px solid #DEDEDE; background: #fff; font-size: 12px; font-weight: 500; color: #2b2f3a; }
-.tab-btn.is-active { background: #DEF0FF; color: #0C8CFF; border-color: #0C8CFF; }
+.case-tabs {
+  margin: 14px 16px 0;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: nowrap;
+}
+
+.tab-btn {
+  flex: 0 1 45%;   
+  max-width: 45%;    
+  padding: 6px 8px;
+  border-radius: 10px;
+  border: 1px solid #DEDEDE;
+  background: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  color: #2b2f3a;
+
+  display: flex;
+  align-items: center;     
+  justify-content: center; 
+  text-align: center;      
+  word-break: break-word; 
+  line-height: 1.2;
+}
+
+.tab-btn.is-active {
+  background: #DEF0FF;
+  color: #0C8CFF;
+  border-color: #0C8CFF;
+}
+
 
 /* Filter area */
 .case-filter-area { position: relative; margin: 16px 16px 0; display: inline-block; }
@@ -68,9 +98,29 @@ html, body, #root { min-height: 100%; }
 .case-row .title { background: none; border: 0; padding: 0; text-align: left; cursor: pointer; color: #0C8CFF; font-weight: 700; font-size: 15px; line-height: 1; }
 
 /* Meta */
-.case-meta { display: flex; align-items: center; gap: 9px; margin-top: 9px; }
-.approval { width: auto; height: 17px; border: 1px solid #767676; border-radius: 4px; display: inline-flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 500; color: #767676; padding: 0 8px; }
-.tag { font-size: 13px; font-weight: 500; color: #000; }
+.case-meta { display: flex; align-items: center; gap: 9px; margin-top: 9px; flex-wrap: wrap;}
+.approval {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #767676;
+  border-radius: 4px;
+  padding: 4px 8px;      
+  font-size: 10px;
+  font-weight: 500;
+  color: #767676;
+  height: auto;           
+  min-height: 17px;       
+  line-height: 1.2;       
+  word-break: break-word;  
+}
+
+.tag {
+  font-size: 13px;
+  font-weight: 500;
+  color: #000;
+  line-height: 1.2;
+}
 
 /* Filter arrow (inline SVG) */
 .arrow-icon {
