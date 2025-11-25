@@ -39,7 +39,7 @@ export default function App() {
               <div className="title">{t('mainIndustry')}</div>
               <div className="subtitle">{t('mainLookup')}</div>
             </div>
-            <img className="card-icon" src="/Home/Guide_logo.svg" alt="guide" />
+            <img className="card-icon" src="/Home/Guide-logo.svg" alt="guide" />
           </div>
 
           <div className="new-card" onClick={() => navigate("/cases")}>
@@ -47,7 +47,7 @@ export default function App() {
               <div className="title">{t('mainSearch')}</div>
               <div className="subtitle">{t('mainExample')}</div>
             </div>
-            <img className="card-icon" src="/Home/ExSearch_logo.svg" alt="example" />
+            <img className="card-icon" src="/Home/ExSearch-logo.svg" alt="example" />
           </div>
 
           <div className="new-card" onClick={() => navigate("/list")}>
@@ -55,14 +55,14 @@ export default function App() {
               <div className="title">{t('mainHospital')}</div>
               <div className="subtitle">{t('mainFindHospital')}</div>
             </div>
-            <img className="card-icon" src="/Home/HosSearch_logo.svg" alt="hospital" />
+            <img className="card-icon" src="/Home/HosSearch-logo.svg" alt="hospital" />
           </div>
 
           <div className="new-card" onClick={() => window.open("https://forms.gle/B7AHzR2ZHYhriUDx9", "_blank")}>
             <div className="card-text">
               <div className="title">{t('mainFeed')}</div>
             </div>
-            <img className="card-icon" src="/Home/Feedback_logo.svg" alt="feedback" />
+            <img className="card-icon" src="/Home/Feedback-logo.svg" alt="feedback" />
           </div>
 
         </div>
