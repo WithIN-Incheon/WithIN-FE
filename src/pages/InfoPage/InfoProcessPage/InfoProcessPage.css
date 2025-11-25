@@ -28,27 +28,16 @@
 .proc-section { margin-bottom: 30px; }
 
 /* 서브타이틀 */
-.section-title {
-  position: relative;
-  display: block;
-  width: fit-content;
-  z-index: 0;
-  margin: 0 0 30px 0; /* 섹션 타이틀 → 컨텐츠 30px */
+.section-subtitle {
+  margin-top: 20px;
+  display: inline; /* inline으로 변경 */
   font-size: 20px;
   font-weight: 600;
   line-height: 1.3;
   color: #2f3747;
-}
-.section-title.hl::after {
-  content: "";
-  position: absolute;
-  left: -6px;
-  right: -27px;
-  top: 50%;
-  height: 12px;
-  background: #e0eeff;
+  background: #e0eeff; /* 하이라이트 배경 */
   border-radius: 4px;
-  z-index: -1;
+  padding: 2px 6px; /* 위아래 여백, 좌우 여백 */
 }
 
 /* 본문 */

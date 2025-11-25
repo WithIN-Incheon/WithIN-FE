@@ -60,57 +60,55 @@
 /* 트리거 박스 */
 .acc-trigger {
   width: var(--box-w);
-  height: var(--box-h);
+  min-height: var(--box-h); 
   background: var(--box-bg);
   border: 0;
   border-radius: 3px; 
   cursor: pointer;
 
   position: relative;
-  display: block;
-
-  text-align: left;
+  display: flex;           
+  align-items: center;      
+  justify-content: flex-start;
+  padding: 0 var(--icon-right); 
+  box-sizing: border-box;
 }
 
 /* 트리거 라벨 */
 .acc-trigger__label {
-  position: absolute;
-  left: var(--label-pad-left);
-  top: 50%;
-  transform: translateY(-50%);
-
+  flex: 1;              
+  text-align: left;           
+  white-space: normal; 
+  word-break: break-word;
+  overflow-wrap: break-word; 
   font-size: 16px;
   font-weight: 600;
   color: #2f3747;
-  white-space: nowrap;
 }
 
+/* 화살표 아이콘 */
 .acc-trigger__icon {
   position: absolute;
   right: var(--icon-right);
   top: 50%;
-  width: 11px;
   transform: translateY(-50%);
-  pointer-events: none;
+  width: 11px;
+  height: auto;
 }
 
-/* 펼쳐지는 내용 */
+/* 펼쳐지는 패널 */
 .acc-panel {
-  width: var(--box-w);
-  margin-top: var(--box-gap); 
+  width: 100%;
+  margin-top: var(--box-gap);
   margin-bottom: var(--box-gap);
   font-size: var(--content-font);
   font-weight: 400;
   line-height: 1.6;
   color: #3a4152;
-  word-break: keep-all;
-  padding-left: 5px;
-
-  word-break: break-all;        /* 단어 중간이라도 줄바꿈 허용 */
-  overflow-wrap: anywhere;      /* 긴 단어도 줄바꿈 허용 */
+  word-break: break-word;
+  overflow-wrap: break-word;
   padding-left: 5px;
 }
-
 /* details 내부 summary 기본 스타일 보완 */
 .acc-panel details {
   margin-top: 10px;

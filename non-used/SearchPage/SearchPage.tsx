@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import { HOSPITALS } from "../../src/pages/LocationPage/hospitals";
+import { HOSPITALS } from "../../src/pages/ListPage/hospitals";
 import "./SearchPage.css";
 
 type HistoryItem = { id: string; term: string; ts: number };

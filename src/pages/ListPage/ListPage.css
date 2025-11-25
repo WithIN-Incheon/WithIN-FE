@@ -28,21 +28,39 @@
 /* === 필터 바 === */
 .loc-filterbar.in-sheet {
   display: flex;
-  gap: 12px;
+  flex-wrap: wrap;          /* 줄바꿈 허용 */
+  gap: 12px;                /* 버튼 간격 */
   padding-top: 20px;
   padding-left: 25px;
-  background: #fff;
+  padding-right: 25px;
 }
 
-.chip {
-  padding: 8px 12px;
-  font-size: 13px;
+/* 버튼 */
+.chip,
+.region-chip,
+.dept-chip,
+.hours-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  white-space: normal;    
+  text-align: center;
+  padding: 8px 12px;       
   border-radius: 40px;
-  height: 25px;
   border: 1px solid #dedede;
-  background: #fff;
-  color: #111;
+  font-size: 13px;
   cursor: pointer;
+  background: #fff;
+  min-width: 80px;    
+  line-height: 1.2;        
+}
+
+.region-chip,
+.dept-chip,
+.hours-chip {
+  margin-left: 10px;
+  line-height: 16px;
 }
 
 .chip--active {
@@ -143,7 +161,6 @@
 .hospital-dept {
   color: #8c8c8c;
   font-size: 14px;
-  margin-bottom: 2px;
 }
 
 .hospital-info {
@@ -154,7 +171,7 @@
 }
 
 .phone {
-  margin-top: 4px;
+  margin-top: 3px;
   font-weight: 500;
 }
 
@@ -163,14 +180,14 @@
   height: 16px;
 }
 
-/* ✅ 영업 상태 색상 표시 */
+/* 영업 상태 색상 표시 */
 .status-open {
-  color: #16a34a; /* 초록색 */
+  color: #16a34a;
   font-weight: 600;
 }
 
 .status-closed {
-  color: #dc2626; /* 빨간색 */
+  color: #dc2626;
   font-weight: 600;
 }
 
@@ -180,4 +197,8 @@
   color: #888;
   font-size: 14px;
   padding: 40px 0;
+}
+
+.hospital-info > div:nth-child(2) {
+  margin-top: 3px; /* 주소 위쪽 여백 */
 }

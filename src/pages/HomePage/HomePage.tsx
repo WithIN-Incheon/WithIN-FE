@@ -33,41 +33,40 @@ export default function App() {
 
       <div className="content">
         <div className="photo-group">
-          <div className="photo-item" onClick={() => navigate("/guide")}>
-            <img className="shadow-img" src="/Home/Home_Guide.svg" alt="산재 신청 가이드" />
-            <div className="photo-text">
+
+          <div className="new-card" onClick={() => navigate("/guide")}>
+            <div className="card-text">
               <div className="title">{t('mainIndustry')}</div>
               <div className="subtitle">{t('mainLookup')}</div>
             </div>
+            <img className="card-icon" src="/Home/Guide-logo.svg" alt="guide" />
           </div>
 
-          <div className="photo-item" onClick={() => navigate("/cases")}>
-            <img className="shadow-img" src="/Home/Home_ExSearch.svg" alt="사례 검색" />
-            <div className="photo-text">
+          <div className="new-card" onClick={() => navigate("/cases")}>
+            <div className="card-text">
               <div className="title">{t('mainSearch')}</div>
               <div className="subtitle">{t('mainExample')}</div>
             </div>
+            <img className="card-icon" src="/Home/ExSearch-logo.svg" alt="example" />
           </div>
 
-          <div className="photo-item" onClick={() => navigate("/list")}>
-            <img className="shadow-img" src="/Home/Home_HosSearch.svg" alt="의료기관 검색" />
-            <div className="photo-text">
+          <div className="new-card" onClick={() => navigate("/list")}>
+            <div className="card-text">
               <div className="title">{t('mainHospital')}</div>
               <div className="subtitle">{t('mainFindHospital')}</div>
             </div>
+            <img className="card-icon" src="/Home/HosSearch-logo.svg" alt="hospital" />
           </div>
-          
-          <div
-            className="photo-item feedback"
-            onClick={() => window.open("https://forms.gle/B7AHzR2ZHYhriUDx9", "_blank")}
-          >
-            <img className="shadow-img" src="/Home/Home_Feedback.svg" alt="피드백 하기" />
-            <div className="photo-text">
+
+          <div className="new-card" onClick={() => window.open("https://forms.gle/B7AHzR2ZHYhriUDx9", "_blank")}>
+            <div className="card-text">
               <div className="title">{t('mainFeed')}</div>
             </div>
+            <img className="card-icon" src="/Home/Feedback-logo.svg" alt="feedback" />
           </div>
 
         </div>
+
       </div>
 
       <BottomBar />

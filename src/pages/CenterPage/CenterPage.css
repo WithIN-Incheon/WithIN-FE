@@ -24,7 +24,7 @@
 }
 
 /* 대제목 */
-.section-title {
+.center-subtitle {
   position: relative;
   display: block;
   width: fit-content;
@@ -37,7 +37,7 @@
 }
 
 /* 하이라이터 효과 */
-.section-title.hl::after {
+.center-subtitle.hl::after {
   content: "";
   position: absolute;
   left: -6px;

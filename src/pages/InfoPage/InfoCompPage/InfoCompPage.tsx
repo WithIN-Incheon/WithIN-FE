@@ -1,35 +1,8 @@
-// 산재 정보 안내 (리팩토링 최종 버전)
 import Header from "../../../components/Header/Header";
 import BottomBar from "../../../components/BottomBar/BottomBar";
 import { useLocalization } from "../../../contexts/LocalizationContext";
 import "./InfoCompPage.css";
-
-// ✅ 내부 유틸: HTML/텍스트 → bullet 라인 배열로 변환
-function toLines(input: unknown): string[] {
-  if (Array.isArray(input)) {
-    return input.map((s) => String(s).trim()).filter(Boolean);
-  }
-
-  const s = String(input ?? "").trim();
-  if (!s) return [];
-
-  // li 태그가 있으면 그 내부만 사용
-  const liMatches = [...s.matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi)].map((m) =>
-    m[1]
-      .replace(/<br\s*\/?>/gi, "")
-      .replace(/<[^>]+>/g, "")
-      .replace(/\s+/g, " ")
-      .trim()
-  );
-  if (liMatches.length) return liMatches.filter(Boolean);
-
-  // <br> 제거 후 줄/구분자 분해, 앞의 "• ", "- ", "· " 제거
-  const cleaned = s.replace(/<br\s*\/?>/gi, "").replace(/<[^>]+>/g, "");
-  return cleaned
-    .split(/\?|·|•|;|，|、/g)
-    .map((t) => t.trim().replace(/^[-•·]\s*/, "")) // ← bullet 문자 제거 핵심
-    .filter(Boolean);
-}
+import "../../../../src/styles/infopage.css"
 
 export default function InfoCompPage() {
   const { t } = useLocalization();

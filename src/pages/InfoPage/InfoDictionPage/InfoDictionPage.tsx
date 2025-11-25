@@ -2,8 +2,9 @@ import Header from "../../../components/Header/Header";
 import BottomBar from "../../../components/BottomBar/BottomBar";
 import { useLocalization } from "../../../contexts/LocalizationContext";
 import "./InfoDictionPage.css";
+import "../../../../src/styles/infopage.css"
 
-// ✅ 내부 유틸: <p> 안의 '•' 라인 자동 분리
+// 내부 유틸: <p> 안의 '•' 라인 자동 분리
 function toBullets(text: string): string[] {
   return text
     .split(/<br\s*\/?>/gi)
