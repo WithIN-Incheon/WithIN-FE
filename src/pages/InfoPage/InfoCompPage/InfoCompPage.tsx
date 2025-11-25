@@ -36,7 +36,7 @@ export default function InfoCompPage() {
   
   return (
     <div className="comp-page">
-      <Header title={t('mainIndustry')} />
+      <Header title={t('infoInsurance')} />
 
       <main className="comp-content">
         <div className="comp-title-wrap">
