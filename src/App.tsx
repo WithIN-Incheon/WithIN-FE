@@ -2,6 +2,8 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { FormDataProvider } from "./contexts/FormDataContext";
 import { LocalizationProvider } from "./contexts/LocalizationContext";
+import usePageTracking from "./hooks/usePageTracking";
+
 import HomePage from "./pages/HomePage/HomePage";
 import CasePage from "./pages/CasePage/CasePage";
 import CaseDetailPage from "./pages/CasePage/CaseDetailPage";
@@ -33,12 +35,17 @@ import SplashPage from "./pages/SplashPage/SplashPage";
 // import EditPage from "./pages/MyPage/EditPage";
 // import DataPage from "./pages/MyPage/DataPage";
 // import LoginPage from "./pages/LoginPage/LoginPage";
+function PageTrackerWrapper() {
+  usePageTracking();  // Router 내부에서 호출됨
+  return null;
+}
 
 function App() {
   return (
     <Router>
       <LocalizationProvider>
       <FormDataProvider>
+      <PageTrackerWrapper />
         <Routes>
           <Route path="/" element={<SplashPage />} />
           <Route path="/lang" element={<LangPage />} />
