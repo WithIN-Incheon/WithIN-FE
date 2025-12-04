@@ -5,31 +5,34 @@ import "./Medi-address-1.css";
 import { useState, useCallback } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 
-// 네이버 지오코딩 API 응답 타입 정의
+// 카카오 주소 검색 응답 타입 
 interface Address {
     roadAddress: string;
     jibunAddress: string;
-    englishAddress: string;
+    englishAddress?: string;
 }
 
 interface GeocodeResponse {
-    status: string;
-    meta: {
-        totalCount: number;
-        page: number;
-        count: number;
-    };
-    addresses: Address[];
+    documents: {
+        address_name: string;
+        road_address: {
+            address_name: string;
+        } | null;
+        address: {
+            address_name: string;
+        } | null;
+    }[];
 }
 
 const MediAddress1 = () => {
     const navigate = useNavigate();
     const location = useLocation();
     const { t } = useLocalization();
-    const { returnPath, returnToStep, fieldName } = location.state || { 
-        returnPath: '/medicare-guide-flow', 
+
+    const { returnPath, returnToStep, fieldName } = location.state || {
+        returnPath: "/medicare-guide-flow",
         returnToStep: 1,
-        fieldName: 'address' 
+        fieldName: "address",
     };
 
     const [searchQuery, setSearchQuery] = useState("");
@@ -38,7 +41,7 @@ const MediAddress1 = () => {
     const [isAddressConfirmed, setIsAddressConfirmed] = useState(false);
     const [detailAddress, setDetailAddress] = useState("");
 
-    // API 호출 함수
+    // 카카오 지오코딩
     const searchAddress = useCallback(async (query: string) => {
         if (!query.trim()) {
             setAddresses([]);
@@ -46,49 +49,58 @@ const MediAddress1 = () => {
         }
 
         try {
-            // 프록시 경로로 변경
             const response = await fetch(
-                `/api/geocode?query=${encodeURIComponent(query)}`,
+                `https://dapi.kakao.com/v2/local/search/address.json?query=${encodeURIComponent(
+                    query
+                )}`,
                 {
-                    method: 'GET',
+                    method: "GET",
                     headers: {
-                        'Accept': 'application/json'
-                    }
+                        Authorization: `KakaoAK ${
+                            import.meta.env.VITE_KAKAO_REST_API_KEY
+                        }`,
+                    },
                 }
             );
 
             const data: GeocodeResponse = await response.json();
-            
-            if (data.status === 'OK' && data.addresses) {
-                setAddresses(data.addresses);
+
+            if (data.documents && data.documents.length > 0) {
+                const parsed = data.documents.map((doc) => ({
+                    roadAddress: doc.road_address?.address_name ?? "",
+                    jibunAddress: doc.address?.address_name ?? "",
+                    englishAddress: "",
+                }));
+
+                setAddresses(parsed);
             } else {
                 setAddresses([]);
             }
         } catch (error) {
-            console.error('주소 검색 실패:', error);
+            console.error("주소 검색 실패:", error);
             setAddresses([]);
         }
     }, []);
 
-    // 입력 핸들러 (디바운싱 적용)
+    //  입력 디바운스
+    let debounceTimer: number | undefined;
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const value = e.target.value;
         setSearchQuery(value);
-        
-        // 간단한 디바운싱 (500ms 후 검색)
-        const timeoutId = setTimeout(() => {
+
+        if (debounceTimer) clearTimeout(debounceTimer);
+
+        debounceTimer = window.setTimeout(() => {
             searchAddress(value);
         }, 500);
-
-        return () => clearTimeout(timeoutId);
     };
 
-    // 주소 선택 핸들러
+    // 주소 선택
     const handleSelectAddress = (address: Address) => {
         setSelectedAddress(address);
     };
 
-    // 주소 입력칸 클릭 핸들러 (주소 확정 후 다시 검색)
+    // 주소 확정 후 다시 클릭하면 초기화
     const handleAddressInputClick = () => {
         if (isAddressConfirmed) {
             setIsAddressConfirmed(false);
@@ -98,90 +110,99 @@ const MediAddress1 = () => {
         }
     };
 
+    // 다음 버튼
     const handleNext = () => {
         if (!isAddressConfirmed && selectedAddress) {
-            // 첫 번째 확인: 주소 확정
             setSearchQuery(selectedAddress.roadAddress);
             setAddresses([]);
             setIsAddressConfirmed(true);
         } else if (isAddressConfirmed) {
-            // 두 번째 확인: 최종 완료 - 원래 페이지로 돌아가기
-            const fullAddress = detailAddress 
+            const fullAddress = detailAddress
                 ? `${searchQuery} ${detailAddress}`
                 : searchQuery;
-            
+
             navigate(returnPath, {
                 state: {
                     [fieldName]: fullAddress,
-                    returnToStep: returnToStep  // step 정보 전달
-                }
+                    returnToStep: returnToStep,
+                },
             });
         }
     };
 
     const handleBack = () => {
-        // 뒤로가기 로직 - 원래 페이지로 돌아가기
         navigate(returnPath);
     };
 
-    // 상세 주소 입력 핸들러
-    const handleDetailAddressChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const handleDetailAddressChange = (
+        e: React.ChangeEvent<HTMLInputElement>
+    ) => {
         setDetailAddress(e.target.value);
     };
 
     return (
         <div className="app">
-            <Header title={t('guidePractice')} onBack={handleBack} showHomebtn={true}/>
+            <Header
+                title={t("guidePractice")}
+                onBack={handleBack}
+                showHomebtn={true}
+            />
+
             <div className="medi-guide-title">
-                <h2>{t('applyEnterAddr')}</h2>
+                <h2>{t("applyEnterAddr")}</h2>
             </div>
+
             <div className="medi-guide-content">
                 <div className="medi-addr-input">
-                    <input 
-                        className="medi-addr-input-text" 
-                        type="text" 
-                        placeholder={t('applyLookBuilding')}
+                    <input
+                        className="medi-addr-input-text"
+                        type="text"
+                        placeholder={t("applyLookBuilding")}
                         value={searchQuery}
                         onChange={handleInputChange}
                         onClick={handleAddressInputClick}
                         readOnly={isAddressConfirmed}
                     />
                 </div>
-                
-                {/* 주소 검색 결과 - 주소 확정 전에만 표시 */}
+
+                {/* 검색 결과 */}
                 {!isAddressConfirmed && (
                     <div className="medi-addr-result">
                         {addresses.map((address, index) => (
-                            <div 
+                            <div
                                 key={index}
-                                className={`medi-addr-result-box ${selectedAddress === address ? 'selected' : ''}`}
+                                className={`medi-addr-result-box ${
+                                    selectedAddress === address ? "selected" : ""
+                                }`}
                                 onClick={() => handleSelectAddress(address)}
                             >
-                                <div className="road-address">{address.roadAddress}</div>
-                                <div className="jibun-address">{address.jibunAddress}</div>
+                                <div className="road-address">
+                                    {address.roadAddress}
+                                </div>
+                                <div className="jibun-address">
+                                    {address.jibunAddress}
+                                </div>
                             </div>
                         ))}
                     </div>
                 )}
 
-                {/* 상세 주소 입력 - 주소 확정 후에만 표시 */}
+                {/* 상세 주소 입력 */}
                 {isAddressConfirmed && (
                     <div className="medi-addr-input medi-detail-addr">
-                        <input 
-                            className="medi-addr-input-text" 
-                            type="text" 
-                            placeholder={t('applySpecificAddr')}
+                        <input
+                            className="medi-addr-input-text"
+                            type="text"
+                            placeholder={t("applySpecificAddr")}
                             value={detailAddress}
                             onChange={handleDetailAddressChange}
                         />
                     </div>
                 )}
             </div>
+
             <div className="save-button-container">
-                <ContinueButton 
-                    text={t('applyCheck')} 
-                    onClick={handleNext}
-                />
+                <ContinueButton text={t("applyCheck")} onClick={handleNext} />
             </div>
         </div>
     );
