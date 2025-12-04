@@ -35,13 +35,17 @@ import SplashPage from "./pages/SplashPage/SplashPage";
 // import EditPage from "./pages/MyPage/EditPage";
 // import DataPage from "./pages/MyPage/DataPage";
 // import LoginPage from "./pages/LoginPage/LoginPage";
+function PageTrackerWrapper() {
+  usePageTracking();  // Router 내부에서 호출됨
+  return null;
+}
 
 function App() {
-  usePageTracking();
   return (
     <Router>
       <LocalizationProvider>
       <FormDataProvider>
+      <PageTrackerWrapper />
         <Routes>
           <Route path="/" element={<SplashPage />} />
           <Route path="/lang" element={<LangPage />} />
