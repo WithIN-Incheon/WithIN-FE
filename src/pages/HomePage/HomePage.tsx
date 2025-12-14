@@ -57,14 +57,6 @@ export default function App() {
             </div>
             <img className="card-icon" src="/Home/HosSearch-logo.svg" alt="hospital" />
           </div>
-
-          <div className="new-card" onClick={() => window.open("https://forms.gle/B7AHzR2ZHYhriUDx9", "_blank")}>
-            <div className="card-text">
-              <div className="title">{t('mainFeed')}</div>
-            </div>
-            <img className="card-icon" src="/Home/Feedback-logo.svg" alt="feedback" />
-          </div>
-
         </div>
 
       </div>
