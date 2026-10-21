@@ -20,7 +20,7 @@ interface FieldsJson {
 }
 
 interface FillPdfParams {
-  data?: Record<string, unknown>;
+  data?: Record<string, string | undefined>;
   fieldsOverride?: FieldsJson | null;
   templatePath?: string;
   fontPath?: string;
@@ -28,7 +28,7 @@ interface FillPdfParams {
 }
 
 interface FillBoxesParams {
-  data: unknown;
+  data: string;
   type: 'dash' | 'date' | 'radio';
   startX: number;
   startY: number;
@@ -83,7 +83,7 @@ export async function fillPdf({
     // 박스 타입이 지정된 경우 fillBoxes 사용
     if (cfg.boxType) {
       fillBoxes({
-        data: valRaw,
+        data: String(valRaw),
         type: cfg.boxType,
         startX: cfg.x,
         startY: cfg.y,

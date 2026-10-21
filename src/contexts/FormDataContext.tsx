@@ -62,18 +62,16 @@ export const FormDataProvider = ({ children }: { children: ReactNode }) => {
     try {
       const saved = sessionStorage.getItem(STORAGE_KEY);
       return saved ? JSON.parse(saved) : {};
-    } catch (error) {
-      console.error('Failed to load form data from sessionStorage:', error);
+    } catch {
       return {};
     }
   });
 
-  // formData가 변경될 때마다 sessionStorage에 저장
   useEffect(() => {
     try {
       sessionStorage.setItem(STORAGE_KEY, JSON.stringify(formData));
-    } catch (error) {
-      console.error('Failed to save form data to sessionStorage:', error);
+    } catch {
+      // sessionStorage 저장 실패 시 무시
     }
   }, [formData]);
 

@@ -17,7 +17,7 @@ const MediResult = ({ onBack }: { onBack: () => void }) => {
         setIsDownloading(true);
         try {
             const pdfBytes = await fillPdf({
-                data: formData,
+                data: formData as Record<string, string | undefined>,
                 templatePath: "/template3.pdf",
                 fontPath: "/fonts/NotoSansKR-Regular.ttf",
             });
