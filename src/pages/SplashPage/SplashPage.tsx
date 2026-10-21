@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './SplashPage.css';
 
-const SplashPage: React.FC = () => {
+const SplashPage = () => {
   const navigate = useNavigate();
 
   useEffect(() => {

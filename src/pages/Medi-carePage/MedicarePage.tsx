@@ -15,6 +15,7 @@ const MedicarePage = () => {
     useEffect(() => {
         resetFormData();
         sessionStorage.removeItem('medicareCurrentStep');
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const handleGuideStart = () => {

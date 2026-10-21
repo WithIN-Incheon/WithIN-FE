@@ -20,7 +20,7 @@ interface FieldsJson {
 }
 
 interface FillPdfParams {
-  data?: Record<string, any>;
+  data?: Record<string, unknown>;
   fieldsOverride?: FieldsJson | null;
   templatePath?: string;
   fontPath?: string;
@@ -28,7 +28,7 @@ interface FillPdfParams {
 }
 
 interface FillBoxesParams {
-  data: any;
+  data: unknown;
   type: 'dash' | 'date' | 'radio';
   startX: number;
   startY: number;

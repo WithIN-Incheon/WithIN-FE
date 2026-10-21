@@ -2,7 +2,7 @@ import Header from "../../../components/Header/Header";
 import BottomBar from "../../../components/BottomBar/BottomBar";
 import { useLocalization } from "../../../contexts/LocalizationContext";
 import "./InfoCompPage.css";
-import "../../../../src/styles/infopage.css"
+import "../../../styles/infopage.css"
 
 export default function InfoCompPage() {
   const { t } = useLocalization();
