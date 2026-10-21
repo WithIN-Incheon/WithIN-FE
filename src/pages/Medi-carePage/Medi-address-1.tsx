@@ -2,7 +2,7 @@ import Header from "../../components/Header/Header";
 import ContinueButton from "../../components/Login/Button/ContinueButton";
 import { useLocalization } from "../../contexts/LocalizationContext";
 import "./Medi-address-1.css";
-import { useState, useCallback } from "react";
+import { useState, useCallback, useRef } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 
 // 카카오 주소 검색 응답 타입 
@@ -40,6 +40,7 @@ const MediAddress1 = () => {
     const [selectedAddress, setSelectedAddress] = useState<Address | null>(null);
     const [isAddressConfirmed, setIsAddressConfirmed] = useState(false);
     const [detailAddress, setDetailAddress] = useState("");
+    const debounceTimer = useRef<number | undefined>(undefined);
 
     // 카카오 지오코딩
     const searchAddress = useCallback(async (query: string) => {
@@ -76,21 +77,18 @@ const MediAddress1 = () => {
             } else {
                 setAddresses([]);
             }
-        } catch (error) {
-            console.error("주소 검색 실패:", error);
+        } catch {
             setAddresses([]);
         }
     }, []);
 
     //  입력 디바운스
-    let debounceTimer: number | undefined;
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const value = e.target.value;
         setSearchQuery(value);
 
-        if (debounceTimer) clearTimeout(debounceTimer);
-
-        debounceTimer = window.setTimeout(() => {
+        if (debounceTimer.current) clearTimeout(debounceTimer.current);
+        debounceTimer.current = window.setTimeout(() => {
             searchAddress(value);
         }, 500);
     };

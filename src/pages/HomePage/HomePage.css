@@ -106,34 +106,6 @@ body {
   text-shadow: 0 1px 2px rgba(0,0,0,0.2);
 }
 
-.quick-link {
-  position: absolute;
-  left: 25px;
-  top: 180px;
-  color: #ffffff;
-  font-weight: 400;
-  font-size: 10px;
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  z-index: 2;
-}
-
-.vector2 {
-  margin-left: 7px;
-  margin-top: 2.2px;
-  height: 8px;
-}
-
-.hero-spacing {
-  position: absolute;
-  top: 190px;
-  left: 0;
-  right: 0;
-  height: 24px;
-}
-
 /* Content 영역 */
 .content {
   position: absolute;

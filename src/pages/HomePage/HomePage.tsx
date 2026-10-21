@@ -17,17 +17,6 @@ export default function App() {
           <div className="subtitle">{t('mainHelp')}</div>
           <div className="title">{t('mainIndustry')}</div>
         </div>
-{/* 
-        <a
-          className="quick-link"
-          href="https://forms.gle/B7AHzR2ZHYhriUDx9"
-          target="_blank"
-          rel="noreferrer"
-        >
-          피드백 하러가기
-          <img className="vector2" src="/Home/Vector2.svg" alt="go" />
-        </a> */}
-
         <div className="hero-spacing" />
       </div>
 

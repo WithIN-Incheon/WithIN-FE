@@ -3,7 +3,7 @@ import Header from "../../../components/Header/Header";
 import BottomBar from "../../../components/BottomBar/BottomBar";
 import { useLocalization } from "../../../contexts/LocalizationContext";
 import "./InfoSalaryPage.css";
-import "../../../../src/styles/infopage.css"
+import "../../../styles/infopage.css"
 
 type Item = {
   key: string;

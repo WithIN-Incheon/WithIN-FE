@@ -1,13 +1,13 @@
 import { useState, useMemo } from "react";
 import Header from "../../components/Header/Header";
 import BottomBar from "../../components/BottomBar/BottomBar";
-import { HOSPITALS } from "./hospitals";
+import { HOSPITALS, type Hours } from "./hospitals";
 import { useLocalization, type LocalizationKey } from "../../contexts/LocalizationContext";
 import "./ListPage.css";
 
 // 요일별 영업시간 텍스트 생성
-function getWeeklyHoursText(hours: any, t: (key: LocalizationKey) => string): string {
-  if (!hours || !hours.byDay) return `(${t("noInfo")})`;
+function getWeeklyHoursText(hours: Hours | undefined, t: (key: LocalizationKey) => string): string {
+  if (!hours?.byDay) return `(${t("noInfo")})`;
 
   const texts: string[] = [];
   const sat = hours.byDay[6];
@@ -22,14 +22,14 @@ function getWeeklyHoursText(hours: any, t: (key: LocalizationKey) => string): st
   // 일요일 체크
   if (!sun) {
     texts.push(t("hospitalEndSunday"));
-  } else {
+  } else if (sat) {
     const cH = Number(sat.close.split(":")[0]);
     if (cH < 18) texts.push(`일요일 ${sun.close} ${t("hospitalEnd")}`);
   }
 
   // 위 조건에 해당 없으면 오늘 기준 표시
   if (texts.length === 0) {
-    const today = new Date().getDay();
+    const today = new Date().getDay() as 0 | 1 | 2 | 3 | 4 | 5 | 6;
     const todayH = hours.byDay[today];
     if (!todayH) texts.push(`(${t("closed")})`);
     else texts.push(`(${todayH.open}-${todayH.close})`);
@@ -39,14 +39,13 @@ function getWeeklyHoursText(hours: any, t: (key: LocalizationKey) => string): st
 }
 
 // 현재 영업중 여부 판단
-function isOpenNow(hours: any): boolean {
-  if (!hours || !hours.byDay) return false;
+function isOpenNow(hours: Hours | undefined): boolean {
+  if (!hours?.byDay) return false;
 
   const now = new Date();
-  const day = now.getDay();
+  const day = now.getDay() as 0 | 1 | 2 | 3 | 4 | 5 | 6;
   const todayHours = hours.byDay[day];
 
-  // 휴무(C 또는 null)
   if (!todayHours) return false;
 
   const [oH, oM] = todayHours.open.split(":").map(Number);
@@ -59,9 +58,9 @@ function isOpenNow(hours: any): boolean {
 }
 
 // 오늘 요일 영업시간 텍스트
-function getTodayHours(hours: any, t: (key: LocalizationKey) => string): string {
-  if (!hours || !hours.byDay) return `(${t("noInfo")})`;
-  const day = new Date().getDay();
+function getTodayHours(hours: Hours | undefined, t: (key: LocalizationKey) => string): string {
+  if (!hours?.byDay) return `(${t("noInfo")})`;
+  const day = new Date().getDay() as 0 | 1 | 2 | 3 | 4 | 5 | 6;
   const todayHours = hours.byDay[day];
   if (!todayHours) return `(${t("closed")})`;
   return `(${todayHours.open}-${todayHours.close})`;

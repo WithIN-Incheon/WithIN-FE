@@ -16,17 +16,13 @@ const MediResult = ({ onBack }: { onBack: () => void }) => {
     const handleDownloadPdf = async () => {
         setIsDownloading(true);
         try {
-            console.log("수집된 데이터:", formData);
-            
-            // PDF 생성
             const pdfBytes = await fillPdf({
                 data: formData,
                 templatePath: "/template3.pdf",
                 fontPath: "/fonts/NotoSansKR-Regular.ttf",
             });
 
-            // PDF 다운로드
-            const blob = new Blob([pdfBytes], { type: "application/pdf" });
+            const blob = new Blob([pdfBytes.buffer as ArrayBuffer], { type: "application/pdf" });
             const url = URL.createObjectURL(blob);
             const link = document.createElement("a");
             link.href = url;
@@ -37,10 +33,7 @@ const MediResult = ({ onBack }: { onBack: () => void }) => {
             setTimeout(() => {
                 URL.revokeObjectURL(url);
             }, 3000);
-
-            console.log("PDF 생성 완료!");
-        } catch (error) {
-            console.error("PDF 생성 실패:", error);
+        } catch {
             alert("PDF 생성 중 오류가 발생했습니다.");
         } finally {
             setIsDownloading(false);
