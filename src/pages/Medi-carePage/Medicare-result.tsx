@@ -26,7 +26,7 @@ const MediResult = ({ onBack }: { onBack: () => void }) => {
             });
 
             // PDF 다운로드
-            const blob = new Blob([pdfBytes], { type: "application/pdf" });
+            const blob = new Blob([pdfBytes.buffer as ArrayBuffer], { type: "application/pdf" });
             const url = URL.createObjectURL(blob);
             const link = document.createElement("a");
             link.href = url;
